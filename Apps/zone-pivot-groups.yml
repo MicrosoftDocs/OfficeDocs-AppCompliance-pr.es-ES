@@ -1,0 +1,75 @@
+### YamlMime:ZonePivotGroups
+groups:
+- id: app-info-data-mcas
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: data
+    title: Tratamiento de datos
+  - id: mcas
+    title: Seguridad y cumplimiento
+- id: app-info-mcas
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: mcas
+    title: Seguridad y cumplimiento
+- id: app-info-identity
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: identity
+    title: Identity
+- id: app-info-data
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: data
+    title: Tratamiento de datos
+- id: app-info-data-identity
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: data
+    title: Tratamiento de datos
+  - id: identity
+    title: Identity
+- id: app-info-mcas-identity
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: mcas
+    title: Seguridad y cumplimiento
+  - id: identity
+    title: Identity
+- id: app-info-data-mcas-identity
+  title: Categorías de información de aplicaciones
+  prompt: 'Elige la categoría de información que quieres ver para esta aplicación:'
+  pivots:
+  - id: general
+    title: General
+  - id: data
+    title: Tratamiento de datos
+  - id: mcas
+    title: Seguridad y cumplimiento
+  - id: identity
+    title: Identity
+metadata:
+  ms.openlocfilehash: 63cbd1492249802a82a13a4a68fd056a5ba26754
+  ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+  ms.translationtype: MT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 04/28/2021
+  ms.locfileid: "52071689"
