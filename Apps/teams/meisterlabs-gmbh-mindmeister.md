@@ -1,0 +1,114 @@
+---
+title: Información de la aplicación para MindMeister de MeisterLabs GmbH
+ms.author: elmalova
+author: elenamalova
+ms.date: 12/16/2019
+ms.topic: article
+ms.service: attestation
+description: Toda la información de seguridad y cumplimiento disponible para MindMeister, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-mcas
+ms.openlocfilehash: c1630248ebdb667baf6b386f03f777a8d7dd6c89
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52096353"
+---
+# <a name="mindmeister"></a><span data-ttu-id="b2f15-103">MindMeister</span><span class="sxs-lookup"><span data-stu-id="b2f15-103">MindMeister</span></span>
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p><span data-ttu-id="b2f15-104">Last updated by the developer on: December 16, 2019</span><span class="sxs-lookup"><span data-stu-id="b2f15-104">Last updated by the developer on: December 16, 2019</span></span></p>
+
+* <span data-ttu-id="b2f15-105"><a href="https://teams.microsoft.com/l/app/b66766e5-61ce-4001-b2e6-6817710d6d02" target="_blank">Ver en Teams almacén</a></span><span class="sxs-lookup"><span data-stu-id="b2f15-105"><a href="https://teams.microsoft.com/l/app/b66766e5-61ce-4001-b2e6-6817710d6d02" target="_blank">View in Teams store</a></span></span>
+* <span data-ttu-id="b2f15-106"><a href="https://appsource.microsoft.com/product/office/WA104381116" target="_blank">Ver en AppSource</a></span><span class="sxs-lookup"><span data-stu-id="b2f15-106"><a href="https://appsource.microsoft.com/product/office/WA104381116" target="_blank">View in AppSource</a></span></span>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a><span data-ttu-id="b2f15-107">Información general</span><span class="sxs-lookup"><span data-stu-id="b2f15-107">General information</span></span>
+
+<span data-ttu-id="b2f15-108">Información proporcionada por MeisterLabs GmbH a Microsoft:</span><span class="sxs-lookup"><span data-stu-id="b2f15-108">Information provided by MeisterLabs GmbH to Microsoft:</span></span>
+
+| <span data-ttu-id="b2f15-109">**Information**</span><span class="sxs-lookup"><span data-stu-id="b2f15-109">**Information**</span></span> | <span data-ttu-id="b2f15-110">**Respuesta**</span><span class="sxs-lookup"><span data-stu-id="b2f15-110">**Response**</span></span> |
+|:----------------|:-------------|
+| <span data-ttu-id="b2f15-111">Nombre de la aplicación</span><span class="sxs-lookup"><span data-stu-id="b2f15-111">App name</span></span> | <span data-ttu-id="b2f15-112">MindMeister</span><span class="sxs-lookup"><span data-stu-id="b2f15-112">MindMeister</span></span> |
+| <span data-ttu-id="b2f15-113">Id.</span><span class="sxs-lookup"><span data-stu-id="b2f15-113">ID</span></span> | <span data-ttu-id="b2f15-114">WA104381116</span><span class="sxs-lookup"><span data-stu-id="b2f15-114">WA104381116</span></span> |
+| <span data-ttu-id="b2f15-115">Capacidades</span><span class="sxs-lookup"><span data-stu-id="b2f15-115">Capabilities</span></span> | <span data-ttu-id="b2f15-116">Bot, pestaña, extensión de mensajería, conector</span><span class="sxs-lookup"><span data-stu-id="b2f15-116">Bot, Tab, Messaging Extension, Connector</span></span> |
+| <span data-ttu-id="b2f15-117">Office 365 clientes compatibles</span><span class="sxs-lookup"><span data-stu-id="b2f15-117">Office 365 clients supported</span></span> | <span data-ttu-id="b2f15-118">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="b2f15-118">Microsoft Teams</span></span> |
+| <span data-ttu-id="b2f15-119">Nombre de la compañía asociada</span><span class="sxs-lookup"><span data-stu-id="b2f15-119">Partner company name</span></span> | <span data-ttu-id="b2f15-120">MeisterLabs GmbH</span><span class="sxs-lookup"><span data-stu-id="b2f15-120">MeisterLabs GmbH</span></span> |
+| <span data-ttu-id="b2f15-121">Dirección URL del sitio web de partners</span><span class="sxs-lookup"><span data-stu-id="b2f15-121">URL of partner website</span></span> | [https://www.mindmeister.com](https://www.mindmeister.com) |
+| <span data-ttu-id="b2f15-122">Dirección URL de Teams de información de la aplicación</span><span class="sxs-lookup"><span data-stu-id="b2f15-122">URL of Teams application info page</span></span> | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
+| <span data-ttu-id="b2f15-123">Dirección URL de la directiva de privacidad</span><span class="sxs-lookup"><span data-stu-id="b2f15-123">URL of Privacy Policy</span></span> | [https://www.mindmeister.com/privacy](https://www.mindmeister.com/privacy) |
+| <span data-ttu-id="b2f15-124">DIRECCIÓN URL de términos de uso</span><span class="sxs-lookup"><span data-stu-id="b2f15-124">URL of Terms of Use</span></span> | [https://www.mindmeister.com/legal](https://www.mindmeister.com/legal) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a><span data-ttu-id="b2f15-125">Cómo administra la aplicación los datos</span><span class="sxs-lookup"><span data-stu-id="b2f15-125">How the app handles data</span></span>
+
+<span data-ttu-id="b2f15-126">MeisterLabs GmbH ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.</span><span class="sxs-lookup"><span data-stu-id="b2f15-126">This information has been provided by MeisterLabs GmbH about how this app collects and stores organizational data and the control that your organization will have over the data the app collects.</span></span>
+
+#### <a name="data-access-using-microsoft-graph"></a><span data-ttu-id="b2f15-127">Acceso a datos con Microsoft Graph</span><span class="sxs-lookup"><span data-stu-id="b2f15-127">Data access using Microsoft Graph</span></span>
+
+<span data-ttu-id="b2f15-128">Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.</span><span class="sxs-lookup"><span data-stu-id="b2f15-128">List any [Microsoft Graph permissions](https://docs.microsoft.com/graph/permissions-reference) this app requires.</span></span>
+
+>| <span data-ttu-id="b2f15-129">**Permiso**</span><span class="sxs-lookup"><span data-stu-id="b2f15-129">**Permission**</span></span>  | <span data-ttu-id="b2f15-130">**Tipo de permiso (delegado/aplicación)**</span><span class="sxs-lookup"><span data-stu-id="b2f15-130">**Type of permission (Delegated/Application)**</span></span> | <span data-ttu-id="b2f15-131">**¿Se recopilan datos? ¿Justificación para recopilarla?**</span><span class="sxs-lookup"><span data-stu-id="b2f15-131">**Is data collected? Justification for collecting it?**</span></span> | <span data-ttu-id="b2f15-132">**¿Se almacenan los datos? ¿Justificación para almacenarla?**</span><span class="sxs-lookup"><span data-stu-id="b2f15-132">**Is data stored? Justification for storing it?**</span></span> | <span data-ttu-id="b2f15-133">**Id. de aplicación de Azure AD**</span><span class="sxs-lookup"><span data-stu-id="b2f15-133">**Azure AD App ID**</span></span> |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| <span data-ttu-id="b2f15-134">User.Read</span><span class="sxs-lookup"><span data-stu-id="b2f15-134">User.Read</span></span> | <span data-ttu-id="b2f15-135">delegado</span><span class="sxs-lookup"><span data-stu-id="b2f15-135">delegated</span></span> | <span data-ttu-id="b2f15-136">Id. de AAD, identificador de inquilino, correo electrónico, displayName: para poder identificar cada usuario dentro de nuestra aplicación y poder vincular los datos específicos de MindMeister con un usuario de Microsoft (es decir, qué mapas pertenecen a qué usuario).</span><span class="sxs-lookup"><span data-stu-id="b2f15-136">AAD ID, Tenant ID, email, displayName - for being able to identify each user within our application and being able to link the MindMeister specific data with a Microsoft user (i.e. which maps belong to which user).</span></span> | <span data-ttu-id="b2f15-137">Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso.</span><span class="sxs-lookup"><span data-stu-id="b2f15-137">Allows user to sign in and gives app access to their UPN to enable silent login.</span></span> | <span data-ttu-id="b2f15-138">d312ff80-0c2b-42ad-887b-c6392bcf6353</span><span class="sxs-lookup"><span data-stu-id="b2f15-138">d312ff80-0c2b-42ad-887b-c6392bcf6353</span></span> |
+
+
+#### <a name="non-microsoft-services-used"></a><span data-ttu-id="b2f15-139">No servicios Microsoft se usa</span><span class="sxs-lookup"><span data-stu-id="b2f15-139">Non-Microsoft services used</span></span>
+
+<span data-ttu-id="b2f15-140">Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.</span><span class="sxs-lookup"><span data-stu-id="b2f15-140">If the app transfers or shares organizational data with non-Microsoft service, list the non-Microsoft service the app uses, what data is transferred, and include a justification for why the app needs to transfer this information.</span></span>
+
+><span data-ttu-id="b2f15-141">No se servicios Microsoft no se usan.</span><span class="sxs-lookup"><span data-stu-id="b2f15-141">Non-Microsoft services are not used.</span></span>
+
+#### <a name="data-access-via-bots"></a><span data-ttu-id="b2f15-142">Acceso a datos a través de bots</span><span class="sxs-lookup"><span data-stu-id="b2f15-142">Data access via bots</span></span>
+
+<span data-ttu-id="b2f15-143">Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega.</span><span class="sxs-lookup"><span data-stu-id="b2f15-143">If this app contains a bot or a messaging extension, it can access end-user identifiable information (EUII): the roster (first name, last name, display name, email address) of any team member in a team or chat it's added to.</span></span> <span data-ttu-id="b2f15-144">¿Esta aplicación usa esta funcionalidad?</span><span class="sxs-lookup"><span data-stu-id="b2f15-144">Does this app make use of this capability?</span></span>
+
+>| <span data-ttu-id="b2f15-145">**¿Justificación para acceder a EUII?**</span><span class="sxs-lookup"><span data-stu-id="b2f15-145">**Justification for accessing EUII?**</span></span>  | <span data-ttu-id="b2f15-146">**¿EUII se almacena en bases de datos?**</span><span class="sxs-lookup"><span data-stu-id="b2f15-146">**Is EUII stored in database(s)?**</span></span> | <span data-ttu-id="b2f15-147">**¿Justificación para almacenar EUII?**</span><span class="sxs-lookup"><span data-stu-id="b2f15-147">**Justification for storing EUII?**</span></span> |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| <span data-ttu-id="b2f15-148">Identifica Teams usuarios que ya tienen un vínculo en MindMeister y les notifica que el bot se instaló.</span><span class="sxs-lookup"><span data-stu-id="b2f15-148">Identifies Teams users that already have a link in MindMeister and notifies them that the bot was installed.</span></span> | <span data-ttu-id="b2f15-149">No almacenamos datos de la lista de equipos</span><span class="sxs-lookup"><span data-stu-id="b2f15-149">We don't store any data of the team roster</span></span> |  |
+
+
+
+#### <a name="telemetry-data"></a><span data-ttu-id="b2f15-150">Datos de telemetría</span><span class="sxs-lookup"><span data-stu-id="b2f15-150">Telemetry data</span></span>
+
+<span data-ttu-id="b2f15-151">¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación?</span><span class="sxs-lookup"><span data-stu-id="b2f15-151">Does any organizational identifiable information (OII) or end-user identifiable information (EUII) appear in this application's telemetry or logs?</span></span> <span data-ttu-id="b2f15-152">Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.</span><span class="sxs-lookup"><span data-stu-id="b2f15-152">If yes, describe what data is stored and what are the retention and removal policies?</span></span>
+
+><span data-ttu-id="b2f15-153">Registramos solicitudes HTTP de usuario que, en algunos casos, incluyen id. de usuario, pero los registros se eliminan después de 7 días.</span><span class="sxs-lookup"><span data-stu-id="b2f15-153">We log user HTTP requests which in some cases include user IDs, but logs are deleted after 7 days.</span></span>
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a><span data-ttu-id="b2f15-154">Controles organizativos para los datos almacenados por el partner</span><span class="sxs-lookup"><span data-stu-id="b2f15-154">Organizational controls for data stored by partner</span></span>
+
+<span data-ttu-id="b2f15-155">Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.</span><span class="sxs-lookup"><span data-stu-id="b2f15-155">Describe how organization's administrators can control their information in partner systems? e.g. deletion, retention, auditing, archiving, end-user policy, etc.</span></span>
+
+><span data-ttu-id="b2f15-156">Los datos se almacenan en servidores seguros en Alemania.</span><span class="sxs-lookup"><span data-stu-id="b2f15-156">The data is stored on secure servers in Germany.</span></span> <span data-ttu-id="b2f15-157">El acceso a estos datos está restringido a un puñado de administradores de la organización que tienen acceso obligatorio de 2FA.</span><span class="sxs-lookup"><span data-stu-id="b2f15-157">Access to this data is restricted to a handful of organization admins which have 2FA enforced access.</span></span>
+
+#### <a name="human-review-of-organizational-information"></a><span data-ttu-id="b2f15-158">Revisión humana de la información de la organización</span><span class="sxs-lookup"><span data-stu-id="b2f15-158">Human review of organizational information</span></span>
+
+<span data-ttu-id="b2f15-159">¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?</span><span class="sxs-lookup"><span data-stu-id="b2f15-159">Are humans involved in reviewing or analyzing any organizational identifiable information (OII) data that is collected or stored by this app?</span></span>
+
+><span data-ttu-id="b2f15-160">No</span><span class="sxs-lookup"><span data-stu-id="b2f15-160">No</span></span>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+<span data-ttu-id="b2f15-161">La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.</span><span class="sxs-lookup"><span data-stu-id="b2f15-161">Information from the [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) catalog appears below.</span></span>
+
+<iframe height='1020' title='<span data-ttu-id="b2f15-162">Microsoft Cloud App Security Información</span><span class="sxs-lookup"><span data-stu-id="b2f15-162">Microsoft Cloud App Security Information</span></span>' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874' frameborder='no' style='width: 100%;'></iframe><span data-ttu-id="b2f15-163">
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874" target="_blank">Ver en una pestaña nueva</a></span><span class="sxs-lookup"><span data-stu-id="b2f15-163">
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20874" target="_blank">View in a new tab</a></span></span>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
