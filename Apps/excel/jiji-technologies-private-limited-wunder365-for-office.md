@@ -1,0 +1,143 @@
+---
+title: Información de la aplicación para Wunder365 para Office por JiJi Technologies Private Limited
+ms.author: elmalova
+author: elenamalova
+ms.date: 12/15/2020
+ms.topic: article
+ms.service: attestation
+description: Toda la información de seguridad y cumplimiento disponible para Wunder365 para Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 41cbb04c1c3e03c980aababfb125711af0020900
+ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "52096383"
+---
+# <a name="wunder365-for-office"></a>Wunder365 para Office
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: December 15, 2020</p>
+
+* <a href="https://appsource.microsoft.com/product/office/WA200001529" target="_blank">Ver en AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Información general
+
+Información proporcionada por JiJi Technologies Private Limited para Microsoft:
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| Nombre de la aplicación | Wunder365 para Office |
+| Id. | WA200001529 |
+| Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2013 o posterior en Windows, Excel en la Web, Word 2016 o posterior en Mac, Word en la Web, Word 2013 o posterior en Windows, OneNote en la Web |
+| Nombre de la compañía asociada | JiJi Technologies Private Limited |
+| Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Dirección URL de la directiva de privacidad | [https://www.wunder365.com/office-addin-privacy-policy](https://www.wunder365.com/office-addin-privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?linkid=2041178](https://go.microsoft.com/fwlink/?linkid=2041178) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+
+JiJi Technologies Private Limited ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
+>| Group.ReadWrite.All | delegado | No hay datos almacenados. | Para obtener/actualizar tareas de Planner, publique actualizaciones de tareas en el canal de grupo | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| Mail.Send | delegado | No hay datos almacenados. | Permitir que la aplicación envíe notificaciones por correo electrónico a los usuarios | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| offline_access | delegado | No hay datos almacenados. | Para mantener la sesión iniciada por el usuario. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| OpenID | delegado | No hay datos almacenados. | Permite a los usuarios iniciar sesión con una cuenta organizativa | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| perfil | delegado | UPN, id. de usuario, id. de correo electrónico, id. de inquilino para la verificación de licencias, licencia gratuita. | Permite a los usuarios iniciar sesión con una cuenta organizativa | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+
+
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+
+>No se servicios Microsoft no se usan.
+
+
+
+#### <a name="add-in-data-access"></a>Acceso a datos del complemento
+
+Enumerar los permisos que requiere esta aplicación para obtener acceso a los datos de la organización, la justificación y el propósito de este permiso (¿para qué usa la aplicación esta información?) y si la aplicación almacena alguna de esta información en sus bases de datos.
+
+>| **Permiso**  | **Descripción** |
+>|:----------------|:----------------|
+>| ReadWrite Document | Puede leer y realizar cambios en el documento |
+>| Enviar datos | Puede enviar datos a través de Internet |
+
+#### <a name="telemetry-data"></a>Datos de telemetría
+
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+
+>Estamos iniciando sesión en Azure Application Insights. Estamos registrando el identificador de inquilino y el identificador de correo electrónico del usuario para identificar problemas y ayudar a los clientes a resolver problemas.
+
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+
+>Todas las aplicaciones web y Storage se encuentran en una suscripción que no está conectada a nuestra empresa AAD con solo administradores que tienen acceso a los recursos. Se requiere 2FA para estos administradores. 
+
+
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+
+>No
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36250" target="_blank">Ver en una pestaña nueva</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+JiJi Technologies Private Limited ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Requerir autenticación multifactor para usuarios con roles administrativos, Requerir autenticación multifactor para tareas de administración de Azure, Bloquear inicios de sesión para usuarios que intenten usar protocolos de autenticación heredados, Requerir ubicaciones de confianza para el registro de Autenticación multifactor de Azure AD, Bloquear o conceder acceso desde ubicaciones específicas, Bloquear el comportamiento de inicio de sesión arriesgado |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | Sí |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
+<br />
+- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
+<br />
+- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sin | | ¿La aplicación usa las API de vista previa? | Sí | | ¿La aplicación usa API en desuso? | Sin |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
