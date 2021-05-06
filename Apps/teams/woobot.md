@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/14/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Woobot, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a2780151a9a7c08d695e6605990d93ce93f18652
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b87e35439eb7287aefa5ea8e60049d0564c8bd83
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096294"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252010"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -32,7 +33,7 @@ Información proporcionada por Woobot a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Woobot |
-| Id. | WA104381664 |
+| ID | WA104381664 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Woobot |

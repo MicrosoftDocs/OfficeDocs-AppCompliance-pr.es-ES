@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/25/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Yeeflow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 21fd7c76495a2bc559cb93bd89e3a8977b28ff09
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 853bf8e0467da6cf653998fc95c6cbc8c66dad1b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096603"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250889"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -32,7 +33,7 @@ Información proporcionada por Akmii a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Yeeflow |
-| Id. | WA200000089 |
+| ID | WA200000089 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Akmii |
@@ -125,11 +126,11 @@ Akmii ha proporcionado esta información sobre cómo esta aplicación controla l
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-
-<br />
- | | ¿Expone la aplicación alguna API web? | Sí | | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/> |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

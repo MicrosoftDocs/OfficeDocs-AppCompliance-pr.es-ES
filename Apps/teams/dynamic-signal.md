@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Dynamic Signal, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9a5839d8c5b8fbd1b27cdd014d82a3a41022738b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 19391d80121046303135b26da6714bb700bc7f73
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096536"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250738"
 ---
 # <a name="dynamic-signal"></a>Dynamic Signal
 
@@ -32,7 +33,7 @@ Información proporcionada por Dynamic Signal a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Dynamic Signal |
-| Id. | WA200000102 |
+| ID | WA200000102 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Dynamic Signal |

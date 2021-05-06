@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/16/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 365Projects, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d981f18f0001d14c2c6bb88fae95464fa6a62bde
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f94a5d3400b9a5e36a03ade9ba6e548a0df3c283
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096614"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251659"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -32,7 +33,7 @@ Información proporcionada por 365Apps a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | 365Projects |
-| Id. | WA200002160 |
+| ID | WA200002160 |
 | Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 365Apps |
@@ -131,11 +132,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | ,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
- | | ¿Expone la aplicación alguna API web? | Sí | | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | ,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

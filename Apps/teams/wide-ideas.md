@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wide Ideas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: be8d85cf26bcd153e4e72777bea65968eb858407
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7d1186c5a9c17d2bf835569dad87e0f36aaf1d3c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096430"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252220"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -32,7 +33,7 @@ Información proporcionada por Wide Ideas a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wide Ideas |
-| Id. | WA200000819 |
+| ID | WA200000819 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Wide Ideas |

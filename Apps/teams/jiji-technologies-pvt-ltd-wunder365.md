@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/15/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wunder365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0b981fe705d94b5a87414ce2c12b7cafec4c97f1
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cc45a6f48bf869c1f3f0e39f060bdbbd48df8717
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096478"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251349"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -32,7 +33,7 @@ Información proporcionada por JiJi Technologies Pvt Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wunder365 |
-| Id. | WA200000742 |
+| ID | WA200000742 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | JiJi Technologies Pvt Ltd |
@@ -139,11 +140,10 @@ JiJi Technologies Pvt Ltd ha proporcionado esta información sobre cómo esta ap
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sin | | ¿La aplicación usa las API de vista previa? | Sí | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | Sí |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

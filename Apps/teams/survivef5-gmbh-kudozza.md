@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Kudozza, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5c6cc9153dc72d8f14140536c1aa91d5315d1660
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1d00cc1e8899d6088ffcebac2f4cc2e5e59c1f9d
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096750"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251069"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -32,7 +33,7 @@ Información proporcionada por surviveF5 GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Kudozza |
-| Id. | WA200002599 |
+| ID | WA200002599 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | surviveF5 GmbH |
@@ -127,11 +128,11 @@ SurviveF5 GmbH ha proporcionado esta información sobre cómo esta aplicación c
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sí | | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Viima, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0dd5335241784734bcc4500d99b71a32877692d0
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6eb343050b2555377859251c8777ff974515e6ae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096858"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252240"
 ---
 # <a name="viima"></a>Viima
 
@@ -32,7 +33,7 @@ Información proporcionada por Viima Solutions Oy a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Viima |
-| Id. | WA200001589 |
+| ID | WA200001589 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Viima Solutions Oy |
@@ -125,11 +126,11 @@ Viima Solutions Oy ha proporcionado esta información sobre cómo esta aplicaci�
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sí | | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Prezi Video, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 99d94e196109404452241300b43eb3003c10fde6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7f35632fb44a471af5e0675a3d0463ded2c84b5a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096327"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251159"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -32,7 +33,7 @@ Información proporcionada por Prezi a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Prezi Video |
-| Id. | WA200001577 |
+| ID | WA200001577 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Prezi |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMup, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: dfa2ab186ba6aa7407b69994e8daad398b075f5b
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 40075f99759ba0dae4cce2c2a37995076f1017c1
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096318"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252330"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -32,7 +33,7 @@ Información proporcionada por Sauf Pompiers Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMup |
-| Id. | WA200001759 |
+| ID | WA200001759 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sauf Pompiers Ltd |

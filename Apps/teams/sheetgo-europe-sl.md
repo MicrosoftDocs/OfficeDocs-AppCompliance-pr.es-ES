@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bd78e2ecd6646a88137cb346d0f64546359ae69f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b9dca68847e1a96a68db641b5f874248bfa978bb
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096313"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250128"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -32,7 +33,7 @@ Información proporcionada por SHEETGO EUROPE SL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sheetgo |
-| Id. | WA200002067 |
+| ID | WA200002067 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SHEETGO EUROPE SL |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Uploader for Office, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c920b92bd606c8e9b98c53554380da3858e5213e
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f67b8dacee06afbeb341a20fb0147bab3add7331
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096817"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251549"
 ---
 # <a name="officeatwork--uploader-for-office"></a>officeatwork | Uploader para Office
 
@@ -30,7 +31,7 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | officeatwork: uploader para Office |
-| Id. | WA104381430 |
+| ID | WA104381430 |
 | Office 365 clientes compatibles | Word en iPad, Word 2016 o posterior en Mac, Word 2016 o posterior en Windows, Word en la Web |
 | Nombre de la compañía asociada | officeatwork |
 | Dirección URL del sitio web de partners | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
@@ -140,11 +141,10 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación con
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sin | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

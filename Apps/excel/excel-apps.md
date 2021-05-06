@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/15/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Excel aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 67928dae457119f6bb28d02e83017e573ad8c517
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d8b83937131fe2e155103ffd7a2786fbadeca099
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071808"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251509"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Seguridad y cumplimiento de aplicaciones
 
@@ -20,6 +20,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** | **Información de control de datos** | **Cloud App Security** |
 |:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
+| [CloudExtend Analytics para NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  | Sí | Sí |
 | [Excel de documentos de Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  | Sí | Sí |
 | [harmon.ie para Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  | Sí | Sí |
 | [Herramienta de informes de iPlanner para Office 365 Planner](./iglobe-iplanner-reporting-tool-for-office-365-planner.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sí | Sí |

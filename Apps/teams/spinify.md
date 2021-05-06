@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Spinify, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c9f7f3a8944a1b5d3dba37c445f4d60bad9b1d47
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5ef30ed3c034b85e7cf4ad0c2039987e238a8677
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096295"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251109"
 ---
 # <a name="spinify"></a>Spinify
 
@@ -32,7 +33,7 @@ Información proporcionada por Spinify a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Spinify |
-| Id. | WA200002238 |
+| ID | WA200002238 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Spinify |

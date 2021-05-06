@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/21/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para LuckyDraw, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9b37d6e8730580ad04b69061587038957a85a2d4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c2be17a1122ef5f0badf2cd5025770cd6e988b83
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096442"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251029"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -32,7 +33,7 @@ Información proporcionada por Tony Xia a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | LuckyDraw |
-| Id. | WA200000091 |
+| ID | WA200000091 |
 | Capacidades | Bot, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tony Xia |

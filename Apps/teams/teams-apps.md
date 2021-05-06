@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de la aplicación Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 31d085e5a2f8d01e8899f7c3fe911184c2cff879
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071300"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251049"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Seguridad y cumplimiento de la aplicación Microsoft Teams
 
@@ -21,6 +21,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** | **Información de control de datos** | **Cloud App Security**  | **Capacidades de la aplicación** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  | Sí | Sí | Pestaña, conector |
+| [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  | Sí | Sí | Bot |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sí | Sí | Bot, pestaña |
 | [Panel de tareas ágil](./agile-is-task-board.md) | Agile-IS | **✓** |  | Sí | Sí | Pestaña |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
@@ -31,10 +32,14 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  | Sí | Sí | Bot |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  | Sí | Sí | Bot |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  | Sí | Sí | Bot, pestaña |
+| [Beekast](./beekast.md) | Beekast | **✓** |  | Sí | Sí | Pestaña |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  | Sí | Sí | Pestaña |
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  | Sí | Sí | Bot |
+| [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  | Sí | Sí | Bot |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
+| [Brightidea](./brightidea.md) | Brightidea | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
+| [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Calendar BOT](./approved-contact-calendar-bot.md) | Contacto aprobado | **✓** |  | Sí | Sí | Bot, pestaña |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
@@ -48,15 +53,18 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  | Sí | Sí | Pestaña |
 | [Droplr](./droplr.md) | Droplr | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Dynamic Signal](./dynamic-signal.md) | Dynamic Signal | **✓** |  | Sí | Sí | Bot, pestaña |
+| [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  | Sí | Sí | Pestaña |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  | Sí | Sí | Pestaña |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  | Sí | Sí | Conector |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
+| [Empuls](./empuls.md) | Empuls | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  | Sí | Sí | Bot |
 | [Evernote](./evernote.md) | Evernote | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  | Sí | Sí | Pestaña |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  | Sí | Sí | Bot, pestaña |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** |  | Sí | Sí | Pestaña, conector |
+| [Freehand by InVision](./invision-app-freehand-by.md) | InVision app | **✓** |  | Sí | Sí | Pestaña |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  | Sí | Sí | Bot |
 | [Fusion Remote](./jujo-inc-fusion-remote.md) | Jujo Inc. | **✓** |  | Sí | Sí | Bot |
 | [Go1](./go1.md) | Go1 | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
@@ -66,8 +74,10 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [HeyTaco!](./heytaco!.md) | HeyTaco! | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Hibob](./hibob-inc.md) | Hibob Inc. | **✓** |  | Sí | Sí | Bot |
+| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  | Sí | Sí | Pestaña |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  | Sí | Sí | Pestaña, conector |
+| [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  | Sí | Sí | Bot |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [InStation](./developers-invillia-instation.md) | Developers Invillia | **✓** |  | Sí | Sí | Pestaña |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  | Sí | Sí | Bot, pestaña |
@@ -103,10 +113,13 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  | Sí | Sí | Pestaña, conector |
 | [OfficeSpace](./officespace-software.md) | OfficeSpace Software | **✓** |  | Sí | Sí | Bot |
 | [Officevibe](./officevibe.md) | Officevibe | **✓** |  | Sí | Sí | Bot |
+| [Onsight Connect](./librestream-onsight-connect.md) | Librestream | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [OpenAgora](./open-agora-openagora.md) | Open Agora | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Org@Work](./lundano-org@work.md) | Lundano | **✓** |  | Sí | Sí | Bot, pestaña |
+| [Package Notifier](./qburst-technologies-pvt-ltd-package-notifier.md) | QBURST TECHNOLOGIES PVT LTD | **✓** |  | Sí | Sí | Conector |
 | [Perfony](./perfony.md) | Perfony | **✓** |  | Sí | Sí | Pestaña |
 | [Piazza](./piazza.md) | Piazza | **✓** |  | Sí | Sí | Pestaña |
+| [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  | Sí | Sí | Pestaña |
 | [Polly](./polly.md) | Polly | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sí | Sí | Bot, pestaña, extensión de mensajería, conector |
@@ -139,22 +152,27 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [SkyPoint Cloud](./skypoint-cloud-inc.md) | SkyPoint Cloud Inc. | **✓** |  | Sí | Sí | Bot |
 | [Slido](./slido.md) | Slido | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Smart Connect for Jira](./yasoon-gmbh-smart-connect-for-jira.md) | yasoon GmbH | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
+| [SMART Learning Suite](./smart-technologies-ulc-learning-suite.md) | SMART Technologies ULC | **✓** |  | Sí | Sí | Pestaña |
 | [Smartnotation](./smartnotation-bv.md) | Smartnotation B.V. | **✓** |  | Sí | Sí | Pestaña, conector |
 | [Smartsheet](./smartsheet.md) | Smartsheet | **✓** |  | Sí | Sí | Bot, pestaña |
-| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Sí | Sí | Bot |
+| [SmartWork](./smartwork-of-intumit.md) | SmartWork of Intumit | **✓** |  | Sí | Sí | Bot, pestaña |
+| [SmileBack](./smileback.md) | SmileBack | **✓** |  | Sí | Sí | Conector |
 | [Soapbox](./soapbox.md) | Soapbox | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Spinify](./spinify.md) | Spinify | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Stack Overflow para Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  | Sí | Sí | Bot |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
+| [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  | Sí | Sí | Pestaña |
 | [Streem](./streem.md) | Streem | **✓** |  | Sí | Sí | Bot |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  | Sí | Sí | Pestaña |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  | Sí | Sí | Bot, pestaña, extensión de mensajería, conector |
+| [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  | Sí | Sí | Bot |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [TackleBox](./insiten-tacklebox.md) | Insiten | **✓** |  | Sí | Sí | Pestaña, conector |
 | [Talla](./talla-inc.md) | Talla Inc. | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  | Sí | Sí | Pestaña |
 | [TaskList](./limestat-inc-tasklist.md) | LimeStat, Inc | **✓** |  | Sí | Sí | Bot |
+| [Teamhood](./eylean-uab-teamhood.md) | Eylean, UAB | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [TeamMate by ChitChattr](./chitchattr-teammate-by.md) | ChitChattr | **✓** |  | Sí | Sí | Bot, pestaña |
 | [TeamMood](./power-up-conseil-teammood.md) | Power Up Conseil | **✓** |  | Sí | Sí | Bot |
 | [Teams Manager](./solutions2share-gmbh-teams-manager.md) | Solutions2Share GmbH | **✓** |  | Sí | Sí | Bot, pestaña |
@@ -165,7 +183,9 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  | Sí | Sí | Bot, extensión de mensajería |
 | [timeghost](./kollisch-gmbh-timeghost.md) | K&#246;llisch GmbH | **✓** |  | Sí | Sí | Pestaña |
 | [TINYpulse](./tinypulse.md) | TINYpulse | **✓** |  | Sí | Sí | Bot, conector |
+| [Tribute](./tribute-co.md) | Tribute Co. | **✓** |  | Sí | Sí | Pestaña |
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  | Sí | Sí | Bot, pestaña |
+| [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  | Sí | Sí | Pestaña |
 | [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  | Sí | Sí | Pestaña |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  | Sí | Sí | Bot, pestaña |
 | [Viima](./viima-solutions-oy.md) | Viima Solutions Oy | **✓** |  | Sí | Sí | Pestaña |

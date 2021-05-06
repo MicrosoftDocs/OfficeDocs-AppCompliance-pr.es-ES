@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para iGlobe CRM Office 365 para Microsoft Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 92b4b115c22593fac898e9ebaeaf49af855c5137
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5ec2f0c536f45192514218e7a0e5b7110fbfe650
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096619"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251669"
 ---
 # <a name="iglobe-crm-office-365-for-microsoft-office-365"></a>IGlobe CRM Office 365 para Microsoft Office 365
 
@@ -30,7 +31,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | IGlobe CRM Office 365 para Microsoft Office 365 |
-| Id. | WA104379222 |
+| ID | WA104379222 |
 | Office 365 clientes compatibles | SharePoint 2013 o posterior |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
@@ -103,7 +104,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 >| **Permiso**  | **Descripción** |
 >|:----------------|:----------------|
->| Valor predeterminado | No&#8217;leer o realizar cambios en el documento |
+>| Predeterminado | No&#8217;leer o realizar cambios en el documento |
 >| Enviar datos | Puede enviar datos a través de Internet |
 
 #### <a name="telemetry-data"></a>Datos de telemetría

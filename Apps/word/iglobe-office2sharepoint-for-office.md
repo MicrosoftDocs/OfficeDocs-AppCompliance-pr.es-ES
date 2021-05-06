@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint para Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 270b2396ef71a8965f02cb1a47bb3c272fe91bee
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a6a9a6d5d3f340e576c4f2da4ba19edb74454773
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096400"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251579"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint para Office
 
@@ -30,7 +31,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Office2SharePoint para Office |
-| Id. | WA104381787 |
+| ID | WA104381787 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web, Word 2016 o posterior en Mac, Word en la Web, Word 2016 o posterior en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2016 o posterior en Windows |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |

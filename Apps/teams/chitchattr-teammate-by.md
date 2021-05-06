@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/11/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamMate by ChitChattr, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e32aa7775d458594486446a7c2e92fbf6d3cb37d
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: a3f790a64d4c99dbd4ee1c5d1d673dd054e9241a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096561"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250798"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -32,7 +33,7 @@ Información proporcionada por ChitChattr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamMate by ChitChattr |
-| Id. | WA200002530 |
+| ID | WA200002530 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChitChattr |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign Add-In para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5ae63ddb614784164870b24508e0782bce49dd48
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 530bd74a0c74561545c4e7076cec5f6bc0eb5aa4
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096729"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251809"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In para Outlook
 
@@ -30,7 +31,7 @@ Información proporcionada por Adobe Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Sign Add-In para Outlook |
-| Id. | WA104381158 |
+| ID | WA104381158 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Adobe Inc. |
 | Dirección URL del sitio web de partners | [https://www.adobe.com/](https://www.adobe.com/) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para Word y PowerPoint, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ff7f1fa854f53fae54febb8e3dd3a90bdab138af
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cdb2750d21967d83ad40710a5b6888f11ca945e1
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096826"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251599"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign para Word y PowerPoint
 
@@ -30,7 +31,7 @@ Información proporcionada por Adobe Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Sign para Word y PowerPoint |
-| Id. | WA104381155 |
+| ID | WA104381155 |
 | Office 365 clientes compatibles | Word 2016 o posterior en Mac, PowerPoint 2013 Service Pack 1 o posterior en Windows, Word 2013 Service Pack 1 o posterior en Windows, Word en la Web, PowerPoint en la Web, PowerPoint 2016 o posterior en Mac |
 | Nombre de la compañía asociada | Adobe Inc. |
 | Dirección URL del sitio web de partners | [https://www.adobe.com/](https://www.adobe.com/) |

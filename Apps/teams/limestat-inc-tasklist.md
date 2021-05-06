@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TaskList, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b8e1aa4a7739bc20f8f2198ebb73df989c62c190
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1575b0f0fee9f586e665d8c1b815d53535c15c4c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096371"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251289"
 ---
 # <a name="tasklist"></a>TaskList
 
@@ -32,7 +33,7 @@ Información proporcionada por LimeStat, Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TaskList |
-| Id. | WA104382085 |
+| ID | WA104382085 |
 | Capacidades | Bot |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | LimeStat, Inc |

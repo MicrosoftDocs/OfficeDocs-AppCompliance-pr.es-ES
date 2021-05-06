@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 07/20/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Hoylu, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f823da1857c36e37d556071c34d423101c1d1c76
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 7206fc0355b6e30f4a66dd6b5751f6ad72587ac4
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096494"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250628"
 ---
 # <a name="hoylu"></a>Hoylu
 
@@ -32,7 +33,7 @@ Información proporcionada por Hoylu a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Hoylu |
-| Id. | WA200001573 |
+| ID | WA200001573 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Hoylu |

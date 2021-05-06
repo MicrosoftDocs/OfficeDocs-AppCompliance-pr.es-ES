@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para diagramas de Diagramas de Diagramas de Lucidchart para Excel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 42bb36d92b71f3ca303fe924ea3ac260854ac03f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 5bf1cf9862edd1ba00b28c350e1d240d0a4347c1
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096382"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251459"
 ---
 # <a name="lucidchart-diagrams-for-excel"></a>Diagramas de Gráficos de Excel
 
@@ -31,7 +32,7 @@ Información proporcionada por Lucid Software Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Diagramas de Gráficos de Excel |
-| Id. | WA104380194 |
+| ID | WA104380194 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2013 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | Lucid Software Inc |
 | Dirección URL del sitio web de partners | [https://www.lucidchart.com/](https://www.lucidchart.com/) |

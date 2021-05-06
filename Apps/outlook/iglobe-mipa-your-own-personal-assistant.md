@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/05/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: su propio asistente personal, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2b7a539c7e99c435d4df940e376f84dc89146e65
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 845430e287f089d0438649acf7a41d7e0ebe231c
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096689"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251739"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA: su propio asistente personal
 
@@ -30,7 +31,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MIPA: su propio asistente personal |
-| Id. | WA200000062 |
+| ID | WA200000062 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |

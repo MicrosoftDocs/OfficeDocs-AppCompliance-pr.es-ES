@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Go1, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c4aa471780bb83662032de178323c24036e2713c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 2ec34c9ca407831eb4681bf1b548e3c48df81d6a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096511"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250678"
 ---
 # <a name="go1"></a>Go1
 
@@ -32,7 +33,7 @@ Información proporcionada por Go1 a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Go1 |
-| Id. | WA200001484 |
+| ID | WA200001484 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Go1 |

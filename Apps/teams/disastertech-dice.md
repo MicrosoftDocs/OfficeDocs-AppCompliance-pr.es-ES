@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DISASTERTech DICE, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3ff4168c5490b235c97b24e77b279f407c7bea12
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1d41a5fd431c3c74add97f831d9ccc8e46d09a99
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096540"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250748"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -32,7 +33,7 @@ Información proporcionada por DisasterTech a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | DisasterTech DICE |
-| Id. | WA200001909 |
+| ID | WA200001909 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | DisasterTech |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para iPlanner Office 365 Planner Add-in for Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a62f773ba3b172035429af8dc612131a1d777ee3
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 511b5f00bba5851f4f5a87ea65c39d3946a0313e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096693"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251759"
 ---
 # <a name="iplanner-office-365-planner-add-in-for-outlook"></a>Complemento Office 365 Planner de iPlanner para Outlook
 
@@ -30,12 +31,12 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Complemento Office 365 Planner de iPlanner para Outlook |
-| Id. | WA104380147 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook en la web |
+| ID | WA104380147 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
 | Dirección URL de la directiva de privacidad | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| DIRECCIÓN URL de términos de uso | [https://iglobecrm.com/content/end-user-license-agreement-ig...](https://iglobecrm.com/content/end-user-license-agreement-iglobe-iplanner-add-ins) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

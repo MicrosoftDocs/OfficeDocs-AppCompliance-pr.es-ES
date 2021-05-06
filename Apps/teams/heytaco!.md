@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para HeyTaco!, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 08b99f83abb4031719759544622437004b9aa56c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 83c133791e21b399e5eb0782a626a9919c5b6668
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096499"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250648"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -32,7 +33,7 @@ Información proporcionada por HeyTaco! a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | HeyTaco! |
-| Id. | WA200001346 |
+| ID | WA200001346 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | HeyTaco! |

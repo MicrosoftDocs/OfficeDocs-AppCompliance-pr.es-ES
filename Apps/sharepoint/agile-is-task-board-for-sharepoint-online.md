@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Agile Task Board for SharePoint Online, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6acc4ffc67ef0f8e7a93a7055a44a7b8e1f18667
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 26b19e5ce6563f49a5e76bf40e5422e43c5f804b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096626"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251689"
 ---
 # <a name="agile-task-board-for-sharepoint-online"></a>Panel de tareas ágil para SharePoint Online
 
@@ -31,7 +32,7 @@ Información proporcionada por Agile-IS a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Panel de tareas ágil para SharePoint Online |
-| Id. | WA200002087 |
+| ID | WA200002087 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | Agile-IS |
 | Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
@@ -69,7 +70,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 >| **Permiso**  | **Descripción** |
 >|:----------------|:----------------|
->| Valor predeterminado | No&#8217;leer o realizar cambios en el documento |
+>| Predeterminado | No&#8217;leer o realizar cambios en el documento |
 >| Enviar datos | Puede enviar datos a través de Internet |
 
 #### <a name="telemetry-data"></a>Datos de telemetría

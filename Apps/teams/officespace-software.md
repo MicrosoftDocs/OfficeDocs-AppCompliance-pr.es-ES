@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/04/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OfficeSpace, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 06cea605b05cd52783ff4098b1b28a19504591dc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 590058147d899b670f36c1eff74166616c2024b0
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096336"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250598"
 ---
 # <a name="officespace"></a>OfficeSpace
 
@@ -32,7 +33,7 @@ Información proporcionada por OfficeSpace Software a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | OfficeSpace |
-| Id. | WA200002052 |
+| ID | WA200002052 |
 | Capacidades | Bot |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | OfficeSpace Software |

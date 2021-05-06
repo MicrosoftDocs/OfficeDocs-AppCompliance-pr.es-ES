@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Workday, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4212a7ec1b03175d76626d6c0cb7d3f04696288c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e193bbcee79ab77e878554c07af452a6a37e1061
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096425"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252310"
 ---
 # <a name="workday"></a>Workday
 
@@ -32,7 +33,7 @@ Información proporcionada por Workday a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Workday |
-| Id. | WA200001555 |
+| ID | WA200001555 |
 | Capacidades | Bot |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Workday |

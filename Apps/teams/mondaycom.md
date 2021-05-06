@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 09/28/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para monday.com, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cf4fc476626fe4f623c6941cc2da096ec2a1ae41
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 84654bbc7ebbcf5afd14522a3dbbcc728e9f317a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096346"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251379"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -32,7 +33,7 @@ Información proporcionada por monday.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | monday.com |
-| Id. | WA200001798 |
+| ID | WA200001798 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | monday.com |

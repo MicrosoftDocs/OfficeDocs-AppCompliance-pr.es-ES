@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smartnotation, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 980d3af11d47e89cb3586b0dc658da516e2a9e13
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 65fa88a79b27b46a40bc8432266657c9bb5e30f6
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096311"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52250018"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -32,7 +33,7 @@ Información proporcionada por Smartnotation B.V. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Smartnotation |
-| Id. | WA200000681 |
+| ID | WA200000681 |
 | Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Smartnotation B.V. |

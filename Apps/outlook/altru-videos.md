@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/27/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vídeos de Altru, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: eebe435ad078846db0b7a5178646def298e11af4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: dff51c348e625c76e6a6f41aca8db47539f8fd5a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096722"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251789"
 ---
 # <a name="altru-videos"></a>Vídeos de Altru
 
@@ -31,7 +32,7 @@ Información proporcionada por Altru a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Vídeos de Altru |
-| Id. | WA200000026 |
+| ID | WA200000026 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Altru |
 | Dirección URL del sitio web de partners | [https://www.altrulabs.com/](https://www.altrulabs.com/) |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/07/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para harmon.ie para Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro de CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ddfc89a5291c0fb34c4198533ddf79154d4bc8bf
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e80be8daa23cc470377dbc57f35e55441c4eb49b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096456"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251499"
 ---
 # <a name="harmonie-for-office"></a>harmon.ie para Office
 
@@ -31,7 +32,7 @@ Información proporcionada por harmon.ie Corporation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | harmon.ie para Office |
-| Id. | WA104381050 |
+| ID | WA104381050 |
 | Office 365 clientes compatibles | PowerPoint 2016 o posterior Windows, Word 2016 o posterior en Windows, Excel en la Web, Word en la Web, PowerPoint en la Web, Word 2016 o posterior en Mac, PowerPoint 2016 o posterior en Mac |
 | Nombre de la compañía asociada | harmon.ie Corporation |
 | Dirección URL del sitio web de partners | [https://harmon.ie/](https://harmon.ie/) |
@@ -128,11 +129,11 @@ Esta información ha sido proporcionada por harmon.ie Corporation acerca de cóm
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sí | | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

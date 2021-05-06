@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/05/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para iPlanner Pro Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 651a24142abd6bb68e6ecafbe262a0b1af96402c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 497b44a12613cf71cc761d7730b9ff84c9c7956f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096690"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251749"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
@@ -30,7 +31,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | iPlanner Pro Office 365 |
-| Id. | WA104380464 |
+| ID | WA104380464 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en la web |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |

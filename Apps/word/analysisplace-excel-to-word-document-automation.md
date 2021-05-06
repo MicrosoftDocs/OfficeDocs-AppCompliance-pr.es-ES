@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/15/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la automatización de documentos de Excel a Word, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5064432d0cc28a2d260b678ad6abb5c2e6fe70e7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 14cf8142d1c80fab178aca914d3e999aac5428cf
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096825"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251930"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel de documentos de Excel a Word
 
@@ -31,7 +32,7 @@ Información proporcionada por AnalysisPlace a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Excel de documentos de Excel a Word |
-| Id. | WA104380955 |
+| ID | WA104380955 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Word 2016 o posterior en Mac, Word 2016 o posterior en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint 2016 o posterior en Windows, Excel en la Web, Word en la Web, PowerPoint en la Web |
 | Nombre de la compañía asociada | AnalysisPlace |
 | Dirección URL del sitio web de partners | [https://analysisplace.com/](https://analysisplace.com/) |
