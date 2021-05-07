@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para Zoom.ai Meeting Assistant, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+certification_type: attested
+description: Toda la información de seguridad y cumplimiento disponible para Zoom.ai Meeting Assistant, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c5928d1ba26624bbae26fdf0dab09fbb4ddcded6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: dda27747fdfde0f863611caef27f71547c971b98
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096830"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251940"
 ---
 # <a name="zoomai-meeting-assistant"></a>Zoom.ai Meeting Assistant
 
@@ -20,7 +21,7 @@ ms.locfileid: "52096830"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: March 17, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/cac7469b-37cc-44f5-bf08-ff6654d35819" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/cac7469b-37cc-44f5-bf08-ff6654d35819" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000150" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,12 +33,12 @@ Información proporcionada por Zoom.ai Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoom.ai Meeting Assistant |
-| Id. | WA200000150 |
+| ID | WA200000150 |
 | Capacidades | Bot, pestaña, conector |
-| Office 365 clientes compatibles | Microsoft Teams |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoom.ai Inc |
 | Dirección URL del sitio web de partners | [https://zoom.ai](https://zoom.ai) |
-| Dirección URL de Teams de información de la aplicación | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
+| Dirección URL de la página de información de la aplicación de Teams | [https://faq.zoom.ai/](https://faq.zoom.ai/) |
 | Dirección URL de la directiva de privacidad | [https://zoom.ai/privacy](https://zoom.ai/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://zoom.ai/terms-of-use](https://zoom.ai/terms-of-use) |
 
@@ -53,7 +54,7 @@ Zoom.ai Inc ha proporcionado esta información sobre cómo esta aplicación reco
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -66,11 +67,11 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| offline_access | aplicación | No | Debemos leer y escribir a través de nuestro back-end en cualquier momento, sin que el usuario esté presente. |  |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -106,9 +107,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35668" target="_blank">Ver en una pestaña nueva</a>
 

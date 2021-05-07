@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para MeisterTask, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+certification_type: attested
+description: Toda la información de seguridad y cumplimiento disponible para MeisterTask, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c5b2ae69841476d5a85edb9a3b889ee962245fd3
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 976df0385411c670c2f185b302a88d4746a92e73
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096354"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251259"
 ---
 # <a name="meistertask"></a>MeisterTask
 
@@ -20,7 +21,7 @@ ms.locfileid: "52096354"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/4d0f0848-3fdd-4046-9976-d5568c8b71f4" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/4d0f0848-3fdd-4046-9976-d5568c8b71f4" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381349" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,12 +33,12 @@ Información proporcionada por MeisterLabs GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MeisterTask |
-| Id. | WA104381349 |
+| ID | WA104381349 |
 | Capacidades | Pestaña |
-| Office 365 clientes compatibles | Microsoft Teams |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MeisterLabs GmbH |
 | Dirección URL del sitio web de partners | [https://www.meistertask.com](https://www.meistertask.com) |
-| Dirección URL de Teams de información de la aplicación | [https://support.meistertask.com/](https://support.meistertask.com/) |
+| Dirección URL de la página de información de la aplicación de Teams | [https://support.meistertask.com/](https://support.meistertask.com/) |
 | Dirección URL de la directiva de privacidad | [https://www.meistertask.com/privacy](https://www.meistertask.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://www.meistertask.com/legal](https://www.meistertask.com/legal) |
 
@@ -53,18 +54,18 @@ MeisterLabs GmbH ha proporcionado esta información sobre cómo esta aplicación
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| User.Read | delegado | Id., displayName, dirección de correo electrónico. | Para la autenticación y el registro. |  |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -93,9 +94,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35426' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35426' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35426" target="_blank">Ver en una pestaña nueva</a>
 

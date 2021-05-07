@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 87d3b5b4acb74fcf4d6bab6e49271a8c8d5a33e6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 03f831a0dd6c1b2b17b7ce12a3d421eb8fe1f10d
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096534"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252650"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -32,7 +33,7 @@ Información proporcionada por ELEARNINGFORCE International a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | LMS365 |
-| Id. | WA104381467 |
+| ID | WA104381467 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ELEARNINGFORCE International |

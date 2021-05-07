@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/22/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reach, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 129f564f8e25897fe9fc2cebfd55ae68fd20cf83
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 81a3afa06f4843c68a5e32da49f7e7be09e0684a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096366"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252460"
 ---
 # <a name="reach"></a>Reach
 
@@ -32,7 +33,7 @@ Información proporcionada por LiveTiles a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Reach |
-| Id. | WA200002045 |
+| ID | WA200002045 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | LiveTiles |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para FormMachines, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 943c2329556e38941b4b699cb803bea22a05dcfe
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 48bbaac501919f6b04e9cd9fd025c5e62d11015e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096526"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252640"
 ---
 # <a name="formmachines"></a>FormMachines
 
@@ -32,7 +33,7 @@ Información proporcionada por Enterprise Digital Machines a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | FormMachines |
-| Id. | WA200001217 |
+| ID | WA200001217 |
 | Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Enterprise Digital Machines |

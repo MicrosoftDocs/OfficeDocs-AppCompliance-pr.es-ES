@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para IndustryIntel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+certification_type: attested
+description: Toda la información de seguridad y cumplimiento disponible para IndustryIntel, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5df1507dd84efcf8229024c57282f356d7105398
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 667a8680991551e79b9be5ae404c660e4ed72092
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096485"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251369"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -20,7 +21,7 @@ ms.locfileid: "52096485"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 3, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/beb2be89-a403-46fe-9a67-c1294c9f9740" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/beb2be89-a403-46fe-9a67-c1294c9f9740" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001907" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,9 +33,9 @@ Información proporcionada por el equipo de inteligencia del sector a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | IndustryIntel |
-| Id. | WA200001907 |
+| ID | WA200001907 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
-| Office 365 clientes compatibles | Microsoft Teams |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Industry Intelligence Team |
 | Dirección URL del sitio web de partners | [https://www.industryintel.com/public:about-us/our-team](https://www.industryintel.com/public:about-us/our-team) |
 | Dirección URL de la directiva de privacidad | [https://www.industryintel.com/public:legal/privacy-policy-m...](https://www.industryintel.com/public:legal/privacy-policy-msteams) |
@@ -52,16 +53,16 @@ El equipo de inteligencia del sector ha proporcionado esta información sobre c�
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -77,7 +78,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->No. La asignación del usuario Teams MS y el usuario so Teams ocurre en el producto SO Teams. MS Teams nos envía sus identificadores identificables y los guardamos internamente para asignar al usuario. Además, MS Teams nos envía un JWT para las solicitudes de bot (evita la falsificación de solicitudes) y las solicitudes tab validan con la cookie SO.
+>No. La asignación del usuario de MS Teams y el usuario de SO Teams se produce en el producto SO Teams. MS Teams nos envía sus identificadores identificables y los guardamos internamente para asignar al usuario. Además, MS Teams nos envía un JWT para solicitudes de bot (evita la falsificación de solicitudes) y las solicitudes tab validan con la cookie SO.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
@@ -98,9 +99,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080" target="_blank">Ver en una pestaña nueva</a>
 

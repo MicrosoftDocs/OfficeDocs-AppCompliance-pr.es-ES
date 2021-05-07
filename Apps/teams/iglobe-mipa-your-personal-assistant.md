@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: su Asistente personal, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7acb929082cdebca9780c741fbb584f3848b8108
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 243a39894b36ea470d25d4145169ecd6f2a27c75
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096488"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252540"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA - Your Personal Assistant
 
@@ -31,7 +32,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MIPA - Your Personal Assistant |
-| Id. | WA200000148 |
+| ID | WA200000148 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | iGlobe |

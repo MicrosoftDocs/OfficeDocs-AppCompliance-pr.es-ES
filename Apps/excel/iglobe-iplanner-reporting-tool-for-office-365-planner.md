@@ -1,18 +1,19 @@
 ---
-title: Herramienta de informes de la aplicación para iPlanner para Office 365 Planner por iGlobe
+title: Información de la aplicación para la herramienta de informes de iPlanner para Office 365 Planner por iGlobe
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para la herramienta de informes de iPlanner para Office 365 Planner, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+certification_type: certified
+description: Toda la información de seguridad y cumplimiento disponible para la herramienta de informes de iPlanner para Office 365 Planner, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d6416261759acca5b77c6307c2267d11dd8eea4f
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: c03fa88d76dc00da911841512bb209742dbc5d2e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096387"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52251489"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Herramienta de informes de iPlanner para Office 365 Planner
 
@@ -30,8 +31,8 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Herramienta de informes de iPlanner para Office 365 Planner |
-| Id. | WA104380686 |
-| Office 365 clientes compatibles | Excel 2016 o posterior en Windows, Excel en la Web, Excel 2016 o posterior en Mac |
+| ID | WA104380686 |
+| Clientes de Office 365 compatibles | Excel 2016 o posterior en Windows, Excel en la web, Excel 2016 o posterior en Mac |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com/](https://www.iglobecrm.com/) |
 | Dirección URL de la directiva de privacidad | [https://iglobecrm.com/content/legal-information](https://iglobecrm.com/content/legal-information) |
@@ -49,28 +50,28 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para crear una entrada de calendario en el calendario&#8217;calendario en la fecha de vencimiento de la tarea. |  |
 >| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. |  |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de Outlook To Do, marca los correos electrónicos y actualizándolos. Para crear una nueva tarea de Planner. |  |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planeación Outlook To Do, marca los correos electrónicos y actualizándolos. Para crear una nueva tarea de Planner. |  |
 >| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para tener acceso al archivo como datos adjuntos y cargar archivos en una tarea. |  |
 >| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la lista de planes y actualizar la tarea. |  |
 >| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea del organizador y agregar nuevas tareas, actualice el cubo y la línea de natación. |  |
->| Mail.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | User.Read, para obtener la tarea de Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner |  |
+>| Mail.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | User.Read, para obtener la tarea planner Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner |  |
 >| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para mostrar los correos y enviar correo. |  |
 >| Mail.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Obtener el asunto de correo del correo seleccionado. Permite que la aplicación obtenga información del correo electrónico seleccionado, lo que permite copiar el campo de descripción en la descripción de la tarea y permitir guardar datos adjuntos del correo o del propio correo en la tarea. Enviar notificación. |  |
->| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios que han iniciado sesión Outlook To Do y actualizar User.Read, para obtener la tarea del organizador Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner. |  |
+>| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios que han iniciado sesión en Outlook To Do y actualizar User.Read, para obtener la tarea planner Outlook To Do, marca los correos electrónicos y actualizándolos. Para crear una nueva tarea de Planner. |  |
 >| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Iniciar sesión y leer el perfil del usuario |  |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 
 
@@ -95,7 +96,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Todos los datos están en el propio inquilino del cliente. No se almacenan datos de aplicación. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;fuera de proceso&#8221;. Interactúa con los datos de los usuarios mediante servicios Microsoft. El complemento solo puede tener acceso a los datos con los que trabaja el usuario.
+>Todos los datos están en el propio inquilino del cliente. No se almacenan datos de aplicación. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;fuera de proceso&#8221;. Interactúa con los datos de los usuarios mediante los servicios de Microsoft. El complemento solo puede tener acceso a los datos con los que trabaja el usuario.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -109,9 +110,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699" target="_blank">Ver en una pestaña nueva</a>
 

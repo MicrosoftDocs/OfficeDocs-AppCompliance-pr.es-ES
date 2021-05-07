@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para netDocShare, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 21f361c5f52023e5897f2d750a734fd2041262b7
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 4ffccbb904d5283922a4ce6aae7fc5430e86d3d7
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096472"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252490"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -32,7 +33,7 @@ Información proporcionada por TECNOLOGÍAS DE SOFTWARE DE KL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | netDocShare |
-| Id. | WA200001619 |
+| ID | WA200001619 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | KL Software Technologies |

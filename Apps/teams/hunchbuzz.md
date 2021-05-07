@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para HunchBuzz, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e013519640ce3185ec431543ac295e83c6f08c88
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 998abeea286dce3c7a82c40e68695c1fd107aaa7
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096492"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252550"
 ---
 # <a name="hunchbuzz"></a>HunchBuzz
 
@@ -32,7 +33,7 @@ Información proporcionada por HunchBuzz a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | HunchBuzz |
-| Id. | WA200000160 |
+| ID | WA200000160 |
 | Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | HunchBuzz |

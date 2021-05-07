@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/08/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Template Chooser for SharePoint, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 78662218f8ecb2e6f4a464971f1ca3c080e59fba
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 8604cbb15c5c7c19b1e26c37a91941e0b2937301
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096617"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252770"
 ---
 # <a name="officeatwork--template-chooser-for-sharepoint"></a>officeatwork | Chooser de plantillas para SharePoint
 
@@ -30,7 +31,7 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | officeatwork: elegidor de plantillas para SharePoint |
-| Id. | WA200001923 |
+| ID | WA200001923 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | officeatwork |
 | Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
@@ -85,7 +86,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 >| **Permiso**  | **Descripción** |
 >|:----------------|:----------------|
->| Valor predeterminado | No&#8217;leer o realizar cambios en el documento |
+>| Predeterminado | No&#8217;leer o realizar cambios en el documento |
 >| Enviar datos | Puede enviar datos a través de Internet |
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -140,11 +141,10 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación con
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,
-<br />
-- OAuth2 Implicit Flow, a menos que sea necesario para un SPA
-<br />
-- Flujo de credenciales de contraseña de propietario de recursos (ROPC) | | ¿Expone la aplicación alguna API web? | Sin | | ¿La aplicación usa las API de vista previa? | Sin | | ¿La aplicación usa API en desuso? | Sin |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

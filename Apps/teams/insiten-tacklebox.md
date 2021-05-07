@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/12/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TackleBox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19ff04953cb67cdcfcd6ea0b430ed3c1eb56f081
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f141d645dddf16f57f5ba8097cd1924f7e561462
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096481"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252520"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -32,7 +33,7 @@ Información proporcionada por Insiten a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TackleBox |
-| Id. | WA200002310 |
+| ID | WA200002310 |
 | Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Insiten |

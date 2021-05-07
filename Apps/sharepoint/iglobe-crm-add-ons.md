@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/17/2020
 ms.topic: article
 ms.service: attestation
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para complementos de CRM de iGlobe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c1f70272dc571c04b340d82e15e7aaf8be304677
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 21e71a90f0764baba9d251b02eea17c369a6f21a
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096620"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252780"
 ---
 # <a name="iglobe-crm-add-ons"></a>Complementos crm de iGlobe
 
@@ -30,7 +31,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Complementos crm de iGlobe |
-| Id. | WA200002010 |
+| ID | WA200002010 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
@@ -103,7 +104,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 >| **Permiso**  | **Descripción** |
 >|:----------------|:----------------|
->| Valor predeterminado | No&#8217;leer o realizar cambios en el documento |
+>| Predeterminado | No&#8217;leer o realizar cambios en el documento |
 >| Enviar datos | Puede enviar datos a través de Internet |
 
 #### <a name="telemetry-data"></a>Datos de telemetría

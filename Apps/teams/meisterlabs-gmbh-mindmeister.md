@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMeister, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c1630248ebdb667baf6b386f03f777a8d7dd6c89
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 3c460acdb9529126d9d1360dd478c30f78c55bac
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096353"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252420"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -32,7 +33,7 @@ Información proporcionada por MeisterLabs GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMeister |
-| Id. | WA104381116 |
+| ID | WA104381116 |
 | Capacidades | Bot, pestaña, extensión de mensajería, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MeisterLabs GmbH |

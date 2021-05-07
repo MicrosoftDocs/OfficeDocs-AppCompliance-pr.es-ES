@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Mybys, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e15154e69c0517d49bb6af0d0b2d9a0c76d1f797
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: ecdb9594167eb0428b42996b2fc6046febb73109
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096518"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252610"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -32,7 +33,7 @@ Información proporcionada por Facilis a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Mybys |
-| Id. | WA200002605 |
+| ID | WA200002605 |
 | Capacidades | Bot, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Facilis |
