@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 03/23/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AttendanceBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38bfb3a4d98c8e6eb74c1cbc94261483a03588ef
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 38160356c691a04e0d109ebd67aaab3826b63286
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096600"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253231"
 ---
 # <a name="attendancebot"></a>AttendanceBot
 
@@ -32,7 +33,7 @@ Información proporcionada por Anaek a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AttendanceBot |
-| Id. | WA104381652 |
+| ID | WA104381652 |
 | Capacidades | Bot |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Anaek |

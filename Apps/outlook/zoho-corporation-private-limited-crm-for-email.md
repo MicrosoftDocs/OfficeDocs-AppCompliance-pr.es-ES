@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho CRM para correo electrónico, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1758a1b5d082b42b68a1385e73007b5ab2beb18a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 730750ad7dddfcccaa9f940e88e34793d4e35869
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096654"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252900"
 ---
 # <a name="zoho-crm-for-email"></a>Zoho CRM para correo electrónico
 
@@ -31,7 +32,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho CRM para correo electrónico |
-| Id. | WA104379468 |
+| ID | WA104379468 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/](https://www.zoho.com/) |

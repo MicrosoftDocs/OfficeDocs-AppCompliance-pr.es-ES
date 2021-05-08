@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la herramienta Campañas de Zoho para la automatización de marketing, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0c8422a016ac803605ab37c10e93f1afe4de657c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e6107ce4526c7880253d52b6cecb0898c205f57e
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096657"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252911"
 ---
 # <a name="zoho-campaigns-tool-for-marketing-automation"></a>Herramienta Campañas de Zoho para la automatización de marketing
 
@@ -31,7 +32,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Herramienta Campañas de Zoho para la automatización de marketing |
-| Id. | WA104380835 |
+| ID | WA104380835 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/](https://www.zoho.com/) |

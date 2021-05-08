@@ -2,21 +2,21 @@
 title: 'Seguridad y cumplimiento de la aplicación Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/05/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 6bc983288ea2acb783fd99a80c6c4dbcfbf83fae
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 029df430f55edfaef5a1c0bbf106c50438e19590
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251049"
+ms.locfileid: "52258827"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Seguridad y cumplimiento de la aplicación Microsoft Teams
 
-Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para proporcionar la información que las organizaciones necesitan para ejecutar y comunicar sus decisiones sobre las aplicaciones y complementos de Teams que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/es-ES/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para proporcionar la información que las organizaciones necesitan para ejecutar y comunicar sus decisiones sobre las aplicaciones y complementos de Teams que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** | **Información de control de datos** | **Cloud App Security**  | **Capacidades de la aplicación** |
 |:--------|:------------|:----------------------:|:-------------:|:-----------------------------:|:----------------------------------:|:---------------------|

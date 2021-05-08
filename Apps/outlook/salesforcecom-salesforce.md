@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Salesforce, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 88e6a4913e3a3c85ea76fd58c1a724f957c9a3e6
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: e4235f61e6cb9cbc8b8bef3629dda8e5ccd87917
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096665"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252941"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -31,7 +32,7 @@ Información proporcionada por salesforce.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Salesforce |
-| Id. | WA104379334 |
+| ID | WA104379334 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | salesforce.com |
 | Dirección URL del sitio web de partners | [https://www.salesforce.com/](https://www.salesforce.com/) |

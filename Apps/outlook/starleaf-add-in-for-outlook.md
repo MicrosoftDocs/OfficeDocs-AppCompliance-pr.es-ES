@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/24/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el complemento StarLeaf para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ac1b9b979d9b6f8706e77baf22a73a784950eeaa
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 1ae18b1e6d9f89f0680c4b50e0e144851f052b0b
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096661"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252931"
 ---
 # <a name="starleaf-add-in-for-outlook"></a>Complemento StarLeaf para Outlook
 
@@ -31,7 +32,7 @@ Información proporcionada por StarLeaf a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Complemento StarLeaf para Outlook |
-| Id. | WA104381343 |
+| ID | WA104381343 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | StarLeaf |
 | Dirección URL del sitio web de partners | [https://www.starleaf.com/](https://www.starleaf.com/) |

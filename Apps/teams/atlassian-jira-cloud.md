@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 07c97596d016e910229a85b7873b6b19fcf9ed5a
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: cb691de3862d1e1b067bc58ed6c457f6ca8dcd16
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096588"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253201"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -32,7 +33,7 @@ Información proporcionada por Atlassian a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Jira Cloud |
-| Id. | WA200002140 |
+| ID | WA200002140 |
 | Capacidades | Bot, pestaña, extensión de mensajería, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Atlassian |

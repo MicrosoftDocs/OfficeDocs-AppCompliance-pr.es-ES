@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el BOT de calendario, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 80bb5043cb912e55215ba8578f4c70804acc8ac9
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 963288e3adc099dce4eedd126de2219d4b425844
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096598"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253221"
 ---
 # <a name="calendar-bot"></a>Calendar BOT
 
@@ -32,7 +33,7 @@ Información proporcionada por contacto aprobado a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Calendar BOT |
-| Id. | WA104381271 |
+| ID | WA104381271 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Contacto aprobado |

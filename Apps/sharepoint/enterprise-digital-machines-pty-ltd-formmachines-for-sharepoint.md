@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para FormMachines para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee74d9fdcac17263b45a34deeb730b21b6b45ecc
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: d2793ffd2c43275af52a02032878a6e47660306f
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096624"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252790"
 ---
 # <a name="formmachines-for-sharepoint"></a>FormMachines para SharePoint
 
@@ -31,7 +32,7 @@ Información proporcionada por ENTERPRISE DIGITAL MACHINES PTY LTD a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | FormMachines para SharePoint |
-| Id. | WA200000357 |
+| ID | WA200000357 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | MÁQUINAS DIGITALES DE EMPRESA PTY LTD |
 | Dirección URL del sitio web de partners | [https://www.formmachines.com/](https://www.formmachines.com/) |
@@ -71,7 +72,7 @@ Enumerar los permisos que requiere esta aplicación para obtener acceso a los da
 
 >| **Permiso**  | **Descripción** |
 >|:----------------|:----------------|
->| Valor predeterminado | No&#8217;leer o realizar cambios en el documento |
+>| Predeterminado | No&#8217;leer o realizar cambios en el documento |
 >| Enviar datos | Puede enviar datos a través de Internet |
 
 #### <a name="telemetry-data"></a>Datos de telemetría

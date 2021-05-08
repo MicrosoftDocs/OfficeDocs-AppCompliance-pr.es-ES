@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para el seguimiento de facturas y horas: Factura Zoho, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 900935b6422b2a9e48ddb0a79c92c0b1f6b4d139
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 97c065f0cdb0efbc005353cd6f6e459a67303651
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096653"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253241"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Seguimiento de factura y tiempo: factura de Zoho
 
@@ -31,7 +32,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Seguimiento de factura y tiempo: factura de Zoho |
-| Id. | WA104381067 |
+| ID | WA104381067 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/](https://www.zoho.com/) |

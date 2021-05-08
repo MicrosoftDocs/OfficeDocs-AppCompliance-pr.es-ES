@@ -6,14 +6,14 @@ ms.date: 04/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para CloudExtend Analytics para NetSuite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para CloudExtend Analytics para NetSuite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9c9735999a0d9c329399e9db38af9986e67dd8c4
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 073e27fbf0e2ad9f0fcde35051b2109e5c068952
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252205"
+ms.locfileid: "52259017"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics para NetSuite
 
@@ -33,7 +33,7 @@ Información proporcionada por Celigo CloudExtend a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | CloudExtend Analytics para NetSuite |
 | ID | WA200002784 |
-| Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
+| Clientes de Office 365 compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la web |
 | Nombre de la compañía asociada | Celigo CloudExtend |
 | Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
 | Dirección URL de la directiva de privacidad | [https://www.celigo.com/privacy](https://www.celigo.com/privacy) |
@@ -51,7 +51,7 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
@@ -59,11 +59,11 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| Files.ReadWrite.All | ambos | Leer el contenido del libro como tablas y hojas y poder escribir contenido en dichas tablas | detalles del libro como la dirección URL web, el identificador del libro y la ubicación del libro para acceder a él sin conexión | 7040f194-bf08-400e-acb1-69df7939416a |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Todos los servicios que no son de Microsoft OII se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogRocket, Amazon AWS | Nombre de la organización, número de cuenta de NetSuite, direcciones de correo electrónico del dominio de la organización, información de contacto de facturación | Aprovisionamiento de licencias, validación y facturación Soporte técnico del cliente, solución de problemas y administración de cuentas |
 
@@ -102,9 +102,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/14008' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/14008' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/14008" target="_blank">Ver en una pestaña nueva</a>
 
@@ -121,15 +121,15 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | false |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de la plataforma de identidades de Microsoft?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- Flujo implícito de OAuth2, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
 | ¿Expone la aplicación alguna API web? | Sí |
 | ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
 | ¿La aplicación usa las API de vista previa? | No |

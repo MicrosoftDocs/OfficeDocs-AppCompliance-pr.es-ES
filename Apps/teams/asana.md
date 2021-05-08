@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/02/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Asana, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 04d0208b5177cc289f80534f83208b1a6d96d3af
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: f69029ca8c8b2f893808046706abfaa52e8d5124
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096595"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253211"
 ---
 # <a name="asana"></a>Asana
 
@@ -32,7 +33,7 @@ Información proporcionada por Asana a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Asana |
-| Id. | WA200001727 |
+| ID | WA200001727 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Asana |

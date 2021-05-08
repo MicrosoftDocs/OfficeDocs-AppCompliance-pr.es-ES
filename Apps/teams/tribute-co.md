@@ -6,22 +6,22 @@ ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Tribute, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Tribute, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 996cd1a4de1ac793bacb354e8985f600cbb0a0f5
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 3fead70ef460ec81d89144420850ce47e3aee3e4
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252145"
+ms.locfileid: "52258797"
 ---
-# <a name="tribute"></a>Tributo
+# <a name="tribute"></a>Tribute
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: April 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/cfb46a87-a75b-4045-9f22-a0ae0614fd60" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002589" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,13 +32,13 @@ Información proporcionada por Tribute Co. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Tributo |
+| Nombre de la aplicación | Tribute |
 | ID | WA200002589 |
 | Capacidades | Pestaña |
-| Office 365 clientes compatibles | Microsoft Teams |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tribute Co. |
 | Dirección URL del sitio web de partners | [https://www.tributementorship.com](https://www.tributementorship.com) |
-| Dirección URL de Teams de información de la aplicación | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
+| Dirección URL de la página de información de la aplicación de Teams | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
 | Dirección URL de la directiva de privacidad | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
@@ -54,16 +54,16 @@ Esta información ha sido proporcionada por Tribute Co. sobre cómo esta aplicac
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -97,9 +97,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37870" target="_blank">Ver en una pestaña nueva</a>
 
@@ -116,8 +116,8 @@ Esta información ha sido proporcionada por Tribute Co. acerca de cómo esta apl
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | true |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de la plataforma de identidades de Microsoft?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | No |

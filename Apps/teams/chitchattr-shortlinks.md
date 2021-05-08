@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 01/07/2021
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para shortlinks, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5dc7004cf95485e0568c7dcdd6631deab0719d7c
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b7eb7c49a250ca39e5300591bfd4bfc7659562d5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096562"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253031"
 ---
 # <a name="shortlinks"></a>Shortlinks
 
@@ -32,7 +33,7 @@ Información proporcionada por ChitChattr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Shortlinks |
-| Id. | WA200001846 |
+| ID | WA200001846 |
 | Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChitChattr |

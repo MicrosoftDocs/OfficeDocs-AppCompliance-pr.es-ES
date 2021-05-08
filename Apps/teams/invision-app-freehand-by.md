@@ -2,24 +2,24 @@
 title: Información de la aplicación a mano alzada por InVision por la aplicación InVision
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/16/2021
+ms.date: 05/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Freehand by InVision, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8ff5737df8fbc08c1030365bebba67d3ce32b38a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: fa9a02b63eff4001789f5a7c854fd9ee554d6e84
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252184"
+ms.locfileid: "52258777"
 ---
 # <a name="freehand-by-invision"></a>Freehand by InVision
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 16, 2021</p>
+<p>Last updated by the developer on: May 6, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/67cf2c5a-db0e-4256-a423-14010cbeafdd" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381362" target="_blank">Ver en AppSource</a>
@@ -36,7 +36,7 @@ Información proporcionada por la aplicación InVision a Microsoft:
 | ID | WA104381362 |
 | Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Aplicación InVision |
+| Nombre de la compañía asociada | InVision app |
 | Dirección URL del sitio web de partners | [https://www.invisionapp.com/](https://www.invisionapp.com/) |
 | Dirección URL de Teams de información de la aplicación | [https://www.invisionapp.com/freehand](https://www.invisionapp.com/freehand) |
 | Dirección URL de la directiva de privacidad | [https://www.invisionapp.com/privacy](https://www.invisionapp.com/privacy) |

@@ -2,25 +2,25 @@
 title: Información de la aplicación para la matriz de prioridad de Appfluence Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ccd03dd271cfafb55fd99fc65f4820a9d8787e83
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 0e6e5afc6bc05299c149e46aed345ae6bb171ecd
+ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250879"
+ms.locfileid: "52258877"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: November 17, 2020</p>
+<p>Last updated by the developer on: April 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382005" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,10 +34,10 @@ Información proporcionada por Appfluence Inc a Microsoft:
 | Nombre de la aplicación | Priority Matrix |
 | ID | WA104382005 |
 | Capacidades | Bot, pestaña, extensión de mensajería, conector |
-| Office 365 clientes compatibles | Microsoft Teams |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appfluence Inc |
 | Dirección URL del sitio web de partners | [https://appfluence.com](https://appfluence.com) |
-| Dirección URL de Teams de información de la aplicación | [https://appfluence.com/project-management-integration-for-m...](https://appfluence.com/project-management-integration-for-microsoft-teams/) |
+| Dirección URL de la página de información de la aplicación de Teams | [https://appfluence.com/project-management-integration-for-m...](https://appfluence.com/project-management-integration-for-microsoft-teams/) |
 | Dirección URL de la directiva de privacidad | [https://appfluence.com/privacy](https://appfluence.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://appfluence.com/eula](https://appfluence.com/eula) |
 
@@ -53,26 +53,26 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación r
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.Read | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| User.ReadBasic.All | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| offline_access | delegado | Almacenamos el token de inicio de sesión para realizar solicitudes en nombre del usuario | Actualice el token sin molestar al usuario. (Matriz de prioridad para Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar archivos SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar reuniones y colaboración general. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
+>| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar los archivos de SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar las reuniones y la colaboración general. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| User.Read | delegado | La información básica del perfil de usuario (nombre para mostrar, nombre, apellido, correo electrónico, avatar) la almacenamos nosotros. | Obtén el nombre, el correo electrónico, el avatar del usuario para personalizar su cuenta con nosotros. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| OpenID | delegado | Almacenamos la conexión SSO para indicar el modo de inicio de sesión del usuario. | Para iniciar sesión en los usuarios mediante el inicio de sesión único. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| Calendars.Read | delegado | Un pequeño número de eventos de calendario se convierten en tareas almacenadas en nuestro sistema. | Lea los eventos del calendario para que se puedan mostrar en nuestra vista 1:1. También para inicializar cuentas nuevas.  | d76f016f-52c7-41b5-835b-900361d7040c |
->| Mail.Read | delegado | Almacenamos las tareas creadas en nuestro sistema, con un vínculo al mensaje original. | Se usa en Outlook complemento para convertir correos electrónicos en tareas y para mostrar el trabajo compartido en la vista 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
->| Tasks.Read | delegado | Algunas Outlook/Planner se replican en nuestro sistema para ayudar a los nuevos usuarios. | Iniciamos nuevas cuentas de usuario con sus Graph tareas. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| Mail.Read | delegado | Almacenamos las tareas creadas en nuestro sistema, con un vínculo al mensaje original. | Se usa en nuestro complemento de Outlook para convertir correos electrónicos en tareas y para mostrar el trabajo compartido en la vista 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| Tasks.Read | delegado | Algunas tareas de Outlook/Planner se replican en nuestro sistema para ayudar a los nuevos usuarios. | Iniciamos nuevas cuentas de usuario con sus tareas de Graph. | d76f016f-52c7-41b5-835b-900361d7040c |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios que no son de Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -108,9 +108,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667" target="_blank">Ver en una pestaña nueva</a>
 
@@ -127,7 +127,7 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación c
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de la plataforma de identidades de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |

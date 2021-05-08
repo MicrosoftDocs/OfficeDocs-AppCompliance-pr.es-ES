@@ -1,46 +1,46 @@
 ---
-title: Información de la aplicación para Breakthru por Breakthru
+title: Información de la aplicación para HighSide de HighSide, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/16/2021
+ms.date: 04/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Breakthru, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para HighSide, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fff1b1bb443be6866570035f16897a71e7458455
+ms.openlocfilehash: fefb6e186e892327c2014a4ba56dc8559f7047cc
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253151"
+ms.locfileid: "52253103"
 ---
-# <a name="breakthru"></a>Breakthru
+# <a name="highside"></a>HighSide
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 16, 2021</p>
+<p>Last updated by the developer on: April 27, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/693aa4f0-e16c-11ea-ab9b-11514b3de7ae" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002243" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/3c77edc8-0136-4ca2-8d4b-3558923c0e77" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002220" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Breakthru a Microsoft:
+Información proporcionada por HighSide, Inc a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Breakthru |
-| ID | WA200002243 |
-| Capacidades | Bot, pestaña, extensión de mensajería |
+| Nombre de la aplicación | HighSide |
+| ID | WA200002220 |
+| Capacidades | Bot, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Breakthru |
-| Dirección URL del sitio web de partners | [https://breakthru.me](https://breakthru.me) |
-| Dirección URL de Teams de información de la aplicación | [https://breakthru.me](https://breakthru.me) |
-| Dirección URL de la directiva de privacidad | [https://breakthru.me/privacy](https://breakthru.me/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://breakthru.me/terms](https://breakthru.me/terms) |
+| Nombre de la compañía asociada | HighSide, Inc |
+| Dirección URL del sitio web de partners | [https://highside.io](https://highside.io) |
+| Dirección URL de Teams de información de la aplicación | [https://highside.io/secureteams](https://highside.io/secureteams) |
+| Dirección URL de la directiva de privacidad | [https://highside.io/privacy-shield](https://highside.io/privacy-shield) |
+| DIRECCIÓN URL de términos de uso | [https://highside.io/terms-of-service](https://highside.io/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Información proporcionada por Breakthru a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Breakthru ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+HighSide, Inc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -71,7 +71,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| para mostrar las estadísticas de historial del usuario  | email | para identificar las estadísticas del usuario |
+>| Funciones de búsqueda | Nombre de usuario | Funciones de búsqueda |
 
 
 
@@ -85,13 +85,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->todos los datos se almacenan en Azure
+>N/A
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->No
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,9 +101,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,7 +113,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Breakthru ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+HighSide, Inc ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

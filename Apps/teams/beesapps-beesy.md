@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 08/06/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Beesy, sus directivas de tratamiento de datos, su información Microsoft Cloud App Security catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b78790de86d800cdb91647664e0a719546f791a2
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fdab816d7eb03c7721deaad8e19be7691b23f9f2
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096580"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52253181"
 ---
 # <a name="beesy"></a>Beesy
 
@@ -32,7 +33,7 @@ Información proporcionada por BeesApps a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Beesy |
-| Id. | WA200001248 |
+| ID | WA200001248 |
 | Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | BeesApps |

@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ServiceDesk Plus para correo electrónico, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bf8ed2f9b56cdb5afc32d86c608603849da585ad
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: dbbafef5141b91c850c916c780cfb2cd89504f52
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096650"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252890"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus para correo electrónico
 
@@ -31,7 +32,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ServiceDesk Plus para correo electrónico |
-| Id. | WA104381518 |
+| ID | WA104381518 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/](https://www.zoho.com/) |

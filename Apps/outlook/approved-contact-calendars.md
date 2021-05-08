@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para los calendarios de contactos aprobados, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 37da37f6e5cad32ce97c4da537bc9ff7bd9d81a4
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: b9af5ceadaa2c4b6f5ca79f511f4533f9c63d7e5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096717"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252991"
 ---
 # <a name="approved-contact-calendars"></a>Calendarios de contactos aprobados
 
@@ -31,7 +32,7 @@ Información proporcionada por contacto aprobado a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Calendarios de contactos aprobados |
-| Id. | WA104380294 |
+| ID | WA104380294 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Contacto aprobado |
 | Dirección URL del sitio web de partners | [https://approvedcontact.com/](https://approvedcontact.com/) |

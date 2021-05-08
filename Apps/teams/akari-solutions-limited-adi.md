@@ -1,46 +1,46 @@
 ---
-title: Información de la aplicación para Breakthru por Breakthru
+title: Información de la aplicación para ADI de Akari Solutions Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/16/2021
+ms.date: 04/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Breakthru, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para ADI, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fff1b1bb443be6866570035f16897a71e7458455
+ms.openlocfilehash: 435ede7d8821a4f93e930996f7159b794b5b8a22
 ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253151"
+ms.locfileid: "52253119"
 ---
-# <a name="breakthru"></a>Breakthru
+# <a name="adi"></a>ADI
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 16, 2021</p>
+<p>Last updated by the developer on: April 28, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/693aa4f0-e16c-11ea-ab9b-11514b3de7ae" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002243" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/de5717a1-6884-4b96-8b1e-ee17b5d778f3" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002615" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Breakthru a Microsoft:
+Información proporcionada por Akari Solutions Limited para Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Breakthru |
-| ID | WA200002243 |
-| Capacidades | Bot, pestaña, extensión de mensajería |
+| Nombre de la aplicación | ADI |
+| ID | WA200002615 |
+| Capacidades | Bot |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Breakthru |
-| Dirección URL del sitio web de partners | [https://breakthru.me](https://breakthru.me) |
-| Dirección URL de Teams de información de la aplicación | [https://breakthru.me](https://breakthru.me) |
-| Dirección URL de la directiva de privacidad | [https://breakthru.me/privacy](https://breakthru.me/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://breakthru.me/terms](https://breakthru.me/terms) |
+| Nombre de la compañía asociada | Akari Solutions Limited |
+| Dirección URL del sitio web de partners | [https://akari.io/adi/](https://akari.io/adi/) |
+| Dirección URL de Teams de información de la aplicación | [https://akari.io/adi](https://akari.io/adi) |
+| Dirección URL de la directiva de privacidad | [https://akari.io/adi-privacy-policy/](https://akari.io/adi-privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://akari.io/adi-terms-and-conditions/](https://akari.io/adi-terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Información proporcionada por Breakthru a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Breakthru ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Akari Solutions Limited ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -69,9 +69,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| para mostrar las estadísticas de historial del usuario  | email | para identificar las estadísticas del usuario |
+>No se tiene acceso a EUII.
 
 
 
@@ -85,7 +83,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->todos los datos se almacenan en Azure
+>Un pequeño número de administradores tienen acceso a través de PIM &amp; MFA a los componentes de la plataforma de aplicaciones.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -101,9 +99,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37587' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36418" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37587" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,11 +111,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Breakthru ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Akari Solutions Limited ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | false |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | ,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

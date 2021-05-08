@@ -5,14 +5,15 @@ author: elenamalova
 ms.date: 11/02/2020
 ms.topic: article
 ms.service: attestation
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Asana para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a166966dd5dfac55a13df3dded07bd056f3ab2ee
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 635d3f73c582fbc6a89fbca0798b0dec271ab3f5
+ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52096705"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "52252981"
 ---
 # <a name="asana-for-outlook"></a>Asana para Outlook
 
@@ -31,7 +32,7 @@ Información proporcionada por Asana a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Asana para Outlook |
-| Id. | WA104381833 |
+| ID | WA104381833 |
 | Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
 | Nombre de la compañía asociada | Asana |
 | Dirección URL del sitio web de partners | [https://asana.com/](https://asana.com/) |
