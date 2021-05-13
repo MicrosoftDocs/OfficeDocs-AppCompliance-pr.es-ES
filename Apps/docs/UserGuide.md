@@ -6,12 +6,12 @@ description: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicac
 keywords: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1338edfc5ad4447d9167eea66388cd8d7a65a883
-ms.sourcegitcommit: 47fdc4f6dcfbc1b4c74f7e1e49343b9b1ce6ef9c
+ms.openlocfilehash: a6b0abb55359a16d4651722d776dfb16282edc87
+ms.sourcegitcommit: bb6c1353781d7b6f8b171bf6853b85e42fda656e
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2021
-ms.locfileid: "52313303"
+ms.locfileid: "52324089"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones
 
@@ -150,17 +150,17 @@ Una vez enviado, se revisará.
 
 ![Atestación en revisión](../media/existing%20isv%203.png)
 
-## <a name="6---microsoft-365-re-certification-workflow"></a>6. Microsoft 365 Re-Certification de trabajo:
-
-**Microsoft 365Publisher flujo de trabajo de renovación de certificación y certificación:** 
+## <a name="6---microsoft-365-publisher-attestation-and-certification-renewal-workflow"></a>6. Microsoft 365 Publisher de renovación de certificación y certificación:
 
 Microsoft 365 El Programa de cumplimiento de aplicaciones ahora ofrece un proceso de renovación anual. Durante este proceso, los desarrolladores de aplicaciones pueden actualizar sus Publisher cuestionario de atestación y los documentos necesarios para la Microsoft 365 certificación. 
 
 **Ventajas:**
 
-- Mantenga el distintivo de certificación en AppSource para diferenciar la aplicación de otras. 
+- Mantenga el distintivo de certificación en AppSource y la Tienda de equipos para diferenciar la aplicación de otras. 
 - Aumente la confianza del cliente en el uso de la aplicación certificada. 
 - Ayude a los administradores de TI a tomar decisiones fundamentadas con información de certificación actualizada. 
+
+El nuevo proceso de renovación está disponible en el [Centro de partners](https://partner.microsoft.com/en-us/dashboard/home) para proporcionar una experiencia perfecta. Se mostrará un aviso de renovación en el Centro de partners a partir de 90 días antes de la fecha de expiración. Los avisos periódicos también se enviarán por correo electrónico 90, 60 y 30 días antes de la expiración.
 
 **Nivel 1: Publisher renovación de atestación:** 
 
