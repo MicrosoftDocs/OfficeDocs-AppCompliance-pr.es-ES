@@ -1,45 +1,44 @@
 ---
-title: Información de aplicaciones para IndustryIntel por parte del equipo de inteligencia de la industria
+title: Información de aplicación para IndustryIntel por Industry Intelligence Team
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para IndustryIntel, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para IndustryIntel, sus políticas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 667a8680991551e79b9be5ae404c660e4ed72092
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6e2c1c35d0054df773b83fa2d31a95daceaee585
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251369"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553071"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 3, 2020</p>
+<p>Última actualización por el desarrollador el: 3 de noviembre de 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/beb2be89-a403-46fe-9a67-c1294c9f9740" target="_blank">Ver en el almacén de Teams</a>
+* <a href="https://teams.microsoft.com/l/app/beb2be89-a403-46fe-9a67-c1294c9f9740" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001907" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por el equipo de inteligencia del sector a Microsoft:
+Información proporcionada por Industry Intelligence Team a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | IndustryIntel |
 | ID | WA200001907 |
-| Capacidades | Bot, pestaña, extensión de mensajería |
-| Clientes de Office 365 compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Industry Intelligence Team |
-| Dirección URL del sitio web de partners | [https://www.industryintel.com/public:about-us/our-team](https://www.industryintel.com/public:about-us/our-team) |
-| Dirección URL de la directiva de privacidad | [https://www.industryintel.com/public:legal/privacy-policy-m...](https://www.industryintel.com/public:legal/privacy-policy-msteams) |
-| DIRECCIÓN URL de términos de uso | [https://www.industryintel.com/public:legal/terms-of-use](https://www.industryintel.com/public:legal/terms-of-use) |
+| Office 365 clientes compatibles | Microsoft Teams |
+| Nombre de la empresa asociada | Industry Intelligence Team |
+| URL del sitio web de socios | [https://www.industryintel.com/public:about-us/our-team](https://www.industryintel.com/public:about-us/our-team) |
+| URL de la Política de Privacidad | [https://www.industryintel.com/public:legal/privacy-policy-m...](https://www.industryintel.com/public:legal/privacy-policy-msteams) |
+| URL de los Términos de uso | [https://www.industryintel.com/public:legal/terms-of-use](https://www.industryintel.com/public:legal/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,49 +46,48 @@ Información proporcionada por el equipo de inteligencia del sector a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-El equipo de inteligencia del sector ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Este equipo de inteligencia de la industria ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar los [permisos de Microsoft Graph que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>Servicios que no son de Microsoft usados
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->No se usan servicios que no son de Microsoft.
+>No se utilizan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>| **¿Justificación para acceder a la EUII?**  | **¿Euii se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Para validar al usuario si el usuario tiene acceso a la red de inteligencia del sector. Si el usuario ha validado correctamente, el usuario puede usar la característica completa de bot y extensión de mensajería. | Almacenamos solo el identificador de miembro del equipo que es para asignar el identificador con inteligencia del sector/id. de usuario interno. |  |
-
+>| Para validar al usuario si el usuario tiene acceso a la red de Industry Intelligence. Si el usuario se ha validado correctamente, el usuario puede usar la característica completa de Bot y Extensión de mensajería. | Almacenamos solo el id del miembro del equipo que es para mapear el id con industry intelligence/id de usuario interno. |  |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->No. La asignación del usuario de MS Teams y el usuario de SO Teams se produce en el producto SO Teams. MS Teams nos envía sus identificadores identificables y los guardamos internamente para asignar al usuario. Además, MS Teams nos envía un JWT para solicitudes de bot (evita la falsificación de solicitudes) y las solicitudes tab validan con la cookie SO.
+>No. La asignación del usuario de MS Teams y del usuario so Teams se produce en el producto SO Teams. MS Teams nos envía sus ids identificables y los guardamos internamente para asignar al usuario. Además, MS Teams nos envía un JWT para solicitudes de bot (evita la falsificación de solicitudes) y las solicitudes de tabulación validan mediante la cookie SO.
 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->El acceso a datos está protegido por el sistema de intervalo IP y autenticado de forma segura. Los datos se separan lógicamente en su propio SQL y se almacenan en un conjunto independiente de base de datos. Los datos se almacenan en un almacén de datos independiente lógicamente al que solo pueden acceder las solicitudes de su equipo.
+>El acceso a los datos está protegido por el sistema de rango IP y autenticado de forma segura. Los datos se separan lógicamente en su propio esquema de SQL y se almacenan en un conjunto independiente de bases de datos. Los datos se almacenan en un almacén de datos lógicamente independiente al que solo pueden acceder las solicitudes de su equipo.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >No
 
@@ -99,9 +97,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-A continuación se muestra información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36080" target="_blank">Ver en una pestaña nueva</a>
 

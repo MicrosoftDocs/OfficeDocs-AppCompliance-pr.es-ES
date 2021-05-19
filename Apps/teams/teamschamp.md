@@ -6,22 +6,22 @@ ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para TeamsChamp, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para TeamsChamp, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f5f980ea604b2ed608b2f7d094b526ca363b0e05
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: d7e48aa2c60e33f22de04c103b7a8727d323b10a
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52248078"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52551407"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 10, 2021</p>
+<p>Última actualización por el desarrollador el: 10 de marzo de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/4fea4594-3f83-4e33-9929-9af6b78a7340" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001487" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,13 +34,12 @@ Información proporcionada por TeamsChamp a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamsChamp |
 | ID | WA200001487 |
-| Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | TeamsChamp |
-| Dirección URL del sitio web de partners | [https://www.teamschamp.com/](https://www.teamschamp.com/) |
-| Dirección URL de Teams de información de la aplicación | [https://www.teamschamp.com](https://www.teamschamp.com) |
-| Dirección URL de la directiva de privacidad | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
+| Nombre de la empresa asociada | TeamsChamp |
+| URL del sitio web de socios | [https://www.teamschamp.com/](https://www.teamschamp.com/) |
+| URL de Teams página de información de la aplicación | [https://www.teamschamp.com](https://www.teamschamp.com) |
+| URL de la Política de Privacidad | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
+| URL de los Términos de uso | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,52 +47,51 @@ Información proporcionada por TeamsChamp a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-TeamsChamp ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+TeamsChamp ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (Delegado/Aplicación)** | **¿Se recopilan datos? ¿Justificación para recogerlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Iniciar sesión y leer perfil de usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| User.ReadBasic.All | delegado | Leer el perfil básico de todos los usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
->| perfil | delegado | Ver el perfil básico de los usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>| User.Read | Delegado | Inicie sesión y lea el perfil de los usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>| User.ReadBasic.All | Delegado | Lea el perfil básico de todos los usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
+>| perfil | Delegado | Ver el perfil básico de los usuarios | No hay datos almacenados en nuestro bbdd | 79d7af39-4f57-4e95-adaf-ec8ff756d0df |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Todo el OII no servicios Microsoft se transfiere a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Pagos por franjas | Nombre del comnpany, CIF/VAT ID, Fiscal Address | Pagos |
+>| Pagos de rayas | Nombre del comnpany, CIF/ID de IVA, Dirección fiscal | Pagos |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se tiene acceso a EUII.
-
+>No se accede a LA UEII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Información personal como un nombre completo, correo electrónico
+>Información personal como nombre completo, correo electrónico
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->eliminación, retención, auditoría, archivado, todas las directivas del Centro de administración de bandas
+>eliminación, retención, auditoría, archiving, todas las gerencias en el centro de administración de franjas
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >No
 
@@ -103,9 +101,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36549" target="_blank">Ver en una pestaña nueva</a>
 
@@ -117,22 +115,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-TeamsChamp ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+TeamsChamp ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido con todas las prácticas recomendadas aplicables descritas en la lista de verificación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación solicita permisos de privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
+| ¿La aplicación admite multi-tenencia? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | No |
-| ¿La aplicación usa las API de vista previa? | No |
+| ¿Es propietario de toda la redirección del identificador unificado de recursos (URI) registrado para la aplicación? | Sí |
+| Para la aplicación, ¿qué evitas usar? | - Uris de redirección comodín,<br/>- OAuth2 Flow implícitas, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña del propietario de recursos (ROPC) |
+| ¿La aplicación expone alguna API web? | No |
+| ¿La aplicación usa API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

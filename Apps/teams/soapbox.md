@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para Soapbox de Soapbox
+title: Información de la aplicación para Soapbox por Soapbox
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Soapbox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Soapbox, sus políticas de control de datos, su Microsoft Cloud App Security información de catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 67f30267c8ab7af50cea771d8afc3836915d6cc2
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6e2b43df38aac6307c36c4a2cc8d00fe1c3fb629
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52249788"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552781"
 ---
 # <a name="soapbox"></a>Soapbox
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Última actualización por el desarrollador el: 16 de diciembre de 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/b49e7913-3b3f-4125-adde-2b698fc12c8b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/b49e7913-3b3f-4125-adde-2b698fc12c8b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381501" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,13 +34,12 @@ Información proporcionada por Soapbox a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Soapbox |
 | ID | WA104381501 |
-| Capacidades | Bot, pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Soapbox |
-| Dirección URL del sitio web de partners | [https://soapboxhq.com](https://soapboxhq.com) |
-| Dirección URL de Teams de información de la aplicación | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
-| Dirección URL de la directiva de privacidad | [https://soapboxhq.com/privacy-policy/microsoft-teams](https://soapboxhq.com/privacy-policy/microsoft-teams) |
-| DIRECCIÓN URL de términos de uso | [https://soapboxhq.com/terms-of-service](https://soapboxhq.com/terms-of-service) |
+| Nombre de la empresa asociada | Soapbox |
+| URL del sitio web de socios | [https://soapboxhq.com](https://soapboxhq.com) |
+| URL de Teams página de información de la aplicación | [https://msteams.services.soapboxhq.com/faqs](https://msteams.services.soapboxhq.com/faqs) |
+| URL de la Política de Privacidad | [https://soapboxhq.com/privacy-policy/microsoft-teams](https://soapboxhq.com/privacy-policy/microsoft-teams) |
+| URL de los Términos de uso | [https://soapboxhq.com/terms-of-service](https://soapboxhq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,52 +47,51 @@ Información proporcionada por Soapbox a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-Soapbox ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Soapbox ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (Delegado/Aplicación)** | **¿Se recopilan datos? ¿Justificación para recogerlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | Token de sincronización. | Se necesita acceso al calendario para sincronizar reuniones soapbox con eventos de calendario |  |
->| User.Read | delegado | Nombre, correo electrónico, id. de usuario de Microsoft. | El nombre y el correo electrónico se usan para crear usuarios soapbox. |  |
->| offline_access | delegado |  | El acceso sin conexión a los calendarios es necesario para que el tiempo de notificaciones soapBox sea relevante para los eventos de calendario sincronizados. |  |
+>| Calendars.ReadWrite | Delegado | Ficha de sincronización. | Se necesita acceso al calendario para sincronizar las reuniones de SoapBox con los eventos del calendario |  |
+>| User.Read | Delegado | Nombre, correo electrónico, ID de usuario de Microsoft. | El nombre y el correo electrónico se utilizan para crear usuarios de SoapBox. |  |
+>| offline_access | Delegado |  | Se necesita acceso sin conexión a los calendarios para que el tiempo de notificaciones soapbox sea relevante para los eventos de calendario sincronizados. |  |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se utilizan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>| **¿Justificación para acceder a la EUII?**  | **¿Euii se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| La aplicación accede a la lista de equipos y a la lista de chat que usamos para crear canales de equipo en SoapBox con miembros del equipo/chat | Nombre, correo electrónico, id. de usuario de Microsoft de los usuarios para mejorar el aspecto de la aplicación para los usuarios de Microsoft Teams y garantizar que cada usuario pueda participar completamente en el software de reunión. |  |
-
+>| La aplicación accede a la lista de equipos y la lista de chat usamos esto para crear canales de equipo en SoapBox con miembros del equipo / chat | Nombre, correo electrónico, identificador de usuario de Microsoft de los usuarios para mejorar el aspecto de la aplicación para los usuarios de microsoft teams y asegurarse de que cada usuario puede participar plenamente en el software de reunión. |  |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Sí. Name, Email and Microsoft User ID appear within our unified logging platform for a max of 30 days to assist in identifying issues and help users use the platform. Después de 30 días, los datos se quitan de los servidores de registro.
+>Sí. El nombre, el correo electrónico y el ID de usuario de Microsoft aparecen en nuestra plataforma de registro unificada durante un máximo de 30 días para ayudar a identificar problemas y ayudar a los usuarios a usar la plataforma. Después de 30 días, los datos se eliminan de los servidores de registro.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->Nuestra infraestructura principal se almacena en AWS en una red privada. También tenemos bots configurados en Heroku y Azure. El acceso a los servidores está restringido con los requisitos de clave SSH. Todas las solicitudes son a través de SSL (TLS 1.3). Usamos solicitudes firmadas para garantizar que el tráfico de nuestros Bots a la plataforma es seguro. Los datos se cifran en reposo. El personal de operaciones de desarrollo requiere que 2FA acceda a sus cuentas
+>Nuestra infraestructura principal se almacena en AWS en una red privada. También tenemos bots configurados en Heroku y Azure. El acceso a los servidores está restringido con los requisitos de clave SSH. Todas las solicitudes son a través de SSL (TLS 1.3). Utilizamos solicitudes firmadas para garantizar que el tráfico de nuestros Bots a la plataforma sea seguro. Los datos se cifran en reposo. El personal de dev ops requiere que 2FA acceda a sus cuentas
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >Sí
 
@@ -103,9 +101,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35464' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35464' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35464" target="_blank">Ver en una pestaña nueva</a>
 

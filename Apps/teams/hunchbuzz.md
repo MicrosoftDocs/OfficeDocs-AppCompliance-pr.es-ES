@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para HunchBuzz de HunchBuzz
+title: Información de solicitud de HunchBuzz por HunchBuzz
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para HunchBuzz, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para HunchBuzz, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 998abeea286dce3c7a82c40e68695c1fd107aaa7
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: da50e7ef872263bd4d4d159733d631e4ba08f24d
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252550"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552111"
 ---
 # <a name="hunchbuzz"></a>HunchBuzz
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Última actualización por el desarrollador el: 16 de diciembre de 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/6540a8a2-aec9-4094-a93e-0abd086481ab" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/6540a8a2-aec9-4094-a93e-0abd086481ab" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000160" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,13 +34,12 @@ Información proporcionada por HunchBuzz a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | HunchBuzz |
 | ID | WA200000160 |
-| Capacidades | Pestaña, conector |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | HunchBuzz |
-| Dirección URL del sitio web de partners | [https://hunchbuzz.com](https://hunchbuzz.com) |
-| Dirección URL de Teams de información de la aplicación | [https://hunchbuzz.com/contact](https://hunchbuzz.com/contact) |
-| Dirección URL de la directiva de privacidad | [https://hunchbuzz.com/privacy](https://hunchbuzz.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://hunchbuzz.com/termsofservice](https://hunchbuzz.com/termsofservice) |
+| Nombre de la empresa asociada | HunchBuzz |
+| URL del sitio web de socios | [https://hunchbuzz.com](https://hunchbuzz.com) |
+| URL de Teams página de información de la aplicación | [https://hunchbuzz.com/contact](https://hunchbuzz.com/contact) |
+| URL de la Política de Privacidad | [https://hunchbuzz.com/privacy](https://hunchbuzz.com/privacy) |
+| URL de los Términos de uso | [https://hunchbuzz.com/termsofservice](https://hunchbuzz.com/termsofservice) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,42 +47,41 @@ Información proporcionada por HunchBuzz a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-HunchBuzz ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+HunchBuzz ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se utilizan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se tiene acceso a EUII.
-
+>No se accede a LA UEII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Solo la información de EUII capturada es nombre, apellidos y dirección de correo electrónico. Los administradores pueden ver esta información en el registro de auditoría hunchBuzz. No se puede eliminar ni archivar.
+>Sólo la información EUII capturada es nombre, apellido y dirección de correo electrónico. Los administradores pueden ver esta información en el registro de auditoría de HunchBuzz. No se puede eliminar ni archivar.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->Los administradores pueden ver esta información en el registro de auditoría hunchBuzz. No se puede eliminar ni archivar.
+>Los administradores pueden ver esta información en el registro de auditoría de HunchBuzz. No se puede eliminar ni archivar.
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -92,9 +90,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35739' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35739' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35739" target="_blank">Ver en una pestaña nueva</a>
 

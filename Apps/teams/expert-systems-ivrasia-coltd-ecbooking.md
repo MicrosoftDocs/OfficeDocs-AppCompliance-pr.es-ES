@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para ecBooking por Expert Systems IVR(Asia) Co.Ltd.
+title: Información de aplicación para el ecBooking de Expert Systems IVR(Asia) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/28/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para ecBooking, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para ecBooking, sus políticas de control de datos, su Microsoft Cloud App Security información de catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6ec806440fb2ec8c6b0cc79042aee072adc40c05
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 1cdd05e4acfb1c7720af1a2e22b2c6d29425ca60
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252620"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552181"
 ---
 # <a name="ecbooking"></a>ecBooking
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 28, 2020</p>
+<p>Última actualización por el desarrollador el: 28 de diciembre de 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/fe9627db-f23e-42b1-b454-d4d1ca5af33e" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/fe9627db-f23e-42b1-b454-d4d1ca5af33e" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002096" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,13 +34,12 @@ Información proporcionada por Expert Systems IVR(Asia) Co.Ltd. a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | ecBooking |
 | ID | WA200002096 |
-| Capacidades | Pestaña |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Expert Systems IVR(Asia) Co.Ltd. |
-| Dirección URL del sitio web de partners | [https://www.esi-asia.com/](https://www.esi-asia.com/) |
-| Dirección URL de Teams de información de la aplicación | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
-| Dirección URL de la directiva de privacidad | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1510822239639-efecac03-d43200b0-aa88) |
-| DIRECCIÓN URL de términos de uso | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
+| Nombre de la empresa asociada | Expert Systems IVR(Asia) Co.Ltd. |
+| URL del sitio web de socios | [https://www.esi-asia.com/](https://www.esi-asia.com/) |
+| URL de Teams página de información de la aplicación | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/) |
+| URL de la Política de Privacidad | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1510822239639-efecac03-d43200b0-aa88) |
+| URL de los Términos de uso | [https://www.esi-asia.com/product/intelligent-room-booking-s...](https://www.esi-asia.com/product/intelligent-room-booking-system/#1598241760681-29d114e0-5c2b) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,53 +47,52 @@ Información proporcionada por Expert Systems IVR(Asia) Co.Ltd. a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (Delegado/Aplicación)** | **¿Se recopilan datos? ¿Justificación para recogerlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | aplicación | Los datos, como el correo electrónico del usuario, los eventos de usuario se almacenan. Los eventos de usuario se recopilan para comprobar la disponibilidad de salas y crear eventos. | El identificador del evento users, el nombre de la ubicación y otros detalles del evento se almacenarían. Los datos se recopilan para comprobar la disponibilidad de salas y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| Mail.Send | aplicación | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read | delegado | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read.All | aplicación | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| email | delegado | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| OpenID | delegado | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| Calendars.ReadWrite | aplicación | Se almacenan datos como correo electrónico de usuario, eventos de usuario. Los eventos de usuario se recopilan para comprobar la disponibilidad de las salas y crear eventos. | Se almacenarían el IDENTIFICADOR del evento de usuarios, el nombre de la ubicación y los detalles de otros eventos. Los datos se recopilan para comprobar la disponibilidad de las habitaciones y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| Mail.Send | aplicación | Datos como correo electrónico de usuario. El correo electrónico del usuario se recopila para enviar el correo electrónico de recordatorio de reserva de la habitación. | Datos como correo electrónico de usuario. El correo electrónico del usuario se recopila para enviar el correo electrónico de recordatorio de reserva de la habitación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| User.Read | Delegado | Datos como ID de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para iniciar sesión del usuario en la aplicación. | Datos como ID de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para iniciar sesión del usuario en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| User.Read.All | aplicación | Datos como ID de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para iniciar sesión del usuario en la aplicación. | Datos como ID de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para iniciar sesión del usuario en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| email | Delegado | Datos como correo electrónico de usuario. Email del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | Datos como correo electrónico de usuario. Email del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| OpenID | Delegado | Orden de openid del usuario para permitir que el usuario inicie sesión en la aplicación. | Orden de openid del usuario para permitir que el usuario inicie sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se utilizan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se tiene acceso a EUII.
-
+>No se accede a LA UEII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Los datos, como el correo electrónico del usuario, los eventos de usuario se almacenan. 
+>Se almacenan datos como correo electrónico de usuario, eventos de usuario. 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
 >Datos almacenados en la base de datos.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >Sí
 
@@ -104,9 +102,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36415' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36415' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36415" target="_blank">Ver en una pestaña nueva</a>
 
@@ -118,23 +116,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. acerca de cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. acerca de cómo esta aplicación controla la autenticación, autorización, prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido con todas las prácticas recomendadas aplicables descritas en la lista de verificación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación solicita permisos de privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
+| ¿La aplicación admite multi-tenencia? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
+| ¿Es propietario de toda la redirección del identificador unificado de recursos (URI) registrado para la aplicación? | Sí |
+| Para la aplicación, ¿qué evitas usar? | - Uris de redirección comodín,<br/><br/>- Flujo de credenciales de contraseña del propietario de recursos (ROPC) |
+| ¿La aplicación expone alguna API web? | Sí |
+| ¿Su modelo de permisos solo permite que las llamadas se realicen correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

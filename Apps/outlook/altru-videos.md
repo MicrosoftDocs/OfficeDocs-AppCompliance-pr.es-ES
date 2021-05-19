@@ -1,25 +1,25 @@
 ---
-title: Información de la aplicación para vídeos de Altru de Altru
+title: Información de la aplicación para vídeos de Altru por Altru
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Vídeos de Altru, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Altru Videos, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dff51c348e625c76e6a6f41aca8db47539f8fd5a
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 85f884846493c52203d9479277bbdb889a79679e
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52251789"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52552581"
 ---
 # <a name="altru-videos"></a>Vídeos de Altru
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 27, 2021</p>
+<p>Última actualización por el desarrollador el: 27 de febrero de 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200000026" target="_blank">Ver en AppSource</a>
 
@@ -32,12 +32,12 @@ Información proporcionada por Altru a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Vídeos de Altru |
-| ID | WA200000026 |
+| ID | WA2000000026 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
-| Nombre de la compañía asociada | Altru |
-| Dirección URL del sitio web de partners | [https://www.altrulabs.com/](https://www.altrulabs.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Nombre de la empresa asociada | Altru |
+| URL del sitio web de socios | [https://www.altrulabs.com/](https://www.altrulabs.com/) |
+| URL de la Política de Privacidad | [https://www.altrulabs.com/privacy](https://www.altrulabs.com/privacy) |
+| URL de los Términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,49 +45,40 @@ Información proporcionada por Altru a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-Altru ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Altru ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->No se servicios Microsoft no se usan.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-#### <a name="add-in-data-access"></a>Acceso a datos del complemento
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
-Enumerar los permisos que requiere esta aplicación para obtener acceso a los datos de la organización, la justificación y el propósito de este permiso (¿para qué usa la aplicación esta información?) y si la aplicación almacena alguna de esta información en sus bases de datos.
+>No se utilizan servicios Microsoft.
 
->| **Permiso**  | **Descripción** |
->|:----------------|:----------------|
->| Elemento ReadWrite | Este complemento puede tener acceso y modificar la información personal del mensaje activo, como el cuerpo, el asunto, el remitente, los destinatarios y la información de datos adjuntos. Puede enviar estos datos a un servicio de terceros. Otros elementos del buzón de correo&#8217;no se pueden leer ni modificar. |
->| Enviar datos | Puede enviar datos a través de Internet |
+
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
+>No aparece ninguna OII o EUII en la telemetría o registros de aplicaciones.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
 >https://www.icims.com/legal/privacy-notice-website/
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >No
 
@@ -97,9 +88,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470" target="_blank">Ver en una pestaña nueva</a>
 
@@ -111,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Altru ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Altru ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
