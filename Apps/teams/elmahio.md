@@ -6,22 +6,22 @@ ms.date: 03/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para elmah.io, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para elmah.io, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fbb868a75eaa0d3df33587276bf1a59ce68a071d
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 1a4d52ae44362914c3e2094d39f7b109948986a2
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52250728"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553201"
 ---
 # <a name="elmahio"></a>elmah.io
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 10, 2021</p>
+<p>Última actualización por el desarrollador el: 10 de marzo de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/88579a1e-a40e-4ff4-ac0a-789bab11b0a1" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/88579a1e-a40e-4ff4-ac0a-789bab11b0a1" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381965" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,13 +34,12 @@ Información proporcionada por elmah.io a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | elmah.io |
 | ID | WA104381965 |
-| Capacidades | Conector |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | elmah.io |
-| Dirección URL del sitio web de partners | [https://elmah.io](https://elmah.io) |
-| Dirección URL de Teams de información de la aplicación | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
-| Dirección URL de la directiva de privacidad | [https://elmah.io/legal/teams-privacy-policy/](https://elmah.io/legal/teams-privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
+| Nombre de la empresa asociada | elmah.io |
+| URL del sitio web de socios | [https://elmah.io](https://elmah.io) |
+| URL de Teams página de información de la aplicación | [https://docs.elmah.io/elmah-io-apps-teams/](https://docs.elmah.io/elmah-io-apps-teams/) |
+| URL de la Política de Privacidad | [https://elmah.io/legal/teams-privacy-policy/](https://elmah.io/legal/teams-privacy-policy/) |
+| URL de los Términos de uso | [https://elmah.io/legal/terms-of-use/](https://elmah.io/legal/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,48 +47,47 @@ Información proporcionada por elmah.io a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-Esta información ha sido proporcionada por elmah.io acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Elmah.io ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Todo el OII no servicios Microsoft se transfiere a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Intercom, Stripe, Mailchimp, Amazon Web Services | Nombre de la empresa, nombre, correo electrónico | Compartimos el nombre y el correo electrónico de los usuarios con Intercom, Mailchimp y AWS para personalizar los correos electrónicos. Compartimos el nombre de la compañía con Stripe para facturas, etc. |
+>| Intercomunicador, Stripe, Mailchimp, Amazon Web Services | Nombre de la empresa, Nombre, Correo electrónico | Compartimos el nombre y el correo electrónico de los usuarios con Intercom, Mailchimp y AWS para personalizar los correos electrónicos. Compartimos el nombre de la empresa con Stripe para facturas, etc. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se tiene acceso a EUII.
-
+>No se accede a LA UEII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
+>No aparece ninguna OII o EUII en la telemetría o registros de aplicaciones.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->Los usuarios pueden actualizar sus datos personales en todo momento. Los usuarios de prueba que no compran un plan de pago se eliminan automáticamente después de 12 meses desde su registro. Cualquier usuario puede solicitar a través del soporte técnico que se quite. Los usuarios pueden establecer una marca de procesamiento de restricción en su perfil, que ocultará cualquier información personal de nuestro equipo de soporte técnico.
+>Los usuarios pueden actualizar sus datos personales en todo momento. Los usuarios de prueba que no compran un plan de pago se eliminan automáticamente después de 12 meses desde que se inscriban. Cualquier usuario puede pedir a través del soporte para ser eliminado. Los usuarios pueden establecer una marca de procesamiento de restricción en su perfil, que ocultará cualquier información personal de nuestro equipo de soporte.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >No
 
@@ -99,9 +97,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36553' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36553' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36553" target="_blank">Ver en una pestaña nueva</a>
 
@@ -113,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Esta información ha sido proporcionada por elmah.io sobre cómo esta aplicación controla la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información ha sido proporcionada por elmah.io sobre cómo esta aplicación controla la autenticación, autorización, prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

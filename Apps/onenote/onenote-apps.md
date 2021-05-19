@@ -1,24 +1,24 @@
 ---
-title: 'Seguridad y cumplimiento de aplicaciones de Microsoft OneNote: todas las aplicaciones'
+title: Microsoft OneNote Seguridad y cumplimiento de aplicaciones - Todas las aplicaciones
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 05/18/2021
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft OneNote.
+description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Microsoft OneNote.
 localization_priority: Normal
-ms.openlocfilehash: 5eee0373c1af1f94e27d92f9a67e4ab09acbb3f8
-ms.sourcegitcommit: 84c041bf4c0e79f1f3a14c4885ca5acd8709b129
+ms.openlocfilehash: 65f850b61ac1106fc3144491d56a577b4fb46847
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52258977"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553781"
 ---
-# <a name="microsoft-onenote-app-security-and-compliance"></a>Cumplimiento y seguridad de aplicaciones de Microsoft OneNote
+# <a name="microsoft-onenote-app-security-and-compliance"></a>Microsoft OneNote Seguridad y cumplimiento de aplicaciones
 
-Microsoft trabaja con nuestros partners para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y complementos de OneNote que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros socios desarrolladores Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar sobre OneNote aplicaciones y complementos que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
-| **Aplicación** | **Partner** | **Editor atestado** | **Certificado** | **Información de control de datos** | **Cloud App Security** |
-|:--------|:------------|:----------------------:|:-----------------------------:|:----------------------------------:|
-| [officeatwork | Content Chooser for Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | Sí | Sí |
-| [Wunder365 para Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  | Sí | Sí |
+| **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
+|:--------|:------------|:----------------------:|:-------------:|
+| [trabajo de oficina | Selector de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Wunder365 para Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |

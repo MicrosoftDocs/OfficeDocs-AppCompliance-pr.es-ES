@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para Asana de Asana
+title: Información de la aplicación de Asana por Asana
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/02/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Asana, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Asana, sus políticas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f69029ca8c8b2f893808046706abfaa52e8d5124
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: 6c18bb20cdf753b1a5d998b3d7b7144f950f00c0
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52253211"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553411"
 ---
 # <a name="asana"></a>Asana
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 2, 2020</p>
+<p>Última actualización por el desarrollador el: 2 de noviembre de 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/f0e33e18-08fc-4511-a2a7-c6bdff367263" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f0e33e18-08fc-4511-a2a7-c6bdff367263" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001727" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,12 +34,11 @@ Información proporcionada por Asana a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Asana |
 | ID | WA200001727 |
-| Capacidades | Bot, pestaña, extensión de mensajería |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Asana |
-| Dirección URL del sitio web de partners | [https://asana.com/?noredirect&amp;utm_source=asana_inproduct &amp; ut...](https://asana.com/?noredirect&amp;utm_source=asana_inproduct&amp;utm_medium=organic_inproduct&amp;utm_campaign=msft_teams_launch) |
-| Dirección URL de la directiva de privacidad | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
+| Nombre de la empresa asociada | Asana |
+| URL del sitio web de socios | [https://asana.com/?noredirect&amp;utm_source=asana_inproduct &amp; ut...](https://asana.com/?noredirect&amp;utm_source=asana_inproduct&amp;utm_medium=organic_inproduct&amp;utm_campaign=msft_teams_launch) |
+| URL de la Política de Privacidad | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
+| URL de los Términos de uso | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,49 +46,48 @@ Información proporcionada por Asana a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-Esta información ha sido proporcionada por Asana sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Asana ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Todo el OII no servicios Microsoft se transfiere a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| El complemento transfiere información básica de correo electrónico (remitente, recepient, asunto, cuerpo) y datos adjuntos a Asana cuando lo solicita el usuario. |  | Correo electrónico: lee el correo electrónico abierto actualmente cuando se muestra en un panel de tareas. - Lee los datos adjuntos de correo electrónico abiertos actualmente para cargarlos en tareas de Asana. - Esto proporciona a los usuarios la capacidad de realizar tareas rápidamente en Asana con información de correos electrónicos. |
+>| El complemento transfiere información básica de correo electrónico (remitente, recepient, sujeto, cuerpo) y archivos adjuntos a Asana cuando lo solicita el usuario. |  | Correo electrónico: lee el correo electrónico abierto actualmente cuando se muestra en un panel de tareas. - Lee actualmente archivos adjuntos de correo electrónico abiertos para cargarlos en tareas de Asana. - Esto proporciona a los usuarios la capacidad de realizar rápidamente tareas en Asana con información de correos electrónicos. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se tiene acceso a EUII.
-
+>No se accede a LA UEII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Nuestra aplicación solo registra información relacionada con los datos de Asana. La única vez que registramos cualquier cosa relacionada con la información de usuario de Outlook es cuando el usuario adjunta explícitamente un correo electrónico o carga datos adjuntos en Asana, e incluso entonces no registramos el contenido. Los registros a corto plazo existen en servidores que pueden incluir algunos datos de usuario, pero son efímeros y se limitan a períodos inferiores a 72 horas.
+>Nuestra aplicación solo registra información relacionada con los datos de Asana. La única vez que registramos algo relacionado con Outlook información del usuario es cuando el usuario adjunta explícitamente un correo electrónico o carga un archivo adjunto a Asana, e incluso entonces no registramos el contenido. Existen registros a corto plazo en servidores que pueden incluir algunos datos de usuario, pero son efímeros y están limitados a períodos inferiores a 72 horas.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->Enterprise clientes tienen cifrado garantizado en reposo con AES-256. Los datos se almacenan en Amazon Web Services y AWS administra las claves de cifrado mediante su sistema de administración de claves. Tenemos 2FA para todos los administradores. El acceso se da en el principio de privilegios mínimos.
-Los administradores de la organización de Asana tienen la capacidad de configurar SAML, SCIM, cuentas de servicio y tener una vista general de los datos que se ponen en la herramienta. Los administradores pueden solicitar una exportación organizativa completa desde la consola de administración y auditar según sea necesario.
+>Enterprise clientes tienen cifrado garantizado en reposo mediante AES-256. Los datos se almacenan en Amazon Web Services y AWS administra las claves de cifrado mediante su sistema de administración de claves. Tenemos 2FA para todos los administradores. El acceso se da sobre el principio de privilegio mínimo.
+Los administradores de Asana Organizational tienen la capacidad de configurar cuentas SAML, SCIM, Service y tienen una vista general de los datos que se colocan en la herramienta. Los administradores pueden solicitar una exportación completa de la organización desde la consola de administración y la auditoría según sea necesario.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >No
 
@@ -99,9 +97,9 @@ Los administradores de la organización de Asana tienen la capacidad de configur
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/10417" target="_blank">Ver en una pestaña nueva</a>
 

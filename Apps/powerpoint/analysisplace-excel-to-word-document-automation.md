@@ -1,25 +1,25 @@
 ---
-title: Información de la aplicación Excel automatización de documentos de Excel a Word de AnalysisPlace
+title: Información de la aplicación para automatización de documentos Excel a Word por AnalysisPlace
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para la automatización de documentos de Excel a Word, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Excel-a-Word Document Automation, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 14cf8142d1c80fab178aca914d3e999aac5428cf
-ms.sourcegitcommit: 50bd8e07d9355ae65935767a34aca39c46ade8f4
+ms.openlocfilehash: e3f7d7ec2b59ac21a44ca92737e9fbdba4cfdaaa
+ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52252870"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "52553641"
 ---
-# <a name="excel-to-word-document-automation"></a>Excel de documentos de Excel a Word
+# <a name="excel-to-word-document-automation"></a>Automatización de documentos de Excel a Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 15, 2021</p>
+<p>Última actualización por el desarrollador el: 15 de febrero de 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380955" target="_blank">Ver en AppSource</a>
 
@@ -31,13 +31,13 @@ Información proporcionada por AnalysisPlace a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Excel de documentos de Excel a Word |
+| Nombre de la aplicación | Automatización de documentos de Excel a Word |
 | ID | WA104380955 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Word 2016 o posterior en Mac, Word 2016 o posterior en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint 2016 o posterior en Windows, Excel en la Web, Word en la Web, PowerPoint en la Web |
-| Nombre de la compañía asociada | AnalysisPlace |
-| Dirección URL del sitio web de partners | [https://analysisplace.com/](https://analysisplace.com/) |
-| Dirección URL de la directiva de privacidad | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
-| DIRECCIÓN URL de términos de uso | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
+| Nombre de la empresa asociada | AnálisisPlace |
+| URL del sitio web de socios | [https://analysisplace.com/](https://analysisplace.com/) |
+| URL de la Política de Privacidad | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
+| URL de los Términos de uso | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,49 +45,40 @@ Información proporcionada por AnalysisPlace a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-AnalysisPlace ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+AnalysisPlace ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->No se servicios Microsoft no se usan.
+>Esta aplicación no utiliza Microsoft Graph.
 
 
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
-#### <a name="add-in-data-access"></a>Acceso a datos del complemento
+Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
 
-Enumerar los permisos que requiere esta aplicación para obtener acceso a los datos de la organización, la justificación y el propósito de este permiso (¿para qué usa la aplicación esta información?) y si la aplicación almacena alguna de esta información en sus bases de datos.
+>No se utilizan servicios Microsoft.
 
->| **Permiso**  | **Descripción** |
->|:----------------|:----------------|
->| ReadWrite Document | Puede leer y realizar cambios en el documento |
->| Enviar datos | Puede enviar datos a través de Internet |
+
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Se almacenan el nombre de usuario, el nombre de la compañía y el correo electrónico. Se quitan para las cuentas que han estado inactivas durante 2 años.
+>Se almacenan el nombre de usuario, el nombre de la empresa y el correo electrónico. Se eliminan para las cuentas que han estado inactivas durante 2 años.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->N/A
+>N/D
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
 
 >Sí
 
@@ -97,9 +88,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/29278" target="_blank">Ver en una pestaña nueva</a>
 
@@ -111,22 +102,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-AnalysisPlace ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+AnalysisPlace ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido con todas las prácticas recomendadas aplicables descritas en la lista de verificación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
+| ¿La aplicación admite multi-tenencia? | No |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
+| ¿Es propietario de toda la redirección del identificador unificado de recursos (URI) registrado para la aplicación? | Sí |
+| ¿La aplicación expone alguna API web? | Sí |
+| ¿Su modelo de permisos solo permite que las llamadas se realicen correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para shortlinks por ChitChattr
+title: Información de la aplicación para TeamGether por EFFENCY
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/07/2021
+ms.date: 04/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Shortlinks, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para TeamGether, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: fd20b08617862fd84cd015db424b92322e5dffed
+ms.openlocfilehash: 4856abc549692b7963c9a21c2c073133626a78ea
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553261"
+ms.locfileid: "52553356"
 ---
-# <a name="shortlinks"></a>Shortlinks
+# <a name="teamgether"></a>TeamGether
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización por el desarrollador el: 7 de enero de 2021</p>
+<p>Última actualización por el desarrollador el: 16 de abril de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/9286ce7b-90f2-46f8-b189-0909fe95c273" target="_blank">Ver en Teams tienda</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001846" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/5a0547cc-ea63-4425-acc8-08b89a8fc1a1" target="_blank">Ver en Teams tienda</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002660" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por ChitChattr a Microsoft:
+Información proporcionada por EFFENCY a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Shortlinks |
-| ID | WA200001846 |
+| Nombre de la aplicación | TeamGether |
+| ID | WA200002660 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la empresa asociada | ChitChattr |
-| URL del sitio web de socios | [https://www.chitchattr.com?p=shortlinks](https://www.chitchattr.com?p=shortlinks) |
-| URL de Teams página de información de la aplicación | [https://www.chitchattr.com/shortlinks/](https://www.chitchattr.com/shortlinks/) |
-| URL de la Política de Privacidad | [https://www.chitchattr.com/privacy?p=shortlinks](https://www.chitchattr.com/privacy?p=shortlinks) |
-| URL de los Términos de uso | [https://www.chitchattr.com/termsofuse?p=shortlinks](https://www.chitchattr.com/termsofuse?p=shortlinks) |
+| Nombre de la empresa asociada | EFE |
+| URL del sitio web de socios | [https://www.effency.fr](https://www.effency.fr) |
+| URL de Teams página de información de la aplicación | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
+| URL de la Política de Privacidad | [https://www.effency.fr/protection-des-donnees](https://www.effency.fr/protection-des-donnees) |
+| URL de los Términos de uso | [https://www.effency.fr/conditions-generales](https://www.effency.fr/conditions-generales) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Información proporcionada por ChitChattr a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
 
-ChitChattr ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
+EFFENCY ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
@@ -57,13 +57,6 @@ Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permi
 
 >Esta aplicación no utiliza Microsoft Graph.
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos mediante otras API de Microsoft
-
-Las aplicaciones y complementos basados en Microsoft 365 pueden usar API de Microsoft adicionales distintas de Microsoft Graph recopilar o procesar información de identificación organizacional (OII). Enumere las API de Microsoft distintas de Microsoft Graph que usa esta aplicación.
-
->| **API** |  **¿Se recoge OII?** |  **¿Qué OII se recoge?** | **¿Justificación para cobrar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Servicios de Bot Framework | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
 
@@ -75,20 +68,22 @@ Si la aplicación transfiere o comparte datos de organización con servicios que
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
 
->No se accede a LA UEII.
+>| **¿Justificación para acceder a la EUII?**  | **¿Euii se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>|:--------------------------------|:---------------------|:--------------------------|
+>| Utilizamos el nombre del usuario para personalizar nuestros mensajes y la dirección de correo electrónico del usuario se almacena en la base de datos para que podamos enviarles correos electrónicos si es necesario. | Nombre, apellidos y dirección de correo electrónico | Utilizamos el nombre del usuario para personalizar nuestros mensajes y la dirección de correo electrónico del usuario se almacena en la base de datos para que podamos enviarles correos electrónicos si es necesario. |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
 ¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->No aparece ninguna OII o EUII en la telemetría o registros de aplicaciones.
+>La dirección de correo electrónico del usuario puede aparecer en los registros y se almacena en la base de datos. Los registros se purgan después de 7 días y los datos de la base de datos se mantienen indefinidamente, a menos que lo solicite el usuario.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
 
 ¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
 
->Solo usamos servicios hospedados en Azure (incluido Mongo Atlas) y tenemos control total sobre los datos de estos servicios.
+>No usamos los datos de los socios
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
 
@@ -104,9 +99,9 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38160" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +111,7 @@ A continuación aparece información del catálogo [de Microsoft Cloud App Secur
 
 ### <a name="identity-information"></a>Información de identidad
 
-ChitChattr ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
+EFFENCY ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
