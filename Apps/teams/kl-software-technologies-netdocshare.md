@@ -1,12 +1,12 @@
 ---
-title: Información de la aplicación netDocShare by KL Software Technologies
+title: Información de aplicaciones para netDocShare de TECNOLOGÍAS de software DE KIT
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para netDocShare, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para netDocShare, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: a3d27c85d6ceadf6f2cbf8d7c9b1449b95dc8327
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,26 +19,26 @@ ms.locfileid: "52552031"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización por el desarrollador el: 23 de junio de 2020</p>
+<p>Last updated by the developer on: June 23, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">Ver en Teams tienda</a>
+* <a href="https://teams.microsoft.com/l/app/f1a2add5-d007-4062-a10a-60f4ea29fdbc" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001619" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por KL Software Technologies a Microsoft:
+Información proporcionada por TECNOLOGÍAS DE SOFTWARE DE KL a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | netDocShare |
 | ID | WA200001619 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la empresa asociada | KL Software Technologies |
-| URL del sitio web de socios | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
-| URL de la Política de Privacidad | [https://www.netdocshare.com/privacy-policy/](https://www.netdocshare.com/privacy-policy/) |
-| URL de los Términos de uso | [https://www.netdocshare.com/terms-of-use/](https://www.netdocshare.com/terms-of-use/) |
+| Nombre de la compañía asociada | KL Software Technologies |
+| Dirección URL del sitio web de partners | [https://www.netdocshare.com/](https://www.netdocshare.com/) |
+| Dirección URL de la directiva de privacidad | [https://www.netdocshare.com/privacy-policy/](https://www.netdocshare.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.netdocshare.com/terms-of-use/](https://www.netdocshare.com/terms-of-use/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,45 +46,45 @@ Información proporcionada por KL Software Technologies a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-KL Software Technologies ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por KIT Software Technologies sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->Esta aplicación no utiliza Microsoft Graph.
+>Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se utilizan servicios Microsoft.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->No se accede a LA UEII.
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Sí. Almacenamos EUII y OII en noSQL Mongo DB personalizado alojado en Microsoft Azure. Una vez que el cliente suspenda su suscripción eliminaremos esta información de la base de datos anterior.
+>Sí. Almacenamos EUII y OII en la base de datos mongo de NoSQL personalizada hospedada en Microsoft Azure. Una vez que el cliente suspenda su suscripción, eliminaremos esta información de la base de datos anterior.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
-¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los datos de la aplicación se almacenan en NoSQL Mongo DB hospedado en Microsoft Azure. Los datos se cifran y solo dos administradores de nuestro inquilino de Azure tienen acceso a ellos. 2FA está habilitado para todas las cuentas de administrador y ambas cuentas de administrador son cuentas de usuario corporativas de Azure AD
+>Los datos de la aplicación se almacenan en NoSQL Mongo DB hospedados en Microsoft Azure. Los datos están cifrados y solo dos administradores de nuestro inquilino de Azure tienen acceso a ellos. 2FA está habilitado para todas las cuentas de administración y ambas cuentas de administración son cuentas de usuario corporativas de Azure AD
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
 >Sí
 
@@ -94,9 +94,9 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 ::: zone pivot="mcas"
 
-A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35898" target="_blank">Ver en una pestaña nueva</a>
 

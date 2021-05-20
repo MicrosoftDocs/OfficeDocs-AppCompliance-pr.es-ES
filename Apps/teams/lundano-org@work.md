@@ -6,7 +6,7 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Org@Work, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Org@Work, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 68f59afdc79ae00f1643f9f2ce5650e06392d2a3
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,9 +19,9 @@ ms.locfileid: "52551981"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador el: 22 de marzo de 2021</p>
+<p>Last updated by the developer on: March 22, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b9f5d3b0-424e-473d-bcbe-dd01f17f9a41" target="_blank">Ver en Teams tienda</a>
+* <a href="https://teams.microsoft.com/l/app/b9f5d3b0-424e-473d-bcbe-dd01f17f9a41" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002461" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -35,11 +35,11 @@ Información proporcionada por Lundano a Microsoft:
 | Nombre de la aplicación | Org@Work |
 | ID | WA200002461 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la empresa asociada | Lundano |
-| URL del sitio web de socios | [https://www.lundano.com/orgatwork/](https://www.lundano.com/orgatwork/) |
-| URL de Teams página de información de la aplicación | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
-| URL de la Política de Privacidad | [https://cp.lundano.com/privacy_en.html](https://cp.lundano.com/privacy_en.html) |
-| URL de los Términos de uso | [https://cp.lundano.com/terms.html](https://cp.lundano.com/terms.html) |
+| Nombre de la compañía asociada | Lundano |
+| Dirección URL del sitio web de partners | [https://www.lundano.com/orgatwork/](https://www.lundano.com/orgatwork/) |
+| Dirección URL de Teams de información de la aplicación | [https://www.lundano.com/orgatwork/index.html#](https://www.lundano.com/orgatwork/index.html#) |
+| Dirección URL de la directiva de privacidad | [https://cp.lundano.com/privacy_en.html](https://cp.lundano.com/privacy_en.html) |
+| DIRECCIÓN URL de términos de uso | [https://cp.lundano.com/terms.html](https://cp.lundano.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,53 +47,53 @@ Información proporcionada por Lundano a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Lundano ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Lundano ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (Delegado/Aplicación)** | **¿Se recopilan datos? ¿Justificación para recogerlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | Delegado | Estamos almacenando datos. Sólo utilizamos los datos para iniciar sesión en el usuario en Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| email | Delegado | Estamos almacenando datos. Sólo utilizamos los datos para iniciar sesión en el usuario en Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| offline_access | Delegado | Estamos almacenando datos. Sólo utilizamos los datos para iniciar sesión en el usuario en Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| OpenID | Delegado | Estamos almacenando datos. Sólo utilizamos los datos para iniciar sesión en el usuario en Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| perfil | Delegado | Estamos almacenando datos. Sólo utilizamos los datos para iniciar sesión en el usuario en Org@work | ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| User.Read | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| email | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| offline_access | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| OpenID | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| perfil | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se utilizan servicios Microsoft.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a la EUII?**  | **¿Euii se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Botànech debe mencionar el nombre del empleado para que su gerente de planificación lo confirme | Apellidos del &amp; empleado, dirección de correo electrónico, lugar de trabajo y organización | Estas informaciones son necesarias por Org@Work gestor de planificación para completar el &amp; flujo de trabajo de procesos |
+>| Bot push needs to mention employee's name for its planning manager to confirm it | Apellidos de los &amp; empleados, dirección de correo electrónico, lugar de trabajo y organización | Esta información es necesaria por el Org@Work de planeación para completar el flujo de trabajo del &amp; proceso |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->No aparece ninguna OII o EUII en la telemetría o registros de aplicaciones.
+>No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
-¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Política de usuario final, acuerdo contractual y supresión
+>Directiva de usuario final, contrato y eliminación
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
 >No
 
@@ -103,9 +103,9 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 ::: zone pivot="mcas"
 
-A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36914' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36914' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36914" target="_blank">Ver en una pestaña nueva</a>
 
@@ -117,23 +117,23 @@ A continuación aparece información del catálogo [de Microsoft Cloud App Secur
 
 ### <a name="identity-information"></a>Información de identidad
 
-Lundano ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, las prácticas recomendadas de registro de aplicaciones y otros criterios de identidad.
+Lundano ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todas las prácticas recomendadas aplicables descritas en la lista de verificación de integración de Plataforma de identidad de Microsoft?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumere los tipos de directivas admitidas | Empleado, Gerente de Planificación y Administrador |
-| ¿La aplicación solicita permisos de privilegios mínimos para su escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
-| ¿La aplicación admite multi-tenencia? | Sí |
+| Enumerar los tipos de directivas admitidas | Empleado, administrador de planeación y administrador |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de toda la redirección del identificador unificado de recursos (URI) registrado para la aplicación? | Sí |
-| Para la aplicación, ¿qué evitas usar? | - Uris de redirección comodín,<br/>- OAuth2 Flow implícitas, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña del propietario de recursos (ROPC) |
-| ¿La aplicación expone alguna API web? | No |
-| ¿La aplicación usa API de vista previa? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

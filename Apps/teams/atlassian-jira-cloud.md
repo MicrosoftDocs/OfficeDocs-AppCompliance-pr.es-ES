@@ -1,12 +1,12 @@
 ---
-title: Información de la aplicación Jira Cloud by Atlassian
+title: Información de la aplicación para Jira Cloud de Atlassian
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud, sus políticas de gestión de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 07d5a5c25ff013e1fb6f060f51fdb92629901cb3
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,9 +19,9 @@ ms.locfileid: "52553401"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización por el desarrollador el: 16 de diciembre de 2019</p>
+<p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa183fd9-7104-46c4-af9f-9ee9b81d717e" target="_blank">Ver en Teams tienda</a>
+* <a href="https://teams.microsoft.com/l/app/aa183fd9-7104-46c4-af9f-9ee9b81d717e" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002140" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -35,10 +35,10 @@ Información proporcionada por Atlassian a Microsoft:
 | Nombre de la aplicación | Jira Cloud |
 | ID | WA200002140 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la empresa asociada | Atlassian |
-| URL del sitio web de socios | [https://marketplace.atlassian.com/apps/1217836/microsoft-te...](https://marketplace.atlassian.com/apps/1217836/microsoft-teams-for-jira) |
-| URL de la Política de Privacidad | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| URL de los Términos de uso | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
+| Nombre de la compañía asociada | Atlassian |
+| Dirección URL del sitio web de partners | [https://marketplace.atlassian.com/apps/1217836/microsoft-te...](https://marketplace.atlassian.com/apps/1217836/microsoft-teams-for-jira) |
+| Dirección URL de la directiva de privacidad | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://www.atlassian.com/licensing/marketplace/termsofuse](https://www.atlassian.com/licensing/marketplace/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,63 +46,63 @@ Información proporcionada por Atlassian a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Atlassian ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Atlassian ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->Esta aplicación no utiliza Microsoft Graph.
+>Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se utilizan servicios Microsoft.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->No se accede a LA UEII.
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->No almacenamos ninguna EUII u OII. 
+>No almacenamos ningún EUII ni OII. 
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
-¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Usted tiene ciertas opciones a su disposición cuando se trata de su información. A continuación se muestra un resumen de esas opciones, cómo ejercerlas y cualquier limitación.
+>Tiene ciertas opciones disponibles cuando se trata de su información. A continuación se muestra un resumen de esas opciones, cómo ejercerlas y cualquier limitación.
 
-Sus opciones: Usted tiene derecho a solicitar una copia de su información, a oponerse a nuestro uso de su información (incluso con fines de marketing), a solicitar la eliminación o restricción de su información, o a solicitar su información en un formato estructurado y electrónico. A continuación, describimos las herramientas y procesos para realizar estas solicitudes. Puede ejercer algunas de las opciones iniciando sesión en los Servicios y utilizando la configuración disponible dentro de los Servicios o su cuenta. Cuando un administrador administra los Servicios (consulte &quot; &quot; Aviso a los usuarios finales a &quot; &quot; continuación), es posible que deba ponerse en contacto con el administrador para ayudarle primero con sus solicitudes. Para todas las demás solicitudes, puede ponerse en contacto con nosotros según lo dispuesto en la sección Contáctenos a continuación para solicitar ayuda.
+Sus opciones: tiene derecho a solicitar una copia de su información, a oponerse al uso de su información (incluidos los fines de marketing), a solicitar la eliminación o restricción de su información, o a solicitar su información en un formato electrónico estructurado. A continuación, describimos las herramientas y procesos para realizar estas solicitudes. Puede ejercer algunas de las opciones iniciando sesión en los Servicios y usando la configuración disponible en los Servicios o su cuenta. Cuando un administrador administre los Servicios por usted (consulte Aviso a los usuarios finales a continuación), es posible que deba ponerse en contacto con el administrador para ayudarle primero con &quot; &quot; &quot; &quot; sus solicitudes. Para todas las demás solicitudes, puede ponerse en contacto con nosotros tal como se proporciona en la sección Póngase en contacto con nosotros a continuación para solicitar asistencia.
 
-Su solicitud y sus elecciones pueden estar limitadas en ciertos casos: por ejemplo, si el cumplimiento de su solicitud revelaría información sobre otra persona, o si usted pide eliminar la información que nosotros o su administrador estamos autorizados por la ley o tenemos intereses legítimos convincentes que mantener. Cuando nos haya pedido que compartamos datos con terceros, por ejemplo, mediante la instalación de aplicaciones de terceros, deberá ponerse en contacto directamente con esos proveedores de servicios externos para que su información sea eliminada o restringida de otro modo. Si tiene inquietudes no resueltas, puede tener derecho a presentar una queja ante una autoridad de protección de datos en el país donde vive, dónde trabaja o donde siente que se han infringido sus derechos.
+Su solicitud y opciones pueden ser limitadas en ciertos casos: por ejemplo, si cumplir su solicitud revelaría información sobre otra persona, o si solicita eliminar información que la ley permite a nosotros o a su administrador o si tiene intereses legítimos convincentes que conservar. Cuando nos haya pedido que compartamos datos con terceros, por ejemplo, instalando aplicaciones de terceros, tendrá que ponerse en contacto con esos proveedores de servicios de terceros directamente para que su información se elimine o se restringa de otro modo. Si tiene problemas sin resolver, es posible que tenga derecho a presentar una queja ante una autoridad de protección de datos en el país donde vive, donde trabaja o donde sienta que se han vulnerado sus derechos.
 
-Acceda y actualice su información: Nuestros Servicios y documentación relacionada le ofrecen la posibilidad de acceder y actualizar cierta información sobre usted desde el Servicio. Por ejemplo, puede acceder a la información de su perfil desde su cuenta y buscar contenido que contenga información sobre usted mediante búsquedas de palabras clave en el Servicio. Puede actualizar la información de su perfil dentro de la configuración de su perfil y modificar el contenido que contiene información sobre usted mediante las herramientas de edición asociadas a ese contenido.
+Obtener acceso y actualizar su información: Nuestros servicios y documentación relacionada le ofrecen la capacidad de obtener acceso y actualizar cierta información sobre usted desde el Servicio. Por ejemplo, puede obtener acceso a la información de su perfil desde su cuenta y buscar contenido que contenga información sobre usted mediante búsquedas de palabras clave en el servicio. Puede actualizar la información de perfil dentro de la configuración de su perfil y modificar el contenido que contiene información sobre usted mediante las herramientas de edición asociadas con ese contenido.
 
-Desactivar su cuenta: Si ya no desea utilizar nuestros Servicios, usted o su administrador pueden desactivar su cuenta de Servicios. Si puedes desactivar tu propia cuenta, esa configuración está disponible para ti en la configuración de tu cuenta. De lo contrario, póngase en contacto con su administrador. Si usted es un administrador y no puede desactivar una cuenta a través de la configuración de administrador, póngase en contacto con el soporte técnico de Atlassian. Tenga en cuenta que desactivar su cuenta no elimina su información; su información permanece visible para otros usuarios del Servicio en función de su participación anterior dentro de los Servicios. Para obtener más información sobre cómo eliminar su información, consulte a continuación.   
+Desactivar su cuenta: si ya no desea usar nuestros Servicios, es posible que usted o su administrador puedan desactivar su cuenta de Servicios. Si puedes desactivar tu propia cuenta, esa configuración está disponible en la configuración de la cuenta. De lo contrario, póngase en contacto con el administrador. Si es administrador y no puede desactivar una cuenta a través de la configuración del administrador, póngase en contacto con el soporte técnico de Atlassian. Tenga en cuenta que la desactivación de su cuenta no elimina su información; la información permanece visible para otros usuarios del Servicio en función de su participación anterior en los Servicios. Para obtener más información sobre cómo eliminar la información, vea a continuación.   
 
-Eliminar su información: Nuestros Servicios y documentación relacionada le ofrecen la posibilidad de eliminar cierta información sobre usted desde dentro del Servicio. Por ejemplo, puede eliminar contenido que contenga información sobre usted mediante las herramientas clave de búsqueda y edición de palabras asociadas a ese contenido y puede eliminar cierta información de perfil dentro de la configuración de su perfil. Tenga en cuenta, sin embargo, que es posible que necesitemos conservar cierta información con fines de mantenimiento de registros, completar transacciones o cumplir con nuestras obligaciones legales.   
+Elimine su información: Nuestros servicios y documentación relacionada le ofrecen la capacidad de eliminar cierta información sobre usted desde dentro del Servicio. Por ejemplo, puede quitar el contenido que contiene información sobre usted mediante las herramientas clave de búsqueda y edición de palabras asociadas con ese contenido y puede quitar cierta información de perfil dentro de la configuración del perfil. Sin embargo, tenga en cuenta que es posible que deba conservar cierta información con fines de conservación de registros, para completar transacciones o para cumplir con nuestras obligaciones legales.   
 
-Solicitar que dejemos de usar su información: En algunos casos, puede solicitarnos que dejemos de acceder, almacenar, usar y procesar su información cuando crea que no tenemos los derechos adecuados para hacerlo. Por ejemplo, si cree que se creó una cuenta de Servicios sin su permiso o ya no es un usuario activo, puede solicitar que eliminemos su cuenta como se proporciona en esta política. Cuando nos dio su consentimiento para utilizar su información con un propósito limitado, puede ponerse en contacto con nosotros para retirar ese consentimiento, pero esto no afectará a ningún procesamiento que ya haya tenido lugar en ese momento. También puede excluirse de nuestro uso de su información con fines de marketing poniéndose en contacto con nosotros, como se indica a continuación. Cuando usted hace tales solicitudes, es posible que necesitemos tiempo para investigar y facilitar su solicitud. Si hay retraso o disputa en cuanto a si tenemos derecho a seguir utilizando su información, restringiremos cualquier uso adicional de su información hasta que se honré la solicitud o se resuelva la disputa, siempre que su administrador no se oponga (cuando corresponda). Si te opones a la información sobre que te comparten con una aplicación de terceros, deshabilite la aplicación o póngase en contacto con el administrador para hacerlo.
+Solicite que dejemos de usar su información: en algunos casos, puede solicitarnos que dejemos de acceder, almacenar, usar y procesar su información cuando crea que no tenemos los derechos adecuados para hacerlo. Por ejemplo, si cree que se creó una cuenta de Servicios sin su permiso o si ya no es un usuario activo, puede solicitar que eliminemos su cuenta como se proporciona en esta directiva. Cuando nos haya dado su consentimiento para usar su información con un propósito limitado, puede ponerse en contacto con nosotros para retirar ese consentimiento, pero esto no afectará a ningún procesamiento que ya se haya realizado en el momento. También puede optar por no usar su información con fines de marketing contactando con nosotros, tal como se proporciona a continuación. Al realizar dichas solicitudes, es posible que necesitemos tiempo para investigar y facilitar la solicitud. Si hay retraso o disputa en cuanto a si tenemos derecho a seguir usando su información, restringiremos cualquier uso adicional de su información hasta que la solicitud se atienda o se resuelva la disputa, siempre que el administrador no se oponerse (cuando corresponda). Si te opones a la información que se comparte con una aplicación de terceros, deshabilita la aplicación o ponte en contacto con el administrador para hacerlo.
 
-Exclusión voluntaria de las comunicaciones: Puede optar por no recibir comunicaciones promocionales de nuestra parte mediante el enlace de cancelación de suscripción dentro de cada correo electrónico, actualizar sus preferencias de correo electrónico dentro del menú de configuración de su cuenta de servicio o poniéndose en contacto con nosotros como se indica a continuación para que se elimine su información de contacto de nuestra lista de correo electrónico promocional o base de datos de registro.  Incluso después de que opte por no recibir mensajes promocionales de nosotros, continuará recibiendo mensajes transaccionales de nuestra parte con respecto a nuestros Servicios. Puedes excluirte de algunos mensajes de notificación en la configuración de tu cuenta. 
+No participar en las comunicaciones: puede optar por no recibir comunicaciones promocionales de nuestra parte mediante el vínculo cancelar suscripción dentro de cada correo electrónico, actualizar sus preferencias de correo electrónico dentro del menú configuración de la cuenta de servicio o ponerse en contacto con nosotros como se proporciona a continuación para que su información de contacto se quite de nuestra lista de correo electrónico promocional o base de datos de registro.  Incluso después de que opte por no recibir mensajes promocionales de nosotros, seguirá recibiendo mensajes transaccionales de nosotros con respecto a nuestros Servicios. Puedes desactivar algunos mensajes de notificación en la configuración de tu cuenta. 
 
-Es posible que pueda optar por no recibir anuncios personalizados de otras empresas que son miembros de la Iniciativa de Publicidad en Red o que se suscriben a los Principios de Self-Regulatory de publicidad digital para la publicidad conductual en línea. Para obtener más información sobre esta práctica y para comprender sus opciones, visite: https://www.aboutads.info , https://optout.networkadvertising.org/ y https://www.youronlinechoices.eu . 
+Puede optar por no recibir anuncios personalizados de otras empresas que son miembros de la Iniciativa de publicidad en red o que se suscriben a los Principios de Self-Regulatory de la Alianza de publicidad conductual en línea. Para obtener más información acerca de esta práctica y para comprender sus opciones, visite: https://www.aboutads.info y https://optout.networkadvertising.org/ https://www.youronlinechoices.eu . 
 
-Desactivar controles de cookies: los controles de cookies relevantes basados en navegador se describen en nuestro Aviso de &amp; seguimiento de cookies.
+Desactivar controles de cookies: los controles de cookies relevantes basados en explorador se describen en nuestro Aviso de &amp; seguimiento de cookies.
 
-Enviar &quot; &quot; señales de no &quot; &quot; rastrear: Algunos navegadores han incorporado &quot; &quot; características de No rastrear &quot; &quot; (DNT) que pueden enviar una señal a los sitios web que visita indicando que no desea ser rastreado. Debido a que todavía no hay una comprensión común de cómo interpretar la señal DNT, nuestros Servicios no responden actualmente a las señales DNT del navegador. Puede utilizar la gama de otras herramientas que proporcionamos para controlar la recopilación y el uso de datos, incluida la capacidad de optar por no recibir marketing de nosotros como se describió anteriormente.
+Enviar no realizar seguimiento de señales: algunos exploradores han incorporado características do &quot; &quot; &quot; &quot; not &quot; &quot; track &quot; &quot; (DNT) que pueden enviar una señal a los sitios web que visita indicando que no desea realizar un seguimiento. Dado que todavía no hay una comprensión común de cómo interpretar la señal DNT, nuestros servicios no responden actualmente a las señales DNT del explorador. Puede usar el rango de otras herramientas que proporcionamos para controlar la recopilación y el uso de datos, incluida la capacidad de optar por no recibir marketing de nosotros como se describió anteriormente.
 
-Portabilidad de datos: La portabilidad de datos es la capacidad de obtener parte de su información en un formato que puede mover de un proveedor de servicios a otro (por ejemplo, cuando transfiere su número de teléfono móvil a otro operador).  Dependiendo del contexto, esto se aplica a parte de su información, pero no a toda su información.  Si lo solicita, le proporcionaremos un archivo electrónico de la información básica de su cuenta y la información que cree en los espacios que tiene bajo su control exclusivo, como su repositorio personal bitbucket.  
+Portabilidad de datos: la portabilidad de datos es la capacidad de obtener parte de la información en un formato que se puede mover de un proveedor de servicios a otro (por ejemplo, al transferir el número de teléfono móvil a otro operador).  Según el contexto, esto se aplica a parte de la información, pero no a toda la información.  Si lo solicita, le proporcionaremos un archivo electrónico de la información básica de la cuenta y la información que cree en los espacios que tiene bajo su único control, como su repositorio de Bitbucket personal.  
 
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -111,9 +111,9 @@ Portabilidad de datos: La portabilidad de datos es la capacidad de obtener parte
 
 ::: zone pivot="mcas"
 
-A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20596" target="_blank">Ver en una pestaña nueva</a>
 

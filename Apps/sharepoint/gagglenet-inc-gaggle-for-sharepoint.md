@@ -1,12 +1,12 @@
 ---
-title: Información de la aplicación gaggle para SharePoint por Gaggle.net, Inc.
+title: Información de aplicación para Gaggle para SharePoint por Gaggle.net, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/03/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Gaggle para SharePoint, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Gaggle para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3678860272fa669d66d53dc650a685a1ed8c5ef2
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -15,11 +15,11 @@ ms.contentlocale: es-ES
 ms.lasthandoff: 05/19/2021
 ms.locfileid: "52553501"
 ---
-# <a name="gaggle-for-sharepoint"></a>Gaggle para SharePoint
+# <a name="gaggle-for-sharepoint"></a>Moverse por SharePoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización por el desarrollador el: 3 de noviembre de 2020</p>
+<p>Last updated by the developer on: November 3, 2020</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104374324" target="_blank">Ver en AppSource</a>
 
@@ -31,13 +31,13 @@ Información proporcionada por Gaggle.net, Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Gaggle para SharePoint |
+| Nombre de la aplicación | Moverse por SharePoint |
 | ID | WA104374324 |
 | Office 365 clientes compatibles | SharePoint 2013 o posterior |
-| Nombre de la empresa asociada | Gaggle.net, Inc. |
-| URL del sitio web de socios | [https://gaggle.net/](https://gaggle.net/) |
-| URL de la Política de Privacidad | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
-| URL de los Términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Nombre de la compañía asociada | Gaggle.net, Inc. |
+| Dirección URL del sitio web de partners | [https://gaggle.net/](https://gaggle.net/) |
+| Dirección URL de la directiva de privacidad | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
+| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -45,40 +45,40 @@ Información proporcionada por Gaggle.net, Inc. a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Esta información ha sido proporcionada por Gaggle.net, Inc. sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Gaggle.net, Inc. proporciona esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->Esta aplicación no utiliza Microsoft Graph.
+>Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se utilizan servicios Microsoft.
+>No se servicios Microsoft no se usan.
 
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Direcciones IP, direcciones de correo electrónico, nombres de usuario. El acceso a toda la telemetría/registro se basa en el esquema de permisos basado en grupos, utilizando Principio de privilegio mínimo. Existen controles de acceso físicos y lógicos para garantizar que se impida el acceso no autorizado a OII y EIUU.
+>Direcciones IP, direcciones de correo electrónico, nombres de usuario. El acceso a toda la telemetría/registro se basa en el esquema de permisos basados en grupos, utilizando el Principio de privilegios mínimos. Existen controles de acceso físicos y lógicos para garantizar que se impide el acceso no autorizado a OII y EIUU.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
-¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Datos almacenados en sistemas de registro a nivel de sistema o en bases de datos. El acceso a todos los datos se basa en el esquema de permisos basado en grupos, utilizando Principio de privilegios mínimos. Existen controles de acceso físicos y lógicos para garantizar que se impida el acceso no autorizado a OII y EIUU.
+>Datos almacenados en sistemas de registro de nivel del sistema o en bases de datos. El acceso a todos los datos se basa en el esquema de permisos basados en grupos, utilizando el Principio de privilegios mínimos. Existen controles de acceso físicos y lógicos para garantizar que se impide el acceso no autorizado a OII y EIUU.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
 >Sí
 
@@ -88,9 +88,9 @@ Si la aplicación transfiere o comparte datos de organización con servicios que
 
 ::: zone pivot="mcas"
 
-A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20688' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/20688' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/20688" target="_blank">Ver en una pestaña nueva</a>
 

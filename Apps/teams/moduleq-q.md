@@ -1,12 +1,12 @@
 ---
-title: Información de la aplicación para Q por ModuleQ
+title: Información de la aplicación para preguntas por moduleQ
 ms.author: elmalova
 author: elenamalova
 ms.date: 03/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Q, sus políticas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para preguntas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3424ac372f46be0fc9834611fb1a0d57c69831a4
 ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
@@ -19,9 +19,9 @@ ms.locfileid: "52551910"
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización por el desarrollador el: 17 de marzo de 2020</p>
+<p>Last updated by the developer on: March 17, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Ver en Teams tienda</a>
+* <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -35,10 +35,10 @@ Información proporcionada por ModuleQ a Microsoft:
 | Nombre de la aplicación | Q |
 | ID | WA104381433 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la empresa asociada | ModuleQ |
-| URL del sitio web de socios | [https://moduleq.com](https://moduleq.com) |
-| URL de la Política de Privacidad | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
-| URL de los Términos de uso | [https://moduleq.com/terms-of-service/](https://moduleq.com/terms-of-service/) |
+| Nombre de la compañía asociada | ModuleQ |
+| Dirección URL del sitio web de partners | [https://moduleq.com](https://moduleq.com) |
+| Dirección URL de la directiva de privacidad | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://moduleq.com/terms-of-service/](https://moduleq.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -46,51 +46,51 @@ Información proporcionada por ModuleQ a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo maneja la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-ModuleQ ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos organizativos y el control que su organización tendrá sobre los datos que recopila la aplicación.
+ModuleQ ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumere los [permisos de Microsoft Graph](https://docs.microsoft.com/graph/permissions-reference) que requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (Delegado/Aplicación)** | **¿Se recopilan datos? ¿Justificación para recogerlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | aplicación | almacena los datos de la reunión, excepto el cuerpo del mensaje y cualquier archivo adjunto | Permite a la aplicación leer los eventos de calendario de un usuario con el fin de comprender inteligentemente las prioridades empresariales del usuario. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Group.Read.All | Delegado | Ninguno | Permite que la aplicación interactúe en un equipo para compartir contenido. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Mail.Read | aplicación | almacena los datos de correo electrónico, excepto el cuerpo del mensaje y cualquier archivo adjunto | Permite a la aplicación leer el correo de un usuario con el fin de comprender inteligentemente las prioridades empresariales del usuario | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read | Delegado | correo electrónico del usuario y tokens de autenticación | Permite al usuario iniciar sesión y vincular su cuenta de Office 365 con su cuenta ModuleQ | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read.All | Delegado | Ninguno | Permita que la aplicación obtenga la lista de Teams de la que forma parte el usuario. Solo se utiliza para compartir  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Calendars.Read | aplicación | almacena datos de reunión, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea los eventos del calendario de un usuario para comprender de forma inteligente las prioridades empresariales del usuario. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Group.Read.All | delegado | Ninguno | Permite que la aplicación interactúe en un equipo para compartir contenido. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| Mail.Read | aplicación | almacena datos de correo electrónico, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea el correo de un usuario para comprender de forma inteligente las prioridades empresariales del usuario | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| User.Read | delegado | tokens de autenticación y correo electrónico del usuario | Permite al usuario iniciar sesión y vincular su Office 365 con su cuenta ModuleQ | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| User.Read.All | delegado | Ninguno | Permitir que la aplicación obtenga la lista de Teams de la que el usuario forma parte. Solo se usa para compartir  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft utilizado
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se utilizan servicios Microsoft.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agrega. ¿Esta aplicación hace uso de esta capacidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->No se accede a LA UEII.
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece alguna información de identificación organizacional (OII) o información identificable por el usuario final (EUII) en la telemetría o los registros de esta aplicación? En caso afirmativo, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Registramos un GUID de usuario interno y nombres y dominios de organización. Por el momento no hay controles de archivado o eliminación.
+>Registramos un GUID de usuario interno y nombres de organización y dominios. No hay controles de archivo o eliminación en este momento.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el socio
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
-¿Describir cómo los administradores de la organización pueden controlar su información en los sistemas asociados? por ejemplo, eliminación, retención, auditoría, archivado, política de usuario final, etc.
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los datos se almacenan en la nube de Microsoft Azure en varios microservicios según su función. Todos los datos identificables por el usuario se cifran en el lado cliente con el cifrado AES-256 antes de transmitir para el almacenamiento. Los datos pueden ser vistos por los ingenieros con fines de depuración con la aprobación de nuestra alta dirección. El acceso a los datos se controla a través de VPN interna.
+>Los datos se almacenan en la nube Microsoft Azure varios microservicios según su función. Todos los datos identificables por el usuario se cifran en el lado cliente con el cifrado AES-256 antes de transmitirse para su almacenamiento. Los ingenieros pueden ver los datos con fines de depuración con la aprobación de nuestra administración superior. El acceso a los datos se controla mediante VPN interna.
 
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información organizacional
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Están los seres humanos involucrados en la revisión o análisis de cualquier información de identificación organizacional (OII) datos que es recogido o almacenado por esta aplicación?
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
 >Sí
 
@@ -100,9 +100,9 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 ::: zone pivot="mcas"
 
-A continuación aparece información del catálogo [de Microsoft Cloud App Security.](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security)
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35844" target="_blank">Ver en una pestaña nueva</a>
 
