@@ -2,24 +2,24 @@
 title: Información de la aplicación para texto por contacto aprobado
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Text, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2cc4abf4924ca9af1ddd5b49b6a38c4427f3404a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8d9e5cfd3b082692656c7bb9a67417564cf7ab57
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552391"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629677"
 ---
 # <a name="text"></a>Texto
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: May 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/a622ceb4-b6e2-4557-8218-e22e80975ba4" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000383" target="_blank">Ver en AppSource</a>
@@ -36,9 +36,9 @@ Información proporcionada por contacto aprobado a Microsoft:
 | ID | WA200000383 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Contacto aprobado |
-| Dirección URL del sitio web de partners | [https://sales.approvedcontact.com/syniverse-microsoft-teams...](https://sales.approvedcontact.com/syniverse-microsoft-teams-text/) |
+| Dirección URL del sitio web de partners | [www.approvedcontact.com](www.approvedcontact.com) |
 | Dirección URL de la directiva de privacidad | [https://sales.approvedcontact.com/wp-content/uploads/text-p...](https://sales.approvedcontact.com/wp-content/uploads/text-privacy-policy.pdf) |
-| DIRECCIÓN URL de términos de uso | [https://sales.approvedcontact.com/wp-content/uploads/text-t...](https://sales.approvedcontact.com/wp-content/uploads/text-terms-of-use.pdf) |
+| DIRECCIÓN URL de términos de uso | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,10 +57,10 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Group.ReadWrite.All | delegado | Para el BOT de texto capturamos el identificador de equipo para crear canales futuros para los mensajes de texto entrantes. | Nos permite crear canales Teams para los usuarios. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| email | delegado |  | Obtener información de contacto del usuario. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| offline_access | delegado | Los tokens de actualización se almacenan en nuestra base de datos. | Se usa para conservar los tokens de actualización en nuestra base de datos para sincronizar calendarios de usuarios cuando no están presentes. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| OpenID | delegado |  | Permite al usuario iniciar sesión. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
->| perfil | delegado |  |  | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| email | delegado | direcciones de correo electrónico | Obtener información de contacto del usuario. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| offline_access | delegado | Los tokens de actualización se almacenan en nuestra base de datos. | Se usa para conservar los tokens de actualización en nuestra base de datos | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| OpenID | delegado | Credenciales de inicio de sesión | Permite al usuario iniciar sesión. para que los textos se puedan entregar en Teams canales | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
+>| perfil | delegado | direcciones de correo electrónico | Obtener información de contacto del usuario. | a622ceb4-b6e2-4557-8218-e22e80975ba4 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -75,7 +75,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Usamos la lista para comparar los tiempos de disponibilidad para que todos los miembros del equipo programen reuniones en un momento de apertura. | Solo almacenamos la dirección de correo electrónico para poder comparar los tiempos de disponibilidad. |  |
+>| Se usa para conservar los tokens de actualización en nuestra base de datos | Almacenamos direcciones de correo electrónico. | Se usa para conservar los tokens de actualización en nuestra base de datos |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -112,3 +112,27 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Esta información ha sido proporcionada por Contacto aprobado acerca de cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

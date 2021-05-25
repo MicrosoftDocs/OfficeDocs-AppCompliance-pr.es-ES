@@ -2,24 +2,23 @@
 title: Información de aplicación para LMS365 por ELEARNINGFORCE International
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/25/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 44ed1631c7d0221b463f518f2494b7a8744eef30
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f8e10bb30857c055ab4916c4f944225d50ef44ba
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552221"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629675"
 ---
 # <a name="lms365"></a>LMS365
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 25, 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Last updated by the developer on: March 18, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/d136f17e-df84-47f2-97a4-13aa24c0c647" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381467" target="_blank">Ver en AppSource</a>
@@ -36,7 +35,7 @@ Información proporcionada por ELEARNINGFORCE International a Microsoft:
 | ID | WA104381467 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ELEARNINGFORCE International |
-| Dirección URL del sitio web de partners | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
+| Dirección URL del sitio web de partners | [https://www.elearningforce.com](https://www.elearningforce.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | Dirección URL de la directiva de privacidad | [https://www.elearningforce.com/privacy](https://www.elearningforce.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://www.elearningforce.com/LMS365-SaaS-Terms](https://www.elearningforce.com/LMS365-SaaS-Terms) |

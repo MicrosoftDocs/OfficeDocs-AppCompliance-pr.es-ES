@@ -2,24 +2,24 @@
 title: Información de la aplicación para bot de calendario por contacto aprobado
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el BOT de calendario, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 7e34564a01f326390ce807373e33818bef877c3e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 48861f5f4c49a424a0740b0a56e6d85107326396
+ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553421"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "52629682"
 ---
 # <a name="calendar-bot"></a>Calendar BOT
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: May 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/f02fddc9-159a-4d58-9800-d94c4f64bfe8" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381271" target="_blank">Ver en AppSource</a>
@@ -36,7 +36,7 @@ Información proporcionada por contacto aprobado a Microsoft:
 | ID | WA104381271 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Contacto aprobado |
-| Dirección URL del sitio web de partners | [https://approvedcontact.com](https://approvedcontact.com) |
+| Dirección URL del sitio web de partners | [www.approvedcontact.com](www.approvedcontact.com) |
 | Dirección URL de la directiva de privacidad | [https://approvedcontact.com/Privacy%20Policy%20Bot.pdf](https://approvedcontact.com/Privacy%20Policy%20Bot.pdf) |
 | DIRECCIÓN URL de términos de uso | [https://approvedcontact.com/Terms%20of%20use.pdf](https://approvedcontact.com/Terms%20of%20use.pdf) |
 
@@ -76,7 +76,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| Usamos la lista para comparar los tiempos de disponibilidad para que todos los miembros del equipo programen reuniones en un momento de apertura. | Solo almacenamos la dirección de correo electrónico para poder comparar los tiempos de disponibilidad. |  |
+>| Usamos la lista para comparar los tiempos de disponibilidad para que todos los miembros del equipo programen reuniones en un momento de apertura. | Solo almacenamos la dirección de correo electrónico. | Solo almacenamos la dirección de correo electrónico para poder comparar los tiempos de disponibilidad. |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -113,3 +113,27 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Esta información ha sido proporcionada por Contacto aprobado acerca de cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
