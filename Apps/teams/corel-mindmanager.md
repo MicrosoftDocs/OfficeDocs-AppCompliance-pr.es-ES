@@ -1,43 +1,44 @@
 ---
-title: Información de la aplicación para CloudExtend Analytics para NetSuite de Celigo CloudExtend
+title: Información de la aplicación para MindManager de Corel
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/19/2021
+ms.date: 05/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para CloudExtend Analytics para NetSuite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para MindManager, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 372534beddc10a260ccd8cf5fcc5a28cd8255e65
+ms.openlocfilehash: d9ed1eab16b73a84dcd3ddc41cc0b716865b9a29
 ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790012"
+ms.locfileid: "52790078"
 ---
-# <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics para NetSuite
+# <a name="mindmanager"></a>MindManager
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 19, 2021</p>
+<p>Last updated by the developer on: May 3, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA200002784" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/cebe4a59-b076-47f3-a7bf-79148daf82f7" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002261" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Celigo CloudExtend a Microsoft:
+Información proporcionada por Corel a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | CloudExtend Analytics para NetSuite |
-| ID | WA200002784 |
-| Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
-| Nombre de la compañía asociada | Celigo CloudExtend |
-| Dirección URL del sitio web de partners | [https://www.cloudextend.io](https://www.cloudextend.io) |
-| Dirección URL de la directiva de privacidad | [https://www.celigo.com/privacy/](https://www.celigo.com/privacy/) |
-| DIRECCIÓN URL de términos de uso | [https://www.cloudextend.io/agreements/ssa/2019-12/](https://www.cloudextend.io/agreements/ssa/2019-12/) |
+| Nombre de la aplicación | MindManager |
+| ID | WA200002261 |
+| Office 365 clientes compatibles | Microsoft Teams |
+| Nombre de la compañía asociada | Corel |
+| Dirección URL del sitio web de partners | [www.mindmanager.com](www.mindmanager.com) |
+| Dirección URL de la directiva de privacidad | [https://www.corel.com/en/corel-privacy-policy/](https://www.corel.com/en/corel-privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.mindjet.com/go/mmcloudterms](https://www.mindjet.com/go/mmcloudterms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,7 +48,7 @@ Información proporcionada por Celigo CloudExtend a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por Corel acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -55,8 +56,12 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | ambos | Leer la colección de sitios para los que el usuario tiene acceso para poder obtener información del libro compartido a través de sitios | almacenar siteid para tener acceso al libro sin conexión. | 7040f194-bf08-400e-acb1-69df7939416a |
->| Files.ReadWrite.All | ambos | Leer el contenido del libro como tablas y hojas y poder escribir contenido en dichas tablas | detalles del libro como la dirección URL web, el identificador del libro y la ubicación del libro para acceder a él sin conexión | 7040f194-bf08-400e-acb1-69df7939416a |
+>| ChannelMessage.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| Chat.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| Files.ReadWrite | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | - datos de perfil: para identificar al usuario y mostrar su perfil - contenido de archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en los archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| Sites.ReadWrite.All | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| User.Read | delegado | datos de perfil: para identificar al usuario y mostrar su perfil | datos de perfil: para identificar al usuario y mostrar su perfil | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| offline_access | delegado | Esto nos permite guardar un archivo en su ubicación original en nombre del usuario más adelante si es necesario. | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -65,21 +70,26 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Chargebee, NetSuite, Salesforce, Intercom, LogRocket, Amazon AWS | Nombre de la organización, número de cuenta de NetSuite, direcciones de correo electrónico del dominio de la organización, información de contacto de facturación | Aprovisionamiento de licencias, validación y facturación Soporte técnico del cliente, solución de problemas y administración de cuentas |
+>| Amazon Web Services | Nombre de la organización, Dominio de la organización | La organización necesita una configuración de cuenta dentro de nuestra infraestructura de aplicaciones para usar la aplicación dentro de Teams |
 
+#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
+
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->dirección de correo electrónico, 
+>No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->N/D
+>Se trata aquí: https://www.mindjet.com/go/mmcloudterms
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -95,9 +105,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/14008' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38778' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/14008" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38778" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +117,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información ha sido proporcionada por Corel sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -118,7 +128,7 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿La aplicación tiene un cliente confidencial? | Sí |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
 | Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
 | ¿Expone la aplicación alguna API web? | Sí |

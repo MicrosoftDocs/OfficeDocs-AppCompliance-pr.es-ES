@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de la aplicación Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 001280a003f107cac7503bc7f680c2f17ced7ef6
-ms.sourcegitcommit: abce882d3e2ca5b9b0b47fc4a26c01e6e111a9b4
+ms.openlocfilehash: 7633d1f172f68ac03427729a62cc7f5f1664ed15
+ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629642"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52790002"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Seguridad y cumplimiento de la aplicación Microsoft Teams
 
@@ -54,6 +54,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Contact Center](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, DIAMOND | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
+| [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Droplr](./droplr.md) | Droplr | **✓** |  |
 | [Dynamic Signal](./dynamic-signal.md) | Dynamic Signal | **✓** |  |
 | [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
@@ -101,6 +102,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [MailClark](./mailclark.md) | MailClark | **✓** |  |
 | [Medxnote MT](./medxnote-mt.md) | Medxnote | **✓** |  |
 | [MeisterTask](./meisterlabs-gmbh-meistertask.md) | MeisterLabs GmbH | **✓** |  |
+| [MindManager](./corel-mindmanager.md) | Corel | **✓** |  |
 | [MindMeister](./meisterlabs-gmbh-mindmeister.md) | MeisterLabs GmbH | **✓** |  |
 | [MindMup](./sauf-pompiers-ltd-mindmup.md) | Sauf Pompiers Ltd | **✓** |  |
 | [MIPA - Your Personal Assistant](./iglobe-mipa-your-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -139,10 +141,12 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
 | [RSpace](./researchspace-rspace.md) | ResearchSpace | **✓** |  |
 | [Saberr](./saberr.md) | Saberr | **✓** |  |
+| [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ScanBuddy.ai](./moblizeit-llc-scanbuddyai.md) | Moblize.it LLC | **✓** |  |
 | [ScrumGenius](./scrumgenius.md) | ScrumGenius | **✓** |  |
 | [SecretaryBot](./mysecretary-secretarybot.md) | MySecretary | **✓** |  |
+| [SelfDrvn](./selfdrvn.md) | SelfDrvn | **✓** |  |
 | [Sensei Labs Conductor](./sensei-labs-inc-conductor.md) | Sensei Labs Inc. | **✓** |  |
 | [Sentry](./sentry.md) | Sentry | **✓** |  |
 | [ServiceDesk Plus Cloud](./zoho-corporation-private-limited-servicedesk-plus-cloud.md) | Zoho Corporation Private Limited | **✓** |  |

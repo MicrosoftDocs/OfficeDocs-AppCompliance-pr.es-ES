@@ -2,24 +2,24 @@
 title: Información de la aplicación para Tikit de Cireson
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/11/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tikit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: de10b787d3e4100972e46efe76050ed0c7df31fd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3c292fa0c8e0ae526c7258f7adc508fcccaeb9d8
+ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553251"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "52789972"
 ---
 # <a name="tikit"></a>Tikit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 11, 2021</p>
+<p>Last updated by the developer on: May 4, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Ver en AppSource</a>
@@ -38,8 +38,8 @@ Información proporcionada por Cireson a Microsoft:
 | Nombre de la compañía asociada | Cireson |
 | Dirección URL del sitio web de partners | [https://tikit.ai](https://tikit.ai) |
 | Dirección URL de Teams de información de la aplicación | [https://tikit.ai](https://tikit.ai) |
-| Dirección URL de la directiva de privacidad | [https://tikit.ai/privacy-statement](https://tikit.ai/privacy-statement) |
-| DIRECCIÓN URL de términos de uso | [https://tikit.ai/terms-service](https://tikit.ai/terms-service) |
+| Dirección URL de la directiva de privacidad | [https://tikit.ai/privacy-statement/](https://tikit.ai/privacy-statement/) |
+| DIRECCIÓN URL de términos de uso | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -64,7 +64,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| User.Read | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
 >| User.Read.All | aplicación | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
 >| User.ReadBasic.All | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
->| email | delegado | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | b13c40ee-e073-459e-96b5-3f3cca046a37 |
+>| correo electrónico | delegado | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | b13c40ee-e073-459e-96b5-3f3cca046a37 |
 >| OpenID | delegado | se usa para la autenticación mediante MSAL por requisitos  | se usa para la autenticación mediante MSAL por requisitos  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
 >| perfil | delegado | se usa para la autenticación mediante MSAL por requisitos  | se usa para la autenticación mediante MSAL por requisitos  | b13c40ee-e073-459e-96b5-3f3cca046a37 |
 
@@ -136,7 +136,8 @@ Cireson ha proporcionado esta información sobre cómo esta aplicación administ
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
-| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Autenticación multifactor, permitir que solo los dispositivos inscritos en Intune accedan a servicios específicos, restringir las ubicaciones de usuario y el intervalo IP |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
