@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación C.AI bot de adopción por contexxt.ai
+title: Información de la aplicación para avanzar el trabajo con Jira por Move Work Forward
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para el bot de adopción de C.AI, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Move Work Forward with Jira, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5e1ad704a7b72a8d3717b7aa1b3d60b23099998
+ms.openlocfilehash: a5ca2ec25650abba3f68a2ec543434c56d3c3d27
 ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/09/2021
-ms.locfileid: "52851600"
+ms.locfileid: "52852149"
 ---
-# <a name="cai-adoption-bot"></a>C.AI Adoption Bot
+# <a name="move-work-forward-with-jira"></a>Avanzar el trabajo con Jira
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 6, 2021</p>
+<p>Last updated by the developer on: May 5, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f5323aab-3063-46cb-b632-ee01d95de494" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002633" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/79ca2e8f-dd2c-40d5-897e-1b22d41038fe" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002855" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por contexxt.ai a Microsoft:
+Información proporcionada por Move Work Forward to Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | C.AI Adoption Bot |
-| ID | WA200002633 |
+| Nombre de la aplicación | Avanzar el trabajo con Jira |
+| ID | WA200002855 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | contexxt.ai |
-| Dirección URL del sitio web de partners | [https://contexxt.ai](https://contexxt.ai) |
-| Dirección URL de Teams de información de la aplicación | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
-| Dirección URL de la directiva de privacidad | [https://contexxt.ai/privacy-policy](https://contexxt.ai/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
+| Nombre de la compañía asociada | Avanzar el trabajo |
+| Dirección URL del sitio web de partners | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.moveworkforward.com/product/microsoft-teams-jir...](https://www.moveworkforward.com/product/microsoft-teams-jira-connector) |
+| Dirección URL de la directiva de privacidad | [https://www.moveworkforward.com/privacy-policy](https://www.moveworkforward.com/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Información proporcionada por contexxt.ai a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Move Work Forward proporciona esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -57,13 +57,12 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | Disponibilidad del usuario anonimizado que puede enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | Anónimos Microsoft Teams de canal, como Privado o no o cantidad de conversaciones por canal para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Chat.Read.All | aplicación | Microsoft Teams de chat, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | Metadatos de chat Microsoft Teams anónimos, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Directory.Read.All | aplicación | Id. de objeto de usuario para poder enviar sugerencias al usuario especular más adelante. | Hashed (anonymized) Object-ID of the user for being able sending tips to specifi user later. | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Group.Read.All | aplicación | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Mail.Read | aplicación | Microsoft Exchange metadatos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | Metadatos de microsoft Exchange anónimos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| User.Read.All | aplicación | Microsoft Teams metadatos de chat y conversación, como si se mencionase a un usuario para analizar el uso de Teams | Anonimizado Microsoft Teams chat y metadatos de conversación, como si se mencionase a un usuario para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
+>| Channel.Create | delegado | Se usa para crear un canal de discusión de problemas. | La dirección URL web del canal recién creado se almacena para mostrarse en Jira para obtener acceso rápido al Microsoft Teams de discusión. | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>| Channel.ReadBasic.All | delegado | El nombre del canal y el identificador se usan para enviar notificaciones de Jira a Microsoft Teams. | El identificador de canal y el nombre se almacenan para configurar las notificaciones de Jira a Microsoft Teams. | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>| Team.ReadBasic.All | delegado | El permiso se usa para permitir que el usuario seleccione uno de estos equipos unidos en Jira. | Id. de equipo y nombre que se mostrarán en la pantalla Configuración de Jira. | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>| TeamsAppInstallation.ReadForTeam | delegado | Lee las aplicaciones Teams instaladas en teams. Al configurar la entrega para Microsoft Teams la aplicación puede enviar a Teams con el Bot instalado. | Nothing | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>| User.Read | delegado | Permite al usuario crear un canal de discusión con compañeros de trabajo y @-mencione en un mensaje de canal | Nothing | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
+>| email | delegado | El correo electrónico se usa para coincidir con usuarios de Atlas y Microsoft | El correo electrónico no se almacena. Solo se usa durante el proceso de coincidencia. | 39d845a0-3fa2-4fba-acc2-61afe40cfcea |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -78,26 +77,26 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:--------------------------------|:---------------------|:--------------------------|
->| En Bot Framework, el identificador de usuario se transmitirá automáticamente al poder comunicarse con el usuario. Los datos de uso adicionales de C.AI Adoption Analytics se usan para individualizar la experiencia de aprendizaje del usuario, por lo tanto, enviar solo sugerencias apropiadas y útiles a los usuarios, que quizás no conozcan estas sugerencias | No |  |
+>| Saluda a los usuarios por su nombre al instalar la aplicación. Coincide Microsoft Teams usuarios de Atlassian. | No |  |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
+>Registramos la dirección URL del inquilino, que se almacena en los registros durante un máximo de 5 días.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Las organizaciones pueden administrar (asignar o quitar) licencias para sus usuarios. Las organizaciones pueden asignar diferentes roles para administrar sus licencias. Los administradores siempre pueden solicitar la eliminación de sus datos.
+>Solo trabajamos con servicios que ofrecen estrictas garantías de privacidad de datos.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->Sí
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,9 +106,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37589' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39108' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37589" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/39108" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -119,7 +118,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Move Work Forward proporciona esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -130,8 +129,9 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
 | ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
 | ¿Expone la aplicación alguna API web? | No |
 | ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
