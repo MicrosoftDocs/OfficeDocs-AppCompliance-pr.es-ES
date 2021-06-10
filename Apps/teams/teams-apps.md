@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de la aplicación Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 7633d1f172f68ac03427729a62cc7f5f1664ed15
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: c4ba6cd0abc0c6a7a026feabdd1a57e688d4a0d1
+ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790002"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52851590"
 ---
 # <a name="microsoft-teams-app-security-and-compliance"></a>Seguridad y cumplimiento de la aplicación Microsoft Teams
 
@@ -28,6 +28,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ApproveSimple](./capriza-inc-approvesimple.md) | Capriza, Inc | **✓** |  |
 | [Asana](./asana.md) | Asana | **✓** |  |
 | [askR.ai](./askrai.md) | askR.ai | **✓** |  |
+| [Ensamblado](./carrothr-inc-assembly.md) | CarrotHR Inc. | **✓** |  |
 | [AtBot](./h3-solutions-inc-atbot.md) | H3 Solutions, Inc. | **✓** |  |
 | [atSpoke](./townsend-street-labs-inc-atspoke.md) | Townsend Street Labs, Inc. | **✓** |  |
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  |
@@ -40,12 +41,15 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Bonusly](./bonusly.md) | Bonusly | **✓** |  |
 | [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  |
+| [Sondeo claro](./chat-apps-llc-bright-poll.md) | Chat Apps, LLC | **✓** |  |
 | [Brightidea](./brightidea.md) | Brightidea | **✓** |  |
+| [Difusión](./cerkl-broadcast.md) | Cerkl | **✓** |  |
 | [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  |
 | [Calendar BOT](./approved-contact-calendar-bot.md) | Contacto aprobado | **✓** |  |
 | [CalendarHero](./calendarhero-inc.md) | CalendarHero Inc | **✓** |  |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
+| [ChurnZero](./churnzero.md) | ChurnZero | **✓** |  |
 | [Reuniones de Cisco Webex](./cisco-webex-meetings.md) | Reuniones de Cisco Webex | **✓** |  |
 | [Clever Ads](./clever-ads.md) | Clever Ads | **✓** |  |
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
@@ -107,6 +111,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [MindMup](./sauf-pompiers-ltd-mindmup.md) | Sauf Pompiers Ltd | **✓** |  |
 | [MIPA - Your Personal Assistant](./iglobe-mipa-your-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [monday.com](./mondaycom.md) | monday.com | **✓** |  |
+| [Avance el trabajo con Jira](./move-work-forward-with-jira.md) | Avance el trabajo | **✓** |  |
 | [MURAL](./mural.md) | MURAL | **✓** |  |
 | [Mybys](./facilis-mybys.md) | Facilis | **✓** |  |
 | [MyHub](./avepoint-inc-myhub.md) | AvePoint, inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -125,6 +130,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Perfony](./perfony.md) | Perfony | **✓** |  |
 | [Piazza](./piazza.md) | Piazza | **✓** |  |
 | [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  |
+| [PlayQuiz - Aprende &amp; Juega](./teamschamp-playquiz-aprende-and-juega.md) | TeamsChamp | **✓** |  |
 | [Polly](./polly.md) | Polly | **✓** |  |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -132,6 +138,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Q](./moduleq-q.md) | ModuleQ | **✓** |  |
 | [qbo](./unscrambl-qbo.md) | Unscrambl | **✓** |  |
 | [qChange Leader Experience](./qchange-software-solution-inc-leader-experience.md) | qChange Software Solution, Inc. | **✓** |  |
+| [Cualificado](./qualified.md) | Cualificado | **✓** |  |
 | [Qubie](./qubie.md) | Qubie | **✓** |  |
 | [Quicklinks](./chitchattr-quicklinks.md) | ChitChattr | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
