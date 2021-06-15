@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindManager, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d9ed1eab16b73a84dcd3ddc41cc0b716865b9a29
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: 69efbc45560d3271f03f8af8e9cfeb1aa7c89e5d
+ms.sourcegitcommit: 41be194e2be4de3cdb686daee7a8f6e4d1fc765a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790078"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52904546"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -36,7 +36,7 @@ Información proporcionada por Corel a Microsoft:
 | ID | WA200002261 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Corel |
-| Dirección URL del sitio web de partners | [www.mindmanager.com](www.mindmanager.com) |
+| Dirección URL del sitio web de partners | [https://www.mindmanager.com](https://www.mindmanager.com) |
 | Dirección URL de la directiva de privacidad | [https://www.corel.com/en/corel-privacy-policy/](https://www.corel.com/en/corel-privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.mindjet.com/go/mmcloudterms](https://www.mindjet.com/go/mmcloudterms) |
 
