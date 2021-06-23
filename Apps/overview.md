@@ -7,19 +7,20 @@ keywords: microsoft 365 m365 app editor certificación atestación
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 199c8f82a894566a918c30e529cefdfb8c259a48
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
+ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071816"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "53053444"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Cumplimiento de Aplicaciones de Microsoft 365
 
 El programa de Cumplimiento de aplicaciones de Microsoft 365 es una estrategia de tres niveles enfocada a la seguridad y al cumplimiento de las aplicaciones. Cada nivel se basa en el anterior y ofrece un programa escalonado para dar a los usuarios la confianza que necesitan al usar aplicaciones del ecosistema de Microsoft 365. Actualmente, todos los niveles del programa son voluntarios y los desarrolladores de aplicaciones deciden si completarlos o no a su total discreción. 
 
 Nuestra misión es que los clientes de Microsoft tengan plena confianza en las aplicaciones que ejecutan sus organizaciones.
-  ![Estrategia de tres niveles para el cumplimiento de las aplicaciones](media/Microsoft-App-Compliance-Overview.png) 
+
+  ![Estrategia de 3 niveles para el cumplimiento de las aplicaciones](media/Microsoft-App-Compliance-Overview.png) 
 
 ## <a name="publisher-verification"></a>Verificación del editor
 
@@ -44,18 +45,12 @@ La atestación del editor se usa con las aplicaciones integradas con estas plata
 - SharePoint
 - Project
 - OneNote
+- Aplicaciones web
 
 > [!IMPORTANT]
 > Microsoft no valida la información proporcionada. Es exclusivamente el desarrollador quien da fe de la veracidad, exactitud e integridad de la documentación de atestación y los correspondientes datos de rendimiento de la aplicación. 
 
 ## <a name="microsoft-365-certification"></a>Certificación Microsoft 365
-La [Certificación de Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) ofrece a las organizaciones la garantía y confianza de que sus datos y privacidad están protegidos adecuadamente cuando usen aplicaciones de Microsoft Teams. La certificación confirma que una solución de aplicación es compatible con las tecnologías de Microsoft, cumple con los procedimientos recomendados de seguridad de aplicaciones en la nube y es compatible con Microsoft.Durante este proceso, los desarrolladores de aplicaciones trabajan con un evaluador de terceros para validar los estándares de seguridad y cumplimiento de la organización. La Certificación de Microsoft 365 se usa con las aplicaciones integradas con estas plataformas de Microsoft:
+La [Certificación de Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide) ofrece a las organizaciones la garantía y confianza de que sus datos y privacidad están protegidos adecuadamente cuando usen aplicaciones de Microsoft Teams. La certificación confirma que una solución de aplicación es compatible con las tecnologías de Microsoft, cumple con los procedimientos recomendados de seguridad de aplicaciones en la nube y es compatible con Microsoft.Durante este proceso, los desarrolladores de aplicaciones trabajan con un evaluador de terceros para validar los estándares de seguridad y cumplimiento de la organización. La Certificación de Microsoft 365 se aplica a las mismas aplicaciones que cumplen los requisitos para la atestación del publicador. 
 
--   Teams
--   Word
--   Excel
--   PowerPoint 
--   Outlook
-- SharePoint
-- Project
-- OneNote
+
