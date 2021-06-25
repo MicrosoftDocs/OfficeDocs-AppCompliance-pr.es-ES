@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 5e99defd75573b1335975ddc19e851c50da7721f
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: 1ee9ba43ffe793f38438a26365cbb8cbc05aa2f3
+ms.sourcegitcommit: d8a1524fc419a1ca33971b656197f0b6a5efe2b9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053454"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53125970"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -35,7 +35,7 @@ ms.locfileid: "53053454"
 - [Apéndice E](#appendix-e) 
 - [Apéndice F](#appendix-f) 
 - [Apéndice G ](#appendix-g)
-- [Más información](#learn-more) 
+- [Obtener más información](#learn-more) 
 - [Glosario](#glossary) 
 
 
@@ -104,9 +104,9 @@ Las solicitudes de prueba que admitan la evaluación de certificación deben bas
 
 |Tamaño de la población              | Muestra                  |
 |---------------------------- |-------------------------|
-|<5|1|
-|>5 & <10|2|
-|>9 & <25|3|
+|<5|1 |
+|>5 & <10|2 |
+|>9 & <25|3 |
 |>24|4 |
 
 > [!NOTE]
@@ -233,6 +233,7 @@ Cuando se usan técnicas para segmentar los entornos del ámbito desde otros ent
 Los informes de pruebas de penetración se revisarán **** para asegurarse de que no hay vulnerabilidades que cumplan los siguientes criterios de error automáticos descritos en los controles siguientes.
  
 **Requisitos de prueba de penetración**
+
 ||**Controles de prueba de penetración**|
 | -------------------------|-----------------------------|
 |**Criterios generales**| **Controls**|
