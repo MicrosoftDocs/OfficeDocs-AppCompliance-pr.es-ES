@@ -6,74 +6,74 @@ description: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicac
 keywords: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b8560fe46bbad2710001467e9edfeab72d6e0cb7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 437fcbc56309ca14566dbb95f470097af82c26bf
+ms.sourcegitcommit: bfabb191087786fae2b476e3f30861317886defa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549937"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53179099"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones
 
-|||
+|Fase|Título|
 |---|---|
-|Nivel 1| Atestación del editor|
-|Nivel 2| Certificación Microsoft 365|
+|Fase 1| Atestación del editor|
+|Fase 2| Certificación Microsoft 365|
 
 ## <a name="1-overview"></a>1. Información general
-Este documento actúa como una guía de usuario paso a paso para nuestros partners, inscritos en el Programa de cumplimiento de aplicaciones de Microsoft 365 con el objetivo de someterse Publisher la certificación y la certificación a través del portal del Centro de partners.
+Este documento actúa como una guía de usuario paso a paso para nuestros partners inscritos en el Programa de cumplimiento de aplicaciones de Microsoft 365 con el objetivo de someterse Publisher la certificación y la certificación a través del portal del Centro de partners.
 
 ## <a name="2-acronyms--definitions"></a>2. Acrónimos & definiciones
-| | |
+| Acrónimo |Definición |
 |---|----|
-|Acrónimo | Definición |
-|PC (Centro de partners)|Un portal para todos los partners de Microsoft. Un partner inicia sesión en el Centro de partners y envía Self-Assessment cuestionario https://partner.microsoft.com/|
-|ISV|Proveedor de software independiente A.k.a. Partner o Developer|
-|Origen de la aplicación| Catálogo de aplicaciones (https://appsource.microsoft.com/)
-||Ejemplo: Ahora agente virtual (https://appsource.microsoft.com/en-us/product/office/WA104381816)|
+|PC [(Centro de partners)](https://partner.microsoft.com/)|Un portal para todos los partners de Microsoft. Un partner inicia sesión en el Centro de partners y envía Self-Assessment cuestionario. [Centro de partners](https://partner.microsoft.com/dashboard/home) para Microsoft 365 cumplimiento de aplicaciones|
+|ISV|Proveedor de software independiente. A.k.a. Partner o Developer|
+|Origen de la aplicación| [Catálogo de aplicaciones](https://appsource.microsoft.com/)
+||Ejemplo: [Ahora agente virtual](https://appsource.microsoft.com/product/office/WA104381816)|
 
 ## <a name="3---publisher-attestation-workflow"></a>3. Publisher flujo de trabajo de atestación
 
 Página principal: esta es la página de aterrizaje una vez que un partner inicia sesión en el Centro de partners.
 
-![Pantalla principal del Centro de partners](../media/Picture1.png)
+![Pantalla principal del Centro de partners](../media/UserGuidePhotos/01.png)
 
 **Paso 1**   : En el lado izquierdo de la página, en la barra de navegación:
 1. Seleccionar Office store
 1. Seleccionar información general
 
-![Office La tienda se puede encontrar en la navegación izquierda](../media/Picture2.png)
+![Office La tienda se puede encontrar en la navegación izquierda](../media/UserGuidePhotos/02.png)
 
 Al seleccionar "Información general", el partner puede ver la lista de aplicaciones enviadas a través del Centro de partners y disponibles para el Microsoft 365 cumplimiento.
 
 **Paso 2:** Seleccione una aplicación de la lista para comenzar el proceso Publisher atestación.
 
-![Elegir qué aplicación desea atestiguar](../media/Picture3.png)
+![Elegir qué aplicación desea atestiguar](../media/UserGuidePhotos/03.png)
 
-Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación"
+Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación".
 
 **Paso 3:** Seleccionar "Cumplimiento de aplicaciones"
 
-![Seleccionar cumplimiento de aplicaciones](../media/App%20compliance%20step%203.png)
+![Seleccionar cumplimiento de aplicaciones](../media/UserGuidePhotos/04.png)
 
 **Paso 4:** Rellenar el cuestionario Self-Assessment para Publisher atestación
 
-![Import/Export](../media/step4-new%20add.PNG)
+![Atestación del editor](../media/UserGuidePhotos/5.5.PNG)
 
-![import/Export](../media/NewFeature%20impExp.PNG)
+**Nota:** Si vuelves a actualizar o volver a enviar la aplicación, haz clic en desplegable para "Elegir el producto", selecciona la aplicación y haz clic en "Clonar".
 
-**Nota**:Si vuelves a actualizar o volver a enviar la aplicación, haz clic en desplegable para "Elegir el producto", selecciona la aplicación y haz clic en "clonar".
+![Clone](../media/UserGuidePhotos/05.PNG)
 
-![CLone ](../media/clone.PNG)
- ![ Clone2](../media/clone2.PNG)
+También puede aprovechar la característica Import/Export para completar el formulario sin conexión e importarlo una vez completado.
+
+![Importar característica de exportación](../media/UserGuidePhotos/06.PNG)
 
 También puede aprovechar la característica Import/Export para completar el formulario sin conexión e importarlo una vez completado. 
 
 **Paso 5:** Una vez completado, haga clic en "Enviar", la evaluación será ahora "en revisión".
 
-![Haga clic en Sumbit](../media/Picture8.png)
+![Haga clic en Sumbit](../media/UserGuidePhotos/07.png)
 
-![La revisión ya está en curso](../media/Picture9.png)
+![La revisión ya está en curso](../media/UserGuidePhotos/08.png)
 
 ### <a name="approvereject-scenarios"></a>Escenarios de aprobación o rechazo:
 
@@ -81,11 +81,8 @@ También puede aprovechar la característica Import/Export para completar el for
 
 En caso de rechazo en esta fase, un partner puede:
 -   Ver informe de errores.
-    - Se notificará al partner en el Centro de partners y por correo electrónico.
--   Actualice Self-Assessment respuestas.
--   Volver a enviar autoevaluación.
-
-![Actualizar y volver a enviar la evaluación](../media/Picture10.png)
+    - El partner recibirá una notificación por correo electrónico y podrá ver el informe de errores en el Centro de partners
+-   Actualizar y volver a enviar la Publisher actualización de atestación ![ y volver a enviar la evaluación](../media/UserGuidePhotos/09.png)
 
 **B.Publisher Attestation Re-submission**
 
