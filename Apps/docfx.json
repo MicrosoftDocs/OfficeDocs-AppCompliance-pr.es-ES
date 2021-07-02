@@ -39,6 +39,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "/microsoft-365-app-certification/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "recommendations": true,
@@ -52,8 +53,8 @@
       ],
       "titleSuffix": "Microsoft 365 App Certification",
       "feedback_system": "None",
-      "bilingual_type": "hover over",
-      "hide_comments": true
+      "hide_comments": true,
+      "recommendations": true
     },
     "fileMetadata": {},
     "template": [],
