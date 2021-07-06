@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para Workday por Workday
+title: Información de la aplicación para CI-Out-of-Office Lite by ci solution GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2021
+ms.date: 06/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Workday, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para CI-Out-of-Office Lite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f85cc0ccc778f7ed3440e85795574faad3868d24
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 87a4d77deaac6281018befe1fc2de44f0fe20c35
+ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279012"
+ms.locfileid: "53275495"
 ---
-# <a name="workday"></a>Workday
+# <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 26, 2021</p>
+<p>Last updated by the developer on: June 2, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/e76af3f9-8fb6-4018-84c0-d5444ad72b4c" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002748" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Workday a Microsoft:
+Información proporcionada por la solución ci GmbH a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Workday |
-| Id. | WA200001555 |
+| Nombre de la aplicación | CI-Out-of-Office Lite |
+| Id. | WA200002748 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Workday |
-| Dirección URL del sitio web de partners | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
-| Dirección URL de Teams de información de la aplicación | [https://nw.myworkday.com/microsoftteams/](https://nw.myworkday.com/microsoftteams/) |
-| Dirección URL de la directiva de privacidad | [https://www.workday.com/en-us/privacy.html](https://www.workday.com/en-us/privacy.html) |
-| DIRECCIÓN URL de términos de uso | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
+| Nombre de la compañía asociada | solución ci GmbH |
+| Dirección URL del sitio web de partners | [https://www.ci-solution.com](https://www.ci-solution.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.ci-solution.com/support/en/ci-oof-lite/](https://www.ci-solution.com/support/en/ci-oof-lite/) |
+| Dirección URL de la directiva de privacidad | [https://www.ci-solution.com/kontakt/datenschutz.html](https://www.ci-solution.com/kontakt/datenschutz.html) |
+| DIRECCIÓN URL de términos de uso | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Información proporcionada por Workday a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Workday ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por la solución ci GmbH acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -57,25 +57,20 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Volver a obtener el id. de la aplicación, instalar la aplicación para el usuario, obtener Teams detalles de licencia de AAD | No almacenamos datos relacionados con esta característica.  Nos permite instalar la aplicación para el usuario. | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
->| User.Read.All | aplicación | Recuperar usuarios AAID para enviar mensajes a los usuarios. | Solo el AAID y Teams AAID  | 0209ae9c-8d92-4fb8-9c77-4dc29fd371e0 |
+>| email | delegado | Ver la dirección de correo electrónico de los usuarios | Es werden keine Daten gespeichert. | fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
->| Los datos de la organización se comparten entre Workday Services y Microsoft. Consulte los términos de su contrato con Workday para obtener más detalles. | Los datos de la organización se comparten entre Workday Services y Microsoft. Consulte los términos de su contrato con Workday para obtener más detalles. | N/D |
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
->| Los datos de lista se usan para personalizar la interacción de un usuario con la aplicación Workday. | No |  |
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -88,7 +83,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Consulte los términos de su contrato con Workday.
+>Es liegen keine Daten bei Partnern.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -104,9 +99,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36384" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/39113" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -116,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Workday ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información ha sido proporcionada por ci solution GmbH acerca de cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

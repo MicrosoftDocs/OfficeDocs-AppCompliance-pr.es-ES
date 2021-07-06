@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para EngageWith, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6bb19440f4d5e9518e917856fbe709fbcfc0792f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552761"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53279122"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -33,10 +33,10 @@ Información proporcionada por SpringRole a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | EngageWith |
-| ID | WA200001915 |
+| Id. | WA200001915 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SpringRole |
-| Dirección URL del sitio web de partners | [https://engagewith.springworks.in/](https://engagewith.springworks.in/) |
+| Dirección URL del sitio web de partners | [https://www.springworks.in](https://www.springworks.in) |
 | Dirección URL de Teams de información de la aplicación | [https://www.springworks.in/engagewith/](https://www.springworks.in/engagewith/) |
 | Dirección URL de la directiva de privacidad | [https://engagewith.springworks.in/privacy-policy](https://engagewith.springworks.in/privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://engagewith.springworks.in/terms-and-conditions](https://engagewith.springworks.in/terms-and-conditions) |
