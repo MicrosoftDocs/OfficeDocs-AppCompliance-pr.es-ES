@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Diagramas de Diagramas de Gráficos de Lucidchart para Word, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4e7e4bd31854f3861d60e8c740c39a11edc5bb5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 460fc988ffcbd1da237838616910f6c5b6383ee5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552641"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283474"
 ---
 # <a name="lucidchart-diagrams-for-word"></a>Diagramas de Gráficos de Lucidchart para Word
 
@@ -32,10 +32,10 @@ Información proporcionada por Lucid Software Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Diagramas de Gráficos de Lucidchart para Word |
-| ID | WA104380118 |
+| Id. | WA104380118 |
 | Office 365 clientes compatibles | Word 2016 o posterior en Mac, Word 2013 o posterior en Windows, Word en la Web |
 | Nombre de la compañía asociada | Lucid Software Inc |
-| Dirección URL del sitio web de partners | [https://www.lucidchart.com/](https://www.lucidchart.com/) |
+| Dirección URL del sitio web de partners | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | Dirección URL de la directiva de privacidad | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 

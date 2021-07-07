@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jetdocs, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3826232ed265e959197bd50e29621987a66dbb7f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 649617f3e61dbcc75cd4d5206982c4cee03563be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552061"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283024"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -33,12 +33,12 @@ Información proporcionada por Jetdocs a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Jetdocs |
-| ID | WA200002236 |
+| Id. | WA200002236 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Jetdocs |
-| Dirección URL del sitio web de partners | [https://jetdocs.io/](https://jetdocs.io/) |
-| Dirección URL de la directiva de privacidad | [https://jetdocs.io/privacy/](https://jetdocs.io/privacy/) |
-| DIRECCIÓN URL de términos de uso | [https://jetdocs.io/terms/](https://jetdocs.io/terms/) |
+| Dirección URL del sitio web de partners | [https://jetdocs.io](https://jetdocs.io) |
+| Dirección URL de la directiva de privacidad | [https://jetdocs.io/privacy](https://jetdocs.io/privacy) |
+| DIRECCIÓN URL de términos de uso | [https://jetdocs.io/terms](https://jetdocs.io/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para VisualSP, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c4acb8087cb69ae70b4734ec0230830ac6fd377e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7f8fb55c479f6730643d85ac866703f59d1f621e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550940"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283364"
 ---
 # <a name="visualsp"></a>VisualSP
 
@@ -33,12 +33,12 @@ Información proporcionada por VisualSP a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | VisualSP |
-| ID | WA200001426 |
+| Id. | WA200001426 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | VisualSP |
-| Dirección URL del sitio web de partners | [https://www.visualsp.com](https://www.visualsp.com) |
+| Dirección URL del sitio web de partners | [https://visualsp.com](https://visualsp.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.visualsp.com/visualsp-for-microsoft-teams/](https://www.visualsp.com/visualsp-for-microsoft-teams/) |
-| Dirección URL de la directiva de privacidad | [https://www.visualsp.com/company/privacy-policy/](https://www.visualsp.com/company/privacy-policy/) |
+| Dirección URL de la directiva de privacidad | [https://www.visualsp.com/company/privacy-policy](https://www.visualsp.com/company/privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://www.visualsp.com/terms-of-service/](https://www.visualsp.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

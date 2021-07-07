@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el Centro de contacto, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f6e143a7666d5f3a4cfb5744b7a27edfbe60b982
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552021"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283004"
 ---
 # <a name="contact-center"></a>Centro de contacto
 
@@ -33,11 +33,11 @@ Información proporcionada por Landis Technologies LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Centro de contacto |
-| ID | WA200001428 |
+| Id. | WA200001428 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Landis Technologies LLC |
-| Dirección URL del sitio web de partners | [https://landistechnologies.com/office365contactcenter/](https://landistechnologies.com/office365contactcenter/) |
-| Dirección URL de la directiva de privacidad | [https://landistechnologies.com/legal/](https://landistechnologies.com/legal/) |
+| Dirección URL del sitio web de partners | [https://landistechnologies.com/](https://landistechnologies.com/) |
+| Dirección URL de la directiva de privacidad | [https://www.landistechnologies.com/legal/](https://www.landistechnologies.com/legal/) |
 | DIRECCIÓN URL de términos de uso | [https://landistechnologies.com/eula/](https://landistechnologies.com/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -95,7 +95,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Sí. Las solicitudes Graph API de MS se registran para ayudar con las incidencias de soporte técnico. Se elimina por Microsoft Azure valores predeterminados de Application Insights.
+>Sí. Las solicitudes Graph API de MS se registran para ayudar con las incidencias de soporte técnico. Se elimina por Microsoft Azure de Ideas valores predeterminados.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 

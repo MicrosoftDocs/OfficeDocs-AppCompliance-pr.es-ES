@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smartnotation, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 14641479a5ede06ee099b17cb4d4b616bbc65df6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 956f45f76f1f43164ef668a929080f501394bc82
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553861"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283214"
 ---
 # <a name="smartnotation"></a>Smartnotation
 
@@ -33,12 +33,12 @@ Información proporcionada por Smartnotation B.V. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Smartnotation |
-| ID | WA200000681 |
+| Id. | WA200000681 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Smartnotation B.V. |
-| Dirección URL del sitio web de partners | [https://www.smartnotation.com/](https://www.smartnotation.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.smartnotation.com/privacy_policy.pdf](https://www.smartnotation.com/privacy_policy.pdf) |
-| DIRECCIÓN URL de términos de uso | [https://www.smartnotation.com/tos.pdf](https://www.smartnotation.com/tos.pdf) |
+| Dirección URL del sitio web de partners | [https://www.smartnotation.com/landing/](https://www.smartnotation.com/landing/) |
+| Dirección URL de la directiva de privacidad | [https://www.smartnotation.com/public/privacy_policy.pdf](https://www.smartnotation.com/public/privacy_policy.pdf) |
+| DIRECCIÓN URL de términos de uso | [https://www.smartnotation.com/public/tos.pdf](https://www.smartnotation.com/public/tos.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

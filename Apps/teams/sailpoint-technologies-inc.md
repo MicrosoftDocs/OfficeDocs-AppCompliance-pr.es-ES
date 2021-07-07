@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sailpoint, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: befd216c19352c4b812703fe7d59d2c3fd3fd7d7
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: bcde5fdd363b217adabcdfd91074dedfcbe73b88
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790081"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283084"
 ---
 # <a name="sailpoint"></a>Sailpoint
 
@@ -33,10 +33,10 @@ Información proporcionada por SailPoint Technologies, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sailpoint |
-| ID | WA200002761 |
+| Id. | WA200002761 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SailPoint Technologies, Inc. |
-| Dirección URL del sitio web de partners | [sailpoint.com](sailpoint.com) |
+| Dirección URL del sitio web de partners | [https://sailpoint.com](https://sailpoint.com) |
 | Dirección URL de la directiva de privacidad | [https://www.sailpoint.com/legal/privacy/](https://www.sailpoint.com/legal/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.sailpoint.com/legal/customer-agreements/](https://www.sailpoint.com/legal/customer-agreements/) |
 

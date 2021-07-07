@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para LuckyDraw, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5ba1afff33ce27c6f520b34f73423c734c8859ec
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 24990484921465f2ad6a761efd6b3f3686344cc7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551270"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283404"
 ---
 # <a name="luckydraw"></a>LuckyDraw
 
@@ -33,10 +33,10 @@ Información proporcionada por Tony Xia a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | LuckyDraw |
-| ID | WA200000091 |
+| Id. | WA200000091 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tony Xia |
-| Dirección URL del sitio web de partners | [https://luckydraw.teetee365.com](https://luckydraw.teetee365.com) |
+| Dirección URL del sitio web de partners | [https://luckydraw.teetee365.com/](https://luckydraw.teetee365.com/) |
 | Dirección URL de Teams de información de la aplicación | [https://luckydraw4web4prd.z7.web.core.windows.net/](https://luckydraw4web4prd.z7.web.core.windows.net/) |
 | Dirección URL de la directiva de privacidad | [https://luckydraw.teetee365.com/privacy](https://luckydraw.teetee365.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://luckydraw.teetee365.com/terms](https://luckydraw.teetee365.com/terms) |
@@ -77,7 +77,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->EUII se registra en algunas situaciones. Por ejemplo, el usuario inicia una actividad de dibujo con suerte. La aplicación usa Azure Application Insights cuya retención de datos es predeterminada 90 días.
+>EUII se registra en algunas situaciones. Por ejemplo, el usuario inicia una actividad de dibujo con suerte. La aplicación usa Azure Application Ideas cuya retención de datos es predeterminada 90 días.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 

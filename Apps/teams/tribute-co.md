@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tribute, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57c0c47bd47a23efb9cf93247988b3a374690ede
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 589dcefe68d389ecfc2a4ba3f51998878358c58f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551180"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283384"
 ---
 # <a name="tribute"></a>Tribute
 
@@ -33,12 +33,12 @@ Información proporcionada por Tribute Co. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Tribute |
-| ID | WA200002589 |
+| Id. | WA200002589 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tribute Co. |
 | Dirección URL del sitio web de partners | [https://www.tributementorship.com](https://www.tributementorship.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.tributementorship.com/how-it-works](https://www.tributementorship.com/how-it-works) |
-| Dirección URL de la directiva de privacidad | [https://www.tributementorship.com/privacy](https://www.tributementorship.com/privacy) |
+| Dirección URL de la directiva de privacidad | [https://www.tributementorship.com/privacy ](https://www.tributementorship.com/privacy ) |
 | DIRECCIÓN URL de términos de uso | [https://www.tributementorship.com/terms](https://www.tributementorship.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

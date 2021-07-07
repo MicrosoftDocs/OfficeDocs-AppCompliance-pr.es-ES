@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Onsight Conectar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4010e47049177b1c9b5ce316ad48795dfe98b6b
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 647c6b2a4da987f5fef828ae4b8b3fb632e65c69
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552011"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282994"
 ---
 # <a name="onsight-connect"></a>Onsight Connect
 
@@ -33,12 +33,12 @@ Información proporcionada por Librestream a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Onsight Connect |
-| ID | WA200002769 |
+| Id. | WA200002769 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Librestream |
 | Dirección URL del sitio web de partners | [https://librestream.com](https://librestream.com) |
 | Dirección URL de la directiva de privacidad | [https://librestream.com/onsight-privacy-notice-mobile-2/](https://librestream.com/onsight-privacy-notice-mobile-2/) |
-| DIRECCIÓN URL de términos de uso | [https://librestream.com/support-archives/termsofuse/](https://librestream.com/support-archives/termsofuse/) |
+| DIRECCIÓN URL de términos de uso | [https://librestream.com/support-archives/software-eula/](https://librestream.com/support-archives/software-eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

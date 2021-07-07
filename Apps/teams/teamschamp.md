@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamsChamp, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d7e48aa2c60e33f22de04c103b7a8727d323b10a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 44d3d36d48e6af741cb25154e5a954b8366af9a3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551407"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283444"
 ---
 # <a name="teamschamp"></a>TeamsChamp
 
@@ -33,10 +33,10 @@ Información proporcionada por TeamsChamp a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamsChamp |
-| ID | WA200001487 |
+| Id. | WA200001487 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | TeamsChamp |
-| Dirección URL del sitio web de partners | [https://www.teamschamp.com/](https://www.teamschamp.com/) |
+| Dirección URL del sitio web de partners | [https://www.encamina.com](https://www.encamina.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.teamschamp.com](https://www.teamschamp.com) |
 | Dirección URL de la directiva de privacidad | [https://www.teamschamp.com/privacy-policy/](https://www.teamschamp.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.teamschamp.com/terms/](https://www.teamschamp.com/terms/) |

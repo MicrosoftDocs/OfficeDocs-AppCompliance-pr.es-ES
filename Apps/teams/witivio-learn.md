@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Learn, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: acb0b07f25bc3fa2e86246a061ff73d3152b9810
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 798bd76f786119863f9ff2046e72daa15bcb0696
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550860"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283354"
 ---
 # <a name="learn"></a>Aprender
 
@@ -33,10 +33,10 @@ Información proporcionada por Witivio a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Aprender |
-| ID | WA200001308 |
+| Id. | WA200001308 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Witivio |
-| Dirección URL del sitio web de partners | [https://www.witivio.com/learn](https://www.witivio.com/learn) |
+| Dirección URL del sitio web de partners | [https://www.witivio.com](https://www.witivio.com) |
 | Dirección URL de la directiva de privacidad | [https://www.witivio.com/en/privacy](https://www.witivio.com/en/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://witivio.com/en/terms-of-use](https://witivio.com/en/terms-of-use) |
 

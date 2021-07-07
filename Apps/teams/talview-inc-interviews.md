@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las entrevistas de Talview, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro de CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4f6b1b560d06f7d1d3728eabd646ded7d99874db
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552701"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282944"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -33,13 +33,13 @@ Información proporcionada por Talview Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Talview Interviews |
-| ID | WA200002437 |
+| Id. | WA200002437 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Talview Inc |
 | Dirección URL del sitio web de partners | [https://talview.com](https://talview.com) |
 | Dirección URL de Teams de información de la aplicación | [https://info.talview.com/talview-partners-microsoft-teams](https://info.talview.com/talview-partners-microsoft-teams) |
-| Dirección URL de la directiva de privacidad | [https://talview.com/privacy](https://talview.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://talview.com/terms](https://talview.com/terms) |
+| Dirección URL de la directiva de privacidad | [https://www.talview.com/privacy](https://www.talview.com/privacy) |
+| DIRECCIÓN URL de términos de uso | [https://www.talview.com/terms](https://www.talview.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

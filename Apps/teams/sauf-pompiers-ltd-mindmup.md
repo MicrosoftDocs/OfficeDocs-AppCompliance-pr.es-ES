@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMup, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fc8852fe84307129e40d79f2f2d29c6133a81c11
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0bf09c9e6a144fb4415879577af4debcc5fc6713
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551800"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283064"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -33,12 +33,12 @@ Información proporcionada por Sauf Pompiers Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMup |
-| ID | WA200001759 |
+| Id. | WA200001759 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sauf Pompiers Ltd |
 | Dirección URL del sitio web de partners | [https://www.mindmup.com](https://www.mindmup.com) |
 | Dirección URL de la directiva de privacidad | [https://www.mindmup.com/resources/privacy_policy.html](https://www.mindmup.com/resources/privacy_policy.html) |
-| DIRECCIÓN URL de términos de uso | [https://www.mindmup.com/resources/terms_gold.html](https://www.mindmup.com/resources/terms_gold.html) |
+| DIRECCIÓN URL de términos de uso | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

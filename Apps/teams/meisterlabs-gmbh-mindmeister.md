@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMeister, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a37e6c35b7a557ee146ad91e65d8f453dd94377e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc3c15dabdcf5b01503d835f8cc45dccf8909539
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551921"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282974"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -33,13 +33,13 @@ Información proporcionada por MeisterLabs GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMeister |
-| ID | WA104381116 |
+| Id. | WA104381116 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MeisterLabs GmbH |
 | Dirección URL del sitio web de partners | [https://www.mindmeister.com](https://www.mindmeister.com) |
 | Dirección URL de Teams de información de la aplicación | [https://support.mindmeister.com/](https://support.mindmeister.com/) |
 | Dirección URL de la directiva de privacidad | [https://www.mindmeister.com/privacy](https://www.mindmeister.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.mindmeister.com/legal](https://www.mindmeister.com/legal) |
+| DIRECCIÓN URL de términos de uso | [https://www.mindmeister.com/terms](https://www.mindmeister.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Saberr, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dd1546926d21546930bebb734b18f6b09a3b63b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ccaa5375c606778ce1869ed9fae7998f4d3dc3f7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551810"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283094"
 ---
 # <a name="saberr"></a>Saberr
 
@@ -33,10 +33,10 @@ Información proporcionada por Saberr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Saberr |
-| ID | WA200001501 |
+| Id. | WA200001501 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Saberr |
-| Dirección URL del sitio web de partners | [https://saberr.com](https://saberr.com) |
+| Dirección URL del sitio web de partners | [https://www.saberr.com](https://www.saberr.com) |
 | Dirección URL de Teams de información de la aplicación | [https://help.saberr.com/en/articles/3854472-use-coachbot-in...](https://help.saberr.com/en/articles/3854472-use-coachbot-in-microsoft-teams-to-get-notifications-and-quick-actions) |
 | Dirección URL de la directiva de privacidad | [https://help.saberr.com/en/articles/3853094-privacy-for-use...](https://help.saberr.com/en/articles/3853094-privacy-for-users-of-coachbot-s-microsoft-teams-or-slack-integrations) |
 | DIRECCIÓN URL de términos de uso | [https://help.saberr.com/en/articles/3853596-terms-and-condi...](https://help.saberr.com/en/articles/3853596-terms-and-conditions) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Medxnote MT, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eca02f06a34c5a4d815bd2087826567cf4be27d6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551971"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282984"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -33,10 +33,10 @@ Información proporcionada por Medxnote a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Medxnote MT |
-| ID | WA200001823 |
+| Id. | WA200001823 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Medxnote |
-| Dirección URL del sitio web de partners | [https://medxnote.com](https://medxnote.com) |
+| Dirección URL del sitio web de partners | [https://medxnote.com/](https://medxnote.com/) |
 | Dirección URL de la directiva de privacidad | [https://medxnote.com/privacy-policy/](https://medxnote.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://medxnote.com/terms-conditions/](https://medxnote.com/terms-conditions/) |
 

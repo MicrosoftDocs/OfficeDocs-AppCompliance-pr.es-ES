@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para planyway Team Calendar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69f23970621b0105d1359bb41d3539b643991448
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d712799259406f65b30a7d186763bb0addba9d1e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553931"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283104"
 ---
 # <a name="planyway-team-calendar"></a>Planyway Team Calendar
 
@@ -33,10 +33,10 @@ Información proporcionada por Rubius a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Planyway Team Calendar |
-| ID | WA200002712 |
+| Id. | WA200002712 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Rubius |
-| Dirección URL del sitio web de partners | [https://planyway.com](https://planyway.com) |
+| Dirección URL del sitio web de partners | [https://rubius.com](https://rubius.com) |
 | Dirección URL de Teams de información de la aplicación | [https://planyway.com](https://planyway.com) |
 | Dirección URL de la directiva de privacidad | [https://planyway.com/legal/privacy-policy](https://planyway.com/legal/privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://planyway.com/legal/terms-of-use](https://planyway.com/legal/terms-of-use) |

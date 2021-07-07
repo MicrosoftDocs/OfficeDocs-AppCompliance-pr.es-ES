@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Navo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ef2c71df0559a5a3db4612df5acf86835efe1a71
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553941"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283115"
 ---
 # <a name="navo"></a>Navo
 
@@ -33,10 +33,10 @@ Información proporcionada por Regroove Solutions a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Navo |
-| ID | WA200001047 |
+| Id. | WA200001047 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Regroove Solutions |
-| Dirección URL del sitio web de partners | [https://getnavo.com](https://getnavo.com) |
+| Dirección URL del sitio web de partners | [https://regroove.ca ; https://getnavo.com](https://regroove.ca ; https://getnavo.com) |
 | Dirección URL de la directiva de privacidad | [https://getnavo.com/privacy-policy/](https://getnavo.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://getnavo.com/terms-of-service/](https://getnavo.com/terms-of-service/) |
 
@@ -66,7 +66,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Almacenamos el identificador de arrendamiento y el número de usuarios en Stripe. |  | User.Read | Delegado | Iniciar sesión y leer el perfil de usuario: no hay datos almacenados |
+>| Almacenamos el identificador de arrendamiento y el número de usuarios en Stripe. |  | User.Read | Delegated | Iniciar sesión y leer el perfil de usuario: no hay datos almacenados |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -79,13 +79,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Sí, en Application Insights almacenamos el id. autenticado del usuario y el id. de cuenta de usuario (id. de arrendamiento).
+>Sí, en Application Ideas almacenamos el id. autenticado de usuario y el id. de cuenta de usuario (id. de arrendamiento).
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Todos los datos que almacenamos nosotros mismos (no a través de un servicio como Stripe o Application Insights) se almacenan en una base de datos Cosmos Azure. Todos los administradores usan 2FA y el acceso está restringido a un subconjunto de nuestros empleados.
+>Todos los datos que almacenamos nosotros mismos (no a través de un servicio como Stripe o Application Ideas) se almacenan en una base de datos Cosmos Azure. Todos los administradores usan 2FA y el acceso está restringido a un subconjunto de nuestros empleados.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 

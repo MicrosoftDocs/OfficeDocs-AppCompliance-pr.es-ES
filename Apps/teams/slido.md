@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Slido, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b54b432cc2956498cfb142ba56789d94ab9c6253
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 96e9df1c15ebea86c7d38286ca5fd196e1e6f470
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553871"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53283226"
 ---
 # <a name="slido"></a>Slido
 
@@ -33,13 +33,13 @@ Información proporcionada por Slido a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Slido |
-| ID | WA200002357 |
+| Id. | WA200002357 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Slido |
 | Dirección URL del sitio web de partners | [https://www.sli.do](https://www.sli.do) |
 | Dirección URL de Teams de información de la aplicación | [https://www.sli.do/product](https://www.sli.do/product) |
 | Dirección URL de la directiva de privacidad | [https://www.sli.do/terms#privacy-policy](https://www.sli.do/terms#privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.sli.do/terms#terms-of-service](https://www.sli.do/terms#terms-of-service) |
+| DIRECCIÓN URL de términos de uso | [https://www.sli.do/terms](https://www.sli.do/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
