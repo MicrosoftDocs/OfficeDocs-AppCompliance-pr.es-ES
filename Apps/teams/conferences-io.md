@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para conferencias de e/s, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cc2d3c2845660ddda7b2d759d4d30cb4191286dd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f1ac0d98833813915b3485a7b5c00233f41ddee8
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553221"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281342"
 ---
 # <a name="conferences-io"></a>Conferences i/o
 
@@ -33,13 +33,13 @@ Información proporcionada por conferencias de e/s a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Conferences i/o |
-| ID | WA200001867 |
+| Id. | WA200001867 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Conferences i/o |
-| Dirección URL del sitio web de partners | [https://teamsapp.conferences.io/](https://teamsapp.conferences.io/) |
+| Dirección URL del sitio web de partners | [https://conferences.io](https://conferences.io) |
 | Dirección URL de Teams de información de la aplicación | [https://www.conferences.io/our-platform/features/](https://www.conferences.io/our-platform/features/) |
 | Dirección URL de la directiva de privacidad | [https://teamsapp.conferences.io/privacy/](https://teamsapp.conferences.io/privacy/) |
-| DIRECCIÓN URL de términos de uso | [https://teamsapp.conferences.io/terms/](https://teamsapp.conferences.io/terms/) |
+| DIRECCIÓN URL de términos de uso | [https://teamsapp.conferences.io/eula/](https://teamsapp.conferences.io/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

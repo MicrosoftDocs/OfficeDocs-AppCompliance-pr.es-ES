@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Studi.ly, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 26a89739809e0d398db2a823bd714aa06a2d210d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: bc3307db955cf9f124442f08fc315c1cd8158659
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553061"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281242"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -33,12 +33,12 @@ Información proporcionada por inLogic-Office Store a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Studi.ly |
-| ID | WA200001668 |
+| Id. | WA200001668 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | inLogic-Office Store |
-| Dirección URL del sitio web de partners | [https://www.studi.ly](https://www.studi.ly) |
-| Dirección URL de la directiva de privacidad | [https://www.studi.ly/Studily_Privacy_Statement.pdf](https://www.studi.ly/Studily_Privacy_Statement.pdf) |
-| DIRECCIÓN URL de términos de uso | [https://www.studi.ly/Studily_Terms_Of_Use_v1.pdf](https://www.studi.ly/Studily_Terms_Of_Use_v1.pdf) |
+| Dirección URL del sitio web de partners | [https://www.inlogic.dk](https://www.inlogic.dk) |
+| Dirección URL de la directiva de privacidad | [https://studi.ly/Studily_Privacy_Statement.pdf](https://studi.ly/Studily_Privacy_Statement.pdf) |
+| DIRECCIÓN URL de términos de uso | [https://studi.ly/Studily_Terms_Of_Use_v1.pdf](https://studi.ly/Studily_Terms_Of_Use_v1.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wunder365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0399c1da90a5a744eaa23457a67f99b654de8303
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553031"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281823"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -33,10 +33,10 @@ Información proporcionada por JiJi Technologies Pvt Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wunder365 |
-| ID | WA200000742 |
+| Id. | WA200000742 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | JiJi Technologies Pvt Ltd |
-| Dirección URL del sitio web de partners | [https://www.wunder365.com](https://www.wunder365.com) |
+| Dirección URL del sitio web de partners | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.wunder365.com/wunder365-for-office](https://www.wunder365.com/wunder365-for-office) |
 | Dirección URL de la directiva de privacidad | [https://www.wunder365.com/teams-app-privacy-policy](https://www.wunder365.com/teams-app-privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
@@ -88,7 +88,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Estamos iniciando sesión en Azure Application Insights. Estamos registrando el identificador de inquilino y el identificador de correo electrónico del usuario para identificar problemas y ayudar a los clientes a resolver problemas.
+>Estamos iniciando sesión en Azure Application Ideas. Estamos registrando el identificador de inquilino y el identificador de correo electrónico del usuario para identificar problemas y ayudar a los clientes a resolver problemas.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner

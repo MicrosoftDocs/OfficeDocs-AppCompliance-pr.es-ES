@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Cloverpop, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: eaee7a04f4d8e74f97eef1fae358f80a0c3e2249
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c6be013237c6368624687f7eb297a7149c28a548
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553231"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281352"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -33,10 +33,10 @@ Información proporcionada por Cloverpop a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Cloverpop |
-| ID | WA200001803 |
+| Id. | WA200001803 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Cloverpop |
-| Dirección URL del sitio web de partners | [https://www.cloverpop.com](https://www.cloverpop.com) |
+| Dirección URL del sitio web de partners | [https://www.cloverpop.com/](https://www.cloverpop.com/) |
 | Dirección URL de la directiva de privacidad | [https://www.cloverpop.com/privacy-policy/](https://www.cloverpop.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.cloverpop.com/terms-of-service](https://www.cloverpop.com/terms-of-service) |
 

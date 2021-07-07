@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Mybys, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ff78bfc3a2cab87e0d4c48dbd4707eb3fba1dd02
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c36e0bb86b707dad0f03dfd2e00c2405d701860b
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552171"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281899"
 ---
 # <a name="mybys"></a>Mybys
 
@@ -33,10 +33,10 @@ Información proporcionada por Facilis a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Mybys |
-| ID | WA200002605 |
+| Id. | WA200002605 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Facilis |
-| Dirección URL del sitio web de partners | [https://facilisglobal.com/](https://facilisglobal.com/) |
+| Dirección URL del sitio web de partners | [https://facilisglobal.com](https://facilisglobal.com) |
 | Dirección URL de Teams de información de la aplicación | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
 | Dirección URL de la directiva de privacidad | [https://facilisglobal.com/privacy-policy](https://facilisglobal.com/privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://facilisglobal.com/terms-conditions](https://facilisglobal.com/terms-conditions) |

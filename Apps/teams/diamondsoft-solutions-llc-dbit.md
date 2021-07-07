@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DBit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 23995f613c3c3b6d7b2ab7d161f8710ccddf07d0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: dbdb857d15f33848c459bc817fa9c2c55da8e6b4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553961"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281322"
 ---
 # <a name="dbit"></a>DBit
 
@@ -33,10 +33,10 @@ Información proporcionada por Diamondsoft Solutions, LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | DBit |
-| ID | WA200001536 |
+| Id. | WA200001536 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Diamondsoft Solutions, DIAMOND |
-| Dirección URL del sitio web de partners | [https://www.dbit.io/index.html](https://www.dbit.io/index.html) |
+| Dirección URL del sitio web de partners | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
 | Dirección URL de la directiva de privacidad | [https://www.dbit.io/privacypolicy.html](https://www.dbit.io/privacypolicy.html) |
 | DIRECCIÓN URL de términos de uso | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |
 

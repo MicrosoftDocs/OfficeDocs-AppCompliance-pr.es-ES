@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reminderz, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e383a57baf5cec02de28ac288a5f157d9073d8b7
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d2f5260016844e0c722bac6454ea6338788468b1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552311"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281983"
 ---
 # <a name="reminderz"></a>Reminderz
 
@@ -33,13 +33,13 @@ Información proporcionada por ChitChattr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Reminderz |
-| ID | WA200001976 |
+| Id. | WA200001976 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChitChattr |
-| Dirección URL del sitio web de partners | [https://www.chitchattr.com?p=reminderz](https://www.chitchattr.com?p=reminderz) |
+| Dirección URL del sitio web de partners | [https://www.chitchattr.com](https://www.chitchattr.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.chitchattr.com/reminderz/](https://www.chitchattr.com/reminderz/) |
 | Dirección URL de la directiva de privacidad | [https://www.chitchattr.com/privacy?p=reminderz](https://www.chitchattr.com/privacy?p=reminderz) |
-| DIRECCIÓN URL de términos de uso | [https://www.chitchattr.com/termsofuse?p=reminderz](https://www.chitchattr.com/termsofuse?p=reminderz) |
+| DIRECCIÓN URL de términos de uso | [https://www.chitchattr.com/termsofuse](https://www.chitchattr.com/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

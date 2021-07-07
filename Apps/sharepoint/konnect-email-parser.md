@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Konnect eMail Parser, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6341fbe817009d86dbd92256fed54c72ff89161f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1af3a75f49bf10e0185ba80a289fd05524c8130e
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552471"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282123"
 ---
 # <a name="konnect-email-parser"></a>Konnect eMail Parser
 
@@ -32,10 +32,10 @@ Información proporcionada por Konnect eMail a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Konnect eMail Parser |
-| ID | WA200001893 |
+| Id. | WA200001893 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | Konnect eMail |
-| Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Dirección URL del sitio web de partners | [https://www.konnectemail.com](https://www.konnectemail.com) |
 | Dirección URL de la directiva de privacidad | [https://www.konnectemail.com/privacy-policy-sharepoint-pars...](https://www.konnectemail.com/privacy-policy-sharepoint-parser-app) |
 | DIRECCIÓN URL de términos de uso | [https://www.konnectemail.com/eula](https://www.konnectemail.com/eula) |
 
@@ -68,7 +68,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Registros retenido durante 90 días en Azure Application Insights
+>Registros retenido durante 90 días en azure application Ideas
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Remind, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e2124ed68b2e9d750c8bc6a229eca0ccad200b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552451"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282103"
 ---
 # <a name="remind"></a>Remind
 
@@ -33,12 +33,12 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Remind |
-| ID | WA200001444 |
+| Id. | WA200001444 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 88 Ventures Limited |
-| Dirección URL del sitio web de partners | [https://www.teamsreminder.app](https://www.teamsreminder.app) |
-| Dirección URL de la directiva de privacidad | [https://www.teamsreminder.app/#privacy](https://www.teamsreminder.app/#privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.teamsreminder.app/#terms](https://www.teamsreminder.app/#terms) |
+| Dirección URL del sitio web de partners | [https://moonbearapp.com](https://moonbearapp.com) |
+| Dirección URL de la directiva de privacidad | [https://teamsreminder.app/#privacy](https://teamsreminder.app/#privacy) |
+| DIRECCIÓN URL de términos de uso | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wunder365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c4b1e022c3ed482c3020284f07a7d1f986d7cbb3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f5c07b646cd3d23d6a1fbda2c9bd5ef7b4973f32
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552521"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281722"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -32,12 +32,12 @@ Información proporcionada por JiJi Technologies Private Limited para Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wunder365 |
-| ID | WA200000391 |
-| Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
+| Id. | WA200000391 |
+| Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | JiJi Technologies Private Limited |
-| Dirección URL del sitio web de partners | [https://apps4.pro/](https://apps4.pro/) |
+| Dirección URL del sitio web de partners | [https://www.jijitechnologies.com](https://www.jijitechnologies.com) |
 | Dirección URL de la directiva de privacidad | [https://www.wunder365.com/outlook-addin-privacy-policy](https://www.wunder365.com/outlook-addin-privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| DIRECCIÓN URL de términos de uso | [https://www.wunder365.com/terms-of-service](https://www.wunder365.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -74,7 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Estamos iniciando sesión en Azure Application Insights. Estamos registrando el identificador de inquilino y el identificador de correo electrónico del usuario para identificar problemas y ayudar a los clientes a resolver problemas.
+>Estamos iniciando sesión en Azure Application Ideas. Estamos registrando el identificador de inquilino y el identificador de correo electrónico del usuario para identificar problemas y ayudar a los clientes a resolver problemas.
 
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner

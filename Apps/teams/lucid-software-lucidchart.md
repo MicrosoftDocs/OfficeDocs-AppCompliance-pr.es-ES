@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lucidchart, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cdfec0551da7278ac92c3e24caa2664a26a89bea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 65a82c3e895af38dc719411c7729825acae2f9be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552971"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281773"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -33,13 +33,13 @@ Información proporcionada por Software lúcido a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Lucidchart |
-| ID | WA104381935 |
+| Id. | WA104381935 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Lucid Software |
 | Dirección URL del sitio web de partners | [https://www.lucidchart.com](https://www.lucidchart.com) |
 | Dirección URL de Teams de información de la aplicación | [https://lucidchart.zendesk.com/](https://lucidchart.zendesk.com/) |
-| Dirección URL de la directiva de privacidad | [https://lucid.co/privacy](https://lucid.co/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://lucid.co/tos](https://lucid.co/tos) |
+| Dirección URL de la directiva de privacidad | [https://www.lucidchart.com/pages/privacy](https://www.lucidchart.com/pages/privacy) |
+| DIRECCIÓN URL de términos de uso | [https://www.lucidchart.com/pages/tos](https://www.lucidchart.com/pages/tos) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

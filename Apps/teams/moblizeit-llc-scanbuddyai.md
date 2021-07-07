@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ScanBuddy.ai, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b56bde795cbc679962c6df997d01293306d79b1f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e9fbc11281494fe1c5a12fbbe1124ea7953a24b7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552941"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281232"
 ---
 # <a name="scanbuddyai"></a>ScanBuddy.ai
 
@@ -33,12 +33,12 @@ Información proporcionada por Moblize.it LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ScanBuddy.ai |
-| ID | WA200001305 |
+| Id. | WA200001305 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Moblize.it LLC |
-| Dirección URL del sitio web de partners | [https://scanbuddy.ai](https://scanbuddy.ai) |
+| Dirección URL del sitio web de partners | [https://admin.scanbuddy.app/](https://admin.scanbuddy.app/) |
 | Dirección URL de la directiva de privacidad | [https://scanbuddy.ai/scan-buddy-app-privacy-policy](https://scanbuddy.ai/scan-buddy-app-privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://scanbuddy.ai/scanbuddy-ai-terms-of-use](https://scanbuddy.ai/scanbuddy-ai-terms-of-use) |
+| DIRECCIÓN URL de términos de uso | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA200001305&amp;cmu=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

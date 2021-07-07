@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para reuniones de Cisco Webex, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 4911c948bd0f77dc1a5c858fca89337aeb3a1f5a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 34db97485d4c25655075a838adb5ec998ca324a5
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553241"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281362"
 ---
 # <a name="cisco-webex-meetings"></a>Reuniones de Cisco Webex
 
@@ -33,13 +33,13 @@ Información proporcionada por Cisco Webex Meetings a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Reuniones de Cisco Webex |
-| ID | WA104381435 |
+| Id. | WA104381435 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Reuniones de Cisco Webex |
-| Dirección URL del sitio web de partners | [https://www.webex.com](https://www.webex.com) |
+| Dirección URL del sitio web de partners | [https://www.cisco.com](https://www.cisco.com) |
 | Dirección URL de Teams de información de la aplicación | [https://collaborationhelp.cisco.com/](https://collaborationhelp.cisco.com/) |
-| Dirección URL de la directiva de privacidad | [https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatas...](https://trustportal.cisco.com/c/dam/r/ctp/docs/privacydatasheet/collaboration/cisco-webex-meetings-privacy-data-sheet.pdf) |
-| DIRECCIÓN URL de términos de uso | [https://www.cisco.com/c/en/us/products/universal-cloud-agre...](https://www.cisco.com/c/en/us/products/universal-cloud-agreement.html) |
+| Dirección URL de la directiva de privacidad | []() |
+| DIRECCIÓN URL de términos de uso | []() |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

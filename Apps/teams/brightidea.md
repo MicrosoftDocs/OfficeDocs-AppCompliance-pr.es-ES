@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Brightidea, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0ef99ec3d04a72624f002c05f6a120a34f674b8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8648dbe30e43ca31964493d797cb3629234fa671
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553291"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281392"
 ---
 # <a name="brightidea"></a>Brightidea
 
@@ -33,10 +33,10 @@ Información proporcionada por Brightidea a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Brightidea |
-| ID | WA200002795 |
+| Id. | WA200002795 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Brightidea |
-| Dirección URL del sitio web de partners | [https://www.brightidea.com](https://www.brightidea.com) |
+| Dirección URL del sitio web de partners | [https://brightidea.com](https://brightidea.com) |
 | Dirección URL de la directiva de privacidad | [https://www.brightidea.com/privacy/](https://www.brightidea.com/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.brightidea.com/terms-of-use/](https://www.brightidea.com/terms-of-use/) |
 

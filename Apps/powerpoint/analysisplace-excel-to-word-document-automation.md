@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la automatización de documentos de Excel a Word, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e3f7d7ec2b59ac21a44ca92737e9fbdba4cfdaaa
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553641"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281572"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel de documentos de Excel a Word
 
@@ -32,10 +32,10 @@ Información proporcionada por AnalysisPlace a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Excel de documentos de Excel a Word |
-| ID | WA104380955 |
+| Id. | WA104380955 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Word 2016 o posterior en Mac, Word 2016 o posterior en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint 2016 o posterior en Windows, Excel en la Web, Word en la Web, PowerPoint en la Web |
 | Nombre de la compañía asociada | AnalysisPlace |
-| Dirección URL del sitio web de partners | [https://analysisplace.com/](https://analysisplace.com/) |
+| Dirección URL del sitio web de partners | [https://analysisplace.com](https://analysisplace.com) |
 | Dirección URL de la directiva de privacidad | [https://analysisplace.com/Privacy](https://analysisplace.com/Privacy) |
 | DIRECCIÓN URL de términos de uso | [https://analysisplace.com/Terms](https://analysisplace.com/Terms) |
 

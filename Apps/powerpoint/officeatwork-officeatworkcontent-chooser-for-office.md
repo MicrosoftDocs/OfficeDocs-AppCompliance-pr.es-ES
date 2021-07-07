@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Content Chooser for Office, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f4d95e0dcbb0a7234299f190766e85b17f6a853f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553591"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281552"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | El elegidor de contenido para Office
 
@@ -31,10 +31,10 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | officeatwork: El elegidor de contenido para Office |
-| ID | WA104380602 |
+| Id. | WA104380602 |
 | Office 365 clientes compatibles | Excel en iPad, Excel 2016 o posterior en Mac, Excel 2013 Service Pack 1 o posterior en Windows, Excel en la Web, Word en iPad, Word 2016 o posterior en Mac, Word en la Web, Word 2013 Service Pack 1 o posterior en Windows, PowerPoint en iPad, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2013 Service Pack 1 o posterior en Windows, OneNote en la Web |
 | Nombre de la compañía asociada | officeatwork |
-| Dirección URL del sitio web de partners | [https://links.officeatwork.com/officeatwork-home](https://links.officeatwork.com/officeatwork-home) |
+| Dirección URL del sitio web de partners | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Dirección URL de la directiva de privacidad | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | DIRECCIÓN URL de términos de uso | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

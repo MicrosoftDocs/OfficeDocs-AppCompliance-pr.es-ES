@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para preguntas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3424ac372f46be0fc9834611fb1a0d57c69831a4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2bdf876ddb9ab17d9fa8616edda8b849e0d85df7
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551910"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281753"
 ---
 # <a name="q"></a>Q
 
@@ -33,12 +33,12 @@ Información proporcionada por ModuleQ a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Q |
-| ID | WA104381433 |
+| Id. | WA104381433 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ModuleQ |
 | Dirección URL del sitio web de partners | [https://moduleq.com](https://moduleq.com) |
-| Dirección URL de la directiva de privacidad | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://moduleq.com/terms-of-service/](https://moduleq.com/terms-of-service/) |
+| Dirección URL de la directiva de privacidad | [https://moduleq.com/privacy-policy](https://moduleq.com/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

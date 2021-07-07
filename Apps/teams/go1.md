@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Go1, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f812e25e3e5b894d7b54da886637513cb677702a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 39501f6cb09502287dcff26acab4d8720b5fb6a0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553121"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281282"
 ---
 # <a name="go1"></a>Go1
 
@@ -33,10 +33,10 @@ Información proporcionada por Go1 a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Go1 |
-| ID | WA200001484 |
+| Id. | WA200001484 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Go1 |
-| Dirección URL del sitio web de partners | [https://www.go1.com/](https://www.go1.com/) |
+| Dirección URL del sitio web de partners | [https://www.go1.com/user/login](https://www.go1.com/user/login) |
 | Dirección URL de la directiva de privacidad | [https://www.go1.com/en-au/terms/privacy-policy](https://www.go1.com/en-au/terms/privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://www.go1.com/en-au/terms/user-terms](https://www.go1.com/en-au/terms/user-terms) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 8x8, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 66c25d4d6afd365763add08274e98b09e07e9254
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: e6b886dc575994e36926847685d1de81647a10ea
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987862"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281482"
 ---
 # <a name="8x8"></a>8x8
 
@@ -33,10 +33,10 @@ Información proporcionada por 8x8, Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | 8x8 |
-| ID | WA200002665 |
+| Id. | WA200002665 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | 8x8, Inc |
-| Dirección URL del sitio web de partners | [www.8x8.com](www.8x8.com) |
+| Nombre de la compañía asociada | 8x8, Inc. |
+| Dirección URL del sitio web de partners | [https://www.8x8.com](https://www.8x8.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.8x8.com/products/integrations/8x8-voice-for-mic...](https://www.8x8.com/products/integrations/8x8-voice-for-microsoft-teams) |
 | Dirección URL de la directiva de privacidad | [https://www.8x8.com/terms-and-conditions/privacy-policy?loc...](https://www.8x8.com/terms-and-conditions/privacy-policy?locale=us) |
 | DIRECCIÓN URL de términos de uso | [https://www.8x8.com/terms-and-conditions](https://www.8x8.com/terms-and-conditions) |
@@ -58,11 +58,11 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios de Microsoft no se usan.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 

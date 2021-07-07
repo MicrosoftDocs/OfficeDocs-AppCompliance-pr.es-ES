@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Asana, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6c18bb20cdf753b1a5d998b3d7b7144f950f00c0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0f2e4ff08367c5b8694ca9b6f2cfce1a530a64c9
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553411"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282053"
 ---
 # <a name="asana"></a>Asana
 
@@ -33,10 +33,10 @@ Información proporcionada por Asana a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Asana |
-| ID | WA200001727 |
+| Id. | WA200001727 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Asana |
-| Dirección URL del sitio web de partners | [https://asana.com/?noredirect&amp;utm_source=asana_inproduct &amp; ut...](https://asana.com/?noredirect&amp;utm_source=asana_inproduct&amp;utm_medium=organic_inproduct&amp;utm_campaign=msft_teams_launch) |
+| Dirección URL del sitio web de partners | [https://asana.com](https://asana.com) |
 | Dirección URL de la directiva de privacidad | [https://asana.com/terms#privacy-policy](https://asana.com/terms#privacy-policy) |
 | DIRECCIÓN URL de términos de uso | [https://asana.com/terms#terms-of-service](https://asana.com/terms#terms-of-service) |
 

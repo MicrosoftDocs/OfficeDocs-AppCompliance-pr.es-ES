@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Gaggle para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3678860272fa669d66d53dc650a685a1ed8c5ef2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 72f13f1e2db58d8376c857bac1d41433a09321a6
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553501"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281522"
 ---
 # <a name="gaggle-for-sharepoint"></a>Moverse por SharePoint
 
@@ -32,12 +32,12 @@ Información proporcionada por Gaggle.net, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Moverse por SharePoint |
-| ID | WA104374324 |
+| Id. | WA104374324 |
 | Office 365 clientes compatibles | SharePoint 2013 o posterior |
 | Nombre de la compañía asociada | Gaggle.net, Inc. |
-| Dirección URL del sitio web de partners | [https://gaggle.net/](https://gaggle.net/) |
-| Dirección URL de la directiva de privacidad | [https://gaggle.net/privacy](https://gaggle.net/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Dirección URL del sitio web de partners | [https://Gaggle.net](https://Gaggle.net) |
+| Dirección URL de la directiva de privacidad | [https://www.gaggle.net/student-data-privacy-notice/](https://www.gaggle.net/student-data-privacy-notice/) |
+| DIRECCIÓN URL de términos de uso | [https://www.gaggle.net/terms-conditions/](https://www.gaggle.net/terms-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

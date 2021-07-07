@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud para Outlook (oficial), sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e366abab2bef95cd0468c87945096ec9c22024cc
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b4c7c0bb245c602d1650f13fb231894a86b3e8b0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552551"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281642"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (Official)
 
@@ -32,12 +32,12 @@ Información proporcionada por Atlassian.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Jira Cloud for Outlook (Official) |
-| ID | WA200000056 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la web |
+| Id. | WA200000056 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la Web |
 | Nombre de la compañía asociada | Atlassian.com |
-| Dirección URL del sitio web de partners | [https://www.atlassian.com/](https://www.atlassian.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.atlassian.com/legal/cloud-terms-of-service](https://www.atlassian.com/legal/cloud-terms-of-service) |
+| Dirección URL del sitio web de partners | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| Dirección URL de la directiva de privacidad | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

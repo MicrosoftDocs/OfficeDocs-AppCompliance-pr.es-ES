@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud para Excel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cbed2eb7aada40d5631391a9549600a4af3edebf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 73212faa010d95233281a0cf7f120e9ee0fd1ffb
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52549830"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281202"
 ---
 # <a name="jira-cloud-for-excel"></a>Jira Cloud para Excel
 
@@ -32,12 +32,12 @@ Información proporcionada por Atlassian.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Jira Cloud para Excel |
-| ID | WA200000556 |
+| Id. | WA200000556 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | Atlassian.com |
-| Dirección URL del sitio web de partners | [https://www.atlassian.com/](https://www.atlassian.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.atlassian.com/legal/privacy-policy](https://www.atlassian.com/legal/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.microsoft.com/en-us/store/standard-application-...](https://www.microsoft.com/en-us/store/standard-application-license-terms) |
+| Dirección URL del sitio web de partners | [https://www.atlassian.com/software/jira](https://www.atlassian.com/software/jira) |
+| Dirección URL de la directiva de privacidad | [https://www.msteams-atlassian.com/privacy-policy/](https://www.msteams-atlassian.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.msteams-atlassian.com/legal/](https://www.msteams-atlassian.com/legal/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

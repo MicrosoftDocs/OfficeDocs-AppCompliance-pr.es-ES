@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Skillate, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 982f32da96968ac9426ef93a86741e037c0f1713
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: e92d7e997ba94746820fde5daccb028fc246e255
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553881"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281052"
 ---
 # <a name="skillate"></a>Skillate
 
@@ -33,13 +33,13 @@ Información proporcionada por Skillate Laboratories Pvt. Ltd. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Skillate |
-| ID | WA200002490 |
+| Id. | WA200002490 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Skillate Laboratories Pvt. Ltd. |
-| Dirección URL del sitio web de partners | [https://skillate.com/](https://skillate.com/) |
+| Dirección URL del sitio web de partners | [https://www.skillate.com](https://www.skillate.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.skillate.com/features/intelligent-hiring/](https://www.skillate.com/features/intelligent-hiring/) |
-| Dirección URL de la directiva de privacidad | [https://www.skillate.com/privacy-policy](https://www.skillate.com/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.skillate.com/terms-and-conditions](https://www.skillate.com/terms-and-conditions) |
+| Dirección URL de la directiva de privacidad | [https://www.skillate.com/privacy-policy/](https://www.skillate.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.skillate.com/terms-and-conditions/](https://www.skillate.com/terms-and-conditions/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

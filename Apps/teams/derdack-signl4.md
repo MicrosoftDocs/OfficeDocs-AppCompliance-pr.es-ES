@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SIGNL4, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a619327000c93e3292e266c8b025034370a8b623
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553211"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281332"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -33,10 +33,10 @@ Información proporcionada por Derdack SIGNL4 a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SIGNL4 |
-| ID | WA200001239 |
+| Id. | WA200001239 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Derdack SIGNL4 |
-| Dirección URL del sitio web de partners | [https://www.signl4.com](https://www.signl4.com) |
+| Dirección URL del sitio web de partners | [https://www.derdack.com](https://www.derdack.com) |
 | Dirección URL de la directiva de privacidad | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -63,7 +63,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| De forma recursiva, se requiere dirección de correo electrónico, dirección de correo electrónico para enviar notificaciones de facturación al cliente cuando esté usando la aplicación. Twilio, números de teléfono, alerta de contenido para enviar alertas a través SMS mensajes de texto |  | Api de administración de Azure, alertas de Azure Monitor se recopilan, la recopilación se produce porque los sistemas envían notificaciones para esas alertas |
+>| De forma recursiva, se requiere dirección de correo electrónico, dirección de correo electrónico para enviar notificaciones de facturación al cliente cuando esté usando la aplicación. Twilio, números de teléfono, contenido de alerta para enviar alertas a través de mensajes de texto SMS |  | Api de administración de Azure, alertas de Azure Monitor se recopilan, la recopilación se produce porque los sistemas envían notificaciones para esas alertas |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 

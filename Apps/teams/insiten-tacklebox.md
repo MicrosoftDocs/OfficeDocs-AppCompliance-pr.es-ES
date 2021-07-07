@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TackleBox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6d521b6172e4915d6ce10ea493069355ce3abfdf
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3ca294c588f6447c5e54c53cf1dec33b1e849a47
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552071"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281833"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -33,10 +33,10 @@ Información proporcionada por Insiten a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TackleBox |
-| ID | WA200002310 |
+| Id. | WA200002310 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Insiten |
-| Dirección URL del sitio web de partners | [https://tacklebox.app/](https://tacklebox.app/) |
+| Dirección URL del sitio web de partners | [https://insiten.com](https://insiten.com) |
 | Dirección URL de Teams de información de la aplicación | [https://tacklebox.app](https://tacklebox.app) |
 | Dirección URL de la directiva de privacidad | [https://tacklebox.app/privacy/](https://tacklebox.app/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://tacklebox.app/terms/](https://tacklebox.app/terms/) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bb23e321e4c40b0ed2c98026665b7e9f9e22a9e4
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7061510a0fb54a3e46e9ca80032a93e97a0e5868
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553891"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281062"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -33,10 +33,10 @@ Información proporcionada por SHEETGO EUROPE SL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sheetgo |
-| ID | WA200002067 |
+| Id. | WA200002067 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SHEETGO EUROPE SL |
-| Dirección URL del sitio web de partners | [https://www.sheetgo.com](https://www.sheetgo.com) |
+| Dirección URL del sitio web de partners | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
 | Dirección URL de la directiva de privacidad | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
 

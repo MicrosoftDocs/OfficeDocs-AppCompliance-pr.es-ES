@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AVA, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6176bc86a6d382285623d3e3286852afd4a4ff96
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c55d372c0249302da425ea5b2483aba88f1a2e42
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552371"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281412"
 ---
 # <a name="ava"></a>AVA
 
@@ -33,12 +33,12 @@ Información proporcionada por AvePoint, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AVA |
-| ID | WA104381883 |
+| Id. | WA104381883 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | AvePoint, Inc. |
-| Dirección URL del sitio web de partners | [https://www.avepoint.com](https://www.avepoint.com) |
+| Dirección URL del sitio web de partners | [https://www.avepoint.com/](https://www.avepoint.com/) |
 | Dirección URL de Teams de información de la aplicación | [https://www.avepoint.com/support/](https://www.avepoint.com/support/) |
-| Dirección URL de la directiva de privacidad | [https://www.avepoint.com/privacy-policy](https://www.avepoint.com/privacy-policy) |
+| Dirección URL de la directiva de privacidad | [https://www.avepoint.com/company/privacy-policy/](https://www.avepoint.com/company/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

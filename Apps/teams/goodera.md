@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Goodera, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55b69d4abaedb8f838f201812e11db2cc9aac39f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 46dc2de8dc444591a42a0a3e4ecaa1c31232ebc3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552151"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281873"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -33,11 +33,10 @@ Información proporcionada por Goodera a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Goodera |
-| ID | WA200002136 |
+| Id. | WA200002136 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Goodera |
-| Dirección URL del sitio web de partners | [https://about.goodera.com](https://about.goodera.com) |
-| Dirección URL de Teams de información de la aplicación | [N/D](N/A) |
+| Dirección URL del sitio web de partners | [https://goodera.com](https://goodera.com) |
 | Dirección URL de la directiva de privacidad | [https://about.goodera.com/privacy](https://about.goodera.com/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://about.goodera.com/terms](https://about.goodera.com/terms) |
 

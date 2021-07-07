@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para BrainBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b5eec3d8d487cdc79f8ecd180fe848812889d19d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2b2d399cc59b9df98708a41720514a6ecb2d6dea
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553381"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282013"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -33,12 +33,12 @@ Información proporcionada por Biggerbrains a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | BrainBot |
-| ID | WA104381981 |
+| Id. | WA104381981 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Biggerbrains |
-| Dirección URL del sitio web de partners | [https://brainbot.ai](https://brainbot.ai) |
+| Dirección URL del sitio web de partners | [https://getbiggerbrains.com](https://getbiggerbrains.com) |
 | Dirección URL de Teams de información de la aplicación | [https://brainbot.ai](https://brainbot.ai) |
-| Dirección URL de la directiva de privacidad | [https://brainbot.ai/privacypolicy/](https://brainbot.ai/privacypolicy/) |
+| Dirección URL de la directiva de privacidad | [https://www.brainbot.ai/privacypolicy/](https://www.brainbot.ai/privacypolicy/) |
 | DIRECCIÓN URL de términos de uso | [https://brainbot.ai/terms/](https://brainbot.ai/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

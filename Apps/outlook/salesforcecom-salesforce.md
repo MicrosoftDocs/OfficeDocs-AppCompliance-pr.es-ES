@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Salesforce, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 29c00595a806c5144b34701ba54860353f9cafc0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: b5999dd08ed27ce75bc958e431c0974e10830a3c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553711"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281702"
 ---
 # <a name="salesforce"></a>Salesforce
 
@@ -32,12 +32,12 @@ Información proporcionada por salesforce.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Salesforce |
-| ID | WA104379334 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
+| Id. | WA104379334 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | salesforce.com |
-| Dirección URL del sitio web de partners | [https://www.salesforce.com/](https://www.salesforce.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.salesforce.com/company/privacy](https://www.salesforce.com/company/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474843361/Product_42949677285/Asset_540860c0-685e-4047-9f3a-082a748e57a2/LIGHTNINGFOROUTLOOKOrderFormSu.doc) |
+| Dirección URL del sitio web de partners | [https://www.salesforce.com](https://www.salesforce.com) |
+| Dirección URL de la directiva de privacidad | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
+| DIRECCIÓN URL de términos de uso | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA104379334&amp;cmu=en-US) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

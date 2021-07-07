@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Gurú, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 16abdcc7ab9b3da8cef55b17e5b63a3a7d916c51
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4577aabcc19f32941d3d9005ba7e9fe61e4675cc
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553141"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281272"
 ---
 # <a name="guru"></a>Guru
 
@@ -33,12 +33,12 @@ Información proporcionada por Gurú Technologies a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Guru |
-| ID | WA200001719 |
+| Id. | WA200001719 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Guru Technologies |
-| Dirección URL del sitio web de partners | [https://www.getguru.com/](https://www.getguru.com/) |
+| Dirección URL del sitio web de partners | [https://www.getguru.com](https://www.getguru.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.getguru.com/integrations/microsoft-teams](https://www.getguru.com/integrations/microsoft-teams) |
-| Dirección URL de la directiva de privacidad | [https://www.getguru.com/privacy](https://www.getguru.com/privacy) |
+| Dirección URL de la directiva de privacidad | [https://www.getguru.com/privacy/](https://www.getguru.com/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.getguru.com/terms-of-service](https://www.getguru.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

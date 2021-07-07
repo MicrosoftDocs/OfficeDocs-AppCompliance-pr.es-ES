@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 365Projects, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d760c1c5bacf37fa23e26f4a9a15eb7dbbd75bb1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 07ef4c5e5e71ee8034c75869b97d5c8924f502fd
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553471"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281492"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -33,10 +33,10 @@ Información proporcionada por 365Apps a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | 365Projects |
-| ID | WA200002160 |
+| Id. | WA200002160 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 365Apps |
-| Dirección URL del sitio web de partners | [https://365projects.app](https://365projects.app) |
+| Dirección URL del sitio web de partners | [https://365apps.com.au](https://365apps.com.au) |
 | Dirección URL de Teams de información de la aplicación | [https://365projects.app](https://365projects.app) |
 | Dirección URL de la directiva de privacidad | [https://365projects.app/privacy](https://365projects.app/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://365projects.app/eula](https://365projects.app/eula) |

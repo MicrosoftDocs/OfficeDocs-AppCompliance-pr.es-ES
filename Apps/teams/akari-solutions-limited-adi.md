@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ADI, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 576206f6d80f4bbc46ebdd1cef899581c12bcd8a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: ad4b6c68e867a057a3b2b6dc85d5016fee92f3ed
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552421"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282083"
 ---
 # <a name="adi"></a>ADI
 
@@ -33,10 +33,10 @@ Información proporcionada por Akari Solutions Limited para Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ADI |
-| ID | WA200002615 |
+| Id. | WA200002615 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Akari Solutions Limited |
-| Dirección URL del sitio web de partners | [https://akari.io/adi/](https://akari.io/adi/) |
+| Dirección URL del sitio web de partners | [https://akari.io](https://akari.io) |
 | Dirección URL de Teams de información de la aplicación | [https://akari.io/adi](https://akari.io/adi) |
 | Dirección URL de la directiva de privacidad | [https://akari.io/adi-privacy-policy/](https://akari.io/adi-privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://akari.io/adi-terms-and-conditions/](https://akari.io/adi-terms-and-conditions/) |

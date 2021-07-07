@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Template Chooser for SharePoint, its data handling policies, its Microsoft Cloud App Security app catalog information, and security/compliance information in the CSA STAR registry.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7d114cfdc01d155897fd5ebb0c25134ff6fabeae
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 4ca57d9a566a058e8af0ae2929333361eea70f90
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553481"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281502"
 ---
 # <a name="officeatwork--template-chooser-for-sharepoint"></a>officeatwork | Chooser de plantillas para SharePoint
 
@@ -31,10 +31,10 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | officeatwork: elegidor de plantillas para SharePoint |
-| ID | WA200001923 |
+| Id. | WA200001923 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | officeatwork |
-| Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Dirección URL del sitio web de partners | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Dirección URL de la directiva de privacidad | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
 | DIRECCIÓN URL de términos de uso | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 

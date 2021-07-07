@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 07/02/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Excel aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 02f4c052f8c2960430d83f09fd5b4dd4c886a2e4
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.openlocfilehash: 0cb66e3c27ebd69c286e4250760207f93a0c56a4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52789992"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281172"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Seguridad y cumplimiento de aplicaciones
 

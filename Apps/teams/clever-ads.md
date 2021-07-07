@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Anuncios inteligentes, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0b092ef8ab27bec0a2f5c3bf294b301a71d1649a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d0ef9f59476133e673a0bf9edf99e63cfc424559
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552281"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281953"
 ---
 # <a name="clever-ads"></a>Clever Ads
 
@@ -33,12 +33,12 @@ Información proporcionada por Clever Ads a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Clever Ads |
-| ID | WA200001182 |
+| Id. | WA200001182 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Clever Ads |
-| Dirección URL del sitio web de partners | [https://www.cleverads.com/](https://www.cleverads.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.cleverads.com/privacy-policy](https://www.cleverads.com/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.cleverads.com/terms-conditions](https://www.cleverads.com/terms-conditions) |
+| Dirección URL del sitio web de partners | [https://cleverads.com](https://cleverads.com) |
+| Dirección URL de la directiva de privacidad | [https://cleverads.com/privacy-policy](https://cleverads.com/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://cleverads.com/terms-conditions](https://cleverads.com/terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

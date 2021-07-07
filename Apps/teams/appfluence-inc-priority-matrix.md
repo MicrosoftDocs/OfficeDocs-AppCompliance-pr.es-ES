@@ -2,23 +2,23 @@
 title: Información de la aplicación para la matriz de prioridad de Appfluence Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/16/2021
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50814045f621d38df3a4a8ce65fb361d72a6f7a3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 93b64ae01c745f370af36bd6cb8a73787d39867a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552401"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281442"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: April 16, 2021</p>
+<p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/5be2b320-a5b7-4221-893c-dee506e4e365" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382005" target="_blank">Ver en AppSource</a>
@@ -32,12 +32,12 @@ Información proporcionada por Appfluence Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Priority Matrix |
-| ID | WA104382005 |
+| Id. | WA104382005 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appfluence Inc |
-| Dirección URL del sitio web de partners | [https://appfluence.com](https://appfluence.com) |
+| Dirección URL del sitio web de partners | [https://appfluence.com/office-365-project-management-integr...](https://appfluence.com/office-365-project-management-integration/) |
 | Dirección URL de Teams de información de la aplicación | [https://appfluence.com/project-management-integration-for-m...](https://appfluence.com/project-management-integration-for-microsoft-teams/) |
-| Dirección URL de la directiva de privacidad | [https://appfluence.com/privacy](https://appfluence.com/privacy) |
+| Dirección URL de la directiva de privacidad | [https://appfluence.com/privacy/](https://appfluence.com/privacy/) |
 | DIRECCIÓN URL de términos de uso | [https://appfluence.com/eula](https://appfluence.com/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -126,7 +126,7 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación c
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |

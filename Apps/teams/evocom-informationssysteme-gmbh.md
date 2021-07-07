@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Evocom, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69eed6c53706cb64ea4c4af64d455e01ecc98c9f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1a3be83c266ee993ad377a2489a85248bdafab67
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553171"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281292"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -33,13 +33,13 @@ Información proporcionada por Evocom Informationssysteme GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Evocom |
-| ID | WA200002050 |
+| Id. | WA200002050 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Evocom Informationssysteme GmbH |
-| Dirección URL del sitio web de partners | [https://www.evocom.de/](https://www.evocom.de/) |
+| Dirección URL del sitio web de partners | [https://evocom.de](https://evocom.de) |
 | Dirección URL de Teams de información de la aplicación | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
-| Dirección URL de la directiva de privacidad | [https://www.evocom.de/privacy](https://www.evocom.de/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.evocom.de/termsofuse](https://www.evocom.de/termsofuse) |
+| Dirección URL de la directiva de privacidad | [https://evocom.de/privacy](https://evocom.de/privacy) |
+| DIRECCIÓN URL de términos de uso | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

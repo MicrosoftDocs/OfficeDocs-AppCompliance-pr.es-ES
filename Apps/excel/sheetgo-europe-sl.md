@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cba1d32ef248cc8228a0e38e1dc953dd07f4e5ad
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 9441bc0dcf4b2041b524db3715258caecfaa9aec
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548730"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281092"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -32,12 +32,12 @@ Información proporcionada por SHEETGO EUROPE SL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sheetgo |
-| ID | WA200002128 |
+| Id. | WA200002128 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | SHEETGO EUROPE SL |
-| Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
-| Dirección URL de la directiva de privacidad | [https://www.sheetgo.com/legal/privacy](https://www.sheetgo.com/legal/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.sheetgo.com/legal/terms](https://www.sheetgo.com/legal/terms) |
+| Dirección URL del sitio web de partners | [https://www.sheetgo.com/](https://www.sheetgo.com/) |
+| Dirección URL de la directiva de privacidad | [https://www.sheetgo.com/legal/privacy/](https://www.sheetgo.com/legal/privacy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

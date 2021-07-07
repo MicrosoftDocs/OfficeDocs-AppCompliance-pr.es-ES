@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para harmon.ie para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f494dbc3857bd9fed2603cef3dbc6f76306510c1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 90b5ce81e0b2a0b0d0c9568facb456c5e87aad62
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553741"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281632"
 ---
 # <a name="harmonie-for-outlook"></a>harmon.ie para Outlook
 
@@ -32,12 +32,12 @@ Información proporcionada por harmon.ie Corporation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | harmon.ie para Outlook |
-| ID | WA103004101 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la web |
+| Id. | WA103004101 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la Web |
 | Nombre de la compañía asociada | harmon.ie Corporation |
-| Dirección URL del sitio web de partners | [https://harmon.ie/](https://harmon.ie/) |
+| Dirección URL del sitio web de partners | [https://harmon.ie](https://harmon.ie) |
 | Dirección URL de la directiva de privacidad | [https://harmon.ie/legal/privacy-policy](https://harmon.ie/legal/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://pinpointprod.blob.core.windows.net/marketing/Partne...](https://pinpointprod.blob.core.windows.net/marketing/Partner_21474836605/Product_42949673246/Asset_37060a29-311b-4239-be49-1758aebbeb1a/harmonieEULA.pdf) |
+| DIRECCIÓN URL de términos de uso | [https://harmon.ie/legal/eula](https://harmon.ie/legal/eula) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

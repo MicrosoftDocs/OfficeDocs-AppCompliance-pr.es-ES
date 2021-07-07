@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MeaningCloud Text Analytics para Excel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 93b73861138ad99eeb2ed6eac9df86656f1f8748
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: d1361025e7379890dac4921e6a05737d381513e0
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52548820"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281132"
 ---
 # <a name="meaningcloud-text-analytics-for-excel"></a>MeaningCloud Text Analytics para Excel
 
@@ -32,10 +32,10 @@ Información proporcionada por MeaningCloud a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MeaningCloud Text Analytics para Excel |
-| ID | WA200002421 |
+| Id. | WA200002421 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2013 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | MeaningCloud |
-| Dirección URL del sitio web de partners | [https://appsource.microsoft.com/marketplace/apps?product=of...](https://appsource.microsoft.com/marketplace/apps?product=office) |
+| Dirección URL del sitio web de partners | [https://meaningcloud.com](https://meaningcloud.com) |
 | Dirección URL de la directiva de privacidad | [https://www.meaningcloud.com/data-protection-policy](https://www.meaningcloud.com/data-protection-policy) |
 | DIRECCIÓN URL de términos de uso | [https://www.meaningcloud.com/terms-and-conditions](https://www.meaningcloud.com/terms-and-conditions) |
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamGether, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4856abc549692b7963c9a21c2c073133626a78ea
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1c992ffe3240ed8775832240ab9107debe12b9f2
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553356"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281913"
 ---
 # <a name="teamgether"></a>TeamGether
 
@@ -33,13 +33,13 @@ Información proporcionada por EFFENCY a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamGether |
-| ID | WA200002660 |
+| Id. | WA200002660 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | EFFENCY |
 | Dirección URL del sitio web de partners | [https://www.effency.fr](https://www.effency.fr) |
 | Dirección URL de Teams de información de la aplicación | [https://www.effency.fr/teams/](https://www.effency.fr/teams/) |
-| Dirección URL de la directiva de privacidad | [https://www.effency.fr/protection-des-donnees](https://www.effency.fr/protection-des-donnees) |
-| DIRECCIÓN URL de términos de uso | [https://www.effency.fr/conditions-generales](https://www.effency.fr/conditions-generales) |
+| Dirección URL de la directiva de privacidad | [https://www.effency.fr/protection-des-donnees/](https://www.effency.fr/protection-des-donnees/) |
+| DIRECCIÓN URL de términos de uso | [https://www.effency.fr/conditions-generales/](https://www.effency.fr/conditions-generales/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign Add-In para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 98180d11de4dcde3cc8820bddd46a9580a908cd6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 15b9a2929296a4be94c01162cb28f06ba5d9d1f1
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552571"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281732"
 ---
 # <a name="adobe-sign-add-in-for-outlook"></a>Adobe Sign Add-In para Outlook
 
@@ -31,12 +31,12 @@ Información proporcionada por Adobe Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Sign Add-In para Outlook |
-| ID | WA104381158 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
+| Id. | WA104381158 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | Adobe Inc. |
-| Dirección URL del sitio web de partners | [https://www.adobe.com/](https://www.adobe.com/) |
+| Dirección URL del sitio web de partners | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | Dirección URL de la directiva de privacidad | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en) |
+| DIRECCIÓN URL de términos de uso | [https://www.adobe.com/legal/licenses-terms.html](https://www.adobe.com/legal/licenses-terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

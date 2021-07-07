@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CatchEm, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55b248c8f99e18d08ddf60dec177ce92b543f008
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8f491e0b26c58392c2e791322603dc014fcf96ef
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552321"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281993"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -33,10 +33,10 @@ Información proporcionada por Chimu Software a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CatchEm |
-| ID | WA200002639 |
+| Id. | WA200002639 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Chimu Software |
-| Dirección URL del sitio web de partners | [https://www.chimusoftware.com](https://www.chimusoftware.com) |
+| Dirección URL del sitio web de partners | [https://chimusoftware.com](https://chimusoftware.com) |
 | Dirección URL de Teams de información de la aplicación | [https://catchem.apps.chimusoftware.com/help](https://catchem.apps.chimusoftware.com/help) |
 | Dirección URL de la directiva de privacidad | [https://www.chimusoftware.com/apps/catchem/privacy.html](https://www.chimusoftware.com/apps/catchem/privacy.html) |
 | DIRECCIÓN URL de términos de uso | [https://www.chimusoftware.com/apps/catchem/termsofuse.html](https://www.chimusoftware.com/apps/catchem/termsofuse.html) |

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Wrike para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 1ee6c98b2513459c588100a9b3b19ba529d98af0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5ee9a184fbe3c5358e79253a7227bbb69d62d4d4
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553701"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53282414"
 ---
 # <a name="wrike-for-outlook"></a>Wrike para Outlook
 
@@ -31,12 +31,12 @@ Información proporcionada por Wrike Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wrike para Outlook |
-| ID | WA104381120 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en la web, Outlook en Android |
+| Id. | WA104381120 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en la Web, Outlook en Android |
 | Nombre de la compañía asociada | Wrike Inc. |
-| Dirección URL del sitio web de partners | [https://wrike.com/](https://wrike.com/) |
-| Dirección URL de la directiva de privacidad | [https://www.wrike.com/security/privacy](https://www.wrike.com/security/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Dirección URL del sitio web de partners | [https://www.wrike.com/](https://www.wrike.com/) |
+| Dirección URL de la directiva de privacidad | [https://www.wrike.com/privacy/](https://www.wrike.com/privacy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.wrike.com/terms/](https://www.wrike.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

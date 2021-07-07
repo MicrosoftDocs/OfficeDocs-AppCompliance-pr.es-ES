@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para el seguimiento de facturas y horas: Factura Zoho, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0909b65a673af03aa6b190d181f1572ab84b5e77
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 0a3e8afb7be998c2fba33e7c4320956cbd990ef3
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553671"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281582"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Seguimiento de factura y tiempo: factura de Zoho
 
@@ -32,12 +32,12 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Seguimiento de factura y tiempo: factura de Zoho |
-| ID | WA104381067 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la web |
+| Id. | WA104381067 |
+| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/](https://www.zoho.com/) |
-| Dirección URL de la directiva de privacidad | [https://zoho.com/privacy.html](https://zoho.com/privacy.html) |
-| DIRECCIÓN URL de términos de uso | [https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US](https://go.microsoft.com/fwlink/?LinkID=521715&amp;omkt=en-US) |
+| Dirección URL de la directiva de privacidad | [https://www.zoho.com/privacy.html](https://www.zoho.com/privacy.html) |
+| DIRECCIÓN URL de términos de uso | [https://www.zoho.com/terms.html](https://www.zoho.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

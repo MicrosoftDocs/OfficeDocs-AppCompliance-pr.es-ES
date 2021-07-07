@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reach, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83df050a6f58bc1d0b7d49239b40ddf2ba80849a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 91729da78b1a031be38569bfd4e4168f2a96f83a
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552001"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281783"
 ---
 # <a name="reach"></a>Reach
 
@@ -33,13 +33,13 @@ Información proporcionada por LiveTiles a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Reach |
-| ID | WA200002045 |
+| Id. | WA200002045 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | LiveTiles |
 | Dirección URL del sitio web de partners | [https://livetilesglobal.com](https://livetilesglobal.com) |
 | Dirección URL de Teams de información de la aplicación | [https://livetilesglobal.com/products/livetiles-reach/](https://livetilesglobal.com/products/livetiles-reach/) |
-| Dirección URL de la directiva de privacidad | [https://livetilesglobal.com/privacy-policy](https://livetilesglobal.com/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://livetilesglobal.com/eula](https://livetilesglobal.com/eula) |
+| Dirección URL de la directiva de privacidad | [https://livetilesglobal.com/privacy-policy/](https://livetilesglobal.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://livetilesglobal.com/eula/](https://livetilesglobal.com/eula/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

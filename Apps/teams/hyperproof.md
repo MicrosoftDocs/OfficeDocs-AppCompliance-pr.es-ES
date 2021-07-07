@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Hyperproof, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 56b0a506f77ee119a38734b777bc8ecc67467e31
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: df33449d3b16eb9d521795445b3b03e1b34b627c
+ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553081"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53281853"
 ---
 # <a name="hyperproof"></a>Hyperproof
 
@@ -33,13 +33,13 @@ Información proporcionada por Hyperproof a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Hyperproof |
-| ID | WA200002692 |
+| Id. | WA200002692 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Hyperproof |
-| Dirección URL del sitio web de partners | [https://hyperproof.io/](https://hyperproof.io/) |
+| Dirección URL del sitio web de partners | [https://hyperproof.io](https://hyperproof.io) |
 | Dirección URL de Teams de información de la aplicación | [https://hyperproof.io/product](https://hyperproof.io/product) |
-| Dirección URL de la directiva de privacidad | [https://hyperproof.io/privacy-policy/](https://hyperproof.io/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://hyperproof.io/terms-of-use/](https://hyperproof.io/terms-of-use/) |
+| Dirección URL de la directiva de privacidad | [https://hyperproof.io/privacy-policy](https://hyperproof.io/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://hyperproof.io/terms-of-use](https://hyperproof.io/terms-of-use) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
