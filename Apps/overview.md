@@ -7,12 +7,12 @@ keywords: microsoft 365 m365 app editor certificación atestación
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: fd06ecd028876a862fa3938253817fae3ff0fea0
-ms.sourcegitcommit: 0d46955e7b4c0e1d4208843813793c382344b2f5
+ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
+ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53053444"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "53315120"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Cumplimiento de Aplicaciones de Microsoft 365
 
@@ -36,7 +36,7 @@ La verificación de editor se usa con las aplicaciones que cumplan las condicion
 
 En la [atestación de editor](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-attestation-guide), los desarrolladores comparten información general, de control de datos, de seguridad y de cumplimiento sobre el servicio de su aplicación. Esto reduce la necesidad de que los administradores de TI trabajen directamente con los editores de aplicaciones. Se reúne en un solo lugar y con un solo formato toda la información necesaria para tomar una decisión informada sobre cada una de las aplicaciones que hayan completado la atestación del editor. El objetivo es facilitar y acelerar el proceso de adopción de aplicaciones, mientras se asegura a los clientes que las aplicaciones que usan en sus espacios empresariales cumplen con los estándares de la organización.
 
-La atestación del editor se usa con las aplicaciones integradas con estas plataformas de Microsoft:
+La Atestación del editor se aplica a WebApps y a todas las aplicaciones que se integran con los siguientes productos de Microsoft:
 -   Teams
 -   Word
 -   Excel
@@ -45,7 +45,6 @@ La atestación del editor se usa con las aplicaciones integradas con estas plata
 - SharePoint
 - Project
 - OneNote
-- Aplicaciones web
 
 > [!IMPORTANT]
 > Microsoft no valida la información proporcionada. Es exclusivamente el desarrollador quien da fe de la veracidad, exactitud e integridad de la documentación de atestación y los correspondientes datos de rendimiento de la aplicación. 
