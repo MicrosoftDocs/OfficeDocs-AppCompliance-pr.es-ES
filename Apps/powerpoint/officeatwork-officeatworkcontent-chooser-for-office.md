@@ -2,23 +2,23 @@
 title: Información de la aplicación para officeatwork | Content Chooser for Office by officeatwork
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Content Chooser for Office, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39c7e2b45c8fa4d525d3b024533fbf63fa17b0be
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: fb8e0d9cb9f15856c5f877efc8980ebdc2785bf1
+ms.sourcegitcommit: 758b31a15dcb9224b8a3b6f367d501438c6e422c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281552"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53366132"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | El elegidor de contenido para Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: December 8, 2020</p>
+<p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104380602" target="_blank">Ver en AppSource</a>
 
@@ -31,7 +31,7 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | officeatwork: El elegidor de contenido para Office |
-| Id. | WA104380602 |
+| ID | WA104380602 |
 | Office 365 clientes compatibles | Excel en iPad, Excel 2016 o posterior en Mac, Excel 2013 Service Pack 1 o posterior en Windows, Excel en la Web, Word en iPad, Word 2016 o posterior en Mac, Word en la Web, Word 2013 Service Pack 1 o posterior en Windows, PowerPoint en iPad, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2013 Service Pack 1 o posterior en Windows, OneNote en la Web |
 | Nombre de la compañía asociada | officeatwork |
 | Dirección URL del sitio web de partners | [https://www.officeatwork.com](https://www.officeatwork.com) |
@@ -54,16 +54,16 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | delegado | No se almacenan datos. | Favoritos: para poder leer y escribir datos en los usuarios OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Files.ReadWrite.All | delegado | No se almacenan datos. | OneDrive: para poder leer y escribir datos en los usuarios OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Group.ReadWrite.All | delegado | No se almacenan datos. | Teams: para poder leer y escribir datos en un grupo. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| GroupMember.Read.All | delegado | No se almacenan datos. | SharePoint Online: compatibilidad con grupos de seguridad: para permitir que la aplicación enume grupos, lea las propiedades básicas del grupo y lea las pertenencias de todos los grupos a los que tiene acceso el usuario que ha iniciado sesión. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read | delegado | No se almacenan datos. | Sing-In: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| User.Read.All | delegado | No se almacenan datos. | Teams: para averiguar a qué grupos pertenece un usuario. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| offline_access | delegado | No se almacenan datos. | Sing-In: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| OpenID | delegado | No se almacenan datos. | Sing-In: para permitir a los usuarios iniciar sesión en la aplicación officeatwork con su organización o cuenta microsoft. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| perfil | delegado | No se almacenan datos. | Sing-In: para mostrar al usuario que ha iniciado sesión en la aplicación officeatwork. Esto ayuda a asegurar y confirmar al usuario qué cuenta se usó para iniciar sesión en la aplicación officeatwork. | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Files.ReadWrite.All | delegado | No se almacenan datos. | Favoritos: para poder leer y escribir datos en los usuarios OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Files.ReadWrite.All | delegado | No se almacenan datos. | OneDrive: para poder leer y escribir datos en los usuarios OneDrive. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Group.ReadWrite.All | delegado | No se almacenan datos. | Teams: para poder leer y escribir datos en un grupo. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| GroupMember.Read.All | delegado | No se almacenan datos. | SharePoint Online: compatibilidad con grupos de seguridad: para permitir que la aplicación enume grupos, lea las propiedades básicas del grupo y lea las pertenencias de todos los grupos a los que tiene acceso el usuario que ha iniciado sesión. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read | delegado | No se almacenan datos. | Sing-In: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| User.Read.All | delegado | No se almacenan datos. | Teams: para averiguar a qué grupos pertenece un usuario. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| offline_access | delegado | No se almacenan datos. | Sing-In: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| OpenID | delegado | No se almacenan datos. | Sing-In: para permitir a los usuarios iniciar sesión en la aplicación officeatwork con su organización o cuenta microsoft. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
+>| perfil | delegado | No se almacenan datos. | Sing-In: para mostrar al usuario que ha iniciado sesión en la aplicación officeatwork. Esto ayuda a asegurar y confirmar al usuario qué cuenta se usó para iniciar sesión en la aplicación officeatwork. | e8bea835-c6b0-45aa-9c39-889d3c77d5a3 |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 

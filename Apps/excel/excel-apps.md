@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Excel aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 0cb66e3c27ebd69c286e4250760207f93a0c56a4
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4e420551bcf1b60ddd0a36719fc12d60bb489cbf
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281172"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341166"
 ---
 # <a name="microsoft-excel-app-security-and-compliance"></a>Microsoft Excel Seguridad y cumplimiento de aplicaciones
 
@@ -29,6 +29,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [MeaningCloud Text Analytics para Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
 | [Office2SharePoint para Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [QuickCells Graphs](./cc-1c-quickcells-graphs.md) | CC-1C | **✓** |  |
 | [QuickCells Solvers](./cc-1c-quickcells-solvers.md) | CC-1C | **✓** |  |

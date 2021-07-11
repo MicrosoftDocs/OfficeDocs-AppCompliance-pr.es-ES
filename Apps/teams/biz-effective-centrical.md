@@ -2,24 +2,24 @@
 title: Información de la aplicación para Centrical por Biz-Effective
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Centrical, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0691b5eba488f58a2c5c740dec6e36cc6cbcf6bd
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 5ae0fcf2e8bd17619f723eeadcf1be5ec505dfe1
+ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552341"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "53339801"
 ---
 # <a name="centrical"></a>Centrical
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 12, 2021</p>
+<p>Last updated by the developer on: June 23, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/7a70b8e4-43ca-46a7-b7c3-eb31b33de397" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001531" target="_blank">Ver en AppSource</a>
@@ -33,7 +33,7 @@ Información proporcionada por Biz-Effective a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Centrical |
-| ID | WA200001531 |
+| Id. | WA200001531 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Biz-Effective |
 | Dirección URL del sitio web de partners | [https://centrical.com](https://centrical.com) |
@@ -113,20 +113,7 @@ Esta información ha sido proporcionada por Biz-Effective sobre cómo esta aplic
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,17 +2,17 @@
 title: 'Microsoft PowerPoint Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones PowerPoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: f5e535d1c8bda54a03b5467d8f48d3dc03f9e2fa
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ceb3e1a04b3e9dad963f86a09f41e8405357c945
+ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281542"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53341186"
 ---
 # <a name="microsoft-powerpoint-app-security-and-compliance"></a>Microsoft PowerPoint Seguridad y cumplimiento de aplicaciones
 
@@ -26,6 +26,8 @@ Microsoft trabaja con nuestros Microsoft 365 desarrolladores para proporcionar l
 | [Diagramas de Gráficos de PowerPoint](./lucid-software-inc-lucidchart-diagrams-for-powerpoint.md) | Lucid Software Inc | **✓** |  |
 | [Office2SharePoint para Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Slide Chooser for Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |
 | [Wrike para Office documentos](./wrike-inc-for-office-documents.md) | Wrike Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
