@@ -126,6 +126,8 @@
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | El elegidor de contenido para Office
           href: powerpoint/officeatwork-officeatworkcontent-chooser-for-office.md
+        - name: officeatwork | Slide Chooser para Office
+          href: powerpoint/officeatwork-officeatworkslide-chooser-for-office.md
         - name: officeatwork | Chooser de plantillas para Office
           href: powerpoint/officeatwork-officeatworktemplate-chooser-for-office.md
         - name: SlideHub
@@ -207,7 +209,7 @@
           href: teams/chat-apps-llc-bright-poll.md
         - name: Brightidea
           href: teams/brightidea.md
-        - name: Broadcast
+        - name: Difusión
           href: teams/cerkl-broadcast.md
         - name: Tablón de anuncios- NextSet
           href: teams/nextsetinc-bulletin-board-nextset.md
@@ -229,6 +231,8 @@
           href: teams/cisco-webex-meetings.md
         - name: Clever Ads
           href: teams/clever-ads.md
+        - name: ClipTraining
+          href: teams/cliptraining.md
         - name: Cloverpop
           href: teams/cloverpop.md
         - name: COCO
@@ -237,7 +241,7 @@
           href: teams/cauzey-pty-ltd-complish.md
         - name: Conferences i/o
           href: teams/conferences-io.md
-        - name: Conectar+
+        - name: Conéctese+
           href: teams/reward-gateway-connectplus.md
         - name: Centro de contacto
           href: teams/landis-technologies-llc-contact-center.md
@@ -349,7 +353,7 @@
           href: teams/lucid-software-lucidspark.md
         - name: LuckyDraw
           href: teams/tony-xia-luckydraw.md
-        - name: Lumio de SMART
+        - name: Lumio by SMART
           href: teams/smart-technologies-ulc-lumio-by.md
         - name: MailClark
           href: teams/mailclark.md
@@ -473,7 +477,7 @@
           href: teams/zoho-corporation-private-limited-site24x7.md
         - name: Skillate
           href: teams/skillate-laboratories-pvt-ltd.md
-        - name: Skilled Human
+        - name: SkilledHuman
           href: teams/saltflat-limited-skilledhuman.md
         - name: Skills by Pipe9
           href: teams/pipe9com-skills-by-pipe9.md
@@ -527,7 +531,7 @@
           href: teams/talview-inc-interviews.md
         - name: TaskList
           href: teams/limestat-inc-tasklist.md
-        - name: Bot de comprobación de estado de TeaMe
+        - name: TeaMe Health Check Bot
           href: teams/missing-teame-health-check-bot.md
         - name: TeamGether
           href: teams/effency-teamgether.md
@@ -635,6 +639,8 @@
           href: saas/officeatwork-designer.md
         - name: IGlobe CRM Office 365 para Microsoft 365
           href: saas/iglobe-crm-office-365-for-microsoft.md
+        - name: Image Chooser
+          href: saas/officeatwork-image-chooser.md
         - name: iPlanner Pro Office 365
           href: saas/iglobe-iplanner-pro-office-365.md
         - name: LMS365
