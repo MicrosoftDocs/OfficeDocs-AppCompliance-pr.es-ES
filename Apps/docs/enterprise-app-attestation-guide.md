@@ -6,19 +6,19 @@ description: Más detalles sobre el programa Publisher atestación
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 3479395605bd7e3ecc0ab618b8030987e67d2617
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
+ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315090"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53383733"
 ---
 # <a name="what-is-publisher-attestation"></a>¿Qué Publisher atestación?
 
 Publisher Atestación es el siguiente nivel del programa Microsoft 365 cumplimiento de aplicaciones. Se pide al desarrollador de la aplicación que complete una autoevaluación que incluya las preguntas más frecuentes que hacen los clientes o los administradores de TI cuando evalúan la seguridad y el cumplimiento de una aplicación. A continuación, Microsoft publica esta información para una evaluación más fácil y más rápida.
 
 > [!IMPORTANT]
-> Microsoft no valida la información proporcionada. El desarrollador de la aplicación es el único responsable de la información que proporcionan en la atestación de publicación. 
+> Microsoft no valida toda la información proporcionada. El desarrollador de aplicaciones es el único responsable de la información que proporcionan en la atestación del editor. 
 
 Publisher La atestación se aplica a WebApps y a todas las aplicaciones que se integran con las siguientes plataformas de Microsoft:
 - Teams
@@ -69,7 +69,7 @@ El desarrollador puede revisar información detallada de los resultados de la ce
 
 **Consulta la [descripción de MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) para ver un ejemplo de una aplicación que ha completado la Publisher atestación.** 
 
-## <a name="learn-more"></a>Más información
+## <a name="learn-more"></a>Obtén más información
 
 * [Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)
 * [Qué es Publisher verificación](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
