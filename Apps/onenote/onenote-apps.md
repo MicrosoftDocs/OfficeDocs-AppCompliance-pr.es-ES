@@ -2,21 +2,21 @@
 title: 'Microsoft OneNote Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/14/2021
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft OneNote aplicaciones.
+description: Toda la información de seguridad y cumplimiento disponible para todas las Microsoft OneNote aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 0303adc7cf8b30f5e0445f2e1ce4592beb777d77
-ms.sourcegitcommit: 3583fc1d7037a9a9d9d463913e34ffbbd65042f1
+ms.openlocfilehash: 9403718e45505b241bdd890d379323cb3827999a
+ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "53341156"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53422721"
 ---
-# <a name="microsoft-onenote-app-security-and-compliance"></a>Microsoft OneNote Seguridad y cumplimiento de aplicaciones
+# <a name="microsoft-onenote-apps-security-and-compliance"></a>Microsoft OneNote Seguridad y cumplimiento de aplicaciones
 
-Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre Microsoft OneNote aplicaciones y complementos que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre Microsoft OneNote Aplicaciones y complementos que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
