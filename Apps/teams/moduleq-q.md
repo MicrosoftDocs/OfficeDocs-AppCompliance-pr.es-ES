@@ -2,24 +2,24 @@
 title: Información de la aplicación para preguntas por moduleQ
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para preguntas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2bdf876ddb9ab17d9fa8616edda8b849e0d85df7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281753"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456596"
 ---
 # <a name="q"></a>Q
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 17, 2020</p>
+<p>Last updated by the developer on: July 8, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/72bb25c7-3644-4318-8249-a08e5493a520" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381433" target="_blank">Ver en AppSource</a>
@@ -33,11 +33,12 @@ Información proporcionada por ModuleQ a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Q |
-| Id. | WA104381433 |
+| ID | WA104381433 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ModuleQ |
 | Dirección URL del sitio web de partners | [https://moduleq.com](https://moduleq.com) |
-| Dirección URL de la directiva de privacidad | [https://moduleq.com/privacy-policy](https://moduleq.com/privacy-policy) |
+| Dirección URL de Teams de información de la aplicación | [https://moduleq.com/product](https://moduleq.com/product) |
+| Dirección URL de la directiva de privacidad | [https://moduleq.com/privacy-policy/](https://moduleq.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://moduleq.com/terms-of-service](https://moduleq.com/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -92,7 +93,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->Sí
+>Yes
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -110,3 +111,29 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+ModuleQ ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Yes |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Yes |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Yes |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Yes |
+| ¿La aplicación admite multiinquilino? | Yes |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Yes |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/> |
+| ¿Expone la aplicación alguna API web? | Yes |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Yes |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

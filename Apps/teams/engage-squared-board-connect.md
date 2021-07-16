@@ -2,24 +2,24 @@
 title: Información de la aplicación para la Conectar por Engage Squared
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/16/2021
+ms.date: 07/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para board Conectar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b7e2eb64055713e06f927882aa7bbf56cf62991
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
+ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281904"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "53456608"
 ---
 # <a name="board-connect"></a>Board Connect
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 16, 2021</p>
+<p>Last updated by the developer on: July 5, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/e8f06a4e-cefe-4b1e-a24b-c97bea471130" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001955" target="_blank">Ver en AppSource</a>
@@ -33,7 +33,7 @@ Información proporcionada por Engage Squared a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Board Connect |
-| Id. | WA200001955 |
+| ID | WA200001955 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Engage Squared |
 | Dirección URL del sitio web de partners | [https://engagesq.com](https://engagesq.com) |
@@ -120,18 +120,18 @@ Engage Squared ha proporcionado esta información sobre cómo esta aplicación c
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Yes |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Yes |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Yes |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Yes |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Yes |
+| ¿La aplicación admite multiinquilino? | Yes |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Yes |
 | Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿Expone la aplicación alguna API web? | Yes |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Yes |
 | ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 
