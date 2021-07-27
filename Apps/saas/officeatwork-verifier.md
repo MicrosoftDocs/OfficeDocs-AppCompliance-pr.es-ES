@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Verifier, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab2bc82f8dfff62649d4eac833be2136c57f6821
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3b8cdcd5901abbe498a67ec2b81c20c6ab69b95a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282801"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522243"
 ---
 # <a name="verifier"></a>Comprobador
 
@@ -52,22 +52,22 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | delegado | No se almacenan datos. | OneDrive: para poder leer los archivos del usuario que ha iniciado sesión | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Files.Read.All | delegado | No se almacenan datos. | Teams: para leer todos los archivos a los que tiene acceso el usuario que ha iniciado sesión. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online, el usuario que ha iniciado sesión tiene acceso a. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| User.Read | delegado | No se almacenan datos. | Inicio de sesión: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| offline_access | delegado | No se almacenan datos. | Inicio de sesión: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| OpenID | delegado | No se almacenan datos. | Sing-In: para permitir a los usuarios iniciar sesión en la aplicación officeatwork con su organización o cuenta microsoft. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| perfil | delegado | No se almacenan datos. | Sing-In: para mostrar al usuario que ha iniciado sesión en la aplicación officeatwork. Esto ayuda a asegurar y confirmar al usuario qué cuenta se usó para iniciar sesión en la aplicación officeatwork. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | delegado | No se almacenan datos. | OneDrive: para poder leer los archivos del usuario que ha iniciado sesión | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Files.Read.All | delegado | No se almacenan datos. | Teams: para leer todos los archivos a los que tiene acceso el usuario que ha iniciado sesión. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online, el usuario que ha iniciado sesión tiene acceso a. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| User.Read | delegado | No se almacenan datos. | Inicio de sesión: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| offline_access | delegado | No se almacenan datos. | Inicio de sesión: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| OpenID | delegado | No se almacenan datos. | Sing-In: para permitir a los usuarios iniciar sesión en la aplicación officeatwork con su organización o cuenta microsoft. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
+>| perfil | delegado | No se almacenan datos. | Sing-In: para mostrar al usuario que ha iniciado sesión en la aplicación officeatwork. Esto ayuda a asegurar y confirmar al usuario qué cuenta se usó para iniciar sesión en la aplicación officeatwork. | [8cf0fbc9-28f7-4bfb-94db-237b049fcbf7](https://docs.microsoft.com/microsoft-365-app-certification/azure/8cf0fbc9-28f7-4bfb-94db-237b049fcbf7) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API de REST de SharePoint | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

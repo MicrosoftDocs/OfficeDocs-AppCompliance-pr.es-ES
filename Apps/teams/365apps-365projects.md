@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 365Projects, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 07ef4c5e5e71ee8034c75869b97d5c8924f502fd
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: aad8e35ad1e02212c23ef2a892412ba3c0ce1312
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281492"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522193"
 ---
 # <a name="365projects"></a>365Projects
 
@@ -55,15 +55,15 @@ Información proporcionada por 365Apps a Microsoft:
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | delegado | canales dentro del equipo para vincular el proyecto con el canal | canales dentro del equipo para vincular el proyecto con el canal | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.Read.All | delegado | obtener tareas de organizador de equipo/organizador, será mejor si otro ámbito de privilegios mínimos permite a la aplicación obtener planes de usuario y planea tareas, pero lamentablemente no hay ámbitos que lo permitan | no almacenar en DB | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Group.ReadWrite.All | aplicación | Crear Teams  | no almacenado en DB | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| People.Read | delegado | nombre de usuario, para agregarlos como miembros del equipo o asignarles tareas | Guid de usuario se almacena en la asignación de tareas | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| Team.ReadBasic.All | delegado | Nombres de equipo unidos, para vincular el proyecto Teams canal | Team Guid se almacena en los metadatos del proyecto para establecer el vínculo | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read | delegado | obtener información de usuario para mostrarla en el encabezado  | el correo electrónico del usuario se almacena como propietario cuando se aprovisiona por primera vez el espacio empresarial | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
->| User.Read.All | delegado | leer usuarios para actualizar la asignación de tareas | solo guid de usuario se almacena ninguna información identificada personal se almacena en la base de datos | 99a0a9b1-5d28-45df-9f99-792aa32795f4 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | delegado | canales dentro del equipo para vincular el proyecto con el canal | canales dentro del equipo para vincular el proyecto con el canal | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.Read.All | delegado | obtener tareas de organizador de equipo/organizador, será mejor si otro ámbito de privilegios mínimos permite a la aplicación obtener planes de usuario y planea tareas, pero lamentablemente no hay ámbitos que lo permitan | no almacenar en DB | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Group.ReadWrite.All | aplicación | Crear Teams  | no almacenado en DB | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| People.Read | delegado | nombre de usuario, para agregarlos como miembros del equipo o asignarles tareas | Guid de usuario se almacena en la asignación de tareas | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| Team.ReadBasic.All | delegado | Nombres de equipo unidos, para vincular el proyecto Teams canal | Team Guid se almacena en los metadatos del proyecto para establecer el vínculo | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read | delegado | obtener información de usuario para mostrarla en el encabezado  | el correo electrónico del usuario se almacena como propietario cuando se aprovisiona por primera vez el espacio empresarial | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
+>| User.Read.All | delegado | leer usuarios para actualizar la asignación de tareas | solo guid de usuario se almacena ninguna información identificada personal se almacena en la base de datos | [99a0a9b1-5d28-45df-9f99-792aa32795f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a0a9b1-5d28-45df-9f99-792aa32795f4) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

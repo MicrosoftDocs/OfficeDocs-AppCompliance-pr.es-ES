@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a8f6bc2575a68f17e8a00701fa4a55b3a7906f91
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 90e9a29a28b5496e4f5f63837c28d94546c76979
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282697"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522228"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -52,15 +52,15 @@ SalesTim ha proporcionado esta información sobre cómo esta aplicación recopil
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegado | NO | Permitir que la aplicación instale y actualice sus propios paquetes en el catálogo de aplicaciones corporativas. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Directory.AccessAsUser.All | delegado | Solo&#8217;algunos de los usuarios, no los datos de perfil. | Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Group.ReadWrite.All | delegado | Solo&#8217;de grupos o de equipos, no almacenamos&#8217;contenido de grupos o equipos. | Permite que la aplicación cree grupos, lea todas las propiedades y pertenencias del grupo en nombre del usuario que ha iniciado sesión. Además, permite a los propietarios del grupo que administren sus grupos y permite a los miembros del grupo que actualicen su contenido del grupo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Mail.Send | delegado | Se&#8217;los metadatos de esta acción, como la fecha de notificación, el destinatario (solo id.), el identificador de solicitud. | Permite que la aplicación envíe correos electrónicos de notificación por ejemplo durante un flujo de trabajo de aprobación. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| Sites.ReadWrite.All | delegado | Estamos usando algunos servicios de Azure para almacenar datos, especialmente Redis en Azure y Cosmos DB | Permite que la aplicación administre las unidades (archivos y carpetas) asociadas con un equipo durante un proceso de aprovisionamiento de equipo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| User.Read.All | delegado | Solo&#8217;algunos de los usuarios, no los datos de perfil. | Permite que la aplicación lea el conjunto completo de propiedades de perfil, informes y administradores de cualquier usuario. Se usa especialmente durante el proceso de selección de audiencia para filtrar algunos contenidos en función del perfil de usuario actual. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
->| offline_access | delegado | No | Permite que la aplicación realice algunas operaciones y acciones en segundo plano como usuario. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegado | NO | Permitir que la aplicación instale y actualice sus propios paquetes en el catálogo de aplicaciones corporativas. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Directory.AccessAsUser.All | delegado | Solo&#8217;algunos de los usuarios, no los datos de perfil. | Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Group.ReadWrite.All | delegado | Solo&#8217;de grupos o de equipos, no almacenamos&#8217;contenido de grupos o equipos. | Permite que la aplicación cree grupos, lea todas las propiedades y pertenencias del grupo en nombre del usuario que ha iniciado sesión. Además, permite a los propietarios del grupo que administren sus grupos y permite a los miembros del grupo que actualicen su contenido del grupo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Mail.Send | delegado | Se&#8217;los metadatos de esta acción, como la fecha de notificación, el destinatario (solo id.), el identificador de solicitud. | Permite que la aplicación envíe correos electrónicos de notificación por ejemplo durante un flujo de trabajo de aprobación. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| Sites.ReadWrite.All | delegado | Estamos usando algunos servicios de Azure para almacenar datos, especialmente Redis en Azure y Cosmos DB | Permite que la aplicación administre las unidades (archivos y carpetas) asociadas con un equipo durante un proceso de aprovisionamiento de equipo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| User.Read.All | delegado | Solo&#8217;algunos de los usuarios, no los datos de perfil. | Permite que la aplicación lea el conjunto completo de propiedades de perfil, informes y administradores de cualquier usuario. Se usa especialmente durante el proceso de selección de audiencia para filtrar algunos contenidos en función del perfil de usuario actual. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
+>| offline_access | delegado | No | Permite que la aplicación realice algunas operaciones y acciones en segundo plano como usuario. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -68,7 +68,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Estamos usando El intercomunicador como nuestra aplicación de soporte técnico principal. El intercomunicador puede contener información básica de perfil de usuario, como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#support-data | Nombre de la compañía | Estamos usando las API GitHub para generar problemas automáticamente desde nuestro entorno de producción. También almacenamos algunos registros técnicos en GitHub (como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Estos problemas y registros pueden contener información básica de perfil de usuario. Estos problemas y registros se eliminan automáticamente cada 15 días. |
 
 

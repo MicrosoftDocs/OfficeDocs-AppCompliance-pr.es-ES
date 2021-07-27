@@ -2,24 +2,24 @@
 title: Información de aplicaciones para Berrycast por Technologies Openmind Inc, Les
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/20/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Berrycast, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c3236368fbab418754e758f6009607335e593515
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 714db08e839b60403a567b2cab1af888c4cb7b6f
+ms.sourcegitcommit: c545fba57f8ca821caf6ef55f5b4b068b5f35984
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283424"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "53578236"
 ---
 # <a name="berrycast"></a>Berrycast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: April 20, 2021</p>
+<p>Last updated by the developer on: July 23, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c7cde650-1e32-11eb-af14-639b3a7d6491" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002798" target="_blank">Ver en AppSource</a>
@@ -54,13 +54,13 @@ Technologies Openmind Inc, Les ha proporcionado esta información sobre cómo es
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | delegado | Para obtener todos los contactos de usuario | El correo electrónico de contactos, el nombre del puño, el apellido y la imagen se almacenan para dar acceso compartido rápido a los registros | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| User.Read | delegado | Para identificar al usuario con información básica (nombre y apellido e imagen) | Para mostrar el nombre. apellido e imagen en la aplicación | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| email | delegado | Para identificar al usuario | Para identificar al usuario para el registro y el envío de notificaciones | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| offline_access | delegado | Mantener el acceso a los datos a los que se le ha concedido acceso | N/D | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
->| OpenID | delegado | Para identificar al usuario | Para identificar al usuario para el registro | 094f3986-3951-4f0c-88fa-514d117c8dd0 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| People.Read | delegado | Para obtener todos los contactos de usuario | El correo electrónico de contactos, el nombre del puño, el apellido y la imagen se almacenan para dar acceso compartido rápido a los registros | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| User.Read | delegado | Para identificar al usuario con información básica (nombre y apellido e imagen) | Para mostrar el nombre. apellido e imagen en la aplicación | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| email | delegado | Para identificar al usuario | Para identificar al usuario para el registro y el envío de notificaciones | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| offline_access | delegado | Mantener el acceso a los datos a los que se le ha concedido acceso | N/D | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
+>| OpenID | delegado | Para identificar al usuario | Para identificar al usuario para el registro | [094f3986-3951-4f0c-88fa-514d117c8dd0](https://docs.microsoft.com/microsoft-365-app-certification/azure/094f3986-3951-4f0c-88fa-514d117c8dd0) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -68,7 +68,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Stripe, Intercom, MixPanel, Amplitude | correo electrónico, identificación única del usuario, nombre, apellido  | Procesar el pago seguro, realizar campañas de marketing, tener un servicio de atención al cliente eficaz y realizar un seguimiento del análisis del usuario para mejorar el producto |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

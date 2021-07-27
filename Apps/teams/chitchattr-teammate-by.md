@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamMate by ChitChattr, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4a01e90cbd14eefd9621e1ef93b8a992fc469efa
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4278150de6faf97f3ce4ceb7361cc2d7bca651ee
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281973"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521993"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -55,9 +55,9 @@ ChitChattr ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre del usuario, el correo electrónico y el id. de objeto de Azure AD | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre del usuario, el correo electrónico y el id. de objeto de Azure AD | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre del usuario, el correo electrónico y el id. de objeto de Azure AD | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre del usuario, el correo electrónico y el id. de objeto de Azure AD | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -71,7 +71,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| En caso de algún problema, el bot buscará y mostrará al usuario los nombres y los detalles de contacto de los usuarios registrados como administradores en la aplicación (básicamente póngase en contacto con el administrador: es lo que &quot; son &quot; ) | Nombre, correo electrónico | Como se describe en las secciones anteriores: para poder identificar usuarios para experiencias dirigidas (en función de la configuración de su administrador) y permitir a los usuarios ver quiénes son los administradores internos de la empresa para la aplicación. |
 
 

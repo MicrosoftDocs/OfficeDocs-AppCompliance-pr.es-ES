@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para BrainBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2b2d399cc59b9df98708a41720514a6ecb2d6dea
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: aa9379b91d921edeb6c6a85a0756ba2017bd5fbb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282013"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522083"
 ---
 # <a name="brainbot"></a>BrainBot
 
@@ -55,9 +55,9 @@ Biggerbrains ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | aplicación | Usamos nombres completos de &amp; direcciones de correo electrónico como parte del proceso de autenticación. Además, las direcciones de correo electrónico se usan para enviar secuencias de aprendizaje al usuario cuando se suscribió a una | Usamos nombres completos de &amp; direcciones de correo electrónico como parte del proceso de autenticación. Además, las direcciones de correo electrónico se usan para enviar secuencias de aprendizaje al usuario cuando se suscribió a una | b256b34a-b377-4fc2-b25a-a8f5f0594e86 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | aplicación | Usamos nombres completos de &amp; direcciones de correo electrónico como parte del proceso de autenticación. Además, las direcciones de correo electrónico se usan para enviar secuencias de aprendizaje al usuario cuando se suscribió a una | Usamos nombres completos de &amp; direcciones de correo electrónico como parte del proceso de autenticación. Además, las direcciones de correo electrónico se usan para enviar secuencias de aprendizaje al usuario cuando se suscribió a una | [b256b34a-b377-4fc2-b25a-a8f5f0594e86](https://docs.microsoft.com/microsoft-365-app-certification/azure/b256b34a-b377-4fc2-b25a-a8f5f0594e86) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -71,7 +71,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Usamos nombres completos de &amp; direcciones de correo electrónico como parte del proceso de autenticación. Además, las direcciones de correo electrónico se usan para enviar secuencias de aprendizaje al usuario cuando se suscribió a una | Nombres completos de &amp; direcciones de correo electrónico | Se usan con fines de inicio de sesión y como parte de la funcionalidad de la aplicación para enviar secuencias de aprendizaje al usuario cuando se suscribió a una |
 
 

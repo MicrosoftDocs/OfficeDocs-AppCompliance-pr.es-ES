@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Broadcast, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8037cdbb77a41979e369ec79decbaac8e6c6cae5
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: ab386fe99e96bbe2dae26d2045c8d46447d35fd5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852154"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522043"
 ---
-# <a name="broadcast"></a>Broadcast
+# <a name="broadcast"></a>Difusión
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por Cerkl a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Broadcast |
-| ID | WA200002697 |
+| Nombre de la aplicación | Difusión |
+| Id. | WA200002697 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Cerkl |
 | Dirección URL del sitio web de partners | [https://cerkl.com](https://cerkl.com) |
@@ -55,9 +55,9 @@ Cerkl ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | El correo electrónico del usuario se recopila y se usa para ver si el usuario está actualmente en nuestro sistema y lo ha agregado una organización. | La aplicación no almacena datos recuperados de la API Graph Microsoft. | 74ef25ab-3685-446c-aa43-4e9cc251ed62 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | El correo electrónico del usuario se recopila y se usa para ver si el usuario está actualmente en nuestro sistema y lo ha agregado una organización. | La aplicación no almacena datos recuperados de la API Graph Microsoft. | [74ef25ab-3685-446c-aa43-4e9cc251ed62](https://docs.microsoft.com/microsoft-365-app-certification/azure/74ef25ab-3685-446c-aa43-4e9cc251ed62) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

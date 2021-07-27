@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Assembly, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6cc680f1f7ec25df961d2453dcbfdc20afd0b2eb
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: f8d63c77c3fd9b52353ce22954dfa4dadb8dea2f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852153"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53522062"
 ---
 # <a name="assembly"></a>Ensamblado
 
@@ -33,7 +33,7 @@ Información proporcionada por CarrotHR Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Ensamblado |
-| ID | WA200002271 |
+| Id. | WA200002271 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | CarrotHR Inc. |
 | Dirección URL del sitio web de partners | [https://www.joinassembly.com](https://www.joinassembly.com) |
@@ -55,15 +55,15 @@ Esta información ha sido proporcionada por CarrotHR Inc. sobre cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.Create | delegado | Permitir que el usuario asigne la aplicación a un canal recién creado desde nuestra aplicación | Almacenamos el id. de canal para mantener nuestra aplicación sincronizada con el canal correcto | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Directory.Read.All | aplicación | Mantenga nuestros perfiles sincronizados para que los miembros puedan buscar correctamente en Assembly | Cualquier información de perfil adicional que pueda estar disponible para que los miembros puedan buscar en assembly | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Group.Read.All | delegado | Observamos los datos para asegurarnos de que pueden asignar nuestra aplicación al grupo correcto | No almacenamos grupos | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| Teams.ReadBasic.All | aplicación | Capacidad para asignar nuestra aplicación a la pestaña de equipo correcta | No almacenamos equipos que esperan el que se nos anexa  | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| TeamsTab.Create | aplicación | Usamos esto para permitir que nuestra aplicación se anexe correctamente a un canal o equipo | No estamos recopilando ni almacenando datos de pestañas | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| email | delegado | Correo electrónico del usuario para que podamos concederles acceso a su cuenta específica | Correo electrónico del usuario para que podamos concederles acceso a su cuenta específica e identidades de coincidencia | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
->| perfil | delegado | Nombre de usuario para rellenar automáticamente assembly y mantener la sincronización con los cambios en Microsoft Teams | Nombre completo del usuario | 0a1b7ca8-390e-4f55-a7b5-eee089c5a905 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.Create | delegado | Permitir que el usuario asigne la aplicación a un canal recién creado desde nuestra aplicación | Almacenamos el id. de canal para mantener nuestra aplicación sincronizada con el canal correcto | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Directory.Read.All | aplicación | Mantenga nuestros perfiles sincronizados para que los miembros puedan buscar correctamente en Assembly | Cualquier información de perfil adicional que pueda estar disponible para que los miembros puedan buscar en assembly | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Group.Read.All | delegado | Observamos los datos para asegurarnos de que pueden asignar nuestra aplicación al grupo correcto | No almacenamos grupos | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| Teams.ReadBasic.All | aplicación | Capacidad para asignar nuestra aplicación a la pestaña de equipo correcta | No almacenamos equipos que esperan el que se nos anexa  | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| TeamsTab.Create | aplicación | Usamos esto para permitir que nuestra aplicación se anexe correctamente a un canal o equipo | No estamos recopilando ni almacenando datos de pestañas | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| email | delegado | Correo electrónico del usuario para que podamos concederles acceso a su cuenta específica | Correo electrónico del usuario para que podamos concederles acceso a su cuenta específica e identidades de coincidencia | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
+>| perfil | delegado | Nombre de usuario para rellenar automáticamente assembly y mantener la sincronización con los cambios en Microsoft Teams | Nombre completo del usuario | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
