@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ecBooking, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b1806ca26bb20d1f4f24d87d7b617ad9ff108397
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281883"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521733"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -55,14 +55,14 @@ Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. ace
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | aplicación | Los datos, como el correo electrónico del usuario, los eventos de usuario se almacenan. Los eventos de usuario se recopilan para comprobar la disponibilidad de salas y crear eventos. | El identificador del evento users, el nombre de la ubicación y otros detalles del evento se almacenarían. Los datos se recopilan para comprobar la disponibilidad de salas y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| Mail.Send | aplicación | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read | delegado | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| User.Read.All | aplicación | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| email | delegado | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
->| OpenID | delegado | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | a85d5d70-9b9c-46e4-bdd6-d139f1648dea |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | aplicación | Los datos, como el correo electrónico del usuario, los eventos de usuario se almacenan. Los eventos de usuario se recopilan para comprobar la disponibilidad de salas y crear eventos. | El identificador del evento users, el nombre de la ubicación y otros detalles del evento se almacenarían. Los datos se recopilan para comprobar la disponibilidad de salas y crear eventos. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| Mail.Send | aplicación | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read | delegado | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| User.Read.All | aplicación | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | Datos como id. de usuario, nombre y correo electrónico. Los datos de usuario se recopilan para el usuario de inicio de sesión en la aplicación. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| email | delegado | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para comprobar la disponibilidad del usuario y crear eventos. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
+>| OpenID | delegado | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | Openid inorder del usuario para permitir que el usuario inicie sesión en la aplicación. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Navo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 11346ff15831615ac6b617d8d14f83f38c7de0a5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e17eac9ef2db9418a38900d0de84ce62fad71097
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283115"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521213"
 ---
 # <a name="navo"></a>Navo
 
@@ -54,10 +54,10 @@ Regroove Solutions ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | aplicación | Almacenamos el recuento de usuarios y lo consultamos una vez por ciclo de facturación. También usamos el identificador de arrendamiento como identificador de la organización. | Nos permite contar cuántos usuarios hay en el arrendamiento, que usamos para fines de facturación. También nos permite consultar en qué grupos se encuentra un usuario, de modo que podamos usar el recorte de seguridad para proteger determinados datos. También consultamos el identificador de arrendamiento de la organización. | 75ce4e02-e37b-479c-81c7-438348a2a251 |
->| User.Read | delegado | Sin datos almacenados | Iniciar sesión y leer el perfil del usuario | 75ce4e02-e37b-479c-81c7-438348a2a251 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | aplicación | Almacenamos el recuento de usuarios y lo consultamos una vez por ciclo de facturación. También usamos el identificador de arrendamiento como identificador de la organización. | Nos permite contar cuántos usuarios hay en el arrendamiento, que usamos para fines de facturación. También nos permite consultar en qué grupos se encuentra un usuario, de modo que podamos usar el recorte de seguridad para proteger determinados datos. También consultamos el identificador de arrendamiento de la organización. | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
+>| User.Read | delegado | Sin datos almacenados | Iniciar sesión y leer el perfil del usuario | [75ce4e02-e37b-479c-81c7-438348a2a251](https://docs.microsoft.com/microsoft-365-app-certification/azure/75ce4e02-e37b-479c-81c7-438348a2a251) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -65,7 +65,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Almacenamos el identificador de arrendamiento y el número de usuarios en Stripe. |  | User.Read | Delegated | Iniciar sesión y leer el perfil de usuario: no hay datos almacenados |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

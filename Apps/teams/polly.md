@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Polly, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 09b6979e569195eff0f2e841c8bd95d7c3b51b62
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3637dd9f14fb7a887372442c9b4a067b30b35d8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552851"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521363"
 ---
 # <a name="polly"></a>Polly
 
@@ -33,7 +33,7 @@ Información proporcionada por Polly a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Polly |
-| ID | WA104381060 |
+| Id. | WA104381060 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Polly |
 | Dirección URL del sitio web de partners | [https://www.polly.ai](https://www.polly.ai) |
@@ -69,7 +69,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Proporcionar una lista de usuarios y canales | Todo |  |
 
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para InStation, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 46b7c4131e1f3897036cf0b2180b2f99c2e6ff2c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1db56e204dc2fd83916a9ec6f2b20a13e02ed357
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282033"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521813"
 ---
 # <a name="instation"></a>InStation
 
@@ -54,18 +54,18 @@ Los desarrolladores de Invillia han proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| OnlineMeetings.Read.All | delegado | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| OnlineMeetings.ReadWrite.All | delegado | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso | actividad y avaliability. Permite que la aplicación capture el estado de los usuarios; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| Presence.Read.All | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso, | actividad y avaliability. Permite que la aplicación capture el estado de los usuarios; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read | delegado | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| User.Read.All | delegado | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| email | delegado | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| offline_access | delegado | almacenes: token y token de actualización. Permite que la aplicación realice una actualización en el token de MS | almacenes: token y token de actualización. Permite que la aplicación realice una actualización en el token de MS | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| OpenID | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso | Permite que la aplicación inicie sesión en la organización en su primer paso | 0c841985-9919-4c0a-b87d-b06b301148b3 |
->| perfil | delegado | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión; | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión; | 0c841985-9919-4c0a-b87d-b06b301148b3 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| OnlineMeetings.Read.All | delegado | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OnlineMeetings.ReadWrite.All | delegado | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | stores: id, join_url, join_web_url y chat_id. Permite que la aplicación cree reuniones | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso | actividad y avaliability. Permite que la aplicación capture el estado de los usuarios; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| Presence.Read.All | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso, | actividad y avaliability. Permite que la aplicación capture el estado de los usuarios; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read | delegado | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| User.Read.All | delegado | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | stores: id, mail, display name, surname and picture. Permite que la aplicación busque datos de usuario; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| email | delegado | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| offline_access | delegado | almacenes: token y token de actualización. Permite que la aplicación realice una actualización en el token de MS | almacenes: token y token de actualización. Permite que la aplicación realice una actualización en el token de MS | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| OpenID | delegado | Permite que la aplicación inicie sesión en la organización en su primer paso | Permite que la aplicación inicie sesión en la organización en su primer paso | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
+>| perfil | delegado | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión; | Permite que la aplicación capture la información&#180;información básica del administrador en el primer inicio de sesión; | [0c841985-9919-4c0a-b87d-b06b301148b3](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c841985-9919-4c0a-b87d-b06b301148b3) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

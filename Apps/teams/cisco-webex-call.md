@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Webex Call, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3c6552bd7b266f4c35d35dabefe3abbf7e407ea1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e4addbd6b3ad932c9c987f57cca03c1e6e77cfcd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281963"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521933"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -54,13 +54,13 @@ Cisco ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Chat.Read | delegado | Obtener miembros de chat para poder llamar al otro miembro en chat privado con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| Contacts.Read | delegado | Obtener contactos de usuario, para que el usuario pueda llamar a contactos con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.Read | delegado | obtener correo electrónico del usuario, teléfonos para que puedan iniciar Cisco WebEx para llamar a teléfonos o correo electrónico | La aplicación NO almacenaría datos en sus bases de datos | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.ReadBasic.All | delegado | obtener correo electrónico del usuario, teléfonos para que puedan iniciar Cisco WebEx para llamar a teléfonos o correo electrónico | La aplicación NO almacenaría datos en sus bases de datos | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
->| User.ReadWrite | delegado | Este permiso es almacenar información de marcado rápido en la extensión de usuario | La aplicación NO almacenaría datos en sus bases de datos  | 9a7ce614-bdc8-4640-aaea-d8c626c58966 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Chat.Read | delegado | Obtener miembros de chat para poder llamar al otro miembro en chat privado con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| Contacts.Read | delegado | Obtener contactos de usuario, para que el usuario pueda llamar a contactos con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.Read | delegado | obtener correo electrónico del usuario, teléfonos para que puedan iniciar Cisco WebEx para llamar a teléfonos o correo electrónico | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadBasic.All | delegado | obtener correo electrónico del usuario, teléfonos para que puedan iniciar Cisco WebEx para llamar a teléfonos o correo electrónico | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
+>| User.ReadWrite | delegado | Este permiso es almacenar información de marcado rápido en la extensión de usuario | La aplicación NO almacenaría datos en sus bases de datos  | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -74,7 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Esta extensión de mensaje leería el correo electrónico o los teléfonos de los miembros del chat para que el usuario pueda llamarlos con Cisco WebEx | No |  |
 
 

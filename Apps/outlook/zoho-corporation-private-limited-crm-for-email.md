@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho CRM para correo electrónico, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2c4d85b33c0d43bc492fe6e04058bd4e92768077
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 70b8cb54057dfb9c08068a444127bc78e736c84c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282404"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527886"
 ---
 # <a name="zoho-crm-for-email"></a>Zoho CRM para correo electrónico
 
@@ -53,17 +53,17 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | El identificador de carpeta de calendario se almacena para sincronizar los contactos de Zoho CRM con Microsoft &amp; viceversa. La información del calendario event_name, event_location, participant_details se almacenan. | Permite al usuario sincronizar eventos de Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | delegado | El identificador de carpeta de contactos se almacena para sincronizar los contactos de Zoho CRM con Microsoft &amp; viceversa. La información de contacto como first_name, last_name, dirección de correo electrónico se almacenan. | Permite al usuario sincronizar contactos de Office365 con Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read | delegado |  | Permite al usuario importar el archivo de Office365 a Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | delegado |  | Permite al usuario importar el archivo de Office365 a Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | delegado | UserPrincipalName se almacena para la identificación del usuario | Permite al usuario importar el archivo de Office365 a Zoho CRM. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegado | Propiedades de usuario como first_name, last_name, dirección de correo electrónico. | Leer perfiles básicos de todos los usuarios | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegado | UserPrincipaName se almacena para la sangría del usuario | Ver la dirección de correo electrónico del usuario | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegado |  | Mantener el acceso a los datos a los que se le ha concedido acceso | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| perfil | delegado |  | Ver el perfil básico del usuario | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | El identificador de carpeta de calendario se almacena para sincronizar los contactos de Zoho CRM con Microsoft &amp; viceversa. La información del calendario event_name, event_location, participant_details se almacenan. | Permite al usuario sincronizar eventos de Office365 con Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | delegado | El identificador de carpeta de contactos se almacena para sincronizar los contactos de Zoho CRM con Microsoft &amp; viceversa. La información de contacto como first_name, last_name, dirección de correo electrónico se almacenan. | Permite al usuario sincronizar contactos de Office365 con Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read | delegado |  | Permite al usuario importar el archivo de Office365 a Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.All | delegado |  | Permite al usuario importar el archivo de Office365 a Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | delegado | UserPrincipalName se almacena para la identificación del usuario | Permite al usuario importar el archivo de Office365 a Zoho CRM. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegado | Propiedades de usuario como first_name, last_name, dirección de correo electrónico. | Leer perfiles básicos de todos los usuarios | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegado | UserPrincipaName se almacena para la sangría del usuario | Ver la dirección de correo electrónico del usuario | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegado |  | Mantener el acceso a los datos a los que se le ha concedido acceso | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| perfil | delegado |  | Ver el perfil básico del usuario | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

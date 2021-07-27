@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Org@Work, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6791c124a7d18f6a6d0554857cad1f35b6fd7781
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2c1cfec539c8db4ddd597b8125079521d40615c4
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281763"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521423"
 ---
 # <a name="orgwork"></a>Org@Work
 
@@ -55,13 +55,13 @@ Lundano ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| email | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| offline_access | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| OpenID | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
->| perfil | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | ninguno | aa1c54a1-f482-424d-9389-dbd131233483 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| email | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| offline_access | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| OpenID | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
+>| perfil | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -75,7 +75,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Bot push needs to mention employee's name for its planning manager to confirm it | Apellidos de los &amp; empleados, dirección de correo electrónico, lugar de trabajo y organización | Esta información es necesaria por el Org@Work de planeación para completar el flujo de trabajo del &amp; proceso |
 
 

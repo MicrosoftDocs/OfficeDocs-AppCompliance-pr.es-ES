@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Viima, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: badd7c64ad512ad2051da270b07fdc8e87fbf628
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7c9db86a4ffce9107b7345f178fe850a66e26560
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279046"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528076"
 ---
 # <a name="viima"></a>Viima
 
@@ -55,9 +55,9 @@ Viima Solutions Oy ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado |  Nombres y apellidos, UPN/dirección de correo electrónico, ubicación, configuración regional, departamento, ubicación de oficina. Se usan para iniciar sesión en el usuario y proporcionar información básica de perfil para ellos dentro de la aplicación. | permite al usuario iniciar sesión y proporciona acceso a la aplicación a su UPN y a la información básica del perfil para habilitar el inicio de sesión silencioso | b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado |  Nombres y apellidos, UPN/dirección de correo electrónico, ubicación, configuración regional, departamento, ubicación de oficina. Se usan para iniciar sesión en el usuario y proporcionar información básica de perfil para ellos dentro de la aplicación. | permite al usuario iniciar sesión y proporciona acceso a la aplicación a su UPN y a la información básica del perfil para habilitar el inicio de sesión silencioso | [b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8ea7030-ce4d-4ecd-98d7-dc16d8298d1b) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

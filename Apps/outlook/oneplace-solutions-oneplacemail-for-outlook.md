@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OnePlaceMail para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 97c9b74768b11e3c63a302566a20a2cb762275a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 18dc1ab4ba71102564c1c85f7ed3846d9f4f1700
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281712"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527936"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail para Outlook
 
@@ -53,23 +53,23 @@ OnePlace Solutions ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegado | Necesario para determinar Teams es miembro del usuario actual. | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| Mail.ReadWrite.Shared | delegado | Necesario para tener acceso a las propiedades de correo para establecer SharePoint columnas y agregar la categoría Transfer to SharePoint en el elemento de correo | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| MailboxSettings.ReadWrite | delegado | Sin datos recopilados o usados, se usa para agregar una categoría a la lista de categorías maestras en un buzón de usuarios | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| Sites.ReadWrite.All | delegado | Necesario para establecer propiedades en los elementos que la aplicación ha cargado en SharePoint. | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.Read | delegado | Necesario para la autenticación en microsoft Graph. | La aplicación almacena los siguientes datos en una base de datos y se usan para el seguimiento de la suscripción y la licencia de usuario: Id. de usuario, Correo electrónico, nombre, apellido. | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
->| User.ReadWrite.All | delegado | Necesario para determinar si el servicio Teams está habilitado dentro de los usuarios Office 365 arrendamiento. | Ninguno | 44a72516-136f-4a55-ae26-ef09977230be |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegado | Necesario para determinar Teams es miembro del usuario actual. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | delegado | Necesario para tener acceso a las propiedades de correo para establecer SharePoint columnas y agregar la categoría Transfer to SharePoint en el elemento de correo | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | delegado | Sin datos recopilados o usados, se usa para agregar una categoría a la lista de categorías maestras en un buzón de usuarios | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | delegado | Necesario para establecer propiedades en los elementos que la aplicación ha cargado en SharePoint. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | delegado | Necesario para la autenticación en microsoft Graph. | La aplicación almacena los siguientes datos en una base de datos y se usan para el seguimiento de la suscripción y la licencia de usuario: Id. de usuario, Correo electrónico, nombre, apellido. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | delegado | Necesario para determinar si el servicio Teams está habilitado dentro de los usuarios Office 365 arrendamiento. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| SharePoint | Sí | SharePoint Direcciones URL, nombres de biblioteca/lista/carpeta | La información organizativa a la que se accede se usa para facilitar el proceso de guardar el correo electrónico y los datos adjuntos de Exchange a SharePoint. Estos datos adicionales no se almacenan en reposo y se cifran en tránsito. Algunos ejemplos de estos datos incluyen SharePoint de columna, como valores de columna De elección, Valores de taxonomía, Nombres de tipo de contenido, Nombres de carpeta, Nombres de sitio.  | Aunque la aplicación no almacena o recopila estos datos, puede aparecer en telemetría o registros donde se conservan durante 90 días. | Los datos no se almacenan |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -77,7 +77,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| El servicio Chargify se usa para la administración de suscripciones y la facturación. Para la creación de suscripciones desde la aplicación (gratuita), el nombre, el apellido y la dirección de correo electrónico del usuario se comparten con Chargify. Para las suscripciones compradas (que admiten varios usuarios con licencia), los detalles de usuario individuales no se comparten con el servicio Chargify. | Dirección de correo electrónico | Para poder comunicar eventos de ciclo de vida de suscripción al usuario |
 
 

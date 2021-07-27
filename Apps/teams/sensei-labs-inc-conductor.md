@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sensei Labs Conductor, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3b0d84d3da0d5fdf32854cd4b3b31b86662cb4b8
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0c7fa93ad3521decc194fcddf94d86d161a864ea
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281072"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521023"
 ---
 # <a name="sensei-labs-conductor"></a>Sensei Labs Conductor
 
@@ -61,7 +61,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| marco de bots | Sí | Teams de instancia | para asignar Teams instancia a la instancia de nuestra aplicación asociada con la organización  | Teams de instancia | para asignar Teams instancia a la instancia de nuestra aplicación asociada con la organización  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -75,7 +75,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| para dirigirse correctamente a la persona durante las conversaciones del bot. Para asignar el usuario en Teams a su usuario en nuestra aplicación | Teams, nombre, dirección de correo electrónico | para asignar Teams usuario al usuario en nuestra plataforma |
 
 

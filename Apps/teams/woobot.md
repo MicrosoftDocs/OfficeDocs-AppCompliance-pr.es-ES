@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Woobot, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: db31998a57de8faf11ebd7fff774842629654651
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a90381852e60e09402b766607413154b8da11704
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550830"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528056"
 ---
 # <a name="woobot"></a>Woobot
 
@@ -33,7 +33,7 @@ Información proporcionada por Woobot a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Woobot |
-| ID | WA104381664 |
+| Id. | WA104381664 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Woobot |
 | Dirección URL del sitio web de partners | [https://woobot.io](https://woobot.io) |
@@ -69,7 +69,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para asignar usuarios de Salesforce a Teams usuarios, necesitamos una lista de id. de usuario de grupo. También almacenamos los nombres de equipo y canales para que los usuarios puedan enviar notificaciones a estos equipos. Además, almacenamos qué id. de usuario de grupo han sido recibidos por la aplicación y cuáles no, de modo que cuando un nuevo usuario se une a un equipo, el woobot puede dar la bienvenida personalmente a ese usuario. También almacenamos los nombres de equipo y canales para que los usuarios puedan enviar notificaciones a estos equipos. |  Id. de usuario, id. de equipo y nombre del equipo, id. de canal y nombre del canal, y qué usuarios son miembros de los cuales Teams. |  |
 
 

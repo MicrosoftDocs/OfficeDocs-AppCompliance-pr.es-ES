@@ -2,17 +2,17 @@
 title: 'Microsoft OneNote Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/14/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las Microsoft OneNote aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 9403718e45505b241bdd890d379323cb3827999a
-ms.sourcegitcommit: 0098942ce316ab984e09fd9d2063cbc516c8bfb5
+ms.openlocfilehash: 335724cbbcef140368ec25ec7474d3666e4fca5f
+ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53422721"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53547858"
 ---
 # <a name="microsoft-onenote-apps-security-and-compliance"></a>Microsoft OneNote Seguridad y cumplimiento de aplicaciones
 

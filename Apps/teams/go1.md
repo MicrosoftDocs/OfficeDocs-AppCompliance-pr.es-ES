@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Go1, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 39501f6cb09502287dcff26acab4d8720b5fb6a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d6fa3c9d0ecf710724379da869fba4b0cec23f6a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281282"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521673"
 ---
 # <a name="go1"></a>Go1
 
@@ -54,11 +54,11 @@ Go1 ha proporcionado esta información sobre cómo esta aplicación recopila y a
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | aplicación | la aplicación no almacena datos de archivos | permite a los usuarios cargar y compartir archivos desde onedrive | c859de61-8a6b-42e6-ba88-f639df33bc72 |
->| Group.ReadWrite.All | aplicación | Teams y el nombre del canal y los identificadores únicos almacenados para admitir el entorno de aprendizaje de administración de aplicaciones | permite a la aplicación configurar dinámicamente Teams y canales para admitir el aprendizaje estructurado en Teams entorno | c859de61-8a6b-42e6-ba88-f639df33bc72 |
->| User.Read.All | aplicación | nombre y correo electrónico de los usuarios y UPN almacenados para proporcionar una experiencia de aprendizaje personal directa | permite usar para firmar y admitir el uso compartido de recursos de aprendizaje entre miembros del equipo | c859de61-8a6b-42e6-ba88-f639df33bc72 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | aplicación | la aplicación no almacena datos de archivos | permite a los usuarios cargar y compartir archivos desde onedrive | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| Group.ReadWrite.All | aplicación | Teams y el nombre del canal y los identificadores únicos almacenados para admitir el entorno de aprendizaje de administración de aplicaciones | permite a la aplicación configurar dinámicamente Teams y canales para admitir el aprendizaje estructurado en Teams entorno | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
+>| User.Read.All | aplicación | nombre y correo electrónico de los usuarios y UPN almacenados para proporcionar una experiencia de aprendizaje personal directa | permite usar para firmar y admitir el uso compartido de recursos de aprendizaje entre miembros del equipo | [c859de61-8a6b-42e6-ba88-f639df33bc72](https://docs.microsoft.com/microsoft-365-app-certification/azure/c859de61-8a6b-42e6-ba88-f639df33bc72) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -66,7 +66,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| El nombre y el apellido de los usuarios pueden compartirse con los proveedores de contenido de GO1 al reproducir contenido del curso. Esto solo se comparte cuando el proveedor de contenido requiere que el proveedor de una experiencia de aprendizaje personalizada. |  | N/D |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

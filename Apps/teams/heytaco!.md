@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para HeyTaco!, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 66739977ba4aa3eef7456d4ec60530f94065a2b9
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 7b4641b33166043dd311bdd89568c9eaea4b87a1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553131"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521643"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -33,7 +33,7 @@ Información proporcionada por HeyTaco! a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | HeyTaco! |
-| ID | WA200001346 |
+| Id. | WA200001346 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | HeyTaco! |
 | Dirección URL del sitio web de partners | [https://www.heytaco.chat](https://www.heytaco.chat) |
@@ -54,11 +54,11 @@ Esta información ha sido proporcionada por HeyTaco. acerca de cómo esta aplica
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | delegado | se usa para coincidir con el usuario para las transferencias de datos de Slack a MS Teams | se usa para hacer coincidir el usuario para transferencias de datos de Slack a MS Team | be8d11cf-265a-4974-9912-4ff28c29fc21 |
->| OpenID | delegado | se usa para iniciar sesión en HeyTaco. | se usa para iniciar sesión en HeyTaco. | be8d11cf-265a-4974-9912-4ff28c29fc21 |
->| perfil | delegado | se usa para capturar el nombre de usuario, la imagen de perfil, el desplazamiento de zona horaria, el identificador de inquilino y el identificador de equipo | se usa para capturar el nombre de usuario, el avatar, el desplazamiento de zona horaria, el identificador de inquilino y el identificador de equipo | be8d11cf-265a-4974-9912-4ff28c29fc21 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | delegado | se usa para coincidir con el usuario para las transferencias de datos de Slack a MS Teams | se usa para hacer coincidir el usuario para transferencias de datos de Slack a MS Team | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| OpenID | delegado | se usa para iniciar sesión en HeyTaco. | se usa para iniciar sesión en HeyTaco. | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| perfil | delegado | se usa para capturar el nombre de usuario, la imagen de perfil, el desplazamiento de zona horaria, el identificador de inquilino y el identificador de equipo | se usa para capturar el nombre de usuario, el avatar, el desplazamiento de zona horaria, el identificador de inquilino y el identificador de equipo | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -72,7 +72,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para decirle al usuario que ha recibido un taco y de quién es. | Dirección de correo electrónico (para la migración de tacos de una plataforma a otra) Nombre (para saludar al usuario) Imagen de perfil (para mostrar en la tabla de clasificación) Zona horaria (para mostrar correctamente los tacos dados en la página de actividad) Identificador de inquilino (Para agregar datos por inquilino) Id. de equipo (Para agregar datos por equipo)  |  |
 
 

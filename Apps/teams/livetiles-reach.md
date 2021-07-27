@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reach, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 91729da78b1a031be38569bfd4e4168f2a96f83a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d188c61f6f87dbe528219d82f1b58477b184da8a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281783"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521477"
 ---
 # <a name="reach"></a>Reach
 
@@ -55,13 +55,13 @@ LiveTiles ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| TeamsActivity.Send | aplicación | ninguno | ninguno | a7c1920d-3ac0-42db-9757-078a2b321fd8  |
->| User.Read | delegado | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| User.ReadBasic.All | delegado | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Teléfono Number, User Business Teléfono Number, User Office Location. Necesario para permitir que los usuarios busquen otros usuarios dentro de la aplicación (Libreta de teléfonos) y vean el perfil básico y la información de contacto de otros usuarios.  | ninguno | d492530a-8cff-481c-90da-9c3c3f1be7da |
->| Directory.Read.All | aplicación | Pertenencia a grupos, Grupos de AD en directorio. La pertenencia a grupos de usuarios se almacena en una memoria caché para minimizar las llamadas a la API Graph Microsoft. Necesario para permitir que los usuarios busquen grupos de Active Directory. Además, este permiso es necesario para que la aplicación resuelva la pertenencia a grupos de AD de usuarios en trabajos web del back-end. | Pertenencia a grupos de usuarios. La pertenencia a grupos de usuarios se almacena en una memoria caché para minimizar las llamadas a la API Graph Microsoft. Necesario para permitir que los usuarios busquen grupos de Active Directory. Además, este permiso es necesario para que la aplicación resuelva la pertenencia a grupos de AD de usuarios en trabajos web del back-end.  | d492530a-8cff-481c-90da-9c3c3f1be7da  |
->| User.Read.All | aplicación | Los datos recuperados del perfil de usuario dependen de la configuración de la característica De destino de audiencia especificada en la aplicación. Necesario para permitir que la aplicación lea perfiles de usuario sin que un usuario haya iniciado sesión. La lectura de datos de perfil es necesaria para la característica de destino de información dentro de la aplicación, de modo que la información se muestre a usuarios específicos en función de un valor de propiedad de perfil específico.  | ninguno | d492530a-8cff-481c-90da-9c3c3f1be7da  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| TeamsActivity.Send | aplicación | ninguno | ninguno | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
+>| User.Read | delegado | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| User.ReadBasic.All | delegado | User DisplayName, User Email Address, UPN, User Department, User Job Title, User Mobile Teléfono Number, User Business Teléfono Number, User Office Location. Necesario para permitir que los usuarios busquen otros usuarios dentro de la aplicación (Libreta de teléfonos) y vean el perfil básico y la información de contacto de otros usuarios.  | ninguno | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
+>| Directory.Read.All | aplicación | Pertenencia a grupos, Grupos de AD en directorio. La pertenencia a grupos de usuarios se almacena en una memoria caché para minimizar las llamadas a la API Graph Microsoft. Necesario para permitir que los usuarios busquen grupos de Active Directory. Además, este permiso es necesario para que la aplicación resuelva la pertenencia a grupos de AD de usuarios en trabajos web del back-end. | Pertenencia a grupos de usuarios. La pertenencia a grupos de usuarios se almacena en una memoria caché para minimizar las llamadas a la API Graph Microsoft. Necesario para permitir que los usuarios busquen grupos de Active Directory. Además, este permiso es necesario para que la aplicación resuelva la pertenencia a grupos de AD de usuarios en trabajos web del back-end.  | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
+>| User.Read.All | aplicación | Los datos recuperados del perfil de usuario dependen de la configuración de la característica De destino de audiencia especificada en la aplicación. Necesario para permitir que la aplicación lea perfiles de usuario sin que un usuario haya iniciado sesión. La lectura de datos de perfil es necesaria para la característica de destino de información dentro de la aplicación, de modo que la información se muestre a usuarios específicos en función de un valor de propiedad de perfil específico.  | ninguno | [d492530a-8cff-481c-90da-9c3c3f1be7da ](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da ) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -69,7 +69,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| SendGrid, OneSignal | dirección de correo electrónico, nombre para mostrar | Enviar notificación al usuario por correo electrónico y notificaciones de inserción móviles |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

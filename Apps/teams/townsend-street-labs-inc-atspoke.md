@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para atSpoke, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: b3e3027c83c78373347a972124853add6214ee8d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283394"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528106"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -54,11 +54,11 @@ Esta información ha sido proporcionada por Townsend Street Labs, Inc. sobre có
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegado | atSpoke almacena el identificador de grupo de Microsoft | Permite la capacidad de leer y escribir información de grupo entre atSpoke y Microsoft Teams.  | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
->| User.ReadWrite.All | delegado | atSpoke almacena el correo electrónico del usuario y el id. de usuario | Permite la capacidad de leer y escribir información de usuario entre atSpoke y Microsoft Teams. | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
->| offline_access | delegado | atSpoke no almacena ningún dato para esto. | Esto se usa para la sincronización en segundo plano. | dfaf15dc-4e94-4484-a25d-79358fe70d8b |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegado | atSpoke almacena el identificador de grupo de Microsoft | Permite la capacidad de leer y escribir información de grupo entre atSpoke y Microsoft Teams.  | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
+>| User.ReadWrite.All | delegado | atSpoke almacena el correo electrónico del usuario y el id. de usuario | Permite la capacidad de leer y escribir información de usuario entre atSpoke y Microsoft Teams. | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
+>| offline_access | delegado | atSpoke no almacena ningún dato para esto. | Esto se usa para la sincronización en segundo plano. | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -66,7 +66,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Sí, usamos servicios de terceros para la eficiencia operativa. Google, Inc.: datos almacenados en volúmenes lógicos, copias de seguridad de almacenamiento en la red nativa de Google Cloud, registros de api y servicio o registros de aplicaciones. Los eventos transaccionales registrados pueden contener identificadores de usuario, información de contacto y contenido del cliente. MongoDB, Inc.: datos almacenados en colecciones de bases de datos basadas en la nube. - Contenido del cliente que incluye solicitudes de los usuarios, respuestas a solicitudes agregadas por usuarios y artículos de conocimientos agregados por los usuarios. - Identificadores de usuario (nombre, correo electrónico, avatar y número de teléfono usados para crear una cuenta de usuario spoke). Mailgun Technologies, Inc.: Identificador de usuario e información de contacto para enviar comunicaciones por correo electrónico (es decir, nombre y correo electrónico). Twilio, Inc.: Número de teléfono de usuario y contenido del cliente: contenido intercambiado mediante el uso de los Servicios de Twilio&#8217;, como texto, cuerpos de mensajes, medios de voz y vídeo, imágenes y sonido. Mixpanel, Inc.: Los datos personales transferidos incluyen el nombre, el correo electrónico, la dirección IP y los datos personales incluidos en el contenido del mensaje. Cloudinary, Inc.: Contenido de cliente basado en archivos enviado por los usuarios finales. Elasticsearch, Inc.: Los eventos transaccionales de aplicación registrados pueden contener texto truncado del contenido del cliente. Stitch, Inc.: información de contacto, información de uso, identificadores no tradicionales de los usuarios autorizados del suscriptor y cualquier otro dato personal que el suscriptor o sus usuarios autorizados envíen a la Plataforma. Mode Analytics, Inc.: información de identificadores de usuario para proporcionar análisis por usuario. DataDog: los eventos transaccionales de la aplicación registrados pueden contener texto truncado del contenido del cliente; la retención de registros es de 14 días. Fullstory, Inc.: grabaciones de acciones realizadas en nuestra interfaz de usuario web; incluye la cuenta de usuario de Spoke con fines de identificación. |  | Estamos usando la API de REST de Bot Framework. Usamos esta API para enviar y recibir mensajes al servicio de bot askSpoke. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -74,7 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Permite a atSpoke sincronizar usuarios desde Microsoft Teams para crear usuarios y definir permisos. | atSpoke solo almacena el correo electrónico para que Microsoft Teams usuarios puedan iniciar sesión en atSpoke como un usuario válido. |  |
 
 

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Qualified, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6b4f5f034fbdca44cd71c74b0530cfd15664a1c8
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: d47e6f2919fb97eb1c9a162f2ade8c1a1bf485a8
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852150"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521143"
 ---
-# <a name="qualified"></a>Calificado
+# <a name="qualified"></a>Cualificado
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Qualified a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Calificado |
-| ID | WA200002720 |
+| Nombre de la aplicación | Cualificado |
+| Id. | WA200002720 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Calificado |
+| Nombre de la compañía asociada | Cualificado |
 | Dirección URL del sitio web de partners | [https://www.qualified.com](https://www.qualified.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.qualified.com/university-guide/microsoft-teams-...](https://www.qualified.com/university-guide/microsoft-teams-integration) |
 | Dirección URL de la directiva de privacidad | [https://www.qualified.com/legal/privacy](https://www.qualified.com/legal/privacy) |
@@ -55,17 +55,17 @@ Esta información ha sido proporcionada por Qualified acerca de cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Channel.ReadBasic.All | aplicación | Permite seleccionar canal para notificar | dirección de correo electrónico, identificador de inquilino, token de actualización de oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
->| Team.ReadBasic.All | aplicación | Nos permite encontrar todos los canales de todos los equipos, para permitirnos seleccionar canales para notificar | dirección de correo electrónico, identificador de inquilino, token de actualización de oauth | 2c951ed5-c5c6-493f-9b02-4b42e3ba536c |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | aplicación | Permite seleccionar canal para notificar | dirección de correo electrónico, identificador de inquilino, token de actualización de oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
+>| Team.ReadBasic.All | aplicación | Nos permite encontrar todos los canales de todos los equipos, para permitirnos seleccionar canales para notificar | dirección de correo electrónico, identificador de inquilino, token de actualización de oauth | [2c951ed5-c5c6-493f-9b02-4b42e3ba536c](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c951ed5-c5c6-493f-9b02-4b42e3ba536c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Bot Framework API | Sí | Id. de inquilino, id. de equipo, id. de canal | Identificador de inquilino: para determinar service_url para las llamadas de api de bot framework; Id. de equipo + identificador de canal: para determinar a qué equipos o canales se ha agregado nuestro bot | Id. de inquilino, id. de equipo, id. de canal | Identificador de inquilino: para determinar service_url para las llamadas de api de bot framework; Id. de equipo + identificador de canal: para determinar a qué equipos o canales se ha agregado nuestro bot |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -73,7 +73,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Heroku, Sentry, Papertrail | Nombre, dirección de correo electrónico, IP | Estos sistemas hospedan y supervisan nuestro servicio de producción |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

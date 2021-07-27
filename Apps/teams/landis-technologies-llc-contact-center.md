@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el Centro de contacto, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 121d59640731b43137d1b2e9d7df987a2a78fe01
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 57fd0d98d6c7139c6356b4c23a6ac8a21c48e6b6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283004"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521507"
 ---
 # <a name="contact-center"></a>Centro de contacto
 
@@ -54,26 +54,26 @@ Landis Technologies LLC ha proporcionado esta información sobre cómo esta apli
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calls.AccessMedia.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.Initiate.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.InitiateGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.JoinGroupCallAsGuest.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| OnlineMeetings.ReadWrite.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| User.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | 341e195c-b261-4b05-8ba5-dd4a89b1f3e7 |
->| Calls.AccessMedia.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.Initiate.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.InitiateGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| Calls.JoinGroupCallAsGuest.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| OnlineMeetings.ReadWrite.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | 3a08b250-02ce-4316-94f7-069f4ae0c41b |
->| User.Read | delegado | Perfil de usuario | Permite al usuario iniciar sesión | c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.Initiate.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.InitiateGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.JoinGroupCallAsGuest.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| OnlineMeetings.ReadWrite.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| User.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite la cola de llamadas, la presentación &amp; de informes de IVR | [341e195c-b261-4b05-8ba5-dd4a89b1f3e7](https://docs.microsoft.com/microsoft-365-app-certification/azure/341e195c-b261-4b05-8ba5-dd4a89b1f3e7) |
+>| Calls.AccessMedia.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.Initiate.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.InitiateGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCall.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| Calls.JoinGroupCallAsGuest.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.Read.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| OnlineMeetings.ReadWrite.All | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | aplicación | Informes de detalles de llamadas, registro de sentimiento de &amp; llamada | Permite el seguimiento de &amp; sentimientos de grabación de llamadas | [3a08b250-02ce-4316-94f7-069f4ae0c41b](https://docs.microsoft.com/microsoft-365-app-certification/azure/3a08b250-02ce-4316-94f7-069f4ae0c41b) |
+>| User.Read | delegado | Perfil de usuario | Permite al usuario iniciar sesión | [c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8](https://docs.microsoft.com/microsoft-365-app-certification/azure/c22c3a9e-5d2c-4177-8ea1-1c53c5af36b8) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -87,7 +87,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Proporcionar informes de llamadas y análisis de usuarios. | Nombre, apellido y UPN o número de teléfono. Esta información se usa en informes de detalles de llamadas y análisis de actividad del usuario. |  |
 
 

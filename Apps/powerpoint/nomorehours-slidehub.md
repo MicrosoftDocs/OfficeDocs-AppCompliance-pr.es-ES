@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SlideHub, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39e3c631cdcd79de9eab484749f45354b87ca0cf
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7eca7f35cb46db8450f6805c9e8a4c2503934dd6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282858"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527816"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -53,9 +53,9 @@ Nomorehours ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | aplicación | correo electrónico y nombre. El correo electrónico se usa como nombre de usuario en la aplicación. Recopilar el correo electrónico puede ayudar a registrar e iniciar sesión en la aplicación más rápido. El nombre se usa en el caso de un evento de registro. | El correo electrónico se usa para habilitar el inicio de sesión Office 365 y, en algunos casos, registrar usuarios que forman parte de la organización que ya han aceptado los términos en su nombre. | 33ccef75-8248-44e8-88d3-24526ca9c2d3 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | aplicación | correo electrónico y nombre. El correo electrónico se usa como nombre de usuario en la aplicación. Recopilar el correo electrónico puede ayudar a registrar e iniciar sesión en la aplicación más rápido. El nombre se usa en el caso de un evento de registro. | El correo electrónico se usa para habilitar el inicio de sesión Office 365 y, en algunos casos, registrar usuarios que forman parte de la organización que ya han aceptado los términos en su nombre. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

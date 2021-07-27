@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: su Asistente personal, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1f203cb6c99584fb8633fcfaafe9155a97d300fe
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 1cdc2ef1a79ac303722820e241e07b7e98d92cb7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283034"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521593"
 ---
 # <a name="mipa---your-personal-assistant"></a>MIPA - Your Personal Assistant
 
@@ -54,33 +54,33 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, actualizar, crear tareas de panner, leer los archivos recientes y compartidos de los usuarios. Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar correo marcado | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| MailboxSettings.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar correo marcado, Leer y actualizar Outlook To Do completos | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| User.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| User.ReadBasic.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| User.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| email | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios ( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| offline_access | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación vea y actualice los datos a los que le dio acceso, incluso cuando los usuarios no estén usando actualmente la aplicación. Esto no proporciona a la aplicación permisos adicionales ( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| OpenID | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas y permite que la aplicación vea información básica de perfil de usuario( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d16 |
->| perfil | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d16 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, actualizar, crear tareas de panner, leer los archivos recientes y compartidos de los usuarios. Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar correo marcado | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| MailboxSettings.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar correo marcado, Leer y actualizar Outlook To Do completos | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.ReadBasic.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| User.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| email | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios ( para SSO). | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| offline_access | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación vea y actualice los datos a los que le dio acceso, incluso cuando los usuarios no estén usando actualmente la aplicación. Esto no proporciona a la aplicación permisos adicionales ( para SSO). | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| OpenID | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas y permite que la aplicación vea información básica de perfil de usuario( para SSO). | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
+>| perfil | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | [e854ea05-68ab-4204-babe-db4a784fb4d16](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d16) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange: Calendars.ReadWrite.All | No |  |  |  |  |
 >| Exchange: EWS. AccessAsUser.All | No |  |  |  |  |
 >| Exchange- Mail.Read | No |  |  |  |  |

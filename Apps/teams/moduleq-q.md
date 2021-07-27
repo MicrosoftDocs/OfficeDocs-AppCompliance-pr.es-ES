@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para preguntas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3444110a1d98a1a9a1157c21e76774373782b8c2
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: a1a9995b6b723d7ed712f9a0fdbe9315ee53c7f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456596"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521305"
 ---
 # <a name="q"></a>Q
 
@@ -33,7 +33,7 @@ Información proporcionada por ModuleQ a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Q |
-| ID | WA104381433 |
+| Id. | WA104381433 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ModuleQ |
 | Dirección URL del sitio web de partners | [https://moduleq.com](https://moduleq.com) |
@@ -55,13 +55,13 @@ ModuleQ ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | aplicación | almacena datos de reunión, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea los eventos del calendario de un usuario para comprender de forma inteligente las prioridades empresariales del usuario. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Group.Read.All | delegado | Ninguno | Permite que la aplicación interactúe en un equipo para compartir contenido. | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| Mail.Read | aplicación | almacena datos de correo electrónico, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea el correo de un usuario para comprender de forma inteligente las prioridades empresariales del usuario | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read | delegado | tokens de autenticación y correo electrónico del usuario | Permite al usuario iniciar sesión y vincular su Office 365 con su cuenta ModuleQ | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
->| User.Read.All | delegado | Ninguno | Permitir que la aplicación obtenga la lista de Teams de la que el usuario forma parte. Solo se usa para compartir  | 418a1ee4-ca76-4b38-b4b3-8cca25417a6c |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | aplicación | almacena datos de reunión, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea los eventos del calendario de un usuario para comprender de forma inteligente las prioridades empresariales del usuario. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Group.Read.All | delegado | Ninguno | Permite que la aplicación interactúe en un equipo para compartir contenido. | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| Mail.Read | aplicación | almacena datos de correo electrónico, excepto para el cuerpo del mensaje y los datos adjuntos | Permite que la aplicación lea el correo de un usuario para comprender de forma inteligente las prioridades empresariales del usuario | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read | delegado | tokens de autenticación y correo electrónico del usuario | Permite al usuario iniciar sesión y vincular su Office 365 con su cuenta ModuleQ | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
+>| User.Read.All | delegado | Ninguno | Permitir que la aplicación obtenga la lista de Teams de la que el usuario forma parte. Solo se usa para compartir  | [418a1ee4-ca76-4b38-b4b3-8cca25417a6c](https://docs.microsoft.com/microsoft-365-app-certification/azure/418a1ee4-ca76-4b38-b4b3-8cca25417a6c) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -93,7 +93,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->Yes
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -119,18 +119,18 @@ ModuleQ ha proporcionado esta información sobre cómo esta aplicación administ
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Yes |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Yes |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Yes |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Yes |
-| ¿La aplicación admite multiinquilino? | Yes |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Yes |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
 | Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/> |
-| ¿Expone la aplicación alguna API web? | Yes |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Yes |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
 | ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 

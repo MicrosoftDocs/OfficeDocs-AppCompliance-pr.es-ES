@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Gurú, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4577aabcc19f32941d3d9005ba7e9fe61e4675cc
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 87316d020c6658b00fe7e12cc7326917779f2623
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281272"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521653"
 ---
 # <a name="guru"></a>Guru
 
@@ -63,7 +63,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Aplicación de usuario final y bases de datos internas de Gurú | cuando un usuario o empresa configura la aplicación Gurú para Teams, la información común, como el nombre de usuario, el correo electrónico y el nombre de la compañía asociados con su perfil de usuario, es registrada y accesible por Gurú | Dado que un usuario debe tener una cuenta de Teams y de Gurú para usar la integración, seguimos y seguimos qué usuarios están habilitando la integración para ayudar a proporcionar soporte y administración a esos usuarios |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

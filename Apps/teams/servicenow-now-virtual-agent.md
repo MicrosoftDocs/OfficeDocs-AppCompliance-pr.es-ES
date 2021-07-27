@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Now Virtual Agent, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bbd2b42fe7ad81e2ba0ba8157a34da67878e09c8
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 1ac2988c550894341d5933afbc59de6f63c51b68
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551670"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521003"
 ---
 # <a name="now-virtual-agent"></a>Now Virtual Agent
 
@@ -33,7 +33,7 @@ Información proporcionada por ServiceNow a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Now Virtual Agent |
-| ID | WA104381816 |
+| Id. | WA104381816 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ServiceNow |
 | Dirección URL del sitio web de partners | [https://www.servicenow.com/](https://www.servicenow.com/) |
@@ -55,9 +55,9 @@ ServiceNow ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | El dominio se almacena en nuestro centro de datos para futuros fines de enrutamiento de mensajes. | Cuando el administrador de ServiceNow instala la integración con MS Teams, el administrador debe iniciar sesión en su cuenta Teams MS. Leemos el dominio desde la dirección de correo electrónico (no la dirección de correo electrónico completa). |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | El dominio se almacena en nuestro centro de datos para futuros fines de enrutamiento de mensajes. | Cuando el administrador de ServiceNow instala la integración con MS Teams, el administrador debe iniciar sesión en su cuenta Teams MS. Leemos el dominio desde la dirección de correo electrónico (no la dirección de correo electrónico completa). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el bot de adopción de C.AI, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5e1ad704a7b72a8d3717b7aa1b3d60b23099998
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52851600"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53521845"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -33,7 +33,7 @@ Información proporcionada por contexxt.ai a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | C.AI Adoption Bot |
-| ID | WA200002633 |
+| Id. | WA200002633 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | contexxt.ai |
 | Dirección URL del sitio web de partners | [https://contexxt.ai](https://contexxt.ai) |
@@ -55,15 +55,15 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | Disponibilidad del usuario anonimizado que puede enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | Anónimos Microsoft Teams de canal, como Privado o no o cantidad de conversaciones por canal para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Chat.Read.All | aplicación | Microsoft Teams de chat, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | Metadatos de chat Microsoft Teams anónimos, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Directory.Read.All | aplicación | Id. de objeto de usuario para poder enviar sugerencias al usuario especular más adelante. | Hashed (anonymized) Object-ID of the user for being able sending tips to specifi user later. | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Group.Read.All | aplicación | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| Mail.Read | aplicación | Microsoft Exchange metadatos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | Metadatos de microsoft Exchange anónimos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
->| User.Read.All | aplicación | Microsoft Teams metadatos de chat y conversación, como si se mencionase a un usuario para analizar el uso de Teams | Anonimizado Microsoft Teams chat y metadatos de conversación, como si se mencionase a un usuario para analizar el uso de Teams | abe28a0d-6acc-47d8-9169-cfcc2553bc13 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | Disponibilidad del usuario anonimizado que puede enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | Anónimos Microsoft Teams de canal, como Privado o no o cantidad de conversaciones por canal para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | aplicación | Microsoft Teams de chat, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | Metadatos de chat Microsoft Teams anónimos, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | aplicación | Id. de objeto de usuario para poder enviar sugerencias al usuario especular más adelante. | Hashed (anonymized) Object-ID of the user for being able sending tips to specifi user later. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | aplicación | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | aplicación | Microsoft Exchange metadatos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | Metadatos de microsoft Exchange anónimos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | aplicación | Microsoft Teams metadatos de chat y conversación, como si se mencionase a un usuario para analizar el uso de Teams | Anonimizado Microsoft Teams chat y metadatos de conversación, como si se mencionase a un usuario para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -77,7 +77,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| En Bot Framework, el identificador de usuario se transmitirá automáticamente al poder comunicarse con el usuario. Los datos de uso adicionales de C.AI Adoption Analytics se usan para individualizar la experiencia de aprendizaje del usuario, por lo tanto, enviar solo sugerencias apropiadas y útiles a los usuarios, que quizás no conozcan estas sugerencias | No |  |
 
 
