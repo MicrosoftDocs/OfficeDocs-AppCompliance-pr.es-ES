@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SecretaryBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: bff3e6ebffc94861dc4112375ac943124b4fe386
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8d7e2fce37cf43fe52cb050e85aa9e4fd5e00802
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551890"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525454"
 ---
 # <a name="secretarybot"></a>SecretaryBot
 
@@ -33,7 +33,7 @@ Información proporcionada por MySecretary a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SecretaryBot |
-| ID | WA104381085 |
+| Id. | WA104381085 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MySecretary |
 | Dirección URL del sitio web de partners | [https://secretarybot.wordpress.com/](https://secretarybot.wordpress.com/) |
@@ -55,16 +55,16 @@ MySecretary ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read.Shared | delegado |  | Recupera la información de tiempo libre del usuario y sus compañeros. |  |
->| Calendars.ReadWrite | delegado |  | Enviar solicitud de reunión en lugar de usuario. |  |
->| MailboxSettings.Read | delegado | Idioma de la tienda para mostrar el langage correcto. Guardar zona horaria para llamar a MS Graph API de calendario correctamente | Capturar la configuración de idioma y zona horaria del usuario. |  |
->| People.Read | delegado |  | Intente encontrar compañeros que tengan relaciones sólidas con el usuario. |  |
->| User.Read | delegado | Almacenar nombre de usuario, ciudad, país y langauge para análisis de usuarios. Almacenar el correo electrónico para ponerse en contacto con el cliente. Nunca hemos usado la dirección de correo electrónico, pero se puede usar para soporte técnico. | Intenta buscar el país del usuario y el idioma preferido. Se usa para la copia de seguridad de MailboxSettings.Read. |  |
->| email | delegado | Vea arriba. | Para almacenar correo electrónico. |  |
->| OpenID | delegado |  | Para la autenticación OpenID. |  |
->| perfil | delegado | Guarde OID para identificar el identificador único del usuario en el sistema de identidad de MS. | Obtener el nombre de usuario y OID. Intente usar OID para conectar Outlook Addin en el futuro. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read.Shared | delegado |  | Recupera la información de tiempo libre del usuario y sus compañeros. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Calendars.ReadWrite | delegado |  | Enviar solicitud de reunión en lugar de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| MailboxSettings.Read | delegado | Idioma de la tienda para mostrar el langage correcto. Guardar zona horaria para llamar a MS Graph API de calendario correctamente | Capturar la configuración de idioma y zona horaria del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| People.Read | delegado |  | Intente encontrar compañeros que tengan relaciones sólidas con el usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegado | Almacenar nombre de usuario, ciudad, país y langauge para análisis de usuarios. Almacenar el correo electrónico para ponerse en contacto con el cliente. Nunca hemos usado la dirección de correo electrónico, pero se puede usar para soporte técnico. | Intenta buscar el país del usuario y el idioma preferido. Se usa para la copia de seguridad de MailboxSettings.Read. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegado | Vea arriba. | Para almacenar correo electrónico. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| OpenID | delegado |  | Para la autenticación OpenID. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| perfil | delegado | Guarde OID para identificar el identificador único del usuario en el sistema de identidad de MS. | Obtener el nombre de usuario y OID. Intente usar OID para conectar Outlook Addin en el futuro. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -78,7 +78,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Use esta información para programar reuniones de equipo | No |  |
 
 

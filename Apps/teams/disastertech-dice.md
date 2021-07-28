@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DISASTERTech DICE, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c9aceaf48c36012ad8c6eb062c1161746d55da6a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d8eec2ad9c7047a33dae446943c3ab2d934cc78c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281925"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525714"
 ---
 # <a name="disastertech-dice"></a>DisasterTech DICE
 
@@ -54,13 +54,13 @@ DisasterTech ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Dirección de correo electrónico de usuario almacenada para establecer derechos de acceso, así como nombre de usuario para identificar usuarios por nombre | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso, así como Teams inicio de sesión, también para establecer nombres de usuario y direcciones de correo electrónico. | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| email | delegado | Ninguno | Obligatorio para Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| offline_access | delegado | Ninguno | Obligatorio para Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| OpenID | delegado | Ninguno | Obligatorio para Teams single Sign-On | 36d23b76-c58b-4a34-a60f-dceac6962bad |
->| perfil | delegado | Ninguno | Obligatorio para Teams inicio de sesión único. | 36d23b76-c58b-4a34-a60f-dceac6962bad |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Dirección de correo electrónico de usuario almacenada para establecer derechos de acceso, así como nombre de usuario para identificar usuarios por nombre | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso, así como Teams inicio de sesión, también para establecer nombres de usuario y direcciones de correo electrónico. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| email | delegado | Ninguno | Obligatorio para Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| offline_access | delegado | Ninguno | Obligatorio para Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| OpenID | delegado | Ninguno | Obligatorio para Teams single Sign-On | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
+>| perfil | delegado | Ninguno | Obligatorio para Teams inicio de sesión único. | [36d23b76-c58b-4a34-a60f-dceac6962bad](https://docs.microsoft.com/microsoft-365-app-certification/azure/36d23b76-c58b-4a34-a60f-dceac6962bad) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

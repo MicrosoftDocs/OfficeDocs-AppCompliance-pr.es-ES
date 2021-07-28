@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para IndustryIntel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a213e68c58f2f3aea6f9bc1e6c8568fcbdefc141
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 71102c3a8720b8aa7c6d8cf3b9e329328e532d7d
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281252"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525584"
 ---
 # <a name="industryintel"></a>IndustryIntel
 
@@ -68,7 +68,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para validar al usuario si el usuario tiene acceso a la red de inteligencia del sector. Si el usuario ha validado correctamente, el usuario puede usar la característica completa de bot y extensión de mensajería. | Almacenamos solo el identificador de miembro del equipo que es para asignar el identificador con inteligencia del sector/id. de usuario interno. |  |
 
 

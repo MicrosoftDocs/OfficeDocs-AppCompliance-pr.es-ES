@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lumio by SMART, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 50cde4ecae9abf39b199b381bcf8e5da33b345e6
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283311"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53520993"
 ---
-# <a name="lumio-by-smart"></a>Lumio de SMART
+# <a name="lumio-by-smart"></a>Lumio by SMART
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por SMART Technologies ULC a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Lumio de SMART |
+| Nombre de la aplicación | Lumio by SMART |
 | Id. | WA200001874 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SMART Technologies ULC |
@@ -55,10 +55,10 @@ SMART Technologies ULC ha proporcionado esta información sobre cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | delegado | Los datos se usan para comprobar que los permisos de grupo no se recopilan.  | No se almacenan datos de directorio en la base de datos | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
->| Group.Read.All | delegado | de qué grupo son, esto se usa para comprobar que forman parte del grupo de alumnos o profesores para determinar la funcionalidad. No se recopilan datos.  | Solo los datos almacenados es el identificador único de los clientes | 14cf575a-fae2-48e2-af39-e3448d3a48bb |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | delegado | Los datos se usan para comprobar que los permisos de grupo no se recopilan.  | No se almacenan datos de directorio en la base de datos | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
+>| Group.Read.All | delegado | de qué grupo son, esto se usa para comprobar que forman parte del grupo de alumnos o profesores para determinar la funcionalidad. No se recopilan datos.  | Solo los datos almacenados es el identificador único de los clientes | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OpenAgora, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e078e126a4d155fedc2cda86e12ff1341722962c
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551870"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525414"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -33,7 +33,7 @@ Información proporcionada por Open Agora para Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | OpenAgora |
-| ID | WA104381473 |
+| Id. | WA104381473 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Open Agora |
 | Dirección URL del sitio web de partners | [https://www.open-agora.com/en/products/teams](https://www.open-agora.com/en/products/teams) |
@@ -55,9 +55,9 @@ Open Agora ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Identificador&#8217;usuario Azure Active Directory usuario. | Identificación de usuario, para garantizar que los usuarios puedan ver y administrar solo los datos visibles para ellos. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Identificador&#8217;usuario Azure Active Directory usuario. | Identificación de usuario, para garantizar que los usuarios puedan ver y administrar solo los datos visibles para ellos. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -71,7 +71,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| **Nombre:** se usa para mostrar el nombre del votante. **Correo** electrónico: se usa para identificar usuarios en equipos y chats; se usa como identificador único de elector; se usa para responder a los comentarios de los usuarios en Teams. No se envían correos electrónicos no solicitados a los usuarios. | Nombres y apellidos, nombre para mostrar, dirección de correo electrónico |  |
 
 

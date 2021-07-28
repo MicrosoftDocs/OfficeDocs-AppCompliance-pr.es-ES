@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para elmah.io, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1a4d52ae44362914c3e2094d39f7b109948986a2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2761f22f1b41c208d7dce1589ac3d62ab41efc54
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553201"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525684"
 ---
 # <a name="elmahio"></a>elmah.io
 
@@ -33,7 +33,7 @@ Información proporcionada por elmah.io a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | elmah.io |
-| ID | WA104381965 |
+| Id. | WA104381965 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | elmah.io |
 | Dirección URL del sitio web de partners | [https://elmah.io](https://elmah.io) |
@@ -63,7 +63,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom, Stripe, Mailchimp, Amazon Web Services | Nombre de la empresa, nombre, correo electrónico | Compartimos el nombre y el correo electrónico de los usuarios con Intercom, Mailchimp y AWS para personalizar los correos electrónicos. Compartimos el nombre de la compañía con Stripe para facturas, etc. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

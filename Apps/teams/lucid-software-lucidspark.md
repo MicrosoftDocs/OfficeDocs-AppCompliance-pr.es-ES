@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lucidspark, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c05b4a1f7c5a1707ce7ab4f2d3230bdf1c7bdb4d
-ms.sourcegitcommit: 1b9ad544fd91bb0fb25e467baf2d368a812dc476
+ms.openlocfilehash: e79bed420b3081ae31a0abda25299610eeb1bc5f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52927288"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525514"
 ---
 # <a name="lucidspark"></a>Lucidspark
 
@@ -33,7 +33,7 @@ Información proporcionada por Software lúcido a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Lucidspark |
-| ID | WA200002583 |
+| Id. | WA200002583 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Lucid Software |
 | Dirección URL del sitio web de partners | [https://lucid.co](https://lucid.co) |
@@ -55,19 +55,19 @@ Esta información ha sido proporcionada por Software lúcido sobre cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
->| OpenID | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
->| perfil | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | 3557d5c0-bcab-410b-8a03-f7045aa48de0 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| OpenID | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
+>| perfil | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidspark generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidspark para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [3557d5c0-bcab-410b-8a03-f7045aa48de0](https://docs.microsoft.com/microsoft-365-app-certification/azure/3557d5c0-bcab-410b-8a03-f7045aa48de0) |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Se transfieren servicios de Microsoft OII que no son de servicios de Microsoft** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Los datos de Lucidspark y lucidchart se almacenan en AWS y Copo de nieve | Nombre de la organización, información de contacto y nivel de licencia | No usamos ninguna API de Microsoft. Usamos openID para obtener datos de usuario básicos para realizar SSO. Usamos su API de selector de archivos, pero eso no nos da acceso a los archivos del usuario que no son los que nos envían a través del selector. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

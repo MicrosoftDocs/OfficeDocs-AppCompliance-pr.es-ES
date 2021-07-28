@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SIGNL4, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 425c0738b5628f959ba81e5682c22afe6774cfba
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0e42f0d40c157819076af93cbd076c04e9326345
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281332"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525734"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -62,7 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| De forma recursiva, se requiere dirección de correo electrónico, dirección de correo electrónico para enviar notificaciones de facturación al cliente cuando esté usando la aplicación. Twilio, números de teléfono, contenido de alerta para enviar alertas a través de mensajes de texto SMS |  | Api de administración de Azure, alertas de Azure Monitor se recopilan, la recopilación se produce porque los sistemas envían notificaciones para esas alertas |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

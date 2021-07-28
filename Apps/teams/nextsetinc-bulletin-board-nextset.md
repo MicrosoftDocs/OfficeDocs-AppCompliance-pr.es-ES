@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para Bulletin Board: NextSet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 98e8c546a86d63a6fd63832d30759854cfae844a
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: c423181155ac9b777bb03576032f01a8a16578b4
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987920"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525444"
 ---
-# <a name="bulletin-board---nextset"></a>Tablón de anuncios - NextSet
+# <a name="bulletin-board---nextset"></a>Tablón de anuncios- NextSet
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por NextSet,Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Tablón de anuncios - NextSet |
-| ID | WA200002122 |
+| Nombre de la aplicación | Tablón de anuncios- NextSet |
+| Id. | WA200002122 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | NextSet,Inc. |
+| Nombre de la compañía asociada | NextSet, Inc. |
 | Dirección URL del sitio web de partners | [https://www.nextset.co.jp](https://www.nextset.co.jp) |
 | Dirección URL de Teams de información de la aplicación | [https://www.nextset.co.jp/bbs.html](https://www.nextset.co.jp/bbs.html) |
 | Dirección URL de la directiva de privacidad | [https://www.nextset.co.jp/privacy.html](https://www.nextset.co.jp/privacy.html) |
@@ -55,26 +55,26 @@ NextSet,Inc. ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.ReadWrite.All | ambos | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#25237;&#31295;&#20869;&#23481;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12398;&#12501;&#12449;&#12452;&#12523;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | cec02d43-1b67-4430-9bc9-861da8582801 |
->| email | delegado | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | cec02d43-1b67-4430-9bc9-861da8582801 |
->| OpenID | delegado | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | cec02d43-1b67-4430-9bc9-861da8582801 |
->| perfil | ambos | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | ff5f406c-2ded-423f-b6ba-2950a2532b69 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.ReadWrite.All | ambos | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#25237;&#31295;&#20869;&#23481;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12398;&#12501;&#12449;&#12452;&#12523;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
+>| email | delegado | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
+>| OpenID | delegado | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
+>| perfil | ambos | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [ff5f406c-2ded-423f-b6ba-2950a2532b69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ff5f406c-2ded-423f-b6ba-2950a2532b69) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange Online PowerShell, 365 PowerShell | Sí | 365&#12398;&#12464;&#12523;&#12540;&#12503;&#12420;&#12518;&#12540;&#12470;&#12540;&#24773;&#22577;&#12398;&#12484;&#12522;&#12540; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#25237;&#31295;&#12506;&#12540;&#12472;&#12398;&#12450;&#12463;&#12475;&#12473;&#21046;&#24481;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; | &#32068;&#32340;&#21517;&#12420;id.&#12289;&#12518;&#12540;&#12470;&#12540;&#21517;&#12420;id.&#12289;&#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#12408;&#12398;&#25152;&#23646;&#27083;&#25104; | &#12518;&#12540;&#12470;&#12540;&#12398;&#32068;&#32340;&#24773;&#22577;&#12395;&#22522;&#12389;&#12356;&#12383;&#25237;&#31295;&#12506;&#12540;&#12472;&#12398;&#12450;&#12463;&#12475;&#12473;&#21046;&#24481;&#12434;&#23455;&#29694;&#12377;&#12427;&#12383;&#12417; |
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios de Microsoft no se usan.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 

@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para HighSide de HighSide, Inc
+title: Información de la aplicación para ngDesk por All Blue Solutions
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/27/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para HighSide, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para ngDesk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab387d09b7db9e75dcc0200683620c534318afbb
+ms.openlocfilehash: b361541352b4fb5c21431403aaea8d7b13a0e104
 ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525594"
+ms.locfileid: "53526463"
 ---
-# <a name="highside"></a>HighSide
+# <a name="ngdesk"></a>ngDesk
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: April 27, 2021</p>
+<p>Last updated by the developer on: June 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3c77edc8-0136-4ca2-8d4b-3558923c0e77" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002220" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/64d24486-30aa-4fae-8bdc-2680a85dcbb5" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002968" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por HighSide, Inc a Microsoft:
+Información proporcionada por All Blue Solutions a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | HighSide |
-| Id. | WA200002220 |
+| Nombre de la aplicación | ngDesk |
+| Id. | WA200002968 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | HighSide, Inc |
-| Dirección URL del sitio web de partners | [https://highside.io](https://highside.io) |
-| Dirección URL de Teams de información de la aplicación | [https://highside.io/secureteams](https://highside.io/secureteams) |
-| Dirección URL de la directiva de privacidad | [https://highside.io/privacy-shield](https://highside.io/privacy-shield) |
-| DIRECCIÓN URL de términos de uso | [https://highside.io/terms-of-service](https://highside.io/terms-of-service) |
+| Nombre de la compañía asociada | Todas las soluciones azules |
+| Dirección URL del sitio web de partners | [https://ngdesk.com](https://ngdesk.com) |
+| Dirección URL de Teams de información de la aplicación | [https://ngdesk.com](https://ngdesk.com) |
+| Dirección URL de la directiva de privacidad | [https://ngdesk.com/privacy-policy](https://ngdesk.com/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://ngdesk.com/terms-of-service/](https://ngdesk.com/terms-of-service/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Información proporcionada por HighSide, Inc a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-HighSide, Inc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+All Blue Solutions ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -68,9 +68,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Funciones de búsqueda | Nombre de usuario | Funciones de búsqueda |
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -83,13 +81,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->N/D
+>No enviamos datos a otros sistemas de partners
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->Sí
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -99,9 +97,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37581" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36559" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -111,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-HighSide, Inc ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+All Blue Solutions ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

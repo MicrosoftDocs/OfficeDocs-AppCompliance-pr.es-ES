@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 9441bc0dcf4b2041b524db3715258caecfaa9aec
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 77da98d015480716b848a47f4d6d04d35035f5fb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281092"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526536"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -61,7 +61,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| MongoDB: Registrar datos del sistema y del usuario para funcionar, Google BigQuery: Registro del uso de registros del sistema, Google Firestore: Un sistema que mantiene y orquesta el estado de nuestros microservicios, Stripe: Sistema de pago |  | Estas aplicaciones no usan API de Microsoft adicionales |
 
 

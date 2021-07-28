@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AtBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3f56d0b3eb19f5bed8f7092507c8605af936b911
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 94cc732dc5f6cf6416fd1b386271b3694d6f3698
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552141"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525624"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -33,7 +33,7 @@ Información proporcionada por H3 Solutions, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AtBot |
-| ID | WA104381219 |
+| Id. | WA104381219 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | H3 Solutions, Inc. |
 | Dirección URL del sitio web de partners | [https://atbot.io](https://atbot.io) |
@@ -55,16 +55,16 @@ H3 Solutions, Inc. ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | aplicación | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| Directory.Read.All | delegado | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| People.Read | delegado | No | Enumerar personas en una acción Obtener persona desde Flow.  Permite al bot recuperar personas del extremo /People en Microsoft Graph. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| User.Read | delegado | Id. de inquilino, UPN | Nos da acceso al identificador de inquilino&#8217;de usuario y UPN para permitirnos vincular flujos/aplicaciones lógicas creadas a los usuarios que los crearon. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| email | delegado | No | Nos da acceso a la dirección de correo electrónico del usuario. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| offline_access | delegado | Tokens de acceso/actualización. | Nos permite usar un token de actualización para mantener la sesión iniciada por los usuarios. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| OpenID | delegado | No | Permite a los usuarios iniciar sesión. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
->| perfil | delegado | UPN | Acceso al UPN del usuario. | 066a6b3a-f7a0-450a-98c7-34db1da31594 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | aplicación | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | delegado | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| People.Read | delegado | No | Enumerar personas en una acción Obtener persona desde Flow.  Permite al bot recuperar personas del extremo /People en Microsoft Graph. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| User.Read | delegado | Id. de inquilino, UPN | Nos da acceso al identificador de inquilino&#8217;de usuario y UPN para permitirnos vincular flujos/aplicaciones lógicas creadas a los usuarios que los crearon. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| email | delegado | No | Nos da acceso a la dirección de correo electrónico del usuario. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| offline_access | delegado | Tokens de acceso/actualización. | Nos permite usar un token de actualización para mantener la sesión iniciada por los usuarios. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| OpenID | delegado | No | Permite a los usuarios iniciar sesión. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| perfil | delegado | UPN | Acceso al UPN del usuario. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -78,7 +78,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Creación de menciones en mensajes de chat generados por bots | No |  |
 
 
@@ -86,7 +86,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Identificador de inquilino, UPN Usamos Application Insights y nuestros registros durarán 90 días antes de archivarse automáticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
+>Identificador de inquilino, UPN Usamos la aplicación Ideas y nuestros registros durarán 90 días antes de archivarse automáticamente. (https://docs.microsoft.com/azure/azure-monitor/app/data-retention-privacy)
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 

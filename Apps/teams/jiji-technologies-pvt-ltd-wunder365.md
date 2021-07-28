@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wunder365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9ef4f9f97964d1d099676654ff2cfaaa11532167
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 71d163c9dc86fbd21fc9032abcc732168b8210eb
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281823"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525554"
 ---
 # <a name="wunder365"></a>Wunder365
 
@@ -55,20 +55,20 @@ JiJi Technologies Pvt Ltd ha proporcionado esta información sobre cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | delegado | No hay datos almacenados. | Para obtener/actualizar tareas de Planner, publique actualizaciones de tareas en el canal de grupo | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| Mail.Send | delegado | No hay datos almacenados. | Permitir que la aplicación envíe notificaciones por correo electrónico a los usuarios | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| offline_access | delegado | No hay datos almacenados. | Para mantener la sesión iniciada por el usuario. | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| OpenID | delegado | No hay datos almacenados. | Permite a los usuarios iniciar sesión con una cuenta organizativa | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
->| perfil | delegado | UPN, id. de usuario, id. de correo electrónico, id. de inquilino para la verificación de licencias, licencia gratuita. | Permite a los usuarios iniciar sesión con una cuenta organizativa | 3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegado | No hay datos almacenados. | Para obtener/actualizar tareas de Planner, publique actualizaciones de tareas en el canal de grupo | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| Mail.Send | delegado | No hay datos almacenados. | Permitir que la aplicación envíe notificaciones por correo electrónico a los usuarios | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| offline_access | delegado | No hay datos almacenados. | Para mantener la sesión iniciada por el usuario. | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| OpenID | delegado | No hay datos almacenados. | Permite a los usuarios iniciar sesión con una cuenta organizativa | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
+>| perfil | delegado | UPN, id. de usuario, id. de correo electrónico, id. de inquilino para la verificación de licencias, licencia gratuita. | Permite a los usuarios iniciar sesión con una cuenta organizativa | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API de REST de SharePoint | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

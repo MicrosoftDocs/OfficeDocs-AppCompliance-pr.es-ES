@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para COCO, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5b1c7194ed42779d966c4d7d4f519374bbb78bb1
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 8a25a95b277f41f30477182c9eec0b3b25b9351e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281262"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525614"
 ---
 # <a name="coco"></a>COCO
 
@@ -53,15 +53,15 @@ Hexaware Technologies Ltd ha proporcionado esta información sobre cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegado | Ninguno | Directorio de access como el usuario que ha iniciado sesión | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| Directory.Read.All | aplicación | Ninguno | Leer datos del directorio | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| Directory.ReadWrite.All | delegado | Ninguno | Leer y escribir datos en el directorio | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.Read | delegado | Ninguno | Iniciar sesión y leer el perfil del usuario | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.Read.All | aplicación | Ninguno | Leer los perfiles completos de todos los usuarios | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| User.ReadWrite.All | delegado | Ninguno | Leer los perfiles completos de todos los usuarios y escribir en ellos | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
->| OpenID | delegado | Ninguno | Inicio de sesión de los usuarios | 82eb2bf2-969c-46da-9e89-1db59ac4fbb3 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegado | Ninguno | Directorio de access como el usuario que ha iniciado sesión | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.Read.All | aplicación | Ninguno | Leer datos del directorio | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| Directory.ReadWrite.All | delegado | Ninguno | Leer y escribir datos en el directorio | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.Read | delegado | Ninguno | Iniciar sesión y leer el perfil del usuario | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.Read.All | aplicación | Ninguno | Leer los perfiles completos de todos los usuarios | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.ReadWrite.All | delegado | Ninguno | Leer los perfiles completos de todos los usuarios y escribir en ellos | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| OpenID | delegado | Ninguno | Inicio de sesión de los usuarios | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -75,7 +75,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para mantener los datos de sesión | Nombre, id. de correo electrónico |  |
 
 

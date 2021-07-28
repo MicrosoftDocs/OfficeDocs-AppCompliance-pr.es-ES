@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Officevibe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f007500f61edad32eb5f58a2ec57dabfa4c08de6
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 968e5ba9e3144e4dd987e63af0480311ab7f4cab
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552881"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525424"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -33,7 +33,7 @@ Información proporcionada por Officevibe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Officevibe |
-| ID | WA200002508 |
+| Id. | WA200002508 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Officevibe |
 | Dirección URL del sitio web de partners | [https://officevibe.com](https://officevibe.com) |
@@ -55,13 +55,13 @@ Officevibe ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| Group.Read.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| TeamsAppInstallation.ReadWriteForUser | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| User.Read | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
->| User.Read.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | 3e500164-df82-4d1e-9db8-0901e07d374d  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| Group.Read.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| TeamsAppInstallation.ReadWriteForUser | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| User.Read | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
+>| User.Read.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -69,7 +69,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Hubspot, Recurly, Xero, MongoDB Atlas | Nombre de la empresa e Industria | Administración de clientes, administración de pagos y suscripciones y almacenamiento de datos de aplicaciones |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

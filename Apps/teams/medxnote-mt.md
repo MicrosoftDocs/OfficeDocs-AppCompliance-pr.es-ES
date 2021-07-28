@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Medxnote MT, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: ee4a304ac2844bff1fcec309fe0c96edba04208f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282984"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525494"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -54,10 +54,10 @@ Medxnote ha proporcionado esta información sobre cómo esta aplicación recopil
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read.All | aplicación | estamos almacenando en caché el nombre y el correo electrónico, que se usan en el lado del hospital para comprobar los privilegios de los usuarios | al enviar mensajes algunas veces se agrega nombre y dirección de correo electrónico, estamos almacenando en caché esos datos en el lado del servidor, también se usa para la comprobación de privilegios opcional en el lado del hospital | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
->| OpenID | delegado | estamos almacenando en caché el identificador de sesión, el id. de usuario, el token de portador y el correo electrónico, usados para iniciar sesión en usuarios en el módulo Tarea | us it to sign in users in Task module, we are storing session id, userid, email, bearer tokens | fc70bbbe-91c4-4d8f-a9c9-a022068d5752 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read.All | aplicación | estamos almacenando en caché el nombre y el correo electrónico, que se usan en el lado del hospital para comprobar los privilegios de los usuarios | al enviar mensajes algunas veces se agrega nombre y dirección de correo electrónico, estamos almacenando en caché esos datos en el lado del servidor, también se usa para la comprobación de privilegios opcional en el lado del hospital | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
+>| OpenID | delegado | estamos almacenando en caché el identificador de sesión, el id. de usuario, el token de portador y el correo electrónico, usados para iniciar sesión en usuarios en el módulo Tarea | us it to sign in users in Task module, we are storing session id, userid, email, bearer tokens | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

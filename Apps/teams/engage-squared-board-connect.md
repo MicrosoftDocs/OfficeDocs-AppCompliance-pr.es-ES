@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para board Conectar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7c67ece1e55b265152c8a7664b8f714926d9caff
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: c04b8be94b4d9a6367c8baa2b3370d82c2bdff5c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53456608"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525674"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -33,7 +33,7 @@ Información proporcionada por Engage Squared a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Board Connect |
-| ID | WA200001955 |
+| Id. | WA200001955 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Engage Squared |
 | Dirección URL del sitio web de partners | [https://engagesq.com](https://engagesq.com) |
@@ -55,14 +55,14 @@ Engage Squared ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | Para permitir que la aplicación actualice los calendarios de los usuarios para reflejar las respuestas de asistencia a la reunión del directorio enviadas a través de la aplicación. | No hay datos almacenados en nuestro almacenamiento de tablas de Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Group.ReadWrite.All | delegado | Para permitir que la aplicación cree, actualice y elimine eventos de calendario de grupo. | Almacenamos el identificador del grupo, junto con el identificador de inquilino: se almacena y se usa desde una perspectiva de licencia para que podamos validar que la organización tiene licencia para la administración Conectar. También lo usamos para realizar un seguimiento de cuántas instalaciones de las aplicaciones hay en el espacio empresarial, ya que esto está en línea con nuestro modelo de licencias | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| Sites.Manage.All | delegado | Para permitir que la aplicación cree listas y bibliotecas, administre elementos de lista y administre documentos en una colección de sitios de grupo. | Ninguno | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.Read | delegado | Para permitir que los usuarios inicien sesión en la aplicación y permitir que la aplicación lea el perfil del usuario que ha iniciado sesión actualmente. | No se almacenan datos de este punto de conexión en el almacenamiento de tablas de Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| User.ReadBasic.All | delegado | Para que la aplicación lea un conjunto básico de propiedades de perfil de otros usuarios en nombre del usuario que ha iniciado sesión, para mostrarlo en la aplicación. Esto incluye el nombre para mostrar, el nombre y el apellido, la dirección de correo electrónico y la foto. | Ninguno, los datos no se almacenan en nuestro almacenamiento de tablas de Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
->| offline_access | delegado | Para habilitar la aplicación para obtener un token de actualización, que puede usar para obtener un nuevo token de acceso cuando expire el actual. | Ninguno, los datos no se almacenan en nuestro almacenamiento de tablas de Azure | 4a6873f6-8360-4023-bd6f-2923d1eb2e94 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Para permitir que la aplicación actualice los calendarios de los usuarios para reflejar las respuestas de asistencia a la reunión del directorio enviadas a través de la aplicación. | No hay datos almacenados en nuestro almacenamiento de tablas de Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Group.ReadWrite.All | delegado | Para permitir que la aplicación cree, actualice y elimine eventos de calendario de grupo. | Almacenamos el identificador del grupo, junto con el identificador de inquilino: se almacena y se usa desde una perspectiva de licencia para que podamos validar que la organización tiene licencia para la administración Conectar. También lo usamos para realizar un seguimiento de cuántas instalaciones de las aplicaciones hay en el espacio empresarial, ya que esto está en línea con nuestro modelo de licencias | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| Sites.Manage.All | delegado | Para permitir que la aplicación cree listas y bibliotecas, administre elementos de lista y administre documentos en una colección de sitios de grupo. | Ninguno | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.Read | delegado | Para permitir que los usuarios inicien sesión en la aplicación y permitir que la aplicación lea el perfil del usuario que ha iniciado sesión actualmente. | No se almacenan datos de este punto de conexión en el almacenamiento de tablas de Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| User.ReadBasic.All | delegado | Para que la aplicación lea un conjunto básico de propiedades de perfil de otros usuarios en nombre del usuario que ha iniciado sesión, para mostrarlo en la aplicación. Esto incluye el nombre para mostrar, el nombre y el apellido, la dirección de correo electrónico y la foto. | Ninguno, los datos no se almacenan en nuestro almacenamiento de tablas de Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
+>| offline_access | delegado | Para habilitar la aplicación para obtener un token de actualización, que puede usar para obtener un nuevo token de acceso cuando expire el actual. | Ninguno, los datos no se almacenan en nuestro almacenamiento de tablas de Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -120,18 +120,18 @@ Engage Squared ha proporcionado esta información sobre cómo esta aplicación c
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Yes |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Yes |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Yes |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Yes |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Yes |
-| ¿La aplicación admite multiinquilino? | Yes |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Yes |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
 | Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
-| ¿Expone la aplicación alguna API web? | Yes |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Yes |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
 | ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
 

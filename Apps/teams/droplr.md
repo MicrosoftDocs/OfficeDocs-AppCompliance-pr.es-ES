@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Droplr, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0ee1f120569a50bb475cd525b3ae1ba70e6b60b5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: a15e235b7f604ba4b5c73c74eef50d4bc1a49e65
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553951"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525704"
 ---
 # <a name="droplr"></a>Droplr
 
@@ -33,7 +33,7 @@ Información proporcionada por Droplr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Droplr |
-| ID | WA104381718 |
+| Id. | WA104381718 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Droplr |
 | Dirección URL del sitio web de partners | [https://droplr.com](https://droplr.com) |
@@ -55,9 +55,9 @@ Droplr ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Almacenamos el `user_id` valor en nuestra base de datos | Usamos este permiso para identificar al usuario autenticado y vincularlo con su cuenta de Droplr. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Almacenamos el `user_id` valor en nuestra base de datos | Usamos este permiso para identificar al usuario autenticado y vincularlo con su cuenta de Droplr. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

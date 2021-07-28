@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindManager, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 69efbc45560d3271f03f8af8e9cfeb1aa7c89e5d
-ms.sourcegitcommit: 41be194e2be4de3cdb686daee7a8f6e4d1fc765a
+ms.openlocfilehash: 7a431ae7736e2efa22a2d75ff3a1cfc2e1e2234f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52904546"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525744"
 ---
 # <a name="mindmanager"></a>MindManager
 
@@ -33,7 +33,7 @@ Información proporcionada por Corel a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindManager |
-| ID | WA200002261 |
+| Id. | WA200002261 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Corel |
 | Dirección URL del sitio web de partners | [https://www.mindmanager.com](https://www.mindmanager.com) |
@@ -54,14 +54,14 @@ Esta información ha sido proporcionada por Corel acerca de cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Chat.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Files.ReadWrite | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | - datos de perfil: para identificar al usuario y mostrar su perfil - contenido de archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en los archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| Sites.ReadWrite.All | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| User.Read | delegado | datos de perfil: para identificar al usuario y mostrar su perfil | datos de perfil: para identificar al usuario y mostrar su perfil | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
->| offline_access | delegado | Esto nos permite guardar un archivo en su ubicación original en nombre del usuario más adelante si es necesario. | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | 51e2b67d-9854-446a-8da1-cdd89ef0b987 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Chat.Send | delegado | Información sobre los cambios realizados en un archivo MindManager que luego se pueden publicar como mensaje | metadatos de archivo, contenido de archivo: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Files.ReadWrite | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | - datos de perfil: para identificar al usuario y mostrar su perfil - contenido de archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en los archivos .mmap de MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| Sites.ReadWrite.All | delegado | lista de sitios, lista de carpetas, metadatos de archivo, contenido de archivos: para el explorador de archivos, el usuario puede examinar sus archivos para abrir un archivo MindManager (.mmap). | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| User.Read | delegado | datos de perfil: para identificar al usuario y mostrar su perfil | datos de perfil: para identificar al usuario y mostrar su perfil | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
+>| offline_access | delegado | Esto nos permite guardar un archivo en su ubicación original en nombre del usuario más adelante si es necesario. | contenido del archivo: durante la sesión de co-edición (edición de colaboración en tiempo real en archivos .mmap de MindManager) | [51e2b67d-9854-446a-8da1-cdd89ef0b987](https://docs.microsoft.com/microsoft-365-app-certification/azure/51e2b67d-9854-446a-8da1-cdd89ef0b987) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -69,7 +69,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Amazon Web Services | Nombre de la organización, Dominio de la organización | La organización necesita una configuración de cuenta dentro de nuestra infraestructura de aplicaciones para usar la aplicación dentro de Teams |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

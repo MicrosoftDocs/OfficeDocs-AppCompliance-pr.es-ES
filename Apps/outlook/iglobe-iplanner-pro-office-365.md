@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para iPlanner Pro Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9c77c1e0a5f70dae4bd296c545cff51fb163f6cb
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 57eac5e73a8f1e292bbddeaa7a029f368ac4ac52
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281622"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526476"
 ---
 # <a name="iplanner-pro-office-365"></a>iPlanner Pro Office 365
 
@@ -52,24 +52,24 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | para crear una cita en el calendario de usuarios en la fecha de vencimiento de las tareas | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Files.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para tener acceso al archivo como datos adjuntos y cargar archivos en una tarea | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Obtener el asunto de correo del correo seleccionado. Permite que la aplicación obtenga información del correo electrónico seleccionado, lo que permite copiar el campo de descripción en la descripción de la tarea y permitir guardar datos adjuntos del correo o del propio correo en la tarea. | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. |  para obtener la tarea del organizador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| User.ReadBasic.All | delegado | No se almacenan datos en bases de datos de aplicaciones. |  Compruebe si hay permiso y para obtener la tarea del organizador y agregar nuevas tareas actualice el cubo y la línea de natación para el usuario específico | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
->| perfil | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | a6f5c2f4-0bc2-48bf-8afe-6c93583a152b |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | para crear una cita en el calendario de usuarios en la fecha de vencimiento de las tareas | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para tener acceso al archivo como datos adjuntos y cargar archivos en una tarea | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Obtener el asunto de correo del correo seleccionado. Permite que la aplicación obtenga información del correo electrónico seleccionado, lo que permite copiar el campo de descripción en la descripción de la tarea y permitir guardar datos adjuntos del correo o del propio correo en la tarea. | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. |  para obtener la tarea del organizador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| User.ReadBasic.All | delegado | No se almacenan datos en bases de datos de aplicaciones. |  Compruebe si hay permiso y para obtener la tarea del organizador y agregar nuevas tareas actualice el cubo y la línea de natación para el usuario específico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
+>| perfil | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de planificador y agregar nuevas tareas, actualice el cubo y la línea de natación para el usuario específico | [a6f5c2f4-0bc2-48bf-8afe-6c93583a152b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a6f5c2f4-0bc2-48bf-8afe-6c93583a152b) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange: EWS. AccessAsUser.All | No |  |  |  |  |
 >| Exchange- Mail.Read.All | No |  |  |  |  |
 >| SharePoint: AllSites.Manage | No |  |  |  |  |

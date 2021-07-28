@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para eTeamer, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 61646392953ecd8ed21de5ba7029f8ec0d11db2f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 149cc78306c01d767de2a646a67d4d2848bf95db
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282680"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525474"
 ---
 # <a name="eteamer"></a>eTeamer
 
@@ -54,9 +54,9 @@ Esta información ha sido proporcionada por &#28145;&#22323;&#20234;&#30331;&#36
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMember.ReadWrite.All | ambos | El identificador de aplicación de inquilino y la contraseña de la aplicación se recopilan para la autorización implícita de OAuth 2.0 para sincronizar la información del usuario | El identificador de inquilino, el identificador de la aplicación de inquilino, la contraseña de la aplicación y la información del usuario se almacenan en la base de datos, que se usa para obtener la información del archivo de canal de los usuarios en Teams y operar en los archivos | 3407e97c-3eed-4eca-add5-2549ed881269 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | ambos | El identificador de aplicación de inquilino y la contraseña de la aplicación se recopilan para la autorización implícita de OAuth 2.0 para sincronizar la información del usuario | El identificador de inquilino, el identificador de la aplicación de inquilino, la contraseña de la aplicación y la información del usuario se almacenan en la base de datos, que se usa para obtener la información del archivo de canal de los usuarios en Teams y operar en los archivos | [3407e97c-3eed-4eca-add5-2549ed881269](https://docs.microsoft.com/microsoft-365-app-certification/azure/3407e97c-3eed-4eca-add5-2549ed881269) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
