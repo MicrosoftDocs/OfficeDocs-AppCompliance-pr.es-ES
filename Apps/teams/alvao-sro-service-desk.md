@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Alvao Service Desk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d5fe88303b18c41be50f5c108cd4c0b4bfb16314
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 4202c82d8b67030e035c32a8b893b76f8b870979
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282073"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527666"
 ---
 # <a name="alvao-service-desk"></a>Alvao Service Desk
 
@@ -55,9 +55,9 @@ Esta información ha sido proporcionada por ALVAO s.r.o. acerca de cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | tokens de autenticación | Permite al usuario iniciar sesión y vincular su Office 365 con su cuenta de Alvao | ef5fa233-c0bb-424e-b9dc-0466d46bade2 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | tokens de autenticación | Permite al usuario iniciar sesión y vincular su Office 365 con su cuenta de Alvao | [ef5fa233-c0bb-424e-b9dc-0466d46bade2](https://docs.microsoft.com/microsoft-365-app-certification/azure/ef5fa233-c0bb-424e-b9dc-0466d46bade2) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

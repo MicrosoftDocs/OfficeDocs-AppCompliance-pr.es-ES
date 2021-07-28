@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para Word y PowerPoint, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0c5ed86f2de8925a87b726db9c2a9946721e06c7
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283334"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527506"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign para Word y PowerPoint
 
@@ -52,13 +52,13 @@ Adobe Inc. ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | delegado | Para rellenar el documento adjunto, los correos electrónicos del remitente y el receptor, y el contenido de los mensajes de correo electrónico a Adobe sign para enviar para la firma. Esto es para ahorrar tiempo al usuario para volver a escribir esos campos en Adobe Sign. Después de firmar un contrato, redactemos automáticamente un nuevo correo electrónico para que el usuario envíe un correo electrónico para informar a sus destinatarios de que la transacción se ha realizado. | Adobe Sign guardará los datos adjuntos como archivos temporales, que tiene un vencimiento de 24 horas. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| People.Read | delegado | Para rellenar automáticamente la dirección de correo electrónico en la experiencia Enviar para la firma, escribiendo algunas letras iniciales, no es necesario que los usuarios &quot; &quot; escriban los correos electrónicos completos. | Adobe Sign solo almacenará el correo electrónico de los destinatarios y displayName en los acuerdos. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| User.Read | delegado | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| offline_access | delegado | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana de envío de firma y lo deja inactivo durante demasiado tiempo, necesitamos actualizar un nuevo token cuando el usuario &quot; &quot; está activo. | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana de envío de firma y lo deja inactivo durante demasiado tiempo, necesitamos actualizar un nuevo token cuando el usuario &quot; &quot; está activo. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| OpenID | delegado | Correo electrónico y UserId. Para iniciar sesión con el usuario para garantizar su consentimiento para el permiso de usar la aplicación Adobe Sign.  | El correo electrónico es el identificador único para los usuarios de Adobe Sign. Almacenamos el identificador de correo electrónico para poder asignar todas las actividades de ese usuario a su registro de Adobe Sign.  | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | delegado | Para rellenar el documento adjunto, los correos electrónicos del remitente y el receptor, y el contenido de los mensajes de correo electrónico a Adobe sign para enviar para la firma. Esto es para ahorrar tiempo al usuario para volver a escribir esos campos en Adobe Sign. Después de firmar un contrato, redactemos automáticamente un nuevo correo electrónico para que el usuario envíe un correo electrónico para informar a sus destinatarios de que la transacción se ha realizado. | Adobe Sign guardará los datos adjuntos como archivos temporales, que tiene un vencimiento de 24 horas. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| People.Read | delegado | Para rellenar automáticamente la dirección de correo electrónico en la experiencia Enviar para la firma, escribiendo algunas letras iniciales, no es necesario que los usuarios &quot; &quot; escriban los correos electrónicos completos. | Adobe Sign solo almacenará el correo electrónico de los destinatarios y displayName en los acuerdos. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| User.Read | delegado | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| offline_access | delegado | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana de envío de firma y lo deja inactivo durante demasiado tiempo, necesitamos actualizar un nuevo token cuando el usuario &quot; &quot; está activo. | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana de envío de firma y lo deja inactivo durante demasiado tiempo, necesitamos actualizar un nuevo token cuando el usuario &quot; &quot; está activo. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| OpenID | delegado | Correo electrónico y UserId. Para iniciar sesión con el usuario para garantizar su consentimiento para el permiso de usar la aplicación Adobe Sign.  | El correo electrónico es el identificador único para los usuarios de Adobe Sign. Almacenamos el identificador de correo electrónico para poder asignar todas las actividades de ese usuario a su registro de Adobe Sign.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

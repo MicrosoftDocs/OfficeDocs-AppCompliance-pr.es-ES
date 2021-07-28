@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smartsheet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c97f12b0e1f423318c98419f11e7569c5285830d
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3b6f823a27352d3623826cf09f97c9a2f560307a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280942"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528306"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -55,21 +55,21 @@ Smartsheet ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| AppCatalog.ReadWrite.All | delegado | Ninguno. | Permite que nuestra aplicación instale aplicaciones en nombre del usuario. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Directory.Read.All | delegado | tenantId para recuperar información que se mostrará en la interfaz de usuario. | Nos permite leer las aplicaciones que usa este inquilino para poder comprobar si necesitamos instalar la aplicación para ellas. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.Read.All | delegado | teamId/groupId para la entrega de mensajes. | Permite que nuestra aplicación lea información básica sobre un grupo (o Teams equipo) así como conversaciones. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| Group.ReadWrite.All | delegado | teamId/groupId para la entrega de mensajes. | Permite que nuestra aplicación inicie nuevas conversaciones en equipos. Este permiso también incluye el ámbito Read.All anterior, pero también lo necesitamos por motivos técnicos. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| User.Read.All | delegado | userId. | Nos permite leer información básica sobre un usuario durante el proceso de autenticación. | c68947ae-a07f-44ce-9a13-7b559251731d |
->| offline_access | delegado | refreshToken. | Permite que nuestra aplicación reciba tokens de actualización y actualice el token de autenticación en nombre del usuario cuando use la aplicación. | c68947ae-a07f-44ce-9a13-7b559251731d |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegado | Ninguno. | Permite que nuestra aplicación instale aplicaciones en nombre del usuario. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Directory.Read.All | delegado | tenantId para recuperar información que se mostrará en la interfaz de usuario. | Nos permite leer las aplicaciones que usa este inquilino para poder comprobar si necesitamos instalar la aplicación para ellas. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Group.Read.All | delegado | teamId/groupId para la entrega de mensajes. | Permite que nuestra aplicación lea información básica sobre un grupo (o Teams equipo) así como conversaciones. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| Group.ReadWrite.All | delegado | teamId/groupId para la entrega de mensajes. | Permite que nuestra aplicación inicie nuevas conversaciones en equipos. Este permiso también incluye el ámbito Read.All anterior, pero también lo necesitamos por motivos técnicos. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| User.Read.All | delegado | userId. | Nos permite leer información básica sobre un usuario durante el proceso de autenticación. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
+>| offline_access | delegado | refreshToken. | Permite que nuestra aplicación reciba tokens de actualización y actualice el token de autenticación en nombre del usuario cuando use la aplicación. | [c68947ae-a07f-44ce-9a13-7b559251731d](https://docs.microsoft.com/microsoft-365-app-certification/azure/c68947ae-a07f-44ce-9a13-7b559251731d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API de Bot Framework | Sí | Usamos la API de Bot Framework para entregar mensajes como la aplicación para la aplicación de teams. Smartsheet almacena información de userId para realizar un seguimiento de con quién está hablando el bot de Smartsheet. |  | Ninguno |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -77,7 +77,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Smartsheet almacena información en un estado cifrado en reposo dentro de nuestro entorno de centro de datos de producción hospedado con Equinix y en AWS S3, donde almacenamos datos adjuntos de clientes en cubos cifrados privados. |  | Usamos la API del marco de bots para entregar mensajes como la aplicación para la aplicación de teams. Smartsheet almacena información de userId para realizar un seguimiento de con quién está hablando el bot de Smartsheet. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -85,7 +85,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Smartsheet lo usa para ayudar a realizar un seguimiento de quién habla el bot. Durante el flujo de autenticación inicial, creamos un registro bot para el usuario en el sistema de notificaciones de Smartsheet. | Para Smartsheet para Teams bot, almacenamos el correo electrónico del usuario y userId desde Teams para ayudar a realizar un seguimiento de con quién está hablando el bot.  Smartsheet almacena tenantIds para ayudar a enumerar grupos de los que el usuario forma parte en el directorio y groupIds para la entrega de mensajes. |  |
 
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Live Chat, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 41df26af03dd56fb89ce316ecaa61d7af3ae7bf5
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: d1e546a5cb1cd375ec3645fd70daa07791f88027
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280932"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528276"
 ---
 # <a name="live-chat"></a>Live Chat
 
@@ -68,7 +68,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Cuando un equipo hace clic en Unirse al chat, usamos el correo electrónico de los miembros para identificar qué perfil de agente aceptó el chat. | El correo electrónico y el nombre del miembro del equipo que aceptaron un chat en directo se almacenan en una base de datos de historial de chat. |  |
 
 

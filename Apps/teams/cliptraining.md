@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ClipTraining, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9eb5383b9bd372e1f46af30b838160bca88e308b
-ms.sourcegitcommit: 5cd33d38cc7376b28458ee47ebc2c2710ce7f113
+ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53339836"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525774"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -55,12 +55,12 @@ ClipTraining ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| offline_access | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| OpenID | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | af089bb5-48be-413d-ad34-53c32799da7d |
->| perfil | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | af089bb5-48be-413d-ad34-53c32799da7d |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| offline_access | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| OpenID | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
+>| perfil | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -68,7 +68,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| servicio de hospedaje que no es de Microsoft, que no Microsoft CRM | Nombre, apellido, dirección de correo electrónico | Obligatorio para el uso empresarial |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Proyectos Zoho, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e447efd8259b94dbc41eed731912a2288600a5f
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: cb0d9ec4caabe3307474e0927adc4a793046a449
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552691"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528346"
 ---
 # <a name="zoho-projects"></a>Zoho Projects
 
@@ -33,7 +33,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Projects |
-| ID | WA104381668 |
+| Id. | WA104381668 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/projects/](https://www.zoho.com/projects/) |
@@ -55,18 +55,18 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado |  | Tener acceso completo a los calendarios de usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read | delegado |  | Lea todos los archivos. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Files.Read.Selected | delegado |  | Lea los archivos que selecciona el usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.Read | delegado |  | Leer tareas de usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite | delegado |  | Crear, leer, actualizar y eliminar proyectos y tareas de usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| Tasks.ReadWrite.Shared | delegado |  | Leer y escribir tareas compartidas y de usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
->| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | 621d9ae7-c14e-4fab-9604-63e1ffc9e721 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado |  | Tener acceso completo a los calendarios de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read | delegado |  | Lea todos los archivos. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Files.Read.Selected | delegado |  | Lea los archivos que selecciona el usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.Read | delegado |  | Leer tareas de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite | delegado |  | Crear, leer, actualizar y eliminar proyectos y tareas de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| Tasks.ReadWrite.Shared | delegado |  | Leer y escribir tareas compartidas y de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
+>| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

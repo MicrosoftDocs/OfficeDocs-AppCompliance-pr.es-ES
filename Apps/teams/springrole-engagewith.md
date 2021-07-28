@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para EngageWith, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bc9d21c1c39cb3a5919024bccd077a1e31469bf2
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53279122"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528256"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -63,7 +63,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe. Nombre del cliente, correo electrónico, IP, información de pago. Usamos estos terceros para proporcionar la mejor experiencia de cliente a nuestros clientes | Nombre, correo electrónico | este complemento no usa API adicionales |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -71,7 +71,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Estos datos se usan para mostrar y almacenar el historial de canje de puntos &amp; de recompensa. También se usa en la funcionalidad principal de la aplicación para dar Kudos y Shoutout a los compañeros | Nombre, correo electrónico, aniversario de cumpleaños y trabajo. | Estos datos se usan para mostrar y almacenar su historial de canje de puntos &amp; de recompensa |
 
 

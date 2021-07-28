@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las entrevistas de Talview, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro de CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a641b49729a43c8b12339f162eeee395183f5859
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 38ab0472b84fc2b53c357bed1ad32ed4e3a6ad11
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282944"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528166"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -55,12 +55,12 @@ Talview Inc ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| email | delegado | Ver la dirección de correo electrónico de los usuarios para asignar cuentas de usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| OpenID | delegado | Iniciar sesión de los usuarios, Para iniciar sesión en la plataforma | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
->| perfil | delegado | Ver el perfil básico de los usuarios | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| email | delegado | Ver la dirección de correo electrónico de los usuarios para asignar cuentas de usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| OpenID | delegado | Iniciar sesión de los usuarios, Para iniciar sesión en la plataforma | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
+>| perfil | delegado | Ver el perfil básico de los usuarios | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

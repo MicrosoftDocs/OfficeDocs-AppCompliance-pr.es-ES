@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Appspace, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7171a8574efe7757d024f4d9dd93056e7c206519
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53459571"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527646"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -33,7 +33,7 @@ Información proporcionada por Appspace, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Appspace |
-| ID | WA200001738 |
+| Id. | WA200001738 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appspace, Inc. |
 | Dirección URL del sitio web de partners | [https://www.appspace.com](https://www.appspace.com) |
@@ -55,10 +55,10 @@ Appspace, Inc. ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Team.ReadBasic.All | delegado | Obtener los equipos a los que pertenece el usuario. | La caché de aplicaciones puede contener los equipos e identificadores a los que tiene acceso la cuenta de usuario/servicio. Estos datos permanecen cifrados durante todo su ciclo de vida. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
->| User.ReadBasic.All | delegado | Lea las propiedades de perfil básicas de otros usuarios de la organización en nombre del usuario que ha iniciado sesión. Entre estas propiedades, se incluye el nombre para mostrar, el nombre y los apellidos, la dirección de correo electrónico, las extensiones abiertas y la foto. También permite a la aplicación leer el perfil completo del usuario que inició la sesión. | El nombre de usuario del usuario que ha iniciado sesión se conserva para permitir a los usuarios identificar qué usuario o cuenta de servicio han vinculado a la plataforma de Appspace. | a9a866c4-e5cf-47f2-932c-db14cb89008f |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Team.ReadBasic.All | delegado | Obtener los equipos a los que pertenece el usuario. | La caché de aplicaciones puede contener los equipos e identificadores a los que tiene acceso la cuenta de usuario/servicio. Estos datos permanecen cifrados durante todo su ciclo de vida. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
+>| User.ReadBasic.All | delegado | Lea las propiedades de perfil básicas de otros usuarios de la organización en nombre del usuario que ha iniciado sesión. Entre estas propiedades, se incluye el nombre para mostrar, el nombre y los apellidos, la dirección de correo electrónico, las extensiones abiertas y la foto. También permite a la aplicación leer el perfil completo del usuario que inició la sesión. | El nombre de usuario del usuario que ha iniciado sesión se conserva para permitir a los usuarios identificar qué usuario o cuenta de servicio han vinculado a la plataforma de Appspace. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

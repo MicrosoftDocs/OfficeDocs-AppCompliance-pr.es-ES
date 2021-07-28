@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Standup Alice, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 033d62db333db7029c82b0e7ec7916af64eaf3e2
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 150d837b130b6ad2e75ddc0f8da82a1b90c2621f
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552361"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525874"
 ---
 # <a name="standup-alice"></a>Standup Alice
 
@@ -33,7 +33,7 @@ Información proporcionada por Bao Le Duc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Standup Alice |
-| ID | WA200000758 |
+| Id. | WA200000758 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Bao Le Duc |
 | Dirección URL del sitio web de partners | [https://www.standupalice.com](https://www.standupalice.com) |
@@ -62,7 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Google Cloud: hospedamos el bot en Google Cloud |  | N/D |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -70,7 +70,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Usamos el nombre para mostrar para mostrar en la aplicación web y los informes de standup para que sea significativo. Podemos comunicarnos con el Teams sobre la prueba gratuita, los pagos. | Nombre para mostrar y dirección de correo electrónico. |  |
 
 

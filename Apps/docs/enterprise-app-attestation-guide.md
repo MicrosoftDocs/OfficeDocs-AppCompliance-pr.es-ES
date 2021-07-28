@@ -6,12 +6,12 @@ description: Más detalles sobre el programa Publisher atestación
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: d91c11b53f1f807fbb4335918586a7748f14bf91
-ms.sourcegitcommit: a475d48e9538faa7ed682c11829c2e45ba675af6
+ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53383733"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526106"
 ---
 # <a name="what-is-publisher-attestation"></a>¿Qué Publisher atestación?
 
@@ -20,7 +20,8 @@ Publisher Atestación es el siguiente nivel del programa Microsoft 365 cumplimie
 > [!IMPORTANT]
 > Microsoft no valida toda la información proporcionada. El desarrollador de aplicaciones es el único responsable de la información que proporcionan en la atestación del editor. 
 
-Publisher La atestación se aplica a WebApps y a todas las aplicaciones que se integran con las siguientes plataformas de Microsoft:
+Publisher La atestación se aplica a las aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners). Las aplicaciones SaaS se encuentran actualmente en una vista previa privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). Atestación también incluye todas las aplicaciones que se integran con los siguientes productos de Microsoft:
+
 - Teams
 - Word
 - Excel
@@ -69,7 +70,7 @@ El desarrollador puede revisar información detallada de los resultados de la ce
 
 **Consulta la [descripción de MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) para ver un ejemplo de una aplicación que ha completado la Publisher atestación.** 
 
-## <a name="learn-more"></a>Obtén más información
+## <a name="learn-more"></a>Más información
 
 * [Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)
 * [Qué es Publisher verificación](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)

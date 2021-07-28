@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Asana, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0f2e4ff08367c5b8694ca9b6f2cfce1a530a64c9
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 14ec3eee9b8ae673565ef91a017019d23d524619
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282053"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525884"
 ---
 # <a name="asana"></a>Asana
 
@@ -62,7 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| El complemento transfiere información básica de correo electrónico (remitente, recepient, asunto, cuerpo) y datos adjuntos a Asana cuando lo solicita el usuario. |  | Correo electrónico: lee el correo electrónico abierto actualmente cuando se muestra en un panel de tareas. - Lee los datos adjuntos de correo electrónico abiertos actualmente para cargarlos en tareas de Asana. - Esto proporciona a los usuarios la capacidad de realizar tareas rápidamente en Asana con información de correos electrónicos. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

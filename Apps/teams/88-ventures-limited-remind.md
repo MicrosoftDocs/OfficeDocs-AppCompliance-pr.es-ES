@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Remind, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56999a3dc9723eab8b56fcdbc434283a7c864534
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282103"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525934"
 ---
 # <a name="remind"></a>Remind
 
@@ -54,9 +54,9 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | delegado | no hay información almacenada en la base de datos | permite al administrador examinar el directorio de usuarios de la organización para los usuarios que han establecido avisos públicos | 88546d4f-9973-4716-98e4-cd181c04bc2d |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | delegado | no hay información almacenada en la base de datos | permite al administrador examinar el directorio de usuarios de la organización para los usuarios que han establecido avisos públicos | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -70,7 +70,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| (1) Cuando un usuario establece un aviso en un mensaje, el bot intenta obtener el nombre de la persona que envió originalmente el mensaje para mostrar esa información en la lista de avisos del usuario (2) Cuando un usuario establece un aviso para otro canal o miembro de chat, el bot intenta obtener la identidad (usuario o bot) y el nombre del usuario mencionado para mostrarla en la lista de avisos del usuario. | (1) Cuando un usuario establece un aviso en un mensaje, el bot intenta obtener el nombre de la persona que envió originalmente el mensaje para mostrar esa información en la lista de avisos del usuario (2) Cuando un usuario establece un aviso para otro canal o miembro de chat, el bot intenta obtener la identidad (usuario o bot) y el nombre del usuario mencionado para mostrarla en la lista de avisos del usuario. |  |
 
 

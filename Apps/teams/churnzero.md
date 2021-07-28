@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ChurnZero, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a0e92bdd9440e20ebf30cece47ee17e675b35656
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852152"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525804"
 ---
 # <a name="churnzero"></a>ChurnZero
 
@@ -33,7 +33,7 @@ Información proporcionada por ChurnZero a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ChurnZero |
-| ID | WA200002581 |
+| Id. | WA200002581 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChurnZero |
 | Dirección URL del sitio web de partners | [https://churnzero.net](https://churnzero.net) |
@@ -54,9 +54,9 @@ ChurnZero ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | c2e66b59-725d-4c56-8a0e-ee2587031d9f |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -70,7 +70,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Permite a nuestro cliente identificar sus contactos por su nombre y enviarles correo electrónico como parte de las operaciones empresariales normales. ChurnZero es un procesador de estos datos, no un recopilador. | Nombre, Apellidos, Dirección de correo electrónico de contactos que nuestro cliente ha proporcionado. | Permite a nuestro cliente identificar sus contactos por su nombre y enviarles correo electrónico como parte de las operaciones empresariales normales. ChurnZero es un procesador de estos datos, no un recopilador. |
 
 

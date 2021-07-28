@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Beekast, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 01d29afbca709690d19f27a5a0c51e7b13a9672d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 3fe1f857d283cf3b582744351590d0d2a0959190
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553371"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527616"
 ---
 # <a name="beekast"></a>Beekast
 
@@ -33,7 +33,7 @@ Información proporcionada por Beekast a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Beekast |
-| ID | WA200001447 |
+| Id. | WA200001447 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Beekast |
 | Dirección URL del sitio web de partners | [https://www.beekast.com](https://www.beekast.com) |
@@ -55,9 +55,9 @@ Beekast ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Correo electrónico, nombre y apellidos: estos datos se usan para colaborar dentro de la aplicación beekast. | Correo electrónico, nombre y apellidos: estos datos se usan para colaborar dentro de la aplicación de beekast y deben almacenarse para usarse dentro y fuera del contexto Teams MS. | 4d0997dc-df53-4b18-9df1-bb283f8a0377 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Correo electrónico, nombre y apellidos: estos datos se usan para colaborar dentro de la aplicación beekast. | Correo electrónico, nombre y apellidos: estos datos se usan para colaborar dentro de la aplicación de beekast y deben almacenarse para usarse dentro y fuera del contexto Teams MS. | [4d0997dc-df53-4b18-9df1-bb283f8a0377](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d0997dc-df53-4b18-9df1-bb283f8a0377) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -65,7 +65,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| No se transfiere OII, solo EUII | No se transfiere OII, solo EUII | No aplicable (no se transfiere OII, solo EUII) |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

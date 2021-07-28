@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Sprints, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fc19b083312c4c8222b894ae6bb35b0bbdd5314e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: cdc296898d2e9f6d18f01d9742ce8d0ca29c807b
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552681"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527516"
 ---
 # <a name="zoho-sprints"></a>Zoho Sprints
 
@@ -33,7 +33,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Sprints |
-| ID | WA200000188 |
+| Id. | WA200000188 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/sprints/](https://www.zoho.com/sprints/) |
@@ -54,16 +54,16 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | El id. de carpeta de alendar se almacena para sincronizar los contactos de Zoho Sprints con Microsoft &amp; viceversa. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Contacts.ReadWrite | delegado | El identificador de carpeta de contactos se almacena para sincronizar los contactos. |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.All | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| Files.Read.Selected | delegado | UserPrincipalName se almacena para la identificación del usuario. | Leer los archivos que el usuario selecciona | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.Read | delegado |  | Iniciar sesión y leer el perfil del usuario | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| User.ReadBasic.All | delegado |  | Permitir a los usuarios importar usuarios de Office365 a Zoho Sprints. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| email | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
->| offline_access | delegado |  | Mantener el acceso a los datos a los que se le ha concedido acceso | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | El id. de carpeta de alendar se almacena para sincronizar los contactos de Zoho Sprints con Microsoft &amp; viceversa. |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.ReadWrite | delegado | El identificador de carpeta de contactos se almacena para sincronizar los contactos. |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.All | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Files.Read.Selected | delegado | UserPrincipalName se almacena para la identificación del usuario. | Leer los archivos que el usuario selecciona | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.Read | delegado |  | Iniciar sesión y leer el perfil del usuario | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| User.ReadBasic.All | delegado |  | Permitir a los usuarios importar usuarios de Office365 a Zoho Sprints. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| email | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| offline_access | delegado |  | Mantener el acceso a los datos a los que se le ha concedido acceso | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

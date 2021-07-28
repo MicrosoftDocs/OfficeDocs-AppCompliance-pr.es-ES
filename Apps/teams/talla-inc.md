@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Talla, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 18fe09766a0ab7becef2d4630fc458e97576d7d1
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 38945ddbcda225652973de5a292c1f56575c3f6e
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553811"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528176"
 ---
 # <a name="talla"></a>Talla
 
@@ -33,7 +33,7 @@ Información proporcionada por Talla Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Talla |
-| ID | WA104381253 |
+| Id. | WA104381253 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Talla Inc. |
 | Dirección URL del sitio web de partners | [https://www.talla.com](https://www.talla.com) |
@@ -69,7 +69,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Talla almacena el identificador de usuario de Microsoft, la dirección de correo electrónico de los usuarios, el nombre y el apellido y el nombre para mostrar. Se usan para indenificar al usuario y comunicarse con el usuario.  | Talla almacena un perfil de usuario que incluye: Id. de usuario de Microsoft, nombre y apellidos, nombre para mostrar y dirección de correo electrónico en su base de datos. |  |
 
 

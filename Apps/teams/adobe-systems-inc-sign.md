@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 59354070b773f5407929b81c14b12666362e7d52
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 98b936fd86d111e9bb6c194318dab50d115b6a28
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282093"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525924"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
@@ -54,20 +54,20 @@ Adobe Systems Inc. ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Mail.ReadWrite | delegado | Para rellenar el documento adjunto, los correos electrónicos del remitente y el receptor, y el contenido de los mensajes de correo electrónico a Adobe sign para enviar para la firma. Esto es para ahorrar tiempo al usuario para volver a escribir esos campos en Adobe Sign. Después de firmar un contrato, redactemos automáticamente un nuevo correo electrónico para que el usuario envíe un correo electrónico para informar a sus destinatarios de que la transacción se ha realizado. | Adobe Sign guardará los datos adjuntos como archivos temporales, que tiene un vencimiento de 24 horas. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| People.Read | delegado | Para rellenar automáticamente la dirección de correo electrónico en la experiencia Enviar para la firma, escribiendo algunas letras iniciales, no es necesario que los usuarios &quot; &quot; escriban los correos electrónicos completos. | Adobe Sign solo almacenará el correo electrónico de los destinatarios y displayName en los acuerdos. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| User.Read | delegado | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| offline_access | delegado | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana enviar para firmar y dejarla inactiva durante demasiado tiempo, necesitamos actualizar un nuevo token para mantener &quot; &quot; al usuario activo | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana enviar para firmar y dejarla inactiva durante demasiado tiempo, necesitamos actualizar un nuevo token para mantener &quot; &quot; al usuario activo. | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
->| OpenID | delegado | Correo electrónico y UserId. Para iniciar sesión con el usuario para garantizar su consentimiento para el permiso de usar la aplicación Adobe Sign.  | El correo electrónico es el identificador único para los usuarios de Adobe Sign. Almacenamos el identificador de correo electrónico para poder asignar todas las actividades de ese usuario a su registro de Adobe Sign.  | 72d5ac5d-a427-408b-907d-72da3f33ddd1 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Mail.ReadWrite | delegado | Para rellenar el documento adjunto, los correos electrónicos del remitente y el receptor, y el contenido de los mensajes de correo electrónico a Adobe sign para enviar para la firma. Esto es para ahorrar tiempo al usuario para volver a escribir esos campos en Adobe Sign. Después de firmar un contrato, redactemos automáticamente un nuevo correo electrónico para que el usuario envíe un correo electrónico para informar a sus destinatarios de que la transacción se ha realizado. | Adobe Sign guardará los datos adjuntos como archivos temporales, que tiene un vencimiento de 24 horas. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| People.Read | delegado | Para rellenar automáticamente la dirección de correo electrónico en la experiencia Enviar para la firma, escribiendo algunas letras iniciales, no es necesario que los usuarios &quot; &quot; escriban los correos electrónicos completos. | Adobe Sign solo almacenará el correo electrónico de los destinatarios y displayName en los acuerdos. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| User.Read | delegado | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | Para leer el perfil de usuario y hacer coincidir su perfil (básicamente, su correo electrónico y userId) con nuestra base de datos para que puedan usar Adobe Sign. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| offline_access | delegado | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana enviar para firmar y dejarla inactiva durante demasiado tiempo, necesitamos actualizar un nuevo token para mantener &quot; &quot; al usuario activo | Para actualizar el token de acceso, cuando el actual ha expirado. Por ejemplo, cuando el usuario está en una ventana enviar para firmar y dejarla inactiva durante demasiado tiempo, necesitamos actualizar un nuevo token para mantener &quot; &quot; al usuario activo. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
+>| OpenID | delegado | Correo electrónico y UserId. Para iniciar sesión con el usuario para garantizar su consentimiento para el permiso de usar la aplicación Adobe Sign.  | El correo electrónico es el identificador único para los usuarios de Adobe Sign. Almacenamos el identificador de correo electrónico para poder asignar todas las actividades de ese usuario a su registro de Adobe Sign.  | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Teams API | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -81,7 +81,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para personalizar los mensajes de chat y la autenticación | UserPrincipalName, name, email y objectId | Almacenamos esta información para personalizar las respuestas asincrónicas y los fines de autenticación |
 
 

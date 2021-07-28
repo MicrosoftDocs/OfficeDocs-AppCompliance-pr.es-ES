@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para la herramienta de informes de iPlanner para Office 365 Planner, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2b9797eb2b4ec271804711473a77f26a9cce4e13
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 3591c67721188d8dc70bf4f2cf0e34bdb9ffc506
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281152"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526056"
 ---
 # <a name="iplanner-reporting-tool-for-office-365-planner"></a>Herramienta de informes de iPlanner para Office 365 Planner
 
@@ -52,19 +52,19 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para crear una entrada de calendario en el calendario&#8217;calendario en la fecha de vencimiento de la tarea. |  |
->| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. |  |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de Outlook To Do, marca los correos electrónicos y actualizándolos. Para crear una nueva tarea de Planner. |  |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para tener acceso al archivo como datos adjuntos y cargar archivos en una tarea. |  |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la lista de planes y actualizar la tarea. |  |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea del organizador y agregar nuevas tareas, actualice el cubo y la línea de natación. |  |
->| Mail.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | User.Read, para obtener la tarea de Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner |  |
->| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para mostrar los correos y enviar correo. |  |
->| Mail.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Obtener el asunto de correo del correo seleccionado. Permite que la aplicación obtenga información del correo electrónico seleccionado, lo que permite copiar el campo de descripción en la descripción de la tarea y permitir guardar datos adjuntos del correo o del propio correo en la tarea. Enviar notificación. |  |
->| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios que han iniciado sesión Outlook To Do y actualizar User.Read, para obtener la tarea del organizador Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner. |  |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Iniciar sesión y leer el perfil del usuario |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para crear una entrada de calendario en el calendario&#8217;calendario en la fecha de vencimiento de la tarea. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea de Outlook To Do, marca los correos electrónicos y actualizándolos. Para crear una nueva tarea de Planner. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para tener acceso al archivo como datos adjuntos y cargar archivos en una tarea. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la lista de planes y actualizar la tarea. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener la tarea del organizador y agregar nuevas tareas, actualice el cubo y la línea de natación. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | User.Read, para obtener la tarea de Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para mostrar los correos y enviar correo. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Mail.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Obtener el asunto de correo del correo seleccionado. Permite que la aplicación obtenga información del correo electrónico seleccionado, lo que permite copiar el campo de descripción en la descripción de la tarea y permitir guardar datos adjuntos del correo o del propio correo en la tarea. Enviar notificación. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios que han iniciado sesión Outlook To Do y actualizar User.Read, para obtener la tarea del organizador Outlook To Do, marcar correos electrónicos y actualizarlos. Para crear una nueva tarea de Planner. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Iniciar sesión y leer el perfil del usuario | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

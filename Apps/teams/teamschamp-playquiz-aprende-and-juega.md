@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para PlayQuiz: Aprende Juega, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 76593cbcaa9d4284fab7b90e887090254d4ca414
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852151"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528146"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
 
@@ -33,7 +33,7 @@ Información proporcionada por TeamsChamp a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | PlayQuiz - Aprende &amp; Juega |
-| ID | WA200002820 |
+| Id. | WA200002820 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | TeamsChamp |
 | Dirección URL del sitio web de partners | [https://www.encamina.com](https://www.encamina.com) |
@@ -55,12 +55,12 @@ TeamsChamp ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| User.Read | delegado | Nombre, correo electrónico e imagen de perfil del usuario | email, for sing into the app and name to display it in the app | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| User.ReadBasic.All | delegado | Nombre, correo electrónico e imagen de perfil | no almacenar los datos, solo leerlos para mostrarlos en el leaderboad (aplicación) | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| OpenID | delegado | ver el perfil básico del usuario | email, for sing in the app and name to display it in the app | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
->| perfil | delegado | Leer el perfil básico del usuario | email, for sing in the app and name to display it in the app | f3277edf-4f66-4e94-853b-cc1f1e2914f8 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| User.Read | delegado | Nombre, correo electrónico e imagen de perfil del usuario | email, for sing into the app and name to display it in the app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| User.ReadBasic.All | delegado | Nombre, correo electrónico e imagen de perfil | no almacenar los datos, solo leerlos para mostrarlos en el leaderboad (aplicación) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| OpenID | delegado | ver el perfil básico del usuario | email, for sing in the app and name to display it in the app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
+>| perfil | delegado | Leer el perfil básico del usuario | email, for sing in the app and name to display it in the app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

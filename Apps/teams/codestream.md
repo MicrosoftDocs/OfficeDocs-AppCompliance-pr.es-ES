@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CodeStream, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9d47c0ffe0f8f23cf09b175fce24a8dcccfa87dd
-ms.sourcegitcommit: 419dd3878fdef5fdf3bc5a36d73a9c6b12eed6f9
+ms.openlocfilehash: 4875193923e2e34cf8e46d85437325128716bd47
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53459562"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525764"
 ---
 # <a name="codestream"></a>CodeStream
 
@@ -33,7 +33,7 @@ Información proporcionada por CodeStream a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CodeStream |
-| ID | WA200001475 |
+| Id. | WA200001475 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | CodeStream |
 | Dirección URL del sitio web de partners | [https://www.codestream.com](https://www.codestream.com) |
@@ -62,7 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| sendgrid.com, segment.io, mixpanel.com, intercom.com, hubspot.com | dirección de correo electrónico | análisis, CRM, compatibilidad con aplicaciones |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -88,7 +88,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->Yes
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

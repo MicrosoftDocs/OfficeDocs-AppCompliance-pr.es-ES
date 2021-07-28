@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el BOT de calendario, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 597a368e36fab6036eb8aed34a1afe197d15d26c
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 9314d7712249dbbd8ad507e8c81eb47ddaa49ca9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282063"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527656"
 ---
 # <a name="calendar-bot"></a>Calendar BOT
 
@@ -54,14 +54,14 @@ Esta información ha sido proporcionada por Contacto aprobado acerca de cómo es
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | Para el BOT de calendario, almacenamos a los usuarios tiempo de disponibilidad para buscar horas libres para varias personas.  | Leemos y comparamos el tiempo de disponibilidad y la programación de reuniones. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| Contacts.Read | delegado | Sí, almacenamos información de contacto. | Importar y sincronizar contactos. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.Read | delegado | Sí | Información básica del perfil. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| User.ReadBasic.All | delegado | No | Se usa para ver los perfiles de los compañeros de trabajo, comparar horarios gratuitos y programar salas de conferencias. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| offline_access | delegado | Sí, tiempos de disponibilidad para usuarios sin conexión. | Llama Graph cuando el usuario no usa activamente nuestro sitio. | adef9811-448f-4dd5-88d9-68734050fe58 |
->| OpenID | delegado | No | Office 365 SSO. | adef9811-448f-4dd5-88d9-68734050fe58 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Para el BOT de calendario, almacenamos a los usuarios tiempo de disponibilidad para buscar horas libres para varias personas.  | Leemos y comparamos el tiempo de disponibilidad y la programación de reuniones. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| Contacts.Read | delegado | Sí, almacenamos información de contacto. | Importar y sincronizar contactos. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.Read | delegado | Sí | Información básica del perfil. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| User.ReadBasic.All | delegado | No | Se usa para ver los perfiles de los compañeros de trabajo, comparar horarios gratuitos y programar salas de conferencias. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| offline_access | delegado | Sí, tiempos de disponibilidad para usuarios sin conexión. | Llama Graph cuando el usuario no usa activamente nuestro sitio. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
+>| OpenID | delegado | No | Office 365 SSO. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -75,7 +75,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Usamos la lista para comparar los tiempos de disponibilidad para que todos los miembros del equipo programen reuniones en un momento de apertura. | Solo almacenamos la dirección de correo electrónico. | Solo almacenamos la dirección de correo electrónico para poder comparar los tiempos de disponibilidad. |
 
 

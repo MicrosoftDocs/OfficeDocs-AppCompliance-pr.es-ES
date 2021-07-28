@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Desk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fd057117b21f9e99476356f1157301c19393a23d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52550650"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528356"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -33,7 +33,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Desk |
-| ID | WA104382044 |
+| Id. | WA104382044 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
@@ -55,15 +55,15 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Files.Read | delegado |  | Leer archivos de usuario. |  |
->| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. |  |
->| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. |  |
->| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. |  |
->| email | delegado |  | Ver la dirección de correo electrónico del usuario. |  |
->| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. |  |
->| perfil | delegado |  | Ver el perfil básico del usuario. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | delegado |  | Leer archivos de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegado |  | Ver la dirección de correo electrónico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| perfil | delegado |  | Ver el perfil básico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

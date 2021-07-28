@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 93b64ae01c745f370af36bd6cb8a73787d39867a
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e88ba3c98c9ab444f2500ed09013071a6b5ab2c3
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281442"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525904"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -54,17 +54,17 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.Read | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| User.ReadBasic.All | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| offline_access | delegado | Almacenamos el token de inicio de sesión para realizar solicitudes en nombre del usuario | Actualice el token sin molestar al usuario. (Matriz de prioridad para Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar archivos SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar reuniones y colaboración general. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| User.Read | delegado | La información básica del perfil de usuario (nombre para mostrar, nombre, apellido, correo electrónico, avatar) la almacenamos nosotros. | Obtén el nombre, el correo electrónico, el avatar del usuario para personalizar su cuenta con nosotros. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| OpenID | delegado | Almacenamos la conexión SSO para indicar el modo de inicio de sesión del usuario. | Para iniciar sesión en los usuarios mediante el inicio de sesión único. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
->| Calendars.Read | delegado | Un pequeño número de eventos de calendario se convierten en tareas almacenadas en nuestro sistema. | Lea los eventos del calendario para que se puedan mostrar en nuestra vista 1:1. También para inicializar cuentas nuevas.  | d76f016f-52c7-41b5-835b-900361d7040c |
->| Mail.Read | delegado | Almacenamos las tareas creadas en nuestro sistema, con un vínculo al mensaje original. | Se usa en Outlook complemento para convertir correos electrónicos en tareas y para mostrar el trabajo compartido en la vista 1:1. | d76f016f-52c7-41b5-835b-900361d7040c |
->| Tasks.Read | delegado | Algunas Outlook/Planner se replican en nuestro sistema para ayudar a los nuevos usuarios. | Iniciamos nuevas cuentas de usuario con sus Graph tareas. | d76f016f-52c7-41b5-835b-900361d7040c |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.Read | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| User.ReadBasic.All | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| offline_access | delegado | Almacenamos el token de inicio de sesión para realizar solicitudes en nombre del usuario | Actualice el token sin molestar al usuario. (Matriz de prioridad para Teams) | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
+>| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar archivos SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar reuniones y colaboración general. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| User.Read | delegado | La información básica del perfil de usuario (nombre para mostrar, nombre, apellido, correo electrónico, avatar) la almacenamos nosotros. | Obtén el nombre, el correo electrónico, el avatar del usuario para personalizar su cuenta con nosotros. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| OpenID | delegado | Almacenamos la conexión SSO para indicar el modo de inicio de sesión del usuario. | Para iniciar sesión en los usuarios mediante el inicio de sesión único. | [affadfb6-f17b-428f-97f9-9aae3b6175bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/affadfb6-f17b-428f-97f9-9aae3b6175bc) |
+>| Calendars.Read | delegado | Un pequeño número de eventos de calendario se convierten en tareas almacenadas en nuestro sistema. | Lea los eventos del calendario para que se puedan mostrar en nuestra vista 1:1. También para inicializar cuentas nuevas.  | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Mail.Read | delegado | Almacenamos las tareas creadas en nuestro sistema, con un vínculo al mensaje original. | Se usa en Outlook complemento para convertir correos electrónicos en tareas y para mostrar el trabajo compartido en la vista 1:1. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
+>| Tasks.Read | delegado | Algunas Outlook/Planner se replican en nuestro sistema para ayudar a los nuevos usuarios. | Iniciamos nuevas cuentas de usuario con sus Graph tareas. | [d76f016f-52c7-41b5-835b-900361d7040c](https://docs.microsoft.com/microsoft-365-app-certification/azure/d76f016f-52c7-41b5-835b-900361d7040c) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -78,7 +78,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| El bot puede crear tareas y asignarlas a un compañero de equipo específico, y para ello necesita saber su nombre. | No |  |
 
 

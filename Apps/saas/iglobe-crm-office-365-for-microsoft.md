@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para iGlobe CRM Office 365 for Microsoft 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dd871a1c4b9e8ef8dd0628ff73a2737e1b94550f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 79ae347ccea2f9ee3dda6f2b506fc02f802b3ca9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282737"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527746"
 ---
 # <a name="iglobe-crm-office-365-for-microsoft-365"></a>IGlobe CRM Office 365 para Microsoft 365
 
@@ -52,28 +52,28 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Contacts.ReadWrite | delegado | Directory.AccessAsUser.All | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos y datos en SharePoint listas. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Svae el eamil a iGlobe CRM y obtener informatiopn de iGlobe a un nuevo e-amil | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Manage.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear, editar y eliminar elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer elementos en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Editar y eliminar elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear tarea de planner desde iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener información sobre el CRM de iGlobe para el usuario de speficic | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | delegado | Directory.AccessAsUser.All | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos y datos en SharePoint listas. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Svae el eamil a iGlobe CRM y obtener informatiopn de iGlobe a un nuevo e-amil | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear, editar y eliminar elementos y listas en iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer elementos en iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Editar y eliminar elementos y listas en iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear tarea de planner desde iGlobe CRM | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener información sobre el CRM de iGlobe para el usuario de speficic | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| Exchange: Calendars.ReadWrite.All | No |  |  |  |  |
 >| Exchange- Mail.Read.All | No |  |  |  |  |
 >| Exchange- Contacts.Read | No |  |  |  |  |

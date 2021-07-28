@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Breakthru, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 916ab5e08cc7ae5266f3010512490bd648cf9afc
-ms.sourcegitcommit: 1b9ad544fd91bb0fb25e467baf2d368a812dc476
+ms.openlocfilehash: 488ff550ab43a398cc004a3224549e6ecdff36b1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "52927245"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527606"
 ---
 # <a name="breakthru"></a>Breakthru
 
@@ -33,7 +33,7 @@ Información proporcionada por Breakthru a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Breakthru |
-| ID | WA200002243 |
+| Id. | WA200002243 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Breakthru |
 | Dirección URL del sitio web de partners | [https://breakthru.me](https://breakthru.me) |
@@ -58,18 +58,18 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios de Microsoft no se usan.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Para mostrar las estadísticas de historial del usuario y entregar avisos establecidos por el usuario. | Correo electrónico y TeamID. | Para entregar avisos establecidos por el usuario. Para proporcionar a los usuarios una visualización de datos de su participación en Breaks. |
 
 

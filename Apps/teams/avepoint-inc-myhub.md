@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para MyHub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a45478d976bc03d682c1236d8f266bc7443973a0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: ffca0a4df366662e86001bb3d685986d877e8cca
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282023"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527636"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -54,16 +54,16 @@ AvePoint, inc. ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer datos del directorio | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Group.ReadWrite.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer y escribir en todos los grupos | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Mail.Send | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Enviar correo como usuario | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Reports.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los informes de uso | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.FullControl.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Tomar el control total de todas las colecciones de sitios | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer los elementos de todas las colecciones de sitios  | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| Sites.ReadWrite.All | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Editar o eliminar elementos de todas las colecciones de sitios | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
->| User.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los usuarios&#8217; perfiles completos | 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer datos del directorio | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer y escribir en todos los grupos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Mail.Send | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Enviar correo como usuario | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los informes de uso | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Tomar el control total de todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer los elementos de todas las colecciones de sitios  | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Editar o eliminar elementos de todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los usuarios&#8217; perfiles completos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

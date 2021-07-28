@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Teams Manager, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: fbca7409c87bed006a18b31d7de2fa43afd9b95f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 0f135c14a96849a21ebf424b152a257df8e5e9e9
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53283194"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528266"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -54,13 +54,13 @@ Solutions2Share GmbH ha proporcionado esta información sobre cómo esta aplicac
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.ReadWrite.All | ambos | Almacenamos tenantID y TeamId para asignar las plantillas.  | Permitir enumerar todos los Teams y también crear Teams. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| Notes.ReadWrite.All | aplicación | Ninguno | Permite que la aplicación agregue blocs de notas a un equipo aprobado. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read | delegado | Ninguno | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.Read.All | ambos | Guardamos el identificador del usuario que se ha escrito en la sección aprobador/administrador. | Enumerar todos los usuarios para mostrarlos en el selector de personas dentro de la aplicación. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
->| User.ReadBasic.All | delegado | Ninguno | Enumerar todos los usuarios para mostrarlos en el selector de personas dentro de la aplicación. | b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.ReadWrite.All | ambos | Almacenamos tenantID y TeamId para asignar las plantillas.  | Permitir enumerar todos los Teams y también crear Teams. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Notes.ReadWrite.All | aplicación | Ninguno | Permite que la aplicación agregue blocs de notas a un equipo aprobado. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read | delegado | Ninguno | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.Read.All | ambos | Guardamos el identificador del usuario que se ha escrito en la sección aprobador/administrador. | Enumerar todos los usuarios para mostrarlos en el selector de personas dentro de la aplicación. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| User.ReadBasic.All | delegado | Ninguno | Enumerar todos los usuarios para mostrarlos en el selector de personas dentro de la aplicación. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TagTeam, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b4e3fcf89e816c115887fa5bd0df38cc95d4ae2f
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: cd1411cff3f80788bc9a5677f595caad620484e1
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280952"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528316"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -55,12 +55,12 @@ Smarter Business Solution GmbH ha proporcionado esta información sobre cómo es
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| ChannelMessage.Read.All | delegado | No recopilamos estos datos: solo se usan para mostrar conversaciones etiquetadas. Nos encantaría cambiarla a la API de búsqueda, Graph la API actualmente no lo admite.  | Ninguno | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.Read | delegado | Mostrar User-Information (por ejemplo, Nombre) en nuestra pestaña | Ninguno | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| User.ReadBasic.All | delegado | Mostrar User-Avatars en nuestra pestaña | Ninguno | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
->| OpenID | delegado | Solo para SignIn: no se almacenan datos | Ninguno | 6d7f01cb-cfa5-48d9-beed-363d381ae32b |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMessage.Read.All | delegado | No recopilamos estos datos: solo se usan para mostrar conversaciones etiquetadas. Nos encantaría cambiarla a la API de búsqueda, Graph la API actualmente no lo admite.  | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.Read | delegado | Mostrar User-Information (por ejemplo, Nombre) en nuestra pestaña | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| User.ReadBasic.All | delegado | Mostrar User-Avatars en nuestra pestaña | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
+>| OpenID | delegado | Solo para SignIn: no se almacenan datos | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

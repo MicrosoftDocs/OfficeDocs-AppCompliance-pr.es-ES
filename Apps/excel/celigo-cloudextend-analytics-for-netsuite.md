@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CloudExtend Analytics para NetSuite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2393250c620e3e543eae1d25e1cf0bcf0dd2f7cc
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987685"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526086"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics para NetSuite
 
@@ -32,7 +32,7 @@ Información proporcionada por Celigo CloudExtend a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CloudExtend Analytics para NetSuite |
-| ID | WA200002784 |
+| Id. | WA200002784 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | Celigo CloudExtend |
 | Dirección URL del sitio web de partners | [https://www.cloudextend.io](https://www.cloudextend.io) |
@@ -53,18 +53,18 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.Read.All | ambos | Leer la colección de sitios para los que el usuario tiene acceso para poder obtener información del libro compartido a través de sitios | almacenar siteid para tener acceso al libro sin conexión. | 7040f194-bf08-400e-acb1-69df7939416a |
->| Files.ReadWrite.All | ambos | Leer el contenido del libro como tablas y hojas y poder escribir contenido en dichas tablas | detalles del libro como la dirección URL web, el identificador del libro y la ubicación del libro para acceder a él sin conexión | 7040f194-bf08-400e-acb1-69df7939416a |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Directory.Read.All | ambos | Leer la colección de sitios para los que el usuario tiene acceso para poder obtener información del libro compartido a través de sitios | almacenar siteid para tener acceso al libro sin conexión. | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
+>| Files.ReadWrite.All | ambos | Leer el contenido del libro como tablas y hojas y poder escribir contenido en dichas tablas | detalles del libro como la dirección URL web, el identificador del libro y la ubicación del libro para acceder a él sin conexión | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Se transfieren servicios de Microsoft OII que no son de servicios de Microsoft** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Chargebee, NetSuite, Salesforce, Intercom, LogRocket, Amazon AWS | Nombre de la organización, número de cuenta de NetSuite, direcciones de correo electrónico del dominio de la organización, información de contacto de facturación | Aprovisionamiento de licencias, validación y facturación Soporte técnico del cliente, solución de problemas y administración de cuentas |
 
 

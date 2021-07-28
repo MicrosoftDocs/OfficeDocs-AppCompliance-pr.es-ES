@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Sign, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 356c8755ee40269ef4efe844d22ebbc20e53937d
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: f164b4afadb0d85971cdaa40ab1bb43828ecb290
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552721"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528336"
 ---
 # <a name="zoho-sign"></a>Zoho Sign
 
@@ -33,7 +33,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Sign |
-| ID | WA104382011 |
+| Id. | WA104382011 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://zoho.com](https://zoho.com) |
@@ -55,17 +55,17 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Contacts.ReadWrite | delegado |  | Tener acceso completo a los contactos de usuario. |  |
->| Contacts.ReadWrite.Shared | delegado |  | Leer y escribir contactos compartidos y de usuario. |  |
->| Files.ReadWrite | delegado |  | Tener acceso completo a los archivos de usuario. |  |
->| Files.ReadWrite.All | delegado |  | Tener acceso total a todos los archivos a los que puede acceder el usuario. |  |
->| Files.ReadWrite.Selected | delegado |  | Leer y escribir archivos que el usuario selecciona. |  |
->| User.ReadBasic.All | delegado |  | Lea todos los perfiles básicos del usuario. |  |
->| email | delegado |  | Ver la dirección de correo electrónico del usuario. |  |
->| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. |  |
->| perfil | delegado |  | Ver el perfil básico del usuario. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Contacts.ReadWrite | delegado |  | Tener acceso completo a los contactos de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Contacts.ReadWrite.Shared | delegado |  | Leer y escribir contactos compartidos y de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite | delegado |  | Tener acceso completo a los archivos de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.All | delegado |  | Tener acceso total a todos los archivos a los que puede acceder el usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.ReadWrite.Selected | delegado |  | Leer y escribir archivos que el usuario selecciona. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.ReadBasic.All | delegado |  | Lea todos los perfiles básicos del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| email | delegado |  | Ver la dirección de correo electrónico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| perfil | delegado |  | Ver el perfil básico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

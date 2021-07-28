@@ -6,12 +6,12 @@ description: Más información sobre el programa Publisher Attestation
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1d3652bb2f0eab3f1f533ce4acf3d13104843eea
-ms.sourcegitcommit: 98b9f17063c7ada0890b37af405990ad5eedd0b9
+ms.openlocfilehash: 285fb4c74f2f5bdda3defee92dafa22f07d94314
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53466030"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53526116"
 ---
 # <a name="complete-publisher-attestation"></a>Certificación Publisher completa
 
@@ -20,7 +20,7 @@ Publisher Attestation es un programa voluntarios donde se completa una autoevalu
 > [!IMPORTANT]
 > Microsoft no valida la información proporcionada. El desarrollador es el único responsable de la información que proporcionan en la autoevaluación. 
 
-**Publisher La atestación se aplica a las aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners) y a todas las aplicaciones que se integran con los siguientes productos de Microsoft:**
+Publisher La atestación se aplica a las aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners). Las aplicaciones SaaS se encuentran actualmente en una vista previa privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). Atestación también incluye todas las aplicaciones que se integran con los siguientes productos de Microsoft:
 - Teams
 - Word
 - Excel

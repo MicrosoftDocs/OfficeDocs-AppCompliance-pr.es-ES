@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Soapbox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 6e2b43df38aac6307c36c4a2cc8d00fe1c3fb629
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 89151d495479f3390aa179f810325ab56f77337a
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552781"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528286"
 ---
 # <a name="soapbox"></a>Soapbox
 
@@ -33,7 +33,7 @@ Información proporcionada por Soapbox a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Soapbox |
-| ID | WA104381501 |
+| Id. | WA104381501 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Soapbox |
 | Dirección URL del sitio web de partners | [https://soapboxhq.com](https://soapboxhq.com) |
@@ -55,11 +55,11 @@ Soapbox ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | Token de sincronización. | Se necesita acceso al calendario para sincronizar reuniones soapbox con eventos de calendario |  |
->| User.Read | delegado | Nombre, correo electrónico, id. de usuario de Microsoft. | El nombre y el correo electrónico se usan para crear usuarios soapbox. |  |
->| offline_access | delegado |  | El acceso sin conexión a los calendarios es necesario para que el tiempo de notificaciones soapBox sea relevante para los eventos de calendario sincronizados. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Token de sincronización. | Se necesita acceso al calendario para sincronizar reuniones soapbox con eventos de calendario | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| User.Read | delegado | Nombre, correo electrónico, id. de usuario de Microsoft. | El nombre y el correo electrónico se usan para crear usuarios soapbox. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| offline_access | delegado |  | El acceso sin conexión a los calendarios es necesario para que el tiempo de notificaciones soapBox sea relevante para los eventos de calendario sincronizados. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -73,7 +73,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| La aplicación accede a la lista de equipos y a la lista de chat que usamos para crear canales de equipo en SoapBox con miembros del equipo/chat | Nombre, correo electrónico, id. de usuario de Microsoft de los usuarios para mejorar el aspecto de la aplicación para los usuarios de Microsoft Teams y garantizar que cada usuario pueda participar completamente en el software de reunión. |  |
 
 

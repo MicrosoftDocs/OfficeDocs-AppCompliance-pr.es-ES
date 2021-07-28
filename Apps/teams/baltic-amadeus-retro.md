@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Retro, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 49b17e202fb358284b9a36ed33646926d649afe3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.openlocfilehash: 2ccca5bd5160eb1772245841df037d2033f58881
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553461"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527626"
 ---
 # <a name="retro"></a>Retro
 
@@ -33,7 +33,7 @@ Información proporcionada por Baltic Amadeus a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Retro |
-| ID | WA200001892 |
+| Id. | WA200001892 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Baltic Amadeus |
 | Dirección URL del sitio web de partners | [https://www.ba.lt/en/](https://www.ba.lt/en/) |
@@ -62,7 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| La aplicación retro tiene su propia API web que no se considera un servicio de Microsoft. Como se mencionó anteriormente, almacena correo electrónico y Fullname para la identificación y los fines de presentación de contenido adecuados. Estos datos no se envían a ningún otro lugar. Además, Retro tiene una funcionalidad opcional para exportar datos de sprint al espacio de confluencia atlassiana. Para ello, el usuario debe escribir su nombre de usuario y contraseña de confluencia. Estos datos solo se usan para realizar solicitudes autenticadas a la api de confluencia en nombre del usuario y no se almacenan ni registran en ningún lugar. |  | Retro tiene su propia API web que también está registrada en azure. Para usarlo, el usuario debe autenticarse a través de Microsoft Identity Platform. El usuario debe autenticarse para que la aplicación Retro pueda servidor de contenido específico del usuario |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -70,7 +70,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Bot tiene acceso a la lista para comprobar qué miembro se unió o abandonó el equipo. En función de esto, agrega o desactiva ese usuario del proyecto para que el usuario ya no se muestre en la lista de participantes de sprint. | El correo electrónico y FullName se vinculan y se almacenan en la base de datos. El correo electrónico se usa para la identificación del usuario con el fin de mostrar el contenido adecuado para el usuario que ha iniciado sesión. FullName se usa para mostrar las puproses, de modo que otros usuarios puedan saber para quién evalúan o escriben comentarios.  |  |
 
 

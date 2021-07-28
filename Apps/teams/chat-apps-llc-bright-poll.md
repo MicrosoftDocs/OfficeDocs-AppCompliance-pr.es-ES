@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Bright Poll, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4dc8177da248fffd18ab6a4667cb6f94ea8db07c
-ms.sourcegitcommit: bb013192ff1a6db66c2ffe05cc83afc1d4140e76
+ms.openlocfilehash: af6e29845108dee6504e87864c80b5ef5a11aa16
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52852148"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53525834"
 ---
-# <a name="bright-poll"></a>Sondeo brillante
+# <a name="bright-poll"></a>Sondeo claro
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Chat Apps, LLC a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Sondeo brillante |
-| ID | WA200002562 |
+| Nombre de la aplicación | Sondeo claro |
+| Id. | WA200002562 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Aplicaciones de chat, LLC |
+| Nombre de la compañía asociada | Chat Apps, LLC |
 | Dirección URL del sitio web de partners | [https://brightpoll.app](https://brightpoll.app) |
 | Dirección URL de la directiva de privacidad | [https://www.brightpoll.app/privacy](https://www.brightpoll.app/privacy) |
 | DIRECCIÓN URL de términos de uso | [https://brightpoll.app/terms/](https://brightpoll.app/terms/) |
@@ -68,7 +68,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Es necesario almacenar los nombres de los usuarios, los identificadores únicos y las direcciones de correo electrónico para proporcionar y admitir la funcionalidad de sondeo. | Identificadores únicos de equipo y usuario, nombres y direcciones de correo electrónico. | Los identificadores, nombres y direcciones de correo electrónico únicos son necesarios para la funcionalidad de la aplicación y para admitir la aplicación. |
 
 

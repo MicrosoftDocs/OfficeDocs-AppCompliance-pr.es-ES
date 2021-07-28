@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lucidchart, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 65a82c3e895af38dc719411c7729825acae2f9be
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 2f074d098f4a1819a7c5b2236e5e1a6e957f884c
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281773"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53527586"
 ---
 # <a name="lucidchart"></a>Lucidchart
 
@@ -55,18 +55,18 @@ Esta información ha sido proporcionada por Software lúcido sobre cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| email | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. |  |
->| OpenID | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. |  |
->| perfil | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. |  |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| email | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| OpenID | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| perfil | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 
 Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
+>|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
 >| API de JavaScript para Office | Sí | Usamos el SDK Office OneDrive javascript para abrir el OneDrive de archivos con OneDrive.open(). No generamos tokens de acceso y no hacemos ninguna solicitud a las API de OneDrive las api; el ONEDRIVE de elección de archivos hace eso por nosotros. Solo vemos los nombres de archivo que elige el usuario. |  | Si el usuario selecciona un archivo mediante el OneDrive de archivos, almacenamos el nombre de archivo. |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -74,7 +74,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Los datos de Lucidchart se almacenan en AWS. |  | No usamos ninguna API de Microsoft. Usamos openID para obtener datos de usuario básicos para realizar SSO. Usamos su API de selector de archivos, pero eso no nos da acceso a los archivos del usuario que no son los que nos envían a través del selector. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Trivia, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6facd1d8622d78a616329030cef6ffa83bf3bec3
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
+ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53280902"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "53528366"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -55,13 +55,13 @@ Springworks HR Tech ha proporcionado esta información sobre cómo esta aplicaci
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
->|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Group.Read.All | delegado | No | Para obtener la lista de Teams de la que el usuario forma parte | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| Team.ReadBasic.All | delegado | Sí, almacenar la lista de equipos en los que se ha agregado el bot | Para recopilar información básica sobre todos los equipos presentes en un área de trabajo | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| User.Read.All | delegado | Sí, para almacenar un aadObjectId único de un usuario. También varios detalles del usuario como nombre de usuario, correo electrónico, etc. y mostrarlo en el panel de preguntas y respuestas | Para obtener los detalles de todos los usuarios presentes en un área de trabajo | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| OpenID | delegado | Sí, para almacenar los usuarios que inician sesión en la aplicación. |  Para permitir que el usuario use la aplicación con su cuenta y la aplicación para usar los datos del usuario | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
->| perfil | delegado | Sí, para almacenar los id. de usuario y los nombres de los hosts de cuestionarios y otras características, e identificarlos de forma única | Para leer la información básica del perfil del usuario, como nombre de usuario, correo electrónico | 43bc466a-7678-476f-b904-2d933c5bbfc3 |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Group.Read.All | delegado | No | Para obtener la lista de Teams de la que el usuario forma parte | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| Team.ReadBasic.All | delegado | Sí, almacenar la lista de equipos en los que se ha agregado el bot | Para recopilar información básica sobre todos los equipos presentes en un área de trabajo | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| User.Read.All | delegado | Sí, para almacenar un aadObjectId único de un usuario. También varios detalles del usuario como nombre de usuario, correo electrónico, etc. y mostrarlo en el panel de preguntas y respuestas | Para obtener los detalles de todos los usuarios presentes en un área de trabajo | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| OpenID | delegado | Sí, para almacenar los usuarios que inician sesión en la aplicación. |  Para permitir que el usuario use la aplicación con su cuenta y la aplicación para usar los datos del usuario | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
+>| perfil | delegado | Sí, para almacenar los id. de usuario y los nombres de los hosts de cuestionarios y otras características, e identificarlos de forma única | Para leer la información básica del perfil del usuario, como nombre de usuario, correo electrónico | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -69,7 +69,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-------------------|:--------------------------|:--------------------------|
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| AWS, Mailchimp, Stripe.  | Nombre del cliente, correo electrónico, IP, información de pago | Usamos estos terceros para proporcionar la mejor experiencia de cliente a nuestros clientes |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
@@ -77,7 +77,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:--------------------------------|:---------------------|:--------------------------|
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
 >| Estos datos se usan para mostrar y almacenar la lista de participantes en un cuestionario y otras características de este tipo | Nombre, correo electrónico | Sí, almacenar los datos del host y los participantes de cuestionarios y otras características para análisis y comunicación con el host en caso de errores |
 
 
