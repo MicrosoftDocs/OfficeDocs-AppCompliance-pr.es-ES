@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 15dfabb965ea816f5cd6af091c45418b64b04174
-ms.sourcegitcommit: c545fba57f8ca821caf6ef55f5b4b068b5f35984
+ms.openlocfilehash: 1c270d05dad7fe1cd00b141ed20436ff61792131
+ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2021
-ms.locfileid: "53578246"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53609820"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -20,6 +20,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [365-QA](./advantive-365-qa.md) | Advantive | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc. | **✓** |  |
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
@@ -37,6 +38,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [AttendanceBot](./anaek-attendancebot.md) | Anaek | **✓** |  |
 | [AVA](./avepoint-inc-ava.md) | AvePoint, Inc. | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
+| [Beagle](./decision-point-beagle.md) | Decision Point | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
 | [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
@@ -47,6 +49,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Sondeo claro](./chat-apps-llc-bright-poll.md) | Chat Apps, LLC | **✓** |  |
 | [Brightidea](./brightidea.md) | Brightidea | **✓** |  |
 | [Difusión](./cerkl-broadcast.md) | Cerkl | **✓** |  |
+| [Brochesia](./brochesia.md) | Brochesia | **✓** |  |
 | [Tablón de anuncios- NextSet](./nextsetinc-bulletin-board-nextset.md) | NextSet, Inc. | **✓** |  |
 | [C.AI Adoption Bot](./contexxtai-cai-adoption-bot.md) | contexxt.ai | **✓** |  |
 | [Calendar BOT](./approved-contact-calendar-bot.md) | Contacto aprobado | **✓** |  |
@@ -61,10 +64,13 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Cloverpop](./cloverpop.md) | Cloverpop | **✓** |  |
 | [COCO](./hexaware-technologies-ltd-coco.md) | Hexaware Technologies Ltd. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [CodeStream](./codestream.md) | CodeStream | **✓** |  |
+| [CoffeePals](./carnduff-co-coffeepals.md) | Carnduff Co | **✓** |  |
+| [Collection Pot](./gifted-to-you-limited-collection-pot.md) | Gifted to You Limited | **✓** |  |
 | [Complish](./cauzey-pty-ltd-complish.md) | Cauzey Pty Ltd | **✓** |  |
 | [Conferences i/o](./conferences-io.md) | Conferences i/o | **✓** |  |
 | [Conéctese+](./reward-gateway-connectplus.md) | Reward Gateway | **✓** |  |
 | [Contact Center](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
+| [Cuckoo Workout](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
 | [Área de trabajo de Datto](./datto-inc-workplace.md) | Datto, Inc. | **✓** |  |
 | [DBit](./diamondsoft-solutions-llc-dbit.md) | Diamondsoft Solutions, DIAMOND | **✓** |  |
 | [DisasterTech DICE](./disastertech-dice.md) | DisasterTech | **✓** |  |
@@ -76,13 +82,16 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  |
+| [Administración de formación de empleados](./sharepointsapiens-employee-training-management.md) | SharePoint|Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
 | [eTeamer](./missing-eteamer.md) | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
+| [Administración de eventos](./sharepointsapiens-event-management.md) | SharePoint|Sapiens | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  |
 | [Fellow](./fellow-insights-inc.md) | Fellow Insights Inc | **✓** |  |
+| [ForceManager CRM](./tritium-software-sl-forcemanager-crm.md) | Tritium Software SL | **✓** |  |
 | [FormMachines](./enterprise-digital-machines-formmachines.md) | Enterprise Digital Machines | **✓** |  |
 | [Freehand](./invisionapp-inc-freehand.md) | InVisionApp Inc. | **✓** |  |
 | [Freshdesk](./freshworks-inc-freshdesk.md) | Freshworks INC | **✓** |  |
@@ -136,6 +145,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [MyWorkDrive](./myworkdrive.md) | MyWorkDrive | **✓** |  |
 | [Navo](./regroove-solutions-navo.md) | Regroove Solutions | **✓** |  |
 | [netDocShare](./kl-software-technologies-netdocshare.md) | KL Software Technologies | **✓** |  |
+| [NewCOS](./newtech-newcos.md) | Newtech | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Now Virtual Agent](./servicenow-now-virtual-agent.md) | ServiceNow | **✓** |  |
 | [Nugget](./panviva-nugget.md) | Panviva | **✓** |  |
@@ -151,6 +161,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Planyway Team Calendar](./rubius-planyway-team-calendar.md) | Rubius | **✓** |  |
 | [PlayQuiz - Aprende &amp; Juega](./teamschamp-playquiz-aprende-and-juega.md) | TeamsChamp | **✓** |  |
 | [Polly](./polly.md) | Polly | **✓** |  |
+| [Colaboración de Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -161,11 +172,13 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Qubie](./tivian-qubie.md) | Tivian | **✓** |  |
 | [Quicklinks](./chitchattr-quicklinks.md) | ChitChattr | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
+| [Real Time Translator](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |
 | [RememberThis](./tom-morgan-rememberthis.md) | Tom Morgan | **✓** |  |
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
 | [RingCentral](./ringcentral-inc.md) | RingCentral, Inc. | **✓** |  |
+| [RowShare](./rowshare.md) | RowShare | **✓** |  |
 | [RSpace](./researchspace-rspace.md) | ResearchSpace | **✓** |  |
 | [Saberr](./saberr.md) | Saberr | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
@@ -178,6 +191,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Sentry](./sentry.md) | Sentry | **✓** |  |
 | [ServiceDesk Plus Cloud](./zoho-corporation-private-limited-servicedesk-plus-cloud.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Sheetgo](./sheetgo-europe-sl.md) | SHEETGO EUROPE SL | **✓** |  |
+| [SHL](./shl.md) | SHL | **✓** |  |
 | [Shortlinks](./chitchattr-shortlinks.md) | ChitChattr | **✓** |  |
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  |
@@ -196,11 +210,13 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Social Advocacy](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
 | [Spinify](./spinify.md) | Spinify | **✓** |  |
 | [Stack Overflow para Teams](./stack-overflow-for-teams.md) | Stack Overflow | **✓** |  |
+| [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
 | [Studi.ly](./inlogic-office-store-studily.md) | inLogic-Office Store | **✓** |  |
+| [SuitePro-G](./iqar-suitepro-g.md) | IQar | **✓** |  |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  |
 | [SurveySparrow](./admin@surveysparrowcom-surveysparrow.md) | admin@surveysparrow.com | **✓** |  |
 | [Sympli](./sympli-llc.md) | Sympli, LLC | **✓** |  |
@@ -232,6 +248,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [VisualSP](./visualsp.md) | VisualSP | **✓** |  |
 | [Webex Call](./cisco-webex-call.md) | Cisco | **✓** |  |
 | [Wide Ideas](./wide-ideas.md) | Wide Ideas | **✓** |  |
+| [Wisembly](./wisembly.md) | Wisembly | **✓** |  |
 | [Woobot](./woobot.md) | Woobot | **✓** |  |
 | [Workboard](./workboard.md) | Workboard | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Workday](./workday.md) | Workday | **✓** |  |
