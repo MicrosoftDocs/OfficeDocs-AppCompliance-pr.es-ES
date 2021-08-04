@@ -9,7 +9,7 @@ ms.service: attestation
 localization_priority: Priority
 ms.openlocfilehash: c644414281f46696ff49f3b9eb1341f02e96f0ba
 ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/07/2021
 ms.locfileid: "53315120"
