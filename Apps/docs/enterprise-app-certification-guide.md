@@ -6,37 +6,34 @@ description: Microsoft 365 Detalles de certificación
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 95fcd8707e7c485fb113d10ce9bb2e6091c6e4a2d2a3864082d1e493db9d3076
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 83c116ee6afa1a733ddf670593dd316d393057fcac22a21d86834def95153e5b
+ms.sourcegitcommit: 71ad2604020f0ad594fd3a01da305b8aa16f713b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801926"
+ms.lasthandoff: 08/10/2021
+ms.locfileid: "57822836"
 ---
 # <a name="what-is-microsoft-365-certification"></a>¿Qué es Microsoft 365 certificación?
 
-Microsoft 365 La certificación ofrece garantías de que los datos y la privacidad están protegidos y protegidos adecuadamente cuando se usa una aplicación de terceros. La certificación confirma que una aplicación cumple los criterios descritos en Microsoft 365 guía de [envío de certificación](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide). Las aplicaciones que pasen la validación se designarán Microsoft 365 certificado.
-La certificación de aplicaciones se logra a través de la revisión y aprobación de un analista cualificado de una evaluación completa centrada en los marcos de seguridad y cumplimiento de una aplicación, procesos y procedimientos. Aunque la participación es opcional, recibir una certificación es una forma constante de indicar que la aplicación y los procedimientos operativos han sido sometidos a una revisión de seguridad intensiva.
+La certificación Microsoft 365 es una certificación diseñada para mostrar a los clientes que una aplicación se ha visto en marcos estándar del sector y que existen prácticas de seguridad y cumplimiento sólidas para proteger los datos de los clientes. 
 
-Microsoft 365 La certificación se aplica a aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners). Las aplicaciones SaaS se encuentran actualmente en una vista previa privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). La certificación también incluye todas las aplicaciones que se integran con los siguientes productos de Microsoft:
+[![Introducción a la certificación](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/0e9bfa465404c79a0ad177f19dc0926917d4c3dc/Apps/media/videothumbnailcert.png)](https://youtu.be/Aff_35f10B8 "Introducción a la certificación")
 
+
+
+## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Ámbito de certificación
+
+Microsoft 365 La certificación se aplica a todas las aplicaciones que se integran con los siguientes productos de Microsoft:
 - Teams
 - Word
 - Excel
-- PowerPoint 
+- PowerPoint
 - Outlook
 - SharePoint
 - Project
 - OneNote
+- **Webapps** (las aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners se encuentran actualmente en una versión preliminar privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu)).)
 
-## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Ámbito de certificación
-
-Las aplicaciones que se han certificado se han evaluado en los tres dominios siguientes:
-1.  **Application Security**
-1.  **Seguridad operativa /Implementación segura**
-1.  **Seguridad y privacidad de tratamiento de datos**
-
-Para obtener detalles completos sobre el riguroso proceso, los ISV deben pasar a ser certificados. Consulte [Microsoft 365 guía de envío de certificación](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide).
 
 ## <a name="program-benefits"></a>Beneficios del programa
 La participación y la finalización de Microsoft 365 certificación pueden proporcionar enormes ventajas para los administradores y desarrolladores de TI:
@@ -44,15 +41,26 @@ La participación y la finalización de Microsoft 365 certificación pueden prop
 **Ventajas para desarrolladores de aplicaciones** Entre las ventajas para el desarrollador de aplicaciones se incluyen: 
 -   Una evaluación y comprobación gratuitas de su posición de seguridad y cumplimiento
 -   Un distintivo impreso en la descripción de aplicaciones en AppSource, Microsoft Docs y portales de administración
--   Mayor confianza en la aplicación por parte de los administradores de TI
+-   Tiempo reducido dedicado a aliviar los problemas de seguridad de los clientes 
 -   La oportunidad de contribuir a un ecosistema de confianza de aplicaciones comerciales verificadas
--   Uso de materiales de marketing para promover tu estado como una Microsoft 365 aplicación certificada
+- Uso de materiales de marketing para promover tu estado como una Microsoft 365 aplicación certificada
 
 **Ventajas del administrador de TI** Las ventajas para el administrador de TI incluyen:
 -   Mayor confianza en la seguridad de los datos
--   Tiempo y recursos reducidos dedicados a investigar la seguridad de la aplicación y el cumplimiento de una aplicación
+-   Tiempo y recursos reducidos dedicados a investigar la seguridad y el cumplimiento de una aplicación 
 
-## <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Uso del distintivo Microsoft 365 y los materiales de marketing asociados
+## <a name="certification-requirements"></a>Requisitos de certificación
+La certificación de aplicaciones se logra a través de la revisión y aprobación de un analista cualificado de una evaluación completa centrada en los marcos de seguridad y cumplimiento de una aplicación, procesos y procedimientos. 
+
+Las aplicaciones que se han certificado se han evaluado en los tres dominios siguientes:
+1.  [**Application Security**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security)
+1.  [**Seguridad operativa /Implementación segura**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security)
+1.  [**Seguridad y privacidad de tratamiento de datos**]( https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy)
+
+Aunque la participación es opcional, cuando una aplicación obtiene la certificación, indica que se ha sometido a una revisión de seguridad intensiva y que puede confiar en los datos. Para obtener detalles completos sobre el riguroso proceso, los ISV deben pasar a ser certificados. Consulte [Microsoft 365 guía de envío de certificación](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide).
+
+
+### <a name="using-the-microsoft-365-badge-and-associated-marketing-materials"></a>Uso del distintivo Microsoft 365 y los materiales de marketing asociados
 El logotipo Microsoft 365 certificación de datos muestra que se ha revisado una aplicación en busca de conformidad con los controles establecidos por Microsoft que evalúan minuciosamente las prácticas de privacidad y seguridad de datos. Puede usar el logotipo Microsoft 365 certificación con el consentimiento escrito de Microsoft al finalizar la Microsoft 365 certificación. Si se revoca la certificación o el proceso de recertificación no se inicia en un año desde el día en que se concedía la certificación, debe interrumpir el uso de todos los materiales de marketing relacionados con la certificación Microsoft 365 de certificación. 
 
 Este logotipo se puede usar en sitios web, comunicados de prensa y otros foros en los que se refiere específicamente a la aplicación que ha completado el proceso de certificación Microsoft 365 de certificación. El logotipo debe presentarse en un tamaño y una ubicación razonables dentro del contenido digital. 
