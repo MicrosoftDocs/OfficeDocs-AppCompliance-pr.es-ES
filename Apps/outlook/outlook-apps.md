@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/04/2021
+ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: e879e07aaa97ad787fb4054863829db6b675de82
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.openlocfilehash: 4d3b5dcf8a1cc2a14b58b97534cf87095a5283895fb7f3cf0cd58a6693571a23
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772107"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750680"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
 
