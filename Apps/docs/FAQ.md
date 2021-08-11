@@ -1,55 +1,55 @@
 ---
-title: Preguntas más frecuentes sobre la atestación de editores
+title: Publisher Preguntas más frecuentes sobre atestación
 author: LGerrard
 ms.author: Legerrar
-description: Preguntas más frecuentes sobre la atestación de editores
+description: Publisher Preguntas más frecuentes sobre atestación
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1606195453c232f06fe58a6518e289c13907ed15
-ms.sourcegitcommit: e97156a6eaf1d5ec5c26fd14add210a92bacd944
+ms.openlocfilehash: 44898296bede4b34837ee18726164a636cc05824aa1710f273a4cc822b448953
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52071509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54747700"
 ---
-# <a name="publisher-attestation-faq"></a>Preguntas más frecuentes sobre la atestación de editores
+# <a name="publisher-attestation-faq"></a>Publisher Preguntas más frecuentes sobre atestación
 
-|Question                                       |Definición expandida                          |
+|Pregunta                                       |Definición expandida                          |
 |----------------------------------------       |---------------------------------------------|
 |Id. de origen de la aplicación | Es el número o caracteres entre el / y el ? al hacer clic en la descripción de AppSource. Con un guid, una variedad de números/letras o empezará por WA. Para buscar el tuyo, vaya a appsource.com la aplicación y en la dirección URL se encuentran los caracteres entre / y ?                                                Por ejemplo:https://appsource.microsoft.com/product/office/WA200001454? |
 |¿Cuál es la dirección URL del sitio web de la empresa?   |La dirección URL de una página principal de la empresa o aplicación|
 |¿Cuál es la dirección URL de la página de información de la aplicación? |Dirección URL de una página que ofrece más información sobre la aplicación. ¿Dónde puede el usuario obtener más información sobre la aplicación? Si no tiene esta página, marque N/A. |
 |¿Categoría de aplicación? |Clasificación de la aplicación según el campo al que se relaciona |
-|¿Cómo describiría los servicios principales de las aplicaciones en 500 charaters o menos?|Describe la aplicación con 500 caracteres o menos, incluidos todos los integraciones de la familia de aplicaciones. Ex. Si tiene una integración de Teams y Outlook, no dé una descripción específica acerca de la aplicación teams, sino que dé una descripción que sea aplicable a ambas aplicaciones. Esta debe ser una descripción muy general y no específica de carga de trabajo si la empresa tiene más de una integración para cualquier plataforma ex. Slack, Outlook, Teams, Web App, Mobile app. |
+|¿Cómo describiría los servicios principales de las aplicaciones en 500 charaters o menos?|Describe la aplicación con 500 caracteres o menos, incluidos todos los integraciones de la familia de aplicaciones. Ej. Si tienes una Teams y una integración de Outlook, no des una descripción específica sobre la aplicación Teams, sino que des una descripción que sea aplicable a ambas aplicaciones. Esta debe ser una descripción muy general y no específica de carga de trabajo si la empresa tiene más de una integración para cualquier plataforma ex. Slack, Outlook, Teams, Web App, Mobile app. |
 |¿Qué país tiene la sede central de la empresa del desarrollador?|Esto es necesario en lo que se refiere a las prácticas y normativas de tratamiento de datos para diferentes países o regiones. |
 |¿Qué año se fundó su empresa?|Si no está incorporado, marque como N/A.|
 |¿Cuáles son los dominios únicos que usa la aplicación?|La cadena de identificación del proveedor que define su dominio de la autonomía administrativa, la autoridad o el control dentro de Internet. La respuesta debe incluir direcciones web. En caso de varios, separe con una coma.|
 |¿Qué dirección URL se usa para iniciar sesión?|Proporcione una página de inicio de sesión que podría incluir la dirección URL de una ventana emergente si procede. Una dirección URL única en la que un suscriptor puede iniciar sesión en la aplicación. Si no tiene esto, marque "N/A".|
 |¿Cuál es el nombre del proveedor de servicios en la nube de hospedaje?|Algunos ejemplos son: Microsoft Azure, Amazon AWS, Google... Esto también podría incluir soluciones únicas para su empresa. |
-|¿La aplicación usa permisos de Microsoft Graph? |Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal abre la página Información general de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. Vínculo a la página.|
-|Permiso de Microsoft Graph|Esta es la lista de permisos aceptables. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
+|¿La aplicación usa permisos Graph Microsoft? |Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal abre la página Información general de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. Vínculo a la página.|
+|Permiso Graph Microsoft|Esta es la lista de permisos aceptables. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
 |¿Qué IDs de aplicaciones de Azure usa esta aplicación?|Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal abre la página Información general https://portal.azure.com/ de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. |
 |¿Cuál es el tipo de permiso?|"Los permisos delegados los usan las aplicaciones que tienen un usuario que ha iniciado sesión. En estas aplicaciones el usuario o un administrador dan su consentimiento a los permisos que solicita la aplicación, y la aplicación puede actuar como un usuario que ha iniciado sesión cuando se hacen llamadas a Microsoft Graph. En ocasiones, los usuarios no administrativos pueden emitir algunos permisos delegados, pero existen permisos con privilegios mayores que requieren el consentimiento del administrador.                                Los permisos de la aplicación son los que usan las aplicaciones que se ejecutan sin que un usuario haya iniciado sesión, como las aplicaciones que se ejecutan como servicios en segundo plano o demonios. Los permisos de aplicación solo pueden ser aceptados por un administrador.                                                                           https://docs.microsoft.com/graph/auth/auth-concepts#microsoft-graph-permissions"|
 |¿Qué datos se recopilan o usan?  Agregue una justificación para recopilar o usar los datos.|Se pueden encontrar ejemplos en nuestra página de documentos, , haga clic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps de otras justificaciones. |
-|¿Qué datos almacena la aplicación en sus bases de datos?  Agregue justificación para almacenar datos, incluidos escenarios y ejemplos cuando corresponda. |¿Es esta atestación para una aplicación de Teams con una funcionalidad de bot? https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
-|¿Puede el bot obtener acceso a información de identificación personal (PII)?|PII es cualquier dato que se puede usar para identificar a una persona en particular. Ex. Nombre, dirección de correo electrónico.|
+|¿Qué datos almacena la aplicación en sus bases de datos?  Agregue justificación para almacenar datos, incluidos escenarios y ejemplos cuando corresponda. |¿Es esta atestación para una Teams con una funcionalidad de bot?https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
+|¿Puede el bot obtener acceso a información de identificación personal (PII)?|PII es cualquier dato que se puede usar para identificar a una persona en particular. Ej. Nombre, dirección de correo electrónico.|
 |Agregue la justificación para obtener acceso a la PII.|Puede encontrar ejemplos en nuestra página de documentos, haga clic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos de otras justificaciones en el acceso a datos a través https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps de bots.|
-|¿Qué PII se almacena?|Información de identificación personal (PII) es cualquier dato que se puede usar para identificar a una persona en particular. Ex. Nombre, dirección de correo electrónico.|
+|¿Qué PII se almacena?|Información de identificación personal (PII) es cualquier dato que se puede usar para identificar a una persona en particular. Ej. Nombre, dirección de correo electrónico.|
 |Agregue una justificación para almacenar la PII.|¿Por qué es necesario almacenar información de identificación personal? |
-|Enumerar cualquier información identificable de la organización (OII) que la aplicación recopila a través de estas API. |OII es cualquier dato que se puede usar para identificar una organización o inquilino. Ex. Identificador de inquilino o dirección IP, datos de uso del espacio empresarial, nombre de dominio de inquilino en dirección de correo electrónico (joe@contoso.com).|
-|¿Qué tipos de OII va a la tienda de aplicaciones?|La información identificable organiaztional (OII) es cualquier dato que se puede usar para identificar una organización o inquilino. Ex. Identificador de inquilino o dirección IP, datos de uso del espacio empresarial, nombre de dominio de inquilino en dirección de correo electrónico (joe@contoso.com).|
+|Enumerar cualquier información identificable de la organización (OII) que la aplicación recopila a través de estas API. |OII es cualquier dato que se puede usar para identificar una organización o inquilino. Ej. Identificador de inquilino o dirección IP, datos de uso del espacio empresarial, nombre de dominio de inquilino en dirección de correo electrónico (joe@contoso.com).|
+|¿Qué tipos de OII va a la tienda de aplicaciones?|La información identificable organiaztional (OII) es cualquier dato que se puede usar para identificar una organización o inquilino. Ej. Identificador de inquilino o dirección IP, datos de uso del espacio empresarial, nombre de dominio de inquilino en dirección de correo electrónico (joe@contoso.com).|
 |Agregue la justificación para almacenar OII.|¿Por qué debe almacenarse la información de identificación de la organización? |
-|¿Transfiere o comparte información identificable del usuario final (EUII) u OII con servicios que no son de Microsoft?|EUII es cualquier dato que se puede usar para identificar los datos de los clientes. Ex. Nombre de usuario o id. de empleado, información de ubicación de una persona, dirección IP específica del usuario. |
-|Enumerar todos los servicios que no son de Microsoft a los que transfiere OII.|Ex. Google Cloud, AWS|
-|Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados.|Ex. Cifrado, 2FA|
-|¿Pueden los usuarios clasificar datos dentro de la aplicación? |Ex. Restringido, Confidencial, Interal, Public |
+|¿Transfiere o comparte información identificable del usuario final (EUII) o OII con datos que no servicios Microsoft?|EUII es cualquier dato que se puede usar para identificar los datos de los clientes. Ej. Nombre de usuario o id. de empleado, información de ubicación de una persona, dirección IP específica del usuario. |
+|Enumerar todas las servicios Microsoft a las que transfiere OII.|Ej. Google Cloud, AWS|
+|Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados.|Ej. Cifrado, 2FA|
+|¿Pueden los usuarios clasificar datos dentro de la aplicación? |Ej. Restringido, Confidencial, Interal, Public |
 |Autenticación multifactor|Multi-Factor Authentication (MFA) es un sistema de seguridad que comprueba la identidad de un usuario al requerir varias credenciales. En lugar de solo pedir un nombre de usuario y una contraseña, MFA requiere otras credenciales (adicionales), como un código del smartphone del usuario, la respuesta a una pregunta de seguridad, una huella digital o un reconocimiento facial.|
 |¿Restricción de direcciones IP específicas?|La configuración de restricción IP se usa para limitar o dar acceso a los ip que pueden tener acceso a recursos específicos dentro del servicio. Para las aplicaciones que admiten la restricción IP, un administrador de la organización puede limitar las direcciones IP que cualquier usuario de la organización puede usar para acceder al sistema a través de la interfaz de usuario o las API. |
 |Seguimientos de auditoría por cuenta de usuario|Los seguimientos de auditoría son los registros electrónicos que catalogan cronológicamente eventos o procedimientos para proporcionar soporte, documentación e historial, que se usan para autenticar acciones operativas y de seguridad, o mitigar desafíos. El seguimiento de auditoría de usuario incluirá información sobre las actividades del usuario, como los intentos de inicio de sesión, el acceso a archivos, etc.|
 |Seguimientos de auditoría de administración en la aplicación| La pista de auditoría de administración incluirá actividades de administrador como conceder nuevos permisos, cambiar configuraciones, llamadas api, etc.|
 |Seguimientos de auditoría de datos en la aplicación|La pista de auditoría de datos incluirá en actividades de cambios en bases de datos, como cuándo se modificó por última vez un atributo, cuál era el valor anterior del registro y quién lo modificó, etc.|
-|¿Tienes directivas de contraseña para tu aplicación? |Ex. longitud mínima de contraseña, combinación de caracteres, no permitir la reutilización de contraseñas antiguas, no permitir el uso de información personal (como nombre, correo electrónico, etc.), enforace la renovación de contraseñas después de un período de tiempo determinado|
+|¿Tienes directivas de contraseña para tu aplicación? |Ej. longitud mínima de contraseña, combinación de caracteres, no permitir la reutilización de contraseñas antiguas, no permitir el uso de información personal (como nombre, correo electrónico, etc.), enforace la renovación de contraseñas después de un período de tiempo determinado|
 |¿Admite el estándar saml (lenguaje de marcado de aserción de seguridad) para intercambiar la autenticación?|Lenguaje de marcado de aserción de seguridad ( SAML) es un estándar abierto para intercambiar datos de autenticación y autorización entre partes, específicamente entre un proveedor de identidades y un proveedor de servicios.|
 |¿Realizas pruebas de penetración para detectar y evaluar vulnerabilidades de red para tu aplicación y sus servicios asociados?|Las pruebas de penetración, también denominadas pruebas de lápiz, son la práctica de probar un sistema informático, una red o una aplicación web para encontrar vulnerabilidades de seguridad que un atacante podría aprovechar.|
 |¿La aplicación cumple con la Autoridad reguladora del sector financiero (FINRA)? FINRA es un conjunto estándar establecido por una organización sin ánimo de lucro autorizada por el Congreso de los Estados Unidos que regula y aplica la mejora de las garantías de los inversores y la integridad del mercado.|Si no trabaja con clientes del sector financiero o no está seguro, marque esto como N/A. |
@@ -87,7 +87,7 @@ ms.locfileid: "52071509"
 
 ## <a name="learn-more"></a>Más información
 
-* [Introducción al programa de cumplimiento de aplicaciones de Microsoft 365](~/overview.md)  
-* [Verificación completa del publicador](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
-* [¿Qué es La atestación de editor?](~/docs/enterprise-app-attestation-guide.md)  
-* [Certificación completa de Microsoft 365](~/docs/certification.md)
+* [Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)  
+* [Verificación Publisher completa](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [¿Qué Publisher atestación?](~/docs/enterprise-app-attestation-guide.md)  
+* [Certificación Microsoft 365 completa](~/docs/certification.md)
