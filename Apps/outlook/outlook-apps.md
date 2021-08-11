@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: c8c0a58ce6455b4853ad7042785b2963370f5abb
-ms.sourcegitcommit: 2785ea8a6c1b1af129dea2cbe833de98659e3b2d
+ms.openlocfilehash: e879e07aaa97ad787fb4054863829db6b675de82
+ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53547898"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772107"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
 
@@ -31,7 +31,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Outlook (Official)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [MIPA: su propio asistente personal](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [ngDesk](./all-blue-solutions-ngdesk.md) | Todas las soluciones azules | **✓** |  |
+| [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Office2SharePoint para Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Elegir contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [OnePlaceMail para Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluciones de OnePlace | **✓** |  |

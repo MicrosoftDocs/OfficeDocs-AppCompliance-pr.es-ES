@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: dd3a61b6b9768c278cd7d48dd88847ea9ee56421
-ms.sourcegitcommit: 78dbace87a9b5027ea5aa23a6be9b8c613bd06ce
+ms.openlocfilehash: 31c974a20e17daa0436826432429bd664a9a1f59dee6b351b587ae0b30cc6bac
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "53315130"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54750546"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -356,7 +356,7 @@ Este dominio mide la alineación de la infraestructura y los procesos de impleme
 ||Proporcione pruebas demostrables de que IDPS está configurado para supervisar todos los flujos de tráfico entrante.|
 ||Proporcione pruebas demostrables de que IDPS está configurado para supervisar todos los flujos de tráfico saliente.|
 |**Registro de eventos de seguridad** |Proporcionar documentación de directivas para procedimientos y procedimientos recomendados que rigen el registro de eventos de seguridad.|
-|| Proporcionar pruebas demostrables que muestran que el registro de eventos de seguridad se configura en todos los componentes del sistema muestreados para registrar los siguientes eventos: Acceso de usuario a componentes del sistema y la aplicación, Todas las acciones realizadas por un usuario con privilegios altos, Acceso lógico no válido intenta crear o modificar cuentas privilegiadas, Alteración del registro de eventos, Deshabilitación de herramientas de seguridad (como antimalware o registro de eventos) , Registro de antimalware (como actualizaciones, detección de malware y errores de examen).,Eventos IDPS y WAF, si están configurados|
+|| Proporcionar pruebas demostrables que muestran que el registro de eventos de seguridad se configura en todos los componentes del sistema muestreados para registrar los siguientes eventos: Acceso de usuario a componentes del sistema y la aplicación, Todas las acciones realizadas por un usuario con privilegios altos, Acceso lógico no válido intentos de creación o modificación de cuentas privilegiadas, manipulación del registro de eventos, Deshabilitación de herramientas de seguridad (como antimalware o registro de eventos),  Registro de antimalware (como actualizaciones, detección de malware y errores de examen).,Eventos IDPS y WAF, si están configurados|
 ||Proporcionar pruebas demostrables de que los eventos de seguridad registrados contienen la siguiente información mínima: Usuario, Tipo de evento, Fecha y hora, Indicadores de éxito o error, Etiqueta que identifica el sistema afectado|
 ||Proporcione pruebas demostrables de que todos los componentes del sistema muestreados están sincronizados con el mismo servidor principal y secundario.|
 ||Proporcione pruebas demostrables cuando los sistemas orientados al público están en uso de que los registros de eventos de seguridad se envían a una solución de registro centralizada que no se encuentra dentro de la red perimetral.|

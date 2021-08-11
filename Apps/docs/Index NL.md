@@ -6,16 +6,16 @@ description: Archivo de boletines de cumplimiento
 keywords: Boletín de cumplimiento
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 352238084dbd19e4bf1eb97bb0bb32c27beb4e2c
-ms.sourcegitcommit: eb6a263d7c795d93d70dd1d5c0c91e65ebfbc649
+ms.openlocfilehash: a69495d35eaf69bee341efa7b15f479aa53e2ac0043e1aa8a422e1adc97cd83c
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52668331"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54751710"
 ---
 # <a name="newsletter-archive"></a>Archivo de boletines
 
-[Marzo de 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/March21%20NL)
+[Marzo 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/March21%20NL)
 
 [Enero de 2021](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/January%2021%20NL)
 

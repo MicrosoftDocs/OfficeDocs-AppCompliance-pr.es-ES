@@ -6,16 +6,16 @@ description: Guía del usuario de ISV para Microsoft 365 SaaS del programa de cu
 keywords: Guía del usuario de ISV para Microsoft 365 SaaS del programa de cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b3b8c37a1babf2f941f5764fddd30523319d9a34
-ms.sourcegitcommit: f6f3551bf1c00013efb6313ca3dc280de697137d
+ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
+ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53202781"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54801492"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones : SaaS
 
-|Fase|Título|
+|Fase|Cargo|
 |---|---|
 |Fase 1| Atestación del editor|
 |Fase 2| Certificación Microsoft 365|
@@ -75,7 +75,7 @@ Al seleccionar una aplicación, aparecerá otra barra de navegación con la opci
   
 **Escenarios de aprobación o rechazo:**
   
-R: Publisher Rechazo de atestación
+R. Publisher Rechazo de atestación
 - En caso de rechazo, un partner puede:
      - Ver informe de errores
           - El partner recibirá una notificación por correo electrónico y podrá ver el informe de errores en el Centro de partners
