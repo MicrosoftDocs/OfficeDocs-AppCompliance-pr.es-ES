@@ -2,24 +2,24 @@
 title: Información de la aplicación para MindMup de Sauf Pompiers Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMup, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 070845caad3e4cb5ccc63b028f248e9c1724ce0b
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53524783"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243156"
 ---
 # <a name="mindmup"></a>MindMup
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 6, 2020</p>
+<p>Last updated by the developer on: August 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001759" target="_blank">Ver en AppSource</a>
@@ -33,10 +33,11 @@ Información proporcionada por Sauf Pompiers Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMup |
-| Id. | WA200001759 |
+| Identificador | WA200001759 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sauf Pompiers Ltd |
 | Dirección URL del sitio web de partners | [https://www.mindmup.com](https://www.mindmup.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.mindmup.com/tutorials/microsoft-teams.html](https://www.mindmup.com/tutorials/microsoft-teams.html) |
 | Dirección URL de la directiva de privacidad | [https://www.mindmup.com/resources/privacy_policy.html](https://www.mindmup.com/resources/privacy_policy.html) |
 | DIRECCIÓN URL de términos de uso | [https://www.mindmup.com/resources/terms_mindmup.html](https://www.mindmup.com/resources/terms_mindmup.html) |
 
@@ -54,7 +55,10 @@ Sauf Pompiers Ltd ha proporcionado esta información sobre cómo esta aplicació
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Teams.ReadBasic.All | delegado | identificadores de equipo y nombres de equipo para usuarios | Para permitir que el usuario comparta documentos con equipos de los que es miembro | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
+>| User.Read | delegado | Identificador de usuario, dirección de correo electrónico que se mostrará después de la autenticación | user identifer, dirección de correo electrónico | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -63,7 +67,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Sistemas de almacenamiento de AWS usados para conservar la información básica de perfiles de usuario, para admitir el uso compartido de documentos y el acceso seguro a documentos de usuario en MindMup |  | N/D |
+>| Sistemas de almacenamiento de AWS usados para conservar la información básica de perfiles de usuario, para admitir el uso compartido de documentos y el acceso seguro a documentos de usuario en MindMup | id. de inquilino | control de acceso |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -110,3 +114,28 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Sauf Pompiers Ltd ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

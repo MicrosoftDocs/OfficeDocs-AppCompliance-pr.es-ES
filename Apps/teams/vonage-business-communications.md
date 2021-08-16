@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para Standup Alice de Bao Le Duc
+title: Información de la aplicación para vonage Business Communications de Vonage
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/10/2021
+ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Standup Alice, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Vonage Business Communications, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
+ms.openlocfilehash: 80665180e1abdd6783e7644a06b4d116dcedf6ae
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243533"
+ms.locfileid: "58241809"
 ---
-# <a name="standup-alice"></a>Standup Alice
+# <a name="vonage-business-communications"></a>Vonage Business Communications
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 10, 2021</p>
+<p>Last updated by the developer on: June 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/724b774e-aa53-4d2d-885b-6008c114cb37" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000758" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/47c6b242-a067-426c-9a02-0f680a42c488" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002988" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Bao Le Duc a Microsoft:
+Información proporcionada por Vonage a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Standup Alice |
-| Identificador | WA200000758 |
+| Nombre de la aplicación | Vonage Business Communications |
+| Identificador | WA200002988 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Bao Le Duc |
-| Dirección URL del sitio web de partners | [https://www.standupalice.com](https://www.standupalice.com) |
-| Dirección URL de Teams de información de la aplicación | [https://www.standupalice.com](https://www.standupalice.com) |
-| Dirección URL de la directiva de privacidad | [https://www.standupalice.com/privacy](https://www.standupalice.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.standupalice.com/terms](https://www.standupalice.com/terms) |
+| Nombre de la compañía asociada | Vonage |
+| Dirección URL del sitio web de partners | [https://www.vonage.com](https://www.vonage.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.vonage.com/unified-communications/](https://www.vonage.com/unified-communications/) |
+| Dirección URL de la directiva de privacidad | [https://www.vonage.com/legal/privacy-policy](https://www.vonage.com/legal/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://www.vonage.com/legal/unified-communications/tos/glo...](https://www.vonage.com/legal/unified-communications/tos/global-vbc-tos/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,30 +49,29 @@ Información proporcionada por Bao Le Duc a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Bao Le Duc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Vonage ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->Esta aplicación no usa Microsoft Graph.
+>| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| TeamsActivity.Send | aplicación | No se almacena ningún dato con este permiso | No se almacena ningún dato con este permiso | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
+>| User.Read | delegado | Obtener el identificador de usuario de Azure y el identificador de inquilino, para poder enviar más tarde notificaciones a este usuario. |  Obtener el identificador de usuario de Azure y el identificador de inquilino, para que podamos enviar más tarde notificaciones a este usuario cuando reciba un SMS/MMS | [1d8a304e-ea67-4aa2-9345-2793419cf83f](https://docs.microsoft.com/microsoft-365-app-certification/azure/1d8a304e-ea67-4aa2-9345-2793419cf83f) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud: hospedamos el bot en Google Cloud | Microsoft Teams TeamId de Microsoft Teams | Necesitamos TeamId para identificar qué Microsoft Teams &quot; equipo &quot; es |
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usamos el nombre para mostrar para mostrar en la aplicación web y los informes de standup para que sea significativo. Podemos comunicarnos con el Teams sobre la prueba gratuita, los pagos. | Nombre para mostrar y dirección de correo electrónico. | Usamos el nombre para mostrar y la dirección de correo electrónico para crear informes de standup diarios.  |
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -85,13 +84,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Se almacena en la nube de Google y tenemos 2FA para acceder a la nube de Google.
+>Almacenamos usersId y tenantId en una base de datos segura en AWS, la información se elimina una vez que el usuario cierra sesión.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->No
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,9 +100,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35837' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38766' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35837" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38766" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,7 +112,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Bao Le Duc ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Vonage ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

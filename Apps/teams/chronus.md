@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para Standup Alice de Bao Le Duc
+title: Información de la aplicación para Chronus por Chronus
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/10/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Standup Alice, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Chronus, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d1d075f16fed6e0a0029e3c90050068ca5bf9b5
+ms.openlocfilehash: a64d282947363ef5bbc2ef218edcade22d719f01
 ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243533"
+ms.locfileid: "58242552"
 ---
-# <a name="standup-alice"></a>Standup Alice
+# <a name="chronus"></a>Chronus
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 10, 2021</p>
+<p>Last updated by the developer on: August 3, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/724b774e-aa53-4d2d-885b-6008c114cb37" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200000758" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/bb32d4e5-ae29-4c59-ba7e-a11611ca9710" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003051" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Bao Le Duc a Microsoft:
+Información proporcionada por Chronus a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Standup Alice |
-| Identificador | WA200000758 |
+| Nombre de la aplicación | Chronus |
+| Identificador | WA200003051 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Bao Le Duc |
-| Dirección URL del sitio web de partners | [https://www.standupalice.com](https://www.standupalice.com) |
-| Dirección URL de Teams de información de la aplicación | [https://www.standupalice.com](https://www.standupalice.com) |
-| Dirección URL de la directiva de privacidad | [https://www.standupalice.com/privacy](https://www.standupalice.com/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.standupalice.com/terms](https://www.standupalice.com/terms) |
+| Nombre de la compañía asociada | Chronus |
+| Dirección URL del sitio web de partners | [https://chronus.com](https://chronus.com) |
+| Dirección URL de Teams de información de la aplicación | [https://chronus.com/services](https://chronus.com/services) |
+| Dirección URL de la directiva de privacidad | [https://chronus.com/privacy-policy](https://chronus.com/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://chronus.com/service-terms-conditions](https://chronus.com/service-terms-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +49,7 @@ Información proporcionada por Bao Le Duc a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Bao Le Duc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Chronus ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -62,9 +62,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Google Cloud: hospedamos el bot en Google Cloud | Microsoft Teams TeamId de Microsoft Teams | Necesitamos TeamId para identificar qué Microsoft Teams &quot; equipo &quot; es |
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -72,7 +70,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usamos el nombre para mostrar para mostrar en la aplicación web y los informes de standup para que sea significativo. Podemos comunicarnos con el Teams sobre la prueba gratuita, los pagos. | Nombre para mostrar y dirección de correo electrónico. | Usamos el nombre para mostrar y la dirección de correo electrónico para crear informes de standup diarios.  |
+>| Para identificar y enviar notificaciones a usuarios de MS Teams | MS Teams Id. de usuario | Para enviar notificaciones proactivas a usuarios de MS Teams |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -85,13 +83,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Se almacena en la nube de Google y tenemos 2FA para acceder a la nube de Google.
+>Chronus recopila y administra de forma segura los datos del cliente para implementar y mantener el sistema en nombre del cliente, solo con el único fin de facilitar el portal de tutoría de clientes. Chronus no exportará, almacenará ni poseerá ninguna información de cliente independiente del propio portal de tutoría. En caso de que el cliente decida finalizar o no renovar el Contrato de servicios de Chronus Tutor, todos los datos se eliminarán del sistema Chronus.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
 ¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
 
->No
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,9 +99,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35837' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/37472' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35837" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/37472" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Bao Le Duc ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Chronus ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

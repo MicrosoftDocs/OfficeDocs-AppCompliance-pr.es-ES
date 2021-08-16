@@ -2,24 +2,24 @@
 title: Información de la aplicación para SIGNL4 de Derdack SIGNL4
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2020
+ms.date: 08/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SIGNL4, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0e42f0d40c157819076af93cbd076c04e9326345
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525734"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243523"
 ---
 # <a name="signl4"></a>SIGNL4
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 6, 2020</p>
+<p>Last updated by the developer on: August 6, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/bd19c878-00b7-47cd-9b65-74a2def84427" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001239" target="_blank">Ver en AppSource</a>
@@ -33,10 +33,11 @@ Información proporcionada por Derdack SIGNL4 a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SIGNL4 |
-| Id. | WA200001239 |
+| Identificador | WA200001239 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Derdack SIGNL4 |
 | Dirección URL del sitio web de partners | [https://www.derdack.com](https://www.derdack.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.signl4.com](https://www.signl4.com) |
 | Dirección URL de la directiva de privacidad | [https://www.signl4.com/privacy-policy/](https://www.signl4.com/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://www.signl4.com/terms_of_use/](https://www.signl4.com/terms_of_use/) |
 
@@ -63,7 +64,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| De forma recursiva, se requiere dirección de correo electrónico, dirección de correo electrónico para enviar notificaciones de facturación al cliente cuando esté usando la aplicación. Twilio, números de teléfono, contenido de alerta para enviar alertas a través de mensajes de texto SMS |  | Api de administración de Azure, alertas de Azure Monitor se recopilan, la recopilación se produce porque los sistemas envían notificaciones para esas alertas |
+>| De forma recursiva, Twilio | De forma recursiva, se requiere dirección de correo electrónico, dirección de correo electrónico para enviar notificaciones de facturación al cliente cuando esté usando la aplicación. Twilio, números de teléfono, contenido de alerta para enviar alertas a través de mensajes de texto SMS | Api de administración de Azure, alertas de Azure Monitor se recopilan, la recopilación se produce porque los sistemas envían notificaciones para esas alertas |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -107,3 +108,29 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Derdack SIGNL4 ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | Sí |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/><br/> |
+| ¿Expone la aplicación alguna API web? | Sí |
+| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | Sí |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

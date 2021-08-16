@@ -2,24 +2,24 @@
 title: Información de la aplicación Org@Work por Lundano
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/22/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Org@Work, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2c1cfec539c8db4ddd597b8125079521d40615c4
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 81e59d53704529ed26aa6760f3cd00799f77deaa
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53521423"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58241255"
 ---
 # <a name="orgwork"></a>Org@Work
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 22, 2021</p>
+<p>Last updated by the developer on: August 10, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/b9f5d3b0-424e-473d-bcbe-dd01f17f9a41" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002461" target="_blank">Ver en AppSource</a>
@@ -33,7 +33,7 @@ Información proporcionada por Lundano a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Org@Work |
-| Id. | WA200002461 |
+| Identificador | WA200002461 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Lundano |
 | Dirección URL del sitio web de partners | [https://www.lundano.com/en/](https://www.lundano.com/en/) |
@@ -55,7 +55,7 @@ Lundano ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
 >| email | delegado | Estamos almacenando datos. Solo usamos los datos para iniciar sesión en el Org@work | Ninguno | [aa1c54a1-f482-424d-9389-dbd131233483](https://docs.microsoft.com/microsoft-365-app-certification/azure/aa1c54a1-f482-424d-9389-dbd131233483) |
@@ -123,7 +123,7 @@ Lundano ha proporcionado esta información sobre cómo esta aplicación administ
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Empleado, administrador de planeación y administrador |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |

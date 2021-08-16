@@ -6,19 +6,18 @@ description: Microsoft 365 Detalles de certificación
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 83c116ee6afa1a733ddf670593dd316d393057fcac22a21d86834def95153e5b
-ms.sourcegitcommit: 71ad2604020f0ad594fd3a01da305b8aa16f713b
+ms.openlocfilehash: 51f85b71a04cb64159b228cdb881345fecaad36c
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/10/2021
-ms.locfileid: "57822836"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58241822"
 ---
 # <a name="what-is-microsoft-365-certification"></a>¿Qué es Microsoft 365 certificación?
 
 La certificación Microsoft 365 es una certificación diseñada para mostrar a los clientes que una aplicación se ha visto en marcos estándar del sector y que existen prácticas de seguridad y cumplimiento sólidas para proteger los datos de los clientes. 
 
-[![Introducción a la certificación](https://github.com/MicrosoftDocs/OfficeDocs-AppCompliance-pr/blob/0e9bfa465404c79a0ad177f19dc0926917d4c3dc/Apps/media/videothumbnailcert.png)](https://youtu.be/Aff_35f10B8 "Introducción a la certificación")
-
+>[!VIDEO https://www.youtube.com/embed/Aff_35f10B8]
 
 
 ## <a name="microsoft-365-certification-scope"></a>Microsoft 365 Ámbito de certificación

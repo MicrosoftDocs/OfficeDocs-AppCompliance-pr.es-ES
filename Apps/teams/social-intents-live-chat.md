@@ -2,24 +2,24 @@
 title: Información de la aplicación para chat en directo por intenciones sociales
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Live Chat, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d1e546a5cb1cd375ec3645fd70daa07791f88027
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 52b8aa65ce11acbe157d61bd46a6f0fee67f9bc6
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53528276"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243546"
 ---
 # <a name="live-chat"></a>Live Chat
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: August 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/a55635a5-8def-48e7-bcff-230cd43d3405" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000440" target="_blank">Ver en AppSource</a>
@@ -33,12 +33,13 @@ Información proporcionada por Intenciones sociales a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Live Chat |
-| Id. | WA200000440 |
+| Identificador | WA200000440 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Social Intents |
 | Dirección URL del sitio web de partners | [https://www.socialintents.com](https://www.socialintents.com) |
-| Dirección URL de la directiva de privacidad | []() |
-| DIRECCIÓN URL de términos de uso | []() |
+| Dirección URL de Teams de información de la aplicación | [https://www.socialintents.com/teams-live-chat.jsp](https://www.socialintents.com/teams-live-chat.jsp) |
+| Dirección URL de la directiva de privacidad | [https://www.socialintents.com/privacy.html](https://www.socialintents.com/privacy.html) |
+| DIRECCIÓN URL de términos de uso | [https://www.socialintents.com/tos.html](https://www.socialintents.com/tos.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -69,14 +70,14 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Cuando un equipo hace clic en Unirse al chat, usamos el correo electrónico de los miembros para identificar qué perfil de agente aceptó el chat. | El correo electrónico y el nombre del miembro del equipo que aceptaron un chat en directo se almacenan en una base de datos de historial de chat. |  |
+>| Cuando un equipo hace clic en Unirse al chat, usamos el correo electrónico de los miembros para identificar qué perfil de agente aceptó el chat. | El correo electrónico y el nombre del miembro del equipo que aceptaron un chat en directo se almacenan en una base de datos de historial de chat. | La información se recopila opcionalmente para el uso del cliente y el cliente puede deshabilitarla por completo en su configuración de preguntas previas a la venta de chat. |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->El correo electrónico y el nombre pueden mostrarse en los registros diarios que se quitan o eliminan cada día.
+>El correo electrónico y el nombre pueden mostrarse en los registros diarios que se quitan o eliminan cada hora.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
@@ -84,6 +85,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 >Los datos se almacenan en una instancia segura de RDS restringida por IP y 2FA.
 
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -101,3 +107,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Esta información ha sido proporcionada por Intenciones sociales acerca de cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 48815c31a70ab8d5ccc357c9069433132ba5a76018ebcd523ddcdb87a34449ab
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 966248f8beca85ba64ab3eb38082218f1a73001f
+ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54802166"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58239725"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -20,6 +20,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [Firmas de correo electrónico codeTwo para Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Content Chooser](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** |  |
 | [IGlobe CRM Office 365 para Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** |  |
