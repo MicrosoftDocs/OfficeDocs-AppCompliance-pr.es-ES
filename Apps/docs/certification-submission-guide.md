@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 31c974a20e17daa0436826432429bd664a9a1f59dee6b351b587ae0b30cc6bac
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: b0a207bd8fbe1834e03c08eecb82d3552c75a182
+ms.sourcegitcommit: f33609288c6c59af423367dce2eac3e261c1d297
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54750546"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58373784"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -35,7 +35,7 @@ ms.locfileid: "54750546"
 - [Apéndice E](#appendix-e) 
 - [Apéndice F](#appendix-f) 
 - [Apéndice G ](#appendix-g)
-- [Más información](#learn-more) 
+- [Obtener más información](#learn-more) 
 - [Glosario](#glossary) 
 
 
@@ -103,11 +103,11 @@ Cuando se implemente IaaS o PaaS, deberá proporcionar pruebas del entorno que s
 
 Las solicitudes de prueba que admitan la evaluación de certificación deben basarse en una muestra de los componentes del sistema en el ámbito en consideración de los diferentes sistemas operativos, la función principal del dispositivo y los distintos tipos de dispositivo. Al principio del proceso de certificación se seleccionará una muestra adecuada. La siguiente tabla debe usarse como guía sobre el tamaño de la muestra:
 
-|Tamaño de la población              | Muestra                  |
+|Tamaño de la población              | Ejemplo                  |
 |---------------------------- |-------------------------|
-|<5|1|
-|>5 & <10|2|
-|>9 & <25|3|
+|<5|1 |
+|>5 & <10|2 |
+|>9 & <25|3 |
 |>24|4 |
 
 > [!NOTE]
@@ -115,11 +115,7 @@ Las solicitudes de prueba que admitan la evaluación de certificación deben bas
 
 ## <a name="certification-process"></a>Proceso de certificación
 
-Antes de iniciar el proceso de certificación, tendrá que haber completado correctamente su Publisher atestación. Las respuestas de atestación se usarán como soporte del proceso Microsoft 365 certificación y procede de la siguiente manera:
-
-## <a name="certification-process"></a>Proceso de certificación
-
-Antes de comenzar el proceso de certificación, deberá haber completado la Publisher atestación. Una vez que se haya aprobado la certificación del editor, recibirá un correo electrónico introductorio que le invitará a unirse a Microsoft 365 certificación.
+Antes de iniciar el proceso de certificación, deberás haber completado correctamente la Publisher atestación. Una vez completado, el Microsoft 365 de certificación continuará de la siguiente manera:
 
 ### <a name="preparation"></a>Preparación
 1. Vaya al Centro de partners y revise la documentación [Publisher atestación completa.]( https://docs.microsoft.com/microsoft-365-app-certification/docs/attestation) Si es necesario, puede editar y actualizar las respuestas; sin embargo, si lo hace, tendrá que volver a enviar la documentación de atestación para su aprobación. Si el envío tiene más de tres meses, se requiere que vuelva a enviar Publisher atestación para su revisión y validación. 
