@@ -6,12 +6,12 @@ description: Más información sobre el programa Publisher Attestation
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 1566ae1d56f6313d7055f122a8444de43ef60d9a73dc9e02e9cb2b1b86ae5a7c
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: ad059066c4685cf72e5d0b76b10b5d9ca22b6df9
+ms.sourcegitcommit: dc086ac579e488a38bad3dad10037d43af7efd55
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801276"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58385876"
 ---
 # <a name="complete-publisher-attestation"></a>Certificación Publisher completa
 
@@ -32,12 +32,12 @@ Publisher La atestación se aplica a las aplicaciones web (aplicaciones SaaS pub
 
 
 ## <a name="program-benefits"></a>Beneficios del programa
-- Ahorro de tiempo. Apunte a sus clientes a la página de documentos donde puedan encontrar sus respuestas a preguntas más frecuentes sobre la aplicación. 
-- Acelerar la escala de tiempo de revisión interna de seguridad y cumplimiento de una organización empresarial.
-- Mayor transparencia.
-- Diferenciación de otras aplicaciones de la tienda. 
-- Vincula a la página de documentos desde tu entrada en AppSource, el Centro de administración de Teams, el Centro de administración de Microsoft y la Teams Store. 
-- Cualificación para iniciar la Microsoft 365 certificación.
+- Ahorro de tiempo. Señale a sus clientes a la página de documentos donde puedan encontrar sus respuestas a las preguntas más frecuentes sobre su aplicación
+- Acelerar la escala de tiempo de revisión interna de seguridad y cumplimiento de una organización empresarial
+- Mayor transparencia
+- Diferenciación de otras aplicaciones de la tienda 
+- Vínculo a la página de documentos desde tu entrada en AppSource, el Centro de administración de Teams, el Centro de administración de Microsoft y la Tienda Teams web 
+- Cualificación para iniciar la Microsoft 365 certificación
  
 
 ## <a name="publisher-attestation-process"></a>Publisher Proceso de atestación
