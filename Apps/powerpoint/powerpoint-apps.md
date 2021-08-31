@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento PowerPoint aplicaciones de Microsoft: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/22/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones PowerPoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: f2ffe2dc0dac164e4e55008da37509d1ec7adaf155beae41fe686d8e28c7b1fd
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 865492d53a958a3bd434c42388b55c6b92d75058
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54802436"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58669046"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Seguridad y cumplimiento PowerPoint aplicaciones de Microsoft
 
