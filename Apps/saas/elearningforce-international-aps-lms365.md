@@ -2,23 +2,23 @@
 title: Información de la aplicación para LMS365 por ELEARNINGFORCE International Aps
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 07/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dbae54f25aa4b1a22917bc79c53724fd398b6ed2
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ab9a29c84b57da2f2a21a20bb22f6a1545fd6d2e
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526004"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672917"
 ---
 # <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: June 23, 2021</p>
+<p>Last updated by the developer on: July 28, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/elearningforce.lms365_spfx" target="_blank">Ver en AppSource</a>
 
@@ -53,14 +53,14 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| GroupMember.Read.All | aplicación | Ninguno | Permite que la aplicación expanda los miembros del grupo de AD, que es necesario inscribir un grupo de usuarios en los cursos. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| Mail.Send | delegado | Ninguno | El permiso se solicita dinámicamente durante la configuración de la cuenta de correo electrónico para la notificación. Permite que la aplicación envíe correos electrónicos de notificación | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| RoleManagement.Read.Directory | aplicación | Ninguno | Permite que la aplicación obtenga SharePoint dominio durante el aprovisionamiento de inquilinos. El dominio se usa para la construcción de direcciones URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Invite.All | delegado | Ninguno | Permite que la aplicación invite a usuarios externos en nombre del usuario que ha iniciado sesión actual | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read | delegado | Ninguno | Inicie sesión y lea el perfil de usuario. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| User.Read.All | delegado | Ninguno | Permite que la aplicación lea el perfil completo del usuario que ha iniciado sesión actual. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| GroupMember.Read.All | aplicación | None | Permite que la aplicación expanda los miembros del grupo de AD, que es necesario inscribir un grupo de usuarios en los cursos. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| Mail.Send | delegado | None | El permiso se solicita dinámicamente durante la configuración de la cuenta de correo electrónico para la notificación. Permite que la aplicación envíe correos electrónicos de notificación | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| RoleManagement.Read.Directory | aplicación | None | Permite que la aplicación obtenga SharePoint dominio durante el aprovisionamiento de inquilinos. El dominio se usa para la construcción de direcciones URL. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Invite.All | delegado | None | Permite que la aplicación invite a usuarios externos en nombre del usuario que ha iniciado sesión actual | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read | delegado | None | Inicie sesión y lea el perfil de usuario. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| User.Read.All | delegado | None | Permite que la aplicación lea el perfil completo del usuario que ha iniciado sesión actual. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| User.Read.All | aplicación | Permite que la aplicación lea el perfil de usuario completo. Es&#8217;para leer a los usuarios&#8217; administradores para crear informes de jerarquía. | Los siguientes datos personales se almacenan en una base de datos dedicada para el cliente correspondiente que se usa para la funcionalidad del Panel del Administrador de administración de &amp; learner dentro de la aplicación. Nombre de cuenta, Nombre para mostrar del usuario, Dirección de correo electrónico, Departamento, Puesto de trabajo, Office, País, Ciudad, Id. de administrador/Correo electrónico | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
->| perfil | delegado | Ninguno | Ver el perfil básico del usuario. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
+>| perfil | delegado | None | Ver el perfil básico del usuario. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
 

@@ -2,23 +2,23 @@
 title: Información de aplicaciones para Office2SharePoint para Office por iGlobe
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/17/2020
+ms.date: 08/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint para Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ccf31f36f748348a01a798c3222c3fcdd6cb4606
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: 12b87e9addae70858503bb2d32def94cae657be2
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527836"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672697"
 ---
 # <a name="office2sharepoint-for-office"></a>Office2SharePoint para Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: November 17, 2020</p>
+<p>Last updated by the developer on: August 12, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104381787" target="_blank">Ver en AppSource</a>
 
@@ -132,7 +132,7 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación controla 
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad y cualquier otra de las directivas comunes como Bloquear autenticación heredada* Requerir MFA para administradores* Requerir MFA para administración de Azure* Requerir MFA para todos los usuarios* |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |

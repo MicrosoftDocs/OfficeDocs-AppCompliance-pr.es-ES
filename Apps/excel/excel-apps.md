@@ -2,17 +2,17 @@
 title: 'Microsoft Excel Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/11/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Excel aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: d8030712f76cdff731c7ff17c94e2e89c5def494
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.openlocfilehash: b039a772748821cad11fbb8d0f9d65e94b544cc5
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243459"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672887"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel Seguridad y cumplimiento de aplicaciones
 
@@ -20,6 +20,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [Calculadora de costos del servicio EMEA de Canon para socios B2B](./canon-emea-service-cost-calculator-for-b2b-partners.md) | Canon EMEA | **✓** |  |
 | [CloudExtend Analytics para NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel de documentos de Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [harmon.ie para Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |

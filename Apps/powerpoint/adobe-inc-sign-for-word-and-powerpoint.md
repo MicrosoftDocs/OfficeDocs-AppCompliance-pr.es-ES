@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para Word y PowerPoint, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 81a0012ebbc0e77af0fee9fa73a22f187972d13c
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
+ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527856"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "58672217"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign para Word y PowerPoint
 
@@ -32,7 +32,7 @@ Información proporcionada por Adobe Inc. a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Sign para Word y PowerPoint |
 | Id. | WA104381155 |
-| Office 365 clientes compatibles | Word 2016 o posterior en Mac, PowerPoint 2013 Service Pack 1 o posterior en Windows, Word 2013 Service Pack 1 o posterior en Windows, Word en la Web, PowerPoint en la Web, PowerPoint 2016 o posterior en Mac |
+| Office 365 clientes compatibles | Word 2016 o posterior en Mac, Word en la Web, Word 2013 Service Pack 1 o posterior en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2013 Service Pack 1 o posterior en Windows |
 | Nombre de la compañía asociada | Adobe Inc. |
 | Dirección URL del sitio web de partners | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
 | Dirección URL de la directiva de privacidad | [https://www.adobe.com/privacy/policy.html](https://www.adobe.com/privacy/policy.html) |
