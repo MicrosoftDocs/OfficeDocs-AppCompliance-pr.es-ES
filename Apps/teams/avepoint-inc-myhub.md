@@ -2,23 +2,23 @@
 title: Información de la aplicación para MyHub de AvePoint, inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/25/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para MyHub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ffca0a4df366662e86001bb3d685986d877e8cca
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: cc9d478d0395ad9b70531528bc5fd0f73bf84302
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527636"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58870025"
 ---
 # <a name="myhub"></a>MyHub
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: May 25, 2021</p>
+<p>Last updated by the developer on: August 24, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c3ff6344-f6f0-4bfa-8697-b9d47b32ca4b" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000726" target="_blank">Ver en AppSource</a>
@@ -61,7 +61,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| Mail.Send | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Enviar correo como usuario | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Reports.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los informes de uso | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Sites.FullControl.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Tomar el control total de todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
->| Sites.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer los elementos de todas las colecciones de sitios  | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.Read.All | aplicación | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer los elementos de todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Sites.ReadWrite.All | delegado | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Editar o eliminar elementos de todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| User.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer todos los usuarios&#8217; perfiles completos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
@@ -125,7 +125,8 @@ AvePoint, inc. ha proporcionado esta información sobre cómo esta aplicación a
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
-| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | La aplicación se federa con Azure AD, por lo que se pueden usar todas las reglas de acceso condicional. |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
