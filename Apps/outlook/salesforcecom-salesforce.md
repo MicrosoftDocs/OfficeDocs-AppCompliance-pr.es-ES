@@ -2,24 +2,24 @@
 title: Información de aplicaciones para Salesforce por salesforce.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 08/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Salesforce, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d0490ea422179e064443f7fad12abb64bc6efa47
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: a2a4cb54f96d35bfd12b3396da3cf5e9c63b1c96
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527916"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873465"
 ---
 # <a name="salesforce"></a>Salesforce
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: August 24, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA104379334" target="_blank">Ver en AppSource</a>
 
@@ -37,7 +37,7 @@ Información proporcionada por salesforce.com a Microsoft:
 | Nombre de la compañía asociada | salesforce.com |
 | Dirección URL del sitio web de partners | [https://www.salesforce.com](https://www.salesforce.com) |
 | Dirección URL de la directiva de privacidad | [https://www.salesforce.com/company/privacy/](https://www.salesforce.com/company/privacy/) |
-| DIRECCIÓN URL de términos de uso | [https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC...](https://store.office.com/en-us/WebAppLandingPage.aspx?p4=TC&amp;p5=WA104379334&amp;cmu=en-US) |
+| DIRECCIÓN URL de términos de uso | [https://www.salesforce.com/content/dam/web/en_us/www/docume...](https://www.salesforce.com/content/dam/web/en_us/www/documents/legal/Agreements/software-order-form-supplements/Salesforce_Outlook_TOU_Order_Form_Addendum.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -61,8 +61,8 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API de JavaScript para Office | Sí | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. |  | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. |  |
->| Servicios Web Exchange (EWS) | Sí | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. |  | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. |  |
+>| API de JavaScript para Office | Sí | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. |
+>| Servicios Web Exchange (EWS) | Sí | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. | El complemento usa funciones de Office.js y EWS para copiar contenido y datos adjuntos sobre un correo electrónico que un usuario Outlook ha decidido iniciar sesión en Salesforce. En el lado del calendario, se usan funciones similares para registrar citas en Salesforce. | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. | El complemento usa funciones como getUserIdentityTokenAsync para obtener la identidad Outlook usuario actual, GetItem (.js y EWS) para obtener y establecer AdditionalProperties y el contenido del mensaje de correo electrónico actual al guardar en registros de Salesforce, GetAttachment (EWS) para recuperar los datos adjuntos de Exchange y agregar al correo electrónico de Salesforce emparejado, UpdateItem (.js), GetFolder (.js) para obtener la carpeta borradores, CreateItem (.js), que se usa para crear un borrador de mensaje. |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
@@ -106,3 +106,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Esta información ha sido proporcionada por salesforce.com sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -2,24 +2,24 @@
 title: Información de la aplicación para Klaxoon por Klaxoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/15/2020
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Klaxoon, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: e55059ec1274476e4234a5347b3f56065eb6e0c3
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 146f6faa9874719bdf42397f8419ced0415a8add
+ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525534"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58873455"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 15, 2020</p>
+<p>Last updated by the developer on: August 31, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/6adc8d55-eb37-4537-a66d-743b3cd4511b" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382058" target="_blank">Ver en AppSource</a>
@@ -37,8 +37,9 @@ Información proporcionada por Klaxoon a Microsoft:
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Klaxoon |
 | Dirección URL del sitio web de partners | [https://klaxoon.com](https://klaxoon.com) |
-| Dirección URL de la directiva de privacidad | [https://klaxoon.com/privacy-policy](https://klaxoon.com/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06...](https://static.klaxoon.com/static/_/terms-8def9a45fe5aedd06814d1c3354495b2.pdf) |
+| Dirección URL de Teams de información de la aplicación | [https://klaxoon.com](https://klaxoon.com) |
+| Dirección URL de la directiva de privacidad | [https://klaxoon.com/legal](https://klaxoon.com/legal) |
+| DIRECCIÓN URL de términos de uso | [https://static.klaxoon.com/website/pdf/eula.pdf](https://static.klaxoon.com/website/pdf/eula.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -63,7 +64,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| ninguno |  | ninguno |
+>| zendesk | nombre de dominio | administración de relaciones con el cliente, centro de ayuda |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -71,20 +72,20 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usamos la lista para personalizar la respuesta del usuario. por ejemplo: Hola {{givenName}}, gracias por su pregunta. | No |  |
+>| Usamos la lista para personalizar la respuesta del usuario. por ejemplo: Hola {{givenName}}, gracias por su pregunta. | nombre, apellido, avatar, correo electrónico y contraseña (dependiendo si el SSO delegado o no). | administración de cuentas de usuario |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->sí
+>acceso y registros de errores con fines de depuración, incluidos: dirección IP, registros sin conexión de correo electrónico se cifran y archivan durante un año. Los registros en línea se mantienen un mes
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Almacenado en sistemas de nube de Klaxoon. Cifrado en reposo. El acceso a los servidores Klaxoon está limitado a un intervalo de direcciones IP específico en modo HTTPS/SSH (clave SSH + frase de contraseña). Este acceso solo es posible a través de un baluarte único.
+>Los datos se mantienen durante la activación de la cuenta. La eliminación o recuperación de datos en formato plano (pdf, xlsx, csv, imágenes) o en formato Klaxoon (.klx) está disponible en cualquier momento a través de la propia aplicación. Es manual y bajo la responsabilidad de su propietario, único poseedor de las credenciales para acceder a él. Una vez desactivada la cuenta, se cierra el acceso del usuario.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -108,3 +109,28 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Klaxoon ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | No |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | Sí |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
