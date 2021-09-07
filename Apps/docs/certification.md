@@ -6,12 +6,12 @@ description: Microsoft 365 Introducción a los detalles de certificación
 keywords: certificación de aplicaciones Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 7d6c72f39a07fa11bfe87a9da6d94178fd7992b3
-ms.sourcegitcommit: a2851b8a32c181843617568ab5f8b5de741547cf
+ms.openlocfilehash: 9f93edb4bead62eb626f6b65544fbf1a35ad48dd
+ms.sourcegitcommit: 854938b0495a6a30c2d03a6645e32ca52b4ce295
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58885988"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58922987"
 ---
 # <a name="complete-microsoft-365-certification"></a>Certificación Microsoft 365 completa
 
@@ -25,8 +25,7 @@ La búsqueda de una certificación es una forma impactante de mostrar a las orga
 
 > [!IMPORTANT]
 > Al participar en el programa de certificación de Microsoft 365, acepta estos términos complementarios y cumple con cualquier documentación que se aplique a su participación en el programa de certificación de Microsoft 365 con Microsoft Corporation ("Microsoft", "nosotros", "nos" o "nuestro"). Usted nos declara y nos garantiza que tiene la autoridad para aceptar estos términos complementarios de certificación de Microsoft 365 en nombre de usted mismo, una empresa u otra entidad, según corresponda. Podemos cambiar, modificar o terminar estos términos complementarios en cualquier momento. Su participación continua en el programa Microsoft 365 certificación después de cualquier cambio o modificación significa que acepta los nuevos términos complementarios. Si no está de acuerdo con los nuevos términos complementarios o si terminamos estos términos complementarios, debe dejar de participar en el programa Microsoft 365 certificación.
-
->Todas las pruebas, incluidas, entre otras, documentos, capturas de pantalla e imágenes, se conservarán en un repositorio seguro durante 18 meses a partir del momento del envío como prueba de auditoría. Después de 18 meses, se borrarán todas las pruebas
+Todas las pruebas, incluidas, entre otras, documentos, capturas de pantalla e imágenes, se conservarán en un repositorio seguro durante 18 meses a partir del momento del envío como prueba de auditoría. Después de 18 meses, se borrarán todas las pruebas
 
 ## <a name="certification-process"></a>Proceso de certificación
 
