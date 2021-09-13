@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PandaDoc, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 0ad06df6fb1b41955c2cb69e45f2ea84660b3e06
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53774971"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288423"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -33,7 +33,7 @@ Información proporcionada por PandaDoc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | PandaDoc |
-| ID | WA200002927 |
+| Id. | WA200002927 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | PandaDoc |
 | Dirección URL del sitio web de partners | [https://www.pandadoc.com](https://www.pandadoc.com) |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Proyectos fáciles, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c9c544f6c166a89c334a856082598097058a25a0
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552981"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288439"
 ---
 # <a name="easy-projects"></a>Easy Projects
 
@@ -33,7 +33,7 @@ Información proporcionada por Logic Software Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Easy Projects |
-| ID | WA200002647 |
+| Id. | WA200002647 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Logic Software Inc. |
 | Dirección URL del sitio web de partners | [https://www.easyprojects.net](https://www.easyprojects.net) |

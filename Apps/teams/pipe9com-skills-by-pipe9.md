@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Skills by Pipe9, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2fc2175eab043dce659f00c0c5e9ae66e702e94e
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551850"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289048"
 ---
 # <a name="skills-by-pipe9"></a>Skills by Pipe9
 
@@ -33,7 +33,7 @@ Información proporcionada por Pipe9.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Skills by Pipe9 |
-| ID | WA200002038 |
+| Id. | WA200002038 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Pipe9.com |
 | Dirección URL del sitio web de partners | [https://www.pipe9.com/](https://www.pipe9.com/) |

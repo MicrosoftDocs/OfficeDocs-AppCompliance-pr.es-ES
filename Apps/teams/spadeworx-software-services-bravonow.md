@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para BravoNow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1eb20f61739f5b6969c3f3889666adcce05d64a0
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245386"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59286544"
 ---
 # <a name="bravonow"></a>BravoNow
 
@@ -33,9 +33,9 @@ Información proporcionada por SpadeWorx Software Services a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | BravoNow |
-| Identificador | WA200000157 |
+| Id. | WA200000157 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Servicios de software de SpadeWorx |
+| Nombre de la compañía asociada | SpadeWorx Software Services |
 | Dirección URL del sitio web de partners | [https://www.spadeworx.com](https://www.spadeworx.com) |
 | Dirección URL de Teams de información de la aplicación | [https://bravo.pozitive.io](https://bravo.pozitive.io) |
 | Dirección URL de la directiva de privacidad | [https://docs.pozitive.io/BravoApp_Privacy%20Policy.pdf](https://docs.pozitive.io/BravoApp_Privacy%20Policy.pdf) |
@@ -55,9 +55,9 @@ SpadeWorx Software Services ha proporcionado esta información sobre cómo esta 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | Dirección de correo electrónico de los usuarios. | ND | [272032ad-0c2e-4928-910e-5d52b19f70d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/272032ad-0c2e-4928-910e-5d52b19f70d5) |
+>| User.Read | delegado | Dirección de correo electrónico de los usuarios. | N/D | [272032ad-0c2e-4928-910e-5d52b19f70d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/272032ad-0c2e-4928-910e-5d52b19f70d5) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

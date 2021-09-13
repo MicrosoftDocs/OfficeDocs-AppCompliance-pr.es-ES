@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Mendeley Cite, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e6fd3ba9f600549aba80beb00738c6bd529eb18b
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58242562"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287752"
 ---
 # <a name="mendeley-cite"></a>Mendeley Cite
 
@@ -32,7 +32,7 @@ Información proporcionada por ELSEVIER LIMITED a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Mendeley Cite |
-| Identificador | WA104382081 |
+| Id. | WA104382081 |
 | Office 365 clientes compatibles | Word en iPad, Word 2016 o posterior en Windows, Word 2016 o posterior en Mac, Word en la Web |
 | Nombre de la compañía asociada | ELSEVIER LIMITED |
 | Dirección URL del sitio web de partners | [https://www.mendeley.com/search/](https://www.mendeley.com/search/) |
@@ -82,7 +82,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->N/D
+>No aplicable
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 

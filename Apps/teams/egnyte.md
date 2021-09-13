@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Egnyte, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 9c9ff10261730b8b1cc56cbb7aa23d55d5da8383
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58241267"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288208"
 ---
 # <a name="egnyte"></a>Egnyte
 
@@ -33,7 +33,7 @@ Información proporcionada por Egnyte a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Egnyte |
-| Identificador | WA104381174 |
+| Id. | WA104381174 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Egnyte |
 | Dirección URL del sitio web de partners | [https://www.egnyte.com](https://www.egnyte.com) |

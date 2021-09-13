@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Good4work, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3d6854fcf2b53d1eb7baefb2f64d258365d5bdaf
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775066"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59286184"
 ---
 # <a name="good4work"></a>Good4work
 
@@ -33,7 +33,7 @@ Información proporcionada por Good4work a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Good4work |
-| ID | WA200002962 |
+| Id. | WA200002962 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Good4work |
 | Dirección URL del sitio web de partners | [https://good4work.com/#product](https://good4work.com/#product) |

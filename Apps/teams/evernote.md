@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Evernote, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3eaaa3cacc4affc866a967a495687bc53abcfae5
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552191"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289095"
 ---
 # <a name="evernote"></a>Evernote
 
@@ -33,7 +33,7 @@ Información proporcionada por Evernote a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Evernote |
-| ID | WA104381639 |
+| Id. | WA104381639 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Evernote |
 | Dirección URL del sitio web de partners | [https://evernote.com/](https://evernote.com/) |

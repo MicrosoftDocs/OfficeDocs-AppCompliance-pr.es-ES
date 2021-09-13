@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DocuSign eSignature, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 6f924fd6777e53a6b854d2249d334fbdab2a54c0
-ms.sourcegitcommit: dafa6701f28c66f003efaf2e3a70d61dc3240955
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "52790077"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287920"
 ---
 # <a name="docusign-esignature"></a>DocuSign eSignature
 
@@ -33,7 +33,7 @@ Información proporcionada por DocuSign, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | DocuSign eSignature |
-| ID | WA200002755 |
+| Id. | WA200002755 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | DocuSign, Inc. |
 | Dirección URL del sitio web de partners | [https://www.docusign.com](https://www.docusign.com) |

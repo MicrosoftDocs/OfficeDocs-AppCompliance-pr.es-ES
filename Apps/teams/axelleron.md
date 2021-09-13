@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Axelleron, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5a6d89c0647632c26f67ab388eada9f7be225149
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553998"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288808"
 ---
 # <a name="axelleron"></a>Axelleron
 
@@ -33,7 +33,7 @@ Información proporcionada por Axelleron a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Axelleron |
-| ID | WA200002677 |
+| Id. | WA200002677 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Axelleron |
 | Dirección URL del sitio web de partners | [https://axelleron.com](https://axelleron.com) |

@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el seguimiento de tiempo de Chronoscope, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 9e87baec293d3c18e48da28e1714fce9703f446f
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407591"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287015"
 ---
-# <a name="chronoscope-time-tracking"></a>Seguimiento de tiempo de cronoscopio
+# <a name="chronoscope-time-tracking"></a>Chronoscope Time Tracking
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Chrono Innovation a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Seguimiento de tiempo de cronoscopio |
+| Nombre de la aplicación | Chronoscope Time Tracking |
 | Id. | WA200003095 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Innovación de Chrono |
+| Nombre de la compañía asociada | Chrono Innovation |
 | Dirección URL del sitio web de partners | [https://www.chronoinnovation.com](https://www.chronoinnovation.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.chronoscope.app](https://www.chronoscope.app) |
 | Dirección URL de la directiva de privacidad | [https://www.chronoscope.app/privacy-policy](https://www.chronoscope.app/privacy-policy) |

@@ -1,19 +1,19 @@
 ---
-title: Información de la aplicación para Google Analytics Insights de Freevolut LTD
+title: Información de la aplicación para Google Analytics Ideas por Freevolut LTD
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/16/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Google Analytics Insights, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Google Analytics Ideas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 3b2b1e528878540c22682ce5dc4fa30df0eba1d8
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52553151"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289302"
 ---
 # <a name="google-analytics-insights"></a>Google Analytics Insights
 
@@ -33,7 +33,7 @@ Información proporcionada por Freevolut LTD a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Google Analytics Insights |
-| ID | WA200000743 |
+| Id. | WA200000743 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Freevolut LTD |
 | Dirección URL del sitio web de partners | [https://www.ga-insights.com](https://www.ga-insights.com) |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CI-Signature, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275501"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288288"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -34,7 +34,7 @@ Información proporcionada por la solución ci GmbH a Microsoft:
 | Nombre de la aplicación | CI-Signature |
 | Id. | WA200002458 |
 | Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
-| Nombre de la compañía asociada | solución ci GmbH |
+| Nombre de la compañía asociada | ci solution GmbH |
 | Dirección URL del sitio web de partners | [https://www.ci-solution.com](https://www.ci-solution.com) |
 | Dirección URL de la directiva de privacidad | [https://www.ci-solution.com/fileadmin/downloads/datenschutz...](https://www.ci-solution.com/fileadmin/downloads/datenschutz/ci-solution_Auftragsverarbeitung_CI-Cloud.pdf) |
 | DIRECCIÓN URL de términos de uso | [https://www.ci-solution.com/agb](https://www.ci-solution.com/agb) |

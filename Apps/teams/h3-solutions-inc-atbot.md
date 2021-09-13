@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AtBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: d71404e66489ba3f1e81ca5f1a1a92c17b36f9e6
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58239748"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288199"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -33,7 +33,7 @@ Información proporcionada por H3 Solutions, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AtBot |
-| Identificador | WA104381219 |
+| Id. | WA104381219 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | H3 Solutions, Inc. |
 | Dirección URL del sitio web de partners | [https://atbot.io](https://atbot.io) |
@@ -55,7 +55,7 @@ H3 Solutions, Inc. ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | aplicación | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
 >| Directory.Read.All | delegado | Nombre de grupo de AAD, GUID de grupo de AAD, UPN | Enumerar grupos de AAD para permitir el recorte de seguridad de las habilidades de bot. Enumerar los usuarios para poder aplicar licencias. Enumerar usuarios para agregar como administradores/colaboradores | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |

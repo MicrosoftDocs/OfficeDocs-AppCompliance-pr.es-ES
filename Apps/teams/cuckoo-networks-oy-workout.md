@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para El entrenamiento de Cuco, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 3544854ed952a23af34da1cc1b0ab82465c0966e
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53610038"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59289389"
 ---
-# <a name="cuckoo-workout"></a>Entrenamiento de cuco
+# <a name="cuckoo-workout"></a>Cuckoo Workout
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Cuckoo Networks Oy a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Entrenamiento de cuco |
+| Nombre de la aplicación | Cuckoo Workout |
 | Id. | WA200002750 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Redes cuco Oy |
+| Nombre de la compañía asociada | Cuckoo Networks Oy |
 | Dirección URL del sitio web de partners | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | Dirección URL de Teams de información de la aplicación | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | Dirección URL de la directiva de privacidad | [https://cuckooworkout.com/service-privacy-policy/](https://cuckooworkout.com/service-privacy-policy/) |
@@ -58,7 +58,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Nombre de usuario, identificador de inquilino para comunicaciones y asignación de suscripción | Nombre de usuario, identificador de inquilino para comunicaciones y asignación de suscripción | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| correo electrónico | delegado | Correo electrónico, necesario para autenticación y soporte técnico | Correo electrónico, necesario para autenticación y soporte técnico | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
+>| email | delegado | Correo electrónico, necesario para autenticación y soporte técnico | Correo electrónico, necesario para autenticación y soporte técnico | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| offline_access | delegado | N/D | N/D | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| OpenID | delegado | Id. de usuario para autenticación | Id. de usuario para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
 >| perfil | delegado | Id. de perfil para autenticación | Id. de perfil para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |

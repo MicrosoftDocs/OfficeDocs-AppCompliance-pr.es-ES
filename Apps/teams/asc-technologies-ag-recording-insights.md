@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el registro de ASC Ideas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: efeac55591daa01827df42e8b473acdea8ee66f5
-ms.sourcegitcommit: 3660f89e183c638979a31c295ac059daa6c387dd
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58391893"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287535"
 ---
-# <a name="asc-recording-insights"></a>Asc Recording Ideas
+# <a name="asc-recording-insights"></a>ASC Recording Insights
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por ASC Technologies AG a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Asc Recording Ideas |
-| ID | WA200000708 |
+| Nombre de la aplicación | ASC Recording Insights |
+| Id. | WA200000708 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ASC Technologies AG |
 | Dirección URL del sitio web de partners | [https://asctechnologies.com/english/index.html](https://asctechnologies.com/english/index.html) |

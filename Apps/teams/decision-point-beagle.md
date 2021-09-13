@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Beagle, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: b2984bceaa4a6c8871c8413aaf19e4f52c7d620c
-ms.sourcegitcommit: 0f47d02fff001cd7cba6a7ab9e276e020cfc053e
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53607664"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59286999"
 ---
 # <a name="beagle"></a>Beagle
 
@@ -35,7 +35,7 @@ Información proporcionada por Decision Point a Microsoft:
 | Nombre de la aplicación | Beagle |
 | Id. | WA200002687 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Punto de decisión |
+| Nombre de la compañía asociada | Decision Point |
 | Dirección URL del sitio web de partners | [https://decisionpoint.ai](https://decisionpoint.ai) |
 | Dirección URL de Teams de información de la aplicación | [https://beagleanalytics.ai](https://beagleanalytics.ai) |
 | Dirección URL de la directiva de privacidad | [https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagl...](https://beagleanalytics.ai/wp-content/uploads/2021/02/Beagle-Privacy-Policy.pdf) |

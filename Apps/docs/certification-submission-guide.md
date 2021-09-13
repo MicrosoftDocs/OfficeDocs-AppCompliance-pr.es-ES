@@ -7,11 +7,11 @@ keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento d
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: b0a207bd8fbe1834e03c08eecb82d3552c75a182
-ms.sourcegitcommit: f33609288c6c59af423367dce2eac3e261c1d297
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58373784"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287671"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -35,7 +35,7 @@ ms.locfileid: "58373784"
 - [Apéndice E](#appendix-e) 
 - [Apéndice F](#appendix-f) 
 - [Apéndice G ](#appendix-g)
-- [Obtener más información](#learn-more) 
+- [Más información](#learn-more) 
 - [Glosario](#glossary) 
 
 
@@ -103,11 +103,11 @@ Cuando se implemente IaaS o PaaS, deberá proporcionar pruebas del entorno que s
 
 Las solicitudes de prueba que admitan la evaluación de certificación deben basarse en una muestra de los componentes del sistema en el ámbito en consideración de los diferentes sistemas operativos, la función principal del dispositivo y los distintos tipos de dispositivo. Al principio del proceso de certificación se seleccionará una muestra adecuada. La siguiente tabla debe usarse como guía sobre el tamaño de la muestra:
 
-|Tamaño de la población              | Ejemplo                  |
+|Tamaño de la población              | Muestra                  |
 |---------------------------- |-------------------------|
-|<5|1 |
-|>5 & <10|2 |
-|>9 & <25|3 |
+|<5|1|
+|>5 & <10|2|
+|>9 & <25|3|
 |>24|4 |
 
 > [!NOTE]

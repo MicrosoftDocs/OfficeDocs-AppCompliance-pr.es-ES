@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Marvel, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8ba6c9b80db76c43793c42d2265fc563402e39cd
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58239734"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288583"
 ---
 # <a name="marvel"></a>Marvel
 
@@ -33,7 +33,7 @@ Información proporcionada por Marvel a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Marvel |
-| Identificador | WA104381801 |
+| Id. | WA104381801 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Marvel |
 | Dirección URL del sitio web de partners | [https://marvelapp.com](https://marvelapp.com) |

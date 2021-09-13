@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Goalhub, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 40639ecd98fcb754eef6286910cdc5972c3ebaf0
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245387"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288527"
 ---
 # <a name="goalhub"></a>Goalhub
 
@@ -33,7 +33,7 @@ Información proporcionada por Momentum Cloud Pty Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Goalhub |
-| Identificador | WA200002400 |
+| Id. | WA200002400 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Momentum Cloud Pty Ltd |
 | Dirección URL del sitio web de partners | [https://www.momentumcloud.com.au](https://www.momentumcloud.com.au) |

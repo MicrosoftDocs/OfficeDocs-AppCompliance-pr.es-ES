@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ArcGIS Mapas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: bdae05936c2a2647c6b4e4f12c17cf060daad289
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243452"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288600"
 ---
 # <a name="arcgis-maps"></a>ArcGIS Maps
 
@@ -32,7 +32,7 @@ Información proporcionada por Esri, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ArcGIS Maps |
-| Identificador | WA200003118 |
+| Id. | WA200003118 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | Esri, Inc. |
 | Dirección URL del sitio web de partners | [https://www.esri.com](https://www.esri.com) |

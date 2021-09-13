@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el sobrenombre de juegos de flujo, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 3e4c0164d4aee94b2019af76aa3b134304f3a471
-ms.sourcegitcommit: 23a1fdeaf3905ab5f7acfbb378c7c23aaedcdc29
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58873973"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287359"
 ---
-# <a name="nickname-by-flowrish-games"></a>alias por juegos flowrish
+# <a name="nickname-by-flowrish-games"></a>nickname by flowrish games
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por room6 a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | alias por juegos flowrish |
+| Nombre de la aplicación | nickname by flowrish games |
 | Id. | WA200003202 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | room6 |

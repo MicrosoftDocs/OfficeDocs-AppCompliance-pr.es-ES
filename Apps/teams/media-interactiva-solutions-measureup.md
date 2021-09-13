@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MeasureUp, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 066526334e1936de0348f06f56239eab3370d0e0
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407639"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59285783"
 ---
 # <a name="measureup"></a>MeasureUp
 
@@ -35,7 +35,7 @@ Información proporcionada por Media Interactiva Solutions a Microsoft:
 | Nombre de la aplicación | MeasureUp |
 | Id. | WA200003111 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Soluciones interactivas de medios |
+| Nombre de la compañía asociada | Media Interactiva Solutions |
 | Dirección URL del sitio web de partners | [https://www.measureup.com](https://www.measureup.com) |
 | Dirección URL de Teams de información de la aplicación | [https://docs.measureup.com](https://docs.measureup.com) |
 | Dirección URL de la directiva de privacidad | [https://www.measureup.com/privacy-policy](https://www.measureup.com/privacy-policy) |

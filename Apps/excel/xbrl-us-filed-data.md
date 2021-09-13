@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para los datos de archivo XBRL, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 71c06644f03598cb265554891a8dc33632be32da
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245374"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288663"
 ---
 # <a name="xbrl-filed-data"></a>Datos de archivo XBRL
 
@@ -32,7 +32,7 @@ Información proporcionada por XBRL US a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Datos de archivo XBRL |
-| Identificador | WA200002591 |
+| Id. | WA200002591 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | XBRL US |
 | Dirección URL del sitio web de partners | [https://xbrl.us](https://xbrl.us) |
@@ -74,7 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->N/D
+>No aplicable
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 

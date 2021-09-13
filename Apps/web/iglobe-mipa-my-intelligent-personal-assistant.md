@@ -9,11 +9,11 @@ certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: My Intelligent Personal Assistant, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 684cd61aec216db5bc60bb92abd2d93963c2138a
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275513"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288495"
 ---
 # <a name="mipa---my-intelligent-personal-assistant"></a>MIPA: Asistente personal inteligente
 

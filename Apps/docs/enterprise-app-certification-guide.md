@@ -7,11 +7,11 @@ keywords: app attestation microsoft 365 certification 365 questionnaire appSourc
 ms.topic: conceptual
 ms.service: attestation
 ms.openlocfilehash: 49bb08fa252a3907df67766dce39ef810381be27
-ms.sourcegitcommit: 44c92cbf86ee358e4fcdf2a51dae5be001345029
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58862043"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287624"
 ---
 # <a name="what-is-microsoft-365-certification"></a>¿Qué es Microsoft 365 certificación?
 

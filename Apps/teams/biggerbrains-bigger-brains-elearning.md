@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el eLearning de Bigger Brains, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 9256e0b115815ac4074057d794646fececd0baf4
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407645"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288759"
 ---
-# <a name="bigger-brains-elearning"></a>Aprendizaje electrónico de cerebros más grandes
+# <a name="bigger-brains-elearning"></a>Bigger Brains eLearning
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Biggerbrains a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Aprendizaje electrónico de cerebros más grandes |
+| Nombre de la aplicación | Bigger Brains eLearning |
 | Id. | WA200002366 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Biggerbrains |

@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Email TeamMate, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 1aecf8fedde78acae86eb654f066bb443ff387ed
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58239771"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288176"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -33,7 +33,7 @@ Información proporcionada por harmon.ie a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Email TeamMate |
-| Identificador | WA200002338 |
+| Id. | WA200002338 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | harmon.ie |
 | Dirección URL del sitio web de partners | [https://harmon.ie](https://harmon.ie) |
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por harmon.ie acerca de cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.Read | delegado | Requerido por TeamMate para obtener miembros de chat de una conversación específica para compartir archivos guardados en una unidad SharePoint/One con los miembros del chat de conversación | ninguno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
 >| Files.ReadWrite.All | delegado | Requerido por TeamMate para guardar datos adjuntos de correo &amp; electrónico en SharePoint / Teams / OneDrive | ninguno | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |

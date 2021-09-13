@@ -9,13 +9,13 @@ certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para la libreta de direcciones de grupo: NextSet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1fe6aa3843708b6fac9f9688575708355d43d6a5
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404843"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59288112"
 ---
-# <a name="group-address-book---nextset"></a>Libreta de direcciones de grupo: NextSet
+# <a name="group-address-book---nextset"></a>Group Address Book - NextSet
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por NextSet,Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Libreta de direcciones de grupo: NextSet |
+| Nombre de la aplicación | Group Address Book - NextSet |
 | Id. | WA200001863 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | NextSet, Inc. |

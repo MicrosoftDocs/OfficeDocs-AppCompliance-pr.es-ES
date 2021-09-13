@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Link Spotter, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 8a6c2ee716c7e07686e2c62e1cd79196acbdc5a3
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407652"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59285903"
 ---
 # <a name="link-spotter"></a>Link Spotter
 
@@ -35,7 +35,7 @@ Información proporcionada por Communardo Products a Microsoft:
 | Nombre de la aplicación | Link Spotter |
 | Id. | WA200003092 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Productos communardo |
+| Nombre de la compañía asociada | Communardo Products |
 | Dirección URL del sitio web de partners | [https://www.communardo.com](https://www.communardo.com) |
 | Dirección URL de Teams de información de la aplicación | [https://communardo.atlassian.net/wiki/spaces/LINK/overview](https://communardo.atlassian.net/wiki/spaces/LINK/overview) |
 | Dirección URL de la directiva de privacidad | [https://www.communardo.com/privacy-statement/](https://www.communardo.com/privacy-statement/) |

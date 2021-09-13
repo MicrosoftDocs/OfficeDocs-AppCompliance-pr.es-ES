@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la solicitud de licencia por parte de LTAPP, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: 2db2812a4ba1c2cd191e181ba16b13563752f90a
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551991"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287448"
 ---
 # <a name="leave-request-by-ltapps"></a>Leave Request by LTAPPs
 
@@ -33,7 +33,7 @@ Información proporcionada por LTAPPs SOFTWARE CO.,LTD a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Leave Request by LTAPPs |
-| ID | WA200001928 |
+| Id. | WA200001928 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | LTAPPs SOFTWARE CO.,LTD |
 | Dirección URL del sitio web de partners | [https://ltaddins.com](https://ltaddins.com) |

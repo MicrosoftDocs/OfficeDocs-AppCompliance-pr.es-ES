@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MyWorkDrive, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 5bea09ee9777395feca68f12a16c6abb7b37a3b3
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52552911"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59287375"
 ---
 # <a name="myworkdrive"></a>MyWorkDrive
 
@@ -33,7 +33,7 @@ Información proporcionada por MyWorkDrive a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MyWorkDrive |
-| ID | WA200002325 |
+| Id. | WA200002325 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MyWorkDrive |
 | Dirección URL del sitio web de partners | [https://www.myworkdrive.com](https://www.myworkdrive.com) |
