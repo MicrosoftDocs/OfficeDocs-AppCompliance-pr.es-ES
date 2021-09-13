@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmileBack, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 01dae9ff795fb4b689a5515bc86f238eab3a8a82
-ms.sourcegitcommit: a44420a99a1a3a9d0e49f4be66f266e2d4ca7bbb
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52551520"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283928"
 ---
 # <a name="smileback"></a>SmileBack
 
@@ -33,7 +33,7 @@ Información proporcionada por SmileBack a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SmileBack |
-| ID | WA200002623 |
+| Id. | WA200002623 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SmileBack |
 | Dirección URL del sitio web de partners | [https://smileback.com](https://smileback.com) |

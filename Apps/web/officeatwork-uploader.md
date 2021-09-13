@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Uploader, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: c42d6784cea1a1ce867c2935b91f30fc3ac2a1f8
-ms.sourcegitcommit: b41944062ede123fa1fadd38706271aae2b01d3f
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275465"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284895"
 ---
 # <a name="uploader"></a>Usuario de carga
 

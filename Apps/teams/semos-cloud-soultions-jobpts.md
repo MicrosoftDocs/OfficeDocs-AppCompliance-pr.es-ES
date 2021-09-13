@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para JobPts, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 22c80e919a07b30f6b65dc055a514e9ce2a1eefc
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404713"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284992"
 ---
 # <a name="jobpts"></a>JobPts
 
@@ -35,7 +35,7 @@ Información proporcionada por Semos Cloud Soultions a Microsoft:
 | Nombre de la aplicación | JobPts |
 | Id. | WA200001849 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Almas en la nube de Semos |
+| Nombre de la compañía asociada | Semos Cloud Soultions |
 | Dirección URL del sitio web de partners | [https://semoscloud.com](https://semoscloud.com) |
 | Dirección URL de Teams de información de la aplicación | [https://semoscloud.com/product/jobpts](https://semoscloud.com/product/jobpts) |
 | Dirección URL de la directiva de privacidad | [https://semoscloud.com/privacy-policy/](https://semoscloud.com/privacy-policy/) |

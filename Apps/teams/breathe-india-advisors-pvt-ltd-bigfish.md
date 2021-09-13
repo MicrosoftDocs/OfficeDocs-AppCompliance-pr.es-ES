@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Bigfish, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 1d156c5b08b9c8e9a22c9a0c40c4a6492610cd8f
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58405063"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284031"
 ---
 # <a name="bigfish"></a>Bigfish
 
@@ -35,7 +35,7 @@ Información proporcionada por Los asesores de La India Desaconsejeras Pvt. Ltd.
 | Nombre de la aplicación | Bigfish |
 | Id. | WA200002985 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Respire India Advisors Pvt. Ltd. |
+| Nombre de la compañía asociada | Breathe India Advisors Pvt. Ltd. |
 | Dirección URL del sitio web de partners | [https://www.bigfishbenefits.com](https://www.bigfishbenefits.com) |
 | Dirección URL de la directiva de privacidad | [https://bigfishbenefits.com/policy.html](https://bigfishbenefits.com/policy.html) |
 | DIRECCIÓN URL de términos de uso | [https://www.bigfishbenefits.com/termsOfUse.html](https://www.bigfishbenefits.com/termsOfUse.html) |

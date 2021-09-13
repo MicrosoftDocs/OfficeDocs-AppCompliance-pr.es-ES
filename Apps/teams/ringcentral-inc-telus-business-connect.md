@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TELUS Business Conectar, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 4dcb3d75594ed7c09736be8e6291bbbead9393ef
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404772"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284007"
 ---
-# <a name="telus-business-connect"></a>TELUS Business Conectar
+# <a name="telus-business-connect"></a>TELUS Business Connect
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por RingCentral, Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | TELUS Business Conectar |
+| Nombre de la aplicación | TELUS Business Connect |
 | Id. | WA200002300 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | RingCentral, Inc. |
@@ -57,9 +57,9 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegado |  Permite que la aplicación envíe el evento de invitaciones a reuniones a través de su calendario | None | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| Calendars.ReadWrite | delegado |  Permite que la aplicación envíe el evento de invitaciones a reuniones a través de su calendario | Ninguno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| User.Read | delegado |  Permite que la aplicación lea un perfil&#8217;de usuario (correo electrónico, nombre) para hacer coincidencias de contacto al final. Y permite al usuario iniciar sesión y vincular su cuenta de O365 con la cuenta ringcentral |  Correo electrónico, nombre, apellido | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read.All | delegado | Permite que la aplicación lea el perfil completo de un usuario con números de teléfono para realizar llamadas telefónicas con nuestros servicios. | None | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read.All | delegado | Permite que la aplicación lea el perfil completo de un usuario con números de teléfono para realizar llamadas telefónicas con nuestros servicios. | Ninguno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | delegado |  Permite a la aplicación obtener y actualizar el token de oauth |  Token de acceso, token de actualización para obtener acceso a MS Graph API | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 
 

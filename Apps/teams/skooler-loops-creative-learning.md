@@ -9,13 +9,13 @@ certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para Loops: Creative Learning, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 00300dd552ae702e226d96721a3e9bfa5258ba39
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58673175"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283943"
 ---
-# <a name="loops---creative-learning"></a>Bucles: Learning
+# <a name="loops---creative-learning"></a>Loops - Creative Learning
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Skooler a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Bucles: Learning |
+| Nombre de la aplicación | Loops - Creative Learning |
 | Id. | WA200003074 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Skooler |

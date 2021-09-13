@@ -9,11 +9,11 @@ certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 145ad1b57c9ad1ee705014c1e098f2f6ffdd9800
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53527738"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284192"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 

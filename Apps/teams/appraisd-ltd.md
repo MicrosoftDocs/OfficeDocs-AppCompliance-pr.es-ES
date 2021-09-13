@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la evaluación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: baebeaa3079fbe38cc9c1fb76f1841059346be9c
-ms.sourcegitcommit: 34fde42f42c623b37d1db154bf348bdc8b76a8c7
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407634"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284111"
 ---
-# <a name="appraisd"></a>Tasación
+# <a name="appraisd"></a>Appraisd
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Appraisd ltd. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Tasación |
+| Nombre de la aplicación | Appraisd |
 | Id. | WA200003123 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appraisd ltd. |

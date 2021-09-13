@@ -9,11 +9,11 @@ certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Content Chooser for Office, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 8c6183fd0573ab38e5bf0b68976380af56133581
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53526026"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59285120"
 ---
 # <a name="officeatwork--content-chooser-for-office"></a>officeatwork | El elegidor de contenido para Office
 

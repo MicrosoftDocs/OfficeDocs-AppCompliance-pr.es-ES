@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmartCite for Papers, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: f039eb5f2fd2cedc6110e380a5830a71472d600e
-ms.sourcegitcommit: ae66ada4d4513555375f046c726093b0947583ee
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "53775031"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283920"
 ---
 # <a name="smartcite-for-papers"></a>SmartCite para documentos
 
@@ -32,7 +32,7 @@ Información proporcionada por Digital Science a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SmartCite para documentos |
-| ID | WA104380917 |
+| Id. | WA104380917 |
 | Office 365 clientes compatibles | Word 2016 o posterior en Mac, Word 2016 o posterior en Windows, Word en la Web |
 | Nombre de la compañía asociada | Ciencia digital |
 | Dirección URL del sitio web de partners | [https://papersapp.com](https://papersapp.com) |

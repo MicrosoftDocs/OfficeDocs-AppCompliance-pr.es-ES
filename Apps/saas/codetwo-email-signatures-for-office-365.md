@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las firmas de correo electrónico codeTwo para Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 79db12fe65495df15e21b46e810abd8bbd017359
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58245371"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284191"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>Firmas de correo electrónico codeTwo para Office 365
 
@@ -32,7 +32,7 @@ Información proporcionada por CodeTwo a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Firmas de correo electrónico codeTwo para Office 365 |
-| Identificador | codetwo.3d2daeb9-a008-4070-a35c-cda39bd30a69 |
+| Id. | codetwo.3d2daeb9-a008-4070-a35c-cda39bd30a69 |
 | Nombre de la compañía asociada | CodeTwo |
 | Dirección URL del sitio web de partners | [https://www.codetwo.com](https://www.codetwo.com) |
 | Dirección URL de la directiva de privacidad | [https://www.codetwo.com/regulations/privacy](https://www.codetwo.com/regulations/privacy) |
@@ -52,7 +52,7 @@ CodeTwo ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea información básica de la organización de los usuarios que han iniciado sesión. | No se almacenan datos. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
 >| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite a la aplicación leer el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea la información empresarial básica de los usuarios que han iniciado sesión. | No se almacenan datos. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |

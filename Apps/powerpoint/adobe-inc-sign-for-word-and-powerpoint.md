@@ -9,11 +9,11 @@ certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para Word y PowerPoint, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
-ms.sourcegitcommit: b1e752ea527ba6049cdc4f5d12cbd5b4dbd7f5b3
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58672217"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284256"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign para Word y PowerPoint
 

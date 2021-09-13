@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Ambition, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: d6c4a598cd115edd52e6dbd37cabd60b7a011aad
-ms.sourcegitcommit: 3621f286e5bbd52acf5e0d9c8e4287fcc8c15e38
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58567318"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284167"
 ---
-# <a name="ambition"></a>Ambición
+# <a name="ambition"></a>Ambition
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Ambition a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Ambición |
+| Nombre de la aplicación | Ambition |
 | Id. | WA200003159 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Ambición |
+| Nombre de la compañía asociada | Ambition |
 | Dirección URL del sitio web de partners | [https://ambition.com](https://ambition.com) |
 | Dirección URL de Teams de información de la aplicación | [https://ambition.com](https://ambition.com) |
 | Dirección URL de la directiva de privacidad | [https://ambition.com/privacy/](https://ambition.com/privacy/) |

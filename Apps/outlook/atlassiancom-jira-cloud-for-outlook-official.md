@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud para Outlook (oficial), sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
 ms.openlocfilehash: b4c7c0bb245c602d1650f13fb231894a86b3e8b0
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53281642"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284263"
 ---
 # <a name="jira-cloud-for-outlook-official"></a>Jira Cloud for Outlook (Official)
 

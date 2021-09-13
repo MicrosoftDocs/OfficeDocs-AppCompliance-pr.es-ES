@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Estructural, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
 ms.openlocfilehash: 311eff24ac87991f640975efeff0373d7afc8a87
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404706"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284967"
 ---
-# <a name="structural"></a>Estructural
+# <a name="structural"></a>Structural
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Structural Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Estructural |
+| Nombre de la aplicación | Structural |
 | Id. | WA200002514 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Structural Inc. |
@@ -57,11 +57,11 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | None | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| email | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | None | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| offline_access | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | None | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| OpenID | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | None | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
->| perfil | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | None | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| Directory.AccessAsUser.All | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| email | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| offline_access | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| OpenID | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
+>| perfil | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa

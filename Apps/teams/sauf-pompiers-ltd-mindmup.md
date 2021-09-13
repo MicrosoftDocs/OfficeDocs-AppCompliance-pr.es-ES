@@ -9,11 +9,11 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMup, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
-ms.sourcegitcommit: 7ef4a79aa28ac4dcce067b1f6f8693eeec6335e9
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58243156"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59283936"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -33,7 +33,7 @@ Información proporcionada por Sauf Pompiers Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MindMup |
-| Identificador | WA200001759 |
+| Id. | WA200001759 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sauf Pompiers Ltd |
 | Dirección URL del sitio web de partners | [https://www.mindmup.com](https://www.mindmup.com) |
@@ -55,7 +55,7 @@ Sauf Pompiers Ltd ha proporcionado esta información sobre cómo esta aplicació
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permission**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Teams.ReadBasic.All | delegado | identificadores de equipo y nombres de equipo para usuarios | Para permitir que el usuario comparta documentos con equipos de los que es miembro | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 >| User.Read | delegado | Identificador de usuario, dirección de correo electrónico que se mostrará después de la autenticación | user identifer, dirección de correo electrónico | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |

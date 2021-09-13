@@ -9,13 +9,13 @@ certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Agenda Boss, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
 ms.openlocfilehash: e2f48c8a563e83f040907acf393d6794264a02cf
-ms.sourcegitcommit: e184ba4652113b5dbae917f1e9ccbe4879a67395
+ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52987870"
+ms.lasthandoff: 09/12/2021
+ms.locfileid: "59284159"
 ---
-# <a name="agenda-boss"></a>Jefe de agenda
+# <a name="agenda-boss"></a>Agenda Boss
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por Appfluence Inc a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Jefe de agenda |
-| ID | WA200002607 |
+| Nombre de la aplicación | Agenda Boss |
+| Id. | WA200002607 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appfluence Inc |
 | Dirección URL del sitio web de partners | [https://agendaboss.com](https://agendaboss.com) |
@@ -58,11 +58,11 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >Esta aplicación no usa Microsoft Graph.
 
 
-#### <a name="non-microsoft-services-used"></a>No servicios de Microsoft se usa
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios de Microsoft no se usan.
+>No se servicios Microsoft no se usan.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
