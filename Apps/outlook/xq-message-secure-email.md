@@ -1,44 +1,43 @@
 ---
-title: Información de la aplicación para Mediatheque+ de CEMEQ inc.
+title: Información de la aplicación para XQ Secure Email by XQ Message
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/26/2021
+ms.date: 07/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Mediatheque+, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el correo electrónico seguro XQ, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7645c55391a224202c418e01ba9661bbd9e0fb5c
+ms.openlocfilehash: 32a27529004dc7c2b5d5981f84466e31a94dec7a
 ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/15/2021
-ms.locfileid: "59353891"
+ms.locfileid: "59353837"
 ---
-# <a name="mediatheque"></a>Mediatheque+
+# <a name="xq-secure-email"></a>XQ Secure Email
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 26, 2021</p>
+<p>Last updated by the developer on: July 4, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d546d064-6146-4341-b997-3a83855cafb3" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003099" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200000090" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por CEMEQ inc. a Microsoft:
+Información proporcionada por XQ Message a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Mediatheque+ |
-| Id. | WA200003099 |
-| Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | CEMEQ inc. |
-| Dirección URL del sitio web de partners | [https://www.cemeq.qc.ca](https://www.cemeq.qc.ca) |
-| Dirección URL de la directiva de privacidad | [https://www.mediatheque.plus/privacy.html](https://www.mediatheque.plus/privacy.html) |
-| DIRECCIÓN URL de términos de uso | [https://www.cemeq.qc.ca/data/themes/cemeq/viewerJS/Conditio...](https://www.cemeq.qc.ca/data/themes/cemeq/viewerJS/ConditionsUtilisationMEDPLUS.pdf) |
+| Nombre de la aplicación | XQ Secure Email |
+| Id. | WA200000090 |
+| Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la Web |
+| Nombre de la compañía asociada | Mensaje XQ |
+| Dirección URL del sitio web de partners | [https://xqmsg.co](https://xqmsg.co) |
+| Dirección URL de la directiva de privacidad | [https://xqmsg.com/privacy.html](https://xqmsg.com/privacy.html) |
+| DIRECCIÓN URL de términos de uso | [https://xqmsg.com/terms.html](https://xqmsg.com/terms.html) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +47,7 @@ Información proporcionada por CEMEQ inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-CEMEQ inc. ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+XQ Message proporciona esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -63,11 +62,6 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >No se servicios Microsoft no se usan.
 
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
-
->No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -80,7 +74,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los administradores tienen acceso a todos los datos necesarios para realizar solicitudes.
+>Revocar claves para descifrar. Desaprovisionar sus cuentas. Registrar transacciones de seguridad.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -108,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-CEMEQ inc. ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+XQ Message ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
