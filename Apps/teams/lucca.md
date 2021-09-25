@@ -1,0 +1,128 @@
+---
+title: Información de la aplicación para Lucca de Lucca
+ms.author: elmalova
+author: elenamalova
+ms.date: 08/23/2021
+ms.topic: article
+ms.service: attestation
+certification_type: attested
+description: Toda la información de seguridad y cumplimiento disponible para Lucca, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: c98f76c08e966923606d9242449f4c11719342b2
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785631"
+---
+# <a name="lucca"></a>Lucca
+
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Last updated by the developer on: August 23, 2021</p>
+
+* <a href="https://teams.microsoft.com/l/app/53628f6a-ac66-4fde-8945-d639c8da4c0d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001650" target="_blank">Ver en AppSource</a>
+
+::: zone pivot="general"
+
+### <a name="general-information"></a>Información general
+
+Información proporcionada por Lucca a Microsoft:
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| Nombre de la aplicación | Lucca |
+| Identificador | WA200001650 |
+| Office 365 clientes compatibles | Microsoft Teams |
+| Nombre de la compañía asociada | Lucca |
+| Dirección URL del sitio web de partners | [https://www.lucca.fr](https://www.lucca.fr) |
+| Dirección URL de la directiva de privacidad | [https://www.lucca.fr/privacy-policy](https://www.lucca.fr/privacy-policy) |
+| DIRECCIÓN URL de términos de uso | [https://cdn2.hubspot.net/hubfs/1582050/3-DOWNLOAD_FILES/Ter...](https://cdn2.hubspot.net/hubfs/1582050/3-DOWNLOAD_FILES/TermsAndConditions.pdf) |
+
+ [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="data"
+
+### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+
+Esta información ha sido proporcionada por Lucca acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| ChannelMember.Read.All | delegado | No se recopilan datos. Las hemos usado para filtrar la planeación para mostrar. Solo los usuarios que están en el canal tienen su planeación mostrada | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| Chat.ReadWrite | aplicación | No se recopilan ni usan datos. La aplicación solo publica un mensaje que contiene ausentes del día | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| Group.Read.All | aplicación | Recopilamos el GroupId para saber en qué grupo debe enviar el mensaje la aplicación con los ausentes.  | Solo almacenamos el GroupId para guardar la configuración que hizo el usuario. Nos permite saber en qué grupo enviar el mensaje | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| User.Read | delegado | Se usa para iniciar sesión en usuarios | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| User.Read.All | aplicación | Se usa para leer perfiles de usuario | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| email | delegado | Se usa para mostrar el correo electrónico del usuario en la pestaña de la aplicación | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| OpenID | delegado | Se usa para iniciar sesión de usuario | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+>| perfil | delegado | Se usa para mostrar el perfil de usuario en la pestaña de la aplicación | No se almacenan datos | [53628f6a-ac66-4fde-8945-d639c8da4c0d](https://docs.microsoft.com/microsoft-365-app-certification/azure/53628f6a-ac66-4fde-8945-d639c8da4c0d) |
+
+
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+
+>No se servicios Microsoft no se usan.
+
+#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
+
+Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+
+>No se tiene acceso a EUII.
+
+
+#### <a name="telemetry-data"></a>Datos de telemetría
+
+¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+
+>No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+
+Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+
+>directiva de usuario final
+
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+
+>No
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="mcas"
+
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Esta información ha sido proporcionada por Lucca acerca de cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

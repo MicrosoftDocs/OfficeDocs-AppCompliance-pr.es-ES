@@ -2,24 +2,24 @@
 title: Información de la aplicación para Evernote de Evernote
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Evernote, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3eaaa3cacc4affc866a967a495687bc53abcfae5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 6965e328f3e976462d900e227a74411599ad959c
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289095"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785310"
 ---
 # <a name="evernote"></a>Evernote
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 16, 2019</p>
+<p>Last updated by the developer on: September 21, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4e1f8576-93d5-4c24-abb5-f02782e00a4e" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381639" target="_blank">Ver en AppSource</a>
@@ -33,12 +33,12 @@ Información proporcionada por Evernote a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Evernote |
-| Id. | WA104381639 |
+| Identificador | WA104381639 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Evernote |
-| Dirección URL del sitio web de partners | [https://evernote.com/](https://evernote.com/) |
-| Dirección URL de Teams de información de la aplicación | [https://help.evernote.com/hc/en-us/articles/360001244667](https://help.evernote.com/hc/en-us/articles/360001244667) |
-| Dirección URL de la directiva de privacidad | [https://evernote.com/privacy](https://evernote.com/privacy) |
+| Dirección URL del sitio web de partners | [https://evernote.com](https://evernote.com) |
+| Dirección URL de Teams de información de la aplicación | [https://evernote.com/about-us](https://evernote.com/about-us) |
+| Dirección URL de la directiva de privacidad | [https://evernote.com/privacy/policy](https://evernote.com/privacy/policy) |
 | DIRECCIÓN URL de términos de uso | [https://evernote.com/legal/terms-of-service](https://evernote.com/legal/terms-of-service) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -75,18 +75,19 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Los datos de OII o EUII aparecen en los registros o telemetría.
+>No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->La consola de administración es donde los administradores de cuentas pueden administrar la información, los usuarios y el contenido de la cuenta de Evernote Business. Algunos de los aspectos que los administradores de cuentas pueden hacer en la consola de administración:
-- Ver resumen de cuenta
-- Agregar y administrar usuarios
-- Ver y administrar espacios, blocs de notas, notas, etiquetas y papelera
-- Ver y administrar la facturación de cuentas, la seguridad y las integraciones https://help.evernote.com/hc/en-us/articles/209005497-Evernote-Business-Admin-Console-Overview
+>Directiva de usuario final, solo envíe datos anónimos. Nunca enviar PII
 
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+
+>No
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,3 +105,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Evernote ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

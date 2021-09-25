@@ -2,24 +2,24 @@
 title: Información de la aplicación para la evaluación por Appraisd ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 09/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la evaluación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: baebeaa3079fbe38cc9c1fb76f1841059346be9c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2ed2853f03b9b3e6e235e87d634fb5c2aafaaec6
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284111"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59784760"
 ---
 # <a name="appraisd"></a>Appraisd
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: August 3, 2021</p>
+<p>Last updated by the developer on: September 7, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/4f037969-20ef-4a41-8330-422b7b115eb6" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003123" target="_blank">Ver en AppSource</a>
@@ -33,13 +33,13 @@ Información proporcionada por Appraisd ltd. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Appraisd |
-| Id. | WA200003123 |
+| Identificador | WA200003123 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appraisd ltd. |
 | Dirección URL del sitio web de partners | [https://www.appraisd.com](https://www.appraisd.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.appraisd.com](https://www.appraisd.com) |
 | Dirección URL de la directiva de privacidad | [https://help.appraisd.com/hc/en-us/articles/360007779298-Pr...](https://help.appraisd.com/hc/en-us/articles/360007779298-Privacy-Policy) |
-| DIRECCIÓN URL de términos de uso | [https://app.appraisd.com/account/terms](https://app.appraisd.com/account/terms) |
+| DIRECCIÓN URL de términos de uso | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

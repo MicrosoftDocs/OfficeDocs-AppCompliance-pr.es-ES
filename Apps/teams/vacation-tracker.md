@@ -2,24 +2,24 @@
 title: Información de la aplicación para el rastreador de vacaciones de Vacation Tracker
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/05/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vacation Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 55d54fbb94141dec562a829fdc647279a3cc006e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7fb611741379a3c4d2f9f7a80708385e1b7f2675
+ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285535"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59785160"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 5, 2021</p>
+<p>Last updated by the developer on: September 15, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/eab5463e-8168-40ee-887a-7ac78de1d266" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002167" target="_blank">Ver en AppSource</a>
@@ -33,7 +33,7 @@ Información proporcionada por Vacation Tracker a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Vacation Tracker |
-| Id. | WA200002167 |
+| Identificador | WA200002167 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Vacation Tracker |
 | Dirección URL del sitio web de partners | [https://vacationtracker.io](https://vacationtracker.io) |
@@ -127,20 +127,7 @@ Vacation Tracker ha proporcionado esta información sobre cómo esta aplicación
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
