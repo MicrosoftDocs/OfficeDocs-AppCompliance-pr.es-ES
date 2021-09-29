@@ -1,45 +1,44 @@
 ---
-title: Información de la aplicación para qbo por Unscrambl
+title: Información de la aplicación para el Administrador de contenido de Colligo Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para qbo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
+description: Toda la información de seguridad y cumplimiento disponible para el Administrador de contenido, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 7392dc618ff6f22b935b5760e97d72155ea41660
 ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992080"
+ms.locfileid: "59992242"
 ---
-# <a name="qbo"></a>qbo
+# <a name="content-manager"></a>Administrador de contenido
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 28, 2021</p>
+<p>Last updated by the developer on: June 14, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/834c6939-152c-450b-a305-c65b4dd5d1c7" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001708" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/36ad88c6-ffce-4c52-a5a5-3eae64ed65bf" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003250" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Unscrambl a Microsoft:
+Información proporcionada por Colligo Inc a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | qbo |
-| Identificador | WA200001708 |
+| Nombre de la aplicación | Administrador de contenido |
+| Identificador | WA200003250 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Unscrambl |
-| Dirección URL del sitio web de partners | [https://unscrambl.com](https://unscrambl.com) |
-| Dirección URL de Teams de información de la aplicación | [https://qbo.ai](https://qbo.ai) |
-| Dirección URL de la directiva de privacidad | [https://qbo.ai/legal/](https://qbo.ai/legal/) |
-| DIRECCIÓN URL de términos de uso | [https://qbo.ai/legal/#service](https://qbo.ai/legal/#service) |
+| Nombre de la compañía asociada | Colligo Inc |
+| Dirección URL del sitio web de partners | [https://www.colligo.com](https://www.colligo.com) |
+| Dirección URL de la directiva de privacidad | [https://www.colligo.com/product-policy/](https://www.colligo.com/product-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.colligo.com/media/Colligo-Software-License-Agre...](https://www.colligo.com/media/Colligo-Software-License-Agreement-Schedule-A.pdf) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,7 +48,7 @@ Información proporcionada por Unscrambl a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Unscrambl ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Colligo Inc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -63,7 +62,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API de Bot Framework | Sí | Nombre de dominio, como se identifica desde el correo electrónico de un usuario | Recopilamos correo electrónico para enviar un informe, si así lo desea el usuario. | Solo correo electrónico | Almacenado como parte del perfil de usuario |
+>| CSOM de SharePoint | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
@@ -75,9 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Tenemos una funcionalidad de aplicación que permite a un usuario enviar por correo electrónico un PDF de informes a sí mismo. | dirección de correo electrónico | Tenemos una funcionalidad de aplicación que permite a un usuario enviar por correo electrónico un PDF de informes a sí mismo, esto se almacena como parte del perfil de usuario. |
+>No se tiene acceso a EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -90,7 +87,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Estos datos se almacenan en una MariaDB, hospedada en una máquina virtual en Azure (sudeste asiático). El acceso a la máquina virtual está restringido por IP, protegido con contraseña y el acceso a la base de datos también está protegido con contraseña.
+>Mover documentos del equipo de usuarios a uno de los destinos seleccionados por el usuario (SharePoint Online, Teams y OneDrive)
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -106,9 +103,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36419" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -118,11 +115,24 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Unscrambl ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Colligo Inc ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Autenticación multifactor |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de vista previa? | No |
+| ¿La aplicación usa API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
