@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 97b804bfa38f75b5cb615fa9d410f90d3809c635
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: eface3779c8df01a720d7b7528361f504a01e0db
+ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59783370"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59992090"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -30,6 +30,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Panel de tareas ágil](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ambition](./ambition.md) | Ambition | **✓** |  |
+| [AMEX GBT](./30secondstofly-thailand-co-ltd-amex-gbt.md) | 30SecondsToFly (Tailandia) Co Ltd | **✓** |  |
 | [Amplify de Hootsuite](./hootsuite-inc-amplify-by.md) | Hootsuite Inc. | **✓** |  |
 | [AmTrav Business Travel](./amtrav-business-travel.md) | AmTrav | **✓** |  |
 | [Appraisd](./appraisd-ltd.md) | Appraisd ltd. | **✓** |  |
@@ -74,6 +75,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Calendar Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [CalendarHero](./calendarhero-inc.md) | CalendarHero Inc | **✓** |  |
 | [Canary](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
+| [Casedoc Virtual Hearing](./casedoc-virtual-hearing.md) | Casedoc | **✓** |  |
 | [CatchEm](./chimu-software-catchem.md) | Chimu Software | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [Chronoscope Time Tracking](./chrono-innovation-chronoscope-time-tracking.md) | Chrono Innovation | **✓** |  |
@@ -97,6 +99,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Confluence Connector](./move-work-forward-confluence-connector.md) | Avance el trabajo | **✓** |  |
 | [Conéctese+](./reward-gateway-connectplus.md) | Reward Gateway | **✓** |  |
 | [Contact Center](./landis-technologies-llc-contact-center.md) | Landis Technologies LLC | **✓** |  |
+| [Content Manager](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
 | [CSOD Learn](./cornerstone-ondemand-csod-learn.md) | Cornerstone OnDemand | **✓** |  |
 | [Cuckoo Workout](./cuckoo-networks-oy-workout.md) | Cuckoo Networks Oy | **✓** |  |
@@ -169,6 +172,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Hoylu](./hoylu.md) | Hoylu | **✓** |  |
 | [HunchBuzz](./hunchbuzz.md) | HunchBuzz | **✓** |  |
 | [Hyperproof](./hyperproof.md) | Hyperproof | **✓** |  |
+| [iManage](./imanage.md) | iManage | **✓** |  |
 | [En caso de crisis](./rockdove-solutions-inc-in-case-of-crisis.md) | RockDove Solutions, Inc. | **✓** |  |
 | [InCaseIT](./pilotech-as-incaseit.md) | Pilotech AS | **✓** |  |
 | [IndustryIntel](./industry-intelligence-team-industryintel.md) | Industry Intelligence Team | **✓** |  |
@@ -255,6 +259,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [PostBeyond](./postbeyond.md) | PostBeyond | **✓** |  |
 | [Powell Teams](./powell-software-teams.md) | Powell Software | **✓** |  |
 | [Colaboración de Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
+| [Presentations AI](./infographfx-technologies-presentations-ai.md) | Infographfx technologies | **✓** |  |
 | [Prezi Video](./prezi-video.md) | Prezi | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -275,6 +280,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
+| [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
 | [Retro](./baltic-amadeus-retro.md) | Baltic Amadeus | **✓** |  |
 | [Rezolve.ai](./actionable-science-rezolveai.md) | Paso que se puede accionar | **✓** |  |
 | [bot de chat RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
@@ -322,6 +328,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
 | [Standuply](./standuply-inc.md) | Standuply Inc. | **✓** |  |
+| [Staple](./crowd-cast-ltd-staple.md) | Crowd Cast, Ltd. | **✓** |  |
 | [StarLeaf](./starleaf.md) | StarLeaf | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
