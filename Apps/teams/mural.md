@@ -2,24 +2,24 @@
 title: Información de la aplicación para MURAL by MURAL
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 09/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MURAL, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3b940d83a9095e92424c4f18480507469526e9c1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 58349e188a709d1f74a3a3b6426ca4b4a34c34d4
+ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287392"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60233624"
 ---
 # <a name="mural"></a>MURAL
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 23, 2020</p>
+<p>Last updated by the developer on: September 22, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c738b607-88dd-4f16-aefe-6a824c65d25d" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381626" target="_blank">Ver en AppSource</a>
@@ -33,12 +33,12 @@ Información proporcionada por MURAL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MURAL |
-| Id. | WA104381626 |
+| ID | WA104381626 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MURAL |
-| Dirección URL del sitio web de partners | [https://mural.co/](https://mural.co/) |
-| Dirección URL de Teams de información de la aplicación | [https://support.mural.co/](https://support.mural.co/) |
-| Dirección URL de la directiva de privacidad | [https://mural.co/terms/privacy-policy](https://mural.co/terms/privacy-policy) |
+| Dirección URL del sitio web de partners | [https://mural.co](https://mural.co) |
+| Dirección URL de Teams de información de la aplicación | [https://support.mural.co](https://support.mural.co) |
+| Dirección URL de la directiva de privacidad | [https://mural.co/terms/privacy-policy/](https://mural.co/terms/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://mural.co/terms](https://mural.co/terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -62,13 +62,17 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
+>| Compartimos la información con nuestros subprocesadores. Puede verlos aquí: https://www.mural.co/terms/subprocessors | Compartimos la información con nuestros subprocesadores. Puede verlos aquí: https://www.mural.co/terms/subprocessors | Compartimos la información con nuestros subprocesadores. Puede verlos aquí: https://www.mural.co/terms/subprocessors |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
 
->No se tiene acceso a EUII.
+>| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>|:---------------------------------------|:-----------------------------------|:------------------------------------|
+>| Recopilamos el identificador de usuario para eventos y nombre, apellidos, correo electrónico en el flujo de registro. | Id. de usuario, nombre, apellidos y correo electrónico | Recopilamos el identificador de usuario para eventos y nombre, apellidos, correo electrónico en el flujo de registro. |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -83,6 +87,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 >Los administradores pueden administrar usuarios, eliminarlos, eliminar los murales, etc. La directiva de usuario está aquí: https://mural.co/terms
 
+#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
+
+¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+
+>Sí
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,3 +109,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+ESTA información ha sido proporcionada por MURAL sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

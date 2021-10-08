@@ -85,6 +85,8 @@
           href: outlook/ci-solution-gmbh-signature.md
         - name: CodeTwo para Outlook
           href: outlook/codetwo-for-outlook.md
+        - name: Commuty
+          href: outlook/commuty.md
         - name: Evernote
           href: outlook/evernote.md
         - name: harmon.ie para Outlook
@@ -667,7 +669,7 @@
           href: teams/teamschamp-playquiz-aprende-and-juega.md
         - name: Polly
           href: teams/polly.md
-        - name: Conector VoIP en la nube POPP
+        - name: Conector de voz sobre IP (VoIP) en la nube de POPP
           href: teams/popp-communications-cloud-voip-connector.md
         - name: PostBeyond
           href: teams/postbeyond.md
@@ -875,7 +877,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Trabajo en equipo
+        - name: Teamwork
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1059,6 +1061,8 @@
           href: saas/elearningforce-international-aps-lms365.md
         - name: 'MIPA: Asistente personal inteligente'
           href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+        - name: MyHub para Teams
+          href: saas/avepoint-inc-myhub-for-teams.md
         - name: Office2SharePoint
           href: saas/iglobe-office2sharepoint.md
         - name: Priority Matrix
