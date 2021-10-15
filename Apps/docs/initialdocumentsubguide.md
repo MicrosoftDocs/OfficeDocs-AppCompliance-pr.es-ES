@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 de cumplimiento de seguridad m365 envío inicial de documentos
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: f8b45c5130d4c4a231f2d7ce7b1bc6992757bf46
-ms.sourcegitcommit: 1e461d44be2da90b41fdcb60b35a6a180d52c9d6
+ms.openlocfilehash: 0352b64649d87b40d185a2bc06ce23da6cf341ef
+ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59497154"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60378818"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification: Guía de envío de documentos iniciales
 
@@ -24,9 +24,25 @@ Incluya el informe completo de pruebas de penetración con fechas que acrediten 
 -   Este informe debe incluir el entorno que admite la implementación de la aplicación o la adición junto con cualquier entorno adicional que admita el funcionamiento de la aplicación o los complementos.
 
 
+## <a name="system-component-inventory"></a>Inventario de componentes del sistema
+
+Un inventroy actualizado de todos los componentes del sistema usados por la infraestructura de soporte. Esto se usará para ayudar con el muestreo al realizar la fase de evaluación. Si el entorno incluye PaaS, sería útil proporcionar detalles de todos los servicios paaS consumidos.
+
+**Nota:** IaaS/PaaS no tendría ningún hardware que esté bajo el control ISV.  En este caso, proporcione una lista o captura de pantalla de todos los recursos viruales.
+
+**Ejemplo:**
+
+|Nombre del activo|    Tipo de activo| Descripción|    Fabricante|   Model|
+|-|-|-|-|-|
+|D212|  Windows  Máquina|   Máquina virtual|    N/D| N/D|
+|LT101| Portátiles| Estación de trabajo|    Microsoft|  Surface 3|
+|C2938| Modificador| Modificador|N/D|N/D|     
+|LXM2|  Máquina linux|  Máquina de prueba|N/D|N/D|       
+
+
 ## <a name="software-inventory"></a>Inventario de software
 
-Un inventario de software actualizado que incluye todo el software usado en el entorno del ámbito junto con las versiones.
+Un inventario actualizado de todos los activos de software, incluidos todos los software usados en el entorno del ámbito, junto con las versiones.
 
 **Ejemplo:**
 
@@ -40,23 +56,7 @@ Un inventario de software actualizado que incluye todo el software usado en el e
 |IIS|   Microsoft|  10.0|   Admite las API.|
 
 
-## <a name="hardware-inventory"></a>Inventario de hardware
-
-Un inventario de hardware actualizado usado por la infraestructura de soporte técnico. Esto se usará para ayudar con el muestreo al realizar la fase de evaluación. Si el entorno incluye PaaS, sería útil proporcionar detalles de todos los servicios paaS consumidos.
-
-**Nota:** IaaS/PaaS no tendría ningún hardware que esté bajo el control ISV.  
-
-**Ejemplo:**
-
-|Nombre del activo|    Tipo de activo| Descripción|    Fabricante|   Model|
-|-|-|-|-|-|
-|D212|  Windows  Máquina|   Máquina virtual|    N/D| N/D|
-|LT101| Portátiles| Estación de trabajo|    Microsoft|  Surface 3|
-|C2938| Modificador| Modificador|N/D|N/D|     
-|LXM2|  Máquina linux|  Máquina de prueba|N/D|N/D|       
-
-
-## <a name="web-dependencies"></a>Dependencias web
+## <a name="third-party-dependencies"></a>Dependencias de terceros
 
 Documentación que enumera todas las dependencias usadas por la aplicación o el complemento con las versiones en ejecución actuales.
 
