@@ -2,18 +2,18 @@
 title: Información de la aplicación para MeaningCloud Text Analytics para Excel por MeaningCloud
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/29/2020
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MeaningCloud Text Analytics para Excel, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d1361025e7379890dac4921e6a05737d381513e0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7f35702530ddb9b9f4fed03e3f2594e97ab41b3b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286783"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414214"
 ---
 # <a name="meaningcloud-text-analytics-for-excel"></a>MeaningCloud Text Analytics para Excel
 
@@ -111,3 +111,4 @@ MeaningCloud ha proporcionado esta información sobre cómo esta aplicación adm
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

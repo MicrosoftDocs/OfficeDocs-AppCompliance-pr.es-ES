@@ -2,18 +2,18 @@
 title: Información de la aplicación para FireWatch de Infographics UK Ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/29/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para FireWatch, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: af093437be4542d0ffb9e00e6f27623961ef9673
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+ms.openlocfilehash: 4d8834b9f87199517fc355d9f7c7560d7d63ee32
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112310"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413792"
 ---
 # <a name="firewatch"></a>FireWatch
 
@@ -33,7 +33,7 @@ Información proporcionada por Infographics UK Ltd. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | FireWatch |
-| ID | WA200003303 |
+| Id. | WA200003303 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Infographics UK Ltd. |
 | Dirección URL del sitio web de partners | [https://www.infographics.co.uk](https://www.infographics.co.uk) |
@@ -93,17 +93,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,3 +107,4 @@ Infographics UK Ltd. ha proporcionado esta información sobre cómo esta aplicac
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

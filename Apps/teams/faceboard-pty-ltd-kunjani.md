@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Kunjani, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2ec75882d07a0a00d85f4af8faadd3f8cdab952a
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: 59123d065a1e7150f86b59b8c1a50938666614e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60285997"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415137"
 ---
 # <a name="kunjani"></a>Kunjani
 
@@ -102,17 +102,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -127,3 +116,4 @@ FACEBOARD (PTY) LTD ha proporcionado esta información sobre cómo esta aplicaci
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

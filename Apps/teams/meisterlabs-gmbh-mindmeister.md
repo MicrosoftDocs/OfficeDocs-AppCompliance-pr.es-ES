@@ -2,18 +2,18 @@
 title: Información de la aplicación para MindMeister de MeisterLabs GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 10/31/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMeister, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 75177ef60be80889a14c75fbb76bc1d4aaa9aa49
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 6b36f41be86496cdca75a77d9564b2c13e5536b3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285768"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413712"
 ---
 # <a name="mindmeister"></a>MindMeister
 
@@ -55,9 +55,9 @@ MeisterLabs GmbH ha proporcionado esta información sobre cómo esta aplicación
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | Id. de AAD, identificador de inquilino, correo electrónico, displayName: para poder identificar cada usuario dentro de nuestra aplicación y poder vincular los datos específicos de MindMeister con un usuario de Microsoft (es decir, qué mapas pertenecen a qué usuario). | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
+>| User.Read | delegado | AAD ID, Tenant ID, email, displayName: para poder identificar cada usuario dentro de nuestra aplicación y poder vincular los datos específicos de MindMeister con un usuario de Microsoft (es decir, qué mapas pertenecen a qué usuario). | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | [d312ff80-0c2b-42ad-887b-c6392bcf6353](https://docs.microsoft.com/microsoft-365-app-certification/azure/d312ff80-0c2b-42ad-887b-c6392bcf6353) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -108,4 +108,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

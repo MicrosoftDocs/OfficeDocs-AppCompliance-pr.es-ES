@@ -2,18 +2,18 @@
 title: 'Información de la aplicación para el seguimiento de facturas y horas: zoho invoice by Zoho Corporation Private Limited'
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para el seguimiento de facturas y horas: Factura Zoho, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3879f8b00191c9dbd9f712e685430d0360bb74fb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 657663aaae99a7a11efb113ea8b598714cd5e075
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288832"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413201"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Seguimiento de factura y tiempo: factura de Zoho
 
@@ -53,7 +53,7 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Contacts.Read | delegado |  |  Permitir que los usuarios sincronicen contactos de Office365 con Zoho Invoice. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
 >| Mail.Read | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
@@ -101,4 +101,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

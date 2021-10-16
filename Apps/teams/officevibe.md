@@ -2,18 +2,18 @@
 title: Información de aplicaciones para Officevibe por Officevibe
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/30/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Officevibe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 968e5ba9e3144e4dd987e63af0480311ab7f4cab
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5aad81602d2ebe11505782ff09355f8fb7c23c10
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287832"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415017"
 ---
 # <a name="officevibe"></a>Officevibe
 
@@ -55,7 +55,7 @@ Officevibe ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
 >| Group.Read.All | delegado | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | Correo electrónico, nombre, imagen: para crear el usuario en Officevibe. Grupo vinculado a todos los usuarios: Para tener una introducción a la organización. Nombre del &amp; inquilino de id. de inquilino: para configurar la organización en Officevibe | [3e500164-df82-4d1e-9db8-0901e07d374d ](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e500164-df82-4d1e-9db8-0901e07d374d ) |
@@ -126,3 +126,4 @@ Officevibe ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para Senso por Senso
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Senso, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a44620633f9eee6c5d5e18997a58158a16c5e801
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c517e652c97ba8a74cbadd9b6121084dd40c5394
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286919"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414466"
 ---
 # <a name="senso"></a>Senso
 
@@ -55,7 +55,7 @@ Senso ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | aplicación | Lea los nombres y descripciones de canales de todos los canales para identificar dónde se marcó una infracción.   | Cuando se produce una infracción, se registra el nombre del remitente (De), los nombres de los destinatarios (Para), el nombre del canal, la fecha, la hora y los mensajes de ese canal de chat para proporcionar contexto a una infracción.  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
 >| ChannelMember.Read.All | aplicación | Lea la lista de miembros y los mensajes de chat de todos los canales. | Cuando se produce una infracción, se registra el nombre del remitente (De), los nombres de los destinatarios (Para), el nombre del canal, la fecha, la hora y los mensajes de ese canal de chat para proporcionar contexto a una infracción.  | [a9d28fcf-036e-4a85-9003-332303e3a29b](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9d28fcf-036e-4a85-9003-332303e3a29b) |
@@ -144,3 +144,4 @@ Senso ha proporcionado esta información sobre cómo esta aplicación administra
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

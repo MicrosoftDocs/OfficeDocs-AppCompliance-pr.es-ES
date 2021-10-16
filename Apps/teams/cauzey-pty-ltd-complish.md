@@ -2,18 +2,18 @@
 title: Información de la aplicación para complish de Cauzey Pty Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/17/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Complish, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d9cd325ef8585b5cdc6da00f4f0f40a306cf1b21
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0e0cf863ccdccd332af7e3ccd07283a203695cc5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289399"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414766"
 ---
 # <a name="complish"></a>Complish
 
@@ -118,3 +118,4 @@ Cauzey Pty Ltd ha proporcionado esta información sobre cómo esta aplicación a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

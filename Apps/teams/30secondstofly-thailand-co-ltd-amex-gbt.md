@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AMEX GBT, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9c29a455decb6d37a7f0477cf12ed9ba79b68b31
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: 1418e2acfec4f183e9557a9f722b80ef51d5a169
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992278"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413934"
 ---
 # <a name="amex-gbt"></a>AMEX GBT
 
@@ -33,7 +33,7 @@ Información proporcionada por 30SecondsToFly (Tailandia) Co Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AMEX GBT |
-| Identificador | WA200003272 |
+| Id. | WA200003272 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 30SecondsToFly (Tailandia) Co Ltd |
 | Dirección URL del sitio web de partners | [https://www.amexglobalbusinesstravel.com](https://www.amexglobalbusinesstravel.com) |
@@ -92,17 +92,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

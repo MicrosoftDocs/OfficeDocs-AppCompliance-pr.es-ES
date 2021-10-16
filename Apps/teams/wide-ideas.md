@@ -2,18 +2,18 @@
 title: Información de la aplicación para ideas extensas por Wide Ideas
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wide Ideas, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7c19fc9906f46fcd3e7561c38d68ed202dd0c87d
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 075136dcf0c7e03d3f70461490f1b8c181478c43
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59783340"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414376"
 ---
 # <a name="wide-ideas"></a>Wide Ideas
 
@@ -33,7 +33,7 @@ Información proporcionada por Wide Ideas a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wide Ideas |
-| Identificador | WA200000819 |
+| Id. | WA200000819 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Wide Ideas |
 | Dirección URL del sitio web de partners | [https://getwideideas.com](https://getwideideas.com) |
@@ -54,7 +54,7 @@ Wide Ideas ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.Create | delegado | Para crear un canal en un equipo.  | Almacenamos el identificador de canal para el desafío creado.  | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
 >| Directory.Read.All | delegado | Lo usamos para enumerar usuarios del directorio de clientes  | N/D | [b0656c15-44aa-4aab-8956-bb97e3016535](https://docs.microsoft.com/microsoft-365-app-certification/azure/b0656c15-44aa-4aab-8956-bb97e3016535) |
@@ -91,7 +91,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Almacenamiento de datos: todos los datos del cliente se almacenan en Microsoft Azure servicios. Los usuarios deben ser autenticados con 2 factores a través de Azure AD. El acceso basado en roles (RBAC) está en su lugar. Todo el acceso a Microsoft Azure se realiza estrictamente a través de conexiones cifradas. Todos los datos se cifran en reposo. Todos los servicios están protegidos por la práctica recomendada del Centro de seguridad de Azure. 
+>Almacenamiento de datos: todos los datos del cliente se almacenan en Microsoft Azure servicios. Los usuarios deben ser autenticados con 2 factores Azure AD. El acceso basado en roles (RBAC) está en su lugar. Todo el acceso a Microsoft Azure se realiza estrictamente a través de conexiones cifradas. Todos los datos se cifran en reposo. Todos los servicios están protegidos por la práctica recomendada del Centro de seguridad de Azure. 
 
 También tenemos una directiva de acceso en su lugar de acuerdo con el principio de privilegios mínimos. 
 
@@ -144,3 +144,4 @@ Esta información ha sido proporcionada por Wide Ideas acerca de cómo esta apli
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

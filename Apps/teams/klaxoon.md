@@ -2,18 +2,18 @@
 title: Información de la aplicación para Klaxoon por Klaxoon
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/31/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Klaxoon, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 877d465d1facc21ed12d29f92e94d66071e8dc51
-ms.sourcegitcommit: 400dc76d16649c45cc4bc1b45dee07ba3661f890
+ms.openlocfilehash: 36ffe7ca9e98d03f40cd3064b117ef83c3020db7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "59349506"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414586"
 ---
 # <a name="klaxoon"></a>Klaxoon
 
@@ -97,17 +97,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -134,3 +123,4 @@ Klaxoon ha proporcionado esta información sobre cómo esta aplicación controla
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

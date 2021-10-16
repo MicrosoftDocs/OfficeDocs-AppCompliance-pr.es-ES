@@ -2,18 +2,18 @@
 title: Información de aplicaciones para Verto 365 por TMI Systems
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/13/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Verto 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a916afa97cc18603de2faf2d1604e0e59f1b148d
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: c82879bb30fc4c24b6e4f4bdb9103a2fe2290286
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59438475"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414426"
 ---
 # <a name="verto-365"></a>Verto 365
 
@@ -33,7 +33,7 @@ Información proporcionada por TMI Systems a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Verto 365 |
-| Identificador | WA200003230 |
+| Id. | WA200003230 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sistemas TMI |
 | Dirección URL del sitio web de partners | [https://www.vertocloud.co.uk](https://www.vertocloud.co.uk) |
@@ -55,7 +55,7 @@ TMI Systems ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Información general del usuario, nombre, apellido &amp; email. Se usa para crear una cuenta. | Firstname, Surname, Email, OID. Se usa para crear una cuenta en la base de datos, OID se usa para asociar un inicio de sesión con una cuenta de Verto. | [d8843264-a57b-41e3-aea6-b83ea56f6bd6](https://docs.microsoft.com/microsoft-365-app-certification/azure/d8843264-a57b-41e3-aea6-b83ea56f6bd6) |
 >| email | delegado | Información general del usuario, nombre, apellido &amp; email. Se usa para crear una cuenta. | Firstname, Surname, Email, OID. Se usa para crear una cuenta en la base de datos, OID se usa para asociar un inicio de sesión con una cuenta de Verto. | [d8843264-a57b-41e3-aea6-b83ea56f6bd6](https://docs.microsoft.com/microsoft-365-app-certification/azure/d8843264-a57b-41e3-aea6-b83ea56f6bd6) |
@@ -99,17 +99,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -137,3 +126,4 @@ TMI Systems ha proporcionado esta información sobre cómo esta aplicación admi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

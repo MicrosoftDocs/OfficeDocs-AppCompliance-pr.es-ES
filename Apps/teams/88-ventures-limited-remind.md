@@ -2,18 +2,18 @@
 title: Información de la aplicación para Remind by 88 Ventures Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Remind, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f39e0c35b88e3212743e30c7ab5ac40c74c708c3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e44cb7a148a9cd1c6a1b1c497863eaced9259f41
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284175"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412009"
 ---
 # <a name="remind"></a>Remind
 
@@ -54,7 +54,7 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | no hay información almacenada en la base de datos | permite al administrador examinar el directorio de usuarios de la organización para los usuarios que han establecido avisos públicos | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
 
@@ -107,4 +107,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

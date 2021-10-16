@@ -2,18 +2,18 @@
 title: Información de aplicaciones para netDocShare de TECNOLOGÍAS de software DE KIT
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para netDocShare, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c8e050b7ecf4f4b4b3156e571d6afdcd75a6ceb2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 853e192cc9e76faf2b8634723cf81e256fcd7140
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287856"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412900"
 ---
 # <a name="netdocshare"></a>netDocShare
 
@@ -80,7 +80,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los datos de la aplicación se almacenan en NoSQL Mongo DB hospedados en Microsoft Azure. Los datos están cifrados y solo dos administradores de nuestro inquilino de Azure tienen acceso a ellos. 2FA está habilitado para todas las cuentas de administración y ambas cuentas de administración son cuentas de usuario corporativas de Azure AD
+>Los datos de la aplicación se almacenan en NoSQL Mongo DB hospedados en Microsoft Azure. Los datos están cifrados y solo dos administradores de nuestro inquilino de Azure tienen acceso a ellos. 2FA está habilitado para todas las cuentas de administración y ambas cuentas de administración son cuentas Azure AD cuentas de usuario corporativas
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -103,4 +103,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

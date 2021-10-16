@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wunder365 para Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab9ea33824f66afecc8af8df74754fc7f2dd6d43
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 22da4d3ff5dbfc02a1d9609b1d618a9d1b4d939c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287544"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414224"
 ---
 # <a name="wunder365-for-office"></a>Wunder365 para Office
 
@@ -53,7 +53,7 @@ JiJi Technologies Private Limited ha proporcionado esta información sobre cómo
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegado | No hay datos almacenados. | Para obtener/actualizar tareas de Planner, publique actualizaciones de tareas en el canal de grupo | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
 >| Mail.Send | delegado | No hay datos almacenados. | Permitir que la aplicación envíe notificaciones por correo electrónico a los usuarios | [3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c](https://docs.microsoft.com/microsoft-365-app-certification/azure/3c95a8b6-b71c-4c4a-8a1a-c7b9b80d9e9c) |
@@ -81,7 +81,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Todas las aplicaciones web y Storage se encuentran en una suscripción que no está conectada a nuestra empresa AAD con solo administradores que tienen acceso a los recursos. Se requiere 2FA para estos administradores. 
+>Todas las aplicaciones web y Storage se encuentran en una suscripción que no está conectada a nuestra empresa AAD solo con administradores que tienen acceso a los recursos. Se requiere 2FA para estos administradores. 
 
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
@@ -118,7 +118,7 @@ JiJi Technologies Private Limited ha proporcionado esta información sobre cómo
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumerar los tipos de directivas admitidas | Requerir autenticación multifactor para usuarios con roles administrativos, Requerir autenticación multifactor para tareas de administración de Azure, Bloquear inicios de sesión para usuarios que intenten usar protocolos de autenticación heredados, Requerir ubicaciones de confianza para el registro de Autenticación multifactor de Azure AD, Bloquear o conceder acceso desde ubicaciones específicas, Bloquear el comportamiento de inicio de sesión arriesgado |
+| Enumerar los tipos de directivas admitidas | Requerir autenticación multifactor para usuarios con roles administrativos, Requerir autenticación multifactor para tareas de administración de Azure, Bloquear inicios de sesión para usuarios que intenten usar protocolos de autenticación heredados, Requerir ubicaciones de confianza para un registro de autenticación multifactor, Bloquear o conceder acceso Azure AD desde ubicaciones específicas, Bloquear el comportamiento de inicio de sesión arriesgado |
 | ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
 | ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
@@ -132,3 +132,4 @@ JiJi Technologies Private Limited ha proporcionado esta información sobre cómo
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

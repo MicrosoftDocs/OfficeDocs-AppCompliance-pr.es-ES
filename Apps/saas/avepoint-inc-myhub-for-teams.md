@@ -2,18 +2,18 @@
 title: Información de aplicación para MyHub para Teams por AvePoint Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/29/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MyHub para Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a815018ce2128fbe3fcff00310e7599a96f56464
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: a19a24cc9178bbbaa16b337cd92fc11686d8d09c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60234102"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412640"
 ---
 # <a name="myhub-for-teams"></a>MyHub para Teams
 
@@ -32,7 +32,7 @@ Información proporcionada por AvePoint Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MyHub para Teams |
-| ID | avepoint.myhubforteams |
+| Id. | avepoint.myhubforteams |
 | Nombre de la compañía asociada | AvePoint Inc. |
 | Dirección URL del sitio web de partners | [https://www.avepoint.com](https://www.avepoint.com) |
 | Dirección URL de la directiva de privacidad | [https://www.avepoint.com/company/privacy-policy](https://www.avepoint.com/company/privacy-policy) |
@@ -52,7 +52,7 @@ AvePoint Inc. ha proporcionado esta información sobre cómo esta aplicación re
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer datos del directorio | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 >| Group.ReadWrite.All | ambos | Los datos de configuración de la aplicación se almacenan desde un punto de vista de control de datos | Leer y escribir en todos los grupos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
@@ -95,17 +95,6 @@ Solo los administradores autorizados pueden acceder a los datos. Se requiere MFA
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -133,3 +122,4 @@ AvePoint Inc. ha proporcionado esta información sobre cómo esta aplicación co
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

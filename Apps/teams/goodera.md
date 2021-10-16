@@ -2,18 +2,18 @@
 title: Información de la aplicación para Goodera de Goodera
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/09/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Goodera, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ca4ac668f6eec944a1fc697568ddd637240130cc
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e497a3be7a795e83556a527179d28b5fe40cb0df
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286176"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414616"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -119,3 +119,4 @@ Goodera ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

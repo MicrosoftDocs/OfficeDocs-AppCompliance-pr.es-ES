@@ -2,18 +2,18 @@
 title: Información de la aplicación para Docuo de R2 Docuo
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/01/2021
+ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Docuo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6f7bdc8aadbb4ac651d09b1ff3140870da2f4bc2
-ms.sourcegitcommit: eae0e45c87fa8f1a87257e1e38122228e6970ba9
+ms.openlocfilehash: a33e49f1c9a60f30a14a51a2b5075bdcb33ce7c0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58390483"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414104"
 ---
 # <a name="docuo"></a>Docuo
 
@@ -33,7 +33,7 @@ Información proporcionada por R2 Docuo a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Docuo |
-| ID | WA200002937 |
+| Id. | WA200002937 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | R2 Docuo |
 | Dirección URL del sitio web de partners | [https://www.r2docuo.com](https://www.r2docuo.com) |
@@ -93,17 +93,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,3 +107,4 @@ R2 Docuo ha proporcionado esta información sobre cómo esta aplicación control
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

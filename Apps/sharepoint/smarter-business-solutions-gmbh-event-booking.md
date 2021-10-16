@@ -2,18 +2,18 @@
 title: Información de la aplicación para la reserva de eventos más inteligentes de Smarter Business Solutions GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/20/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smarter Event Booking, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 697a2e9b6cc1617f181d350dc9377dfe902e888a
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: abb3c1aefe5dbb1c16469b8a0f479a24fcf6bca4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378650"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412039"
 ---
 # <a name="smarter-event-booking"></a>Reserva de eventos más inteligente
 
@@ -86,17 +86,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -111,3 +100,4 @@ Smarter Business Solutions GmbH ha proporcionado esta información sobre cómo e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

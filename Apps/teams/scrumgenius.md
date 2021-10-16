@@ -2,18 +2,18 @@
 title: Información de la aplicación para ScrumGenius de ScrumGenius
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 09/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ScrumGenius, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: be8873fecd5dc50ab4db6def68c7c25f73e677fd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f6e7f801c1a09f6624fe181fd9242bcbc9007844
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285703"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414084"
 ---
 # <a name="scrumgenius"></a>ScrumGenius
 
@@ -54,7 +54,7 @@ ScrumGenius ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegado | Fechas de vacaciones establecidas en el calendario del usuario. | Para que los usuarios sincronicen sus vacaciones con ScrumGenius. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| User.Read | delegado | Nombre del usuario y dirección de correo electrónico. | Para permitir que el usuario inicie sesión con Inicio de sesión de Microsoft. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -103,4 +103,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

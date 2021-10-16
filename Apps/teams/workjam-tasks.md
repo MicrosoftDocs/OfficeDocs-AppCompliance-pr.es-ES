@@ -2,18 +2,18 @@
 title: Información de la aplicación para tareas WorkJam de WorkJam
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 09/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para tareas de WorkJam, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6b9e9d2e7becf34051895513c7a57fe942862080
-ms.sourcegitcommit: 9010c9bace5d935309eae5098f5a126a55270eb6
+ms.openlocfilehash: e30972be09412f233618141aa13317ce2c2f21a3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "59438466"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414365"
 ---
 # <a name="workjam-tasks"></a>Tareas de WorkJam
 
@@ -33,7 +33,7 @@ Información proporcionada por WorkJam a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Tareas de WorkJam |
-| Identificador | WA200003241 |
+| Id. | WA200003241 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | WorkJam |
 | Dirección URL del sitio web de partners | [https://www.workjam.com](https://www.workjam.com) |
@@ -55,7 +55,7 @@ WorkJam ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsActivity.Send | aplicación | Enviar notificaciones a los usuarios finales. | Identificador de inquilino y OID de usuario para enviar notificaciones. | [0b87cb84-073e-4cf6-a1ef-45d864ef2918](https://docs.microsoft.com/microsoft-365-app-certification/azure/0b87cb84-073e-4cf6-a1ef-45d864ef2918) |
 >| User.Read | delegado | Para identificación y autenticación | Identificador de inquilino y OID de usuario para enviar notificaciones. | [0b87cb84-073e-4cf6-a1ef-45d864ef2918](https://docs.microsoft.com/microsoft-365-app-certification/azure/0b87cb84-073e-4cf6-a1ef-45d864ef2918) |
@@ -96,17 +96,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -133,3 +122,4 @@ WorkJam ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para Neelix.Team por Neelix.IO
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/10/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Neelix.Team, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 74f41c23436f1bfc47db6fea7dfca2e8b12731bb
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c67a0cb706d4e9651b40dc4070ed9608cbd858d5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287367"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413642"
 ---
 # <a name="neelixteam"></a>Neelix.Team
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por Neelix.IO acerca de cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | delegado | la aplicación usa identificadores de canal y nombres para proporcionar comodidad a los usuarios para administrar sus preferencias predeterminadas al enviar comentarios de MS Treams | Identificadores y nombres de canal se almacenan para la administración de valores predeterminados para comodidad del usuario | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
 >| Team.ReadBasic.All | delegado | la aplicación usa identificadores de equipo y nombres para proporcionar comodidad a los usuarios para administrar sus preferencias predeterminadas al enviar comentarios de MS Treams | se almacenan los nombres y los identificadores de equipo. Estos datos nos permiten configurar valores predeterminados de comodidad que permiten la finalización más rápida del formulario de comentarios. | [6996cad6-a969-487a-9182-f4dc4c6c8803](https://docs.microsoft.com/microsoft-365-app-certification/azure/6996cad6-a969-487a-9182-f4dc4c6c8803) |
@@ -111,17 +111,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -149,3 +138,4 @@ Esta información ha sido proporcionada por Neelix.IO sobre cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

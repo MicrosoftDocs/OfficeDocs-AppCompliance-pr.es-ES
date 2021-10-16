@@ -2,18 +2,18 @@
 title: Información de la aplicación para atSpoke by Townsend Street Labs, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para atSpoke, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 2d72ea33577e386c61be6bcd09feeba813e9e1f5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 86a4512603429feff61ceeee485e8e4042bb9a6d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285608"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413312"
 ---
 # <a name="atspoke"></a>atSpoke
 
@@ -54,7 +54,7 @@ Esta información ha sido proporcionada por Townsend Street Labs, Inc. sobre có
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegado | atSpoke almacena el identificador de grupo de Microsoft | Permite la capacidad de leer y escribir información de grupo entre atSpoke y Microsoft Teams.  | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
 >| User.ReadWrite.All | delegado | atSpoke almacena el correo electrónico del usuario y el id. de usuario | Permite la capacidad de leer y escribir información de usuario entre atSpoke y Microsoft Teams. | [dfaf15dc-4e94-4484-a25d-79358fe70d8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/dfaf15dc-4e94-4484-a25d-79358fe70d8b) |
@@ -112,4 +112,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

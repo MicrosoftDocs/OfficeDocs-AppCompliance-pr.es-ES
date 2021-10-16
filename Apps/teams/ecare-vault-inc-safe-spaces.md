@@ -2,18 +2,18 @@
 title: Información de la aplicación Caja fuerte spaces de eCare Vault Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/14/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Caja fuerte Spaces, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 16c1adeb63cf8004df70293c8e4a188dde811250
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 39ca1a0a99e62bbedb14d0248cb751bf4089a70f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288231"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414696"
 ---
 # <a name="safe-spaces"></a>Espacios seguros
 
@@ -55,15 +55,15 @@ ECare Vault Inc. proporciona esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| EduRoster.Read | delegado | El nombre y la fecha de nacimiento se usan para rellenar previamente los campos de entrada | Ninguno: todos los datos almacenados son enviados por el usuario (los datos solo se han prepoblado en campos y, a continuación, se envía el usuario) | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| Group.Read.All | delegado | Se usa para obtener información sobre canales disponibles para mostrar en la aplicación | Ninguno de este permiso | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| GroupMember.Read.All | delegado | Id. de AAD de miembros del grupo usados para generar una lista de equipos de eCare Vault | El id. de usuario de AAD se almacena para asociarse con una cuenta de usuario de eCare Vault para cada miembro | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read | delegado | dirección de correo electrónico e id. de AAD Se usa para registrar a los usuarios y asociarlos a cuentas de usuario &amp; de eCare Vault | dirección de correo electrónico e id. de AAD para cuentas de usuario y envío de notificación al usuario a través de Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| User.Read.All | delegado | Nombre y, id. de AAD y dirección de correo electrónico, solo para los usuarios que son miembros de un canal donde Caja fuerte spaces está instalado | Nombre, id. de AAD y dirección de correo electrónico almacenadas en cuentas de usuario de eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| GroupMember.Read.All | delegado | AAD Id. de los miembros del grupo usados para generar una lista de equipos de eCare Vault | AAD El id. de usuario se almacena para asociarse con una cuenta de usuario de eCare Vault para cada miembro | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read | delegado | dirección de correo electrónico AAD id. se usa para registrar a los usuarios y asociarlos con cuentas de usuario de &amp; eCare Vault | dirección de correo electrónico AAD id. de usuario para cuentas de usuario y envío de notificación al usuario a través de Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| User.Read.All | delegado | Nombre y, AAD id. y dirección de correo electrónico, solo para los usuarios que son miembros de un canal donde Caja fuerte spaces está instalado | Nombre, AAD id. y dirección de correo electrónico almacenadas en cuentas de usuario de eCare Vault | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| email | delegado | Solo dirección de correo electrónico | Ninguno: el usuario decide enviar un formulario que  | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
->| OpenID | delegado | dirección de correo electrónico e id. de AAD Se usa para registrar a los usuarios y asociarlos a cuentas de usuario &amp; de eCare Vault | dirección de correo electrónico e id. de AAD para cuentas de usuario y envío de notificación al usuario a través de Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
+>| OpenID | delegado | dirección de correo electrónico AAD id. se usa para registrar a los usuarios y asociarlos con cuentas de usuario de &amp; eCare Vault | dirección de correo electrónico AAD id. de usuario para cuentas de usuario y envío de notificación al usuario a través de Bot Framework | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 >| perfil | delegado | El nombre del usuario se usa para rellenar la pantalla de registro del usuario. | Ninguno directamente: el usuario elige enviar su nombre al sistema cuando se registra | [6919164d-b678-4c3d-a268-e6fbecc1e68d](https://docs.microsoft.com/microsoft-365-app-certification/azure/6919164d-b678-4c3d-a268-e6fbecc1e68d) |
 
 #### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
@@ -111,17 +111,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -149,3 +138,4 @@ ECare Vault Inc. ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para isLucid por contratos de lúcido de UAB
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/09/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para isLucid, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d29616471c22a2fd4f01a849d14b965ae106aa80
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285552"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414907"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por UAB Contratos lúcidos sobre cómo e
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calls.AccessMedia.All | ambos | Con un consentimiento específico del usuario para cada llamada por separado (transcripción iniciada) tiene acceso a la secuencia de audio. La secuencia de audio se reenvía a un servicio de transcripción para que los usuarios obtengan más funcionalidad. | La aplicación almacena en contenedores separados en Azure (almacenamiento de blobs y base de datos Cosmos para cada cliente por separado) transcripción e información de meta relacionada. Esto es necesario para proporcionar acceso adicional a la información de una reunión para el usuario, que usó la aplicación y estuvo en la reunión específica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
 >| Calls.JoinGroupCall.All | ambos | Con un consentimiento específico del usuario para cada llamada por separado (transcripción iniciada) tiene acceso a la secuencia de audio. La secuencia de audio se reenvía a un servicio de transcripción para que los usuarios obtengan más funcionalidad. | La aplicación almacena en contenedores separados en Azure (almacenamiento de blobs y base de datos Cosmos para cada cliente por separado) transcripción e información de meta relacionada. Esto es necesario para proporcionar acceso adicional a la información de una reunión para el usuario, que usó la aplicación y estuvo en la reunión específica. | [98b70422-b0b2-41bf-8673-60d85f5d38c7](https://docs.microsoft.com/microsoft-365-app-certification/azure/98b70422-b0b2-41bf-8673-60d85f5d38c7) |
@@ -105,17 +105,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -143,3 +132,4 @@ Esta información ha sido proporcionada por UAB Contratos lúcidos sobre cómo e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

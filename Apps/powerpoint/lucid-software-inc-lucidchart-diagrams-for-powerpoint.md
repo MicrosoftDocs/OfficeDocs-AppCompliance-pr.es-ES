@@ -2,18 +2,18 @@
 title: Información de aplicación para diagramas de Gráficos de PowerPoint por Lucid Software Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para diagramas de Diagramas de Lucidchart para PowerPoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5e6a461c8793c04463f765ff66dd97f66efa783e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f07f093d177c4e38c01930a627cab149e18a1ab5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284255"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413964"
 ---
 # <a name="lucidchart-diagrams-for-powerpoint"></a>Diagramas de Gráficos de PowerPoint
 
@@ -53,7 +53,7 @@ Esta información ha sido proporcionada por Lucid Software Inc sobre cómo esta 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| OpenID | delegado | Nombre y dirección de correo electrónico. | Los permisos de correo electrónico, openid y perfil permiten a Lucidchart generar un token openid para un usuario y obtener suficiente información básica sobre el usuario para registrar una cuenta de Lucidchart para ellos si es necesario. Para comprobar los datos que vienen de Microsoft, se realiza una solicitud para obtener la clave pública con la que se ha firmado su respuesta. No se reciben o envían otros datos a Microsoft como parte de nuestro flujo de SSO. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -110,4 +110,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

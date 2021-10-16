@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento SharePoint aplicaciones de Microsoft: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/14/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 9b21ca00253596b5253626985215a871c61d87f9
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 7fadd914a01b3b02ce14791b31d36385472ec917
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378828"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412029"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Seguridad y cumplimiento SharePoint aplicaciones de Microsoft
 
@@ -22,7 +22,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign para SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
 | [Panel de tareas ágil para SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
-| [ArcGIS Maps](./esri-inc-arcgis-maps.md) | Esri, Inc. | **✓** |  |
+| [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
 | [FormMachines Connector para SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | MÁQUINAS DIGITALES DE EMPRESA PTY LTD | **✓** |  |
 | [Moverse por SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
 | [HelloSign para SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |

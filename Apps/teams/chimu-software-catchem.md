@@ -2,18 +2,18 @@
 title: Información de la aplicación para CatchEm de Chimu Software
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/27/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CatchEm, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bdac27ddbc3148644562af20f8f6d415a56903d9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e31f99d6714482327267658bac0e61499572491e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287040"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413882"
 ---
 # <a name="catchem"></a>CatchEm
 
@@ -55,7 +55,7 @@ Chimu Software ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.ReadBasic | delegado | Este permiso es necesario para determinar los contactos de un usuario de la aplicación. AadObjectId: para identificar de forma única a un usuario. TenantId: para determinar si un contacto es interno o externo al usuario. DisplayName, GivenName, Surname: para identificar los contactos de los usuarios de la aplicación. Correo electrónico, UserPrincipalName: para ayudar a distinguir entre contactos con el mismo nombre y para permitir hacer &quot; clic en la funcionalidad de &quot; chat. Identificador de chat más reciente: para habilitar la &quot; funcionalidad de hacer clic en &quot; chat | Este permiso es necesario para determinar los contactos de un usuario de la aplicación. AadObjectId: para identificar de forma única a un usuario. TenantId: para determinar si un contacto es interno o externo al usuario. DisplayName, GivenName, Surname: para identificar los contactos de los usuarios de la aplicación. Correo electrónico, UserPrincipalName: para ayudar a distinguir entre contactos con el mismo nombre y para permitir hacer &quot; clic en la funcionalidad de &quot; chat. Identificador de chat más reciente: para habilitar la &quot; funcionalidad de hacer clic en &quot; chat | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
 >| People.Read | delegado | Para mejorar la precisión de los datos de los contactos externos. DisplayName: para identificar los contactos de los usuarios de la aplicación. | Para mejorar la precisión de los datos de los contactos externos. DisplayName: para identificar los contactos de los usuarios de la aplicación. | [fc686a41-3bd0-45b3-a56d-f278888fd694](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc686a41-3bd0-45b3-a56d-f278888fd694) |
@@ -141,3 +141,4 @@ Chimu Software ha proporcionado esta información sobre cómo esta aplicación a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

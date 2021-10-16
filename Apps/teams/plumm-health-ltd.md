@@ -2,18 +2,18 @@
 title: Información de la aplicación para Plumm por Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/18/2021
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Plumm, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0ecc8063bb993d681ec98a3750ada9afb63bdb81
-ms.sourcegitcommit: d67be08c82a50cc263a4bdeb176f41dd60716159
+ms.openlocfilehash: 47a0607828ff96d92cea8be21819fa9e4680f0b4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60378654"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412179"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -35,7 +35,7 @@ Información proporcionada por Plumm Health LTD a Microsoft:
 | Nombre de la aplicación | Plumm |
 | Id. | WA200003326 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Plumm Health LTD |
+| Nombre de la compañía asociada | Plumm Health LTD |
 | Dirección URL del sitio web de partners | [https://www.plummhealth.com](https://www.plummhealth.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | Dirección URL de la directiva de privacidad | [https://www.plummhealth.com/privacy-policy](https://www.plummhealth.com/privacy-policy) |
@@ -103,17 +103,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ Plumm Health LTD ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

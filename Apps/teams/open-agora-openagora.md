@@ -2,18 +2,18 @@
 title: Información de la aplicación para OpenAgora de Open Agora
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 05/19/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OpenAgora, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c1538e5ad361469b5c8b3c07a085ed91d45a70dd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f0c6965c43118f6318c6c35a979d46223274b0f5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287776"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413632"
 ---
 # <a name="openagora"></a>OpenAgora
 
@@ -55,7 +55,7 @@ Open Agora ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Identificador&#8217;usuario Azure Active Directory usuario. | Identificación de usuario, para garantizar que los usuarios puedan ver y administrar solo los datos visibles para ellos. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -104,4 +104,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

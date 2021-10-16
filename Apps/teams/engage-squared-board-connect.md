@@ -2,18 +2,18 @@
 title: Información de la aplicación para la Conectar por Engage Squared
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/05/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para board Conectar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c04b8be94b4d9a6367c8baa2b3370d82c2bdff5c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 576d4b4b8107d0e4807818b44faf983d99ee98d1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289128"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414676"
 ---
 # <a name="board-connect"></a>Board Connect
 
@@ -55,7 +55,7 @@ Engage Squared ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | Para permitir que la aplicación actualice los calendarios de los usuarios para reflejar las respuestas de asistencia a la reunión del directorio enviadas a través de la aplicación. | No hay datos almacenados en nuestro almacenamiento de tablas de Azure | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
 >| Group.ReadWrite.All | delegado | Para permitir que la aplicación cree, actualice y elimine eventos de calendario de grupo. | Almacenamos el identificador del grupo, junto con el identificador de inquilino: se almacena y se usa desde una perspectiva de licencia para que podamos validar que la organización tiene licencia para la administración Conectar. También lo usamos para realizar un seguimiento de cuántas instalaciones de las aplicaciones hay en el espacio empresarial, ya que esto está en línea con nuestro modelo de licencias | [4a6873f6-8360-4023-bd6f-2923d1eb2e94](https://docs.microsoft.com/microsoft-365-app-certification/azure/4a6873f6-8360-4023-bd6f-2923d1eb2e94) |
@@ -138,3 +138,4 @@ Engage Squared ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

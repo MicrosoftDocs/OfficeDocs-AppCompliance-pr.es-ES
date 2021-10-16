@@ -2,18 +2,18 @@
 title: Información de aplicaciones para Lumio de SMART por SMART Technologies ULC
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/19/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lumio by SMART, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7f97e53eb5b4c27aa8bf2be4c97760f8a536cd06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e5749e9439f48960293fbb13d3efe8f3ef00158d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286888"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413492"
 ---
 # <a name="lumio-by-smart"></a>Lumio by SMART
 
@@ -55,7 +55,7 @@ SMART Technologies ULC ha proporcionado esta información sobre cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | Los datos se usan para comprobar que los permisos de grupo no se recopilan.  | No se almacenan datos de directorio en la base de datos | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
 >| Group.Read.All | delegado | de qué grupo son, esto se usa para comprobar que forman parte del grupo de alumnos o profesores para determinar la funcionalidad. No se recopilan datos.  | Solo los datos almacenados es el identificador único de los clientes | [14cf575a-fae2-48e2-af39-e3448d3a48bb](https://docs.microsoft.com/microsoft-365-app-certification/azure/14cf575a-fae2-48e2-af39-e3448d3a48bb) |
@@ -121,3 +121,4 @@ Smart Technologies ULC ha proporcionado esta información sobre cómo esta aplic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

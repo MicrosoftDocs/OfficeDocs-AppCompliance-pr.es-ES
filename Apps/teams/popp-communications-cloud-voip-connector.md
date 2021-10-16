@@ -2,20 +2,20 @@
 title: Información de la aplicación para POPP Cloud VoIP Connector de POPP Communications
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para POPP Cloud VoIP Connector, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9f64b18c26d3fd38e4272171e7a90f493e76de5f
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+ms.openlocfilehash: 42930c1020e86aeb6f55fb81929f30285e17dae3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112318"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414977"
 ---
-# <a name="popp-cloud-voip-connector"></a>Conector VoIP en la nube POPP
+# <a name="popp-cloud-voip-connector"></a>Conector de voz sobre IP (VoIP) en la nube de POPP
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por POPP Communications a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Conector VoIP en la nube POPP |
-| ID | WA200003306 |
+| Nombre de la aplicación | Conector de voz sobre IP (VoIP) en la nube de POPP |
+| Id. | WA200003306 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Comunicaciones POPP |
+| Nombre de la compañía asociada | Comunicaciones de POPP |
 | Dirección URL del sitio web de partners | [https://popp.com](https://popp.com) |
 | Dirección URL de la directiva de privacidad | [https://popp.com/terms/privacy-policy/](https://popp.com/terms/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://popp.com/pvnterms/](https://popp.com/pvnterms/) |
@@ -54,7 +54,7 @@ POPP Communications ha proporcionado esta información sobre cómo esta aplicaci
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMember.Read.All | delegado | Id. de usuario y nombres para mostrar de los miembros del canal actual. La aplicación lo usa para presentar al usuario una lista de miembros del canal a los que llamar. | Metaswitch no almacena estos datos. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
 >| Chat.Read | delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Id. de usuario y nombres para mostrar de los miembros del chat actual. La aplicación lo usa para presentar al usuario una lista de miembros de chat a los que llamar. | Metaswitch no almacena estos datos. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
@@ -76,7 +76,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 >| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Redes de metaswitch y comunicaciones POPP | La siguiente OII se transfiere al servidor de bot hospedado mct: id. de inquilino de Azure AD También se transfieren los contenidos de los mensajes del canal o de los identificadores de chat, lo que podría incluir OII La siguiente OII puede transferirse a la API JSON de CommPortal: un número Teléfono de usuarios en un grupo empresarial Los dominios de direcciones de correo electrónico direcciones IP de usuario | Agregue la justificación de por qué necesita transferir OII El objetivo principal de&#8217;aplicación es facilitar las llamadas telefónicas. Si un usuario intenta realizar una llamada telefónica, esta información debe proporcionarse para iniciar sesión en su cuenta commPortal y correlacionar la llamada con el usuario correcto.  La OII que se transfiere al servidor de bots hospedados de MCT está integrada en la API de Bot Framework que se usa para integrar con Teams y no se puede evitar. |
+>| Redes de metaswitch y comunicaciones POPP | La siguiente OII se transfiere al servidor de bot hospedado de MCT Azure AD: también se transfieren los contenidos del mensaje de id. de grupo de identificadores de equipo de id. de inquilino de MCT, que podría incluir OII El siguiente OII se puede transferir Teléfono la API JSON de CommPortal: números de usuarios de un grupo empresarial Los dominios de direcciones de correo electrónico Direcciones IP de usuario | Agregue la justificación de por qué necesita transferir OII El objetivo principal de&#8217;aplicación es facilitar las llamadas telefónicas. Si un usuario intenta realizar una llamada telefónica, esta información debe proporcionarse para iniciar sesión en su cuenta commPortal y correlacionar la llamada con el usuario correcto.  La OII que se transfiere al servidor de bots hospedados de MCT está integrada en la API de Bot Framework que se usa para integrar con Teams y no se puede evitar. |
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
@@ -109,17 +109,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -147,3 +136,4 @@ Esta información ha sido proporcionada por POPP Communications sobre cómo esta
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

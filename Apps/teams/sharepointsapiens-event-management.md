@@ -2,18 +2,18 @@
 title: Información de aplicación para administración de eventos SharePoint| Sapiens
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/02/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para administración de eventos, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 39480c170eb59a9f16b703a5182a2f2f23847955
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287344"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412760"
 ---
 # <a name="event-management"></a>Administración de eventos
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por SharePoint| Sapiens acerca de cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.ReadBasic.All | delegado | Dirección de correo electrónico y nombre de Exchange salas y recursos para habilitar la reserva de salas y recursos | No se almacenarán datos | [9e8e113c-8a08-4606-b08a-de4decc7252f](https://docs.microsoft.com/microsoft-365-app-certification/azure/9e8e113c-8a08-4606-b08a-de4decc7252f) |
 
@@ -141,3 +141,4 @@ Esta información ha sido proporcionada por SharePoint| Sapiens acerca de cómo 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

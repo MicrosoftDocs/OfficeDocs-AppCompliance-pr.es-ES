@@ -2,18 +2,18 @@
 title: Información de aplicaciones para Teams manager de Solutions2Share GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Teams Manager, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e51b08446bed1f22f1e058b92604841ce255eb8f
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+ms.openlocfilehash: 8587859f26feebffb31fd9b7eb23e8728e5d60fa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59971802"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412750"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -33,7 +33,7 @@ Información proporcionada por Solutions2Share GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Teams Manager |
-| Identificador | WA200000764 |
+| Id. | WA200000764 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Solutions2Share GmbH |
 | Dirección URL del sitio web de partners | [https://teams-manager.com](https://teams-manager.com) |
@@ -55,7 +55,7 @@ Solutions2Share GmbH ha proporcionado esta información sobre cómo esta aplicac
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | ambos | Almacenamos tenantID y TeamId para asignar las plantillas.  | Permitir enumerar todos los Teams y también crear Teams. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
 >| Notes.ReadWrite.All | aplicación | Ninguno | Permite que la aplicación agregue blocs de notas a un equipo aprobado. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
@@ -138,3 +138,4 @@ Solutions2Share GmbH ha proporcionado esta información sobre cómo esta aplicac
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para Humu por Humu Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/20/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Humu, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1c4f09d20ef885ae5c7e26a4c02d3d877bf7ef00
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: 772974445cbe3962521bd25019a1172f961590dc
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112317"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415097"
 ---
 # <a name="humu"></a>Humu
 
@@ -33,7 +33,7 @@ Información proporcionada por Humu Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Humu |
-| ID | WA200003302 |
+| Id. | WA200003302 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Humu Inc. |
 | Dirección URL del sitio web de partners | [https://www.humu.com](https://www.humu.com) |
@@ -84,7 +84,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->No aplicable
+>N/D
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -96,17 +96,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/4e95a4f5-304c-4629-901c-72341d8f2a0" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,3 +110,4 @@ Esta información ha sido proporcionada por Humu Inc. sobre cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

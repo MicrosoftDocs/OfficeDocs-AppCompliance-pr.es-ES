@@ -2,18 +2,18 @@
 title: Información de la aplicación para Adobe Sign para SharePoint por Adobe Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/16/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 50837228d42f7c5419f78f823e2f6c40317d35eb
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: fbe0a3e7e649be8b3958df6c041db62d39006ca9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124095"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412620"
 ---
 # <a name="adobe-sign-for-sharepoint"></a>Adobe Sign para SharePoint
 
@@ -32,7 +32,7 @@ Información proporcionada por Adobe Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Sign para SharePoint |
-| ID | WA104381012 |
+| Id. | WA104381012 |
 | Office 365 clientes compatibles | SharePoint 2013 o posterior |
 | Nombre de la compañía asociada | Adobe Inc. |
 | Dirección URL del sitio web de partners | [https://acrobat.adobe.com/us/en/sign.html](https://acrobat.adobe.com/us/en/sign.html) |
@@ -53,7 +53,7 @@ Adobe Inc. ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | Para obtener el rol de usuario y validar si se concede al usuario cierto permiso para la característica de aplicación. | Para actualizar el token de acceso, cuando el actual ha expirado.  | [99a3ad8d-8682-4f2a-9c2c-b4b27e99585c](https://docs.microsoft.com/microsoft-365-app-certification/azure/99a3ad8d-8682-4f2a-9c2c-b4b27e99585c) |
 
@@ -95,17 +95,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -133,3 +122,4 @@ Adobe Inc. ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

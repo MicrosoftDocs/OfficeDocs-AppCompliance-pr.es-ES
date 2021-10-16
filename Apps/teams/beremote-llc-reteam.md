@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ReTeam, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: db4d194eb5452bcec65fef5479509b533fed6c52
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: c8239d026e156d4fac2e1259507bd03661d8f155
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992248"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412560"
 ---
 # <a name="reteam"></a>ReTeam
 
@@ -33,7 +33,7 @@ Información proporcionada por BeRemote LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ReTeam |
-| Identificador | WA200003293 |
+| Id. | WA200003293 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | BeRemote LLC |
 | Dirección URL del sitio web de partners | [https://www.beremote.com](https://www.beremote.com) |
@@ -92,17 +92,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ BeRemote LLC ha proporcionado esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de aplicación para Asana para Outlook por Asana
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/02/2020
+ms.date: 10/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Asana para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 412b9d00d98f955dae3624d7d015970901afcba7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f335ce57adf88ac5159839811abe05c1fc5d6b03
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286016"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413984"
 ---
 # <a name="asana-for-outlook"></a>Asana para Outlook
 
@@ -100,4 +100,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

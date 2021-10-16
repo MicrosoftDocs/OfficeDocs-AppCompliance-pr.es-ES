@@ -2,18 +2,18 @@
 title: Información de la aplicación para AVA por AvePoint, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 11/01/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AVA, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 462181d4ba98d11e5aeae15a4827c6138bc80924
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a23ab8dfa165d43d6f2a9afafab0bc2ac12534bb
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288816"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411899"
 ---
 # <a name="ava"></a>AVA
 
@@ -55,7 +55,7 @@ AvePoint, Inc. ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Mail.ReadWrite.Shared | delegado | Ninguno | Buscar los correos electrónicos del usuario y mover el correo electrónico a la carpeta especificada | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 >| User.Read | delegado |  Token de acceso del usuario: se usa para buscar y restaurar los datos del usuario | Permite al usuario iniciar sesión y dar el token de acceso a la aplicación | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
@@ -116,4 +116,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

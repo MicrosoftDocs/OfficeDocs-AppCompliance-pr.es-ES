@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MindMup, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 018079ed1d80c0ea3127734a504d56007d06d54e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 75588e4a5c58969377568884cf709309026b6029
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283936"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413422"
 ---
 # <a name="mindmup"></a>MindMup
 
@@ -55,7 +55,7 @@ Sauf Pompiers Ltd ha proporcionado esta información sobre cómo esta aplicació
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Teams.ReadBasic.All | delegado | identificadores de equipo y nombres de equipo para usuarios | Para permitir que el usuario comparta documentos con equipos de los que es miembro | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
 >| User.Read | delegado | Identificador de usuario, dirección de correo electrónico que se mostrará después de la autenticación | user identifer, dirección de correo electrónico | [c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/c12a3d54-d294-4a51-8cd3-4a48b6c7e6f2) |
@@ -90,7 +90,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 Todo el acceso de operador/administrador está protegido por 2FA.
 
-El acceso de administrador de usuario y cliente se proporciona mediante la autenticación integrada de Microsoft/Azure AD, con opciones de 2FA disponibles directamente a través de SSO.
+Microsoft/Azure AD autenticación integrada proporciona acceso de administrador de usuario y cliente, con opciones de 2FA disponibles directamente a través de SSO.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -139,3 +139,4 @@ Sauf Pompiers Ltd ha proporcionado esta información sobre cómo esta aplicació
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

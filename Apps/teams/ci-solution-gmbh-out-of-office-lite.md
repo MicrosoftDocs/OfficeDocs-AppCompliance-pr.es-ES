@@ -2,18 +2,18 @@
 title: Información de la aplicación para CI-Out-of-Office Lite by ci solution GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/02/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CI-Out-of-Office Lite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: de7d350bf6eda53a782872b3c4965235cfeca799
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c827481d24c72e3998007f381ff1b733a262af9c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285983"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415157"
 ---
 # <a name="ci-out-of-office-lite"></a>CI-Out-of-Office Lite
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por la solución ci GmbH acerca de cómo
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegado | Ver la dirección de correo electrónico de los usuarios | Es werden keine Daten gespeichert. | [fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc1e4e41-1e20-49ba-88aa-5f26fa8bc4da) |
 
@@ -120,3 +120,4 @@ Esta información ha sido proporcionada por ci solution GmbH acerca de cómo est
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

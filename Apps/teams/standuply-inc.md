@@ -2,18 +2,18 @@
 title: Información de la aplicación para standuply por Standuply Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/04/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Standuply, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0b1613f70b1909faf9582a5a88e73273ae5bcc77
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4544d1a06a779dfc4b4e28c099353aaf09e886ea
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286095"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413372"
 ---
 # <a name="standuply"></a>Standuply
 
@@ -55,7 +55,7 @@ Standuply Inc. ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| MailboxSettings.Read | aplicación | Zona horaria local del usuario. Para ejecutar informes con la configuración Hacer &quot; preguntas en la zona horaria local del usuario&quot; | P.3 de https://standuply.com/privacy-policy | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
 >| User.Read | delegado | Nombre de usuario y foto. Para proporcionar resúmenes de informes en nombre de un usuario determinado. | P.3 de https://standuply.com/privacy-policy | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
@@ -137,3 +137,4 @@ Standuply Inc. ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

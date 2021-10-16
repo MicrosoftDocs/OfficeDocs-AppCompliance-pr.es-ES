@@ -2,18 +2,18 @@
 title: Información de la aplicación para Kudozza by surviveF5 GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/10/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Kudozza, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3e457fef49ce1ad352080d5a7f1a74ac7907038e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 51d3bee786e26ff83e7a3c641f9790dca99ee97b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285640"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414034"
 ---
 # <a name="kudozza"></a>Kudozza
 
@@ -135,3 +135,4 @@ SurviveF5 GmbH ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

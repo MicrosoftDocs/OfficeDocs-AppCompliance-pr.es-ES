@@ -2,18 +2,18 @@
 title: Información de la aplicación monday.com por monday.com
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para monday.com, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3779d91614f3413034e8bd86d28ec329cf341b67
-ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
+ms.openlocfilehash: 9cd1bfefcd9a56e23cae31f18638cea652d1becd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60131700"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415047"
 ---
 # <a name="mondaycom"></a>monday.com
 
@@ -33,7 +33,7 @@ Información proporcionada por monday.com a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | monday.com |
-| ID | WA200001798 |
+| Id. | WA200001798 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | monday.com |
 | Dirección URL del sitio web de partners | [https://monday.com](https://monday.com) |
@@ -131,3 +131,4 @@ Esta información ha sido proporcionada por monday.com sobre cómo esta aplicaci
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

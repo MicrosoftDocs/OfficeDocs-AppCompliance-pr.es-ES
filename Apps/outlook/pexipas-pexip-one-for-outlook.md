@@ -2,18 +2,18 @@
 title: Información de la aplicación para Pexip One para Outlook por PexipAS
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/27/2021
+ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Pexip One para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2d04a28147d79d29c56e695043f10c12a6e10903
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: ea1f4eff911ae611319c49d052e8a23142c61993
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60080919"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413552"
 ---
 # <a name="pexip-one-for-outlook"></a>Pexip Uno para Outlook
 
@@ -32,7 +32,7 @@ Información proporcionada por PexipAS a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Pexip Uno para Outlook |
-| ID | WA200003137 |
+| Id. | WA200003137 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | PexipAS |
 | Dirección URL del sitio web de partners | [https://www.pexip.com](https://www.pexip.com) |
@@ -53,7 +53,7 @@ PexipAS ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegado | Los datos de eventos para los usuarios se usan para programar reuniones en la plataforma y realizar un seguimiento de los cambios en los metadatos de la reunión | Almacenamos títulos de reunión, horas de inicio y finalización (todos cifrados). Se usan para proporcionar metadatos a reuniones en Pexip One | [69609b5a-e416-4d72-b10b-8903e84780c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/69609b5a-e416-4d72-b10b-8903e84780c3) |
 
@@ -90,17 +90,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -127,3 +116,4 @@ PexipAS ha proporcionado esta información sobre cómo esta aplicación controla
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

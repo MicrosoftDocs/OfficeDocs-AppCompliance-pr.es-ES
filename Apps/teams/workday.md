@@ -2,18 +2,18 @@
 title: Información de la aplicación para Workday por Workday
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2021
+ms.date: 02/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Workday, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71a16c42f8676ac12ed4de34ccbdf010de009453
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 38b56caaf5bc20986cec75615725e601a6f12562
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288047"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414846"
 ---
 # <a name="workday"></a>Workday
 
@@ -55,9 +55,9 @@ Workday ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Volver a obtener el id. de la aplicación, instalar la aplicación para el usuario, obtener Teams detalles de licencia de AAD | No almacenamos datos relacionados con esta característica.  Nos permite instalar la aplicación para el usuario. | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
+>| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Vuelva a mostrar el id. de la aplicación, instale La aplicación para el usuario, obtenga Teams detalles de la licencia desde AAD | No almacenamos datos relacionados con esta característica.  Nos permite instalar la aplicación para el usuario. | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
 >| User.Read.All | aplicación | Recuperar usuarios AAID para enviar mensajes a los usuarios. | Solo el AAID y Teams AAID  | [0209ae9c-8d92-4fb8-9c77-4dc29fd371e0](https://docs.microsoft.com/microsoft-365-app-certification/azure/0209ae9c-8d92-4fb8-9c77-4dc29fd371e0) |
 
 
@@ -125,3 +125,4 @@ Workday ha proporcionado esta información sobre cómo esta aplicación controla
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

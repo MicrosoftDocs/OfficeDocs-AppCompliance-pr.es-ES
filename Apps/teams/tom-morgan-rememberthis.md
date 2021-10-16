@@ -2,18 +2,18 @@
 title: Información de la aplicación para RememberThis de Tom Morgan
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/22/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para RememberThis, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a1804f11eaf52e9715b3b50ba558561794fc8b26
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9f1bc3f29ddd1c4c8134851f6d2253ddb5f88dba
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288976"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414416"
 ---
 # <a name="rememberthis"></a>RememberThis
 
@@ -101,4 +101,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

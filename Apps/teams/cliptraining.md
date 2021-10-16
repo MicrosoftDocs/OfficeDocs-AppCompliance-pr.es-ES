@@ -2,18 +2,18 @@
 title: Información de la aplicación para ClipTraining por ClipTraining
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/14/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ClipTraining, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5d59d4cbd2d28f1c906e541e7ffc78311c12ffb6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f69ccfc65a7f5b3f27610b424bf27817436bc065
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285935"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413862"
 ---
 # <a name="cliptraining"></a>ClipTraining
 
@@ -55,7 +55,7 @@ ClipTraining ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
 >| offline_access | delegado | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | Dirección de correo electrónico, nombre, apellido para el inicio de sesión y la correspondencia del usuario.  | [af089bb5-48be-413d-ad34-53c32799da7d](https://docs.microsoft.com/microsoft-365-app-certification/azure/af089bb5-48be-413d-ad34-53c32799da7d) |
@@ -125,3 +125,4 @@ ClipTraining ha proporcionado esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

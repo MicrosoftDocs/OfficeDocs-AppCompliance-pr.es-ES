@@ -2,18 +2,18 @@
 title: 'Información de la aplicación para el tablón de anuncios: NextSet by NextSet,Inc.'
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para Bulletin Board: NextSet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c423181155ac9b777bb03576032f01a8a16578b4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d08a21f9d99f37ed754239729387e34eb928ad8d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286559"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414164"
 ---
 # <a name="bulletin-board---nextset"></a>Tablón de anuncios- NextSet
 
@@ -55,7 +55,7 @@ NextSet,Inc. ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | ambos | &#25237;&#31295;&#12487;&#12540;&#12479;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12395;&#20986;&#21147;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#25237;&#31295;&#20869;&#23481;&#12434;Excel&#12458;&#12531;&#12521;&#12452;&#12531;&#12398;&#12501;&#12449;&#12452;&#12523;&#12395;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
 >| email | delegado | &#12525;&#12464;&#12452;&#12531;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12434;&#21462;&#24471;&#12377;&#12427;&#12383;&#12417;&#12395;&#20351;&#29992; | &#12525;&#12464;&#12452;&#12531;&#12518;&#12540;&#12470;&#12540;&#12398;&#12450;&#12459;&#12454;&#12531;&#12488;id.&#12398;&#12415;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290; | [cec02d43-1b67-4430-9bc9-861da8582801](https://docs.microsoft.com/microsoft-365-app-certification/azure/cec02d43-1b67-4430-9bc9-861da8582801) |
@@ -143,3 +143,4 @@ NextSet,Inc. ha proporcionado esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

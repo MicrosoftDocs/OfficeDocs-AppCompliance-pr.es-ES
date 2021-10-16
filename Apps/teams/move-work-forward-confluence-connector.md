@@ -2,20 +2,20 @@
 title: Información de la aplicación para Confluence Connector por Move Work Forward
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Confluence Connector, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bcf00959b3f6e667adedf8dbffd017d01e1bbc65
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 62b34c18df1b792a9a1cb7269e7a7a0ad364fd70
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785599"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414516"
 ---
-# <a name="confluence-connector"></a>Conector de confluencia
+# <a name="confluence-connector"></a>Confluence Connector
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por Move Work Forward to Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Conector de confluencia |
-| Identificador | WA200001604 |
+| Nombre de la aplicación | Confluence Connector |
+| Id. | WA200001604 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Avance el trabajo |
 | Dirección URL del sitio web de partners | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
@@ -55,7 +55,7 @@ Move Work Forward proporciona esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | delegado | El nombre del canal y el identificador se usan para enviar notificaciones de Jira a Microsoft Teams. | El identificador de canal y el nombre se almacenan para configurar las notificaciones de Jira a Microsoft Teams. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 >| Teams.ReadBasic.All | delegado | El permiso se usa para permitir que el usuario seleccione uno de estos equipos unidos en Jira. | Id. de equipo y nombre que se mostrarán en la pantalla Configuración de Jira. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
@@ -101,17 +101,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -138,3 +127,4 @@ Move Work Forward proporciona esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

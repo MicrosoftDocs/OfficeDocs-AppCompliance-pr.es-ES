@@ -2,18 +2,18 @@
 title: Información de la aplicación para TackleBox por Insiten
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/12/2021
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TackleBox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bf5841d5b51470b6aaab29f303b1ee1c5c5a0141
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a40a1d6e1acb87917956766be21b0d6b364dfcba
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289056"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413772"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -55,7 +55,7 @@ Insiten ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | delegado | Permite a los usuarios examinar sus OneDrive, carpetas y archivos; vincular archivos a TackleBox; leer Excel para extraer automáticamente gráficos, gráficos, tablas, áreas de impresión y rangos con nombre; crear y actualizar archivos PowerPoint con estos Excel visuales | Id. de unidad, id. de carpeta, id. de archivo, vínculo de vista, creado por, fecha de creación, modificado por, fecha de modificación, id. de versión, nombre de archivo | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| Sites.Read.All | delegado | Permitir a los usuarios examinar y vincular Excel archivos ubicados en canales de Teams privados | Ninguno | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
@@ -136,3 +136,4 @@ Insiten ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

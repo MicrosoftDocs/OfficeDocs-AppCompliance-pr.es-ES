@@ -2,18 +2,18 @@
 title: Información de la aplicación para herramienta de Kanban de Laboratorios de Costa
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/15/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la Herramienta Desa. de Kanban, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b73351d77f68cf00b904d95336f83d8089095791
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7422dcff9386dbb64599660eea58941d2a862b13
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286128"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413402"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -55,7 +55,7 @@ Los laboratorios de Shore han proporcionado esta información sobre cómo esta a
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegado | Dirección de correo electrónico del usuario para la comunicación, la coincidencia de identidades y la entrega de notificaciones. | Dirección de correo electrónico. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
 >| Team.ReadBasic.All | delegado | Identificadores y nombres de los equipos de los que el usuario es miembro directo. Se usan para asignar automáticamente usuarios a grupos correctos en herramienta Desc. | Los identificadores de equipo y los nombres de los que el usuario que ha iniciado sesión son miembros directos se asignan a grupos en la Herramienta Desasignación. Esto permite la administración de acceso basado en grupos y el uso compartido de Boards entre diferentes equipos de la misma organización. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
@@ -102,17 +102,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -140,3 +129,4 @@ Shore Labs ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para el rastreador de vacaciones de Vacation Tracker
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/15/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vacation Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0bd430bb14f85f563d490148f00988fa7634176e
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 1acd1c49f70e9571c1ec71dbf110fd898b18d5ca
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59971702"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413271"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -33,7 +33,7 @@ Información proporcionada por Vacation Tracker a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Vacation Tracker |
-| Identificador | WA200002167 |
+| Id. | WA200002167 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Vacation Tracker |
 | Dirección URL del sitio web de partners | [https://vacationtracker.io](https://vacationtracker.io) |
@@ -55,7 +55,7 @@ El Rastreador de vacaciones ha proporcionado esta información sobre cómo esta 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegado | Leemos los nombres y los nombres de los canales públicos cuando los usuarios establecen sus notificaciones semanales o diarias. | Los usuarios pueden seleccionar un canal en el que desean recibir notificaciones diarias o semanales de Vacation Tracker. Cuando un usuario elige su canal preferido, almacenamos el identificador del canal. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
 >| Team.ReadBasic.All | delegado | Enumeramos el usuario Microsoft Teams teams unidos durante el registro para permitir a los usuarios seleccionar un equipo al que desean registrarse en Vacation Tracker. También pueden registrarse con toda la organización. | Almacenamos el Microsoft Teams de equipo de un equipo seleccionado solo si el usuario se inscribe en Vacation Tracker como un único equipo (no como toda una organización). Usamos los id. de equipo para conectar un usuario que ha iniciado sesión con una cuenta existente en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
@@ -111,9 +111,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -132,3 +132,4 @@ Vacation Tracker ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para TeamSticker by Communitio by Communitio Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamSticker by Communitio, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 871c410b520fc7b8697942a4921104329a239338
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d90eba269fb77fa8b86d20da16ef70baa72d686c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285879"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411818"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -55,7 +55,7 @@ Communitio Corporation ha proporcionado esta información sobre cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.ReadWrite | aplicación |  Porque la aplicación envía mensajes al chat. | La aplicación no almacena datos. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
 >| Group.ReadWrite.All | ambos | Id. de grupo y nombre de grupo de recopilación de aplicaciones. | La aplicación almacena el identificador de grupo y el par de nombres. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
@@ -148,3 +148,4 @@ Communitio Corporation ha proporcionado esta información sobre cómo esta aplic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para Koan por Koan, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/01/2021
+ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Koan, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7bd65669087e3e0cb934bf7cb3da4c70bba08d73
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7509cd9adf527396bd833ddaa3ee525e428670e9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288135"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412319"
 ---
 # <a name="koan"></a>Koan
 
@@ -55,7 +55,7 @@ Koan, Inc. ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | delegado | Se usan el identificador de canal y el nombre del canal. Usamos los datos para que los usuarios puedan seleccionar dónde quieren que se entreguen las notificaciones de reflexión. | Almacenamos el identificador de canal y el nombre del canal como parte de la configuración de los usuarios. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
 >| Team.ReadBasic.All | ambos | El identificador de equipo y el nombre del equipo se recopilan y se usan. Usamos los datos para que los usuarios puedan seleccionar dónde quieren que se entreguen las notificaciones de reflexión. | Almacenamos el identificador de equipo y el nombre del equipo como parte de la configuración de los usuarios. | [5b599e19-a609-432b-9074-c9d4457e8766](https://docs.microsoft.com/microsoft-365-app-certification/azure/5b599e19-a609-432b-9074-c9d4457e8766) |
@@ -101,17 +101,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -138,3 +127,4 @@ Koan, Inc. ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

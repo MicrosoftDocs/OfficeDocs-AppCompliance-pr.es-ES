@@ -2,18 +2,18 @@
 title: Información de la aplicación para EngageWith de SpringRole
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2021
+ms.date: 01/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para EngageWith, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9cd618fb9ee580936f33beed27dfc2a39934d1f0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0b1089cbaff1f86af48e0c097f7bcd51b785827c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288895"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412730"
 ---
 # <a name="engagewith"></a>EngageWith
 
@@ -122,3 +122,4 @@ SpringRole ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,20 +2,20 @@
 title: Información de la aplicación para Workbench Intelligence de Temporall
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Workbench Intelligence, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bf2a249e9eb0cf8e572158d9b393b49fc81153ff
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 7adf907a083a4fcf5c7c57fe0cf048ba771d0d6e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785600"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414436"
 ---
-# <a name="workbench-intelligence"></a>Inteligencia de Workbench
+# <a name="workbench-intelligence"></a>Workbench Intelligence
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por Temporall a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Inteligencia de Workbench |
-| Identificador | WA200002705 |
+| Nombre de la aplicación | Workbench Intelligence |
+| Id. | WA200002705 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Temporall |
 | Dirección URL del sitio web de partners | [https://www.temporall.com](https://www.temporall.com) |
@@ -55,7 +55,7 @@ Temporall ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.Read.All | delegado | Obtiene una lista de aplicaciones de teams instaladas para poder obtener el identificador de aplicación local del identificador externo conocido. | El identificador de la aplicación local. Necesario para poder identificar la aplicación cuando se instala en un inquilino diferente. | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
 >| Channel.ReadBasic.All | aplicación | Nombre del &amp; id. de canal. Justificación: permitir que unirse o salir del canal sincronice la actividad del mensaje.  | El objeto de datos sin procesar devuelto al obtener canal. Justificación: Temporall Workbench permite a los usuarios filtrar y clasificar los datos según los canales. Estos datos sin procesar se guardan para tener referencia al objeto original | [d5630318-189a-4912-abae-99b1f8f82cce](https://docs.microsoft.com/microsoft-365-app-certification/azure/d5630318-189a-4912-abae-99b1f8f82cce) |
@@ -105,17 +105,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -142,3 +131,4 @@ Temporall ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

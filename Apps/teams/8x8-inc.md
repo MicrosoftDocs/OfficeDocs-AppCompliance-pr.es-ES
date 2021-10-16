@@ -2,18 +2,18 @@
 title: Información de la aplicación para 8x8 por 8x8, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/10/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 8x8, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e6b886dc575994e36926847685d1de81647a10ea
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 41d722a2c11cd573bbdd855675045259925efd50
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285064"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411999"
 ---
 # <a name="8x8"></a>8x8
 
@@ -118,3 +118,4 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

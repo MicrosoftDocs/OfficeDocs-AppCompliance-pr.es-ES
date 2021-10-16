@@ -2,18 +2,18 @@
 title: Información de la aplicación para bot RFPIO de RFPIO
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/24/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el bot RFPIO, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 53a0dc00f9ac1c34577bd8351ebf6ecfda66cf4d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 588ed6abf73d86fe81e0ef630983406d6966d84b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286359"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413482"
 ---
 # <a name="rfpio-bot"></a>bot de chat RFPIO
 
@@ -136,3 +136,4 @@ RFPIO ha proporcionado esta información sobre cómo esta aplicación administra
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

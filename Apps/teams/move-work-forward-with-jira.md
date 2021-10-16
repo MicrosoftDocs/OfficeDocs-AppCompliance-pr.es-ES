@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Move Work Forward with Jira, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 7120519c2ecb0643465760677b2bef895b1e2f4d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c2bd8d856eca48f9afc79a42aeff36b887faaf8d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288431"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413672"
 ---
 # <a name="move-work-forward-with-jira"></a>Avance el trabajo con Jira
 
@@ -55,7 +55,7 @@ Move Work Forward proporciona esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.Create | delegado | Se usa para crear un canal de discusión de problemas. | La dirección URL web del canal recién creado se almacena para mostrarse en Jira para obtener acceso rápido al Microsoft Teams de discusión. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
 >| Channel.ReadBasic.All | delegado | El nombre del canal y el identificador se usan para enviar notificaciones de Jira a Microsoft Teams. | El identificador de canal y el nombre se almacenan para configurar las notificaciones de Jira a Microsoft Teams. | [39d845a0-3fa2-4fba-acc2-61afe40cfcea](https://docs.microsoft.com/microsoft-365-app-certification/azure/39d845a0-3fa2-4fba-acc2-61afe40cfcea) |
@@ -139,3 +139,4 @@ Move Work Forward proporciona esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

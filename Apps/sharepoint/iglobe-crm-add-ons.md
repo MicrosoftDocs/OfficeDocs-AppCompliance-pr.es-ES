@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para complementos de CRM de iGlobe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3d5551ff00fa5439329176cf412a45d0490d6d64
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a48e2f3798d80229c51556e6712d4ebf31da183b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288592"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412079"
 ---
 # <a name="iglobe-crm-add-ons"></a>Complementos crm de iGlobe
 
@@ -52,7 +52,7 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 >| Contacts.ReadWrite | delegado |  Directory.AccessAsUser.All | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
@@ -159,3 +159,4 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación controla 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

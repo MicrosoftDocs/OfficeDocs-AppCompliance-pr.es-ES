@@ -2,18 +2,18 @@
 title: Información de la aplicación para enmacc por enmacc
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para enmacc, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 9589a4a6caf78e2499276514da71c874c22b6cd9
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: dcacc30c566b9bab96961d54c46f1766b9368ad7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785735"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413832"
 ---
 # <a name="enmacc"></a>enmacc
 
@@ -33,7 +33,7 @@ Información proporcionada por enmacc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | enmacc |
-| Identificador | WA200003282 |
+| Id. | WA200003282 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | enmacc |
 | Dirección URL del sitio web de partners | [https://enmacc.com](https://enmacc.com) |
@@ -92,17 +92,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ Esta información ha sido proporcionada por enmacc sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

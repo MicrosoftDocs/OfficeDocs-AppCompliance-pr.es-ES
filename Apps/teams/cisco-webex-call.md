@@ -2,18 +2,18 @@
 title: Información de la aplicación para la llamada webex de Cisco
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2021
+ms.date: 01/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Webex Call, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e4addbd6b3ad932c9c987f57cca03c1e6e77cfcd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 50ff8ddaab9be9b66da02156761931de44770340
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285952"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414736"
 ---
 # <a name="webex-call"></a>Webex Call
 
@@ -54,7 +54,7 @@ Cisco ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Chat.Read | delegado | Obtener miembros de chat para poder llamar al otro miembro en chat privado con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
 >| Contacts.Read | delegado | Obtener contactos de usuario, para que el usuario pueda llamar a contactos con Cisco WebEx | La aplicación NO almacenaría datos en sus bases de datos | [9a7ce614-bdc8-4640-aaea-d8c626c58966](https://docs.microsoft.com/microsoft-365-app-certification/azure/9a7ce614-bdc8-4640-aaea-d8c626c58966) |
@@ -125,3 +125,4 @@ Cisco ha proporcionado esta información sobre cómo esta aplicación administra
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

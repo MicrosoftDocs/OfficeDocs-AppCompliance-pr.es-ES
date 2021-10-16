@@ -2,23 +2,23 @@
 title: Información de aplicación para COCO de Hexaware Technologies Ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para COCO, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8a25a95b277f41f30477182c9eec0b3b25b9351e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 8e0dbf1b70767805b01cb6a318e4d00c3399c8ee
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288159"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414596"
 ---
 # <a name="coco"></a>COCO
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: June 23, 2020</p>
+<p>Last updated by the developer on: August 9, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/c3f021f9-1fe2-44c7-972e-58f3cd0e7762" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001468" target="_blank">Ver en AppSource</a>
@@ -36,8 +36,9 @@ Información proporcionada por Hexaware Technologies Ltd. a Microsoft:
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Hexaware Technologies Ltd. |
 | Dirección URL del sitio web de partners | [https://hexaware.com](https://hexaware.com) |
+| Dirección URL de Teams de información de la aplicación | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 | Dirección URL de la directiva de privacidad | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf) |
-| DIRECCIÓN URL de términos de uso | [https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-...](https://hexaware.com/wp-content/uploads/2020/03/Teams_COCO-Privacy-Policy-and-Additional-Terms_V2.1.pdf#page=6) |
+| DIRECCIÓN URL de términos de uso | [https://tinyurl.com/2c6b9cdm](https://tinyurl.com/2c6b9cdm) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +54,7 @@ Hexaware Technologies Ltd ha proporcionado esta información sobre cómo esta ap
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegado | Ninguno | Directorio de access como el usuario que ha iniciado sesión | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 >| Directory.Read.All | aplicación | Ninguno | Leer datos del directorio | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
@@ -76,7 +77,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Para mantener los datos de sesión | Nombre, id. de correo electrónico |  |
+>| Para mantener los datos de sesión | Nombre, id. de correo electrónico | Administración de sesiones chatbot |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -108,6 +109,20 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 <iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35906' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35906" target="_blank">Ver en una pestaña nueva</a>
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="identity"
+
+### <a name="identity-information"></a>Información de identidad
+
+Hexaware Technologies Ltd ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

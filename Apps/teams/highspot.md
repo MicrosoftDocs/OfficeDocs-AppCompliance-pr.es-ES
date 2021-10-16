@@ -2,18 +2,18 @@
 title: Información de la aplicación para Highspot por Highspot
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/13/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Highspot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bbf47f6b42e1f77fefed8de24ce23858e5cb52fd
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9796eda272fc2e54041983ef559dd8a8b4a070b0
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288144"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412349"
 ---
 # <a name="highspot"></a>Highspot
 
@@ -129,3 +129,4 @@ Highspot ha proporcionado esta información sobre cómo esta aplicación control
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

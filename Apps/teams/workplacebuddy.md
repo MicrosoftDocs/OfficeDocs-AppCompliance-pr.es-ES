@@ -2,18 +2,18 @@
 title: Información de la aplicación para WorkplaceBuddy por WorkplaceBuddy
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para WorkplaceBuddy, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: cfbab9d138e1ee0fa846f8c9e3454f7af6c86c29
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bd37d51a5316ba906d6e7fc1314fe2974d1aa502
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286840"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412690"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -55,7 +55,7 @@ WorkplaceBuddy ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | Solo nombre, identificador y miembros | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
 >| Group.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | Solo nombre, identificador y miembros | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
@@ -100,17 +100,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -138,3 +127,4 @@ WorkplaceBuddy ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

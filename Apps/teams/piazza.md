@@ -2,18 +2,18 @@
 title: Información de la aplicación para Piazza by Piazza
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/21/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Piazza, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a5c3e9c4d557ff73815181725e74e42433b0fb01
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a3295369c6c7c5c2c744966ee97a7b131553a86c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288407"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413592"
 ---
 # <a name="piazza"></a>Piazza
 
@@ -103,4 +103,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Información de aplicación para Structural by Structural Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/21/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Estructural, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 311eff24ac87991f640975efeff0373d7afc8a87
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 66e66041bbbaf9c1c9f982969ac7f23c43a315f3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284967"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414044"
 ---
 # <a name="structural"></a>Structural
 
@@ -55,7 +55,7 @@ Structural Inc. ha proporcionado esta información sobre cómo esta aplicación 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.AccessAsUser.All | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
 >| email | delegado | Sí: para autenticar usuarios durante el inicio de sesión único. | Ninguno | [fb6ddd39-35f2-4110-a45d-d2e73b946cae](https://docs.microsoft.com/microsoft-365-app-certification/azure/fb6ddd39-35f2-4110-a45d-d2e73b946cae) |
@@ -99,17 +99,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -137,3 +126,4 @@ Structural Inc. ha proporcionado esta información sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

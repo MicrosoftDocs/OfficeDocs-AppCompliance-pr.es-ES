@@ -2,18 +2,18 @@
 title: Información de la aplicación para Appspace por Appspace, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/08/2021
+ms.date: 07/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Appspace, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 592194c022b276a07d7fb91d9c0253724d8f28e7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 24221bfb9ac02fe9bc7b62127648d9f0cb9e9ca5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284096"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414786"
 ---
 # <a name="appspace"></a>Appspace
 
@@ -55,7 +55,7 @@ Appspace, Inc. ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Team.ReadBasic.All | delegado | Obtener los equipos a los que pertenece el usuario. | La caché de aplicaciones puede contener los equipos e identificadores a los que tiene acceso la cuenta de usuario/servicio. Estos datos permanecen cifrados durante todo su ciclo de vida. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
 >| User.ReadBasic.All | delegado | Lea las propiedades de perfil básicas de otros usuarios de la organización en nombre del usuario que ha iniciado sesión. Entre estas propiedades, se incluye el nombre para mostrar, el nombre y los apellidos, la dirección de correo electrónico, las extensiones abiertas y la foto. También permite a la aplicación leer el perfil completo del usuario que inició la sesión. | El nombre de usuario del usuario que ha iniciado sesión se conserva para permitir a los usuarios identificar qué usuario o cuenta de servicio han vinculado a la plataforma de Appspace. | [a9a866c4-e5cf-47f2-932c-db14cb89008f](https://docs.microsoft.com/microsoft-365-app-certification/azure/a9a866c4-e5cf-47f2-932c-db14cb89008f) |
@@ -121,3 +121,4 @@ Appspace, Inc. ha proporcionado esta información sobre cómo esta aplicación a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

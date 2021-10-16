@@ -2,18 +2,18 @@
 title: Información de aplicación para smart Conectar para Jira por yasoon GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/21/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smart Conectar para Jira, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a4a5a1ad980bba5214811bea5d981a1705ec4f1f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4342897ef390842396e62798debc54e146a979e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288840"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413261"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -55,7 +55,7 @@ Yasoon GmbH ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | delegado | El permiso se usa para permitir que el usuario seleccione uno de estos canales unidos en Jira. | Id. de canal, con fines de almacenamiento en caché | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| ChannelMessage.Read.Group | aplicación | Permite que la aplicación muestre mensajes de canal vinculado en Jira. | IDs de mensajes para vincular mensajes a problemas de Jira | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
@@ -144,3 +144,4 @@ Yasoon GmbH ha proporcionado esta información sobre cómo esta aplicación cont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

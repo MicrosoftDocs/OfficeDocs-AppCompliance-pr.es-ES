@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Rafiky, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 430b6f0c0b564a0ec7dcbdd43bd78ec050c05877
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 09bf6c174e59b274184f1e236f7461de1797854f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785715"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413812"
 ---
 # <a name="rafiky"></a>Rafiky
 
@@ -33,9 +33,9 @@ Información proporcionada por GLOBAL CONGRESS SRL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Rafiky |
-| Identificador | WA200003263 |
+| Id. | WA200003263 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | SRL DEL CONGRESO GLOBAL |
+| Nombre de la compañía asociada | GLOBAL CONGRESS SRL |
 | Dirección URL del sitio web de partners | [https://rafiky.net/en/](https://rafiky.net/en/) |
 | Dirección URL de la directiva de privacidad | [https://rafiky.net/en/terms-conditions/privacy-policy/](https://rafiky.net/en/terms-conditions/privacy-policy/) |
 | DIRECCIÓN URL de términos de uso | [https://rafiky.net/en/terms-conditions/](https://rafiky.net/en/terms-conditions/) |
@@ -92,17 +92,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -117,3 +106,4 @@ Esta información ha sido proporcionada por GLOBAL CONGRESS SRL acerca de cómo 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

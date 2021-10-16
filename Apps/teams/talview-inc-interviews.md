@@ -2,18 +2,18 @@
 title: Información de la aplicación para las entrevistas de Talview por Talview Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/12/2021
+ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las entrevistas de Talview, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro de CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 38ab0472b84fc2b53c357bed1ad32ed4e3a6ad11
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 55616d2c8820aee5a9b9f23b4a7231914f65f311
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285623"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414927"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -55,7 +55,7 @@ Talview Inc ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
 >| email | delegado | Ver la dirección de correo electrónico de los usuarios para asignar cuentas de usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b976ed7-cc69-482a-a020-19bdce1041c4) |
@@ -135,3 +135,4 @@ Talview Inc ha proporcionado esta información sobre cómo esta aplicación cont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

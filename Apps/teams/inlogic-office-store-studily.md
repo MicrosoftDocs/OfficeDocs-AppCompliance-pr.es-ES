@@ -2,18 +2,18 @@
 title: Información de la aplicación Studi.ly por inLogic-Office Store
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Studi.ly, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: d682e758d9632a2c3ac19296dda7083dc8379689
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9b84ab2d874bd4c6aab3b8e2c306b5bbc0e8da68
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289064"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412940"
 ---
 # <a name="studily"></a>Studi.ly
 
@@ -54,7 +54,7 @@ Esta información ha sido proporcionada por la Tienda de inLogic-Office sobre c�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | Almacenamos clases, escuelas y miembros y la información de términos de la api educativa en nuestra api y la necesitamos porque si la obtienemos cada vez desde la api de gráficos que hace que nuestra aplicación funcione con lentitud. Lo sincronizamos en un evento basado en tiempo desde la api de educación a nuestra base de datos. |  | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
 >| Directory.Read.All | delegado | Almacenamos clases, escuelas y miembros y la información de términos de la api educativa en nuestra api y la necesitamos porque si la obtienemos cada vez desde la api de gráficos que hace que nuestra aplicación funcione con lentitud. Lo sincronizamos en un evento basado en tiempo desde la api de educación a nuestra base de datos. | Escribir directorio en los grupos para asignaciones y materiales. | [917edb36-f047-45cf-ad96-0e7e9ec7d8af](https://docs.microsoft.com/microsoft-365-app-certification/azure/917edb36-f047-45cf-ad96-0e7e9ec7d8af) |
@@ -117,4 +117,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

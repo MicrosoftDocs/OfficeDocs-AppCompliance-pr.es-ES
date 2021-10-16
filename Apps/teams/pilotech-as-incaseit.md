@@ -2,18 +2,18 @@
 title: Información de la aplicación para InCaseIT por Pilotech AS
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para InCaseIT, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: dbc393582f4146c8cf9b44da122b35629df59a83
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 22e675ac91be216175d16271e1f0d2f7339fc36b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785775"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414987"
 ---
 # <a name="incaseit"></a>InCaseIT
 
@@ -33,7 +33,7 @@ Información proporcionada por Pilotech AS a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | InCaseIT |
-| Identificador | WA200003265 |
+| Id. | WA200003265 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Pilotech AS |
 | Dirección URL del sitio web de partners | [https://incaseit.com](https://incaseit.com) |
@@ -55,7 +55,7 @@ Pilotech AS ha proporcionado esta información sobre cómo esta aplicación reco
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | Los únicos datos usados son la confirmación explícita por parte de los usuarios para permitir que la aplicación use un token de acceso para llamar a la API Graph usuario. | Nuestra aplicación solo almacena un vínculo a la reunión programada para facilitar la accesibilidad a las reuniones de los usuarios.  Ejemplo. 1. Crear una reunión Teams programada. 2. Guarde el vínculo de reunión en la base de datos 3. Use el vínculo de reunión de un botón de la aplicación para facilitar el acceso a la reunión. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
 >| OnlineMeetings.ReadWrite | delegado | Los únicos datos usados son la confirmación explícita por parte de los usuarios para permitir que la aplicación use un token de acceso para llamar a la API Graph usuario. | Nuestra aplicación solo almacena un vínculo a la reunión en línea para facilitar la accesibilidad a las reuniones de los usuarios.  Ejemplo. 1. Crear una reunión Teams en línea. 2. Guarde el vínculo de reunión en la base de datos 3. Use el vínculo de reunión de un botón de la aplicación para facilitar el acceso a la reunión. | [9af6eceb-6a8b-4710-b51d-dde2ac01cc71](https://docs.microsoft.com/microsoft-365-app-certification/azure/9af6eceb-6a8b-4710-b51d-dde2ac01cc71) |
@@ -97,17 +97,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -135,3 +124,4 @@ Pilotech AS ha proporcionado esta información sobre cómo esta aplicación cont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

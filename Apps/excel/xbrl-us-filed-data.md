@@ -2,18 +2,18 @@
 title: Información de la aplicación para datos de XBRL filed por XBRL US
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para los datos de archivo XBRL, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 71c06644f03598cb265554891a8dc33632be32da
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 915cf51cc4670603e7637374ca1439cd4ae00554
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288663"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413994"
 ---
 # <a name="xbrl-filed-data"></a>Datos de archivo XBRL
 
@@ -74,7 +74,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->No aplicable
+>N/D
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -111,3 +111,4 @@ XBRL US ha proporcionado esta información sobre cómo esta aplicación controla
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

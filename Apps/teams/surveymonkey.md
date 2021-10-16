@@ -2,18 +2,18 @@
 title: Información de la aplicación para SurveyMonkey por SurveyMonkey
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 06/30/2011
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SurveyMonkey, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f4898e476e0848ba728d07d0d851fc09f239aecf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 4d792807b4a8160b3e62c7c1a23b4cf8a49b2148
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287304"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413352"
 ---
 # <a name="surveymonkey"></a>SurveyMonkey
 
@@ -55,7 +55,7 @@ SurveyMonkey ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegado | No | Para proporcionar una lista de grupos o canales con los que compartir una encuesta | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 
@@ -116,4 +116,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

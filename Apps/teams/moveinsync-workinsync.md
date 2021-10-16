@@ -2,18 +2,18 @@
 title: Información de la aplicación para WorkInSync de MoveInSync
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/01/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para WorkInSync, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c3976dcaddcc5121b58cd65836b19df1f057e79b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 746a7b7c52d8905aaf65d86bc0f15202f486eb82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287848"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413662"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -55,7 +55,7 @@ MoveInSync ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | 1. Para obtener detalles de los miembros del grupo transitivos. Se usan en la pestaña Actividad del equipo cuando se instalan en el contexto del canal. 2. Para iniciar sesión en la lista de detalles del perfil de &amp;  usuario de los usuarios de la organización. Se usan cuando la pestaña Actividad de equipo se instala en contexto personal, como una reserva para mostrar una vista previa de compañeros de equipo en caso de que la API de personas falle (usuarios que no son de Outlook) | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| People.Read | delegado | Para que las personas más relacionadas con el usuario que ha iniciado sesión se muestren en la pestaña Actividad del equipo, se instala en contexto personal. | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
@@ -106,17 +106,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -144,3 +133,4 @@ MoveInSync ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

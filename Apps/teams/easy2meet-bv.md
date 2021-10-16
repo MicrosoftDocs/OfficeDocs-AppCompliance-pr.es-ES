@@ -2,18 +2,18 @@
 title: Información de la aplicación para Easy2Meet de Easy2Meet B.V.
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/21/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Easy2Meet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 726f9ed549b3c200fda568f8b5d7a7f73c1a93ee
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 6983b46f281ed725aa4597acfa87944b5bc2c023
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785755"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412429"
 ---
 # <a name="easy2meet"></a>Easy2Meet
 
@@ -33,7 +33,7 @@ Información proporcionada por Easy2Meet B.V. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Easy2Meet |
-| Identificador | WA200003277 |
+| Id. | WA200003277 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Easy2Meet B.V. |
 | Dirección URL del sitio web de partners | [https://www.easy2meet.eu](https://www.easy2meet.eu) |
@@ -55,7 +55,7 @@ Easy2Meet B.V ha proporcionado esta información. acerca de cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | delegado | Necesitamos información de usuario para administrar usuarios y reuniones en Easy2Meet | Correo electrónico y nombre. Necesitamos esto para administrar usuarios y reuniones. | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
 >| email | delegado | Para ver las adres de correo electrónico del usuario actual. Necesitamos las adres de correo electrónico para enviar invitaciones a reuniones | Correo electrónico y nombre. Necesitamos esto para administrar usuarios y reuniones. | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
@@ -106,17 +106,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -143,3 +132,4 @@ Easy2Meet B.V ha proporcionado esta información. acerca de cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de aplicación para Evocom por Evocom Informationssysteme GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/28/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Evocom, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d83f806bcca3b0012dbe062763ec8118281cb995
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a3a670cf508d32410a3084150b1cb2ee02923f56
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289072"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414646"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por Evocom Informationssysteme GmbH sobr
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Name, E-Mail-Adress, Picture, ID. Rendimiento | Name, E-Mail-Adress, Picture, ID. Rendimiento | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
 >| User.ReadBasic.All | delegado | Name, E-Mail-Adress, Picture, ID. Rendimiento | Name, E-Mail-Adress, Picture, ID. Rendimiento | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
@@ -136,3 +136,4 @@ Esta información ha sido proporcionada por Evocom Informationssysteme GmbH sobr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

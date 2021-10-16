@@ -2,18 +2,18 @@
 title: Información de la aplicación para ApproveSimple de Capriza, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/23/2020
+ms.date: 04/25/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ApproveSimple, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a4e133d6f86ea92bc210af8399186701f6a4744f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e4f9a44196c2cc42474485f9787ecb09bba72ec6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285047"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411849"
 ---
 # <a name="approvesimple"></a>ApproveSimple
 
@@ -101,4 +101,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

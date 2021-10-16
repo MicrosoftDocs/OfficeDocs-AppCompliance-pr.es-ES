@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OnePlaceMail para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 196720a00525971f29618d48436cf11b37a3aaac
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: 310e662c42247476df716e42159ecd5e348ed4e2
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60080651"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414174"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail para Outlook
 
@@ -32,7 +32,7 @@ Información proporcionada por OnePlace Solutions a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | OnePlaceMail para Outlook |
-| ID | WA104380723 |
+| Id. | WA104380723 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la Web |
 | Nombre de la compañía asociada | Soluciones de OnePlace |
 | Dirección URL del sitio web de partners | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
@@ -53,7 +53,7 @@ OnePlace Solutions ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.ReadWrite.All | delegado | Necesario para determinar Teams es miembro del usuario actual. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
 >| Mail.ReadWrite.Shared | delegado | Necesario para tener acceso a las propiedades de correo para establecer SharePoint columnas y agregar la categoría Transfer to SharePoint en el elemento de correo | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
@@ -142,3 +142,4 @@ OnePlace Solutions ha proporcionado esta información sobre cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,20 +2,20 @@
 title: Información de la aplicación para la grabación de pantalla de Weet por FYZ SERVICES
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para weet Screen Recording, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8dc2f7f77b62661226a3ebf184e0bd9f0efc1756
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: fa9dee24b0953351451c92c553ac4f6e6426d87d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785748"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413001"
 ---
-# <a name="weet-screen-recording"></a>Grabación de pantalla weet
+# <a name="weet-screen-recording"></a>Weet Screen Recording
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por FYZ SERVICES a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Grabación de pantalla weet |
-| Identificador | WA200003284 |
+| Nombre de la aplicación | Weet Screen Recording |
+| Id. | WA200003284 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | SERVICIOS DE FYZ |
+| Nombre de la compañía asociada | FYZ SERVICES |
 | Dirección URL del sitio web de partners | [https://weet.co](https://weet.co) |
 | Dirección URL de Teams de información de la aplicación | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
 | Dirección URL de la directiva de privacidad | [https://weet.co/privacy-policy/](https://weet.co/privacy-policy/) |
@@ -55,7 +55,7 @@ FYZ SERVICES ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | delegado | Permitir detectar si la aplicación weet ya está instalada | sin almacén de datos | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
 >| User.Read | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | No almacenamos información sobre el usuario, solo usamos el correo electrónico para la autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
@@ -100,17 +100,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -125,3 +114,4 @@ FYZ SERVICES ha proporcionado esta información sobre cómo esta aplicación con
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

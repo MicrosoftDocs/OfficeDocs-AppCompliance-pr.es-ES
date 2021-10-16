@@ -2,18 +2,18 @@
 title: Información de aplicación para Listy por Tecnologías de la era de la información
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/22/2021
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Listy, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9f8d7a9060a53b5261bbb0378c2181a2ec8bfa3b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5d0a25a0174fd4dd41183be21ad3e34ccdd8e106
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289071"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60415087"
 ---
 # <a name="listy"></a>Listy
 
@@ -55,7 +55,7 @@ Information Age Technologies ha proporcionado esta información sobre cómo esta
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamSettings.Read.Group | ambos | Para crear una cuenta de aplicación local para que el usuario no tenga que rellenar ningún dato manualmente | Para crear una cuenta de aplicación local para que el usuario no tenga que rellenar ningún dato manualmente | [8aa22b64-9a2c-403b-83c1-feaf774c764c](https://docs.microsoft.com/microsoft-365-app-certification/azure/8aa22b64-9a2c-403b-83c1-feaf774c764c) |
 
@@ -133,3 +133,4 @@ Information Age Technologies ha proporcionado esta información sobre cómo esta
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

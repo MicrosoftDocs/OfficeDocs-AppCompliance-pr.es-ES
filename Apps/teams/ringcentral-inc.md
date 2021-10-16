@@ -2,18 +2,18 @@
 title: Información de la aplicación para RingCentral por RingCentral, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/18/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para RingCentral, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bb0787720195363368e3d822e45f173acee67870
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 74b9fdc5cedc126fb613e244badac7cc728418f2
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283951"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413442"
 ---
 # <a name="ringcentral"></a>RingCentral
 
@@ -55,7 +55,7 @@ RingCentral, Inc. ha proporcionado esta información sobre cómo esta aplicació
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado |  Permite que la aplicación envíe el evento de invitaciones a reuniones a través de su calendario | Ninguno | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
 >| offline_access | delegado |  Permite a la aplicación obtener y actualizar el token de oauth |  Token de acceso, token de actualización para obtener acceso a MS Graph API | [ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](https://docs.microsoft.com/microsoft-365-app-certification/azure/ 0dd4bfdf-dc86-4f05-9991-a14bc0144ebf) |
@@ -123,3 +123,4 @@ RingCentral, Inc. ha proporcionado esta información sobre cómo esta aplicació
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

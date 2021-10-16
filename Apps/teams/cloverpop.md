@@ -2,18 +2,18 @@
 title: Información de la aplicación para Cloverpop de Cloverpop
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 08/04/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Cloverpop, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3865c07aca73134fd9029ee0550559d9a4f93fd2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 28d424f384d8b16ff70e7d00f366c3a0f89f64b5
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285920"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412520"
 ---
 # <a name="cloverpop"></a>Cloverpop
 
@@ -54,7 +54,7 @@ Esta información ha sido proporcionada por Cloverpop sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | almacenar datos de usuario como. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Cuando los usuarios crean e interactúan con las decisiones, asociamos estos datos con el usuario, el equipo y la organización que los creó. También necesitamos mostrar esta propiedad en una experiencia de usuario fácil de usar, por lo tanto, almacenamos información de presentación, por ejemplo, el usuario&#8217;avatar. | permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso&#8221;: correo electrónico, nombre, oid, tid, givenName, apellido, familyName, avatar de usuario(foto), organization displayName | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
 >| OpenID | delegado | Almacenar datos de usuario como. email, oid, givenName, familyName, user avatar, user object id. organization id(tenantId), organization display name, Also we store on our side teams/channels names, ids, teams members. Cuando los usuarios crean e interactúan con las decisiones, asociamos estos datos con el usuario, el equipo y la organización que los creó. También necesitamos mostrar esta propiedad en una experiencia de usuario fácil de usar, por lo tanto, almacenamos información de presentación, por ejemplo, el usuario&#8217;avatar. | Para implementar &#8220;inicio de sesión con Teams&#8221; en nuestra aplicación web. | [1040474b-572d-4575-a423-95dd262a8b8a](https://docs.microsoft.com/microsoft-365-app-certification/azure/1040474b-572d-4575-a423-95dd262a8b8a) |
@@ -115,4 +115,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Información de la aplicación para MailClark de MailClark
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/29/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MailClark, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 3e9c01b76c513fd0786b27a0447a70c1f9c9d7e0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e6ca42781075001c4f78fdf52c09dd6ab51039d6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286383"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412219"
 ---
 # <a name="mailclark"></a>MailClark
 
@@ -55,7 +55,7 @@ MailClark ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Mail.ReadWrite | aplicación |  | Read: To subscribe push notifications for incoming emails. Escribir: para crear borradores. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Mail.Send | aplicación |  | Para enviar borradores. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -108,4 +108,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

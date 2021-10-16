@@ -2,18 +2,18 @@
 title: Información de aplicación para Lightning Tools Lightning Conductor de Lightning Tools
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/12/2021
+ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Lightning Tools Lightning Conductor, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7a9da7f85a7667e4d40911e506123ab8fd86ccdd
-ms.sourcegitcommit: 874e586a5a9a5eb0c5c5aae0c59f7c75c0742ec4
+ms.openlocfilehash: 9541cab6ba5fcd7da59cfe43c89e2e3bf3fceab9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60079191"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412049"
 ---
 # <a name="lightning-tools-lightning-conductor"></a>Lightning Tools Lightning Conductor
 
@@ -32,7 +32,7 @@ Información proporcionada por Lightning Tools a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Lightning Tools Lightning Conductor |
-| ID | WA200001926 |
+| Id. | WA200001926 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | Herramientas de Lightning |
 | Dirección URL del sitio web de partners | [https://lightningtools.com](https://lightningtools.com) |
@@ -53,7 +53,7 @@ Lightning Tools ha proporcionado esta información sobre cómo esta aplicación 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | aplicación | Para consultar e informar sobre la información del calendario | El conductor lightning no usa una base de datos ni almacena datos. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
 >| Contacts.Read | aplicación | No se recopilan ni almacenan datos. Los datos se usan para mostrar el DisplayName de los contactos de los usuarios actuales | El conductor lightning no usa una base de datos ni almacena datos. | [a96cbd10-e960-47b8-855b-3af4b5dbd6f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/a96cbd10-e960-47b8-855b-3af4b5dbd6f4) |
@@ -95,17 +95,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -120,3 +109,4 @@ Lightning Tools ha proporcionado esta información sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

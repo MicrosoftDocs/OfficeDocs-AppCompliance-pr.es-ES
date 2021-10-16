@@ -2,18 +2,18 @@
 title: Información de la aplicación para Breakthru por Breakthru
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/04/2021
+ms.date: 06/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Breakthru, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 488ff550ab43a398cc004a3224549e6ecdff36b1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e49d9a100ba3e410b3a3447f680f1e39c1b524d6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284032"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413914"
 ---
 # <a name="breakthru"></a>Breakthru
 
@@ -120,3 +120,4 @@ Breakthru ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para CloudExtend Analytics para NetSuite de Celigo CloudExtend
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/19/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CloudExtend Analytics para NetSuite, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 489f4f04afc52476b34a98ecd808c035ff47a676
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3dc8880f51ad68e09bb71276a33b9b2a864a8eaa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287599"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413221"
 ---
 # <a name="cloudextend-analytics-for-netsuite"></a>CloudExtend Analytics para NetSuite
 
@@ -53,7 +53,7 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Directory.Read.All | ambos | Leer la colección de sitios para los que el usuario tiene acceso para poder obtener información del libro compartido a través de sitios | almacenar siteid para tener acceso al libro sin conexión. | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
 >| Files.ReadWrite.All | ambos | Leer el contenido del libro como tablas y hojas y poder escribir contenido en dichas tablas | detalles del libro como la dirección URL web, el identificador del libro y la ubicación del libro para acceder a él sin conexión | [7040f194-bf08-400e-acb1-69df7939416a](https://docs.microsoft.com/microsoft-365-app-certification/azure/7040f194-bf08-400e-acb1-69df7939416a) |
@@ -129,3 +129,4 @@ Celigo CloudExtend ha proporcionado esta información sobre cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

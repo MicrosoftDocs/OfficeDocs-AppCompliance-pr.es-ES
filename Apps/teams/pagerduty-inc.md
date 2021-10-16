@@ -2,18 +2,18 @@
 title: Información de la aplicación para PagerDuty de PagerDuty, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PagerDuty, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3729a9523ea4af31015f6e8111c6843e90d465f3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a296483ba42328a306131aee8a2f29aed8d7006b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287775"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412840"
 ---
 # <a name="pagerduty"></a>PagerDuty
 
@@ -55,7 +55,7 @@ PagerDuty, Inc. ha proporcionado esta información sobre cómo esta aplicación 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| OnlineMeetings.ReadWrite | delegado | Desde la creación y obtención de respuestas de reuniones, estamos usando estos campos: join_web_url, audioconferencia. Estos campos son necesarios para mostrar al usuario un vínculo a una reunión o formas alternativas de conectarse en la reunión. | Guardamos: join_web_url, audioconferencia. Estos campos son necesarios para mostrar al usuario un vínculo a una reunión o formas alternativas de conectarse en la reunión. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
 >| TeamsAppInstallation.ReadForTeam | delegado | Usar para agregar la aplicación pagerduty al chat. | Usar para agregar la aplicación pagerduty al chat. | [05ffe668-5b27-45ff-a64d-b2ed6c475d7a](https://docs.microsoft.com/microsoft-365-app-certification/azure/05ffe668-5b27-45ff-a64d-b2ed6c475d7a) |
@@ -116,17 +116,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -141,3 +130,4 @@ PagerDuty, Inc. ha proporcionado esta información sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

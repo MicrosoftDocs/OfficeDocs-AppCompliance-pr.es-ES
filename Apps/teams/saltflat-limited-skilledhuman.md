@@ -2,18 +2,18 @@
 title: Información de la aplicación para Skilled Human de SaltFlat Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Skilled Human, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 73e0fe6ac097da2212173a467f38cdea21657dff
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 83bb59f395113df664016c9e30f0bc7358e3cae7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285023"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413432"
 ---
 # <a name="skilledhuman"></a>SkilledHuman
 
@@ -130,3 +130,4 @@ SaltFlat Limited ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

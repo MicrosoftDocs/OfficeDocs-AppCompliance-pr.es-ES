@@ -2,18 +2,18 @@
 title: Información de la aplicación Excel automatización de documentos de Excel a Word de AnalysisPlace
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/15/2021
+ms.date: 02/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la automatización de documentos de Excel a Word, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8dc1ac8d012545326f0d3c4f96764d5a2ed391b7
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d8dee2b12160b94cc55d1be0b355b9e5212b595a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288448"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413974"
 ---
 # <a name="excel-to-word-document-automation"></a>Excel de documentos de Excel a Word
 
@@ -123,3 +123,4 @@ AnalysisPlace ha proporcionado esta información sobre cómo esta aplicación co
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

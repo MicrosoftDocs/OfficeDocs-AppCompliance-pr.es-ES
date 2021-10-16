@@ -2,18 +2,18 @@
 title: Información de la aplicación para el alcance de LiveTiles
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/22/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reach, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: d188c61f6f87dbe528219d82f1b58477b184da8a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 81e9414b73aef445a14aada037e4b233bbeb7aae
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287463"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414576"
 ---
 # <a name="reach"></a>Reach
 
@@ -55,7 +55,7 @@ LiveTiles ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| TeamsActivity.Send | aplicación | ninguno | ninguno | [a7c1920d-3ac0-42db-9757-078a2b321fd8 ](https://docs.microsoft.com/microsoft-365-app-certification/azure/a7c1920d-3ac0-42db-9757-078a2b321fd8 ) |
 >| User.Read | delegado | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | User DisplayName, User Email Address, UPN. Necesario para permitir que los usuarios inicien sesión en la aplicación y obtengan información básica del usuario que ha iniciado sesión, como el nombre para mostrar. La dirección de correo electrónico se usa para enviar notificaciones por correo electrónico.  | [d492530a-8cff-481c-90da-9c3c3f1be7da](https://docs.microsoft.com/microsoft-365-app-certification/azure/d492530a-8cff-481c-90da-9c3c3f1be7da) |
@@ -140,3 +140,4 @@ LiveTiles ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

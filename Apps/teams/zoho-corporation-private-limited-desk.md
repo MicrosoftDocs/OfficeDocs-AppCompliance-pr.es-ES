@@ -2,18 +2,18 @@
 title: Información de la aplicación para Zoho Desk de Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Desk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e76f0cce92e7aa5bac28df505613ec461a3fc06
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2882f70ce6c44de4b797ae15bee2bec446212a82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288031"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414345"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -55,7 +55,7 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.Read | delegado |  | Leer archivos de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -107,4 +107,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Información de la aplicación para ezTeam por EnterprizID Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/24/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ezTeam, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6c4ad813b21963005857c69a05727ca261a73f9c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0c7b8022a8d629af9dbce0c2f97c381b4a15ca2b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289135"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414666"
 ---
 # <a name="ezteam"></a>ezTeam
 
@@ -55,7 +55,7 @@ EnterprizID Inc ha proporcionado esta información sobre cómo esta aplicación 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.Read.All | delegado | Lista de aplicaciones disponibles en Teams para que podamos mostrarla en el Teams de creación de solicitudes | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
 >| Application.Read.All | delegado | Permite que la aplicación lea las aplicaciones y entidades de servicio en nombre del usuario que ha iniciado sesión. | N/D | [2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b](https://docs.microsoft.com/microsoft-365-app-certification/azure/2b1fb18f-54e4-4b08-9ef2-5610d0fffa8b) |
@@ -158,3 +158,4 @@ EnterprizID Inc ha proporcionado esta información sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

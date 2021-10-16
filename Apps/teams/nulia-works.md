@@ -2,18 +2,18 @@
 title: Información de la aplicación para Nulia Works de Nulia
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/11/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Nulia Works, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4d176b18a8089d9107f30b7581bcca69daf0871e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2d59f585e7d07ecdab694853d92d4442bfb0d069
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288080"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413468"
 ---
 # <a name="nulia-works"></a>Nulia Works
 
@@ -55,7 +55,7 @@ Nulia ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | aplicación | Usamos los datos recopilados para puntuar el progreso del usuario en habilidades y resultados. Recopilamos recuentos de uso en varias cargas de trabajo de O365. | Almacenamos todos los datos que recopilamos en el almacenamiento de blobs. Usamos estos datos para puntuar a los usuarios en la habilidad y el progreso de resultados. Por ejemplo, se cuenta el número de eventos de calendario que tiene un usuario. Ese valor afecta a su progreso de habilidad. | [Creamos un nuevo identificador de aplicación para cada cliente. Por ejemplo, nuestro inquilino de Nulia usa el identificador de aplicación: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
 >| Contacts.Read | aplicación | Usamos los datos recopilados para puntuar el progreso del usuario en habilidades y resultados. Recopilamos recuentos de uso en varias cargas de trabajo de O365. | Almacenamos todos los datos que recopilamos en el almacenamiento de blobs. Usamos estos datos para puntuar a los usuarios en la habilidad y el progreso de resultados. Por ejemplo, se cuenta el número de contactos que ha creado un usuario. Ese valor afecta a su progreso de habilidad. | [Creamos un nuevo identificador de aplicación para cada cliente. Por ejemplo, nuestro inquilino de Nulia usa el identificador de aplicación: 623B1D5D-6D82-493E-9990-1FBFE82ED046](https://docs.microsoft.com/microsoft-365-app-certification/azure/We create a new application ID for each customer. For example, our Nulia tenant is using application ID: 623B1D5D-6D82-493E-9990-1FBFE82ED046) |
@@ -143,3 +143,4 @@ Nulia ha proporcionado esta información sobre cómo esta aplicación administra
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

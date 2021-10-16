@@ -2,18 +2,18 @@
 title: Información de la aplicación para ChurnZero de ChurnZero
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/10/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ChurnZero, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 18ebf804bfc99fe0d31043aee77fa856f42dda7a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2c776cf025303df55749c8a3898b2e90797d8eb8
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288584"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413071"
 ---
 # <a name="churnzero"></a>ChurnZero
 
@@ -54,7 +54,7 @@ ChurnZero ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | El identificador de objeto de Azure del usuario delegado para correlacionarse con un usuario de ChurnZero, con el fin de identificar y autorizar ese usuario durante una sesión de bot futura. | [c2e66b59-725d-4c56-8a0e-ee2587031d9f](https://docs.microsoft.com/microsoft-365-app-certification/azure/c2e66b59-725d-4c56-8a0e-ee2587031d9f) |
 
@@ -121,3 +121,4 @@ ChurnZero ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

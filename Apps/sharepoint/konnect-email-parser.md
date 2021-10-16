@@ -2,18 +2,18 @@
 title: Información de la aplicación para Konnect eMail Parser de Konnect eMail
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/12/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Konnect eMail Parser, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1af3a75f49bf10e0185ba80a289fd05524c8130e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 055f7e45fccf858a233fe5849333dc870d445fe3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289199"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412059"
 ---
 # <a name="konnect-email-parser"></a>Konnect eMail Parser
 
@@ -111,3 +111,4 @@ Konnect eMail ha proporcionado esta información sobre cómo esta aplicación co
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

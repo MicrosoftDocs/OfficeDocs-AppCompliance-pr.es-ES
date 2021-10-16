@@ -1,44 +1,45 @@
 ---
-title: Información de la aplicación para Hoylu por Hoylu
+title: Información de la aplicación para GuideSpark Communicate Cloud by GuideSpark
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/09/2020
+ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Hoylu, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a091c480731e69a51ec002f24f6d62924a814b7b
+description: Toda la información de seguridad y cumplimiento disponible para GuideSpark Communicate Cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-identity
+ms.openlocfilehash: becc848dde742ac9f9b66d634f687219e3600353
 ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412339"
+ms.locfileid: "60412281"
 ---
-# <a name="hoylu"></a>Hoylu
+# <a name="guidespark-communicate-cloud"></a>GuideSpark Communicate Cloud
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: July 20, 2020</p>
+<p>Last updated by the developer on: October 13, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/732e01bc-570a-43ac-9671-8c7fc4152662" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001573" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/34b870ca-2417-4660-b835-ebb18ee7ccf9" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003348" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Hoylu a Microsoft:
+Información proporcionada por GuideSpark a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Hoylu |
-| Id. | WA200001573 |
+| Nombre de la aplicación | GuideSpark Communicate Cloud |
+| Id. | WA200003348 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Hoylu |
-| Dirección URL del sitio web de partners | [https://hoylu.com](https://hoylu.com) |
-| Dirección URL de la directiva de privacidad | [https://www.hoylu.com/privacy-policy/](https://www.hoylu.com/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://www.hoylu.com/terms-of-use/](https://www.hoylu.com/terms-of-use/) |
+| Nombre de la compañía asociada | GuideSpark |
+| Dirección URL del sitio web de partners | [https://guidespark.com](https://guidespark.com) |
+| Dirección URL de Teams de información de la aplicación | [https://www.guidespark.com/change-communications-software/](https://www.guidespark.com/change-communications-software/) |
+| Dirección URL de la directiva de privacidad | [https://www.guidespark.com/privacy-policy/](https://www.guidespark.com/privacy-policy/) |
+| DIRECCIÓN URL de términos de uso | [https://www.guidespark.com/terms/](https://www.guidespark.com/terms/) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -48,7 +49,7 @@ Información proporcionada por Hoylu a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Hoylu ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+GuideSpark ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -74,13 +75,13 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Sí. El registro se realiza para la seguridad de las aplicaciones y EUII y OII se recopilan en forma de nombre y apellidos, correo electrónico, dirección IP, id. de organización. El proveedor de registro de Hoylu es Datadog. Datadog ha certificado su cumplimiento con el Marco del Escudo de privacidad ue-EE. UU. y es registrador de STAR para la Alianza de seguridad en la nube (CSA). Datadog también realiza validaciones de terceros independientes clave de su seguridad, procesos y servicios, incluida la finalización de la auditoría soc 2 tipo II. Un usuario puede solicitar la eliminación de esta información a través de un proceso conforme al RGPD en cualquier momento.
+>No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los datos de la aplicación se almacenan Microsoft Azure Cloud Services y todos los protocolos de cifrado usados son compatibles con FIPS 140-2. los administradores de infraestructura (PMA) solo pueden acceder a estos datos de producción. La administración de cuentas para la organización se realiza Azure AD con 2FA.
+>GuideSpark no tiene acceso a los datos del partner.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -92,16 +93,18 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+::: zone pivot="identity"
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933' frameborder='no' style='width: 100%;'></iframe>
+### <a name="identity-information"></a>Información de identidad
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35933" target="_blank">Ver en una pestaña nueva</a>
+GuideSpark ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

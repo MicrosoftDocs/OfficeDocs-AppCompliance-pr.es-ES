@@ -2,18 +2,18 @@
 title: Información de la aplicación para HighSide de HighSide, Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/24/2021
+ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para HighSide, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: eb6def1ce0eb93badd11f9a11d370c8533101656
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: 100614a26cfc18f467eb58f44951f3c4090bae5f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992070"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412359"
 ---
 # <a name="highside"></a>HighSide
 
@@ -33,7 +33,7 @@ Información proporcionada por HighSide, Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | HighSide |
-| Identificador | WA200002220 |
+| Id. | WA200002220 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | HighSide, Inc |
 | Dirección URL del sitio web de partners | [https://highside.io](https://highside.io) |
@@ -122,3 +122,4 @@ HighSide, Inc ha proporcionado esta información sobre cómo esta aplicación co
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

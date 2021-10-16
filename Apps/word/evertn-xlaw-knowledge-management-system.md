@@ -2,18 +2,18 @@
 title: 'Información de la aplicación para xLaw: sistema de administración de conocimientos por evertn'
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/26/2021
+ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para xLaw: sistema de administración del conocimiento, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57f63c4bc93739fa2a251d797ea4475ef786a09d
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b07ad480387dac712f6b9195fd74a82706d2629b
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284871"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413241"
 ---
 # <a name="xlaw---knowledge-management-system"></a>xLaw: sistema de administración de conocimientos
 
@@ -111,3 +111,4 @@ Evertn ha proporcionado esta información sobre cómo esta aplicación controla 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

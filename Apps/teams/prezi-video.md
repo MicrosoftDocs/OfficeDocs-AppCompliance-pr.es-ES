@@ -2,18 +2,18 @@
 title: Información de la aplicación para vídeo prezi de Prezi
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Prezi Video, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8e7e9c70ee848fd284e3297a915ec9847d3ef1ee
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: a6e3cf632919160819471385eff35cdf82f005e3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285040"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414967"
 ---
 # <a name="prezi-video"></a>Prezi Video
 
@@ -118,4 +118,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

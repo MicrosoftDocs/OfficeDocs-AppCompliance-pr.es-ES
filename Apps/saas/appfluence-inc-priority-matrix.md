@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 145ad1b57c9ad1ee705014c1e098f2f6ffdd9800
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: e2e724e8ec5d4c6a201f33702d6e68bbebc244be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284192"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60413171"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -51,7 +51,7 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación r
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
 >| User.ReadBasic.All | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | [5be2b320-a5b7-4221-893c-dee506e4e365](https://docs.microsoft.com/microsoft-365-app-certification/azure/5be2b320-a5b7-4221-893c-dee506e4e365) |
@@ -132,3 +132,4 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

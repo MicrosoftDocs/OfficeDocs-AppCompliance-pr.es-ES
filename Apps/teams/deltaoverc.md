@@ -2,18 +2,18 @@
 title: Información de la aplicación para DELTAoverC por DELTAoverC
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DELTAoverC, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 06420c8bf06d3cfeb8fc9683e6e79c05963455ef
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 63e6f41e0d86b1df0a334c5a0f8376724ac7dfcb
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785639"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411788"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -33,7 +33,7 @@ Información proporcionada por DELTAoverC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | DELTAoverC |
-| Identificador | WA200003286 |
+| Id. | WA200003286 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | DELTAoverC |
 | Dirección URL del sitio web de partners | [https://deltaoverc.info](https://deltaoverc.info) |
@@ -55,7 +55,7 @@ DELTAoverC ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| GroupMember.Read.All | delegado | Recuperamos los detalles del inquilino, los usuarios de office365 y los grupos del espacio empresarial. Necesitamos estos datos para realizar determinadas acciones en una aplicación. | tenant id, tenant name, tenant url, address 1, address 2, Country, state, Zipcode, Teléfono number, primary contact, user email | [4c9110eb-5991-4def-acf3-3332325d708f](https://docs.microsoft.com/microsoft-365-app-certification/azure/4c9110eb-5991-4def-acf3-3332325d708f) |
 
@@ -97,17 +97,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -135,3 +124,4 @@ DELTAoverC ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

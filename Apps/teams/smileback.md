@@ -2,18 +2,18 @@
 title: Información de la aplicación para SmileBack de SmileBack
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmileBack, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 01dae9ff795fb4b689a5515bc86f238eab3a8a82
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f9aee193d00068d046c984845f39157796e424d3
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283928"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414446"
 ---
 # <a name="smileback"></a>SmileBack
 
@@ -117,3 +117,4 @@ SmileBack ha proporcionado esta información sobre cómo esta aplicación admini
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

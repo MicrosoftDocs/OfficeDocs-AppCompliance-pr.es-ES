@@ -2,18 +2,18 @@
 title: Información de la aplicación para Centrical por Biz-Effective
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/23/2021
+ms.date: 07/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Centrical, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5ae0fcf2e8bd17619f723eeadcf1be5ec505dfe1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f1d447f3d7a8dcd717d0a29eedd29e8b081f8ed6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284087"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414776"
 ---
 # <a name="centrical"></a>Centrical
 
@@ -118,3 +118,4 @@ Esta información ha sido proporcionada por Biz-Effective sobre cómo esta aplic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

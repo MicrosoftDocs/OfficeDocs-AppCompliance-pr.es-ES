@@ -2,18 +2,18 @@
 title: 'Información de la aplicación para MIPA: su propio asistente personal de iGlobe'
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/12/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: su propio asistente personal, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 816d87c566fc50d3c6eaeaeaed2b333356d3ca00
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+zone_pivot_groups: app-info-data-mcas-identity-certification
+ms.openlocfilehash: 186699e37129b4fa0576c340c712cff319c51f96
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285079"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60412650"
 ---
 # <a name="mipa---your-own-personal-assistant"></a>MIPA: su propio asistente personal
 
@@ -52,7 +52,7 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | [e854ea05-68ab-4204-babe-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
 >| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | [e854ea05-68ab-4204-babe-db4a784fb4d8](https://docs.microsoft.com/microsoft-365-app-certification/azure/e854ea05-68ab-4204-babe-db4a784fb4d8) |
@@ -152,6 +152,43 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación controla 
 | ¿Expone la aplicación alguna API web? | No |
 | ¿La aplicación usa las API de vista previa? | No |
 | ¿La aplicación usa API en desuso? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Microsoft 365 Resultado de certificación** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidad (DAST/SAST/Prueba de penetración) | N/D |
+| [**SEGURIDAD OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: revisión | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Análisis de vulnerabilidades | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAFs) (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control De cambios | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desarrollo e implementación de software seguro | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (datos de registro) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | N/D |
+| [**PRIVACIDAD DE SEGURIDAD DE CONTROL DE &amp; DATOS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de acceso a datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

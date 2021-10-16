@@ -2,18 +2,18 @@
 title: Información de la aplicación para Tikit de Cireson
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/04/2021
+ms.date: 06/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tikit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: c17273ad8e2cdc9bd2f60ce5a3157f1f8473bb88
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b427ac7258c9849f6d003a6e9afe51f3db9fe784
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285960"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414746"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -55,15 +55,15 @@ Cireson ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Device.Read | aplicación | Información de gráfico de usuario usada para el inicio de sesión único, a través de la comunicación del bot de teams  | Almacenamos roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams id. de usuario. Este informe se usa para autenticación de aplicaciones, seguridad, RBAC, integración de equipos, notificaciones de equipos y asignación de relaciones de usuario   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Device.Read | aplicación | Información de gráfico de usuario usada para el inicio de sesión único, a través de la comunicación del bot de teams  | Almacenamos roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams id. de usuario. Este informe se usa para autenticación de aplicaciones, seguridad, RBAC, integración de equipos, notificaciones de equipos y asignación de relaciones de usuario   | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.AccessAsUser.All | delegado | Nombres de grupo y roles para RBAC | Nombre del &amp; grupo Nombre del rol, necesita proporcionar un control de acceso asignado seguro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Directory.Read.All | delegado | Nombres de grupo y roles para RBAC | Nombre del &amp; grupo Nombre del rol, necesita proporcionar un control de acceso asignado seguro. | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| Group.Read.All | ambos | Nombres de grupo y roles para RBAC | Nombres de grupo y roles para RBAC | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | aplicación | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, id. de AAD, Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | aplicación | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegado | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | Roles de usuario, nombre de familia, nombre determinado, correo electrónico, AAD id., Teams de usuario, usado para la autenticación  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| email | delegado | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | Correo electrónico de usuario usado para el inicio de sesión y la identificación asociada de entidades relacionadas. &quot;Usuario asignado&quot; | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| OpenID | delegado | se usa para la autenticación mediante MSAL por requisitos  | se usa para la autenticación mediante MSAL por requisitos  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 >| perfil | delegado | se usa para la autenticación mediante MSAL por requisitos  | se usa para la autenticación mediante MSAL por requisitos  | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
@@ -152,3 +152,4 @@ Cireson ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

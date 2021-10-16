@@ -2,18 +2,18 @@
 title: Información de la aplicación para Conectar+ por Puerta de enlace de recompensa
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Conectar+, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 573f6bbf833f08720b6ace0fe6d1f0b92bcc4a53
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ff17f1dd70ce7d6a5e6c33ee325cda0e87a1e526
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284000"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60414094"
 ---
 # <a name="connect"></a>Conéctese+
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por La puerta de enlace de recompensas a
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| AppCatalog.Read.All | delegado | No se recopilan datos | Almacenamos el aadObjectId de cada usuario para poder realizar un seguimiento de que han iniciado sesión en nuestra aplicación al menos una vez | [5e4dadf5-9f90-449b-9e39-934fd10b7c23](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e4dadf5-9f90-449b-9e39-934fd10b7c23) |
 
@@ -120,3 +120,4 @@ Esta información ha sido proporcionada por La puerta de enlace de recompensas a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
