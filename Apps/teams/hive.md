@@ -2,20 +2,20 @@
 title: Información de la aplicación para Hive por Hive
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/17/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Hive, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6df0cfe7201f366e01563f6771a63679c478f56e
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 7703d224ad05876283cafcd080263c660b620bd7
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785698"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411635"
 ---
-# <a name="hive"></a>Subárbol
+# <a name="hive"></a>Hive
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por Hive a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Subárbol |
-| Identificador | WA200000093 |
+| Nombre de la aplicación | Hive |
+| Id. | WA200000093 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Subárbol |
+| Nombre de la compañía asociada | Hive |
 | Dirección URL del sitio web de partners | [https://www.hive.com](https://www.hive.com) |
 | Dirección URL de Teams de información de la aplicación | [https://www.hive.com](https://www.hive.com) |
 | Dirección URL de la directiva de privacidad | [https://hive.com/privacy-policy/](https://hive.com/privacy-policy/) |
@@ -93,17 +93,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,3 +107,4 @@ Hive ha proporcionado esta información sobre cómo esta aplicación administra 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

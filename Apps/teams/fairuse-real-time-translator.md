@@ -2,18 +2,18 @@
 title: Información de la aplicación para aplicaciones en tiempo Traductor por Fairuse
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/25/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Traductor en tiempo real, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab70701438884aef3939f49bf3db8d6eacd03d8a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: d94616f46810cfe8ad47dc7856b4449185b3d44f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289339"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411688"
 ---
 # <a name="real-time-translator"></a>Real Time Translator
 
@@ -55,7 +55,7 @@ Fairuse ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| email | delegado | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; correo electrónico &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
 >| OpenID | delegado | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | &#12518;&#12540;&#12470;&#12540;&#12364;&#12393;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12395;&#20837;&#23460;&#12375;&#12390;&#12381;&#12398;&#12481;&#12515;&#12483;&#12488;&#12523;&#12540;&#12512;&#12398;&#20013;&#12391;&#12393;&#12398;&#12424;&#12358;&#12394;&#20250;&#35441;&#12434;&#12375;&#12383;&#12363;&#12434;&#20445;&#23384;&#12375;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12364;&#24460;&#12363;&#12425;&#20250;&#35441;&#23653;&#27508;&#12434;&#21442;&#29031;&#12377;&#12427;&#12383;&#12417;&#12395;&#24517;&#35201;&#12395;&#12394;&#12426;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
@@ -141,3 +141,4 @@ Fairuse ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

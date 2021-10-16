@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para qbo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 57d228504c0432aea96d8fc915606b1c71d36cf1
-ms.sourcegitcommit: b97ed9e84303967085e6f3f93c80f7b97110194c
+ms.openlocfilehash: 74734019fc35da357552739b3ddabbd223cf541d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59992080"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410814"
 ---
 # <a name="qbo"></a>qbo
 
@@ -33,7 +33,7 @@ Información proporcionada por Unscrambl a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | qbo |
-| Identificador | WA200001708 |
+| Id. | WA200001708 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Unscrambl |
 | Dirección URL del sitio web de partners | [https://unscrambl.com](https://unscrambl.com) |
@@ -127,3 +127,4 @@ Unscrambl ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

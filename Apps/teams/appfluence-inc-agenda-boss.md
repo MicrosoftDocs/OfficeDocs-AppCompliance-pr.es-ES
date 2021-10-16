@@ -2,18 +2,18 @@
 title: Información de la aplicación para Agenda Boss de Appfluence Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/16/2021
+ms.date: 06/16/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Agenda Boss, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e2f48c8a563e83f040907acf393d6794264a02cf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9dd29e013cf748a6ed287cc4c16f6387ff4d2c1a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284159"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411164"
 ---
 # <a name="agenda-boss"></a>Agenda Boss
 
@@ -131,3 +131,4 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

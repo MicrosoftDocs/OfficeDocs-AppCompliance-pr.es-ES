@@ -2,18 +2,18 @@
 title: Información de la aplicación para StarLeaf por StarLeaf
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/24/2020
+ms.date: 06/17/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para StarLeaf, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8f9878d4de6e09c283c6d13ee7351de9fb5f0eb8
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0a339c98c0d76da7269df25a7dfd76f896e4f96f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286527"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408269"
 ---
 # <a name="starleaf"></a>StarLeaf
 
@@ -54,7 +54,7 @@ StarLeaf ha proporcionado esta información sobre cómo esta aplicación recopil
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | aplicación | almacenamos el iCalUId de las reuniones, la hora/fecha de la reunión, las direcciones de correo electrónico de los asistentes y una propiedad single-value-extended que leemos y escribimos en la reunión mediante la interfaz de propiedades personalizadas de Office.js. El iCalUId se usa para correlacionar la reunión en un calendario de outlook&#8217;usuario con la reunión de vídeo en nuestro servicio. La hora/fecha y los asistentes se usan para proporcionar una reunión de vídeo en el momento adecuado a las personas correctas en nuestro servicio. SVEP se usan con nuestro addin de O365 para proporcionar una interfaz para que los usuarios establezcan detalles sobre la reunión de vídeo en nuestro servicio, como la grabación. | se usa para suscribirse a notificaciones de webhook para realizar un seguimiento de los cambios de los usuarios en los eventos de sus calendarios y actualizar nuestro servicio para mantenerlo coherente. También se usa para crear eventos en su calendario cuando un usuario interactúa con nuestra Teams y programa una reunión en nuestro servicio. | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
 >| User.Read | aplicación | almacenamos el token de actualización de oauth para poder iniciar sesión. Almacenamos el id. de perfil de los usuarios para poder compararlos con futuros intentos de OAuth de ese usuario y nos aseguramos de&#8217;almacenar sus detalles dos veces.  | permitir a los usuarios iniciar sesión en la aplicación y permite a nuestra aplicación obtener la dirección de correo electrónico del usuario&#8217;para correlacionar su inicio de sesión con una cuenta en nuestro servicio.  | [6e86b349-768f-4953-ac2e-fb03f92db4be](https://docs.microsoft.com/microsoft-365-app-certification/azure/6e86b349-768f-4953-ac2e-fb03f92db4be) |
@@ -110,4 +110,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

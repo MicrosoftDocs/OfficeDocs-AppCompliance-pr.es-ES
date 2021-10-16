@@ -2,18 +2,18 @@
 title: Información de la aplicación C.AI bot de adopción por contexxt.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/06/2021
+ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el bot de adopción de C.AI, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 5bb11c96f750701128470f3e1c61ea0f5d476233
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 655d6801d05e2f909cbe5d1ee9578092a43f6778
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285855"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410343"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | Disponibilidad del usuario anonimizado que puede enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 >| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | Anónimos Microsoft Teams de canal, como Privado o no o cantidad de conversaciones por canal para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
@@ -139,3 +139,4 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

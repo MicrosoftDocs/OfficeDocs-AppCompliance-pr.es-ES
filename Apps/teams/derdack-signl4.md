@@ -2,18 +2,18 @@
 title: Información de la aplicación para SIGNL4 de Derdack SIGNL4
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/06/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SIGNL4, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4cf1eae6ef533a1e744ca3c2968764fed0227d00
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7042695f0bfb257552e4e040a1b8d254016b612a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286976"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411084"
 ---
 # <a name="signl4"></a>SIGNL4
 
@@ -84,7 +84,7 @@ Los datos de los registros son necesarios para los problemas de soporte técnico
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Los datos se almacenan en el centro de datos de Azure en Europa. El acceso a él es posible para los administradores. 2FA mediante la autenticación de AAD. Las claves de acceso a las cuentas de almacenamiento también se usan para administrar el acceso.
+>Los datos se almacenan en el centro de datos de Azure en Europa. El acceso a él es posible para los administradores. 2FA mediante AAD autenticación. Las claves de acceso a las cuentas de almacenamiento también se usan para administrar el acceso.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -134,3 +134,4 @@ Derdack SIGNL4 ha proporcionado esta información sobre cómo esta aplicación c
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

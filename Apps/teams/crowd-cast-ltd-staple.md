@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Staple, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: fa258f568d799ceb8891cd374aa33277dbc6c2c4
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+ms.openlocfilehash: 9eb6274274c3970b20ebb53d03a163fa79e206df
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59975252"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410313"
 ---
-# <a name="staple"></a>Grapa
+# <a name="staple"></a>Staple
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,8 +32,8 @@ Información proporcionada por Crowd Cast, Ltd. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Grapa |
-| Identificador | WA200003281 |
+| Nombre de la aplicación | Staple |
+| Id. | WA200003281 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Crowd Cast, Ltd. |
 | Dirección URL del sitio web de partners | [https://crowdcast.jp/ja/](https://crowdcast.jp/ja/) |
@@ -55,7 +55,7 @@ Crowd Cast, Ltd. ha proporcionado esta información sobre cómo esta aplicación
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Organization.Read.All | aplicación | Se usa para recopilar el identificador de inquilino. Se usa para garantizar que los usuarios que se autentican con nuestra plataforma sean miembros de un inquilino específico. | identificador de inquilino. Se usa para garantizar que los usuarios que se autentican con nuestra plataforma sean miembros de un inquilino específico. | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
 >| TeamsAppInstallation.ReadWriteSelfForUser.All | aplicación | Teams aplicación se instala automáticamente en el equipo del usuario | N/D | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
@@ -99,17 +99,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -137,3 +126,4 @@ Esta información ha sido proporcionada por Crowd Cast, Ltd. sobre cómo esta ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

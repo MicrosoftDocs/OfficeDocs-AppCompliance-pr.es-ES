@@ -2,18 +2,18 @@
 title: Información de la aplicación para canon EMEA Service Cost Calculator for B2B Partners by Canon EMEA
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/03/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para canon EMEA Service Cost Calculator for B2B Partners, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: a5e1d55a50474f1085b6ac856a29c74c8cb0e2a5
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: dad36c97f63d3bea7ac29ce832b3c09bd6f0dd86
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286799"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410744"
 ---
 # <a name="canon-emea-service-cost-calculator-for-b2b-partners"></a>Calculadora de costos del servicio EMEA de Canon para socios B2B
 
@@ -86,17 +86,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -111,3 +100,4 @@ Canon EMEA ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -174,8 +174,8 @@
           href: sharepoint/adobe-inc-sign-for-sharepoint.md
         - name: Panel de tareas ágil para SharePoint Online
           href: sharepoint/agile-is-task-board-for-sharepoint-online.md
-        - name: ArcGIS Maps
-          href: sharepoint/esri-inc-arcgis-maps.md
+        - name: ArcGIS for SharePoint
+          href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: FormMachines Connector para SharePoint
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: Moverse por SharePoint
@@ -487,6 +487,8 @@
           href: teams/controlex-gmbh-grouplotse.md
         - name: Gtmhub
           href: teams/gtmhub.md
+        - name: GuideSpark Communicate Cloud
+          href: teams/guidespark-communicate-cloud.md
         - name: Guru
           href: teams/guru-technologies.md
         - name: Health Hero

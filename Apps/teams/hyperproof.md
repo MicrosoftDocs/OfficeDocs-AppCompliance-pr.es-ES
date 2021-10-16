@@ -2,18 +2,18 @@
 title: Información de la aplicación para Hyperproof por Hyperproof
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/18/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Hyperproof, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: df33449d3b16eb9d521795445b3b03e1b34b627c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: b84a4178c13a99e7d41935e77d7c52b61d9804be
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287872"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411014"
 ---
 # <a name="hyperproof"></a>Hyperproof
 
@@ -130,3 +130,4 @@ Hyperproof ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

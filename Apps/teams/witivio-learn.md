@@ -2,18 +2,18 @@
 title: Información de la aplicación para información de Witivio
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/31/2020
+ms.date: 03/24/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Learn, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f931e75f0a5736ffa49c7366d9928db774c4bdbf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5fc05537fef58efdc5eb2ee7d5f51bfaea07b108
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289231"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410784"
 ---
 # <a name="learn"></a>Aprender
 
@@ -54,12 +54,12 @@ Witivio ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | N/D | Recopilamos el UPN y el id. de AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
->| User.ReadBasic.All | delegado | N/D | Recopilamos el UPN y el id. de AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
->| OpenID | delegado | N/D | Recopilamos el UPN y el id. de AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
->| perfil | delegado | N/D | Recopilamos el UPN y el id. de AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| User.Read | delegado | N/D | Recopilamos el UPN y el AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| User.ReadBasic.All | delegado | N/D | Recopilamos el UPN y el AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| OpenID | delegado | N/D | Recopilamos el UPN y el AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
+>| perfil | delegado | N/D | Recopilamos el UPN y el AAD para la autorización. | [8c5c0060-2892-4355-b0db-661f206028a9](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c5c0060-2892-4355-b0db-661f206028a9) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -81,7 +81,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->La telemetría del bot contiene el UPN y el diagnóstico fr id. de AAD.
+>La telemetría del bot contiene el UPN y el AAD id. de usuario fr diagnósticos.
 Solo los administradores de PROD/Run tienen acceso a la telemetría de producción. Los registros se almacenan durante 90 días y se pueden eliminar a petición en un portal dedicado support.witivio.com o por correo electrónico a dpo@witivio.com
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
@@ -112,4 +112,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

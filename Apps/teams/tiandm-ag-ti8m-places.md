@@ -2,18 +2,18 @@
 title: Información de la aplicación para lugares ti8m por ti &amp; m AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/16/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para los lugares de ti8m, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 0da49dc42dfb173165ad01f55d5d10c656c0e4e0
-ms.sourcegitcommit: 2781622670a06d5221dcba8838cc262f93d228d0
+ms.openlocfilehash: 92b67a17394d796e0d743c6b3c570698e54e2fec
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60124083"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411435"
 ---
 # <a name="ti8m-places"></a>lugares de ti8m
 
@@ -33,7 +33,7 @@ Información proporcionada por ti &amp; m AG a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | lugares de ti8m |
-| ID | WA200003311 |
+| Id. | WA200003311 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ti &amp; m AG |
 | Dirección URL del sitio web de partners | [https://www.ti8m.com/places](https://www.ti8m.com/places) |
@@ -55,10 +55,10 @@ Ti m AG ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite.Shared | delegado | Cancelar eventos en calendarios de usuarios y lugares de trabajo  | Identificador de evento si se debe cancelar una entrada de calendario reservada | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Directory.ReadWrite.All | delegado | Instalación y creación de grupos administrativos de AAD: grupos de seguridad  | GroupNames y GroupIDs | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| Directory.ReadWrite.All | delegado | Instalación y creación de grupos de AAD administrativos: grupos de seguridad  | GroupNames y GroupIDs | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 >| Place.ReadWrite.All | delegado | Lista de lugares de trabajo y nombres de mapa  | Workplace ID, Email Adresse of Workplace y Displayname. Se usa para la reserva de un lugar de trabajo | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 >| User.Read | delegado | Nombre de usuario, correo electrónico y displayname, necesarios para mostrar los datos de usuario en la aplicación | Nombre de usuario, correo electrónico y displayname, necesarios para mostrar los datos de usuario en la aplicación | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
 
@@ -98,17 +98,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -134,3 +123,4 @@ Ti m AG ha proporcionado esta información sobre cómo esta aplicación controla
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

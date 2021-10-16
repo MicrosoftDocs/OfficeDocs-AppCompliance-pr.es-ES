@@ -2,18 +2,18 @@
 title: 'Información de la aplicación para PlayQuiz: Aprende &amp; Juega de TeamsChamp'
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/11/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para PlayQuiz: Aprende Juega, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2d538edf2b96311ea7f2611a33d2362786453ee3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 8d3cc87e089321333074ef577ba2afca0172e31c
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286088"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411445"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
 
@@ -55,7 +55,7 @@ TeamsChamp ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Nombre, correo electrónico e imagen de perfil del usuario | email, for sing into the app and name to display it in the app | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
 >| User.ReadBasic.All | delegado | Nombre, correo electrónico e imagen de perfil | no almacenar los datos, solo leerlos para mostrarlos en el leaderboad (aplicación) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8) |
@@ -135,3 +135,4 @@ TeamsChamp ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

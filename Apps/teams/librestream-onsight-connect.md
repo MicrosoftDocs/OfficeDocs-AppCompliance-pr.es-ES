@@ -2,18 +2,18 @@
 title: Información de la aplicación para onsight Conectar por Librestream
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/13/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Onsight Conectar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 77ffbb55792b9b4a455674549feba1b316864a6a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 383a66917c8ef3bd6e1ee0a1a224f2f14e4c663d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286567"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410984"
 ---
 # <a name="onsight-connect"></a>Onsight Connect
 
@@ -119,3 +119,4 @@ Librestream ha proporcionado esta información sobre cómo esta aplicación admi
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

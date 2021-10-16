@@ -2,18 +2,18 @@
 title: Información de la aplicación CI-Signature por solución ci GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/25/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CI-Signature, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 3e32777fcce04ad0769fa6b5699925bfc0fd6718
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: bad7efd16d1f3e8993892265bee3ada983b59455
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288288"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411244"
 ---
 # <a name="ci-signature"></a>CI-Signature
 
@@ -111,3 +111,4 @@ Esta información ha sido proporcionada por ci solution GmbH acerca de cómo est
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

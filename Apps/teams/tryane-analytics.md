@@ -2,18 +2,18 @@
 title: Información de la aplicación para Tryane Analytics de Tryane
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/27/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tryane Analytics, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: e806f46e2ff2046defcc7967f6d7bec420629329
-ms.sourcegitcommit: 3ac3366e04e24db2d12183ef212738d5b599f553
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 474c7824163b9b457ca3df2e705dc2cb1ccb8845
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59975115"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410824"
 ---
 # <a name="tryane-analytics"></a>Tryane Analytics
 
@@ -33,7 +33,7 @@ Información proporcionada por Tryane a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Tryane Analytics |
-| Identificador | WA200001827 |
+| Id. | WA200001827 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tryane |
 | Dirección URL del sitio web de partners | [https://www.tryane.com](https://www.tryane.com) |
@@ -55,7 +55,7 @@ Tryane ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.ReadBasic.All | aplicación | nombres de canal y propiedades adicionales | All Enumerar todos los canales con nombres, descripciones | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
 >| ChannelMessage.Read.All | aplicación | número de mensajes publicados por el usuario | Enumerar todos los mensajes de canales&#8217; metadatos | [9b03f15d-1219-4b2f-9699-640be54e1319](https://docs.microsoft.com/microsoft-365-app-certification/azure/9b03f15d-1219-4b2f-9699-640be54e1319) |
@@ -107,9 +107,9 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057' frameborder='no' style='width: 100%;'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36057" target="_blank">Ver en una pestaña nueva</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -140,3 +140,4 @@ Tryane ha proporcionado esta información sobre cómo esta aplicación administr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

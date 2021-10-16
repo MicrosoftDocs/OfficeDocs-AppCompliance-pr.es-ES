@@ -2,18 +2,18 @@
 title: Información de la aplicación para Adobe Sign para Word y PowerPoint por Adobe Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/12/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign para Word y PowerPoint, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ca8f1f0aba2f18c81c76cb50d8d76cb2e86efa84
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5ed7e962014ea7cf2c63c2ff2bbcb97da3939233
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283927"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411314"
 ---
 # <a name="adobe-sign-for-word-and-powerpoint"></a>Adobe Sign para Word y PowerPoint
 
@@ -52,7 +52,7 @@ Adobe Inc. ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Mail.ReadWrite | delegado | Para rellenar el documento adjunto, los correos electrónicos del remitente y el receptor, y el contenido de los mensajes de correo electrónico a Adobe sign para enviar para la firma. Esto es para ahorrar tiempo al usuario para volver a escribir esos campos en Adobe Sign. Después de firmar un contrato, redactemos automáticamente un nuevo correo electrónico para que el usuario envíe un correo electrónico para informar a sus destinatarios de que la transacción se ha realizado. | Adobe Sign guardará los datos adjuntos como archivos temporales, que tiene un vencimiento de 24 horas. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
 >| People.Read | delegado | Para rellenar automáticamente la dirección de correo electrónico en la experiencia Enviar para la firma, escribiendo algunas letras iniciales, no es necesario que los usuarios &quot; &quot; escriban los correos electrónicos completos. | Adobe Sign solo almacenará el correo electrónico de los destinatarios y displayName en los acuerdos. | [72d5ac5d-a427-408b-907d-72da3f33ddd1](https://docs.microsoft.com/microsoft-365-app-certification/azure/72d5ac5d-a427-408b-907d-72da3f33ddd1) |
@@ -129,3 +129,4 @@ Adobe Inc. ha proporcionado esta información sobre cómo esta aplicación admin
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

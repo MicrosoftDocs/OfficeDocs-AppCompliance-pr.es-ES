@@ -2,18 +2,18 @@
 title: Información de la aplicación para el ensamblado de CarrotHR Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/21/2021
+ms.date: 06/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Assembly, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f8d63c77c3fd9b52353ce22954dfa4dadb8dea2f
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3597930ccf3200a42afe3ac7335199cbe5e9e885
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59289409"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411114"
 ---
 # <a name="assembly"></a>Ensamblado
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por CarrotHR Inc. sobre cómo esta aplic
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Channel.Create | delegado | Permitir que el usuario asigne la aplicación a un canal recién creado desde nuestra aplicación | Almacenamos el id. de canal para mantener nuestra aplicación sincronizada con el canal correcto | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
 >| Directory.Read.All | aplicación | Mantenga nuestros perfiles sincronizados para que los miembros puedan buscar correctamente en Assembly | Cualquier información de perfil adicional que pueda estar disponible para que los miembros puedan buscar en assembly | [0a1b7ca8-390e-4f55-a7b5-eee089c5a905](https://docs.microsoft.com/microsoft-365-app-certification/azure/0a1b7ca8-390e-4f55-a7b5-eee089c5a905) |
@@ -139,3 +139,4 @@ Esta información ha sido proporcionada por CarrotHR Inc. sobre cómo esta aplic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

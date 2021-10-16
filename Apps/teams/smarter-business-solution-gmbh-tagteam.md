@@ -2,18 +2,18 @@
 title: Información de la aplicación para TagTeam por Smarter Business Solution GmbH
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/21/2021
+ms.date: 05/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TagTeam, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cd1411cff3f80788bc9a5677f595caad620484e1
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 025d0040bdd58a01cd3993445c025b9a61f90822
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285672"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60408339"
 ---
 # <a name="tagteam"></a>TagTeam
 
@@ -55,7 +55,7 @@ Smarter Business Solution GmbH ha proporcionado esta información sobre cómo es
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Read.All | delegado | No recopilamos estos datos: solo se usan para mostrar conversaciones etiquetadas. Nos encantaría cambiarla a la API de búsqueda, Graph la API actualmente no lo admite.  | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
 >| User.Read | delegado | Mostrar User-Information (por ejemplo, Nombre) en nuestra pestaña | Ninguno | [6d7f01cb-cfa5-48d9-beed-363d381ae32b](https://docs.microsoft.com/microsoft-365-app-certification/azure/6d7f01cb-cfa5-48d9-beed-363d381ae32b) |
@@ -136,3 +136,4 @@ Esta información ha sido proporcionada por Smarter Business Solution GmbH acerc
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

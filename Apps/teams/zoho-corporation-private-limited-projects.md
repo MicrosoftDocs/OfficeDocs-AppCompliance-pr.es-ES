@@ -2,18 +2,18 @@
 title: Información de aplicación para proyectos de Zoho de Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/16/2019
+ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Proyectos Zoho, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cb0d9ec4caabe3307474e0927adc4a793046a449
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 7bc0d1f79ec7464cdd76775a636a1098aa7b8a2d
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288016"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410774"
 ---
 # <a name="zoho-projects"></a>Zoho Projects
 
@@ -55,7 +55,7 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado |  | Tener acceso completo a los calendarios de usuario. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
 >| Files.Read | delegado |  | Lea todos los archivos. | [621d9ae7-c14e-4fab-9604-63e1ffc9e721](https://docs.microsoft.com/microsoft-365-app-certification/azure/621d9ae7-c14e-4fab-9604-63e1ffc9e721) |
@@ -110,4 +110,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

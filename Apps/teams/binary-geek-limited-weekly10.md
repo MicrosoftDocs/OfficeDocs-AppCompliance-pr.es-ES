@@ -2,18 +2,18 @@
 title: Información de la aplicación para Weekly10 de Binary Geek Limited
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/19/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Weekly10, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 3a1456ccf706a9588f82e38ea35e5e37f8098b9b
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9bdd5e42398270719c9f0ecd9814155974dbee6f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286584"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411134"
 ---
 # <a name="weekly10"></a>Weekly10
 
@@ -55,11 +55,11 @@ Binary Geek Limited ha proporcionado esta información sobre cómo esta aplicaci
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | aplicación | Sincronización de usuarios de Azure AD en Weekly10 (opcional) | Datos de identidad de usuario: Nombre principal de usuario, Correo electrónico, Nombre, Apellidos y Administrador. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
+>| Directory.Read.All | aplicación | Sincronización de usuarios de Azure AD a Weekly10 (opcional) | Datos de identidad de usuario: Nombre principal de usuario, Correo electrónico, Nombre, Apellidos y Administrador. | [2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb](https://docs.microsoft.com/microsoft-365-app-certification/azure/2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb) |
 >| Calendars.ReadWrite | aplicación | Comprobación de la disponibilidad de los empleados y la reserva automatizada de reuniones (opcional). | Tiempos de disponibilidad de los empleados (no detalles) y cuando se reserva una reunión, la referencia a esa reunión. Estos datos se usan para comprender si un empleado está fuera de la oficina para una experiencia de empleado sin problemas y para reservar reuniones para 1:1 o revisiones de rendimiento. | [494610b2-b490-4f54-8384-312d6f9b4869](https://docs.microsoft.com/microsoft-365-app-certification/azure/494610b2-b490-4f54-8384-312d6f9b4869) |
->| User.Read | delegado | Comprobación del usuario con fines de SSO en Azure AD. | No se conservan datos adicionales aparte de la información del token. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
+>| User.Read | delegado | Comprobación del usuario con fines de SSO en el Azure AD. | No se conservan datos adicionales aparte de la información del token. | [6fd1421e-89e8-4a8b-bd01-9397656a50d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fd1421e-89e8-4a8b-bd01-9397656a50d5) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -99,17 +99,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -137,3 +126,4 @@ Binary Geek Limited ha proporcionado esta información sobre cómo esta aplicaci
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para LMS365 por ELEARNINGFORCE International Aps
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/28/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab9a29c84b57da2f2a21a20bb22f6a1545fd6d2e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: cf7009ba508e37487c22c85082c92e9eeaa070b6
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286736"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410504"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -51,7 +51,7 @@ ELEARNINGFORCE International Aps ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| GroupMember.Read.All | aplicación | Ninguno | Permite que la aplicación expanda los miembros del grupo de AD, que es necesario inscribir un grupo de usuarios en los cursos. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
 >| Mail.Send | delegado | Ninguno | El permiso se solicita dinámicamente durante la configuración de la cuenta de correo electrónico para la notificación. Permite que la aplicación envíe correos electrónicos de notificación | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](https://docs.microsoft.com/microsoft-365-app-certification/azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc) |
@@ -138,3 +138,4 @@ ELEARNINGFORCE International Aps ha proporcionado esta información sobre cómo 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

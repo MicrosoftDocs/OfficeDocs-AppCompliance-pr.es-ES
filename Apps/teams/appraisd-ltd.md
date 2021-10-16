@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la evaluación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 2ed2853f03b9b3e6e235e87d634fb5c2aafaaec6
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 0b098dc89b60ad052d520b8c6ea56a2bda237544
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59784760"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410444"
 ---
 # <a name="appraisd"></a>Appraisd
 
@@ -33,7 +33,7 @@ Información proporcionada por Appraisd ltd. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Appraisd |
-| Identificador | WA200003123 |
+| Id. | WA200003123 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Appraisd ltd. |
 | Dirección URL del sitio web de partners | [https://www.appraisd.com](https://www.appraisd.com) |
@@ -55,7 +55,7 @@ Appraisd ltd ha proporcionado esta información sobre cómo esta aplicación rec
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| People.Read | delegado | El selector de personas presenta al usuario una lista de los miembros de su equipo. Esto es para admitir la funcionalidad principal dentro de Appraisd. | Estos datos no se almacenan. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
 >| User.Read | delegado | La dirección de correo electrónico del usuario (upn) y el id. de usuario se usan para encontrar al usuario en Appraisd y vincularlos a su Teams cuenta. | La dirección de correo electrónico del usuario (upn) y el id. de usuario se almacenan para recordar el vínculo entre la cuenta appraisd y Teams usuario. | [4f037969-20ef-4a41-8330-422b7b115eb6](https://docs.microsoft.com/microsoft-365-app-certification/azure/4f037969-20ef-4a41-8330-422b7b115eb6) |
@@ -99,17 +99,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -136,3 +125,4 @@ Esta información ha sido proporcionada por Appraisd ltd. sobre cómo esta aplic
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

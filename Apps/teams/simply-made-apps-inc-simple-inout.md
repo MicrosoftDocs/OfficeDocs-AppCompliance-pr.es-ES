@@ -2,18 +2,18 @@
 title: Información de la aplicación para entrada y salida sencilla de Simply Made Apps, Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/25/2020
+ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para entrada y salida simple, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1dc9a66d7d49cb776fa82f7847ba9e06f74c6176
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 81bd50847286f0ec3286dead589a1dc1ddb3f188
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286111"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411515"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -118,3 +118,4 @@ Simply Made Apps, Inc. proporciona esta información sobre cómo esta aplicació
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

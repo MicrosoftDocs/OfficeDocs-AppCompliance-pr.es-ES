@@ -2,18 +2,18 @@
 title: Información de aplicaciones para NewCOS de Newtech
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/17/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para NewCOS, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cb787aa76a30e5c7b0559eaf4ec28b7035636fbe
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: baeb52e72158bcb796e90c5daea2bfdba9c80985
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288424"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411565"
 ---
 # <a name="newcos"></a>NewCOS
 
@@ -55,7 +55,7 @@ Newtech ha proporcionado esta información sobre cómo esta aplicación recopila
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| perfil | ambos | Estos datos se usan para la autenticación en permisos de aplicación | El perfil de usuario se almacena para identificar dentro de la aplicación al usuario | [07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e](https://docs.microsoft.com/microsoft-365-app-certification/azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e) |
 >| OpenID | ambos | Microsoft Teams, para informar y gobierno | Microsoft Teams uso e información | [ea4de024-dd5f-4d3e-a092-3b8de6c64200](https://docs.microsoft.com/microsoft-365-app-certification/azure/ea4de024-dd5f-4d3e-a092-3b8de6c64200) |
@@ -133,3 +133,4 @@ Newtech ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

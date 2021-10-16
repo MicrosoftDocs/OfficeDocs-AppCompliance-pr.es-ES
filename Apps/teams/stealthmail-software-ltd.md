@@ -2,18 +2,18 @@
 title: Información de la aplicación para StealthMail de Stealthmail Software Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/31/2021
+ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para StealthMail, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 322cdc906ab0cd2ae8980d1412bb4dd9c897a5f6
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 117f7c791048373b4e1d985c991b001f5aa595dd
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286880"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60407369"
 ---
 # <a name="stealthmail"></a>StealthMail
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por Stealthmail Software Ltd sobre cómo
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| ChannelMessage.Read.All | delegado | La aplicación envía el mensaje al canal con la referencia en el correo electrónico seguro creado | Ninguno | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
 >| ChannelMessage.Send | delegado | La aplicación envía el mensaje al canal con la referencia en el correo electrónico seguro creado | Ninguno | [1ed0a549-c730-44c7-a984-a8c658fe9807](https://docs.microsoft.com/microsoft-365-app-certification/azure/1ed0a549-c730-44c7-a984-a8c658fe9807) |
@@ -139,3 +139,4 @@ Esta información ha sido proporcionada por Stealthmail Software Ltd sobre cómo
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

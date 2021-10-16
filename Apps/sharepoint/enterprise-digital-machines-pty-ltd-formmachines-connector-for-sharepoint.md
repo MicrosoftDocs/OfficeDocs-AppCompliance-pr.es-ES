@@ -2,18 +2,18 @@
 title: Información de la aplicación para FormMachines Connector para SharePoint ENTERPRISE DIGITAL MACHINES PTY LTD
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/03/2020
+ms.date: 09/25/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para FormMachines Connector para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 56c08c242cb3822ebaea854026fb3f758768b7bf
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 3d5cab668924d0edfed32a807096be68519a775f
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287951"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410484"
 ---
 # <a name="formmachines-connector-for-sharepoint"></a>FormMachines Connector para SharePoint
 
@@ -53,7 +53,7 @@ ESTA información ha sido proporcionada por ENTERPRISE DIGITAL MACHINES PTY LTD 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | (inicio de sesión, correo electrónico, Guid de Azure, displayName, first_login_date_time) | permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso, nos permite identificar de forma única a cada usuario | [8c87660f-d36f-41f6-b0ae-025253f380aa](https://docs.microsoft.com/microsoft-365-app-certification/azure/8c87660f-d36f-41f6-b0ae-025253f380aa) |
 
@@ -99,4 +99,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

@@ -2,18 +2,18 @@
 title: Información de la aplicación para FactSet de FactSet Research Systems Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/23/2021
+ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para FactSet, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 98d1ef93eb2b64da517c47306d1779b40d1a6c83
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: b869bbdddf3d7502aa9d174d5cb1a838f8ca7f8e
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785615"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411034"
 ---
 # <a name="factset"></a>FactSet
 
@@ -33,7 +33,7 @@ Información proporcionada por FactSet Research Systems Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | FactSet |
-| Identificador | WA200002146 |
+| Id. | WA200002146 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | FactSet Research Systems Inc. |
 | Dirección URL del sitio web de partners | [https://www.factset.com](https://www.factset.com) |
@@ -54,7 +54,7 @@ FactSet Research Systems Inc. proporciona esta información sobre cómo esta apl
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | aplicación | Nombre y correo electrónico para verificación y registro, Id. de conversación para el envío de mensajes proactivos | Nombre y correo electrónico para verificación y registro, Id. de conversación para el envío de mensajes proactivos | [95fb5da0-6ced-4247-9d62-294f8fcb75df](https://docs.microsoft.com/microsoft-365-app-certification/azure/95fb5da0-6ced-4247-9d62-294f8fcb75df) |
 
@@ -96,17 +96,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -121,3 +110,4 @@ FactSet Research Systems Inc. proporciona esta información sobre cómo esta apl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

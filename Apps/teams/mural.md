@@ -2,18 +2,18 @@
 title: Información de la aplicación para MURAL by MURAL
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MURAL, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 58349e188a709d1f74a3a3b6426ca4b4a34c34d4
-ms.sourcegitcommit: 4817af6bd92bcc7624a43ea79ba6b9362da38035
+ms.openlocfilehash: 547125dfa636a60f8a95153c5b75b060ee2f65f1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "60233624"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60409453"
 ---
 # <a name="mural"></a>MURAL
 
@@ -33,7 +33,7 @@ Información proporcionada por MURAL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MURAL |
-| ID | WA104381626 |
+| Id. | WA104381626 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | MURAL |
 | Dirección URL del sitio web de partners | [https://mural.co](https://mural.co) |
@@ -122,3 +122,4 @@ ESTA información ha sido proporcionada por MURAL sobre cómo esta aplicación a
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

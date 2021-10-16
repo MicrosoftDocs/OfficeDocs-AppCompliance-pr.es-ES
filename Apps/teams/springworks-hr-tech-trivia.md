@@ -2,18 +2,18 @@
 title: Información de la aplicación para Trivia de Springworks HR Tech
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/13/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Trivia, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e22205d2584abd257a6fdff585f129fb915ff6b2
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f2e79a1843977a1c8c1ea0f62259cfa4bde8f076
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284976"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410854"
 ---
 # <a name="trivia"></a>Trivia
 
@@ -55,7 +55,7 @@ Springworks HR Tech ha proporcionado esta información sobre cómo esta aplicaci
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Group.Read.All | delegado | No | Para obtener la lista de Teams de la que el usuario forma parte | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
 >| Team.ReadBasic.All | delegado | Sí, almacenar la lista de equipos en los que se ha agregado el bot | Para recopilar información básica sobre todos los equipos presentes en un área de trabajo | [43bc466a-7678-476f-b904-2d933c5bbfc3](https://docs.microsoft.com/microsoft-365-app-certification/azure/43bc466a-7678-476f-b904-2d933c5bbfc3) |
@@ -129,3 +129,4 @@ Springworks HR Tech ha proporcionado esta información sobre cómo esta aplicaci
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

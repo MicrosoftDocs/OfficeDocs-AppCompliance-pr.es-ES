@@ -2,18 +2,18 @@
 title: Información de la aplicación para TeamMood por Power Up Conseil
 ms.author: elmalova
 author: elenamalova
-ms.date: 06/30/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamMood, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e64ee816ff86bfacca7e479d8d36a95272bd2e44
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 84b93fc1dfeed38d4566ad77c05fcbdb06b7c313
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285712"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410954"
 ---
 # <a name="teammood"></a>TeamMood
 
@@ -133,3 +133,4 @@ Power Up Conseil ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

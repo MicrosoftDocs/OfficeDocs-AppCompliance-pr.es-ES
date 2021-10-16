@@ -2,18 +2,18 @@
 title: Información de la aplicación para ecBooking por Expert Systems IVR(Asia) Co.Ltd.
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/28/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ecBooking, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f36edd400f35d7e4ccbfef5edd0225855f73ab69
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 418f653876e6a93d6772317016e460fc0da70954
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288200"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411708"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -55,7 +55,7 @@ Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. ace
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | aplicación | Los datos, como el correo electrónico del usuario, los eventos de usuario se almacenan. Los eventos de usuario se recopilan para comprobar la disponibilidad de salas y crear eventos. | El identificador del evento users, el nombre de la ubicación y otros detalles del evento se almacenarían. Los datos se recopilan para comprobar la disponibilidad de salas y crear eventos. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
 >| Mail.Send | aplicación | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | Datos como el correo electrónico del usuario. El correo electrónico del usuario se recopila para enviar correo electrónico de aviso de reserva de sala. | [a85d5d70-9b9c-46e4-bdd6-d139f1648dea](https://docs.microsoft.com/microsoft-365-app-certification/azure/a85d5d70-9b9c-46e4-bdd6-d139f1648dea) |
@@ -138,3 +138,4 @@ Esta información ha sido proporcionada por expert systems IVR(Asia) Co.Ltd. ace
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

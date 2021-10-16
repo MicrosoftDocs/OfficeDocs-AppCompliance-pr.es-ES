@@ -2,18 +2,18 @@
 title: Información de la aplicación para SmartWork por SmartWork de Intumit
 ms.author: elmalova
 author: elenamalova
-ms.date: 07/23/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmartWork, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9df1a52e4634956a1a48984faeea9e4b453c03a4
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: fab20b7cfe9fd8008f98a44e473102acd6efbadc
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283935"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410884"
 ---
 # <a name="smartwork"></a>SmartWork
 
@@ -54,9 +54,9 @@ SmartWork de Intumit ha proporcionado esta información sobre cómo esta aplicac
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | Uso de userPrincipalName para identificar si el correo del usuario procede de AAD válido o no | Iniciar sesión y leer el perfil del usuario | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
+>| User.Read | delegado | Uso de userPrincipalName para identificar si el correo del usuario procede de una AAD o no | Iniciar sesión y leer el perfil del usuario | [a938ae1e-a791-4751-9e6a-178c991fa0fa](https://docs.microsoft.com/microsoft-365-app-certification/azure/a938ae1e-a791-4751-9e6a-178c991fa0fa) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -71,7 +71,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Usar para identificar el correo del usuario si procede de AAD válido o no | Correo electrónico del usuario | Lista de correo del usuario almacenado para identificar si el usuario procede de AAD válido o no |
+>| Usar para identificar el correo del usuario si procede de una AAD o no | Correo electrónico del usuario | Lista de correo del usuario almacenado para identificar si el usuario procede de una lista AAD o no |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -84,7 +84,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Solo usted tiene una cuenta de AAD válida que puede acceder a la aplicación.
+>Solo tiene una cuenta AAD puede tener acceso a la aplicación.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -134,3 +134,4 @@ SmartWork de Intumit ha proporcionado esta información sobre cómo esta aplicac
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

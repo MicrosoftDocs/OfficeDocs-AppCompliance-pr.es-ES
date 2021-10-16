@@ -2,18 +2,18 @@
 title: Información de la aplicación para bot de calendario por contacto aprobado
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/10/2021
+ms.date: 05/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el BOT de calendario, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9314d7712249dbbd8ad507e8c81eb47ddaa49ca9
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 2259180e558201ab86eff52250ed962822700be1
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284104"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410434"
 ---
 # <a name="calendar-bot"></a>Calendar BOT
 
@@ -54,7 +54,7 @@ Esta información ha sido proporcionada por Contacto aprobado acerca de cómo es
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado | Para el BOT de calendario, almacenamos a los usuarios tiempo de disponibilidad para buscar horas libres para varias personas.  | Leemos y comparamos el tiempo de disponibilidad y la programación de reuniones. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
 >| Contacts.Read | delegado | Sí, almacenamos información de contacto. | Importar y sincronizar contactos. | [adef9811-448f-4dd5-88d9-68734050fe58](https://docs.microsoft.com/microsoft-365-app-certification/azure/adef9811-448f-4dd5-88d9-68734050fe58) |
@@ -137,3 +137,4 @@ Esta información ha sido proporcionada por Contacto aprobado acerca de cómo es
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

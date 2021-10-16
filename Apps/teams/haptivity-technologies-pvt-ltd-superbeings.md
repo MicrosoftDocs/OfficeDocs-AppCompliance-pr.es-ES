@@ -2,18 +2,18 @@
 title: Información de aplicaciones para superbeings de Haptivity Technologies Pvt Ltd
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/03/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SuperBeings, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ab033eb180c3988124639d7869dfb3a5adef70c2
-ms.sourcegitcommit: d5c60e66355ffa8fb84565e565f8bb15a665a099
+ms.openlocfilehash: 22b42969049261c0456cd6ce842f64255b907423
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59785765"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411658"
 ---
 # <a name="superbeings"></a>SuperBeings
 
@@ -33,7 +33,7 @@ Información proporcionada por Haptivity Technologies Pvt Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SuperBeings |
-| Identificador | WA200003246 |
+| Id. | WA200003246 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Haptivity Technologies Pvt Ltd |
 | Dirección URL del sitio web de partners | [https://www.superbeings.ai](https://www.superbeings.ai) |
@@ -104,17 +104,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -129,3 +118,4 @@ Haptivity Technologies Pvt Ltd ha proporcionado esta información sobre cómo es
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de aplicación para Digiplein de Educatieve Uitgeversgroep B.V.
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 09/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Digiplein, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 92f299ff3838c2a8c25c0e5a624ebfad651bc0f8
-ms.sourcegitcommit: 11288ac2cbae57aaa7820be0d9fb87c631805b7b
+ms.openlocfilehash: 0f74b7dbe065573e2679404475c30251ac86cd53
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60112301"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411758"
 ---
 # <a name="digiplein"></a>Digiplein
 
@@ -33,7 +33,7 @@ Información proporcionada por Educatieve Uitgeversgroep B.V. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Digiplein |
-| ID | WA200003298 |
+| Id. | WA200003298 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Educatieve Uitgeversgroep B.V. |
 | Dirección URL del sitio web de partners | [https://www.uitgeversgroep.nl](https://www.uitgeversgroep.nl) |
@@ -93,17 +93,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -118,3 +107,4 @@ Educatieve Uitgeversgroep B.V ha proporcionado esta información. acerca de cóm
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

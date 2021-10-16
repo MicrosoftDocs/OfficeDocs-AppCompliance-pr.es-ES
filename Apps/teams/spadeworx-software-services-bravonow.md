@@ -2,18 +2,18 @@
 title: Información de la aplicación para BravoNow de SpadeWorx Software Services
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/02/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para BravoNow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 1eb20f61739f5b6969c3f3889666adcce05d64a0
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 742d23bb2fdc8b91f0636fb0bb1842cac2ee05fa
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286544"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410864"
 ---
 # <a name="bravonow"></a>BravoNow
 
@@ -55,7 +55,7 @@ SpadeWorx Software Services ha proporcionado esta información sobre cómo esta 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read | delegado | Dirección de correo electrónico de los usuarios. | N/D | [272032ad-0c2e-4928-910e-5d52b19f70d5](https://docs.microsoft.com/microsoft-365-app-certification/azure/272032ad-0c2e-4928-910e-5d52b19f70d5) |
 
@@ -134,3 +134,4 @@ SpadeWorx Software Services ha proporcionado esta información sobre cómo esta 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

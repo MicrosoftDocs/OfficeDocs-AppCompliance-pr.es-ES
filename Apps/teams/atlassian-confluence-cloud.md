@@ -2,18 +2,18 @@
 title: Información de la aplicación para la nube de confluencia de Atlassian
 ms.author: elmalova
 author: elenamalova
-ms.date: 08/18/2021
+ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Confluence Cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83a34d3ae66bd3cb82fcc9d18ad88ba7ee7c4983
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: f73952983dd6b9788bcd61d71e55e5815de5f937
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59286599"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411154"
 ---
 # <a name="confluence-cloud"></a>Confluence Cloud
 
@@ -54,7 +54,7 @@ Atlassian ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.Read | delegado | - Leemos la lista de miembros de chat en una reunión, por lo que conocemos la lista de invitados a la reunión.   - Leemos los nombres&#8217; y las direcciones de correo electrónico que se muestran condicionalmente en nuestra aplicación de reunión. Por ejemplo, muestre el nombre del usuario actual que toma notas de reunión.   - Nuestra aplicación lee el evento de calendario&#8217;el usuario donde se agregó nuestra aplicación a una reunión, por lo que tenemos información básica sobre la reunión como el título de la reunión. | Algunos ejemplos de contenido que recopilamos y almacenamos son: el resumen y la descripción agregados a un problema jira, las páginas que creas en Confluencia, los repositorios y las solicitudes de extracción en Bitbucket, los comentarios que escribes en relación con un incidente en Statuspage y los comentarios que nos proporciones. El contenido también incluye los archivos y vínculos que carga en los Servicios. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
 >| Chat.ReadBasic | delegado |  - Leemos la lista de miembros de chat en una reunión, por lo que conocemos la lista de invitados a la reunión.   - Leemos los nombres&#8217; y las direcciones de correo electrónico que se muestran condicionalmente en nuestra aplicación de reunión. Por ejemplo, muestre el nombre del usuario actual que toma notas de reunión.   - Nuestra aplicación lee el evento de calendario&#8217;el usuario donde se agregó nuestra aplicación a una reunión, por lo que tenemos información básica sobre la reunión como el título de la reunión. | Algunos ejemplos de contenido que recopilamos y almacenamos son: el resumen y la descripción agregados a un problema jira, las páginas que creas en Confluencia, los repositorios y las solicitudes de extracción en Bitbucket, los comentarios que escribes en relación con un incidente en Statuspage y los comentarios que nos proporciones. El contenido también incluye los archivos y vínculos que carga en los Servicios. | [4aa38041-66a2-41a4-ac97-55bc828a9803](https://docs.microsoft.com/microsoft-365-app-certification/azure/4aa38041-66a2-41a4-ac97-55bc828a9803) |
@@ -137,3 +137,4 @@ Atlassian ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

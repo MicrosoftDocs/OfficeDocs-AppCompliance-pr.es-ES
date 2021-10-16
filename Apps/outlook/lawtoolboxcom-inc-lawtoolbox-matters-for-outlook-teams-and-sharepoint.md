@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para LawToolBox Matters for Outlook, Teams SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 039b83277d1e3a6823b16079ec6a0fa8fbec68d2
-ms.sourcegitcommit: 1d47df35430334cfc0c60f7ea0b62392b99b7cbf
+ms.openlocfilehash: b8264ca65796af344d5cba11a55afca6c2e42cc9
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60286017"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411304"
 ---
 # <a name="lawtoolbox-matters-for-outlook-teams-amp-sharepoint"></a>LawToolBox importa para Outlook, Teams &amp; SharePoint
 
@@ -109,17 +109,6 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone-end
 
-::: zone pivot="mcas"
-
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
-
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
 
 ::: zone pivot="identity"
 
@@ -129,16 +118,16 @@ Esta información ha sido proporcionada por LawToolBox.com Inc. sobre cómo esta
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Yes |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Yes |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Yes |
-| ¿La aplicación admite directivas de acceso condicional? | Yes |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Para un mayor control, el administrador puede implementar permisos de aplicación |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Yes |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Yes |
-| ¿La aplicación admite multiinquilino? | Yes |
+| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Yes |
+| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
 | Para tu aplicación, ¿qué evitas usar? | ,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
 | ¿Expone la aplicación alguna API web? | No |
 | ¿La aplicación usa las API de vista previa? | No |
@@ -147,3 +136,4 @@ Esta información ha sido proporcionada por LawToolBox.com Inc. sobre cómo esta
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

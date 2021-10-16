@@ -2,18 +2,18 @@
 title: Información de la aplicación para Medxnote MT de Medxnote
 ms.author: elmalova
 author: elenamalova
-ms.date: 09/28/2020
+ms.date: 08/19/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Medxnote MT, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 5eff51e5045f299ad8fe9e8335b3c5dac41af919
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 35f038dcfc9a7ee49153c585741465f444a4e1a4
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59285776"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411595"
 ---
 # <a name="medxnote-mt"></a>Medxnote MT
 
@@ -54,7 +54,7 @@ Medxnote ha proporcionado esta información sobre cómo esta aplicación recopil
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| User.Read.All | aplicación | estamos almacenando en caché el nombre y el correo electrónico, que se usan en el lado del hospital para comprobar los privilegios de los usuarios | al enviar mensajes algunas veces se agrega nombre y dirección de correo electrónico, estamos almacenando en caché esos datos en el lado del servidor, también se usa para la comprobación de privilegios opcional en el lado del hospital | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
 >| OpenID | delegado | estamos almacenando en caché el identificador de sesión, el id. de usuario, el token de portador y el correo electrónico, usados para iniciar sesión en usuarios en el módulo Tarea | us it to sign in users in Task module, we are storing session id, userid, email, bearer tokens | [fc70bbbe-91c4-4d8f-a9c9-a022068d5752](https://docs.microsoft.com/microsoft-365-app-certification/azure/fc70bbbe-91c4-4d8f-a9c9-a022068d5752) |
@@ -108,4 +108,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

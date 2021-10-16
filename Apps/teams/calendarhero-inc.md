@@ -2,18 +2,18 @@
 title: Información de la aplicación para CalendarHero de CalendarHero Inc
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/17/2020
+ms.date: 01/22/2020
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CalendarHero, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 41a7dd8a2cb7d900ac26b228c4cc2522d76da59c
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 380aa287ed8c0a11743b56fbb6a2e3e8fbea5081
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287080"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60411124"
 ---
 # <a name="calendarhero"></a>CalendarHero
 
@@ -55,7 +55,7 @@ CalendarHero Inc ha proporcionado esta información sobre cómo esta aplicación
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | ambos | Las reuniones se almacenan en caché en nuestra mongoDB en Azure, pero las descripciones están cifradas. | Acceso a los eventos del calendario del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
 >| Contacts.ReadWrite | ambos | Nombre de los contactos y dirección de correo electrónico. | Lea los contactos del usuario (para poder invitarlos a una reunión). | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
@@ -114,4 +114,5 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
 

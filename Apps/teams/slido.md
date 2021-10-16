@@ -2,18 +2,18 @@
 title: Información de aplicación para Slido por Slido
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/05/2021
+ms.date: 01/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Slido, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 864c54c1e4e9033232e4357fb620fb372c3a0e75
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 5f6a2b32d4639a9bc942451567da1a2e4dd16406
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284983"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60410904"
 ---
 # <a name="slido"></a>Slido
 
@@ -127,3 +127,4 @@ Slido ha proporcionado esta información sobre cómo esta aplicación controla l
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
