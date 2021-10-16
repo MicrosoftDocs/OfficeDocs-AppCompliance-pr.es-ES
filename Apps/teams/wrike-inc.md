@@ -2,18 +2,18 @@
 title: Información de la aplicación para Wrike by Wrike Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/04/2021
+ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wrike, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f5f044ee38389321d9f566d1e5f8e5c95586df4c
-ms.sourcegitcommit: e339fa9776aae99797dbc1f0a28932e71b4eb823
+ms.openlocfilehash: df1592c144238d87643602613bec173f63714e82
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60131708"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60405849"
 ---
 # <a name="wrike"></a>Wrike
 
@@ -33,7 +33,7 @@ Información proporcionada por Wrike Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wrike |
-| ID | WA104381390 |
+| Id. | WA104381390 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Wrike Inc. |
 | Dirección URL del sitio web de partners | [https://wrike.com](https://wrike.com) |
@@ -135,3 +135,4 @@ Wrike Inc. ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+

@@ -2,18 +2,18 @@
 title: Información de la aplicación para SmartCite para documentos de Digital Science
 ms.author: elmalova
 author: elenamalova
-ms.date: 05/29/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmartCite for Papers, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: f039eb5f2fd2cedc6110e380a5830a71472d600e
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: ec979feae01a67ca76dd5b5cfbb94eabac946c9a
+ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59283920"
+ms.lasthandoff: 10/16/2021
+ms.locfileid: "60404662"
 ---
 # <a name="smartcite-for-papers"></a>SmartCite para documentos
 
@@ -118,3 +118,4 @@ Digital Science ha proporcionado esta información sobre cómo esta aplicación 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
