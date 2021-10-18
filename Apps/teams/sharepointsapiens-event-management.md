@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para administración de eventos, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 74e6e3963a03ff6cc6da44ffc33184f6b5fe1cf9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 6c01ea167bc634296e6eb9972192db14f61839a9
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412760"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60423112"
 ---
 # <a name="event-management"></a>Administración de eventos
 
@@ -141,4 +141,3 @@ Esta información ha sido proporcionada por SharePoint| Sapiens acerca de cómo 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

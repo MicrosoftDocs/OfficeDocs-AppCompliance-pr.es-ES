@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el sobrenombre de juegos de flujo, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 978886170dd2b67ba829dccf92dfa4ba4cffc376
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 9c46e306ac4b6aeead6bf54d60a01d0db76956ed
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414476"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428222"
 ---
 # <a name="nickname-by-flowrish-games"></a>nickname by flowrish games
 
@@ -107,4 +107,3 @@ Room6 ha proporcionado esta información sobre cómo esta aplicación controla l
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

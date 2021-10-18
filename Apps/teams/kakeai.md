@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para KAKEAI, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2afbcf29e27470859356e07e1a82a749de325c94
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 2ced3aeb9e8cc152c97dc20fa01540fea38461c3
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410994"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428252"
 ---
 # <a name="kakeai"></a>KAKEAI
 
@@ -125,4 +125,3 @@ KAKEAI ha proporcionado esta información sobre cómo esta aplicación administr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
