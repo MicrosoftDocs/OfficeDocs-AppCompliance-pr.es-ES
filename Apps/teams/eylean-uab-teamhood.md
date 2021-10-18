@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Teamhood, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: e5f3b17179dd0e48d1de2519909545e9aaed76bc
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: eb707accd8fb227fb22188797ebcd0bd5b611c80
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412419"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428797"
 ---
 # <a name="teamhood"></a>Teamhood
 
@@ -131,4 +131,3 @@ Esta información ha sido proporcionada por Eylean, UAB, acerca de cómo esta ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

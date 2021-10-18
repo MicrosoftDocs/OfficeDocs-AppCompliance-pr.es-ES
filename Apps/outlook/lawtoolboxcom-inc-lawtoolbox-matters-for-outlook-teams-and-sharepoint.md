@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para LawToolBox Matters for Outlook, Teams SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b8264ca65796af344d5cba11a55afca6c2e42cc9
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 450fd7c5f0752d523fb94e59308f8f339c95fad8
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411304"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428677"
 ---
 # <a name="lawtoolbox-matters-for-outlook-teams-amp-sharepoint"></a>LawToolBox importa para Outlook, Teams &amp; SharePoint
 
@@ -136,4 +136,3 @@ Esta información ha sido proporcionada por LawToolBox.com Inc. sobre cómo esta
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

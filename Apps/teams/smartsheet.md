@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smartsheet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: f95e090af5a83db8053bf60582a73dd77a2905d0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d8bbe31189a44c240bc648670a0a04e0b5fce6ec
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410894"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429067"
 ---
 # <a name="smartsheet"></a>Smartsheet
 
@@ -70,7 +70,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API de Bot Framework | Sí | Usamos la API de Bot Framework para entregar mensajes como la aplicación para la aplicación de teams. Smartsheet almacena información de userId para realizar un seguimiento de con quién está hablando el bot de Smartsheet. |  | Ninguno |  |
+>| API de Bot Framework | Sí | Usamos la API de Bot Framework para entregar mensajes como la aplicación para la aplicación de teams. Smartsheet almacena información de userId para realizar un seguimiento de con quién está hablando el bot de Smartsheet. |  | None |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
@@ -122,5 +122,4 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Smart Conectar para Jira, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4342897ef390842396e62798debc54e146a979e3
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 3c5dbcb87b2d99c727b01ff903ec9daf83935978
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413261"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430288"
 ---
 # <a name="smart-connect-for-jira"></a>Smart Connect for Jira
 
@@ -62,9 +62,9 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| ChannelMessage.Send | delegado | No se usa ningún dato, esta API se usa para permitir que el usuario responda a los mensajes de canal de Jira. | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| ChannelSettings.Read.Group | aplicación | Se usa para buscar información detallada sobre un canal. | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| Chat.ReadWrite | delegado | Se usa para permitir al usuario agregar nuevas respuestas a los chats y ver mensajes de chat de Jira. | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| Member.Read.Group | aplicación | Se usa para las comprobaciones de permisos, permite que la aplicación valide la pertenencia al equipo de los usuarios. | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| Member.Read.Group | aplicación | Se usa para las comprobaciones de permisos, permite que la aplicación valide la pertenencia al equipo de los usuarios. | None | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| Team.ReadBasic.All | delegado | El permiso se usa para permitir que el usuario seleccione uno de estos equipos unidos en Jira. | Team IDs for caching purposes | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
->| TeamSettings.Read.Group | aplicación | Permite que la aplicación lea la configuración del equipo para respetar ciertos valores predeterminados. | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
+>| TeamSettings.Read.Group | aplicación | Permite que la aplicación lea la configuración del equipo para respetar ciertos valores predeterminados. | None | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 >| User.ReadBasic.All | delegado | Permite al usuario seleccionar compañeros de trabajo para @-mencione en un mensaje de canal | Ninguno | [89d5ca9f-d63b-4885-bd30-6e7433c1540c](https://docs.microsoft.com/microsoft-365-app-certification/azure/89d5ca9f-d63b-4885-bd30-6e7433c1540c) |
 
 
@@ -144,4 +144,3 @@ Yasoon GmbH ha proporcionado esta información sobre cómo esta aplicación cont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

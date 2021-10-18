@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Luware Nimbus para Microsoft Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d7139f3ca934da20e58bb9f838217796ca5644da
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 34991a9d979fb497a02c074ade1bd8a7f8faea0d
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410494"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430540"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus para Microsoft Teams
 
@@ -59,10 +59,10 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| Contacts.Read | delegado | Consola de operador: buscar en el Exchange contactos del usuario que ha iniciado sesión | Ninguno | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Contacts.Read.Shared | delegado | Consola de operador: búsqueda en el archivo Exchange contactos compartidos | Ninguno | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| GroupMember.Read.All | aplicación | Obtener miembros del equipo, leer grupos de seguridad | Almacenamos esta información a medida que los agentes del centro de llamadas se administran a través de pertenencias a grupos | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| Presence.Read.All | delegado | Mostrar presencia en la búsqueda de contactos en la página consola del operador | Ninguno | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| Presence.Read.All | delegado | Mostrar presencia en la búsqueda de contactos en la página consola del operador | None | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.Read | delegado | Obtener UserInformation (de usuario que ha iniciado sesión) | Ninguno | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| User.Read.All | ambos | Aplicación de Nimbus: Obtener CallerInformation. En una llamada interna al Centro de contacto, hacemos una búsqueda inversa sobre quién podría ser para poder mostrar esa información al agente. En la Consola de operador (con permiso delegado) buscamos destinos de transferencia en todo el directorio interno. | Para informes de REasons sobre quién llamó más, almacenamos los datos. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
->| User.ReadBasic.All | delegado | Búsqueda limitada de usuarios | Ninguno | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
+>| User.ReadBasic.All | delegado | Búsqueda limitada de usuarios | None | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e) |
 >| Calls.AccessMedia.All | aplicación | Muchas de esas aplicaciones/bots (una por cola del centro de contacto): suscribirse a tonos DTMF donde el cliente realmente puede seleccionar su posición en el IVR | Toda la información de DTMF para las formas seleccionadas a través del motivo IVR para informes | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 >| Calls.Initiate.All | aplicación | Muchas de esas aplicaciones/bots (una por cola del centro de contacto): llamar al agente  | Toda la información de CDR para motivo de informes | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
 >| Calls.InitiateGroupCall.All | aplicación | Muchas de esas aplicaciones/bots (una por cola del centro de contacto): llamar al agente  | Toda la información de CDR para motivo de informes | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](https://docs.microsoft.com/microsoft-365-app-certification/azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc) |
@@ -127,4 +127,3 @@ Luware AG ha proporcionado esta información sobre cómo esta aplicación contro
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AVA, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: a23ab8dfa165d43d6f2a9afafab0bc2ac12534bb
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: e5b53fbbc4c65c709324611a9ac645b045e4eaa7
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60411899"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430008"
 ---
 # <a name="ava"></a>AVA
 
@@ -57,7 +57,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Mail.ReadWrite.Shared | delegado | Ninguno | Buscar los correos electrónicos del usuario y mover el correo electrónico a la carpeta especificada | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
+>| Mail.ReadWrite.Shared | delegado | None | Buscar los correos electrónicos del usuario y mover el correo electrónico a la carpeta especificada | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 >| User.Read | delegado |  Token de acceso del usuario: se usa para buscar y restaurar los datos del usuario | Permite al usuario iniciar sesión y dar el token de acceso a la aplicación | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 >| User.ReadWrite | delegado | DisplayName, UserPrincipalName, JobTitle, Organization, Country, MySiteUrl: registra la información básica del usuario que usó la aplicación. | Obtener información básica del perfil del usuario | [6f30434d-3cfa-4cf8-9810-6fcf79ae750a](https://docs.microsoft.com/microsoft-365-app-certification/azure/6f30434d-3cfa-4cf8-9810-6fcf79ae750a) |
 
@@ -67,7 +67,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| API de REST de SharePoint | Sí | Buscar en el reciclaje del sitio personal del usuario y restaurar estos archivos. Requiere el permiso AllSites.Manage. |  | Ninguno |  |
+>| API de REST de SharePoint | Sí | Buscar en el reciclaje del sitio personal del usuario y restaurar estos archivos. Requiere el permiso AllSites.Manage. |  | None |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
@@ -116,5 +116,4 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
 

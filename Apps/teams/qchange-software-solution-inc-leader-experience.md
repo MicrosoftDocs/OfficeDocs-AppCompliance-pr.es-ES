@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la experiencia del líder de qChange, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 2123fe401ab5da425903d7821bfc598d7f0d2723
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 4fee868b7382deb521cb6089c5288698fd91b158
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414114"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60428997"
 ---
 # <a name="qchange-leader-experience"></a>qChange Leader Experience
 
@@ -135,4 +135,3 @@ Esta información ha sido proporcionada por qChange Software Solution, Inc. sobr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

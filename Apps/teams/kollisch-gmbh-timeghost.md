@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para timeghost, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 99ebec0e6e9b8454ebc822f0b7cbcf43232e156b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 9eb0acc888ccd96c0f0fbccd856792672e9ca10c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412309"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430058"
 ---
 # <a name="timeghost"></a>timeghost
 
@@ -140,4 +140,3 @@ K&#246;llisch GmbH proporciona esta información sobre cómo esta aplicación ad
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

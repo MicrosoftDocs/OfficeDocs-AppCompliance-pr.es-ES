@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para EWS ThoughtWire, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ef425a6acb8cfe166502b4c4817229b1b33da14b
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ebff314a2e2532b6d4b1c2a8e89e600fced83512
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414917"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429518"
 ---
 # <a name="thoughtwire-ews"></a>ThoughtWire EWS
 
@@ -56,12 +56,12 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.Create | aplicación | Permite que la aplicación cree grupos o equipos para salas o unidades de hospital. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| Group.Create | aplicación | Permite que la aplicación cree grupos o equipos para salas o unidades de hospital. | None | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
 >| Group.ReadWrite.All | aplicación | Necesario para que la aplicación determine los grupos que puede necesitar para crear o volver a crear, y para administrar la pertenencia. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| GroupMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamsAppInstallation.ReadWriteForTeam | aplicación | Permite que la aplicación instale automáticamente el bot de ThoughtWire en los equipos que crea o administra. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| User.Read | aplicación | Permitir que la aplicación recupere el AADID/nombre de usuario de un usuario según sea necesario al administrar la pertenencia o recuperar el nombre de usuario para identificar al usuario dentro de nuestra aplicación. | Ninguno | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| GroupMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | None | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| TeamMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | None | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| TeamsAppInstallation.ReadWriteForTeam | aplicación | Permite que la aplicación instale automáticamente el bot de ThoughtWire en los equipos que crea o administra. | None | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| User.Read | aplicación | Permitir que la aplicación recupere el AADID/nombre de usuario de un usuario según sea necesario al administrar la pertenencia o recuperar el nombre de usuario para identificar al usuario dentro de nuestra aplicación. | None | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -128,4 +128,3 @@ ThoughtWire Corp ha proporcionado esta información sobre cómo esta aplicación
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para yuccaHR, sus directivas de tratamiento de datos, su información Microsoft Cloud App Security catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: f97ff60095ef47effd6e1e4c741a5cecaba0c594
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 74da74ff7eb808b2f0903a4bfce25f2fae7ebf03
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412680"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429318"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -127,4 +127,3 @@ Esta información ha sido proporcionada por Yucca Technologies GmbH sobre cómo 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

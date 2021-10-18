@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SysAid, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: bfbd5801a3788ec088d02a7f8f9aeed34e3ac250
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 7ea2a3fdf5d88c952f10dc29465390e6176c229f
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412710"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430369"
 ---
 # <a name="sysaid"></a>SysAid
 
@@ -118,4 +118,3 @@ SysAid ha proporcionado esta información sobre cómo esta aplicación controla 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

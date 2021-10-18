@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TackleBox, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a40a1d6e1acb87917956766be21b0d6b364dfcba
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d8f732980f921fdfc6da503aaa8ea1243f7fb42a
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413772"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60429618"
 ---
 # <a name="tacklebox"></a>TackleBox
 
@@ -58,7 +58,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Files.ReadWrite.All | delegado | Permite a los usuarios examinar sus OneDrive, carpetas y archivos; vincular archivos a TackleBox; leer Excel para extraer automáticamente gráficos, gráficos, tablas, áreas de impresión y rangos con nombre; crear y actualizar archivos PowerPoint con estos Excel visuales | Id. de unidad, id. de carpeta, id. de archivo, vínculo de vista, creado por, fecha de creación, modificado por, fecha de modificación, id. de versión, nombre de archivo | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
->| Sites.Read.All | delegado | Permitir a los usuarios examinar y vincular Excel archivos ubicados en canales de Teams privados | Ninguno | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
+>| Sites.Read.All | delegado | Permitir a los usuarios examinar y vincular Excel archivos ubicados en canales de Teams privados | None | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| User.Read | delegado | Permite a la aplicación leer el perfil de los usuarios que han iniciado sesión y volver a enviar su dirección de correo electrónico para las notificaciones | Correo electrónico | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| OpenID | delegado | Permite a los usuarios iniciar sesión en nuestra aplicación con Microsoft 365 cuenta | Id. de inquilino e id. de objeto para usuario | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
 >| perfil | delegado | Permite que la aplicación muestre el perfil básico de los usuarios (nombre, nombre de usuario) para facilitar la colaboración | UPN, First Name, Last Name | [485936ec-d15d-4a17-9f7d-2eeb5ea43b94](https://docs.microsoft.com/microsoft-365-app-certification/azure/485936ec-d15d-4a17-9f7d-2eeb5ea43b94) |
@@ -136,4 +136,3 @@ Insiten ha proporcionado esta información sobre cómo esta aplicación administ
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

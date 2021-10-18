@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el bot de adopción de C.AI, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 655d6801d05e2f909cbe5d1ee9578092a43f6778
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 85c64b89b739d96d48de528d2394f909f404b06e
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410343"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430520"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -139,4 +139,3 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
