@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SlideHub, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: dacb6758c2fe3d1d551daec80bc53642b3e6b607
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 245920d3a1baf5e895c37dfedb7de6b853818cb6
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410514"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434709"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -113,4 +113,3 @@ Nomorehours ha proporcionado esta información sobre cómo esta aplicación cont
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

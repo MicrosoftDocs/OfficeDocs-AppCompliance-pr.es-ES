@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Gtmhub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 85b35713d3e6f558920e49e759be31516bc72442
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b33a6e3edf18ba4a1bd24acb5ec690f84188ca1c
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410223"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438934"
 ---
 # <a name="gtmhub"></a>Gtmhub
 
@@ -107,4 +107,3 @@ Gtmhub ha proporcionado esta información sobre cómo esta aplicación controla 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

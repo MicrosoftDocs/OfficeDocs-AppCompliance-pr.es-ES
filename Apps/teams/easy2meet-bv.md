@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Easy2Meet, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 6983b46f281ed725aa4597acfa87944b5bc2c023
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 164890c1ceebe1cae7567ca5f6d05b38d3c8361b
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412429"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60432925"
 ---
 # <a name="easy2meet"></a>Easy2Meet
 
@@ -132,4 +132,3 @@ Easy2Meet B.V ha proporcionado esta información. acerca de cómo esta aplicaci�
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

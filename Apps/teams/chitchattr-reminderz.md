@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Reminderz, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 778e6b803c786e9559095445bcb700cae6b3256d
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 072b2d76ccd08ae74f139e1e8ef968c4b2328654
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60410374"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445260"
 ---
 # <a name="reminderz"></a>Reminderz
 
@@ -127,4 +127,3 @@ ChitChattr ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

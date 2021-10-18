@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Aster, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 11edf7f1d092a565b0c69155a1c2be4213c206e2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: f7691d2a438b8245092cc364810e1a42baa20258
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60415267"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60436624"
 ---
 # <a name="aster"></a>Aster
 
@@ -57,7 +57,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | delegado | Lista de directorios para enviar tareas de Planner de documentos de Sharepoint | Ninguno | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
+>| Directory.Read.All | delegado | Lista de directorios para enviar tareas de Planner de documentos de Sharepoint | None | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
 >| Group.ReadWrite.All | delegado | Lista de grupos para enviar tareas de Planner de documentos de Sharepoint en grupos existentes o creados | Ninguno | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
 >| Notes.ReadWrite.All | delegado | Notas contenido para escribir en OneNote | Ninguno | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
 >| Tasks.ReadWrite.Shared | delegado | Tareas, asignación, plazos | Todos estos datos para sincronizar las tareas Graph API con tareas de Aster | [27c89ce8-b449-4959-b801-988d8b727512](https://docs.microsoft.com/microsoft-365-app-certification/azure/27c89ce8-b449-4959-b801-988d8b727512) |
@@ -127,4 +127,3 @@ Aster ha proporcionado esta información sobre cómo esta aplicación administra
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para WorkInSync, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 746a7b7c52d8905aaf65d86bc0f15202f486eb82
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 35a505013b59bdd9cc0d9b40986acea1f1c19b53
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413662"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60442722"
 ---
 # <a name="workinsync"></a>WorkInSync
 
@@ -57,16 +57,16 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Directory.Read.All | delegado | 1. Para obtener detalles de los miembros del grupo transitivos. Se usan en la pestaña Actividad del equipo cuando se instalan en el contexto del canal. 2. Para iniciar sesión en la lista de detalles del perfil de &amp;  usuario de los usuarios de la organización. Se usan cuando la pestaña Actividad de equipo se instala en contexto personal, como una reserva para mostrar una vista previa de compañeros de equipo en caso de que la API de personas falle (usuarios que no son de Outlook) | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| People.Read | delegado | Para que las personas más relacionadas con el usuario que ha iniciado sesión se muestren en la pestaña Actividad del equipo, se instala en contexto personal. | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| Directory.Read.All | delegado | 1. Para obtener detalles de los miembros del grupo transitivos. Se usan en la pestaña Actividad del equipo cuando se instalan en el contexto del canal. 2. Para iniciar sesión en la lista de detalles del perfil de &amp;  usuario de los usuarios de la organización. Se usan cuando la pestaña Actividad de equipo se instala en contexto personal, como una reserva para mostrar una vista previa de compañeros de equipo en caso de que la API de personas falle (usuarios que no son de Outlook) | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| People.Read | delegado | Para que las personas más relacionadas con el usuario que ha iniciado sesión se muestren en la pestaña Actividad del equipo, se instala en contexto personal. | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read | delegado | Para obtener información de presencia de una lista de usuarios en la pestaña Actividad del equipo en contexto personal y de canal | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| Presence.Read.All | delegado | Para obtener información de presencia de una lista de usuarios en la pestaña Actividad del equipo en contexto personal y de canal | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.Read.All | aplicación | Se usa para obtener información del administrador de informes de cualquier usuario para enviar notificaciones de reserva y de checkin/checkout al administrador | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| User.ReadBasic.All | delegado | Se usa para leer la foto de perfil del empleado | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| User.Read.All | aplicación | Se usa para obtener información del administrador de informes de cualquier usuario para enviar notificaciones de reserva y de checkin/checkout al administrador | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| User.ReadBasic.All | delegado | Se usa para leer la foto de perfil del empleado | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 >| email | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| offline_access | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| OpenID | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
->| perfil | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | Ninguno | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| offline_access | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| OpenID | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
+>| perfil | delegado | Necesario para obtener el token de SSO mediante Teams biblioteca de cliente | None | [fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc](https://docs.microsoft.com/microsoft-365-app-certification/azure/fdabfc71-2cf8-42f0-bcdd-83e5f4acfdcc) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -133,4 +133,3 @@ MoveInSync ha proporcionado esta información sobre cómo esta aplicación contr
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

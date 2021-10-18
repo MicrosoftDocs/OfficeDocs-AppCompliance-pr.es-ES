@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el bienestar del día escolar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: babc51460ddb23fd19007f2ebfc8ebab00300a69
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: ff37e7b9bb25090f65793d99c5ff994fc6af6d65
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408429"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60440739"
 ---
 # <a name="school-day-wellbeing"></a>Día escolar del bienestar
 
@@ -135,4 +135,3 @@ Esta información ha sido proporcionada por School Day Helsinki Oy sobre cómo e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

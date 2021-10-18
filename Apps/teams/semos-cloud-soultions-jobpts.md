@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para JobPts, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ca449f0fcc33f8b85feae5be0e022ba79fe965f0
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 9f5a359025a628c866cd9882cf4e47518104b2db
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60408409"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60438516"
 ---
 # <a name="jobpts"></a>JobPts
 
@@ -129,4 +129,3 @@ Semos Cloud Soultions ha proporcionado esta información sobre cómo esta aplica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

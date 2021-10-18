@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para COCO, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8e0dbf1b70767805b01cb6a318e4d00c3399c8ee
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 192e0d2a923f3b2cc1ec698aab5b81de5837bafd
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414596"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434599"
 ---
 # <a name="coco"></a>COCO
 
@@ -60,7 +60,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >| Directory.Read.All | aplicación | Ninguno | Leer datos del directorio | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 >| Directory.ReadWrite.All | delegado | Ninguno | Leer y escribir datos en el directorio | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 >| User.Read | delegado | Ninguno | Iniciar sesión y leer el perfil del usuario | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
->| User.Read.All | aplicación | Ninguno | Leer los perfiles completos de todos los usuarios | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
+>| User.Read.All | aplicación | None | Leer los perfiles completos de todos los usuarios | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 >| User.ReadWrite.All | delegado | Ninguno | Leer los perfiles completos de todos los usuarios y escribir en ellos | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 >| OpenID | delegado | Ninguno | Inicio de sesión de los usuarios | [82eb2bf2-969c-46da-9e89-1db59ac4fbb3](https://docs.microsoft.com/microsoft-365-app-certification/azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3) |
 
@@ -127,4 +127,3 @@ Hexaware Technologies Ltd ha proporcionado esta información sobre cómo esta ap
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el complemento de Fabasoft Cloud Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: ecc48fc5f131e7ce52007313ce3352b4fd9b78a7
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: b68e4bc7a3659cdb0230dc06dcafc25cfc2d2e76
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60404710"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60434399"
 ---
 # <a name="fabasoft-cloud-office-add-in"></a>Complemento Office Fabasoft Cloud
 
@@ -107,4 +107,3 @@ Fabasoft Austria GmbH ha proporcionado esta información sobre cómo esta aplica
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

@@ -13,7 +13,7 @@ ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 10/18/2021
-ms.locfileid: "60431002"
+ms.locfileid: "60445202"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 

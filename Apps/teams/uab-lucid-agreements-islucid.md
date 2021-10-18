@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para isLucid, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 7270fa4f4a08ca820d1fe7452dea13fb107f2294
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 5c482dbb0a7fda2f588eef80e16abb5f495be478
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414907"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60445022"
 ---
 # <a name="islucid"></a>isLucid
 
@@ -132,4 +132,3 @@ Esta información ha sido proporcionada por UAB Contratos lúcidos sobre cómo e
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
