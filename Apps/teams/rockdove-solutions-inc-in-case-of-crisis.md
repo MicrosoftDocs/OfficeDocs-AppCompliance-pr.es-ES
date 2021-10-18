@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para En caso de crisis, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: d6cb978afddcd7b87851ac515e0594757d63fb21
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: 43c9e7a3611f712d6425e60c292c359cc6d332d1
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60412800"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60430992"
 ---
 # <a name="in-case-of-crisis"></a>En caso de crisis
 
@@ -131,4 +131,3 @@ RockDove Solutions, Inc. ha proporcionado esta información sobre cómo esta apl
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-

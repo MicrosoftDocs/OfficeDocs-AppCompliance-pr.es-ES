@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TELUS Business Conectar, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 465b92171bb82a617d2369298037c06fce1fa84a
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+ms.openlocfilehash: d39d9d969d09d711de1d879dd869543e06d3a596
+ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60413452"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60431002"
 ---
 # <a name="telus-business-connect"></a>TELUS Business Connect
 
@@ -59,7 +59,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
 >| Calendars.ReadWrite | delegado |  Permite que la aplicación envíe el evento de invitaciones a reuniones a través de su calendario | Ninguno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| User.Read | delegado |  Permite que la aplicación lea un perfil&#8217;de usuario (correo electrónico, nombre) para hacer coincidencias de contacto al final. Y permite al usuario iniciar sesión y vincular su cuenta de O365 con la cuenta ringcentral |  Correo electrónico, nombre, apellido | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
->| User.Read.All | delegado | Permite que la aplicación lea el perfil completo de un usuario con números de teléfono para realizar llamadas telefónicas con nuestros servicios. | Ninguno | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
+>| User.Read.All | delegado | Permite que la aplicación lea el perfil completo de un usuario con números de teléfono para realizar llamadas telefónicas con nuestros servicios. | None | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 >| offline_access | delegado |  Permite a la aplicación obtener y actualizar el token de oauth |  Token de acceso, token de actualización para obtener acceso a MS Graph API | [e601bd6e-0476-4d66-bd57-a9d13c207f0b](https://docs.microsoft.com/microsoft-365-app-certification/azure/e601bd6e-0476-4d66-bd57-a9d13c207f0b) |
 
 
@@ -112,4 +112,3 @@ RingCentral, Inc. ha proporcionado esta información sobre cómo esta aplicació
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
-
