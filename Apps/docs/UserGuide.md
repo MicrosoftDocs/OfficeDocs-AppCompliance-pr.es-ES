@@ -6,16 +6,16 @@ description: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicac
 keywords: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 74bb654b6084319122e0f9388792cf44d85ca4a664ce89bf308982a29cbfdfc8
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 79a301d6825b3f9ea3d882e13e91b48f3808f60b
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801688"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60544586"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones
 
-|Fase|Cargo|
+|Fase|Título|
 |---|---|
 |Fase 1| Atestación del editor|
 |Fase 2| Certificación Microsoft 365|
@@ -37,26 +37,19 @@ Este documento actúa como una guía de usuario paso a paso para nuestros partne
 
 **Página principal:** esta es la página de aterrizaje cuando un partner inicia sesión en el Centro de partners.
 
-![Pantalla principal del Centro de partners](../media/UserGuidePhotos/01.png)
+**Paso 1:** Seleccionar Ofertas de Marketplace. 
 
-**Paso 1**   : En el lado izquierdo de la página, en la barra de navegación:
-- Seleccionar Office store
-- Seleccionar información general
+![Mercado comercial en el Centro de partners](../media/NewPChomepage.png)
+  
+**Paso 2:** Después de seleccionar "Ofertas de Marketplace", cambia a "Office Store". Selecciona una aplicación de la lista para iniciar el proceso Publisher atestación.
 
-
-![Office La tienda se puede encontrar en la navegación izquierda](../media/UserGuidePhotos/02.png)
-
-Al seleccionar "Información general", el partner puede ver la lista de aplicaciones enviadas a través del Centro de partners y disponibles para el Microsoft 365 cumplimiento.
-
-**Paso 2:** Seleccione una aplicación de la lista para comenzar el proceso Publisher atestación.
-
-![Elegir qué aplicación desea atestiguar](../media/UserGuidePhotos/03.png)
+![Selección de una aplicación en Commercial Marketplace](../media/NewPCoffersComm.png)
 
 Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación".
-
+  
 **Paso 3:** Seleccionar "Cumplimiento de aplicaciones"
 
-![Seleccionar cumplimiento de aplicaciones](../media/UserGuidePhotos/04.png)
+![Seleccionar cumplimiento de aplicaciones](../media/PCappcompliance3.png)
 
 **Paso 4:** Rellenar el cuestionario de autoevaluación para Publisher atestación
 

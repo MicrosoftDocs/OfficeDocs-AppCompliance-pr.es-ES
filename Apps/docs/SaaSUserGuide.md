@@ -6,16 +6,16 @@ description: Guía del usuario de ISV para Microsoft 365 SaaS del programa de cu
 keywords: Guía del usuario de ISV para Microsoft 365 SaaS del programa de cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 39eed9158ab9cbaa5e26efe036c98fc2ab2b1695d615d8b28930f0d8d4735430
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: 5f12c95e413ab069b1f8849a09be50251660fbb1
+ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54801492"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60545847"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones : SaaS
 
-|Fase|Cargo|
+|Fase|Título|
 |---|---|
 |Fase 1| Atestación del editor|
 |Fase 2| Certificación Microsoft 365|
@@ -36,26 +36,21 @@ Este documento actúa como una guía de usuario paso a paso para nuestros partne
 
 **Página principal:** esta es la página de aterrizaje cuando un partner inicia sesión en el Centro de partners.
 
-![Pantalla principal del Centro de partners](../media/Saas1.PNG)
   
-**Paso 1** : En el lado izquierdo de la página, en la barra de navegación:
+**Paso 1:** Seleccionar ofertas de Marketplace
 
-- Select Commercial Marketplace
-- Seleccionar información general
+![Mercado comercial en el Centro de partners](../media/NewPChomepage.png)
 
-![Mercado comercial en el Centro de partners](../media/Saas2.PNG)
   
-Al seleccionar "Información general", el partner puede ver la lista de aplicaciones disponibles para iniciar el programa Microsoft 365 cumplimiento.
-  
-**Paso 2:** Seleccione una aplicación de la lista para comenzar el proceso Publisher atestación.
+**Paso 2:** Después de seleccionar "Ofertas de Marketplace", alterna a "Commercial Marketplace".
 
-![Selección de una aplicación en Commercial Marketplace](../media/Saas3.PNG)
+![Selección de una aplicación en Commercial Marketplace](../media/NewPCOffersOffice.png)
 
-Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación".
+Selecciona una aplicación de la lista y aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación".
   
 **Paso 3:** Seleccionar "Cumplimiento de aplicaciones"
   
-![Cumplimiento de aplicaciones en el mercado comercial](../media/Saas4.PNG)
+![Cumplimiento de aplicaciones en el mercado comercial](../media/PCappcompliance3.png)
   
 **Paso 4:** Rellenar el cuestionario de autoevaluación para la Publisher atestación.
 
