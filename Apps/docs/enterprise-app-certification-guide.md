@@ -6,12 +6,12 @@ description: Microsoft 365 Detalles de certificación
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: c4b7798840630e2d4813536db29956f732adf18c
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: e41a9c0d09fec10b0034e7da5e8a335cbc4473fc
+ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544690"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60683583"
 ---
 # <a name="what-is-microsoft-365-certification"></a>¿Qué es Microsoft 365 certificación?
 
@@ -33,9 +33,10 @@ La fase de atestación se centra en un extenso cuestionario que detalla los atri
 
 ## <a name="certification"></a>Certificación
 
-La fase de certificación se centra en una auditoría de seguridad exhaustiva de la aplicación y es compatible con la infraestructura. La aplicación se verá en una serie de controles de seguridad derivados de marcos estándar de la industria líderes, como SOC 2, PCI DSS e ISO 27001. Si ya has recibido una certificación SOC 2, PCI DSS o ISO 27001 para tu aplicación te animamos a compartir esos informes. No son necesarias, pero se pueden usar para satisy un subconjunto de los controles sin pruebas adicionales. Si no las tiene, es necesario que nos proporcione pruebas claras (documentos, capturas de pantalla, etc.) que demuestren que cumple con todos los controles necesarios. Las aplicaciones que tienen una certificación han demostrado que existen prácticas seguras de seguridad y cumplimiento para proteger los datos de los clientes. 
+La fase de certificación se centra en una auditoría de seguridad exhaustiva de la aplicación y es compatible con la infraestructura. La aplicación se verá en una serie de controles de seguridad derivados de marcos estándar de la industria líderes, como SOC 2, PCI DSS e ISO 27001. Si ya has recibido una certificación SOC 2, PCI DSS o ISO 27001 para tu aplicación te animamos a compartir esos informes. No son necesarias, pero se pueden usar para satisfacer un subconjunto de controles sin pruebas adicionales. If you do not have external certifications then we do require that you provide us with clear evidence (documents, screenshots, etc.) that demonstrates you meet all the required controls. Las aplicaciones que tienen una certificación han demostrado que existen prácticas seguras de seguridad y cumplimiento para proteger los datos de los clientes. 
 
-> ! [IMPORTANTE] Microsoft cubre actualmente todo el costo de la auditoría de certificación siempre que el ISV pueda enviar todas las pruebas necesarias.
+> [!IMPORTANT]
+> Microsoft cubre actualmente todo el costo de la auditoría de certificación siempre que el ISV pueda enviar todas las pruebas necesarias.
 
 La certificación de aplicaciones se logra a través de la revisión y aprobación de un analista cualificado de una evaluación completa centrada en los marcos de seguridad y cumplimiento de una aplicación, procesos y procedimientos. 
 
