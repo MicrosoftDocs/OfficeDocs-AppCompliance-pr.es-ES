@@ -11,8 +11,8 @@ ms.openlocfilehash: b64603bfd161dc2cb6a4cf624731c4181f7a5758
 ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60683513"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60719362"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure App IDs Security and Compliance
 
