@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: b0a207bd8fbe1834e03c08eecb82d3552c75a182
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 0d422251404275da18e08af120a15877616e4db4
+ms.sourcegitcommit: dfd937182e08ed377a5ad80f0db929ab7d7c7a7b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287671"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60789981"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -108,7 +108,7 @@ Las solicitudes de prueba que admitan la evaluación de certificación deben bas
 |<5|1|
 |>5 & <10|2|
 |>9 & <25|3|
-|>24|4 |
+|>24|4|
 
 > [!NOTE]
 >Si se identifican discrepancias entre los dispositivos incluidos en la muestra inicial, el tamaño de la muestra puede aumentar durante la evaluación. 
@@ -303,7 +303,7 @@ Este dominio mide la alineación de la infraestructura y los procesos de impleme
 
 |**Familia de controles**| **Controls**|
 | ------------------------|------------------------------ |
-| **Protección contra malware**|Proporcionar documentación de directivas que rige procedimientos y prácticas antivirus.|
+| **Protección contra malware: antivirus**|Proporcionar documentación de directivas que rige procedimientos y prácticas antivirus.|
 ||Proporcione pruebas demostrables de que el software antivirus se está ejecutando en todos los componentes del sistema muestreados.|
 ||Proporcione pruebas demostrables de que las firmas antivirus están actualizadas en todos los entornos (en un plazo de 1 día).|
 ||Proporcione pruebas demostrables de que antivirus está configurado para realizar análisis en tiempo real o examen periódico en todos los componentes del sistema muestreados. Nota: Si el examen en tiempo real no está habilitado, debe habilitarse un mínimo de análisis diario y alertas.|
@@ -346,6 +346,12 @@ Este dominio mide la alineación de la infraestructura y los procesos de impleme
 ||Proporcione pruebas demostrables de que la creación, modificación y eliminación de cuentas pasa por un proceso de aprobación establecido.|
 ||Proporcione pruebas demostrables de que hay un proceso para deshabilitar o eliminar cuentas que no se usan en un plazo de 3 meses.|
 ||Proporcione pruebas demostrables de que hay una directiva de contraseña segura u otras mitigaciones adecuadas para proteger las credenciales de usuario.  Debe usarse como una directriz mínima: longitud mínima de contraseña de 8 caracteres, umbral de bloqueo de cuenta de no más de 10 intentos, historial de contraseñas de un mínimo de 5 contraseñas, cumplimiento del uso de contraseña segura|
+||Proporcionar pruebas demostrables de que las cuentas de usuario únicas se emiten a todos los usuarios.|
+||Proporcionar pruebas demostrables de que se siguen los principios de privilegios mínimos en el entorno.|
+||Proporcione pruebas demostrables de que hay un proceso para proteger o proteger cuentas de servicio y se está siguiendo el proceso.|
+||Proporcione pruebas demostrables de que MFA está configurado para todas las conexiones de acceso remoto y todas las interfaces administrativas que no son de consola.|
+||Proporcione pruebas demostrables de que el cifrado seguro está configurado para todas las conexiones de acceso remoto y todas las interfaces administrativas que no son de consola, incluido el acceso a los repositorios de código e interfaces de administración en la nube.|
+||Proporcione pruebas demostrables de que MFA se usa para proteger el portal de administración que usa para administrar y mantener todos los registros del servicio de nombres de dominio público (DNS).|
 |**Detección y prevención de intrusiones (OPCIONAL):** Se recompensará el crédito adicional por satisfacer los siguientes controles|Proporcione pruebas demostrables de que los sistemas de detección y prevención de intrusiones (IDPS) se implementan en el perímetro de los entornos del ámbito.|
 ||Proporcione pruebas demostrables de que las firmas de IDPS se mantienen actualizadas (en un plazo de 24 horas).|
 ||Proporcione pruebas demostrables de que IDPS está configurado para admitir la inspección TLS de todo el tráfico web entrante.|
@@ -362,7 +368,8 @@ Este dominio mide la alineación de la infraestructura y los procesos de impleme
 ||Proporcionar pruebas demostrables de que los registros se revisan diariamente mediante herramientas humanas o automatizadas para identificar posibles eventos de seguridad.|
 ||Proporcionar pruebas demostrables de que se investigan y corrigen posibles eventos de seguridad y anomalías.|
 |**Alertas** | Proporcionar documentación de directiva que rige los procedimientos y procedimientos de alerta de eventos de seguridad.|
-|| Proporcionar pruebas demostrables de que las alertas se desencadenan para el triaje inmediato para los siguientes tipos de eventos de seguridad: creación o modificaciones de cuentas privilegiadas, eventos de virus o malware, alteración del registro de eventos, eventos IDPS o WAF
+|| Proporcionar pruebas demostrables de que las alertas se desencadenan para el triaje inmediato para los siguientes tipos de eventos de seguridad: creación o modificaciones de cuentas privilegiadas, eventos de virus o malware, alteración del registro de eventos, eventos IDPS o WAF|
+||Proporcione pruebas demostrables que muestren que el personal siempre está disponible, todo el día, todos los días, para responder a las alertas de seguridad.|
 |**Administración de riesgos**|Proporcionar pruebas demostrables de que se ha establecido un proceso formal de administración de riesgos de seguridad de la información.|
 ||Proporcionar pruebas demostrables de que una evaluación formal de riesgos se produce anualmente, como mínimo.|
 ||Proporcione pruebas demostrables de que la evaluación de riesgos de seguridad de la información incluye amenazas, vulnerabilidades o el equivalente.|
@@ -490,7 +497,7 @@ Solo se permiten los primitivos y parámetros criptográficos de la siguiente ma
 
 &emsp;&#x2713; RSA está permitido. La **clave DEBE** tener al menos 2048 bits y se debe usar el relleno de OAEP. El uso del relleno PKCS solo se permite por motivos de compatibilidad.
 
-**Signatures**
+**Firmas**
 
 &emsp;&#x2713; RSA está permitido. La **clave DEBE** tener al menos 2048 bits y debe usarse el relleno PSS. El uso del relleno PKCS solo se permite por motivos de compatibilidad.
 
@@ -997,10 +1004,6 @@ Microsoft reconoce que implementará aplicaciones y almacenará código de aplic
 
 
 ## <a name="appendix-g"></a>Apéndice G
-
-### <a name="microsoft-365-certification-process-workflow"></a>Microsoft 365 Flujo de trabajo de proceso de certificación
-
-![Flujo de trabajo](ProcessFlow.jpg)
 
 ## <a name="learn-more"></a>Más información
 
