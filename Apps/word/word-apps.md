@@ -2,17 +2,17 @@
 title: 'Microsoft Word Seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/20/2021
+ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Word aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 0fe327d8eb336f5f152d088cd96c66601bd3cc38
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: a09af68319bc84d6186de28126382d3349f462e1
+ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545900"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60872226"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word Seguridad y cumplimiento de aplicaciones
 
@@ -32,8 +32,9 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Asistente para contratos de Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
 | [Diagramas de Gráficos de Lucidchart para Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
+| [neopolis](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
 | [Office2SharePoint para Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Diseñador para Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
 | [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
@@ -42,6 +43,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [officeatwork | Asistente para Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** |  |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite para documentos](./digital-science-smartcite-for-papers.md) | Ciencia digital | **✓** |  |
+| [Stilus para Word](./meaningcloud-stilus-for-word.md) | MeaningCloud | **✓** |  |
 | [TaxKit Docs](./taxyio-gmbh-taxkit-docs.md) | Taxy.io GmbH | **✓** |  |
 | [TerMef](./mondeca-termef.md) | Mondeca | **✓** |  |
 | [Wunder365 para Office](./jiji-technologies-private-limited-wunder365-for-office.md) | JiJi Technologies Private Limited | **✓** |  |
