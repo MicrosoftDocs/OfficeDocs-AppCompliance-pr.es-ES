@@ -6,12 +6,12 @@ description: Microsoft 365 Introducción a los detalles de certificación
 keywords: certificación de aplicaciones Microsoft 365 appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 55125deec809aef3e74ab96bedf88b43ad8ac46e
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: ec401c9e1418c0023931300efe8c0206824d3506
+ms.sourcegitcommit: ddd67912ff4e8901300556ff85c2cf416f54dea1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544950"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60885299"
 ---
 # <a name="complete-microsoft-365-certification"></a>Certificación Microsoft 365 completa
 
@@ -38,6 +38,9 @@ Completar la certificación Microsoft 365 requiere completar las dos fases de la
 1. **Iniciar certificación:** en el centro de partners, haga clic en "Iniciar certificación". Esto le llevará al portal de envío de documentos inicial. Enviar el [envío inicial del documento](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification-submission-guide#initial-document-submission). Esto nos ayudará a determinar lo que está en el ámbito de la evaluación en función de cómo se diseñe la aplicación y cómo se administran los datos de los clientes. Compruebe esta página con frecuencia para ver si el envío se ha aceptado.
 
 1. **Enviar evidencia:** una vez aceptado el envío inicial del documento, el conjunto de controles de seguridad necesarios para la aplicación se mostrará automáticamente en el portal. A continuación, tendrá que enviar pruebas para cada control que demuestre que el control está en su lugar. Ten en cuenta que se te **darán 60 días para** enviar todas las pruebas. Un analista revisará las pruebas y aprobará el control o solicitará pruebas nuevas o adicionales. Compruebe esta página con frecuencia para ver si se han aceptado las pruebas.
+
+>[!NOTE]
+> Echa un vistazo a la [Guía de pruebas de muestra](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-sample-evidence-guide) para ver ejemplos concretos de las pruebas necesarias.
 
 1. **Obtener certificación:** una vez que un analista valide el envío, se le notificará su decisión de certificación. Las aplicaciones que reciban una certificación recibirán un distintivo en su aplicación en **marketplaces (Teams, Office, AppSource)** y portales de administración **(Teams, M365)** y páginas **de documentos de Microsoft.** Puede leer acerca de las ventajas de la certificación [aquí.](https://docs.microsoft.com/microsoft-365-app-certification/docs/enterprise-app-certification-guide#program-benefits)
 

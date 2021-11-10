@@ -6,12 +6,12 @@ description: Microsoft 365 Vista granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 0d422251404275da18e08af120a15877616e4db4
-ms.sourcegitcommit: dfd937182e08ed377a5ad80f0db929ab7d7c7a7b
+ms.openlocfilehash: f89cb9f82cec69a473d451cff33e3db9b406489d
+ms.sourcegitcommit: ddd67912ff4e8901300556ff85c2cf416f54dea1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60789981"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "60885300"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
 
@@ -144,7 +144,8 @@ Si la certificación no se renueva antes de la fecha de expiración, se revocar�
 
 ## <a name="initial-document-submission"></a>Envío inicial de documentos
 
-El envío inicial del documento ayudará a los analistas de certificación a realizar el ámbito y a determinar lo que estará en el ámbito de su evaluación. Después de lo cual tendrá que enviar la documentación de soporte y las pruebas usadas para llevar a cabo la evaluación. El envío inicial debe incluir la información especificada a continuación:
+
+El envío inicial del documento ayudará a los analistas de certificación a realizar el ámbito y a determinar lo que estará en el ámbito de su evaluación. Después de lo cual tendrá que enviar la documentación de soporte y las pruebas usadas para llevar a cabo la evaluación. El envío inicial debe incluir la información especificada a continuación. Para obtener información adicional, consulte la Guía de submisión de documentos [initital](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide).
 
 | **Introducción a &nbsp; la documentación**     |   **Detalles de la documentación**  |
 | -------------------------| -----------------------------|
@@ -191,7 +192,7 @@ Se usarán varios métodos para recopilar las pruebas necesarias para completar 
 * Entrevistas 
 * Screensharing 
 
-Las técnicas de recolección de evidencias usadas se determinarán durante el proceso de evaluación. 
+Las técnicas de recolección de evidencias usadas se determinarán durante el proceso de evaluación. Para obtener ejemplos concretos del tipo de evidencia necesaria en su envío, vea [la Guía de pruebas de muestra](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-sample-evidence-guide).
 
 **Actividades de evaluación**
 
@@ -994,7 +995,7 @@ Como las auditorías de SOC2 no evalúan específicamente algunos elementos de l
 
 Microsoft reconoce que implementará aplicaciones y almacenará código de aplicación o complemento en diferentes entornos de hospedaje. Las responsabilidades generales de algunos de los controles de seguridad dentro de la certificación Microsoft 365 dependerán del entorno de hospedaje que se esté utilizando. El Apéndice F examina los tipos de implementación comunes y los asigna a los controles de seguridad que se evalúan como parte del proceso de evaluación. Se han identificado los siguientes tipos de implementación de hospedaje:
 
-|Tipos de hospedaje  |Descripción  |
+|Tipos de hospedaje  |Description  |
 |-----|------|
 |**ISV hospedado**|Los tipos hospedados por ISV se pueden definir como donde eres responsable de la infraestructura usada para admitir el entorno de aplicación o complemento. Esto puede estar físicamente ubicado dentro de sus propios centros de datos o centros de datos de terceros con un servicio de ubicación local. En última instancia, tiene plena propiedad y control administrativo sobre la infraestructura auxiliar y el entorno operativo.|
 |**Infraestructura como servicio (IaaS)** (https://azure.microsoft.com/en-gb/overview/what-is-iaas/)|Infraestructura como servicio es un servicio que se proporciona mediante el cual el proveedor de servicios en la nube (CSP) administra y mantiene la infraestructura de soporte físico en su nombre. Normalmente, las redes, el almacenamiento, los servidores físicos y la infraestructura de virtualización son responsabilidad del CSP. El sistema operativo, middleware, tiempo de ejecución, datos y aplicaciones son las responsabilidades de usted. Las capacidades de firewall también serían administradas y mantenidas por el tercero, pero el mantenimiento de la base de reglas de firewall normalmente seguiría siendo responsabilidad de los consumidores.|
