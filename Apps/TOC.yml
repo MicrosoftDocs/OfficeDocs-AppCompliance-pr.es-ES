@@ -103,8 +103,8 @@
           href: outlook/atlassiancom-jira-cloud-for-outlook-official.md
         - name: LawToolBox Deadlines and Matter Management - Outlook
           href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
-        - name: 'LawToolBox es importante para Outlook, Teams y SharePoint'
-          href: outlook/lawtoolboxcom-inc-lawtoolbox-matters-for-outlook-teams-and-sharepoint.md
+        - name: LawToolBox Deadlines and Matter Management - Outlook
+          href: outlook/lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md
         - name: 'MIPA: su propio asistente personal'
           href: outlook/iglobe-mipa-your-own-personal-assistant.md
         - name: ngDesk
@@ -361,7 +361,7 @@
           href: teams/atlassian-confluence-cloud.md
         - name: Confluence Connector
           href: teams/move-work-forward-confluence-connector.md
-        - name: Conéctese+
+        - name: Conectar+
           href: teams/reward-gateway-connectplus.md
         - name: Centro de contacto
           href: teams/landis-technologies-llc-contact-center.md
@@ -459,7 +459,7 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
-        - name: Inteligencia artificial de las luciérnagas
+        - name: Inteligencia artificial de Fireflies
           href: teams/firefliesai-fireflies-ai.md
         - name: FireWatch
           href: teams/infographics-uk-ltd-firewatch.md
@@ -567,6 +567,8 @@
           href: teams/klaxoon.md
         - name: Koan
           href: teams/koan-inc.md
+        - name: Reuniones multilingües de KUDO
+          href: teams/kudo-inc-multilingual-meetings.md
         - name: Kudozza
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
@@ -1328,6 +1330,8 @@
           href: azure/5022e09d-d2f9-499f-8925-554c324ad23a.md
         - name: 50356ee3-b48b-424b-a7a7-35e53c2ce736
           href: azure/50356ee3-b48b-424b-a7a7-35e53c2ce736.md
+        - name: 5123b34d-663d-4ae9-a3c9-d2298be203f2
+          href: azure/5123b34d-663d-4ae9-a3c9-d2298be203f2.md
         - name: 512b84d2-5840-45d6-8d01-5f073836d039
           href: azure/512b84d2-5840-45d6-8d01-5f073836d039.md
         - name: 51e2b67d-9854-446a-8da1-cdd89ef0b987
