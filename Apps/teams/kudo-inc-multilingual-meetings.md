@@ -1,48 +1,48 @@
 ---
-title: Información de la aplicación para YAROOMS por YAROOMS
+title: Información de aplicación para reuniones multilingües de KUDO por KUDO, Inc.
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para YAROOMS, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para reuniones multilingües de KUDO, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f3a48e01d15109b5a61a0955cfaaa5022232199a
+ms.openlocfilehash: 4b1eb17b5bf7ba9af6fb33aff20bfac4ef47c83c
 ms.sourcegitcommit: e2058327f6190424ecc5d6d8b12afe60bd7dc1f3
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/15/2021
-ms.locfileid: "60968622"
+ms.locfileid: "60969204"
 ---
-# <a name="yarooms"></a>YAROOMS
+# <a name="kudo-multilingual-meetings"></a>Reuniones multilingües de KUDO
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 15, 2021</p>
+<p>Last updated by the developer on: November 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/495f8194-bdf2-41a3-8292-3f53b004c2e6" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001225" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/9ae3d116-3feb-48c6-b3c4-b61dceb760af" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003295" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por YAROOMS a Microsoft:
+Información proporcionada por KUDO, Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | YAROOMS |
-| Id. | WA200001225 |
+| Nombre de la aplicación | Reuniones multilingües de KUDO |
+| Id. | WA200003295 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | YAROOMS |
-| Sitio web de la compañía | [https://yarooms.com](https://yarooms.com) |
-| Términos de uso de la aplicación | [https://www.yarooms.com/legal/terms-conditions/](https://www.yarooms.com/legal/terms-conditions/) |
-| Funcionalidad principal de la aplicación | Software &amp; de reserva room desk |
-| Ubicación central de la empresa | Rumanía |
+| Nombre de la compañía asociada | KUDO, Inc. |
+| Sitio web de la compañía | [https://kudoway.com](https://kudoway.com) |
+| Términos de uso de la aplicación | [https://kudoway.com/terms-of-use/](https://kudoway.com/terms-of-use/) |
+| Funcionalidad principal de la aplicación | KUDO permite a las empresas comunicarse globalmente en varios idiomas. |
+| Ubicación central de la empresa | Estados Unidos de América |
 | Página de información de la aplicación | |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws, Azure, GCP |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,19 +52,21 @@ Información proporcionada por YAROOMS a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-YAROOMS ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+KUDO, Inc. ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Yes |
+| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| ¿La aplicación admite TLS 1.1 o posterior? | Yes |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Yes |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | Yes |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? | Yes |
+| ¿Qué datos se almacenan en las bases de datos? | id. de correo electrónico |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Yes |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 60 días |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Yes |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -88,13 +90,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Yes |
 | ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Yes |
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Yes |
-| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
+| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Yes |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | Yes |
-| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | No |
-| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
-| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Yes |
-| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Yes |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | No |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Yes |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Yes|
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | No |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
 | ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
@@ -108,15 +110,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
-| ¿Qué certificación SOC 2 ha logrado? | |
-| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Yes |
+| ¿Qué certificación SOC 2 ha logrado? |  type1 |
+| Fecha de certificación SOC2 más reciente |  2020-11-30 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Yes |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
@@ -124,7 +126,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -137,7 +139,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Yes |
 | ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | Yes |
-| Dirección URL de la directiva de privacidad | https://www.yarooms.com/legal/privacy-policy |
+| Dirección URL de la directiva de privacidad | https://kudoway.com/privacy-policy/ |
 | ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
@@ -145,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Yes |
 | ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
 | ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | Yes |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Yes |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,13 +157,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Yes |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Yes |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Yes |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
-| ¿La aplicación admite directivas de acceso condicional? | Yes |
-| Enumerar los tipos de directivas admitidas | - |
-| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Yes |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena credenciales en el código? | No |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
