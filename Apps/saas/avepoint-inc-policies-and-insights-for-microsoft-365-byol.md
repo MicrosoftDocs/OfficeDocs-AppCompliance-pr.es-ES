@@ -5,20 +5,19 @@ author: elenamalova
 ms.date: 11/01/2021
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para directivas Ideas para Microsoft 365 (BYOL), sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; de CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2f86ce69199b8573824f5207ea1e7b78147b73ea
-ms.sourcegitcommit: cb50f8967ff1ca98c98bcadb26c05b3a5c5a6ea8
+ms.openlocfilehash: 45bd93418e3b6b2c5f3b613f2c7467cd238c8213
+ms.sourcegitcommit: 7989546de4aa2bbd2a751281d1aa215facae2d15
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60875053"
+ms.lasthandoff: 11/16/2021
+ms.locfileid: "61039972"
 ---
 # <a name="policies-amp-insights-for-microsoft-365-byol"></a>Directivas &amp; Ideas para Microsoft 365 (BYOL)
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: October 26, 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/avepoint.policies-insights_mo365_byol" target="_blank">Ver en AppSource</a>
@@ -54,15 +53,15 @@ AvePoint Inc. ha proporcionado esta información sobre cómo esta aplicación re
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Yes |
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
-| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿La aplicación admite TLS 1.1 o posterior? | Yes |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Yes |
 | ¿Qué datos se almacenan en las bases de datos? |  SharePoint site/ODFB site/Microsoft 365 group/Team id, name, url;  |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Yes |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
-| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Yes |
 | ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
 | ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
@@ -76,25 +75,25 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Yes |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Yes |
 | ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls |
-| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | Sí |
-| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
-| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | Sí |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | Yes |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | Yes |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | Yes |
 | ¿El entorno tiene algún software o sistemas operativos no compatibles? | No |
-| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | Sí |
-| ¿Tiene un firewall instalado en el límite de red externa? | Sí |
-| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Sí |
-| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
-| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | Yes |
+| ¿Tiene un firewall instalado en el límite de red externa? | Yes |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Yes |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Yes |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Yes |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, Credential, DNSManagement |
-| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | Sí |
-| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
-| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
-| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Sí |
-| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Yes |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | Yes |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Yes |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Yes|
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Yes |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Yes |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
 | ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
@@ -110,22 +109,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Yes |
 | ¿Qué certificación SOC 2 ha logrado? |  type2 |
 | Fecha de certificación SOC2 más reciente |  2021-02-19 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Yes |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sí |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Yes |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | Sí |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | Yes |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
-| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sí |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Yes |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,8 +134,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
-| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | Sí |
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Yes |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | Yes |
 | Dirección URL de la directiva de privacidad | https://www.avepoint.com/license/dataprotection.html |
 | ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
@@ -145,7 +144,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
 | ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
 | ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Yes |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,19 +154,19 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Yes |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Yes |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Yes |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
-| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | Yes |
 | Enumerar los tipos de directivas admitidas | La aplicación se federa con Azure AD, por lo que se pueden usar todas las reglas de acceso condicional. |
-| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Sí |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Yes |
 | ¿La aplicación almacena credenciales en el código? | No |
-| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Yes |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph Permiso**  | **Tipo de permiso** |          **Justificación**          |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Sites.FullControl.All | aplicación | Recupere y actualice la información de colecciones de sitios y grupos o&#8217; sitios. |
 >| User.Read.All | aplicación | Leer la configuración de todos los usuarios |
