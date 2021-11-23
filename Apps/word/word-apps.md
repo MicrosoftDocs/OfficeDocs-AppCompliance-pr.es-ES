@@ -2,17 +2,17 @@
 title: 'Microsoft Word seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/08/2021
+ms.date: 11/22/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Word aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: a393f652e193ab3b4dbeca233159e4e98350b5e9
-ms.sourcegitcommit: 1ae3b2c9057829f6d868439ba674d8d8d9f30663
+ms.openlocfilehash: 10e3f16c158e8abfdaf91188dd933ea4626f37b7
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066298"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61144824"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word seguridad y cumplimiento de aplicaciones
 
@@ -29,7 +29,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [harmon.ie para Office](./harmonie-corporation-for-office.md) | harmon.ie Corporation | **✓** |  |
 | [Firmas de impresión](./impression-signatures.md) | Firmas de impresión | **✓** |  |
 | [LegalMind Word AddIn](./legalmind-word-addin.md) | LegalMind | **✓** |  |
-| [Asistente para contratos de Loio](./loio-inc-contract-assistant.md) | Loio Inc. | **✓** |  |
+| [Software de revisión de contratos de Loio](./loio-inc-contract-review-software.md) | Loio Inc. | **✓** |  |
 | [Diagramas de Gráficos de Lucidchart para Word](./lucid-software-inc-lucidchart-diagrams-for-word.md) | Lucid Software Inc | **✓** |  |
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopolis](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
