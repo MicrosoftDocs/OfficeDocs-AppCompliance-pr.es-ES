@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para MailClark de MailClark
+title: Información de la aplicación para Kaptain Charlie por askR.ai
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/29/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para MailClark, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Kaptain Charlie, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 57df605eb36fcfcf3ae10d1bac7aa1bbc9b24e25
+ms.openlocfilehash: 185eb80a15e92916a076a65d57a9c820bb9898a0
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148118"
+ms.locfileid: "61148201"
 ---
-# <a name="mailclark"></a>MailClark
+# <a name="kaptain-charlie"></a>Kaptain Charlie
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 29, 2021</p>
+<p>Last updated by the developer on: July 22, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/64f174e8-7e14-4b48-871e-2fb7b17be302" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381679" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1f36eaf6-30a3-4488-a73f-4754b91e865d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001583" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por MailClark a Microsoft:
+Información proporcionada por askR.ai a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | MailClark |
-| Id. | WA104381679 |
+| Nombre de la aplicación | Kaptain Charlie |
+| Id. | WA200001583 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | MailClark |
-| Sitio web de la compañía | [https://mailclark.ai/microsoft-teams-integration](https://mailclark.ai/microsoft-teams-integration) |
-| Términos de uso de la aplicación | [https://mailclark.ai/tos](https://mailclark.ai/tos) |
-| Funcionalidad principal de la aplicación | Administrar responder a correos electrónicos, mensajes de Facebook y &amp; Twitter en Microsoft Teams. |
-| Ubicación central de la empresa |  |
+| Nombre de la compañía asociada | askR.ai |
+| Sitio web de la compañía | [https://en.askr.ai](https://en.askr.ai) |
+| Términos de uso de la aplicación | [https://en.askr.ai/terms-of-use-askr-ai](https://en.askr.ai/terms-of-use-askr-ai) |
+| Funcionalidad principal de la aplicación | Chatear con los datos ! askR.ai es su asistente de datos personales Tiene datos pero no le gusta el proceso técnico para acceder a ellos? Use un asistente de datos para responder a sus preguntas y ayudarle a explorar ! ¿Qué askR.ai, el primer asistente de datos en Microsoft Teams? - Asistente de datos personales con tecnología de IA: proporciona KPI instantáneos y datos viz: comprende vocabulario empresarial específico - Enviar alertas- Sugerirle análisis adicional |
+| Ubicación central de la empresa | Francia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
@@ -51,7 +51,7 @@ Información proporcionada por MailClark a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-MailClark ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por askR.ai sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -60,7 +60,7 @@ MailClark ha proporcionado esta información sobre cómo esta aplicación recopi
 | ¿Qué datos se almacenan en las bases de datos? |  |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
 | ¿Tiene un proceso de administración de acceso a datos establecido? |  |
 | ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
 | ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
@@ -75,8 +75,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Realizas pruebas de penetración anuales en la aplicación? | No |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
 | ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
 | ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
 | ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
@@ -105,24 +105,24 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? |  |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? |  |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? |  |
-| Fecha de certificación SOC1 más reciente | |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? |  |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
 | Fecha de certificación SOC2 más reciente | |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? |  |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? |  |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? |  |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? |  |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? |  |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? |  |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -153,9 +153,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? |  |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |

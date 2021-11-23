@@ -1,45 +1,45 @@
 ---
-title: Información de la aplicación para MailClark de MailClark
+title: Información de la aplicación para el día escolar por día escolar Helsinki Oy
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/29/2021
+ms.date: 10/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para MailClark, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para School Day, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 57df605eb36fcfcf3ae10d1bac7aa1bbc9b24e25
+ms.openlocfilehash: 87ac7c69b2087c9960d9c6116e2682db1be786b2
 ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148118"
+ms.locfileid: "61148193"
 ---
-# <a name="mailclark"></a>MailClark
+# <a name="school-day"></a>Día escolar
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 29, 2021</p>
+<p>Last updated by the developer on: October 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/64f174e8-7e14-4b48-871e-2fb7b17be302" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381679" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7caaa66b-34b0-4c15-a65d-dba6edf0c8fd" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200001430" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por MailClark a Microsoft:
+Información proporcionada por School Day Helsinki Oy a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | MailClark |
-| Id. | WA104381679 |
+| Nombre de la aplicación | Día escolar |
+| Id. | WA200001430 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | MailClark |
-| Sitio web de la compañía | [https://mailclark.ai/microsoft-teams-integration](https://mailclark.ai/microsoft-teams-integration) |
-| Términos de uso de la aplicación | [https://mailclark.ai/tos](https://mailclark.ai/tos) |
-| Funcionalidad principal de la aplicación | Administrar responder a correos electrónicos, mensajes de Facebook y &amp; Twitter en Microsoft Teams. |
-| Ubicación central de la empresa |  |
+| Nombre de la compañía asociada | Día escolar Helsinki Oy |
+| Sitio web de la compañía | [https://www.schoolday.com](https://www.schoolday.com) |
+| Términos de uso de la aplicación | [https://www.schoolday.com/eula](https://www.schoolday.com/eula) |
+| Funcionalidad principal de la aplicación | Mejorar el bienestar y la Social-Emotional Learning estudiantes (SEL) con el día escolar en Microsoft Teams! |
+| Ubicación central de la empresa | Finlandia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
@@ -51,7 +51,7 @@ Información proporcionada por MailClark a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-MailClark ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por School Day Helsinki Oy acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -60,7 +60,7 @@ MailClark ha proporcionado esta información sobre cómo esta aplicación recopi
 | ¿Qué datos se almacenan en las bases de datos? |  |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
 | ¿Tiene un proceso de administración de acceso a datos establecido? |  |
 | ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
 | ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
@@ -75,8 +75,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Realizas pruebas de penetración anuales en la aplicación? | No |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
 | ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
 | ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
 | ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
@@ -105,24 +105,24 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? |  |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? |  |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? |  |
-| Fecha de certificación SOC1 más reciente | |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? |  |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
 | Fecha de certificación SOC2 más reciente | |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? |  |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? |  |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? |  |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? |  |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? |  |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? |  |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? |  |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | Sí |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -153,14 +153,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? |  |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
 | ¿La aplicación almacena credenciales en el código? |  |
-| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
 >Esta aplicación no usa Microsoft Graph.
 

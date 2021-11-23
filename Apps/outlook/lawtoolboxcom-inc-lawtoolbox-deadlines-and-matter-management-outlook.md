@@ -1,27 +1,27 @@
 ---
-title: 'Información de la aplicación para LawToolBox Deadlines &amp; Matter Management: Outlook por LawToolBox.com Inc.'
+title: 'Información de aplicación para LawToolBox Deadlines y Matter Management: Outlook por LawToolBox.com Inc.'
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/07/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toda la información de seguridad y cumplimiento disponible para LawToolBox Deadlines Matter Management: Outlook, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.'
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 267fd3fcb746c890d45ef0e3ad64b304090bff12
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+description: 'Toda la información de seguridad y cumplimiento disponible para LawToolBox Deadlines and Matter Management: Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
+ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428687"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61148128"
 ---
-# <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>LawToolBox Deadlines &amp; Matter Management - Outlook
+# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: October 7, 2021</p>
+<p>Last updated by the developer on: June 24, 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104120953" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,13 +31,16 @@ Información proporcionada por LawToolBox.com Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | LawToolBox Deadlines &amp; Matter Management - Outlook |
-| Id. | WA104120953 |
+| Nombre de la aplicación | LawToolBox Deadlines and Matter Management - Outlook |
+| Id. | WA200003103 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | LawToolBox.com Inc. |
-| Dirección URL del sitio web de partners | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
-| Dirección URL de la directiva de privacidad | [https://www.lawtoolbox.com/privacy-policy/](https://www.lawtoolbox.com/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
+| Sitio web de la compañía | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
+| Términos de uso de la aplicación | [https://www.lawtoolbox.com/customersupport/2019/LawToolBox_...](https://www.lawtoolbox.com/customersupport/2019/LawToolBox_End_User_License_Agreement_and_SLA_LAWTOOLBOX_2019_APR.pdf) |
+| Funcionalidad principal de la aplicación | Administrar fechas límite y buscar archivos con nuestras Microsoft 365 integraciones legales |
+| Ubicación central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,90 +52,121 @@ Información proporcionada por LawToolBox.com Inc. a Microsoft:
 
 Esta información ha sido proporcionada por LawToolBox.com Inc. sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.Read | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario | [Opcional] Leer el calendario del usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Calendars.ReadWrite | delegado | este permiso está restringido para obtener acceso a los contactos del usuario&#8217;que ya tienen acceso a &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario y escribir en calendarios | Para crear una invitación de calendario al calendario del usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Calendars.ReadWrite.Shared | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario | Para crear una invitación de calendario al calendario compartido. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Contacts.ReadWrite | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso.  Usamos este permiso para permitir al usuario buscar en sus contactos de O365 y agregar a LawToolBox &#8211; no agregamos ningún contacto automáticamente (esto se puede revocar si no desea que esta característica y los contactos se puedan agregar manualmente | [Opcional]: para leer contactos de usuario y conectar usuarios de la lista de contactos al grupo. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Contacts.ReadWrite.Shared | delegado | usamos este permiso para permitir al usuario buscar contactos compartidos de O365 y agregar a LawToolBox &#8211; no agregamos ningún contacto automáticamente | [Opcional]: para leer los contactos compartidos de los usuarios para servir la lista de contactos relevantes para el caso. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Directory.AccessAsUser.All | delegado | que usamos en el portal de administración para recuperar la lista de usuarios del inquilino de O365 para agregar a su cuenta | [Opcional] Lea la información de grupos y usuarios como usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Directory.ReadWrite.All | delegado | que usamos en el portal de administración para recuperar la lista de usuarios del inquilino de O365 para agregar a su cuenta | [Opcional] Lea la información de grupos y usuarios como usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.Read | delegado | esto permite al addin leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [Opcional] Lea la información del OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.Read.All | delegado | usamos este permiso para leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [Optional]-Read user's OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.ReadWrite | delegado | leemos archivos de Teams, grupos y OneDrive para reuniones (si lo revoca, impedirá que nuestro addin enumera los archivos de asunto en nuestras aplicaciones) | [Optional]-Read and modify files in a user's OneDrive. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Files.ReadWrite.All | delegado | leemos archivos de Teams, grupos y OneDrive para reuniones (si revocas esto impedirá que LTB enumera los archivos de materia en nuestras aplicaciones).  El usuario solo puede usar addin para leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [Opcional] Archivo de lectura y escritura del usuario OneDrive asociado con el objeto Matter. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Group.ReadWrite.All | delegado | GroupID, GroupName, GroupEmail | Creamos un grupo para cada asunto creado en nuestro sistema. Esto ayuda al usuario a almacenar información relacionada con la materia en el grupo, que a su vez guarda sus datos en su propio inquilino. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.Read | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos | [Opcional] [InProgress] Lea el correo electrónico del usuario para Asuntos. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.ReadWrite | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos | [Opcional] [InProgress] Correo electrónico de lectura y escritura para los usuarios. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.ReadWrite.Shared | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos | [Opcional] [InProgress] Correo electrónico de lectura y escritura para los usuarios. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Mail.Send | delegado | Usamos este envío de correos electrónicos como usuario para permitir que un usuario se envíe solo informes de los datos a los que ya tienen acceso en nuestro sistema | [Opcional] [InProgress] Enviar fechas límite en el correo electrónico como usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| Tasks.ReadWrite.Shared | delegado | este permiso está restringido para obtener acceso al usuario&#8217;tareas a las que ya tienen acceso &#8211; lo usamos para permitir que los usuarios recuperen y actualicen su propia información task. | [Optional]-[InProgress] Read Write Deadlines as Task for users. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| User.Read | delegado | se usa para sugerir contactos recientes para agregarlos a reuniones o contactos | Leer la información del usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| User.ReadWrite | delegado | se usa para sugerir contactos recientes para agregarlos a reuniones o contactos | Información del usuario de lectura y escritura. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| User.ReadWrite.All | delegado | esto es necesario para leer la API de Teams, crear Teams, crear evento Calendar, crear canales, Teams de uso compartido de archivos | Información del usuario de lectura y escritura. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| email | delegado | Correo electrónico, UserID de Office365, ObjectID, TenantID. | Lea la dirección de correo electrónico del usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
->| perfil | delegado | esto es necesario para la autenticación de SSO: también usamos este permiso para recuperar imágenes y nombres guardados en el inquilino de M365 para que el usuario sepa que están en el cuadro de herramientas correcto | Lea la información del perfil de usuario. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->No se servicios Microsoft no se usan.
-
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->Correo electrónico del usuario, UserID, AccessToken, Información de grupos en nuestro registro de depuración
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Conservamos los registros de casos a menos que recibamos una solicitud para eliminar los datos.
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->No
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
+| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-Esta información ha sido proporcionada por LawToolBox.com Inc. sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
-| ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumerar los tipos de directivas admitidas | Para un mayor control, el administrador puede implementar permisos de aplicación |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | ,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/> |
-| ¿Expone la aplicación alguna API web? | No |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | No |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? |  |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? |  |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? |  |
+| ¿Tiene un firewall instalado en el límite de red externa? |  |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? |  |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? |  |
+| Autenticación multifactor (MFA) habilitada para: |  |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? |  |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? |  |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |  |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | Sí |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | Sí |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | Sí |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? |  |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Para un mayor control, el administrador puede implementar permisos de aplicación |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
+| ¿La aplicación almacena credenciales en el código? |  |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+>Esta aplicación no usa Microsoft Graph.
+
+>Esta aplicación no tiene API adicionales.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
