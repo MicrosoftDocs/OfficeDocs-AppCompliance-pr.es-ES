@@ -1,32 +1,33 @@
 ---
-title: 'Microsoft 365 Certificación: Guía de pruebas de ejemplo'
+title: 'Microsoft 365 de pruebas: Guía de pruebas de ejemplo'
 author: OrionOmalley
 ms.author: oromalle
-description: Microsoft 365 Introducción a la guía de ejemplo de envío de pruebas de certificación
+description: Microsoft 365 guía de ejemplo de envío de pruebas de certificación
 keywords: atestación de certificación de Microsoft 365 appSource ejemplo de directrices de envío de pruebas
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 92584b5ca70403d01696890ba8af093a36ca9009
-ms.sourcegitcommit: dfd937182e08ed377a5ad80f0db929ab7d7c7a7b
+ms.openlocfilehash: 5e619ffe1f89f675b473f90dead3c0bc550ae41a
+ms.sourcegitcommit: 7975c249abac22ca1a8c7c9b592d4404bea10cf4
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60791245"
+ms.lasthandoff: 11/23/2021
+ms.locfileid: "61151825"
 ---
-# <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 Certificación: Guía de pruebas de ejemplo
+# <a name="microsoft-365-certification---sample-evidence-guide"></a>Microsoft 365 de pruebas: Guía de pruebas de ejemplo
 
 ## <a name="overview"></a>Información general
 
-Esta guía se ha creado para proporcionar a los ISV asistencia en el nivel de detalle necesario para los controles de Microsoft 365 certificación. Además, proporciona instrucciones sobre cómo estructurar el envío de pruebas, junto con ejemplos de los tipos de evidencia que podrían usarse potencialmente para satisfacer los controles de certificación. Los ejemplos compartidos en este documento no representan la única evidencia que se puede usar para proporcionar la seguridad de que se cumplen los controles, sino que actúan solo como una guía para el tipo de información que puede ayudar a proporcionar a los analistas de certificación las pruebas necesarias para ayudarles con esta aserción. Tenga en cuenta: - Las interfaces, capturas de pantalla y documentación reales que se usan para satisfacer los requisitos variarán en función del uso del producto, la configuración del sistema y los procesos internos. Además, tenga en cuenta que, cuando se requiera documentación de directiva o procedimiento, el ISV tendrá que enviar los documentos REALES y no capturas de pantalla como se muestra en algunos de los ejemplos. Se recomienda seguir estas directrices para evitar que la evaluación se retrase debido a la falta de pruebas. 
+Esta guía se ha creado para proporcionar a los ISV ejemplos del tipo de evidencia y el nivel de detalle necesario para cada uno de los Microsoft 365 certificación. Los ejemplos compartidos en este documento no representan la única evidencia que se puede usar para demostrar que se cumplen los controles, sino que actúan solo como una guía para el tipo de evidencia necesaria. 
+
+Tenga en cuenta: las interfaces, capturas de pantalla y documentación reales que se usan para satisfacer los requisitos variarán según el uso del producto, la configuración del sistema y los procesos internos. Además, tenga en cuenta que, cuando se requiera documentación de directiva o procedimiento, el ISV tendrá que enviar los documentos REALES y no capturas de pantalla como se muestra en algunos de los ejemplos. 
 
 Hay dos secciones en la certificación que requieren envíos:
 1. [**El envío inicial de documentos:**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/initialdocumentsubguide) un pequeño conjunto de documentos de alto nivel necesarios para el ámbito de la evaluación.
-1. **El envío de pruebas:** el conjunto completo de pruebas necesarias para cada control en el ámbito de la evaluación de certificación. A continuación se muestran ejemplos de pruebas para cada control.
-
+1. **El envío de pruebas:** el conjunto completo de pruebas necesarias para cada control en el ámbito de la evaluación de certificación. 
 
 ## <a name="structure"></a>Estructura 
 
-Esto se correlaciona directamente con las categorías que se den en la Guía Microsoft 365 envíos de certificación en línea. Tenga en cuenta que es mejor usar esta guía directamente junto con la hoja de cálculo de lista de comprobación de certificación de Microsoft 365 que se proporciona para evitar un error en el que el control establece cada uno de los ejemplos de esta directriz. Las instrucciones proporcionadas en este documento se detallan de la siguiente manera:
+Este documento se asigna directamente a los controles que se mostrarán durante la certificación en el centro de partners. Las instrucciones proporcionadas en este documento se detallan de la siguiente manera:
 - Dominio de seguridad: los tres dominios de seguridad en los que se agrupan todos los controles: Seguridad de aplicaciones, Seguridad operativa y Seguridad de datos y Privacidad.
 - Control(s): = Descripción de la actividad de evaluación: estos controles y el número asociado (No) se toman directamente de la lista de comprobación de certificación Microsoft 365 evaluación.  
 - Intent: = The intent of why the security control is included within the program and the specific risk that it is aimed to mitigate.  La esperanza es que esta información proporcione a los ISV el razonamiento que hay detrás del control para comprender mejor los tipos de evidencias que deben recopilarse y qué ISV deben prestar atención y tener conciencia y comprensión al producir sus pruebas.
@@ -191,7 +192,7 @@ Este grupo de control de seguridad está en el ámbito de los entornos de hosped
 
 - Intención: el objetivo de este control es asegurarse de que se está siguiendo el proceso y de que&#39;suficientemente sólido para identificar nuevas vulnerabilidades de seguridad en todo el entorno. Puede que no se trata solo de los sistemas operativos; puede incluir aplicaciones que se ejecutan en el entorno y cualquier dependencia de código.
 
-- Directrices de evidencia de ejemplo: la evidencia puede proporcionarse mediante la presentación de suscripciones a listas de correo, la revisión manual de los orígenes de seguridad para las vulnerabilidades recién publicadas (tendría que realizar un seguimiento adecuado con las marcas de tiempo de las actividades, es decir, con JIRA o Azure DevOps), herramientas que encuentren software desaconsutado (por ejemplo, podría ser Snyk al buscar bibliotecas de software desaconsutas,  o podría ser Nessus mediante exámenes autenticados que identifiquen software desaprobado).
+- Directrices de evidencia de ejemplo: la evidencia puede proporcionarse mediante la presentación de suscripciones a listas de correo, la revisión manual de orígenes de seguridad para las vulnerabilidades recién publicadas (tendría que realizar un seguimiento adecuado con marcas de tiempo de las actividades, es decir, con JIRA o Azure DevOps), herramientas que encuentren software desatensado (por ejemplo, podría ser Snyk al buscar bibliotecas de software no actualizadas o podría ser Nessus mediante exámenes autenticados que identifiquen los exámenes autenticados que identifiquen las bibliotecas de software no actualizadas o que Nessus use exámenes autenticados que identifiquen las bibliotecas de software no actualizadas).  software desaprotebado).
 
 **Nota** Si se usa Nessus, esto tendría que ejecutarse regularmente para identificar vulnerabilidades rápidamente. Se recomienda al menos semanalmente.
 
