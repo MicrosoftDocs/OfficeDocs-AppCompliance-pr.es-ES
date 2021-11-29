@@ -2,24 +2,24 @@
 title: Información de la aplicación para DBit de Diamondsoft Solutions, LLC
 ms.author: elmalova
 author: elenamalova
-ms.date: 04/28/2020
+ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DBit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: c05cceb61413b87bb03302aa6d3ea6ba4782b1d0
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 8afef1082862de978301896b9552f05251aff983
+ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60434674"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61213407"
 ---
 # <a name="dbit"></a>DBit
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 23, 2020</p>
+<p>Last updated by the developer on: November 24, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/b28bb657-8edd-47ae-a912-c5fc11b3e89e" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001536" target="_blank">Ver en AppSource</a>
@@ -36,9 +36,13 @@ Información proporcionada por Diamondsoft Solutions, LLC a Microsoft:
 | Id. | WA200001536 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Diamondsoft Solutions, DIAMOND |
-| Dirección URL del sitio web de partners | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
-| Dirección URL de la directiva de privacidad | [https://www.dbit.io/privacypolicy.html](https://www.dbit.io/privacypolicy.html) |
-| DIRECCIÓN URL de términos de uso | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |
+| Sitio web de la compañía | [https://www.diamondsoftsolutions.com](https://www.diamondsoftsolutions.com) |
+| Términos de uso de la aplicación | [https://www.dbit.io/termsofuse.html](https://www.dbit.io/termsofuse.html) |
+| Funcionalidad principal de la aplicación | Soluciones de administración de contraseñas DBit con menos complicaciones. DBit es una herramienta de administración de contraseñas para equipos pequeños o grandes. Con DBit, puedes compartir contraseñas de forma segura entre los miembros del equipo. Las contraseñas y contraseñas compartidas generadas expirarán automáticamente después de una duración establecida de minutos. Las contraseñas se cifran en la memoria de nuestros servidores y nunca se almacenan en el almacenamiento en disco. Una vez que las contraseñas expiran, se quitan de la memoria de nuestro servidor. Esta aplicación está desarrollada por Diamondsoft Solutions, LLC |
+| Ubicación central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,63 +54,120 @@ Información proporcionada por Diamondsoft Solutions, LLC a Microsoft:
 
 Diamondsoft Solutions, LLC ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | No almacenamos información Graph en nuestro sistema o bases de datos. | Iniciar sesión y leer el perfil del usuario | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
->| email | delegado | No almacenamos información Graph en nuestro sistema o bases de datos. | Ver la dirección de correo electrónico de los usuarios | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
->| offline_access | delegado | No almacenamos información Graph en nuestro sistema o bases de datos. | Mantener el acceso a los datos a los que se le ha concedido acceso | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
->| OpenID | delegado | No almacenamos información Graph en nuestro sistema o bases de datos. | Inicio de sesión de los usuarios | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
->| perfil | delegado | No almacenamos información Graph en nuestro sistema o bases de datos. | Ver el perfil básico de los usuarios | [1533d702-7604-463a-9fa3-63077c425e76](https://docs.microsoft.com/microsoft-365-app-certification/azure/1533d702-7604-463a-9fa3-63077c425e76) |
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->No se servicios Microsoft no se usan.
-
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
-
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Para crear un mensaje de bienvenida | No almacenamos información de lista en nuestro sistema o bases de datos. |  |
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->No recopilamos esta información.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Usamos Azure Cache Redis, la duración máxima de los datos en la memoria caché es de 300 minutos. Los elementos de datos de caché se cifran con AES256. Solo el servicio de aplicaciones puede conectarse a Azure Cache Redis a través de SSL, la cadena de conexión se almacena en La variable de entorno de Azure.
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->No
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | TenantId |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | No |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 90 días |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | No |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35912' frameborder='no' style='width: 100%;'></iframe>
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Realizas pruebas de penetración anuales en la aplicación? | No |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | No |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | No |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? | No |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | No |
+| ¿Tiene un firewall instalado en el límite de red externa? | No |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | No |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
+| Autenticación multifactor (MFA) habilitada para: | CodeRepositories |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | No |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | No |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35912" target="_blank">Ver en una pestaña nueva</a>
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
+| ¿La aplicación cumple con NIST 800-171? | No |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | No |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | No |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
+| ¿La aplicación almacena credenciales en el código? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+>Esta aplicación no usa Microsoft Graph.
+
+>Esta aplicación no tiene API adicionales.
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
