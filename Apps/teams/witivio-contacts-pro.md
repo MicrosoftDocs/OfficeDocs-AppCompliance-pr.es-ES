@@ -1,28 +1,28 @@
 ---
-title: Información de la aplicación para Keepass Pro por Witivio
+title: Información de la aplicación para contactos Pro por Witivio
 ms.author: elmalova
 author: elenamalova
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Keepass Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Contacts Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2e9053bef8b0ce7338ef3e5058ab6f4be0ee706
+ms.openlocfilehash: e90c5a76e5ecf1a695232f16388647e9037b30ed
 ms.sourcegitcommit: 3a80f3f16b38f0a7914ca435d66d2ab0fde7f6f4
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 11/30/2021
-ms.locfileid: "61235060"
+ms.locfileid: "61235146"
 ---
-# <a name="keepass-pro"></a>Keepass Pro
+# <a name="contacts-pro"></a>Contactos Pro
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 30, 2021</p>
+<p>Last updated by the developer on: November 29, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/dc00c22b-b7ad-4db8-bf35-c2660104d622" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003336" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/b4f85a61-fd95-49b8-8fb3-3cb473412407" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002804" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -32,13 +32,13 @@ Información proporcionada por Witivio a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Keepass Pro |
-| Id. | WA200003336 |
+| Nombre de la aplicación | Contactos Pro |
+| Id. | WA200002804 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Witivio |
 | Sitio web de la compañía | [https://www.witivio.com](https://www.witivio.com) |
 | Términos de uso de la aplicación | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funcionalidad principal de la aplicación | Almacena, comparte y genera contraseñas de forma segura en Microsoft Teams. |
+| Funcionalidad principal de la aplicación | Calendar Pro es un calendario de colaboración para Microsoft Teams. Agregue calendario Pro un canal o chat para crear un calendario compartido con sus miembros. |
 | Ubicación central de la empresa | Francia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -60,7 +60,7 @@ Witivio ha proporcionado esta información sobre cómo esta aplicación recopila
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Id. de equipo y canal |
+| ¿Qué datos se almacenan en las bases de datos? | Contactos |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Irlanda |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 60 días |
@@ -117,15 +117,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | Sí |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -144,9 +144,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | Sí |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -170,11 +170,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
 >|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Teams SSO |
->| Files.ReadWrite.All | delegado | Lectura y escritura del archivo KDBX en SharePoint |
->| OpenID | delegado | Teams SSO |
->| perfil | delegado | Teams SSO |
->| email | delegado | Teams SSO |
+>| email | delegado | Microsoft Teams SSO |
+>| OpenID | delegado | Microsoft Teams SSO |
+>| offline_access | delegado | Microsoft Teams SSO |
+>| User.Read | delegado | Microsoft Teams SSO |
+>| perfil | delegado | Microsoft Teams SSO |
 
 >Esta aplicación no tiene API adicionales.
 
