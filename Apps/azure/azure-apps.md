@@ -2,17 +2,17 @@
 title: 'Azure App IDs Security and Compliance: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todos los IDs de aplicación de Azure.
 localization_priority: Normal
-ms.openlocfilehash: 01f711429e307854f0ae8419b8adadc62b0dccaf
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: cc67ad2c8e6dccb8a0a279d4caf502a9ef5706bb
+ms.sourcegitcommit: 0987264f7eb14ac7fc2666d9310ab2707e0f25ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217064"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "61232068"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure App IDs Security and Compliance
 
@@ -36,6 +36,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [0c841985-9919-4c0a-b87d-b06b301148b3](./0c841985-9919-4c0a-b87d-b06b301148b3.md) | **✓** |  |
 | [0dd4bfdf-dc86-4f05-9991-a14bc0144ebf](./0dd4bfdf-dc86-4f05-9991-a14bc0144ebf.md) | **✓** |  |
 | [1040474b-572d-4575-a423-95dd262a8b8a](./1040474b-572d-4575-a423-95dd262a8b8a.md) | **✓** |  |
+| [12397cb1-c0e5-42ae-a5be-ca4084aeadd8](./12397cb1-c0e5-42ae-a5be-ca4084aeadd8.md) | **✓** |  |
 | [14cf575a-fae2-48e2-af39-e3448d3a48bb](./14cf575a-fae2-48e2-af39-e3448d3a48bb.md) | **✓** |  |
 | [15439749-b811-4e89-b777-4fe6ef247801](./15439749-b811-4e89-b777-4fe6ef247801.md) | **✓** |  |
 | [170cef4c-862a-443c-b02a-c5ba04ecc7f3](./170cef4c-862a-443c-b02a-c5ba04ecc7f3.md) | **✓** |  |
@@ -201,6 +202,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](./b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) | **✓** |  |
 | [bbdcd676-7448-453c-bec7-70e5384bc290](./bbdcd676-7448-453c-bec7-70e5384bc290.md) | **✓** |  |
 | [bceca1f0-723f-44d0-b732-b3506c0a641d](./bceca1f0-723f-44d0-b732-b3506c0a641d.md) | **✓** |  |
+| [bd2aaebe-63b9-434b-aad8-e7010f2ece20](./bd2aaebe-63b9-434b-aad8-e7010f2ece20.md) | **✓** |  |
 | [be181d9c-9060-40a0-a692-b29f2e314d16](./be181d9c-9060-40a0-a692-b29f2e314d16.md) | **✓** |  |
 | [be8d11cf-265a-4974-9912-4ff28c29fc21](./be8d11cf-265a-4974-9912-4ff28c29fc21.md) | **✓** |  |
 | [be93046b-63ab-4216-9bcc-78faa55eeaa7](./be93046b-63ab-4216-9bcc-78faa55eeaa7.md) | **✓** |  |
