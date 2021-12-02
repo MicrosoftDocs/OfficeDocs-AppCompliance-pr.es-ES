@@ -6,12 +6,12 @@ description: Microsoft 365 granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 56d6de02101013d10f48c308e2f7ece706b26c51
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 212d6a708b59a71de3d88a58d61ced4af99432a7
+ms.sourcegitcommit: 86ba435037ea3277239530c33b5c5950cd61e66e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261672"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61268010"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 de envío de certificación
 
@@ -241,7 +241,7 @@ Una revisión adecuada de los riesgos asociados con la aplicación/complemento y
 
 **Ámbito de pruebas de penetración**
 
-Las actividades  de prueba de penetración DEBEN incluir el entorno que admite la implementación de la aplicación o el complemento (por ejemplo, donde se hospeda el código de aplicación o complemento, que normalmente será el recurso dentro del archivo de manifiesto) junto con cualquier entorno adicional que admita el funcionamiento de la aplicación o el complemento (por ejemplo, si la aplicación o el complemento habla con otras aplicaciones web fuera de Microsoft 365).  Al definir el ámbito, es necesario tener cuidado para asegurarse de que todos los sistemas o entornos "conectados" que puedan afectar a la seguridad del entorno en el ámbito también se incluyan en TODAS las actividades de prueba de penetración. 
+Las actividades  de prueba de penetración deben realizarse en el entorno de producción en directo que admita la implementación de la aplicación o el complemento (por ejemplo, donde se hospeda el código de aplicación o complemento que normalmente será el recurso dentro del archivo de manifiesto) junto con cualquier entorno adicional que admita el funcionamiento de la aplicación o el complemento (por ejemplo, si la aplicación o el complemento se dirige a otras aplicaciones web fuera de Microsoft 365).  Al definir el ámbito, es necesario tener cuidado para asegurarse de que todos los sistemas o entornos "conectados" que puedan afectar a la seguridad del entorno en el ámbito también se incluyan en TODAS las actividades de prueba de penetración. 
 
 Cuando se usan técnicas para segmentar los entornos del ámbito desde otros entornos, las actividades de prueba de penetración DEBEN validar la eficacia de estas técnicas de segmentación. Esto debe detallarse en el informe de pruebas de penetración. 
 
@@ -281,6 +281,7 @@ Los informes de pruebas de penetración se revisarán **** para asegurarse de 
 
 - Para los ISV que actualmente no realizan pruebas de penetración, las pruebas de penetración se pueden llevar a cabo de forma gratuita Microsoft 365 certificación. Microsoft organizará y cubrirá el costo de una prueba de penetración durante un máximo de 12 días de pruebas manuales. Los costos de las pruebas de penetración se calculan en función del número de días necesarios para probar el entorno. Los gastos que superen los 12 días de pruebas serán responsabilidad del ISV. 
 - Los ISV tendrán que enviar pruebas y recibir la aprobación del 50 % de los controles en el ámbito antes de que se realice la prueba de penetración. To get started simply fill out your initial document submission and elect to have penetration testing included as part of your assessment. Se te pondrá en contacto con el ámbito y programarás la prueba de penetración cuando haya completado el 50 % de los controles.
+- El informe emitido una vez completado el pentest se le dará al ISV una vez que haya completado la certificación. Este informe junto con la certificación Microsoft 365 puede usarse para mostrar a los clientes potenciales que su entorno es seguro.
 - Los ISV también serán responsables de demostrar que las vulnerabilidades identificadas en la prueba de penetración se han corregido antes de la concesión de una certificación, pero no necesitan producir un informe limpio.
 
 Una vez que se organiza una prueba de penetración, el ISV es responsable de las tarifas asociadas con la reprogramación y las cancelaciones de la siguiente manera:
