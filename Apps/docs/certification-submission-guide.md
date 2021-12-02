@@ -1,24 +1,24 @@
 ---
 ms.author: oromalle
-title: Microsoft 365 Guía de envío de certificación
+title: Microsoft 365 de envío de certificación
 author: orionomalley
-description: Microsoft 365 Vista granular guía de envío de certificación
+description: Microsoft 365 granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: f89cb9f82cec69a473d451cff33e3db9b406489d
-ms.sourcegitcommit: ddd67912ff4e8901300556ff85c2cf416f54dea1
+ms.openlocfilehash: 56d6de02101013d10f48c308e2f7ece706b26c51
+ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "60885300"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61261672"
 ---
-# <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 Guía de envío de certificación
+# <a name="microsoft-365-certification-submission-guide"></a>Microsoft 365 de envío de certificación
 
 **En este artículo:**
 - [Introducción](#introduction)
 - [Requisitos previos](#prerequisites) 
-- [Microsoft 365 Actualizaciones de especificación de certificación](#microsoft-365-certification-specification-updates)
+- [Microsoft 365 de especificación de certificación](#microsoft-365-certification-specification-updates)
 - [Ámbito de certificación](#certification-scope)
 - [Proceso de certificación](#certification-process)
 - [Envío de documento inicial](#initial-document-submission) 
@@ -51,7 +51,7 @@ Este documento está dirigido a los ISV (proveedores de software independientes)
 > Actualmente, Microsoft 365 certificación es aplicable a todos:
 >* Microsoft Teams (pestañas, bots, etc.) .
 >* Aplicaciones/complementos de Sharepoint
->* Office Complementos (Word, Excel, PowerPoint, Outlook, Project, OneNote)
+>* Office complementos (Word, Excel, PowerPoint, Outlook, Project, OneNote)
 >* WebApps
 
 ## <a name="prerequisites"></a>Requisitos previos
@@ -64,7 +64,7 @@ Antes de que se le Microsoft 365 proceso de certificación debe haber completado
 
 Microsoft recomienda que todos los ISV (proveedor de software independiente) lean esta especificación de certificación de Microsoft 365 en su totalidad para garantizar que el entorno del ámbito y la aplicación y el complemento cumplen todos los controles aplicables. Esto ayudará a garantizar un proceso de evaluación sin problemas.
 
-## <a name="microsoft-365-certification-specification-updates"></a>Microsoft 365 Actualizaciones de especificación de certificación 
+## <a name="microsoft-365-certification-specification-updates"></a>Microsoft 365 de especificación de certificación 
 
 Las actualizaciones de la especificación Microsoft 365 certificación se prevén aproximadamente cada seis a doce meses. Estas actualizaciones pueden introducir nuevos dominios de seguridad de destino y/o controles de seguridad. Las actualizaciones se basarán en los comentarios de los desarrolladores, los cambios en el panorama de amenazas y para aumentar la línea base de seguridad del programa a medida que madura. 
 
@@ -277,9 +277,11 @@ Los informes de pruebas de penetración se revisarán **** para asegurarse de 
 >Los informes deben poder proporcionar la suficiente garantía de que se puede demostrar todo lo que se detalla en la sección Application Security Test Specification.
 
 
-**Requisitos y costo de las pruebas de penetración**
+**Requisitos y reglas de prueba de penetración gratuitos**
 
-Para los ISV que actualmente no participan en pruebas de penetración, las pruebas de penetración se incluyen en la Microsoft 365 certificación. Microsoft organizará y cubrirá el costo de una prueba de penetración durante un máximo de 12 días de pruebas manuales. Los costos de las pruebas de penetración se calculan en función del número de días necesarios para probar el entorno. Los gastos que superen los 12 días de pruebas serán responsabilidad del ISV. The ISV will also be responsible for demonstrating that vulnerabilities identified in the penetration test have been remediated prior to a certification being awarded, but do not need to produce a clean report.
+- Para los ISV que actualmente no realizan pruebas de penetración, las pruebas de penetración se pueden llevar a cabo de forma gratuita Microsoft 365 certificación. Microsoft organizará y cubrirá el costo de una prueba de penetración durante un máximo de 12 días de pruebas manuales. Los costos de las pruebas de penetración se calculan en función del número de días necesarios para probar el entorno. Los gastos que superen los 12 días de pruebas serán responsabilidad del ISV. 
+- Los ISV tendrán que enviar pruebas y recibir la aprobación del 50 % de los controles en el ámbito antes de que se realice la prueba de penetración. To get started simply fill out your initial document submission and elect to have penetration testing included as part of your assessment. Se te pondrá en contacto con el ámbito y programarás la prueba de penetración cuando haya completado el 50 % de los controles.
+- Los ISV también serán responsables de demostrar que las vulnerabilidades identificadas en la prueba de penetración se han corregido antes de la concesión de una certificación, pero no necesitan producir un informe limpio.
 
 Una vez que se organiza una prueba de penetración, el ISV es responsable de las tarifas asociadas con la reprogramación y las cancelaciones de la siguiente manera:
 
@@ -995,7 +997,7 @@ Como las auditorías de SOC2 no evalúan específicamente algunos elementos de l
 
 Microsoft reconoce que implementará aplicaciones y almacenará código de aplicación o complemento en diferentes entornos de hospedaje. Las responsabilidades generales de algunos de los controles de seguridad dentro de la certificación Microsoft 365 dependerán del entorno de hospedaje que se esté utilizando. El Apéndice F examina los tipos de implementación comunes y los asigna a los controles de seguridad que se evalúan como parte del proceso de evaluación. Se han identificado los siguientes tipos de implementación de hospedaje:
 
-|Tipos de hospedaje  |Description  |
+|Tipos de hospedaje  |Descripción  |
 |-----|------|
 |**ISV hospedado**|Los tipos hospedados por ISV se pueden definir como donde eres responsable de la infraestructura usada para admitir el entorno de aplicación o complemento. Esto puede estar físicamente ubicado dentro de sus propios centros de datos o centros de datos de terceros con un servicio de ubicación local. En última instancia, tiene plena propiedad y control administrativo sobre la infraestructura auxiliar y el entorno operativo.|
 |**Infraestructura como servicio (IaaS)** (https://azure.microsoft.com/en-gb/overview/what-is-iaas/)|Infraestructura como servicio es un servicio que se proporciona mediante el cual el proveedor de servicios en la nube (CSP) administra y mantiene la infraestructura de soporte físico en su nombre. Normalmente, las redes, el almacenamiento, los servidores físicos y la infraestructura de virtualización son responsabilidad del CSP. El sistema operativo, middleware, tiempo de ejecución, datos y aplicaciones son las responsabilidades de usted. Las capacidades de firewall también serían administradas y mantenidas por el tercero, pero el mantenimiento de la base de reglas de firewall normalmente seguiría siendo responsabilidad de los consumidores.|
@@ -1008,7 +1010,7 @@ Microsoft reconoce que implementará aplicaciones y almacenará código de aplic
 
 ## <a name="learn-more"></a>Más información
 
-[Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)  
+[Microsoft 365 del programa de cumplimiento de aplicaciones](~/overview.md)  
 [¿Qué es Microsoft 365 App Publisher Attestation?](~/docs/attestation.md)  
 [¿Qué es Microsoft 365 certificación?](~/docs/enterprise-app-certification-guide.md)
 
