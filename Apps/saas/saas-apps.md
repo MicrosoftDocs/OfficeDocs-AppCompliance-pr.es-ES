@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/08/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 14125ffe6afd36925adfb2e993f059ba4a3a84ba
-ms.sourcegitcommit: e50a2b92ad5918cb72b9cffca73aeffc8f2d6d76
+ms.openlocfilehash: 9a96b3d33c06f3ec77989fcdb669f97c0f608bd8
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/08/2021
-ms.locfileid: "61359712"
+ms.locfileid: "61354405"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -45,5 +45,4 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Explorador de elección de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [Usuario de carga](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [Comprobador](./officeatwork-verifier.md) | officeatwork | **✓** |  |
-| [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |
 | [Asistente](./officeatwork-wizard.md) | officeatwork | **✓** |  |
