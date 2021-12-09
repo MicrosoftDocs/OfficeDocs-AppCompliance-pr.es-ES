@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento SharePoint aplicaciones de Microsoft: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/29/2021
+ms.date: 12/07/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SharePoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 0ab6d04d916c0398642ed3f9dc80b7b5dd9196b1
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: 32069d1728f56532ebdb30ed34ab51552c995e55
+ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217074"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61353695"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Seguridad y cumplimiento SharePoint aplicaciones de Microsoft
 
@@ -21,10 +21,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Sign para SharePoint](./adobe-inc-sign-for-sharepoint.md) | Adobe Inc. | **✓** |  |
-| [Panel de tareas ágil para SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
-| [FormMachines Connector para SharePoint](./enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md) | MÁQUINAS DIGITALES DE EMPRESA PTY LTD | **✓** |  |
-| [Moverse por SharePoint](./gagglenet-inc-gaggle-for-sharepoint.md) | Gaggle.net, Inc. | **✓** |  |
 | [HelloSign para SharePoint](./dropbox-inc-hellosign-for-sharepoint.md) | Dropbox Inc. | **✓** |  |
 | [Complementos crm de iGlobe](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [IGlobe CRM Office 365 para Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

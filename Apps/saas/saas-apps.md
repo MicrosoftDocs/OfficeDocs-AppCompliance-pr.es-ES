@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/30/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 7e7636740cf251d2168276703a51e32ae36bdb6a
-ms.sourcegitcommit: 3a80f3f16b38f0a7914ca435d66d2ab0fde7f6f4
+ms.openlocfilehash: 14125ffe6afd36925adfb2e993f059ba4a3a84ba
+ms.sourcegitcommit: e50a2b92ad5918cb72b9cffca73aeffc8f2d6d76
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61235043"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61359712"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -22,7 +22,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 |:--------|:------------|:----------------------:|:-------------:|
 | [Centro de contacto buzzeasy para Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETSUPPORT LTD. | **✓** |  |
-| [Copia de seguridad en la nube Office 365 - Prod (transact)](./avepoint-inc-cloud-backup-for-office-365-prod-transact.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Copia de seguridad en la nube para Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Firmas de correo electrónico codeTwo para Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
 | [Conjunto de comunicaciones de Competella](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
 | [Content Chooser](./officeatwork-content-chooser.md) | officeatwork | **✓** |  |
@@ -37,7 +37,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Netskope para Microsoft Teams](./netskope-for-microsoft-teams.md) | Netskope | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Detección de Onna para MS365](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
-| [Directivas &amp; Ideas para Microsoft 365 (BYOL)](./avepoint-inc-policies-and-insights-for-microsoft-365-byol.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Directivas &amp; Ideas para Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [Slide Chooser](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
@@ -45,4 +45,5 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Explorador de elección de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [Usuario de carga](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [Comprobador](./officeatwork-verifier.md) | officeatwork | **✓** |  |
+| [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |
 | [Asistente](./officeatwork-wizard.md) | officeatwork | **✓** |  |
