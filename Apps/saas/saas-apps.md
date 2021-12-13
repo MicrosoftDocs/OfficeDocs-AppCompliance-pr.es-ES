@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/07/2021
+ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 9a96b3d33c06f3ec77989fcdb669f97c0f608bd8
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 2a9bab81bc6786c4e3b8c49e7119f6993ebc449e
+ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354405"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420778"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -40,9 +40,11 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Directivas &amp; Ideas para Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
+| [SendGuard para M365](./standss-south-pacific-pte-limited-sendguard-for-m365.md) | Standss (Pacífico sur) PTE Limited | **✓** |  |
 | [Slide Chooser](./officeatwork-slide-chooser.md) | officeatwork | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** |  |
 | [Explorador de elección de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** |  |
 | [Usuario de carga](./officeatwork-uploader.md) | officeatwork | **✓** |  |
 | [Comprobador](./officeatwork-verifier.md) | officeatwork | **✓** |  |
+| [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |
 | [Asistente](./officeatwork-wizard.md) | officeatwork | **✓** |  |
