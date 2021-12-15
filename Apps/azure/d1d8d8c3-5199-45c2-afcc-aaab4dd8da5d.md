@@ -1,26 +1,26 @@
 ---
-title: Azure App ID Information for a7c1920d-3ac0-42db-9757-078a2b321fd8
+title: Azure App ID Information for d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 ms.author: elmalova
 author: elenamalova
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para a7c1920d-3ac0-42db-9757-078a2b321fd8.
-ms.openlocfilehash: c1f44d4c6b7e549ad2fc4fb734f91f3ef39fa0c2
+description: Toda la información de seguridad y cumplimiento disponible para d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.
+ms.openlocfilehash: 7a87257371927f5e562caa5b51cb2e50c0e03f65
 ms.sourcegitcommit: 849d584236cda08570ca2c72b4147853ab0314a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 12/14/2021
-ms.locfileid: "61507350"
+ms.locfileid: "61509682"
 ---
-# <a name="azure-app-id-a7c1920d-3ac0-42db-9757-078a2b321fd8"></a>Identificador de aplicación de Azure: a7c1920d-3ac0-42db-9757-078a2b321fd8
+# <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>Identificador de aplicación de Azure: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 
 
 ### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas con este identificador:
 | **Nombre de la aplicación** | **Certificado** | **Ver en AppSource** |
 |--------------|---------------|-----------------------|
-| [Reach](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200002045) |  | [https://appsource.microsoft.com/product/office/WA200002045](https://appsource.microsoft.com/product/office/WA200002045) |
+| [Team Tracker](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003572) |  | [https://appsource.microsoft.com/product/office/WA200003572](https://appsource.microsoft.com/product/office/WA200003572) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de aplicaciones
 - Publisher estado de Attestaton: completado
