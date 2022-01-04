@@ -2,17 +2,17 @@
 title: Azure App ID Information for b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/23/2021
+ms.date: 12/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: df0a2bdf3833582f6a2dff9a439c770b6e91765f
-ms.sourcegitcommit: 1be3c2ca2c8a781c6acda29412224061c90790c9
+ms.openlocfilehash: ef54cca4728df4611ab0f9dd2e4fc81f451f6a92
+ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "61602848"
+ms.lasthandoff: 01/03/2022
+ms.locfileid: "61659716"
 ---
 # <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>Identificador de aplicación de Azure: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
