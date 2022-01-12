@@ -2,17 +2,17 @@
 title: 'Microsoft Word seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/15/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Word aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 2a684455e3806339d3e369ce42a4d00acc76f526
-ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
+ms.openlocfilehash: bca8fdb9d2dd8ef589af4eb9eb5259e2c25f5653
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "61537782"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61788500"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word seguridad y cumplimiento de aplicaciones
 

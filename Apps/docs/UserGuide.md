@@ -6,12 +6,12 @@ description: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicac
 keywords: Guía del usuario de ISV para Microsoft 365 cumplimiento de aplicaciones
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 79a301d6825b3f9ea3d882e13e91b48f3808f60b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 2b2b84cec3be5167d67733a89ba13fa411a0e781
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60544586"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61787863"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program"></a>Guía del usuario del partner para el Microsoft 365 cumplimiento de aplicaciones
 
@@ -45,7 +45,7 @@ Este documento actúa como una guía de usuario paso a paso para nuestros partne
 
 ![Selección de una aplicación en Commercial Marketplace](../media/NewPCoffersComm.png)
 
-Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Cumplimiento de la aplicación".
+Al seleccionar una aplicación, aparecerá otra barra de navegación con la opción "Información adicional de certificación" y, a continuación, haga clic en "Cumplimiento de la aplicación".
   
 **Paso 3:** Seleccionar "Cumplimiento de aplicaciones"
 
@@ -170,13 +170,13 @@ El nuevo proceso de renovación está disponible en el [Centro de partners](http
 
 ![Actualizar la Publisher atestación](../media/UserGuidePhotos/29.png)
 
-**Publisher Renovación de atestación aprobada**
+**Publisher renovación de atestación aprobada**
 
-![Publisher Atestación renovada](../media/UserGuidePhotos/30.png)
+![Publisher atestación renovada](../media/UserGuidePhotos/30.png)
 
-**Publisher atestación expirada:** La información de la aplicación debe renovarse antes de la fecha de expiración para mantener la página de atestación Publisher la aplicación en los documentos de Microsoft. La renovación a tiempo también garantizará la continuación de los iconos y los iconos de la aplicación en AppSource, Teams Store, Office Store y otros escaparates.
+**Publisher atestación expirada:** la información de la aplicación debe renovarse antes de la fecha de expiración para mantener la página de atestación Publisher la aplicación en los documentos de Microsoft. La renovación a tiempo también garantizará la continuación de los iconos y los iconos de la aplicación en AppSource, Teams Store, Office Store y otros escaparates.
 
-![Publisher Atestación expirada](../media/UserGuidePhotos/31.png)
+![Publisher atestación expirada](../media/UserGuidePhotos/31.png)
 
 Nota: Una vez expirado, Publisher proceso de renovación de atestación se puede iniciar en cualquier momento haciendo clic en "Renovar". 
 

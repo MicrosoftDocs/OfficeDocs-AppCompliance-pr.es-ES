@@ -2,24 +2,24 @@
 title: Información de la aplicación para el registro Ideas ASC por ASC Technologies AG
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el registro de ASC Ideas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 74d343c964765387046099aa34ba873a24421724
-ms.sourcegitcommit: 6ca6b2ad53cf18362b78ed725d295cc2590c6b36
+ms.openlocfilehash: 23028cb70e0d93e3f086e499cd2b6595eeec932f
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61574552"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61785637"
 ---
 # <a name="asc-recording-insights"></a>ASC Recording Insights
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: December 15, 2021</p>
+<p>Last updated by the developer on: December 21, 2021</p>
 
 * <a href="https://teams.microsoft.com/l/app/8f79287d-5850-42f1-9af2-48ddf6ef89a8" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000708" target="_blank">Ver en AppSource</a>
