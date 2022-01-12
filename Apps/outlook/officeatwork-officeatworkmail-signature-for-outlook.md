@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para officeatwork | Content Chooser for Outlook by officeatwork
+title: Información de la aplicación para officeatwork | Firma de correo para Outlook por officeatwork
 ms.author: elmalova
 author: elenamalova
 ms.date: 01/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Content Chooser for Outlook, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Firma de correo para Outlook, sus directivas de control de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 407167303a549e94f5e68e184243bd7137461823
+ms.openlocfilehash: 9c2b253c143a1efa249f0e4ea14387664bb68834
 ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/12/2022
-ms.locfileid: "61788090"
+ms.locfileid: "61788533"
 ---
-# <a name="officeatwork--content-chooser-for-outlook"></a>officeatwork | El elegidor de contenido para Outlook
+# <a name="officeatwork--mail-signature-for-outlook"></a>officeatwork | Firma de correo para Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 7, 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104380690" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003062" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,13 +31,13 @@ Información proporcionada por officeatwork a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | officeatwork: El elegidor de contenido para Outlook |
-| Id. | WA104380690 |
-| Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
+| Nombre de la aplicación | officeatwork: firma de correo para Outlook |
+| Id. | WA200003062 |
+| Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook en la Web |
 | Nombre de la compañía asociada | officeatwork |
 | Sitio web de la compañía | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Términos de uso de la aplicación | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funcionalidad principal de la aplicación | Accede al contenido compartido centralmente en Word, Excel, PowerPoint, Outlook, Explorador y otras aplicaciones. |
+| Funcionalidad principal de la aplicación | Firmas de correo, sencillas y seguras, administradas de forma centralizada y &amp; personalizadas en toda la organización. |
 | Ubicación central de la empresa | Suiza |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -164,7 +164,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Sí |
 | ¿La aplicación almacena credenciales en el código? | No |
-| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -173,12 +173,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >| OpenID | delegado | Habilitar el inicio de sesión |
 >| perfil | delegado | Habilitar el inicio de sesión |
 >| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión |
->| Files.ReadWrite.All | delegado | Habilitar favoritos y OneDrive característica |
->| Group.ReadWrite.All | delegado | Habilitar Teams característica |
->| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario |
->| Sites.Read.All | delegado | Lea los archivos de plantilla de usuarios almacenados en SharePoint |
->| GroupMember.Read.All | delegado | Habilitar Teams característica |
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión, habilitar firmas de correo dinámico con propiedades de usuario |
 
 >Esta aplicación no tiene API adicionales.
 

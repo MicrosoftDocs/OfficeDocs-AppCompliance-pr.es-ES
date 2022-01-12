@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/15/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 4f32a178a85f9e4559fe4954a76f6e18f6139945
-ms.sourcegitcommit: fc537c6574ed98a1706c4cadf02150a2f3e1137c
+ms.openlocfilehash: bebe79b10fcf1473035759868575261fd15ffe5f
+ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/16/2021
-ms.locfileid: "61537091"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61788080"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
 
@@ -40,6 +40,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Office2SharePoint para Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Elegir contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** |  |
+| [officeatwork | Firma de correo para Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail para Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluciones de OnePlace | **✓** |  |
 | [Engagement de ventas de alcance para Outlook](./outreach-sales-engagement-for-outlook.md) | Alcance | **✓** |  |
 | [Pexip Uno para Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
@@ -47,7 +48,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
 | [ServiceDesk Plus para correo electrónico](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
-| [Strategy-AI](./chinchilla-software-limited-strategy-ai.md) | Chinchilla Software Limited | **✓** |  |
+| [Strategy-AI para Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
 | [Wunder365](./jiji-technologies-private-limited-wunder365.md) | JiJi Technologies Private Limited | **✓** |  |
 | [XQ Secure Email](./xq-message-secure-email.md) | Mensaje XQ | **✓** |  |
 | [Zoho CRM para correo electrónico](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
