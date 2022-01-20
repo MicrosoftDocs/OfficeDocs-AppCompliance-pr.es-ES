@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Stylebot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f230f4efb06ee5e6b42592b1b3e08ee8c811d82a
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 5eff7abbbc192857a30177c2579e6c145b798609
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354335"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146217"
 ---
 # <a name="stylebot"></a>Stylebot
 
@@ -33,7 +33,7 @@ Información proporcionada por Stylebot Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Stylebot |
-| ID | WA200003177 |
+| Id. | WA200003177 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Stylebot Inc |
 | Sitio web de la compañía | [https://www.stylebot.app](https://www.stylebot.app) |
@@ -117,14 +117,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -141,10 +141,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PA PEOPLE, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b998b72300d66633881fb1e7f93bc723682bc14f
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: bf559c216aa657d7a14f1c4e099b67dabb8cd1c1
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61783828"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62143927"
 ---
-# <a name="pa-people"></a>PERSONAS DE PA
+# <a name="pa-people"></a>PA PEOPLE
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por &#26666;&#24335;&#20250;&#31038;PHONE APPLI a Mic
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | PERSONAS DE PA |
+| Nombre de la aplicación | PA PEOPLE |
 | Id. | WA200002948 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | &#26666;&#24335;&#20250;&#31038;APPLI DE TELÉFONO |
+| Nombre de la compañía asociada | &#26666;&#24335;&#20250;&#31038;PHONE APPLI |
 | Sitio web de la compañía | [https://phoneappli.net](https://phoneappli.net) |
 | Términos de uso de la aplicación | [https://phoneappli.net/product/agreement/renraku/](https://phoneappli.net/product/agreement/renraku/) |
 | Funcionalidad principal de la aplicación | Simplifica la búsqueda de personas y facilita las conexiones entre empleados y socios empresariales. (&#20154;&#12398;&#26908;&#32034;&#12434;&#21177;&#29575;&#21270;&#12375;&#12289;&#24467;&#26989;&#21729;&#21516;&#22763;&#21450;&#12403;&#21462;&#24341;&#20808;&#12392;&#12398;&#12388;&#12394;&#12364;&#12426;&#12434;&#20870;&#28369;&#12395;&#12375;&#12414;&#12377;&#12290;) |
@@ -141,10 +141,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

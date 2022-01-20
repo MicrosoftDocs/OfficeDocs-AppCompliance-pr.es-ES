@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 365-QA, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f12b349e62a1e04787c153951ed0235a117060f7
-ms.sourcegitcommit: 11ec7246fa8e1052155e98a0bff51d32e58ea2cf
+ms.openlocfilehash: a0150c10a05a04039a8d7c9132caea0a63068b4d
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2022
-ms.locfileid: "61711372"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146027"
 ---
 # <a name="365-qa"></a>365-QA
 
@@ -141,10 +141,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

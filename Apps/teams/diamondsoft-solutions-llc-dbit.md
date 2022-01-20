@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DBit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8afef1082862de978301896b9552f05251aff983
-ms.sourcegitcommit: 7395a3f8bf109af577dc24ad1de4e7d18db9c26d
+ms.openlocfilehash: 0f7feee247fa2bf840219f61d2d1dcdee0f2fa42
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61213407"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144477"
 ---
 # <a name="dbit"></a>DBit
 
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -143,10 +143,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

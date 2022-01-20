@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Team Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d9e73cb82217a7a73ef0ba836688f494dfe5426f
-ms.sourcegitcommit: e3daf82725ca37fec97f5ff639b6a9c2d5365c85
+ms.openlocfilehash: c37c717b65e51dc0b6d561cef9e4efe3d3c95c32
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61420865"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144557"
 ---
-# <a name="team-tracker"></a>Rastreador de equipo
+# <a name="team-tracker"></a>Team Tracker
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Team Tracker Ltd a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Rastreador de equipo |
+| Nombre de la aplicación | Team Tracker |
 | Id. | WA200003572 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Team Tracker Ltd |
@@ -143,10 +143,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -170,7 +170,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Calendars.ReadWrite | delegado | Una vez que un usuario establece sus actividades para las próximas semanas, El rastreador de equipo actualiza el calendario de los usuarios y su disponibilidad en función de su selección.  |
->| email | delegado | Se usa para comprobar el correo electrónico de los usuarios |
+>| correo electrónico | delegado | Se usa para comprobar el correo electrónico de los usuarios |
 >| MailboxSettings.Read | delegado | Se usa para obtener la zona horaria para crear eventos de calendario |
 >| OpenID | delegado | Permite a los usuarios iniciar sesión con su Office 365 cuenta |
 >| perfil | delegado | Comprueba la información básica de los usuarios en su perfil |

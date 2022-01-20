@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MetaVisitor, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 97611896142b66b021a10158782b4cdf8c6053a6
-ms.sourcegitcommit: 1be3c2ca2c8a781c6acda29412224061c90790c9
+ms.openlocfilehash: 2bff7b0a791fad027cfdfc1ef7dd20b2570790ff
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "61603776"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144757"
 ---
 # <a name="metavisitor"></a>MetaVisitor
 
@@ -35,7 +35,7 @@ Información proporcionada por Sistemas de Wafer a Microsoft:
 | Nombre de la aplicación | MetaVisitor |
 | Id. | WA200003588 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Sistemas de oblea |
+| Nombre de la compañía asociada | Wafer Systems |
 | Sitio web de la compañía | [https://www.wafersystems.com](https://www.wafersystems.com) |
 | Términos de uso de la aplicación | [https://cloud.rd.virsical.cn/service](https://cloud.rd.virsical.cn/service) |
 | Funcionalidad principal de la aplicación | MetaVisitor&#33268;&#21147;&#20110;&#35775;&#23458;&#19994;&#21153;&#22330;&#26223;&#30340;&#20840;&#36807;&#31243;&#25968;&#23383;&#21270;&#12289;&#26234;&#33021;&#21270;&#65292;&#26500;&#24314;&#20113;&#26102;&#20195;&#30340;&#35775;&#23458;&#39044;&#32422;&#65292;&#21161;&#21147;&#39640;&#25928;&#21150;&#20844;&#12290; |
@@ -143,10 +143,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

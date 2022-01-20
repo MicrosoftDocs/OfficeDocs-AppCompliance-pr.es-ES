@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/17/2022
+ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: ddbf2e6d28c1b061d44109c9e6d3dc06ea5653d7
-ms.sourcegitcommit: 23ef75d7c108123853d76b1f80492a2f479c8aeb
+ms.openlocfilehash: b1011389a99c7e24b743e8a415ace62bf28dd522
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62065476"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144347"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
 
@@ -29,21 +29,22 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [harmon.ie para Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Firmas de impresión para Outlook](./impression-signatures-for-outlook.md) | Firmas de impresión | **✓** |  |
-| [Seguimiento de factura y tiempo: factura de Zoho](./zoho-corporation-private-limited-invoice-and-time-tracking.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Complemento Office 365 Planner de iPlanner para Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Jira Cloud for Outlook (Official)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
 | [LawToolBox Deadlines &amp; Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [LawToolBox Deadlines and Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
+| [Mailbutler](./mailbutler.md) | Mailbutler | **✓** |  |
 | [MIPA: su propio asistente personal](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Office2SharePoint para Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Elegir contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** |  |
+| [officeatwork | Firma de correo para Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail para Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluciones de OnePlace | **✓** |  |
 | [Engagement de ventas de alcance para Outlook](./outreach-sales-engagement-for-outlook.md) | Alcance | **✓** |  |
 | [Pexip Uno para Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matriz de prioridad: convertir correos electrónicos en tareas](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
-| [ServiceDesk Plus para correo electrónico](./zoho-corporation-private-limited-servicedesk-plus-for-email.md) | Zoho Corporation Private Limited | **✓** |  |
+| [Strategy-AI para Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
 | [XQ Secure Email](./xq-message-secure-email.md) | Mensaje XQ | **✓** |  |
-| [Zoho CRM para correo electrónico](./zoho-corporation-private-limited-crm-for-email.md) | Zoho Corporation Private Limited | **✓** |  |

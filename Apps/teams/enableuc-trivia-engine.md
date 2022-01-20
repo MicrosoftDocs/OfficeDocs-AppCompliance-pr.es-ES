@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para trivia Engine, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 63593ab30275daff77112e41c1a3644ba4dc3b75
-ms.sourcegitcommit: 358503f5b89862e61a6c8ad4ba5bda9ccd8e8357
+ms.openlocfilehash: d824c8bb63dafed0377ab64ef5255370bb8a9afb
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60923117"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144883"
 ---
-# <a name="trivia-engine"></a>Motor de trivia
+# <a name="trivia-engine"></a>Motor de curiosidades
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +32,10 @@ Información proporcionada por EnableUC a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Motor de trivia |
+| Nombre de la aplicación | Motor de curiosidades |
 | Id. | WA200003412 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | EnableUC |
+| Nombre de la compañía asociada | HabilitarUC |
 | Sitio web de la compañía | [https://www.triviaengine.com](https://www.triviaengine.com) |
 | Términos de uso de la aplicación | [https://www.triviaengine.com/termsofuse.html](https://www.triviaengine.com/termsofuse.html) |
 | Funcionalidad principal de la aplicación | Mejore la formación existente y mejore la retención de conocimientos mediante &#8220;de&#8221;. |
@@ -143,10 +143,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

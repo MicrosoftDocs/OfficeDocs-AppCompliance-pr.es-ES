@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Remind, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 94c70633add16eaaef067f8232328ab449d8a2ff
-ms.sourcegitcommit: 3b0f0cb0a67b69bcb6330078509cd449df04a987
+ms.openlocfilehash: c65bd6433972a7014c6fa8853d2f5651891db5f7
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60719132"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62144907"
 ---
 # <a name="remind"></a>Remind
 
@@ -33,7 +33,7 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Remind |
-| Identificador | WA200001444 |
+| Id. | WA200001444 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 88 Ventures Limited |
 | Sitio web de la compañía | [https://moonbearapps.com](https://moonbearapps.com) |
@@ -61,7 +61,7 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 | ¿Qué datos se almacenan en las bases de datos? | GUID de usuario y nombres de usuario al recordar a otros usuarios |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Alemania |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | No retenido |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | No se conserva |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
 | ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
 | ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
@@ -141,10 +141,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,7 +165,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph Permiso**  | **Tipo de permiso** |          **Justificación**          |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
 >|:------------------------|:--------------------|:------------------------------------|
 >| Directory.Read.All | delegado | Se usa cuando un administrador busca usuarios para asignarlos a licencias. El uso de esta característica es totalmente opcional y no es necesario durante el uso normal de la aplicación. |
 

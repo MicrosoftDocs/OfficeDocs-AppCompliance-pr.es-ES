@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SmartDraw, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 41803da7a532212e56920b988499e8cdb9c7bc6f
-ms.sourcegitcommit: 79e749c1746f3658789e7b080e413be97883abef
+ms.openlocfilehash: 6e7316127bd80d571c9120a377bf81c58b48d450
+ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61217247"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62143917"
 ---
 # <a name="smartdraw"></a>SmartDraw
 
@@ -35,7 +35,7 @@ Información proporcionada por SmartDraw Software, LLC a Microsoft:
 | Nombre de la aplicación | SmartDraw |
 | Id. | WA200003505 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Software SmartDraw, LLC |
+| Nombre de la compañía asociada | SmartDraw Software, LLC |
 | Sitio web de la compañía | [https://www.smartdraw.com](https://www.smartdraw.com) |
 | Términos de uso de la aplicación | [https://www.smartdraw.com/support/terms-of-service.pdf](https://www.smartdraw.com/support/terms-of-service.pdf) |
 | Funcionalidad principal de la aplicación | Herramienta &amp; fácil de usar para crear diagramas de flujo, UML, ERD, diagramas técnicos y mucho más. |
@@ -108,9 +108,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
 | ¿Qué certificación SOC 2 ha logrado? |  type2 |
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -143,10 +143,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
