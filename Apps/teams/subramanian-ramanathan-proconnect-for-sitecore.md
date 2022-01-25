@@ -2,24 +2,24 @@
 title: Información de la aplicación para Proconnect para Sitecore por Subramanian Ramanathan
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/04/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Proconnect para Sitecore, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0bd5876a65ebe7832a330f04ac9db086bdf1ff04
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 0b2861bf05a54d4a2019c32959f0c76a6a02f383
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144027"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62198033"
 ---
 # <a name="proconnect-for-sitecore"></a>Proconnect for Sitecore
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 2, 2021</p>
+<p>Last updated by the developer on: January 22, 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/a87fd06b-7e73-4374-ba75-4545b2470706" target="_blank">Ver en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003274" target="_blank">Ver en AppSource</a>
@@ -81,14 +81,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls |
 | ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | No |
 | ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
-| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | Sí |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | No |
 | ¿El entorno tiene algún software o sistemas operativos no compatibles? | Sí |
 | ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | No |
 | ¿Tiene un firewall instalado en el límite de red externa? | No |
 | ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Sí |
 | ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | No |
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: |  |
+| Autenticación multifactor (MFA) habilitada para: | NoneOfTheAbove |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | No |
 | ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |

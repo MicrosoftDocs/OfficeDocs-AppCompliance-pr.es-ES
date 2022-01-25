@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/21/2022
+ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 1c3f33682524566171bf2cc2892e5b7787803559
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: 55ed6d30fca77164efa213a7e6080dc8bb85c50d
+ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62172810"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62197927"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
