@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5e56e6890c38bc6896115c1e4a2c5b10a93f7c9b
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 62a9a18b43a1740b8b83b59edac5051824c43266
+ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61787813"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62222524"
 ---
 # <a name="lms365"></a>LMS365
 
@@ -112,7 +112,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
