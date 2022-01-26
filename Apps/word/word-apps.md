@@ -2,17 +2,17 @@
 title: 'Microsoft Word seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Word aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: b1cc50abeb8d6cbf4dbceebff81f66dd07ed5e82
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 75837f5d35d29467f7ba660bd1cfcfe07a2c605e
+ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 01/25/2022
-ms.locfileid: "62193317"
+ms.locfileid: "62210639"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word seguridad y cumplimiento de aplicaciones
 
@@ -34,13 +34,13 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [Mendeley Cite](./elsevier-limited-mendeley-cite.md) | ELSEVIER LIMITED | **✓** |  |
 | [neopolis](./neopolis-gmbh.md) | neopolis GmbH | **✓** |  |
 | [Office2SharePoint para Office](./iglobe-office2sharepoint-for-office.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Diseñador para Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Uploader para Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | El elegidor de contenido para Office](./officeatwork-officeatworkcontent-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Diseñador para Office](./officeatwork-officeatworkdesigner-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork | Uploader para Office](./officeatwork-officeatworkuploader-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Comprobador de Office](./officeatwork-officeatworkverifier-for-office.md) | officeatwork | **✓** |  |
-| [officeatwork | Asistente para Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** |  |
+| [officeatwork | Asistente para Office](./officeatwork-officeatworkwizard-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [RetMig &amp; Kommaforslag](./grammarsoft-aps-retmig-and-kommaforslag.md) | GrammarSoft ApS | **✓** |  |
 | [SmartCite para documentos](./digital-science-smartcite-for-papers.md) | Ciencia digital | **✓** |  |
 | [Stilus para Word](./meaningcloud-stilus-for-word.md) | MeaningCloud | **✓** |  |
