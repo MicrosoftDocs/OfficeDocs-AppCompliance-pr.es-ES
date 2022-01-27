@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/25/2022
+ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 04d35fb74a79149e0e8c83877caf36863be39f2f
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: c7b4f06efdcd61dd75a4aff9ba40ba2de95fd3a8
+ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209539"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62230996"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -130,6 +130,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Eloops](./eloops.md) | Eloops | **✓** |  |
 | [Email TeamMate](./harmonie-email-teammate.md) | harmon.ie | **✓** |  |
 | [email-texting](./voice-elements-corporation-email-texting.md) | Voice Elements Corporation | **✓** |  |
+| [Employee Advocacy por DSMN8](./dsmn8-employee-advocacy-by.md) | DSMN8 | **✓** |  |
 | [Recomendaciones de empleados](./recruitday-inc-employee-referrals.md)  | Recruitday Inc. | **✓** |  |
 | [Administración de formación de empleados](./sharepointsapiens-employee-training-management.md) | SharePoint-Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
@@ -194,7 +195,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [isLucid](./uab-lucid-agreements-islucid.md) | UAB Lucid Agreements | **✓** |  |
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
-| [KAKEAI](./kakeai.md) | KAKEAI | **✓** |  |
+| [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
 | [Kaptain Charlie](./askrai-kaptain-charlie.md) | askR.ai | **✓** |  |
 | [Kazoo](./kazoo.md) | Kazoo | **✓** |  |
@@ -295,6 +296,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Cualificado](./qualified.md) | Cualificado | **✓** |  |
 | [Quicklinks](./chitchattr-quicklinks.md) | ChitChattr | **✓** |  |
 | [Quire](./potix-corporation-quire.md) | Potix Corporation | **✓** |  |
+| [Quitch](./quitch.md) | Quitch | **✓** |  |
 | [Rafiky](./global-congress-srl-rafiky.md) | GLOBAL CONGRESS SRL | **✓** |  |
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [Real Time Translator](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |
