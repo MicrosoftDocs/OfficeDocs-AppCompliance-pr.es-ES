@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MyHub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ad85daad3a14dd1afa42dd0050a10c9bdeab74a5
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 7086ba2566e0b3d44b8a30edcd43e4dce7eb9963
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62193587"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260794"
 ---
 # <a name="myhub"></a>MyHub
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -167,20 +167,20 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | ambos | Recupera una lista de objetos de configuración de grupo. Por ejemplo, uso compartido externo classicfication, enableCreateGroup(application) y así sucesivamente. |
->| Group.ReadWrite.All | ambos | Crear grupo, recuperar, agregar o quitar pertenencia a grupos |
->| Mail.Send | delegado | Si el usuario actual desea unirse a un grupo privado, enviaremos una notificación a los propietarios del grupo |
->| Sites.ReadWrite.All | delegado | seguir o no seguir sitios |
->| Sites.Read.All | aplicación | obtener información básica del sitio |
->| User.Read.All | ambos | Delegado: obtener la foto de los usuarios; Aplicación: buscar/resolver usuarios |
->| Sites.FullControl.All | aplicación | crear o eliminar sitios |
->| Reports.Read.All | aplicación | obtener informe de uso de sitio o grupo |
->| correo electrónico | delegado | SSO de la aplicación de teams |
->| OpenID | delegado | SSO de la aplicación de teams |
->| offline_access | delegado | SSO de la aplicación de teams |
->| perfil | delegado | SSO de la aplicación de teams |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | ambos | Recupera una lista de objetos de configuración de grupo. Por ejemplo, uso compartido externo classicfication, enableCreateGroup(application) y así sucesivamente. | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Group.ReadWrite.All | ambos | Crear grupo, recuperar, agregar o quitar pertenencia a grupos | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Mail.Send | delegado | Si el usuario actual desea unirse a un grupo privado, enviaremos una notificación a los propietarios del grupo | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Reports.Read.All | aplicación | obtener informe de uso de sitio o grupo | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.FullControl.All | aplicación | crear o eliminar sitios | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.Read.All | aplicación | obtener información básica del sitio | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| Sites.ReadWrite.All | delegado | seguir o no seguir sitios | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| User.Read.All | ambos | Delegado: obtener la foto de los usuarios; Aplicación: buscar/resolver usuarios | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| correo electrónico | delegado | SSO de la aplicación de teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| offline_access | delegado | SSO de la aplicación de teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| OpenID | delegado | SSO de la aplicación de teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
+>| perfil | delegado | SSO de la aplicación de teams | [478c769e-bab3-4049-9cfc-302d08a232bf](https://docs.microsoft.com/microsoft-365-app-certification/azure/478c769e-bab3-4049-9cfc-302d08a232bf) |
 
 >Esta aplicación no tiene API adicionales.
 

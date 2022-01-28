@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Classroom.cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d58df70912c5c9eedfca92e67f9f202960b7a23b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4e7fce8118f65a9fb01153baa2ccef8a1282df3c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148310"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260835"
 ---
 # <a name="classroomcloud"></a>Classroom.cloud
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | Sí |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -158,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | MFA, Restringir por IP/Dispositivo, acceso solo a dispositivos inscritos  |
@@ -168,14 +168,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Team.ReadBasic.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
->| Channel.ReadBasic.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
->| ChannelMessage.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
->| ChannelSettings.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
->| Chat.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
->| Directory.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| ChannelMessage.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| ChannelSettings.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Chat.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Directory.Read.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
+>| Team.ReadBasic.All | aplicación | Se usa Teams integración desde classroom.cloud para proporcionar supervisión de seguridad en línea de chats de estudiantes. | [99455ec0-6207-4889-9c8c-96216a274a6b](https://docs.microsoft.com/microsoft-365-app-certification/azure/99455ec0-6207-4889-9c8c-96216a274a6b) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Canary, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d00d7bce745344ee7324ac4b019ee8ac3f5e0f40
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b9702c280c874437826c4fd760f22b27359e1006
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62142117"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261206"
 ---
 # <a name="canary"></a>Canary
 
@@ -167,9 +167,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.JoinGroupCallasGuest.All | aplicación | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.JoinGroupCallasGuest.All | aplicación | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](https://docs.microsoft.com/microsoft-365-app-certification/azure/626ce0a3-4620-483d-953d-53b106b9ffad) |
 
 >Esta aplicación no tiene API adicionales.
 

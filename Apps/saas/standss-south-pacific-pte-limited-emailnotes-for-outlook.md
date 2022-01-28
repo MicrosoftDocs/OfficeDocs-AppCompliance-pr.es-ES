@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para EmailNotes para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 841b0ad019cda22d01b5990b8aabf80931ffe130
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a09c055a42f69c7174773835e8c83b99e83f0013
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148359"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261541"
 ---
 # <a name="emailnotes-for-outlook"></a>EmailNotes para Outlook
 
@@ -121,8 +121,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -167,13 +167,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegado | Para leer el contenido del asunto , el cuerpo, el contenido de los datos adjuntos adjuntos a la solicitud de reunión  |
->| Mail.ReadWrite | delegado | Para leer el contenido del asunto, el cuerpo, el contenido de los datos adjuntos adjuntos al elemento de correo  |
->| OpenID | delegado | Requisito para el permiso de inicio de sesión único (SSO) |
->| perfil | delegado | Requisito para el permiso de inicio de sesión único (SSO) |
->| User.Read | delegado | Esto es para leer los datos de usuario para comprobar la información de licencias de su cuenta de dominio/usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Para leer el contenido del asunto , el cuerpo, el contenido de los datos adjuntos adjuntos a la solicitud de reunión  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| Mail.ReadWrite | delegado | Para leer el contenido del asunto, el cuerpo, el contenido de los datos adjuntos adjuntos al elemento de correo  | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| User.Read | delegado | Esto es para leer los datos de usuario para comprobar la información de licencias de su cuenta de dominio/usuario | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| OpenID | delegado | Requisito para el permiso de inicio de sesión único (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
+>| perfil | delegado | Requisito para el permiso de inicio de sesión único (SSO) | [471294e9-96d6-475b-b503-e02acd9ed2cd](https://docs.microsoft.com/microsoft-365-app-certification/azure/471294e9-96d6-475b-b503-e02acd9ed2cd) |
 
 >Esta aplicación no tiene API adicionales.
 

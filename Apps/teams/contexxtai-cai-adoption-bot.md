@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para el bot de adopción de C.AI, sus directivas de tratamiento de datos, la información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f37bafaac714c26c948b4f2264c4d139f5863bf5
-ms.sourcegitcommit: c90bc1880b91e2e60bb72b5497366ffd415a57a8
+ms.openlocfilehash: 6c7c8d1b083cab351889117aa58316332161f466
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61785607"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62261356"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -37,7 +37,7 @@ Información proporcionada por contexxt.ai a Microsoft:
 | Nombre de la compañía asociada | contexxt.ai |
 | Sitio web de la compañía | [https://contexxt.ai](https://contexxt.ai) |
 | Términos de uso de la aplicación | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
-| Funcionalidad principal de la aplicación | Al usar todo el conjunto de adopción, incl. &quot; Personal Coaching Booster , el análisis del motor de análisis (C.AI Adoption Analytics) Graph través de datos de uso anónimos de la API Exchange &quot; &amp; Teams. En función de estos datos, el algoritmo del bot (C.AI Bot de adopción) detecta situaciones de aprendizaje específicas que envían sugerencias rápidas &amp; al usuario. Por ejemplo, si un usuario nunca agregó un asunto a una publicación de Teams, el bot asume que el usuario no sabe cómo hacerlo y envía materiales de aprendizaje personalizados. Sin Analytics, solo será un &amp; bot de preguntas y respuestas. |
+| Funcionalidad principal de la aplicación | Al usar todo el conjunto de adopción, incl. &quot; Personal Coaching Booster&quot;, el motor de análisis (C.AI Adoption Analytics) a través de datos de uso anónimos de la API &amp; Graph de Exchange Teams. En función de estos datos, el algoritmo del bot (C.AI Bot de adopción) detecta situaciones de aprendizaje específicas que envían sugerencias rápidas &amp; al usuario. Por ejemplo, si un usuario nunca agregó un asunto a una publicación de Teams, el bot asume que el usuario no sabe cómo hacerlo y envía materiales de aprendizaje personalizados. Sin Analytics, solo será un bot de QA&amp;. |
 | Ubicación central de la empresa | Alemania |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
@@ -104,7 +104,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -161,7 +161,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación almacena credenciales en el código? |  |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
->Esta aplicación no usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Chat.Read.All | aplicación | Microsoft Teams de chat, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Directory.Read.All | aplicación | Id. de objeto de usuario para poder enviar sugerencias al usuario especular más adelante. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Group.Read.All | aplicación | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| Mail.Read | aplicación | Microsoft Exchange metadatos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
+>| User.Read.All | aplicación | Microsoft Teams metadatos de chat y conversación, como si se mencionase a un usuario para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](https://docs.microsoft.com/microsoft-365-app-certification/azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13) |
 
 >Esta aplicación no tiene API adicionales.
 

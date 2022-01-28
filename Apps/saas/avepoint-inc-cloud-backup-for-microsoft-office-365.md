@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Cloud Backup for Microsoft Office 365, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b6ec36d05f39e307c3955d8eb9112d4a4712ac
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6fc3b2c5bc0fb54b4075f71e21ef1c2d14ace0f7
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148500"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62260946"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Copia de seguridad en la nube para Microsoft Office 365
 
@@ -102,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -165,17 +165,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario |
->| Directory.Read.All | aplicación | Leer datos del directorio |
->| Files.Read.All | aplicación | Leer archivos en todas las colecciones de sitios |
->| Group.ReadWrite.All | aplicación | Leer y escribir en todos los grupos |
->| Sites.ReadWrite.All | aplicación | Leer y escribir elementos en todas las colecciones de sitios. |
->| Reports.Read.All | aplicación | Leer todos los informes de uso |
->| ChannelMember.ReadWrite.All | aplicación | Agregar y quitar miembros de todos los canales |
->| ChannelMessage.Read.All | aplicación | Leer todos los mensajes de canal |
->| ChannelSettings.ReadWrite.All | aplicación | Leer y escribir los nombres, descripciones y configuración de todos los canales |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMember.ReadWrite.All | aplicación | Agregar y quitar miembros de todos los canales | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelMessage.Read.All | aplicación | Leer todos los mensajes de canal | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| ChannelSettings.ReadWrite.All | aplicación | Leer y escribir los nombres, descripciones y configuración de todos los canales | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Directory.Read.All | aplicación | Leer datos del directorio | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Files.Read.All | aplicación | Leer archivos en todas las colecciones de sitios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | aplicación | Leer y escribir en todos los grupos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Reports.Read.All | aplicación | Leer todos los informes de uso | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.ReadWrite.All | aplicación | Leer y escribir elementos en todas las colecciones de sitios. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >Esta aplicación no tiene API adicionales.
 
