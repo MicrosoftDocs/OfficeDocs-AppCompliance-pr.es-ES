@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para iGlobe CRM para Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6aaeddce93a513ca22b0bf5c0b4fdf8b85a7830d
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 63646b2a2425eeef310ae5534209d015d06896c1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148509"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257766"
 ---
 # <a name="iglobe-crm-for-teams"></a>CRM de iGlobe para Teams
 
@@ -122,7 +122,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | Sí |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -166,21 +166,21 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegado | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe    |
->| Contacts.ReadWrite | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión.    |
->| Directory.Read.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos.   |
->| Directory.ReadWrite.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión.   |
->| Files.ReadWrite.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos y datos en SharePoint listas.     |
->| Group.Read.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas.   |
->| Group.ReadWrite.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365     |
->| Mail.ReadWrite | delegado | Svae el eamil a iGlobe CRM y obtener informatiopn de iGlobe a un nuevo e-amil    |
->| Sites.Manage.All | delegado | Crear, editar y eliminar elementos y listas en iGlobe CRM     |
->| Sites.Read.All | delegado | Leer elementos en iGlobe CRM     |
->| Sites.ReadWrite.All | delegado | Editar y eliminar elementos y listas en iGlobe CRM  |
->| Tasks.ReadWrite | delegado | Crear tarea de planner desde iGlobe CRM     |
->| User.Read | delegado | Para obtener información sobre el CRM de iGlobe para el usuario de speficic    |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión.    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos y datos en SharePoint listas.     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas.   | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegado | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | delegado | Svae el eamil a iGlobe CRM y obtener informatiopn de iGlobe a un nuevo e-amil    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | delegado | Crear, editar y eliminar elementos y listas en iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | delegado | Leer elementos en iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | delegado | Editar y eliminar elementos y listas en iGlobe CRM  | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | delegado | Crear tarea de planner desde iGlobe CRM     | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | delegado | Para obtener información sobre el CRM de iGlobe para el usuario de speficic    | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 >Esta aplicación no tiene API adicionales.
 

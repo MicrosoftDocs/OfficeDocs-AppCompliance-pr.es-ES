@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Cloud Hub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e0998c86e38039879a13ee79185732287166619
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6e982e29c1ba09097f3c2415aae5e1f644a87c5a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149123"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259856"
 ---
 # <a name="cloud-hub"></a>Cloud Hub
 
@@ -119,12 +119,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -168,12 +168,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | aplicación | Se usa para seleccionar una persona a la que desea enviar un correo electrónico. |
->| TeamSettings.Read.All | aplicación | Se usa para seleccionar un equipo en el que desea publicar un mensaje desde el Centro de mensajes. |
->| Mail.Send | aplicación | Se usa para enviar correos directamente desde la aplicación a canales o personas individuales.  |
->| Channel.ReadBasic.All | aplicación | Se usa para seleccionar un canal en el que desea publicar un mensaje desde el Centro de mensajes. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | aplicación | Se usa para seleccionar un canal en el que desea publicar un mensaje desde el Centro de mensajes. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| Mail.Send | aplicación | Se usa para enviar correos directamente desde la aplicación a canales o personas individuales.  | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| TeamSettings.Read.All | aplicación | Se usa para seleccionar un equipo en el que desea publicar un mensaje desde el Centro de mensajes. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
+>| User.Read.All | aplicación | Se usa para seleccionar una persona a la que desea enviar un correo electrónico. | [b5d4e933-e001-4168-83f8-abdd974877bd](https://docs.microsoft.com/microsoft-365-app-certification/azure/b5d4e933-e001-4168-83f8-abdd974877bd) |
 
 >Esta aplicación no tiene API adicionales.
 

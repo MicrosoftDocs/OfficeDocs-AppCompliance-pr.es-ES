@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Plumm, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: 8fef6e74339b611b06d39e6bbe32f9661e20656c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60429878"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255603"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -36,10 +36,12 @@ Información proporcionada por Plumm Health LTD a Microsoft:
 | Id. | WA200003326 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Plumm Health LTD |
-| Dirección URL del sitio web de partners | [https://www.plummhealth.com](https://www.plummhealth.com) |
-| Dirección URL de Teams de información de la aplicación | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
-| Dirección URL de la directiva de privacidad | [https://www.plummhealth.com/privacy-policy](https://www.plummhealth.com/privacy-policy) |
-| DIRECCIÓN URL de términos de uso | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
+| Sitio web de la compañía | [https://www.plummhealth.com](https://www.plummhealth.com) |
+| Términos de uso de la aplicación | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
+| Funcionalidad principal de la aplicación | Plumm proporciona a los empleados el soporte que necesitan para su bienestar mental. Cada miembro de Plumm tiene acceso al soporte de salud mental de alta calidad con una red global de más de 150 terapistas acreditados, una biblioteca digital de cursos de bienestar dirigidos por el terapista, tratamientos de chat y mediaciones &#8211; todo en un solo lugar. Los usuarios pueden conectarse con los terapistas para la videoterapeuta en línea 1:1 o chatear con ellos en privado sobre sus requisitos. Los cursos y las meditaciones en línea dirigidos por el terapista proporcionan soporte de autosufición. |
+| Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,82 +53,130 @@ Información proporcionada por Plumm Health LTD a Microsoft:
 
 Plumm Health LTD ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| TeamsActivity.Send | aplicación | Usamos el userID en este permiso. Esto se usa para enviar notificaciones de requisitos al usuario en función de su uso de nuestro servicio. Esto es importante para que el usuario reciba las notificaciones adecuadas para su cuenta en nuestra aplicación. | Con este permiso, no almacenamos ningún dato en nuestra base de datos. De hecho, estamos usando el userID para enviar una notificación adecuada a cada usuario individual en función de su uso. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Recibimos el id. de instalación mediante este permiso. Esto es importante para nosotros para poder enviar la notificación adecuada y correcta para cada usuario individual. | No almacenamos datos en nuestra aplicación con este permiso. No lo necesitamos porque solo necesitamos el identificador de instalación que se obtiene en tiempo de ejecución proporcionando el userID. Esto se obtiene dinámicamente en tiempo de ejecución, por lo tanto, no es necesario almacenar el identificador de instalación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | Estos permisos permiten a nuestra aplicación ver el perfil básico de nuestros usuarios (nombre, imagen, correo electrónico). Estos datos se usarán para mostrar el nombre y/o la imagen de perfil del usuario en su cuenta de aplicación con nosotros y en la comunicación por correo electrónico y/o notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | aplicación | Este permiso permite a nuestra aplicación leer perfiles de usuario sin que un usuario haya iniciado sesión. En este momento estamos recopilando solo el nombre, la imagen de perfil y el correo electrónico. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | Estos permisos permiten a nuestra aplicación ver el perfil básico de nuestros usuarios (nombre, imagen, correo electrónico). Estos datos se usarán para mostrar el nombre y/o la imagen de perfil del usuario en su cuenta de aplicación con nosotros y en la comunicación por correo electrónico y/o notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| email | delegado | Se recopila el identificador de correo electrónico del usuario. Requerimos estos datos para conceder acceso al usuario para nuestros servicios e iniciar sesión en nuestra aplicación y recibir notificaciones sobre sus cuentas y nuestros servicios en este identificador de correo electrónico.  | El identificador de correo electrónico se almacena en la base de datos. Debemos almacenar el identificador de correo electrónico para identificar de forma única a los usuarios, proporcionarles acceso a nuestra aplicación, ayudarles a iniciar sesión y ayudarles a recibir notificaciones sobre su cuenta con nosotros. Por ejemplo, un usuario con identificador de correo abc@xyz.com podrá acceder a nuestra aplicación y servicios cuando inicie sesión en &quot; Teams con este identificador de correo &quot; electrónico. En función del uso, podremos enviar notificaciones a este usuario en su id. de correo electrónico. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| OpenID | delegado | Para este permiso, no recopilamos datos.  | Para este permiso, no recopilamos datos. Este permiso permite a los usuarios iniciar sesión en nuestra aplicación con su identificador de correo electrónico de trabajo y permite que la aplicación vea información básica del perfil de usuario. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| perfil | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | Estos permisos permiten a nuestra aplicación ver el perfil básico de nuestros usuarios (nombre, imagen, correo electrónico). Estos datos se usarán para mostrar el nombre y/o la imagen de perfil del usuario en su cuenta de aplicación con nosotros y en la comunicación por correo electrónico y/o notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Intercom | Nombre, apellido, correo electrónico | El interfono es nuestro CRM que nos ayuda a administrar la comunicación con todos nuestros usuarios. Es por ello que debemos enviar el nombre, apellidos e id. de correo electrónico de nuestros usuarios al CRM para que los mensajes o correos electrónicos adecuados se puedan enviar a los usuarios. |
-
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
-
->No se tiene acceso a EUII.
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->Almacenamos datos de uso del servicio, como el número de sesiones de tratamiento usadas, los cursos vistos, las meditaciones vistas, la fecha de las sesiones, etc. Conservamos los datos de nuestros usuarios hasta que el usuario pida específicamente que se elimine o "olvide" su cuenta.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Administramos los datos que se envían al CRM a través de nuestro servidor. Los datos mínimos necesarios para funcionar se pasan al CRM (intercomunicador). Plumm tiene control total sobre los datos que se pasan al CRM, la retención de los datos en el intercomunicador y eliminarlos. Este es un vínculo para revisar las directivas de datos de cliente de Intercom: https://www.intercom.com/legal/terms-and-policies#customer-data
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->Sí
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
+| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-Plumm Health LTD ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | Sí |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | No |
-| ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | ,<br/><br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? |  |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? |  |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? |  |
+| ¿Tiene un firewall instalado en el límite de red externa? |  |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? |  |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? |  |
+| Autenticación multifactor (MFA) habilitada para: |  |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? |  |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? |  |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |  |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | Sí |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | Sí |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? |  |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
+| ¿La aplicación almacena credenciales en el código? |  |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| TeamsActivity.Send | aplicación | Usamos el userID en este permiso. Esto se usa para enviar notificaciones de requisitos al usuario en función de su uso de nuestro servicio. Esto es importante para que el usuario reciba las notificaciones adecuadas para su cuenta en nuestra aplicación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Recibimos el id. de instalación mediante este permiso. Esto es importante para nosotros para poder enviar la notificación adecuada y correcta para cada usuario individual. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| User.Read | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| User.Read.All | aplicación | Este permiso permite a nuestra aplicación leer perfiles de usuario sin que un usuario haya iniciado sesión. En este momento estamos recopilando solo el nombre, la imagen de perfil y el correo electrónico. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| correo electrónico | delegado | Se recopila el identificador de correo electrónico del usuario. Requerimos estos datos para conceder acceso al usuario para nuestros servicios e iniciar sesión en nuestra aplicación y recibir notificaciones sobre sus cuentas y nuestros servicios en este identificador de correo electrónico.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| OpenID | delegado | Para este permiso, no recopilamos datos.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| perfil | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+
+>Esta aplicación no tiene API adicionales.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

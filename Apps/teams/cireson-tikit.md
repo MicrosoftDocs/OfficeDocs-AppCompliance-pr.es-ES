@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tikit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b198e4d613b2b25aa6dffc2f385ccba225f1801b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 69551224968b55d4e3731f02b0578157a15bd038
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148399"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259854"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -169,17 +169,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.Read.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación |
->| Directory.AccessAsUser.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación |
->| correo electrónico | delegado | Permisos de inicio de sesión |
->| Group.Read.All | ambos | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación |
->| OpenID | delegado | Inicio de sesión |
->| perfil | delegado | Inicio de sesión |
->| User.Read | delegado | Inicio de sesión |
->| User.Read.All | aplicación | Inicio de sesión |
->| User.ReadBasic.All | delegado | Inicio de sesión |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.Read.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Group.Read.All | ambos | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.Read.All | aplicación | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| User.ReadBasic.All | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| correo electrónico | delegado | Permisos de inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| OpenID | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| perfil | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
 
 >Esta aplicación no tiene API adicionales.
 

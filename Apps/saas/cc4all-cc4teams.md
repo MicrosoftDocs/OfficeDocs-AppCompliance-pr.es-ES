@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CC4Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 31b9467e5aa5efb07131ec0509eaf8e3aa0b544c
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 85d5b411929f2bd0c1c0610a6e4950cf2d5e6809
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148770"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255916"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -166,16 +166,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| CallRecords.Read.All | aplicación | se usa para grabaciones |
->| Calls.AccessMedia.All | aplicación | se usa para obtener acceso a medios |
->| Calls.Initiate.All | aplicación | se usa para iniciar llamadas en el centro de contacto |
->| Calls.InitiateGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto |
->| Calls.JoinGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto |
->| Calls.JoinGroupCallasGuest.All | aplicación | se usa para iniciar llamadas en el centro de contacto |
->| Presence.Read | delegado | se usa para comprobar el estado de los agentes en el centro de contacto |
->| Presence.Read.All | delegado | se usa para comprobar el estado de los agentes en el centro de contacto |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| CallRecords.Read.All | aplicación | se usa para grabaciones | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.AccessMedia.All | aplicación | se usa para obtener acceso a medios | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.Initiate.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.InitiateGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.JoinGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Presence.Read | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| Presence.Read.All | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
 
 >Esta aplicación no tiene API adicionales.
 

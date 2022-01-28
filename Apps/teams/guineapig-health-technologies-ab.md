@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para GuineaPig, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 752d59918d5c9f08ee83525b8aa4f790213b6354
-ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
+ms.openlocfilehash: dbd872c0f919c8141d41771470546a5b75ae56b0
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62157274"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257826"
 ---
 # <a name="guineapig"></a>GuineaPig
 
@@ -38,7 +38,7 @@ Información proporcionada por GuineaPig Health Technologies AB a Microsoft:
 | Nombre de la compañía asociada | GuineaPig Health Technologies AB |
 | Sitio web de la compañía | [https://guineapig.app](https://guineapig.app) |
 | Términos de uso de la aplicación | [https://www.guineapig.app/terms-and-conditions](https://www.guineapig.app/terms-and-conditions) |
-| Funcionalidad principal de la aplicación | GuineaPig ayuda a su equipo a mantenerse saludable, contento y comprometido con clases de fitness a petición y &amp; cortas pausas del trabajo. |
+| Funcionalidad principal de la aplicación | GuineaPig ayuda a su equipo a mantenerse saludable, &amp; contento y comprometido con clases de fitness a petición y cortas pausas del trabajo. |
 | Ubicación central de la empresa | Suecia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -125,8 +125,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -168,9 +168,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | We're using User.Read to read information like the user's name to use it in our Chat and Tabs, etc. Visite esta https://www.guineapig.app/privacy-policy página para obtener una descripción detallada. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | We're using User.Read to read information like the user's name to use it in our Chat and Tabs, etc. Visite esta https://www.guineapig.app/privacy-policy página para obtener una descripción detallada. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](https://docs.microsoft.com/microsoft-365-app-certification/azure/d6a2090f-1447-456b-bd5f-121e4efd8c89) |
 
 >Esta aplicación no tiene API adicionales.
 

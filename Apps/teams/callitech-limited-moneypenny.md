@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Moneypenny, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3d181c2bf833bb9aed4b5b557bb25190249da25a
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: f40e36c1025e03a250505be381ff811dce0aa95b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201008"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255826"
 ---
 # <a name="moneypenny"></a>Moneypenny
 
@@ -123,8 +123,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -168,10 +168,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.Initiate.All | aplicación | Para realizar una llamada a un usuario Teams a través de un bot |
->| Calls.AccessMedia.All | aplicación | Para transmitir medios desde el Bot al Teams usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | aplicación | Para transmitir medios desde el Bot al Teams usuario | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
+>| Calls.Initiate.All | aplicación | Para realizar una llamada a un usuario Teams a través de un bot | [8277a51c-3ad6-446c-9b7e-e3f6e27257c1](https://docs.microsoft.com/microsoft-365-app-certification/azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1) |
 
 >Esta aplicación no tiene API adicionales.
 

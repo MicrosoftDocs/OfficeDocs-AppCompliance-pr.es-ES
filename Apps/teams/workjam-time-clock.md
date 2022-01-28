@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para WorkJam Time Clock, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 40b47509d1322100551009adc636c60eb654bd91
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e831ca59c0fed743a1a485a6aa52edbfca1dab89
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148440"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259200"
 ---
-# <a name="workjam-time-clock"></a>Reloj de hora WorkJam
+# <a name="workjam-time-clock"></a>WorkJam Time Clock
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por WorkJam a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Reloj de hora WorkJam |
+| Nombre de la aplicación | WorkJam Time Clock |
 | Id. | WA200003620 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | WorkJam |
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -169,10 +169,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| TeamsActivity.Send | aplicación | Para enviar notificaciones al usuario |
->| User.Read | delegado | Para SSO, el usuario y presentarles la información correcta |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| TeamsActivity.Send | aplicación | Para enviar notificaciones al usuario | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
+>| User.Read | delegado | Para SSO, el usuario y presentarles la información correcta | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DELTAoverC, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d83278a0e59f9abc33b495274e47abf10e1e2116
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 80273bfba0db86b443e84b46343ab6b04a264ac8
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148720"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259686"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -107,7 +107,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -166,14 +166,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Group.Read.All | ambos | Leer todos los grupos |
->| Group.ReadWrite.All | ambos | Leer y escribir en todos los grupos |
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario |
->| User.Read.All | aplicación | Leer el perfil completo de todos los usuarios |
->| User.ReadWrite | delegado | Acceso al perfil del usuario para la lectura y la escritura  |
->| User.ReadWrite.All | ambos | Leer y escribir todos los perfiles completos de los usuarios |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.Read.All | ambos | Leer todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| Group.ReadWrite.All | ambos | Leer y escribir en todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.Read.All | aplicación | Leer el perfil completo de todos los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.ReadWrite | delegado | Acceso al perfil del usuario para la lectura y la escritura  | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| User.ReadWrite.All | ambos | Leer y escribir todos los perfiles completos de los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
 
 >Esta aplicación no tiene API adicionales.
 

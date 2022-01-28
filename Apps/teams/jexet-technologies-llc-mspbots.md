@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MSPBots, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a0a0bee0504d4c3b0e6ea0c9d4464c04b4663252
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8d4d4c0b27f2f2052a46b8d77107dbc4a320216e
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149187"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257756"
 ---
 # <a name="mspbots"></a>MSPBots
 
@@ -159,7 +159,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
@@ -168,11 +168,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| ChannelMessage.Send | aplicación | Enviar mensaje al canal |
->| ChatMessage.Send | aplicación | Enviar mensaje al chat |
->| perfil | aplicación | obtener información de usuario de la aplicación de uso |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ChannelMessage.Send | aplicación | Enviar mensaje al canal | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| ChatMessage.Send | aplicación | Enviar mensaje al chat | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| perfil | aplicación | obtener información de usuario de la aplicación de uso | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
 
 >Esta aplicación no tiene API adicionales.
 

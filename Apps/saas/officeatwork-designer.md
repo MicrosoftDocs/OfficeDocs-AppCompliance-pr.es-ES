@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Designer, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ed8b927ce74e3e7cecb9c06e9b6a5fdbd6d818ac
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: e7b40d891f62c6c2d11c85487cc49e577c04dd62
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62210231"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62259926"
 ---
 # <a name="designer"></a>Designer
 
@@ -107,7 +107,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -156,7 +156,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad |
@@ -166,19 +166,19 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| perfil | delegado | Habilitar el inicio de sesión |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión |
->| Sites.Read.All | delegado | Leer datos y archivos almacenados en SharePoint |
->| User.ReadBasic.All | delegado | Habilitar la visualización de propiedades de usuario |
->| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos |
->| OpenID | delegado | Habilitar el inicio de sesión |
->| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario |
->| Group.Read.All | delegado | Habilitar el acceso a datos de ámbito en función de grupos |
->| Contacts.Read | delegado | Habilitar la lectura de contactos |
->| Files.Read | delegado | Habilitar la lectura de archivos almacenados en Microsoft 365 |
->| Files.Read.All | delegado | Habilitar la lectura de archivos almacenados en Microsoft 365 |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Contacts.Read | delegado | Habilitar la lectura de contactos | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read | delegado | Habilitar la lectura de archivos almacenados en Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Files.Read.All | delegado | Habilitar la lectura de archivos almacenados en Microsoft 365 | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Group.Read.All | delegado | Habilitar el acceso a datos de ámbito en función de grupos | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| Sites.Read.All | delegado | Leer datos y archivos almacenados en SharePoint | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| User.ReadBasic.All | delegado | Habilitar la visualización de propiedades de usuario | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| OpenID | delegado | Habilitar el inicio de sesión | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
+>| perfil | delegado | Habilitar el inicio de sesión | [0c67871c-ffbc-4b37-bd61-afce12b299f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/0c67871c-ffbc-4b37-bd61-afce12b299f9) |
 
 >Esta aplicación no tiene API adicionales.
 

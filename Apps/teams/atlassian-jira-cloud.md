@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jira Cloud, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6c0f6a2085f3bca86883f3ce5817cec32973e140
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 6f20ca178d988c5f89b03bd1da5b3100d5c552ef
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144177"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256726"
 ---
 # <a name="jira-cloud"></a>Jira Cloud
 
@@ -167,11 +167,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| offline_access | delegado | Proporcionar acceso a recursos en nombre del usuario durante un tiempo prolongado para garantizar la mejor experiencia del usuario. |
->| OpenID | delegado | Obtenga el nombre, el apellido, el nombre preferido y el identificador de objeto del usuario. |
->| perfil | delegado | Obtenga el nombre, el apellido, el nombre preferido y el identificador de objeto del usuario. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| offline_access | delegado | Proporcionar acceso a recursos en nombre del usuario durante un tiempo prolongado para garantizar la mejor experiencia del usuario. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| OpenID | delegado | Obtenga el nombre, el apellido, el nombre preferido y el identificador de objeto del usuario. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
+>| perfil | delegado | Obtenga el nombre, el apellido, el nombre preferido y el identificador de objeto del usuario. | [512b84d2-5840-45d6-8d01-5f073836d039](https://docs.microsoft.com/microsoft-365-app-certification/azure/512b84d2-5840-45d6-8d01-5f073836d039) |
 
 >Esta aplicación no tiene API adicionales.
 

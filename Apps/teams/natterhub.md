@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Natterhub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a93c4603fa64320fc66adea24509fdbb16135b62
-ms.sourcegitcommit: f58ade86a900c29f53b231ee88dba3908a380e95
+ms.openlocfilehash: fd0c03b20732f7f83d9d6738779f011a4272d6db
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/27/2022
-ms.locfileid: "62242314"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62256496"
 ---
 # <a name="natterhub"></a>Natterhub
 
@@ -169,14 +169,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| correo electrónico | delegado | Se requiere este permiso para que el usuario pueda recibir correos electrónicos transaccionales |
->| offline_access | delegado | Necesario para enviar envíos de asignación |
->| OpenID | delegado | Necesario para identificar al usuario |
->| perfil | delegado | Necesario para leer el nombre y el apellido del usuario |
->| User.Read | delegado | Necesario para leer el nombre y el apellido del usuario |
->| EduAssignments.ReadWrite | delegado | Necesario para crear envíos de asignación |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| EduAssignments.ReadWrite | delegado | Necesario para crear envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| User.Read | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| correo electrónico | delegado | Se requiere este permiso para que el usuario pueda recibir correos electrónicos transaccionales | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| offline_access | delegado | Necesario para enviar envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| OpenID | delegado | Necesario para identificar al usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| perfil | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
 
 >Esta aplicación no tiene API adicionales.
 

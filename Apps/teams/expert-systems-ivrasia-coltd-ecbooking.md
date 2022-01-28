@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ecBooking, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87751c7cb846da69adeaa4fae544d1d1b50d7074
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d95f0198add6647c68d1be68008a4356a565a045
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149292"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257926"
 ---
 # <a name="ecbooking"></a>ecBooking
 
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -158,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
@@ -167,14 +167,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | aplicación | Escritura de lectura de calendarios |
->| Calendars.ReadWrite | delegado | Escritura de lectura de calendarios |
->| Mail.Send | delegado | enviar correo |
->| Mail.Send | aplicación | enviar correo |
->| User.Read | delegado | usuario de lectura |
->| User.Read.All | aplicación | usuario de lectura |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | aplicación | Escritura de lectura de calendarios | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Calendars.ReadWrite | delegado | Escritura de lectura de calendarios | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Mail.Send | delegado | enviar correo | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| Mail.Send | aplicación | enviar correo | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| User.Read | delegado | usuario de lectura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
+>| User.Read.All | aplicación | usuario de lectura | [00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d](https://docs.microsoft.com/microsoft-365-app-certification/azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d) |
 
 >Esta aplicación no tiene API adicionales.
 

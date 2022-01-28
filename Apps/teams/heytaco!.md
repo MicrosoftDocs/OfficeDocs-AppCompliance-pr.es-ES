@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para HeyTaco!, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3f1b475d0f571986427fe3c7339a70fc056419d0
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 5dcb471219ef00a758b62fd289135169dc865115
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201024"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257786"
 ---
 # <a name="heytaco"></a>HeyTaco!
 
@@ -115,7 +115,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
@@ -166,11 +166,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| OpenID | delegado | Permitir que las personas inicien sesión en las pestañas |
->| perfil | delegado | Para almacenar la información de perfil de los usuarios |
->| correo electrónico | delegado | Para organizar datos de usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| correo electrónico | delegado | Para organizar datos de usuario | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| OpenID | delegado | Permitir que las personas inicien sesión en las pestañas | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
+>| perfil | delegado | Para almacenar la información de perfil de los usuarios | [be8d11cf-265a-4974-9912-4ff28c29fc21](https://docs.microsoft.com/microsoft-365-app-certification/azure/be8d11cf-265a-4974-9912-4ff28c29fc21) |
 
 >Esta aplicación no tiene API adicionales.
 

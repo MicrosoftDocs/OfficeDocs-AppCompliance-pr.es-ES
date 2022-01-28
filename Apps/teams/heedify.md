@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Heedify, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 30d5a9d784604a50e05c04b6f4b60b39a78293b6
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201023"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257806"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -126,7 +126,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -168,13 +168,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Presence.Read.All | delegado | La información de presencia es necesaria para que el agente del centro de contacto administre mejor las llamadas y el contacto, especialmente en el caso de la transferencia de llamadas.  |
->| User.Read.All | delegado | para administrar el contacto, el usuario registrado debe poder examinar a los usuarios y leer su información, incluido su departamento y su administrador (en caso de recepcionista)  |
->| Calendars.Read | delegado | El recepcionista debe comprobar el calendario de los usuarios antes de transferir una llamada o compartir la información con el cliente por teléfono |
->| Contacts.ReadWrite | delegado | La aplicación debe poder agregar contactos a user(agent) y leer sus contactos también  |
->| Contacts.ReadWrite.Shared | delegado | la aplicación debe poder agregar contacto compartido con otro usuario (agente) y leer sus contactos compartidos también  |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegado | El recepcionista debe comprobar el calendario de los usuarios antes de transferir una llamada o compartir la información con el cliente por teléfono | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite | delegado | La aplicación debe poder agregar contactos a user(agent) y leer sus contactos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Contacts.ReadWrite.Shared | delegado | la aplicación debe poder agregar contacto compartido con otro usuario (agente) y leer sus contactos compartidos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Presence.Read.All | delegado | La información de presencia es necesaria para que el agente del centro de contacto administre mejor las llamadas y el contacto, especialmente en el caso de la transferencia de llamadas.  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| User.Read.All | delegado | para administrar el contacto, el usuario registrado debe poder examinar a los usuarios y leer su información, incluido su departamento y su administrador (en caso de recepcionista)  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
 
 >Esta aplicación no tiene API adicionales.
 

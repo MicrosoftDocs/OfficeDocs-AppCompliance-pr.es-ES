@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para booking room Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffd630b414182f19f35bb7fc9196bc82325d3871
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 20773ef58c582a0c2b4f36cc123573796629fc31
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148449"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62257616"
 ---
 # <a name="booking-room-pro"></a>Reserva de salas Pro
 
@@ -168,13 +168,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| correo electrónico | delegado | Microsoft Teams SSO |
->| OpenID | delegado | Microsoft Teams SSO |
->| offline_access | delegado | Microsoft Teams SSO |
->| User.Read | delegado | Microsoft Teams SSO |
->| perfil | delegado | Microsoft Teams SSO |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| correo electrónico | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| offline_access | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| OpenID | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| perfil | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
 
 >Esta aplicación no tiene API adicionales.
 

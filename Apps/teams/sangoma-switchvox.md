@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Switchvox, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5a6e8d1117e0a1e8b67a23c38f6825f0335a433a
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 12728af3843d47c85e4f03bfeb06e4c0faf2424c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148450"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62255546"
 ---
 # <a name="switchvox"></a>Switchvox
 
@@ -126,7 +126,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -168,11 +168,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | delegado | Realizar búsqueda de contactos de directorio |
->| Group.Read.All | delegado | Realizar la resolución de miembros del grupo |
->| Chat.Read | delegado | Realizar resolución de miembros de chat |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.Read | delegado | Realizar resolución de miembros de chat | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
+>| Group.Read.All | delegado | Realizar la resolución de miembros del grupo | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
+>| User.Read.All | delegado | Realizar búsqueda de contactos de directorio | [eb668aa5-abb2-445c-81b4-3c174db84fe2](https://docs.microsoft.com/microsoft-365-app-certification/azure/eb668aa5-abb2-445c-81b4-3c174db84fe2) |
 
 >Esta aplicación no tiene API adicionales.
 
