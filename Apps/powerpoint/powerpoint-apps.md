@@ -2,21 +2,21 @@
 title: 'Seguridad y cumplimiento PowerPoint aplicaciones de Microsoft: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones PowerPoint Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 134952019a1b4e088077cd1bc8651543f91c1f6d
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 3827dc7fe5b0395722b63106a234904966fe4d38
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62234046"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254136"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Seguridad y cumplimiento PowerPoint aplicaciones de Microsoft
 
-Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y complementos de Microsoft PowerPoint que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y complementos de Microsoft PowerPoint que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -28,5 +28,6 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [officeatwork | Image Chooser para Office](./officeatwork-officeatworkimage-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Slide Chooser for Office](./officeatwork-officeatworkslide-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork | Chooser de plantilla para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Showmaster](./cherryware-showmaster.md) | cherryware | **✓** |  |
 | [Showmaster (complemento auxiliar)](./cherryware-showmaster-helper-plugin.md) | cherryware | **✓** |  |
 | [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |

@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vacation Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8756d04cf394bdf7b6126f32764696466b34d729
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: bd7fc61e757600d1d1d87d09e3f67e9ade0546ba
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60440593"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251636"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -36,10 +36,13 @@ Información proporcionada por Vacation Tracker a Microsoft:
 | Id. | WA200002167 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Vacation Tracker |
-| Dirección URL del sitio web de partners | [https://vacationtracker.io](https://vacationtracker.io) |
-| Dirección URL de Teams de información de la aplicación | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
-| Dirección URL de la directiva de privacidad | [https://vacationtracker.io/privacy-policy/](https://vacationtracker.io/privacy-policy/) |
-| DIRECCIÓN URL de términos de uso | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
+| Sitio web de la compañía | [https://vacationtracker.io](https://vacationtracker.io) |
+| Términos de uso de la aplicación | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
+| Funcionalidad principal de la aplicación | Vacation Tracker es una herramienta que permite a las empresas realizar un seguimiento de las hojas de sus organizaciones. Hay un panel web para que los administradores configuren la configuración de la organización. Los empleados también pueden realizar solicitudes y revisar sus cuotas en el panel. Además, los empleados pueden realizar solicitudes y los aprobadores pueden aprobar o denegar solicitudes a través Microsoft Teams bot o pestaña. |
+| Ubicación central de la empresa | Canadá |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,84 +54,134 @@ Información proporcionada por Vacation Tracker a Microsoft:
 
 El Rastreador de vacaciones ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.Read.All | delegado | Leemos los nombres y los nombres de los canales públicos cuando los usuarios establecen sus notificaciones semanales o diarias. | Los usuarios pueden seleccionar un canal en el que desean recibir notificaciones diarias o semanales de Vacation Tracker. Cuando un usuario elige su canal preferido, almacenamos el identificador del canal. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | delegado | Enumeramos el usuario Microsoft Teams teams unidos durante el registro para permitir a los usuarios seleccionar un equipo al que desean registrarse en Vacation Tracker. También pueden registrarse con toda la organización. | Almacenamos el Microsoft Teams de equipo de un equipo seleccionado solo si el usuario se inscribe en Vacation Tracker como un único equipo (no como toda una organización). Usamos los id. de equipo para conectar un usuario que ha iniciado sesión con una cuenta existente en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | Almacenamos el nombre, el identificador y el identificador de inquilino del usuario. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read.All | delegado | Nuestros usuarios pueden importar todos los usuarios de su Microsoft 365 organización o Microsoft Teams equipo. Usamos este permiso para importar solo usuarios con licencia para un equipo u organización Microsoft Teams seleccionado. | Almacenamos información básica sobre los usuarios importados, incluido su nombre, dirección de correo electrónico e id. de usuario. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.ReadBasic.All | delegado | Permitimos que los usuarios importen los demás usuarios de su organización o su Microsoft Teams usuario. Usamos este permiso para enumerar los usuarios disponibles y sus direcciones de correo electrónico en el elemento emergente de importación. | Cuando los usuarios seleccionan a sus compañeros de trabajo para importarlos a Vacation Tracker, almacenamos información básica sobre estos usuarios importados, incluido su nombre, dirección de correo electrónico e id. de usuario. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| email | delegado | Cuando el usuario inicia sesión con Microsoft AAD, almacenamos su dirección de correo electrónico como un identificador único. | Almacenamos el correo electrónico del usuario como un identificador único. No usamos este correo electrónico para la comunicación, los usuarios escriben su dirección de correo electrónico empresarial que usamos para la comunicación durante el registro. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| offline_access | delegado | No recopilamos datos con este permiso. Se usa para mantener el acceso a los datos a los que tenemos permiso. | No almacenamos datos con este permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| OpenID | delegado | Usamos este permiso para iniciar sesión o registrar usuarios en Vacation Tracker. No recopilamos datos específicos con este permiso. | Usamos este permiso para iniciar sesión o registrar usuarios en Vacation Tracker. No almacenamos datos específicos con este permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| perfil | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | Almacenamos el nombre, el identificador y el identificador de inquilino del usuario. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Stripe, AWS, Crisp, Customer.io, Segment, Amplitude, Google Tag Manager | Nombre de la compañía (según lo especificado por el usuario) | Cuando un usuario se inscribe, escribe su nombre de empresa y usamos este nombre como el nombre de la organización dentro del producto |
-
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
-
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| El bot puede ver la información básica sobre la comunicación del usuario con el bot. Sin embargo, no almacenamos ni usamos esa información. Solo usamos el identificador del usuario, el identificador de conversación y un mensaje enviado a nuestro bot. | Almacenamos la dirección de correo electrónico del usuario, el nombre del usuario (tal como se define en microsoft AAD) y la foto de perfil del usuario (de Microsoft AAD) | Usamos una dirección de correo electrónico como identificador único para nuestros usuarios y el nombre y la foto de perfil del usuario para permitir que los administradores y aprobadores de la misma compañía reconozcan a sus empleados en nuestro panel.  |
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->Nombre de la empresa y se conserva y quita de acuerdo con nuestra directiva de retención estándar de un año para este tipo de datos
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Para empezar, recopilamos la cantidad mínima de datos necesarios para los usuarios. A continuación, compartimos el mínimo posible con nuestros partners y, por último, tenemos directivas de retención de datos para que todos los datos se quiten en el plazo de un año, si procede.
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->Sí
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| ¿La aplicación admite TLS 1.1 o posterior? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado después de 3months |
+| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36417" target="_blank">Ver en una pestaña nueva</a>
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | TraditionalAntiMalware |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? |  |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? |  |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? |  |
+| ¿Tiene un firewall instalado en el límite de red externa? |  |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? |  |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? |  |
+| Autenticación multifactor (MFA) habilitada para: |  |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? |  |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? |  |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |  |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-Vacation Tracker ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+::: zone pivot="compliance"
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
+| ¿La aplicación almacena credenciales en el código? |  |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.Read.All | delegado | Leemos los nombres y los nombres de los canales públicos cuando los usuarios establecen sus notificaciones semanales o diarias. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Team.ReadBasic.All | delegado | Enumeramos el usuario Microsoft Teams teams unidos durante el registro para permitir a los usuarios seleccionar un equipo al que desean registrarse en Vacation Tracker. También pueden registrarse con toda la organización. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.Read | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.Read.All | delegado | Nuestros usuarios pueden importar todos los usuarios de su Microsoft 365 organización o Microsoft Teams equipo. Usamos este permiso para importar solo usuarios con licencia para un equipo u organización Microsoft Teams seleccionado. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| User.ReadBasic.All | delegado | Permitimos que los usuarios importen los demás usuarios de su organización o su Microsoft Teams usuario. Usamos este permiso para enumerar los usuarios disponibles y sus direcciones de correo electrónico en el elemento emergente de importación. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| correo electrónico | delegado | Cuando el usuario inicia sesión con Microsoft AAD, almacenamos su dirección de correo electrónico como un identificador único. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| offline_access | delegado | No recopilamos datos con este permiso. Se usa para mantener el acceso a los datos a los que tenemos permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| OpenID | delegado | Usamos este permiso para iniciar sesión o registrar usuarios en Vacation Tracker. No recopilamos datos específicos con este permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| perfil | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+
+>Esta aplicación no tiene API adicionales.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

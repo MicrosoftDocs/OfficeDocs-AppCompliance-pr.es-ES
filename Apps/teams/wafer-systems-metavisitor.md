@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para MetaVisitor, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2bff7b0a791fad027cfdfc1ef7dd20b2570790ff
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: b918e81d2cdc8217bb82a776335a5eef9b1d1b07
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201043"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253346"
 ---
 # <a name="metavisitor"></a>MetaVisitor
 
@@ -167,9 +167,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | aplicación | &#23637;&#31034;&#29992;&#25143;&#20449;&#24687; |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | aplicación | &#23637;&#31034;&#29992;&#25143;&#20449;&#24687; | [43067020-c59f-49f8-a532-e84ed3bb5f4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/43067020-c59f-49f8-a532-e84ed3bb5f4e) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para directivas Ideas para Microsoft Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 306a0580cf91cc49c4a6f3cf814c831840c1b283
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 272be559137882c7f9f41ed46f2321d41aff9474
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155623"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252476"
 ---
 # <a name="policies-amp-insights-for-microsoft-office-365"></a>Directivas &amp; Ideas para Microsoft Office 365
 
@@ -105,7 +105,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -166,14 +166,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Sites.FullControl.All | aplicación | Recupere y actualice la información de colecciones de sitios y grupos o&#8217; sitios. |
->| User.Read.All | aplicación | Leer la configuración de todos los usuarios |
->| User.ReadWrite.All | aplicación | Leer y escribir la configuración de los usuarios |
->| Group.Read.All | aplicación | Leer los miembros y la configuración de los grupos |
->| Group.ReadWrite.All | aplicación | Actualizar los miembros y la configuración de los grupos |
->| Directory.ReadWrite.All | aplicación |   Leer y escribir datos de usuarios y grupos en el directorio de la organización. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.ReadWrite.All | aplicación |   Leer y escribir datos de usuarios y grupos en el directorio de la organización. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.Read.All | aplicación | Leer los miembros y la configuración de los grupos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Group.ReadWrite.All | aplicación | Actualizar los miembros y la configuración de los grupos | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| Sites.FullControl.All | aplicación | Recupere y actualice la información de colecciones de sitios y grupos o&#8217; sitios. | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.Read.All | aplicación | Leer la configuración de todos los usuarios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
+>| User.ReadWrite.All | aplicación | Leer y escribir la configuración de los usuarios | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](https://docs.microsoft.com/microsoft-365-app-certification/azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b) |
 
 >Esta aplicación no tiene API adicionales.
 

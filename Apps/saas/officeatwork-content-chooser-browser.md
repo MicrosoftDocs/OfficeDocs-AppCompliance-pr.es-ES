@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para el Explorador de elidores de contenido, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7bbab406461dc62a07d0b1621b92aa9da3195502
-ms.sourcegitcommit: d21e36dff2355b19cdb4433ec74ab9a1ee3b2180
+ms.openlocfilehash: d994eea2d02008249cbb2d0bc9de8ba78f6802fa
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62209595"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251896"
 ---
 # <a name="content-chooser-browser"></a>Explorador de elidor de contenido
 
@@ -105,8 +105,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -156,7 +156,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad |
@@ -166,17 +166,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| OpenID | delegado | Habilitar el inicio de sesión |
->| perfil | delegado | Habilitar el inicio de sesión |
->| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión |
->| Files.ReadWrite.All | delegado | Habilitar favoritos y OneDrive característica |
->| Group.ReadWrite.All | delegado | Habilitar Teams característica |
->| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario |
->| Sites.Read.All | delegado | Lea los archivos de plantilla de usuarios almacenados en SharePoint |
->| GroupMember.Read.All | delegado | Habilitar Teams característica |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegado | Habilitar favoritos y OneDrive característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Group.ReadWrite.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| GroupMember.Read.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Sites.Read.All | delegado | Lea los archivos de plantilla de usuarios almacenados en SharePoint | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| OpenID | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| perfil | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
 
 >Esta aplicación no tiene API adicionales.
 

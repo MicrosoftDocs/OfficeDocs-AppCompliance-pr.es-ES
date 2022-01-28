@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para LawToolBox Deadlines and Matter Management: Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9baa7ea9b51626f8d887d568b428a83999b77940
-ms.sourcegitcommit: d52243d21dd3fb0b8d51795252188db29292a32b
+ms.openlocfilehash: 5ed6b61fae63ec4c4608133613e78a4a5dd29e88
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "61148128"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251826"
 ---
 # <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
 
@@ -105,8 +105,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | Sí |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -162,7 +162,32 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación almacena credenciales en el código? |  |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
->Esta aplicación no usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite | delegado | este permiso está restringido para obtener acceso a los contactos del usuario&#8217;que ya tienen acceso a &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario y escribir en calendarios | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Calendars.ReadWrite.Shared | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso &#8211; lo usamos para permitir a los usuarios recuperar su propia información de calendario | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite | delegado | este permiso tiene restringido el acceso al usuario&#8217;contactos a los que ya tienen acceso.  Usamos este permiso para permitir al usuario buscar en sus contactos de O365 y agregar a LawToolBox &#8211; no agregamos ningún contacto automáticamente (esto se puede revocar si no desea que esta característica y los contactos se puedan agregar manualmente | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Contacts.ReadWrite.Shared | delegado | usamos este permiso para permitir al usuario buscar contactos compartidos de O365 y agregar a LawToolBox &#8211; no agregamos ningún contacto automáticamente | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.AccessAsUser.All | delegado | que usamos en el portal de administración para recuperar la lista de usuarios del inquilino de O365 para agregar a su cuenta | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Directory.ReadWrite.All | delegado | que usamos en el portal de administración para recuperar la lista de usuarios del inquilino de O365 para agregar a su cuenta | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read | delegado | esto permite al addin leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.Read.All | delegado | usamos este permiso para leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite | delegado | leemos archivos de Teams, grupos y OneDrive para reuniones (si lo revoca, impedirá que nuestro addin enumera los archivos de asunto en nuestras aplicaciones) | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Files.ReadWrite.All | delegado | leemos archivos de Teams, grupos y OneDrive para reuniones (si revocas esto impedirá que LTB enumera los archivos de materia en nuestras aplicaciones).  El usuario solo puede usar addin para leer y enumerar los archivos de usuario a los que el usuario ya tiene acceso | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Group.ReadWrite.All | delegado | GroupID, GroupName, GroupEmail | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Read | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.ReadWrite.Shared | delegado | usamos este permiso para leer correos electrónicos PACER en nuestro complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de su correo electrónico para agregarlos a nuestro sistema de contactos  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Mail.Send | delegado | Usamos este envío de correos electrónicos como usuario para permitir que un usuario se envíe solo informes de los datos a los que ya tienen acceso en nuestro sistema | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| Tasks.ReadWrite.Shared | delegado | este permiso está restringido para obtener acceso al usuario&#8217;tareas a las que ya tienen acceso &#8211; lo usamos para permitir que los usuarios recuperen y actualicen su propia información task.  | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.Read | delegado | se usa para sugerir contactos recientes para agregarlos a reuniones o contactos | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite | delegado | se usa para sugerir contactos recientes para agregarlos a reuniones o contactos | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| User.ReadWrite.All | delegado | esto es necesario para leer la API de Teams, crear Teams, crear evento Calendar, crear canales, Teams de uso compartido de archivos | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| correo electrónico | delegado | Correo electrónico, UserID de Office365, ObjectID, TenantID. | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
+>| perfil | delegado | esto es necesario para la autenticación de SSO: también usamos este permiso para recuperar imágenes y nombres guardados en el inquilino de M365 para que el usuario sepa que están en el cuadro de herramientas correcto | [3ee373aa-62fa-4fc6-b11f-9627d5b4a73d](https://docs.microsoft.com/microsoft-365-app-certification/azure/3ee373aa-62fa-4fc6-b11f-9627d5b4a73d) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Confluence Connector by MWF, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7ac53112ad08bdb90ae3601c13074d541d63428
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144752"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251036"
 ---
 # <a name="confluence-connector-by-mwf"></a>Connector de confluencia MWF
 
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -166,13 +166,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Channel.ReadBasic.All | delegado | Para obtener la lista de canales de las páginas de configuración para enviar notificaciones a un canal. |
->| Teams.ReadBasic.All | delegado | Para obtener la lista de equipos de páginas de configuración para enviar notificaciones a un canal de un equipo. |
->| correo electrónico | delegado | Para mejorar la asignación de cuentas entre Microsoft y Atlassian |
->| TeamsAppInstallation.ReadForTeam | delegado | Para averiguar los equipos donde está instalado Confluence Connector |
->| User.Read | delegado | Para leer información básica del usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.ReadBasic.All | delegado | Para obtener la lista de canales de las páginas de configuración para enviar notificaciones a un canal. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Teams.ReadBasic.All | delegado | Para obtener la lista de equipos de páginas de configuración para enviar notificaciones a un canal de un equipo. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| TeamsAppInstallation.ReadForTeam | delegado | Para averiguar los equipos donde está instalado Confluence Connector | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| User.Read | delegado | Para leer información básica del usuario | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| correo electrónico | delegado | Para mejorar la asignación de cuentas entre Microsoft y Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
 
 >Esta aplicación no tiene API adicionales.
 

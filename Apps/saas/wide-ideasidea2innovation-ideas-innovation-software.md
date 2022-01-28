@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para Wide Ideas: Software de innovación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 55c7276aaf212bf8b6dbc2861f47711af0b0ea6b
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155697"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251206"
 ---
 # <a name="wide-ideas---innovation-software"></a>Ideas amplias: software de innovación
 
@@ -166,14 +166,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| TeamsAppInstallation.ReadWriteForTeam | delegado | permite que el Centro de administración de Wide Ideas lea, instale, actualice y desinstale Teams aplicaciones en equipos a las que puede tener acceso el usuario que ha iniciado sesión.  |
->| Channel.Create | delegado | permite que el Centro de administración de Wide Ideas cree un canal en cualquier equipo, en nombre del usuario que ha iniciado sesión.  |
->| TeamsTab.Create | delegado |  permite al Centro de administración de Wide Ideas crear pestañas en cualquier equipo de Microsoft Teams, en nombre del usuario que ha iniciado sesión. |
->| Directory.Read.All | delegado | permite al Centro de administración de Wide Ideas leer datos en el directorio de&#8217;organización, como usuarios, grupos y aplicaciones |
->| Group.Read.All | delegado | permite al Centro de administración de Wide Ideas enumerar grupos y leer sus propiedades y todas las pertenencias a grupos en nombre del usuario que ha iniciado sesión |
->| User.Read | delegado | permite a los usuarios iniciar sesión en el Centro de administración de Wide Ideas y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión.  |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Channel.Create | delegado | permite que el Centro de administración de Wide Ideas cree un canal en cualquier equipo, en nombre del usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Directory.Read.All | delegado | permite al Centro de administración de Wide Ideas leer datos en el directorio de&#8217;organización, como usuarios, grupos y aplicaciones | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Group.Read.All | delegado | permite al Centro de administración de Wide Ideas enumerar grupos y leer sus propiedades y todas las pertenencias a grupos en nombre del usuario que ha iniciado sesión | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegado | permite que el Centro de administración de Wide Ideas lea, instale, actualice y desinstale Teams aplicaciones en equipos a las que puede tener acceso el usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| TeamsTab.Create | delegado |  permite al Centro de administración de Wide Ideas crear pestañas en cualquier equipo de Microsoft Teams, en nombre del usuario que ha iniciado sesión. | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| User.Read | delegado | permite a los usuarios iniciar sesión en el Centro de administración de Wide Ideas y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
 
 >Esta aplicación no tiene API adicionales.
 

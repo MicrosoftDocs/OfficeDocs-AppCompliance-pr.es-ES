@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Loop, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d20a28aa9a99833c5e5e4deac16c2fda05ebad1a
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: f8cada6257ed15ad8372eb3acffc53e3c94d2d54
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155688"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250106"
 ---
 # <a name="loop"></a>Loop
 
@@ -168,11 +168,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Autenticación |
->| perfil | delegado | Autenticación |
->| correo electrónico | delegado | Registro |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | Autenticación | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| correo electrónico | delegado | Registro | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
+>| perfil | delegado | Autenticación | [95a2eca4-fb4b-4488-8ba8-6bacf3812c76](https://docs.microsoft.com/microsoft-365-app-certification/azure/95a2eca4-fb4b-4488-8ba8-6bacf3812c76) |
 
 >Esta aplicación no tiene API adicionales.
 

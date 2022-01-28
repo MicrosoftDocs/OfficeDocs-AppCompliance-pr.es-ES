@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para complementos de CRM de iGlobe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 155b795d1f09fd21631d94d512df544529c5a93e
-ms.sourcegitcommit: b52a796899ec9fb4a27778773c1a1d5fb0c33610
+ms.openlocfilehash: 14d3c900279dafd35df5c20b9336f6b115ae9709
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2022
-ms.locfileid: "61664241"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251816"
 ---
 # <a name="iglobe-crm-add-ons"></a>Complementos crm de iGlobe
 
@@ -161,7 +161,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación almacena credenciales en el código? |  |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
->Esta aplicación no usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Contacts.ReadWrite | delegado |  Directory.AccessAsUser.All | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Manage.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Sites.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
+>| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | [0bb1641a-3b3b-47f7-a11e-01279d92abfb](https://docs.microsoft.com/microsoft-365-app-certification/azure/0bb1641a-3b3b-47f7-a11e-01279d92abfb) |
 
 >Esta aplicación no tiene API adicionales.
 

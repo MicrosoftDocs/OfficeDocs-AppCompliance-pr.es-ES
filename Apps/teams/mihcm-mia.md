@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Mia, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 47aebd8bce7bdaed64de9f634792d8375f686776
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 60f642920ebe8406b6b16bcdcf940dd986962ae6
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148300"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253616"
 ---
 # <a name="mia"></a>Mia
 
@@ -92,7 +92,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | No aplicable |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
 | Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
@@ -159,7 +159,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | La aplicación se federa con Azure AD, por lo que se pueden usar todas las reglas de acceso condicional. |
@@ -169,12 +169,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Para identificar de forma única a un usuario |
->| Group.Read.All | delegado | Para leer las tareas de Microsoft Planner del usuario |
->| MailboxSettings.Read | aplicación | Para leer la zona horaria del usuario |
->| Calendars.Read | aplicación | Para leer los eventos de calendario programados del usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | aplicación | Para leer los eventos de calendario programados del usuario | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| Group.Read.All | delegado | Para leer las tareas de Microsoft Planner del usuario | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| MailboxSettings.Read | aplicación | Para leer la zona horaria del usuario | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
+>| User.Read | delegado | Para identificar de forma única a un usuario | [7b90f2e4-fe97-4a56-952f-b3c553e537a7](https://docs.microsoft.com/microsoft-365-app-certification/azure/7b90f2e4-fe97-4a56-952f-b3c553e537a7) |
 
 >Esta aplicación no tiene API adicionales.
 

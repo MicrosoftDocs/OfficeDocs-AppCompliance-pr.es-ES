@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Indeqa, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dfcbbe79fe653ca47dc7600b1737efafb6219283
-ms.sourcegitcommit: 3a357b6131b8459972e1aec73f2f795f9d674981
+ms.openlocfilehash: 055df47b5355222fe92520e940142f84b0b580b1
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61176945"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251716"
 ---
 # <a name="indeqa"></a>Indeqa
 
@@ -162,7 +162,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación almacena credenciales en el código? |  |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
->Esta aplicación no usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | delegado | Necesitamos información de usuario para administrar usuarios y reuniones en Easy2Meet | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| correo electrónico | delegado | Para ver las adres de correo electrónico del usuario actual. Necesitamos las adres de correo electrónico para enviar invitaciones a reuniones | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| OpenID | delegado | aquí no recopilamos datos. Estamos usando esto para iniciar sesión en el usuario | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
+>| perfil | delegado | Necesitamos información de usuario para administrar usuarios y reuniones en Easy2Meet | [286a2e24-18ad-432d-8698-694bcd77ecfc](https://docs.microsoft.com/microsoft-365-app-certification/azure/286a2e24-18ad-432d-8698-694bcd77ecfc) |
 
 >Esta aplicación no tiene API adicionales.
 

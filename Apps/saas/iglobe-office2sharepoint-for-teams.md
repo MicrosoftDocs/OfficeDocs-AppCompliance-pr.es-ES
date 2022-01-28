@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint para Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b17138289458464ef786daca4c9289fa646f62b8
-ms.sourcegitcommit: e756bf7bcad1b37cad74f3330b9885595fd6ab04
+ms.openlocfilehash: ba344dc35a29968d4967c6116d47d07c0ecd9b0f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62222520"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250246"
 ---
 # <a name="office2sharepoint-for-teams"></a>Office2SharePoint para Teams
 
@@ -121,7 +121,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -164,17 +164,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Directory.AccessAsUser.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. |
->| Directory.Read.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. |
->| Directory.ReadWrite.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. |
->| Group.Read.All | delegado | Para obtener los sitios de grupo de usuarios. |
->| Group.ReadWrite.All | delegado | Para obtener acceso a los correos seleccionados y obtener los datos adjuntos. Desde el correo o desde el sitio SharePoint grupos al correo. |
->| Sites.Manage.All | delegado | Permite que la aplicación cree o elimine listas y bibliotecas de documentos en todas las colecciones de sitios en nombre del usuario que ha iniciado sesión. |
->| Sites.Read.All | delegado | Para obtener los usuarios SharePoint sitio. Obtener archivos y guardar datos adjuntos del correo seleccionado.     |
->| Sites.ReadWrite.All | delegado | Para obtener SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. |
->| User.Read | delegado | Para obtener los usuarios SharePoint sitio, OneDrive y Sitios de grupo. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.AccessAsUser.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.Read.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Directory.ReadWrite.All | delegado | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.Read.All | delegado | Para obtener los sitios de grupo de usuarios. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Group.ReadWrite.All | delegado | Para obtener acceso a los correos seleccionados y obtener los datos adjuntos. Desde el correo o desde el sitio SharePoint grupos al correo. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Manage.All | delegado | Permite que la aplicación cree o elimine listas y bibliotecas de documentos en todas las colecciones de sitios en nombre del usuario que ha iniciado sesión. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.Read.All | delegado | Para obtener los usuarios SharePoint sitio. Obtener archivos y guardar datos adjuntos del correo seleccionado.     | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| Sites.ReadWrite.All | delegado | Para obtener SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
+>| User.Read | delegado | Para obtener los usuarios SharePoint sitio, OneDrive y Sitios de grupo. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >Esta aplicación no tiene API adicionales.
 

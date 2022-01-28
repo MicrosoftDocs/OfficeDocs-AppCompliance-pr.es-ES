@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Team Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c37c717b65e51dc0b6d561cef9e4efe3d3c95c32
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: cdb4c7dea2bfc330ddccbe58ad1f8405a9a419ef
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62144557"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62252212"
 ---
 # <a name="team-tracker"></a>Team Tracker
 
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -167,14 +167,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calendars.ReadWrite | delegado | Una vez que un usuario establece sus actividades para las próximas semanas, El rastreador de equipo actualiza el calendario de los usuarios y su disponibilidad en función de su selección.  |
->| correo electrónico | delegado | Se usa para comprobar el correo electrónico de los usuarios |
->| MailboxSettings.Read | delegado | Se usa para obtener la zona horaria para crear eventos de calendario |
->| OpenID | delegado | Permite a los usuarios iniciar sesión con su Office 365 cuenta |
->| perfil | delegado | Comprueba la información básica de los usuarios en su perfil |
->| User.Read | delegado | Comprueba la información de los usuarios en su perfil |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.ReadWrite | delegado | Una vez que un usuario establece sus actividades para las próximas semanas, El rastreador de equipo actualiza el calendario de los usuarios y su disponibilidad en función de su selección.  | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| MailboxSettings.Read | delegado | Se usa para obtener la zona horaria para crear eventos de calendario | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| User.Read | delegado | Comprueba la información de los usuarios en su perfil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| correo electrónico | delegado | Se usa para comprobar el correo electrónico de los usuarios | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| OpenID | delegado | Permite a los usuarios iniciar sesión con su Office 365 cuenta | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
+>| perfil | delegado | Comprueba la información básica de los usuarios en su perfil | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](https://docs.microsoft.com/microsoft-365-app-certification/azure/d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d) |
 
 >Esta aplicación no tiene API adicionales.
 

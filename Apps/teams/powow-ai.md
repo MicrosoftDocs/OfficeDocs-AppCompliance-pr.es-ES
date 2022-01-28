@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Powow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 529f5acf9410a5ee1ed2b68308ccabbdde0f070e
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: f7c17510645c2c7b2fc25014e328b1dcefe0f06f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201080"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254756"
 ---
 # <a name="powow"></a>Powow
 
@@ -168,15 +168,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) |
->| ExternalItem.ReadWrite.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) |
->| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para el registro y el inicio de sesión |
->| offline_access | delegado | Para obtener acceso a los datos del usuario dentro de la aplicación (realizar un seguimiento de las actualizaciones del calendario) |
->| OpenID | delegado | Inicio de sesión de los usuarios |
->| perfil | delegado | Para obtener acceso a la información básica de perfil de los usuarios para el registro |
->| User.Read | delegado | Iniciar sesión y leer el perfil de usuario para el registro y el inicio de sesión |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| ExternalItem.ReadWrite.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil de usuario para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| User.Read.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| offline_access | delegado | Para obtener acceso a los datos del usuario dentro de la aplicación (realizar un seguimiento de las actualizaciones del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| OpenID | delegado | Inicio de sesión de los usuarios | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| perfil | delegado | Para obtener acceso a la información básica de perfil de los usuarios para el registro | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
 
 >Esta aplicación no tiene API adicionales.
 

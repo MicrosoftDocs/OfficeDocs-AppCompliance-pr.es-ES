@@ -2,21 +2,21 @@
 title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 9f429e2f81a95e0750b6c2df8c55471653ea969c
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: 86006b608edc098b9c7e3abbcf49bfde1f89863f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62235636"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251346"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
 
-Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y los complementos de Microsoft Outlook que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y los complementos de Microsoft Outlook que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -38,8 +38,8 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [MIPA: su propio asistente personal](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Office2SharePoint para Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Elegir contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork | Firma de correo para Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
+| [officeatwork: El elegidor de contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork: firma de correo para Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail para Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluciones de OnePlace | **✓** |  |
 | [Engagement de ventas de alcance para Outlook](./outreach-sales-engagement-for-outlook.md) | Alcance | **✓** |  |
 | [Pexip Uno para Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |

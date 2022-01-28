@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la Herramienta Desa. de Kanban, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: f8ab41264bce6b78ce099a0b295e381e7102a4ca
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 7f2e2c3677a81a6d838fe46ca5c52178294a9b33
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430168"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253456"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -36,10 +36,12 @@ Información proporcionada por Shore Labs a Microsoft:
 | Id. | WA200002121 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Shore Labs |
-| Dirección URL del sitio web de partners | [https://www.shorelabs.com](https://www.shorelabs.com) |
-| Dirección URL de Teams de información de la aplicación | [https://kanbantool.com](https://kanbantool.com) |
-| Dirección URL de la directiva de privacidad | [https://kanbantool.com/policy/privacy](https://kanbantool.com/policy/privacy) |
-| DIRECCIÓN URL de términos de uso | [https://kanbantool.com/policy/terms-of-service](https://kanbantool.com/policy/terms-of-service) |
+| Sitio web de la compañía | [https://www.shorelabs.com](https://www.shorelabs.com) |
+| Términos de uso de la aplicación | [https://kanbantool.com/policy/terms-of-service](https://kanbantool.com/policy/terms-of-service) |
+| Funcionalidad principal de la aplicación | Visualice el trabajo y realice un seguimiento del tiempo en un panel de kanban. |
+| Ubicación central de la empresa | Polonia |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,81 +53,129 @@ Información proporcionada por Shore Labs a Microsoft:
 
 Los laboratorios de Shore han proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| email | delegado | Dirección de correo electrónico del usuario para la comunicación, la coincidencia de identidades y la entrega de notificaciones. | Dirección de correo electrónico. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
->| Team.ReadBasic.All | delegado | Identificadores y nombres de los equipos de los que el usuario es miembro directo. Se usan para asignar automáticamente usuarios a grupos correctos en herramienta Desc. | Los identificadores de equipo y los nombres de los que el usuario que ha iniciado sesión son miembros directos se asignan a grupos en la Herramienta Desasignación. Esto permite la administración de acceso basado en grupos y el uso compartido de Boards entre diferentes equipos de la misma organización. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| User.Read | delegado | Información básica de la empresa de los usuarios que han iniciado sesión. Se usa para rellenar los detalles de la cuenta de nuevas cuentas y para reconocer los usuarios que pertenecen a su organización con el fin de proporcionar una Sign-On única. | Nombre y un identificador único de Microsoft de su organización. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | delegado | Permite la funcionalidad "Iniciar sesión con Microsoft" y la sincronización de los datos a los que has concedido acceso a la aplicación, al iniciar sesión el usuario. | Mantenga el acceso a los datos a los que le ha concedido acceso. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| OpenID | delegado | Abre tokens de id. que permiten a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas a través del botón "Iniciar sesión con Microsoft". | Un identificador inmutable para la cuenta de usuario en el sistema de identidades de Microsoft. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| perfil | delegado | Nombre de usuario que se rellenará automáticamente en herramienta Descompletar y mantener la sincronización con los cambios en Microsoft Teams. | Nombre completo del usuario. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| Herramienta De Kanban usa los siguientes subprocesadores para el rendimiento de su servicio: https://kanbantool.com/policy/privacy#appointed-subprocessors |   | Usamos estos terceros para proporcionar y mantener la infraestructura técnica y ayudar con el procesamiento de facturación y pago. |
-
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
-
->No se tiene acceso a EUII.
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->Recopilamos automáticamente información técnica sobre su cuenta y actividad en el Servicio. Dicha información se almacena en archivos de registro internos y puede incluir datos de OII y EUII, si formaba parte de la actividad realizada. No compartimos archivos de registro con terceros. El propósito de la recopilación de datos de registro es por razones legales y reglamentarias, con el fin de identificar el origen de posibles infracciones de seguridad o uso incorrecto del servicio, para la limitación de la tasa de solicitudes y la generación de perfiles de rendimiento
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Los administradores de cuentas tienen acceso completo, incluida la capacidad de modificar y quitar datos personales relacionados con su cuenta, y son los controladores de datos reales.
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->No
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
+| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
+::: zone pivot="security"
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-Shore Labs ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | ,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? |  |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? |  |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? |  |
+| ¿Tiene un firewall instalado en el límite de red externa? |  |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? |  |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? |  |
+| Autenticación multifactor (MFA) habilitada para: |  |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? |  |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? |  |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |  |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="compliance"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? |  |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
+| ¿La aplicación almacena credenciales en el código? |  |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| correo electrónico | delegado | Dirección de correo electrónico del usuario para la comunicación, la coincidencia de identidades y la entrega de notificaciones. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
+>| Team.ReadBasic.All | delegado | Identificadores y nombres de los equipos de los que el usuario es miembro directo. Se usan para asignar automáticamente usuarios a grupos correctos en herramienta Desc. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| User.Read | delegado | Información básica de la empresa de los usuarios que han iniciado sesión. Se usa para rellenar los detalles de la cuenta de nuevas cuentas y para reconocer los usuarios que pertenecen a su organización con el fin de proporcionar una Sign-On única. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| offline_access | delegado | Permite la funcionalidad "Iniciar sesión con Microsoft" y la sincronización de los datos a los que has concedido acceso a la aplicación, al iniciar sesión el usuario. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| OpenID | delegado | Abre tokens de id. que permiten a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas a través del botón "Iniciar sesión con Microsoft". | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| perfil | delegado | Nombre de usuario que se rellenará automáticamente en herramienta Descompletar y mantener la sincronización con los cambios en Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+
+>Esta aplicación no tiene API adicionales.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para buzzeasy Contact Center for Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f80ef944b502b1bacb5253f917154747761ee6ae
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b73e059f9b820a1f3f880a4bd4237649121b9c5b
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148510"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251326"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>Centro de contacto buzzeasy para Teams
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -123,7 +123,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
@@ -166,16 +166,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Mail.ReadWrite | aplicación | Permite al agente leer y escribir un buzón específico (compartido) a través de la interfaz de usuario del agente. (Se puede filtrar a un buzón específico). |
->| Mail.Send | aplicación | Enviar correo electrónico en nombre de un buzón compartido. |
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario |
->| Presence.Read.All | delegado | Mostrar el estado de agente/usuario para otros agentes, sincronizar con el estado del agente. |
->| User.Read.All | delegado | Mostrar información AAD usuario en interfaces de administrador/usuario |
->| User.ReadBasic.All | delegado | Mostrar información AAD usuario en interfaces de administrador/usuario |
->| User.Read | delegado | Mostrar lista de usuarios para administradores para el registro. |
->| Mail.Send | aplicación | Enviar invitación en nombre de un usuario de servicio. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Mail.Send | aplicación | Enviar invitación en nombre de un usuario de servicio. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Presence.Read.All | delegado | Mostrar el estado de agente/usuario para otros agentes, sincronizar con el estado del agente. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read | delegado | Mostrar lista de usuarios para administradores para el registro. | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.Read.All | delegado | Mostrar información AAD usuario en interfaces de administrador/usuario | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| User.ReadBasic.All | delegado | Mostrar información AAD usuario en interfaces de administrador/usuario | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](https://docs.microsoft.com/microsoft-365-app-certification/azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c) |
+>| Mail.ReadWrite | aplicación | Permite al agente leer y escribir un buzón específico (compartido) a través de la interfaz de usuario del agente. (Se puede filtrar a un buzón específico). | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| Mail.Send | aplicación | Enviar correo electrónico en nombre de un buzón compartido. | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | [cbc8bfef-8dd2-4714-ab18-18e15566b63e](https://docs.microsoft.com/microsoft-365-app-certification/azure/cbc8bfef-8dd2-4714-ab18-18e15566b63e) |
 
 >Esta aplicación no tiene API adicionales.
 

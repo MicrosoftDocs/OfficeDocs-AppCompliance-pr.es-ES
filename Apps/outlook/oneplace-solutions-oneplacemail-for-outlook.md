@@ -7,13 +7,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para OnePlaceMail para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 310e662c42247476df716e42159ecd5e348ed4e2
-ms.sourcegitcommit: 9dab9c9dacb9c6daaa6b0041ccc8a49bafdad331
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 97716d5548180d2e1a4f59ecd9dfeaeb36ee99bf
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2021
-ms.locfileid: "60414174"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250306"
 ---
 # <a name="oneplacemail-for-outlook"></a>OnePlaceMail para Outlook
 
@@ -35,9 +35,12 @@ Información proporcionada por OnePlace Solutions a Microsoft:
 | Id. | WA104380723 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en iOS, Outlook en Android, Outlook en la Web |
 | Nombre de la compañía asociada | Soluciones de OnePlace |
-| Dirección URL del sitio web de partners | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
-| Dirección URL de la directiva de privacidad | [https://www.oneplacesolutions.com/oneplacemailapp-privacy](https://www.oneplacesolutions.com/oneplacemailapp-privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.oneplacesolutions.com/eula.html](https://www.oneplacesolutions.com/eula.html) |
+| Sitio web de la compañía | [https://www.oneplacesolutions.com](https://www.oneplacesolutions.com) |
+| Términos de uso de la aplicación | [https://www.oneplacesolutions.com/eula.html](https://www.oneplacesolutions.com/eula.html) |
+| Funcionalidad principal de la aplicación | OnePlaceMail permite guardar el correo electrónico y los datos adjuntos en SharePoint, OneDrive y Teams. También permite que el contenido SharePoint, OneDrive y Teams se utilicen al redactar correo electrónico. |
+| Ubicación central de la empresa | Australia |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -49,95 +52,129 @@ Información proporcionada por OnePlace Solutions a Microsoft:
 
 OnePlace Solutions ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
-
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
-
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
->|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Group.ReadWrite.All | delegado | Necesario para determinar Teams es miembro del usuario actual. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Mail.ReadWrite.Shared | delegado | Necesario para tener acceso a las propiedades de correo para establecer SharePoint columnas y agregar la categoría Transfer to SharePoint en el elemento de correo | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| MailboxSettings.ReadWrite | delegado | Sin datos recopilados o usados, se usa para agregar una categoría a la lista de categorías maestras en un buzón de usuarios | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| Sites.ReadWrite.All | delegado | Necesario para establecer propiedades en los elementos que la aplicación ha cargado en SharePoint. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.Read | delegado | Necesario para la autenticación en microsoft Graph. | La aplicación almacena los siguientes datos en una base de datos y se usan para el seguimiento de la suscripción y la licencia de usuario: Id. de usuario, Correo electrónico, nombre, apellido. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
->| User.ReadWrite.All | delegado | Necesario para determinar si el servicio Teams está habilitado dentro de los usuarios Office 365 arrendamiento. | Ninguno | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
-
-#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
-
-Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
-
->| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
->|:--------|:-----------------------|:----------------------------|:--------------------------------------|:-------------------|:-----------------------------------|
->| SharePoint | Sí | SharePoint Direcciones URL, nombres de biblioteca/lista/carpeta | La información organizativa a la que se accede se usa para facilitar el proceso de guardar el correo electrónico y los datos adjuntos de Exchange a SharePoint. Estos datos adicionales no se almacenan en reposo y se cifran en tránsito. Algunos ejemplos de estos datos incluyen SharePoint de columna, como valores de columna De elección, Valores de taxonomía, Nombres de tipo de contenido, Nombres de carpeta, Nombres de sitio.  | Aunque la aplicación no almacena o recopila estos datos, puede aparecer en telemetría o registros donde se conservan durante 90 días. | Los datos no se almacenan |
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
-
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
->|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
->| El servicio Chargify se usa para la administración de suscripciones y la facturación. Para la creación de suscripciones desde la aplicación (gratuita), el nombre, el apellido y la dirección de correo electrónico del usuario se comparten con Chargify. Para las suscripciones compradas (que admiten varios usuarios con licencia), los detalles de usuario individuales no se comparten con el servicio Chargify. | Dirección de correo electrónico | Para poder comunicar eventos de ciclo de vida de suscripción al usuario |
-
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
-
->EUII y OII aparecen en telemetría. Esta información se almacena en application Ideas, encrypted at rest, access controlled and deleted after 90 days
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
-
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->Los datos almacenados en la aplicación se cifran en tránsito y en reposo. Nos basamos en Office 365 credenciales para nuestras aplicaciones, por lo que no almacenamos contraseñas de usuario en nuestro sistema. El acceso a datos almacenados,registros/telemetría se controla estrechamente al personal de administración interna con la necesidad de obtener acceso a la información con el fin de ejecutar y supervisar el estado de la aplicación. Two-Factor autenticación obligatoria para todo el personal de administración interna.
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
-
->Sí
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en 3months |
+| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35746' frameborder='no' style='width: 100%;'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35746" target="_blank">Ver en una pestaña nueva</a>
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? |  |
+| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? |  |
+| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
+| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? |  |
+| ¿El entorno tiene algún software o sistemas operativos no compatibles? |  |
+| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? |  |
+| ¿Tiene un firewall instalado en el límite de red externa? |  |
+| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? |  |
+| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
+| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? |  |
+| Autenticación multifactor (MFA) habilitada para: |  |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? |  |
+| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? |  |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |  |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-OnePlace Solutions ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+::: zone pivot="compliance"
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? |  |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
-| Para tu aplicación, ¿qué evitas usar? | - URI de redireccionamiento comodín,<br/>- OAuth2 Implicit Flow, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña de propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
+| ¿La aplicación almacena credenciales en el código? |  |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Group.ReadWrite.All | delegado | Necesario para determinar Teams es miembro del usuario actual. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Mail.ReadWrite.Shared | delegado | Necesario para tener acceso a las propiedades de correo para establecer SharePoint columnas y agregar la categoría Transfer to SharePoint en el elemento de correo | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| MailboxSettings.ReadWrite | delegado | Sin datos recopilados o usados, se usa para agregar una categoría a la lista de categorías maestras en un buzón de usuarios | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| Sites.ReadWrite.All | delegado | Necesario para establecer propiedades en los elementos que la aplicación ha cargado en SharePoint. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.Read | delegado | Necesario para la autenticación en microsoft Graph. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadBasic.All | delegado | Necesario para mostrar la imagen de perfil de usuario en el campo selector de personas. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+>| User.ReadWrite.All | delegado | Necesario para determinar si el servicio Teams está habilitado dentro de los usuarios Office 365 arrendamiento. | [44a72516-136f-4a55-ae26-ef09977230be](https://docs.microsoft.com/microsoft-365-app-certification/azure/44a72516-136f-4a55-ae26-ef09977230be) |
+
+>Esta aplicación no tiene API adicionales.
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

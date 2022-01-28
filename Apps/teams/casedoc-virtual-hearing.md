@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Casedoc Virtual Hearing, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ffb0964fddc025b6fd661a87d505f8560ad84ce5
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 07119c707f97b9e1c47beaf49a0977cbdfb727fb
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62197947"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253856"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -143,8 +143,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | N/D |
 | ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | N/D |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | N/D |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No aplicable |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No aplicable |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,22 +165,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| AppCatalog.ReadWrite.All | delegado | Para agregar la aplicación desde el catálogo de aplicaciones a una reunión |
->| Calendars.ReadWrite | delegado | Para poder suscribirse a actualizaciones de reuniones |
->| Calendars.ReadWrite | aplicación | Para poder crear la reunión |
->| Directory.ReadWrite.All | aplicación | Para poder crear el grupo asociado a la reunión |
->| Files.ReadWrite.All | delegado | Para permitir que los usuarios carguen archivos en un grupo de reuniones |
->| Files.ReadWrite.All | aplicación | Permite que la aplicación cargue datos de reunión en el grupo de reuniones |
->| Group.ReadWrite.All | aplicación | Para habilitar la aplicación para crear un grupo asociado a una reunión |
->| MailboxSettings.Read | aplicación | Para habilitar la aplicación para leer la zona horaria de los usuarios |
->| OnlineMeetings.ReadWrite | delegado | Para habilitar el marcado del tipo de reunión |
->| TeamsAppInstallation.ReadForUser | delegado | Para agregar la aplicación a la reunión |
->| TeamsAppInstallation.ReadWriteSelfForUser | delegado | Para agregar la aplicación a la reunión |
->| TeamsTab.Create | delegado | Para agregar la aplicación a la reunión |
->| TeamsTab.ReadWrite.All | delegado | Para agregar la aplicación a la reunión |
->| User.Read.All | aplicación | Permite que la aplicación lea perfiles de usuario sin que un usuario haya iniciado sesión |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | delegado | Para agregar la aplicación desde el catálogo de aplicaciones a una reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | delegado | Para poder suscribirse a actualizaciones de reuniones | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Calendars.ReadWrite | aplicación | Para poder crear la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Directory.ReadWrite.All | aplicación | Para poder crear el grupo asociado a la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | delegado | Para permitir que los usuarios carguen archivos en un grupo de reuniones | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Files.ReadWrite.All | aplicación | Permite que la aplicación cargue datos de reunión en el grupo de reuniones | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| Group.ReadWrite.All | aplicación | Para habilitar la aplicación para crear un grupo asociado a una reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| MailboxSettings.Read | aplicación | Para habilitar la aplicación para leer la zona horaria de los usuarios | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| OnlineMeetings.ReadWrite | delegado | Para habilitar el marcado del tipo de reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadForUser | delegado | Para agregar la aplicación a la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsAppInstallation.ReadWriteSelfForUser | delegado | Para agregar la aplicación a la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.Create | delegado | Para agregar la aplicación a la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| TeamsTab.ReadWrite.All | delegado | Para agregar la aplicación a la reunión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
+>| User.Read.All | aplicación | Permite que la aplicación lea perfiles de usuario sin que un usuario haya iniciado sesión | [3e701664-cc46-49e4-b356-1a7ac6500998](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e701664-cc46-49e4-b356-1a7ac6500998) |
 
 >Esta aplicación no tiene API adicionales.
 

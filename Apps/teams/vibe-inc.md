@@ -8,14 +8,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vibe, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ddc6d09c23b109752073c291f220e43b1522617
-ms.sourcegitcommit: 2aa786d5bf1f93ef63b80f04bff99434d2246d92
+ms.openlocfilehash: 9dd45dc3aa49fdf3dbe518b610186231b1cde907
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62157283"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254616"
 ---
-# <a name="vibe"></a>Ambiente
+# <a name="vibe"></a>Vibe
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,7 +32,7 @@ Información proporcionada por Vibe Inc a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Ambiente |
+| Nombre de la aplicación | Vibe |
 | Id. | WA200001721 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Vibe Inc |
@@ -168,9 +168,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Obtenga la información básica de identidad del usuario de inicio de sesión, como nombre, correo electrónico, imagen de perfil. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | Obtenga la información básica de identidad del usuario de inicio de sesión, como nombre, correo electrónico, imagen de perfil. | [71a7c2ef-6e5f-4d3d-8665-119a2bef0035](https://docs.microsoft.com/microsoft-365-app-certification/azure/71a7c2ef-6e5f-4d3d-8665-119a2bef0035) |
 
 >Esta aplicación no tiene API adicionales.
 

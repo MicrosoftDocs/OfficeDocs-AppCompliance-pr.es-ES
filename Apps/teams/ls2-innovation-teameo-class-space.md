@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para teameo Class Space, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8ece9fd050e95f6cbe54f6c5084544075b9ce272
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 66e9f66c89bcf14cd7dcd3eff22ff300f3ea7050
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148539"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253636"
 ---
 # <a name="teameo-class-space"></a>Teameo Class Space
 
@@ -169,9 +169,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| AppCatalog.ReadWrite.All | aplicación | Gestion de Teams App pour Espace Num&#233;rique |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| AppCatalog.ReadWrite.All | aplicación | Gestion de Teams App pour Espace Num&#233;rique | [05525b77-8ca6-462f-8902-15788cb405c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/05525b77-8ca6-462f-8902-15788cb405c6) |
 
 >Esta aplicación no tiene API adicionales.
 

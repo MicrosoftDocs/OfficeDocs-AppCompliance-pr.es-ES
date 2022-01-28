@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Company Navigator, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c120830bc278323ad592ed71dd29a3c3dc54e6a5
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 13ab94d8c86c280c6d6b932d1db65180a7a6caa2
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148180"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254927"
 ---
 # <a name="company-navigator"></a>Navegador de empresa
 
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -124,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -168,22 +168,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| correo electrónico | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Calendars.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Calendars.Read.Shared | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Files.Read.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Mail.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Mail.Read.Shared | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Mail.ReadBasic.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| offline_access | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| OpenID | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| People.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| perfil | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| User.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| User.ReadBasic.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
->| Sites.Read.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calendars.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Calendars.Read.Shared | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Files.Read.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Mail.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Mail.Read.Shared | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Mail.ReadBasic.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| People.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| Sites.Read.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| User.Read | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| User.ReadBasic.All | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| correo electrónico | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| offline_access | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| OpenID | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
+>| perfil | delegado | leer datos de usuario relevantes para usar el caso de la aplicación | [5123b34d-663d-4ae9-a3c9-d2298be203f2](https://docs.microsoft.com/microsoft-365-app-certification/azure/5123b34d-663d-4ae9-a3c9-d2298be203f2) |
 
 >Esta aplicación no tiene API adicionales.
 

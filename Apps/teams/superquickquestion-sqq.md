@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SQQ, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 49df8a96511b80d7d47a416a5a8dd40ec74f097a
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 0dfeb1cc7cf0cbc593cb2cfa2f897bd299963236
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201031"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251673"
 ---
 # <a name="sqq"></a>SQQ
 
@@ -123,9 +123,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -168,11 +168,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Chat.ReadBasic | delegado | Obtener el número de participantes en un chat |
->| OpenID | delegado | Iniciar sesión de usuarios desde la aplicación para acceder al punto de conexión Graph usuario |
->| User.Read | delegado | Leer el nombre del inquilino de usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Chat.ReadBasic | delegado | Obtener el número de participantes en un chat | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| User.Read | delegado | Leer el nombre del inquilino de usuario | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| OpenID | delegado | Iniciar sesión de usuarios desde la aplicación para acceder al punto de conexión Graph usuario | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Keepass Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a2e9053bef8b0ce7338ef3e5058ab6f4be0ee706
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 154c1fa600d142dca7be3ef061a152caf6390000
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201044"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250896"
 ---
 # <a name="keepass-pro"></a>Keepass Pro
 
@@ -124,8 +124,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -168,13 +168,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Teams SSO |
->| Files.ReadWrite.All | delegado | Lectura y escritura del archivo KDBX en SharePoint |
->| OpenID | delegado | Teams SSO |
->| perfil | delegado | Teams SSO |
->| correo electrónico | delegado | Teams SSO |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite.All | delegado | Lectura y escritura del archivo KDBX en SharePoint | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| User.Read | delegado | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| correo electrónico | delegado | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| OpenID | delegado | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
+>| perfil | delegado | Teams SSO | [597cc93d-8951-4f62-b549-eca97ba5c042](https://docs.microsoft.com/microsoft-365-app-certification/azure/597cc93d-8951-4f62-b549-eca97ba5c042) |
 
 >Esta aplicación no tiene API adicionales.
 

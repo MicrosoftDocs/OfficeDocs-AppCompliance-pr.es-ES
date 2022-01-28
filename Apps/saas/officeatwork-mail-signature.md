@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la firma de correo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 59228540a9dfea9d03cb30fd6643baff97918f09
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e6529d9e42d48d71f57555b629a8cf8c664fa397
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148279"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254066"
 ---
 # <a name="mail-signature"></a>Firma de correo
 
@@ -106,8 +106,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad |
@@ -167,12 +167,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| OpenID | delegado | Habilitar el inicio de sesión |
->| perfil | delegado | Habilitar el inicio de sesión |
->| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión, habilitar firmas de correo dinámico con propiedades de usuario |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión, habilitar firmas de correo dinámico con propiedades de usuario | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| OpenID | delegado | Habilitar el inicio de sesión | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
+>| perfil | delegado | Habilitar el inicio de sesión | [722e11e1-c87f-4f97-803f-3d012d532427](https://docs.microsoft.com/microsoft-365-app-certification/azure/722e11e1-c87f-4f97-803f-3d012d532427) |
 
 >Esta aplicación no tiene API adicionales.
 

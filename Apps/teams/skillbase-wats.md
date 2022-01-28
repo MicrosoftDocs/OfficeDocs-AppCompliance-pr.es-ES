@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Wats, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 87f742ca884060d51b35ea2ba48cae3e4fd89e91
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 49aba56648206ad302a6b078bb28ad3b055bbc5f
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201012"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251671"
 ---
 # <a name="wats"></a>Wats
 
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Sí |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -167,21 +167,21 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Files.Read | delegado | Lectura des fichiers sharepoint |
->| Files.Read.All | delegado | Lectura des fichiers sharepoint |
->| Group.Read.All | delegado | avoir acc&#232;s aux groupes pour le ask for it |
->| offline_access | delegado | móvil |
->| OpenID | delegado | OBO |
->| Organization.Read.All | delegado | recup&#233;rer le tenant ID pour bien configurer l'application WATS et g&#233;rer le cloisonnement des donn&#233;es |
->| Presence.Read | delegado | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| Presence.Read.All | delegado | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas |
->| perfil | delegado | info sur l'utilisateur |
->| Sites.Read.All | delegado | acces aux infos des sharepoints |
->| TeamsActivity.Send | ambos | envoie d'activit&#233;aux utilisateurs quand un ask for it est cr&#233;&#233; |
->| User.Read | delegado | inicio de sesión |
->| User.Read.All | delegado | info sur les autres utilisateurs |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.Read | delegado | Lectura des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Files.Read.All | delegado | Lectura des fichiers sharepoint | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Group.Read.All | delegado | avoir acc&#232;s aux groupes pour le ask for it | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Organization.Read.All | delegado | recup&#233;rer le tenant ID pour bien configurer l'application WATS et g&#233;rer le cloisonnement des donn&#233;es | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read | delegado | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Presence.Read.All | delegado | afficher, comme sur les apps office, si un utilisateur est connect&#233; ou pas | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| Sites.Read.All | delegado | acces aux infos des sharepoints | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| TeamsActivity.Send | ambos | envoie d'activit&#233;aux utilisateurs quand un ask for it est cr&#233;&#233; | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read | delegado | inicio de sesión | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| User.Read.All | delegado | info sur les autres utilisateurs | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| offline_access | delegado | móvil | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| OpenID | delegado | OBO | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
+>| perfil | delegado | info sur l'utilisateur | [f9eaef18-fbd1-4045-b417-c26598755298](https://docs.microsoft.com/microsoft-365-app-certification/azure/f9eaef18-fbd1-4045-b417-c26598755298) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PA PEOPLE, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bf559c216aa657d7a14f1c4e099b67dabb8cd1c1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 0c12acb97dcb14aca0b64531eb044f13b71425ee
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62143927"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62253546"
 ---
 # <a name="pa-people"></a>PA PEOPLE
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -165,9 +165,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read | delegado | Lea el perfil del usuario y coincida con ese perfil (básicamente userId) con la base de datos para que pueda iniciar sesión en PEOPLE.&#65288;&#12518;&#12540;&#12470;&#12540;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#12434;&#35501;&#12415;&#21462;&#12426;&#12289;&#12381;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#65288;&#22522;&#26412;&#30340;&#12395;&#12399;userId&#65289;&#12434;&#12487;&#12540;&#12479;&#12505;&#12540;&#12473;&#12392;&#29031;&#21512;&#12375;&#12390;&#12289;PEOPLE&#12395;&#12525;&#12464;&#12452;&#12531;&#12391;&#12365;&#12427;&#12424;&#12358;&#12395;&#12375;&#12414;&#12377;&#12290;&#65289; |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.Read | delegado | Lea el perfil del usuario y coincida con ese perfil (básicamente userId) con la base de datos para que pueda iniciar sesión en PEOPLE.&#65288;&#12518;&#12540;&#12470;&#12540;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#12434;&#35501;&#12415;&#21462;&#12426;&#12289;&#12381;&#12398;&#12503;&#12525;&#12501;&#12449;&#12452;&#12523;&#65288;&#22522;&#26412;&#30340;&#12395;&#12399;userId&#65289;&#12434;&#12487;&#12540;&#12479;&#12505;&#12540;&#12473;&#12392;&#29031;&#21512;&#12375;&#12390;&#12289;PEOPLE&#12395;&#12525;&#12464;&#12452;&#12531;&#12391;&#12365;&#12427;&#12424;&#12358;&#12395;&#12375;&#12414;&#12377;&#12290;&#65289; | [894d2c27-987c-4426-ab25-b0d6ea4bd0d6](https://docs.microsoft.com/microsoft-365-app-certification/azure/894d2c27-987c-4426-ab25-b0d6ea4bd0d6) |
 
 >Esta aplicación no tiene API adicionales.
 

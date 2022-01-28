@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el registro de cumplimiento de Luware para Microsoft Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b253e66f445af383eaf7401e128645f1ea9373be
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: ffbb28358351271e0028f0b9deec76e3ca6c6a8c
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149149"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62251323"
 ---
 # <a name="luware-compliance-recording-for-microsoft-teams"></a>Grabación de cumplimiento de Luware para Microsoft Teams
 
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -166,19 +166,19 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| Calls.Initiate.All | aplicación | Teams grabación |
->| Calls.InitiateGroupCall.All | aplicación | Teams grabación |
->| Calls.JoinGroupCall.All | aplicación | Teams grabación |
->| Calls.JoinGroupCallasGuest.All | aplicación | Teams grabación |
->| Calls.AccessMedia.All | aplicación | Teams grabación |
->| OnlineMeetings.Read.All | aplicación | Teams grabación |
->| OnlineMeetings.ReadWrite.All | aplicación | Teams grabación |
->| Group.Read.All | aplicación | Teams grabación |
->| GroupMember.Read.All | aplicación | Teams grabación |
->| User.Read.All | aplicación | Teams grabación |
->| User.Read | delegado | Inicio de sesión único |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Calls.AccessMedia.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.Initiate.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.InitiateGroupCall.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCall.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| Group.Read.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| GroupMember.Read.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.Read.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| OnlineMeetings.ReadWrite.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read | delegado | Inicio de sesión único | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
+>| User.Read.All | aplicación | Teams grabación | [5e5d72e0-2df7-4ca7-be58-81dc28d3bdad](https://docs.microsoft.com/microsoft-365-app-certification/azure/5e5d72e0-2df7-4ca7-be58-81dc28d3bdad) |
 
 >Esta aplicación no tiene API adicionales.
 

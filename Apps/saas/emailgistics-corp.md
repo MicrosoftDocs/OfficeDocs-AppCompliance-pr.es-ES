@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Emailgistics, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84228626adf3865be785d8c58c78374db9620a90
-ms.sourcegitcommit: 193632a2964d85cb90e9fcd62da021c5dcb0bd9b
+ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62177668"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62250256"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -106,8 +106,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -145,7 +145,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | N/D |
 | ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
 | ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | N/D |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | N/D |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No aplicable |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -166,15 +166,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | delegado | Lea req'd de acceso para obtener información sobre los mensajes en el buzón compartido. La información del mensaje es necesaria para ejecutar reglas definidas por el cliente (distribuir al usuario A si el mensaje contiene &#8220;factura&#8221;, por ejemplo), para realizar un seguimiento correcto de las conversaciones (para el historial de conversaciones y la asignación automática) y para los informes (por ejemplo, el informe de detalles de abrir mensajes).
-Escriba el acceso para enviar mensajes desde reglas (como respuestas automáticas) y para actualizar los asuntos de los mensajes con el identificador de conversación Emailgistics. |
->| Mail.Send | delegado | Permite a Emailgistics enviar mensajes de correo electrónico desde el buzón compartido. Este permiso es necesario para enviar mensajes desde reglas (como respuestas automáticas). |
->| MailboxSettings.ReadWrite | delegado | Permite a Emailgistics obtener el nombre del buzón compartido y crear una regla de buzón para enrutar los mensajes entrantes a su carpeta entrante oculta para el procesamiento inicial, la ejecución de reglas y la asignación automática. |
->| User.Read | delegado | Permite a Emailgistics iniciar sesión como buzón compartido y leer información básica sobre él, como su identificador de entidad de seguridad de servicio, dirección de correo electrónico y nombre de usuario. |
->| User.ReadBasic.All | delegado | Permite que Emailgistics lea información básica sobre los usuarios de su inquilino. Necesario para detectar cambios en los nombres y direcciones de correo electrónico de los miembros del buzón y actualizar automáticamente esta información, que se usa para el seguimiento y los informes, en Emailgistics. Este es el único permiso cuyo ámbito se extiende más allá del buzón compartido. |
->| offline_access | delegado | Permite que Emailgistics funcione como una aplicación back-end, en lugar de una aplicación interactiva basada en explorador que requiera que un usuario inicie sesión siempre que funcione. Este permiso permite a Emailgistics obtener un token de actualización, que puede actualizar según sea necesario para mantener el acceso constante. |
+Escriba el acceso para enviar mensajes desde reglas (como respuestas automáticas) y para actualizar los asuntos de los mensajes con el identificador de conversación Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| Mail.Send | delegado | Permite a Emailgistics enviar mensajes de correo electrónico desde el buzón compartido. Este permiso es necesario para enviar mensajes desde reglas (como respuestas automáticas). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| MailboxSettings.ReadWrite | delegado | Permite a Emailgistics obtener el nombre del buzón compartido y crear una regla de buzón para enrutar los mensajes entrantes a su carpeta entrante oculta para el procesamiento inicial, la ejecución de reglas y la asignación automática. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.Read | delegado | Permite a Emailgistics iniciar sesión como buzón compartido y leer información básica sobre él, como su identificador de entidad de seguridad de servicio, dirección de correo electrónico y nombre de usuario. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| User.ReadBasic.All | delegado | Permite que Emailgistics lea información básica sobre los usuarios de su inquilino. Necesario para detectar cambios en los nombres y direcciones de correo electrónico de los miembros del buzón y actualizar automáticamente esta información, que se usa para el seguimiento y los informes, en Emailgistics. Este es el único permiso cuyo ámbito se extiende más allá del buzón compartido. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+>| offline_access | delegado | Permite que Emailgistics funcione como una aplicación back-end, en lugar de una aplicación interactiva basada en explorador que requiera que un usuario inicie sesión siempre que funcione. Este permiso permite a Emailgistics obtener un token de actualización, que puede actualizar según sea necesario para mantener el acceso constante. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
 
 >Esta aplicación no tiene API adicionales.
 

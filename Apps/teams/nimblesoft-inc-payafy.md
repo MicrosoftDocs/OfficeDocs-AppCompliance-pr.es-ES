@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PayaFy, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8a29a20cc8a7ecd97b54449fe9fcac9b1d5adb00
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 2b3607c120cf2dfda0ad34ee522bf55572c98a20
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62145887"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254806"
 ---
 # <a name="payafy"></a>PayaFy
 
@@ -167,9 +167,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.ReadWrite.All | ambos | Leerá la información básica usada para el registro de usuarios. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| User.ReadWrite.All | ambos | Leerá la información básica usada para el registro de usuarios. | [1e96a64b-9c1c-4cbc-b015-70243ea06c9b](https://docs.microsoft.com/microsoft-365-app-certification/azure/1e96a64b-9c1c-4cbc-b015-70243ea06c9b) |
 
 >Esta aplicación no tiene API adicionales.
 

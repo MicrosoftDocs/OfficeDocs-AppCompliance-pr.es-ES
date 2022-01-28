@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Nailted, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 917e4443182e1370b3b1dfdd1d73905dc28fe3b6
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 6db76106efdc61b69c911ef889242f2fca72fc90
+ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201014"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62254856"
 ---
 # <a name="nailted"></a>Nailted
 
@@ -123,9 +123,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -168,13 +168,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          |
->|:------------------------|:--------------------|:------------------------------------|
->| User.Read.All | aplicación | Se usa para leer la información de los usuarios |
->| correo electrónico | aplicación | Acceso al correo electrónico de los empleados para sincronizarlos |
->| offline_access | aplicación | Usamos este permiso para tener acceso a la api cuando el usuario no está en línea para poder sincronizar empleados e instalar la aplicación |
->| TeamsAppInstallation.ReadWriteForUser | aplicación | El usuario puede seleccionar a qué usuarios desea instalar la aplicación. Por lo tanto, usamos este permiso para instalar la aplicación |
->| Directory.Read.All | aplicación | Se usa para obtener acceso a los grupos. |
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Directory.Read.All | aplicación | Se usa para obtener acceso a los grupos. | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| TeamsAppInstallation.ReadWriteForUser | aplicación | El usuario puede seleccionar a qué usuarios desea instalar la aplicación. Por lo tanto, usamos este permiso para instalar la aplicación | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| User.Read.All | aplicación | Se usa para leer la información de los usuarios | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| correo electrónico | aplicación | Acceso al correo electrónico de los empleados para sincronizarlos | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
+>| offline_access | aplicación | Usamos este permiso para tener acceso a la api cuando el usuario no está en línea para poder sincronizar empleados e instalar la aplicación | [52b2da9b-4cd6-4334-be22-4a3b1b99bac7](https://docs.microsoft.com/microsoft-365-app-certification/azure/52b2da9b-4cd6-4334-be22-4a3b1b99bac7) |
 
 >Esta aplicación no tiene API adicionales.
 
