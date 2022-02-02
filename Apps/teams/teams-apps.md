@@ -2,21 +2,21 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/26/2022
+ms.date: 01/31/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: c7b4f06efdcd61dd75a4aff9ba40ba2de95fd3a8
-ms.sourcegitcommit: 2e80b3cd0079ac50da5e6d878bbef6744e4659f2
+ms.openlocfilehash: f21b81f3898b89a3c7c935e00142b283d4830f2d
+ms.sourcegitcommit: 58f40775dd4adee3a6037a74e4ccd98823f4832c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62230996"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62304845"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
-Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para proporcionar la información que las organizaciones necesitan para ejecutar y comunicar sus decisiones sobre las aplicaciones y complementos de Microsoft Teams que usan. La información se complementa con datos del catálogo de aplicaciones de [Microsoft Cloud App Security](https://www.microsoft.com/en-us/enterprise-mobility-security/cloud-app-security) y la información proporcionada por los desarrolladores cuando envían sus aplicaciones. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para proporcionar la información que las organizaciones necesitan para ejecutar y comunicar sus decisiones sobre las aplicaciones y complementos de Microsoft Teams que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -27,6 +27,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** |  |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
+| [Aimful](./aimful.md) | Aimful | **✓** |  |
 | [Asistente de autoservicio de aleación](./alloy-software-self-service-assistant.md) | Alloy Software | **✓** |  |
 | [Alvao Service Desk](./alvao-sro-service-desk.md) | ALVAO s.r.o. | **✓** |  |
 | [Ámbar](./infeedo-amber.md) | inFeedo | **✓** |  |
@@ -99,7 +100,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Confluence Cloud](./atlassian-confluence-cloud.md) | Atlassian | **✓** |  |
 | [Connector de confluencia MWF](./move-work-forward-confluence-connector-by-mwf.md) | Avance el trabajo | **✓** |  |
 | [Conéctese+](./reward-gateway-connectplus.md) | Reward Gateway | **✓** |  |
-| [Centro de contacto | ROGER365.io](./roger365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
+| [Centro de contacto: ROGER365.io](./roger365io-contact-centerroger365io.md) | ROGER365.io | **✓** |  |
 | [Contactos Pro](./witivio-contacts-pro.md) | Witivio | **✓** |  |
 | [Content Manager](./colligo-inc-content-manager.md) | Colligo Inc | **✓** |  |
 | [Contextere AVA](./contextere-ava.md) | Contextere | **✓** |  |
@@ -181,6 +182,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [Hive](./hive.md) | Hive | **✓** |  |
+| [HubSite 365](./netforce-365-gmbh-hubsite.md) | NetForce 365 GmbH | **✓** |  |
 | [Hugo](./hugo.md) | Hugo | **✓** |  |
 | [huminos](./soe-technologies-huminos.md) | SOE Technologies | **✓** |  |
 | [Humu](./humu-inc.md) | Humu Inc. | **✓** |  |
@@ -206,7 +208,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Reuniones multilingües de KUDO](./kudo-inc-multilingual-meetings.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
-| [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [Lexion](./lexion.md) | Lexion | **✓** |  |
 | [LifeWorks](./lifeworks.md) | LifeWorks | **✓** |  |
 | [Link Spotter](./communardo-products-link-spotter.md) | Communardo Products | **✓** |  |
@@ -219,7 +220,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Whiteboard de Lucidspark](./lucid-software-lucidspark-whiteboard.md) | Lucid Software | **✓** |  |
 | [LumApps](./lumapps.md) | LumApps | **✓** |  |
 | [Lumio by SMART](./smart-technologies-ulc-lumio-by.md) | SMART Technologies ULC | **✓** |  |
-| [MailClark](./mailclark.md) | MailClark | **✓** |  |
 | [Mapa Pro](./witivio-map-pro.md) | Witivio | **✓** |  |
 | [Marvel](./marvel.md) | Marvel | **✓** |  |
 | [MeasureUp](./media-interactiva-solutions-measureup.md) | Media Interactiva Solutions | **✓** |  |
