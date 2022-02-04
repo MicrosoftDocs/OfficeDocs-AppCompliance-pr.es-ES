@@ -2,18 +2,12 @@
 title: Información de la aplicación para TeamSticker by Communitio by Communitio Corporation
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/27/2022
+ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para TeamSticker by Communitio, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: 'Toda la información de seguridad y cumplimiento disponible para TeamSticker by Communitio, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 252d783969b65bce7ef3b1754b9b7439c1f19764
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253846"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -33,11 +27,11 @@ Información proporcionada por Communitio Corporation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamSticker by Communitio |
-| Id. | WA200000894 |
+| ID | WA200000894 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Communitio Corporation |
-| Sitio web de la compañía | [https://www.teamsuite.biz](https://www.teamsuite.biz) |
-| Términos de uso de la aplicación | [https://www.teamsuite.biz/terms/](https://www.teamsuite.biz/terms/) |
+| Sitio web de la compañía | [https://communitio.jp](https://communitio.jp) |
+| Términos de uso de la aplicación | [https://teamsuite.biz/terms](https://teamsuite.biz/terms) |
 | Funcionalidad principal de la aplicación | Se trata de una tarjeta de agradecimiento digital que se puede enviar desde la conversación. |
 | Ubicación central de la empresa | Japón |
 | Página de información de la aplicación | |
