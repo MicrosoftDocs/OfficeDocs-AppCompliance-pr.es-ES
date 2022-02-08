@@ -2,11 +2,17 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/03/2022
+ms.date: 02/07/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
+ms.openlocfilehash: 5ec8da5c62190b239f21acfd32a0d04fddd488cb
+ms.sourcegitcommit: dd610febc885b7c5766014e7364ed43c4bd942ac
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "62449254"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -58,6 +64,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Board Connect](./engage-squared-board-connect.md) | Engage Squared | **✓** |  |
 | [Reserva de salas Pro](./witivio-booking-room-pro.md) | Witivio | **✓** |  |
 | [BrainBot](./biggerbrains-brainbot.md) | Biggerbrains | **✓** |  |
+| [BRAVO Workhub](./coeus-solutions-gmbh-bravo-workhub.md) | Coeus Solutions GmbH | **✓** |  |
 | [BravoNow](./spadeworx-software-services-bravonow.md) | SpadeWorx Software Services | **✓** |  |
 | [Breakthru](./breakthru.md) | Breakthru | **✓** |  |
 | [Sondeo claro](./chat-apps-llc-bright-poll.md) | Chat Apps, LLC | **✓** |  |
@@ -117,6 +124,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Grabación de llamada unificada Nubber](./dubber-unified-call-recording.md) | Torero | **✓** |  |
 | [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
+| [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademy-and-inside-gmbh-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
@@ -281,6 +289,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Colaboración de Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
 | [Powow](./powow-ai.md) | Powow AI | **✓** |  |
 | [Presentations AI](./infographfx-technologies-presentations-ai.md) | Infographfx technologies | **✓** |  |
+| [Price Monitor](./price-monitor.md) | &#19978;&#28023;&#20134;&#24698;&#20114;&#32852;&#32593;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Proconnect for Sitecore](./subramanian-ramanathan-proconnect-for-sitecore.md) | Subramanian Ramanathan | **✓** |  |
 | [ProdBot](./prodoscore-prodbot.md) | Prodoscore | **✓** |  |
@@ -299,8 +308,8 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Reach](./livetiles-reach.md) | LiveTiles | **✓** |  |
 | [Real Time Translator](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
-| [Reminderz](./chitchattr-reminderz.md) | ChitChattr | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
+| [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
 | [ReTeam](./beremote-llc-reteam.md) | BeRemote LLC | **✓** |  |
 | [Rezolve.ai](./actionable-science-rezolveai.md) | Paso que se puede accionar | **✓** |  |
 | [bot de chat RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
@@ -316,7 +325,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [SelfDrvn](./selfdrvn.md) | SelfDrvn | **✓** |  |
 | [Sensei Labs Conductor](./sensei-labs-inc-conductor.md) | Sensei Labs Inc. | **✓** |  |
 | [Senso](./senso.md) | Senso | **✓** |  |
-| [Sentry](./sentry.md) | Sentry | **✓** |  |
 | [SHL](./shl.md) | SHL | **✓** |  |
 | [Shortlinks](./chitchattr-shortlinks.md) | ChitChattr | **✓** |  |
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
