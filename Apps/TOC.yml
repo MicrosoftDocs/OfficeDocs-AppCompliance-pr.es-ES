@@ -579,6 +579,8 @@
           href: teams/survivef5-gmbh-kudozza.md
         - name: Kunjani
           href: teams/faceboard-pty-ltd-kunjani.md
+        - name: Learnbee
+          href: teams/bsharp-sales-enablers-learnbee.md
         - name: Lexion
           href: teams/lexion.md
         - name: LifeWorks
@@ -807,7 +809,7 @@
           href: teams/sensei-labs-inc-conductor.md
         - name: Senso
           href: teams/senso.md
-        - name: Subproceso compartido por WNI
+        - name: Shared Thread por WNI
           href: teams/wni-shared-thread-by.md
         - name: SHL
           href: teams/shl.md
