@@ -1,48 +1,48 @@
 ---
-title: Información de la aplicación para Workday por Workday
+title: Información de la aplicación para reservas de escritorio por TNS Consulting ApS
 ms.author: elmalova
 author: elenamalova
 ms.date: 02/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Workday, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para las reservas de Desk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6f8f8c4a1abeb514268797956b110f2a53fcd1e7
+ms.openlocfilehash: 035dae1da20fbef01d60b29b88f3eae5032e9939
 ms.sourcegitcommit: 49991df115de43a1e5e5579ebef4ebc71df29fae
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/12/2022
-ms.locfileid: "62795751"
+ms.locfileid: "62795831"
 ---
-# <a name="workday"></a>Workday
+# <a name="desk-reservations"></a>Reservas de escritorio
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: February 2, 2022</p>
+<p>Last updated by the developer on: November 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/aa4981ef-635f-4066-b260-97445a4b2819" target="_blank">Ver en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001555" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/5e73a3c5-eed6-4954-91ce-2a38394c2b4d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003532" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Workday a Microsoft:
+Información proporcionada por TNS Consulting ApS a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Workday |
-| Id. | WA200001555 |
+| Nombre de la aplicación | Reservas de escritorio |
+| Id. | WA200003532 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Workday |
-| Sitio web de la compañía | [https://www.workday.com/en-us/homepage.html](https://www.workday.com/en-us/homepage.html) |
-| Términos de uso de la aplicación | [https://nw.myworkday.com/microsoftteams/post-license/](https://nw.myworkday.com/microsoftteams/post-license/) |
-| Funcionalidad principal de la aplicación | Agregar Workday a su Teams tareas de recursos humanos y finanzas fáciles y libres de fricción.  Para obtener información más completa sobre la seguridad de las aplicaciones y la privacidad de los datos, los clientes de Workday deben consultar la Descripción del servicio de innovación de áreas de trabajo naturales y el grupo de usuarios Áreas de trabajo naturales en workday Community. |
-| Ubicación central de la empresa | Estados Unidos de América |
+| Nombre de la compañía asociada | TNS Consulting ApS |
+| Sitio web de la compañía | [https://www.meetingroommap.net](https://www.meetingroommap.net) |
+| Términos de uso de la aplicación | [https://www.meetingroommap.net/home/TermsAndConditions](https://www.meetingroommap.net/home/TermsAndConditions) |
+| Funcionalidad principal de la aplicación | Haga reservas para escritorios u otros elementos asignados. |
+| Ubicación central de la empresa | Dinamarca |
 | Página de información de la aplicación | |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Híbrido |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Other |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,7 +52,7 @@ Información proporcionada por Workday a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Workday ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+TNS Consulting ApS ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -60,13 +60,13 @@ Workday ha proporcionado esta información sobre cómo esta aplicación recopila
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Id. de inquilino de Microsoft, id. AAD de objeto de usuario, id. de conversación |
+| ¿Qué datos se almacenan en las bases de datos? | Correo electrónico para registrar reservas. |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 90 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | Sí |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? | Sí |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,22 +80,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls, TraditionalAntiMalware |
 | ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | Sí |
 | ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | Sí |
 | ¿El entorno tiene algún software o sistemas operativos no compatibles? | No |
 | ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | No |
-| ¿Tiene un firewall instalado en el límite de red externa? | Sí |
+| ¿Tiene un firewall instalado en el límite de red externa? | No |
 | ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Sí |
 | ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
-| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Sí |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
 | ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
@@ -108,25 +108,25 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | Sí |
-| Fecha de certificación SOC1 más reciente |  2021-09-30 |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
-| ¿Qué certificación SOC 2 ha logrado? |  type2 |
-| Fecha de certificación SOC2 más reciente |  2021-09-30 |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | Sí |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sí |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | Sí |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -139,14 +139,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://www.workday.com/en-us/privacy.html |
+| Dirección URL de la directiva de privacidad | https://www.meetingroommap.net/Home/Privacy |
 | ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,16 +157,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Sí |
 | ¿La aplicación almacena credenciales en el código? | No |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
->Esta aplicación no usa Microsoft Graph.
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+
+>|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|:------------------------|:--------------------|:------------------------------------|:--------------------|
+>| Files.ReadWrite | delegado | Archivo de configuración de aplicación de lectura y escritura (guardar el plano de planta predeterminado + locattion) | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
+>| TeamMember.Read.All | delegado | Ver reservas de otros miembros del mismo equipo. | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
+>| User.Read | delegado | Iniciar sesión y leer correo electrónico para registrar una reserva | [c9b3645e-2695-46c5-970d-e06f5c74bcfa](https://docs.microsoft.com/microsoft-365-app-certification/azure/c9b3645e-2695-46c5-970d-e06f5c74bcfa) |
 
 >Esta aplicación no tiene API adicionales.
 
