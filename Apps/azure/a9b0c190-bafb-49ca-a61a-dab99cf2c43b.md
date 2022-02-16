@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para a9b0c190-bafb-49ca-a61a-dab99cf2c43b.
-ms.openlocfilehash: 910370e974c7e1a78203d30584b890388c20832e
-ms.sourcegitcommit: 2e7d3c3ce21db674e9964db4a0b5b8794e74142f
+ms.openlocfilehash: a4e59b1e726118d2aa83e2962902c3f1cea26b63
+ms.sourcegitcommit: e43a258f089034069a6101a3290dc315725762fc
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/16/2022
-ms.locfileid: "62826858"
+ms.locfileid: "62832531"
 ---
 # <a name="azure-app-id-a9b0c190-bafb-49ca-a61a-dab99cf2c43b"></a>Id. de aplicación de Azure: a9b0c190-bafb-49ca-a61a-dab99cf2c43b
 
@@ -22,7 +22,7 @@ ms.locfileid: "62826858"
 |--------------|---------------|-----------------------|
 | [Adobe Sign Add-In para Outlook](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104381158) |  | [https://appsource.microsoft.com/product/office/WA104381158](https://appsource.microsoft.com/product/office/WA104381158) |
 | [Adobe Sign](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104381233) |  | [https://appsource.microsoft.com/product/office/WA104381233](https://appsource.microsoft.com/product/office/WA104381233) |
-| [Adobe Sign para Word y PowerPoint](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104381155) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA104381155](https://appsource.microsoft.com/product/office/WA104381155) |
+| [Adobe Sign para Word y PowerPoint](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA104381155) |  | [https://appsource.microsoft.com/product/office/WA104381155](https://appsource.microsoft.com/product/office/WA104381155) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de aplicaciones
 - Publisher estado de Attestaton: completado
