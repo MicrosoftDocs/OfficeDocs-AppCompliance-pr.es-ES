@@ -7,12 +7,12 @@ ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: a06df06866034e1e05e6c4aaa0c9c80b92d7afda
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: ecf14cb0b0d02c3fa384a131609815edb2ffe3ce
+ms.sourcegitcommit: 608dc021537f8048f85f34b86c507a6461db1d5f
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/15/2022
-ms.locfileid: "62810730"
+ms.locfileid: "62816119"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -414,7 +414,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Trivia](./springworks-hr-tech-trivia.md) | Springworks HR Tech | **✓** |  |
 | [Motor de curiosidades](./enableuc-trivia-engine.md) | HabilitarUC | **✓** |  |
 | [Trivie](./trivie-inc.md) | Trivie, Inc. | **✓** |  |
-| [Tryane Analytics](./tryane-analytics.md) | Tryane | **✓** |  |
 | [UKG Pro](./ukg-inc-pro.md) | UKG, Inc. | **✓** |  |
 | [UserVoice](./uservoice.md) | UserVoice | **✓** |  |
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
