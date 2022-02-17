@@ -2,17 +2,17 @@
 title: 'Microsoft Word seguridad y cumplimiento de aplicaciones: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/10/2022
+ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Word aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: 7740eadd8ba6ebbd23e56736ccf2725562dcc86a
-ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
+ms.openlocfilehash: b9fcddbf851ad99da87ae6f0e6a14d4e1e75c0c0
+ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513974"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62877797"
 ---
 # <a name="microsoft-word-apps-security-and-compliance"></a>Microsoft Word seguridad y cumplimiento de aplicaciones
 
@@ -20,7 +20,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Sign para Word y PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Sign para Word y PowerPoint](./adobe-inc-sign-for-word-and-powerpoint.md) | Adobe Inc. | **✓** |  |
 | [Complemento AuditBoard](./auditboard-inc-add-in.md) | Auditboard, Inc. | **✓** |  |
 | [Citasion](./citasion-llc.md) | Citasion LLC | **✓** |  |
 | [CocoFax: envío de fax fácil de &amp; proteger](./cocofax-sending-fax-made-easy-and-secure.md) | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
