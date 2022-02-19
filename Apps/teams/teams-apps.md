@@ -2,17 +2,17 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/17/2022
+ms.date: 02/18/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 3f4c805163a8cc4f8f8617b4352336687e52eef4
-ms.sourcegitcommit: 7c77f94b0b1d3033f66d473bb77554f05fa3d5b6
+ms.openlocfilehash: dc3b4ada9552df5b98449495a620d7b2cfda2ca5
+ms.sourcegitcommit: 777bb0494027ce5382c2d0cb42415910c112b56e
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 02/18/2022
-ms.locfileid: "62892121"
+ms.locfileid: "62906130"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -56,7 +56,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Beagle](./decision-point-beagle.md) | Decision Point | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
-| [Beesy](./beesapps-beesy.md) | BeesApps | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
 | [Bigfish](./breathe-india-advisors-pvt-ltd-bigfish.md) | Breathe India Advisors Pvt. Ltd. | **✓** |  |
 | [Bigger Brains eLearning](./biggerbrains-bigger-brains-elearning.md) | Biggerbrains | **✓** |  |
@@ -363,7 +362,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Standup Alice](./bao-le-duc-standup-alice.md) | Bao Le Duc | **✓** |  |
 | [Standuply](./standuply-inc.md) | Standuply Inc. | **✓** |  |
 | [Staple](./crowd-cast-ltd-staple.md) | Crowd Cast, Ltd. | **✓** |  |
-| [Starbucks](./starbucks.md) | Starbucks&#174; Empresa de café | **✓** |  |
+| [Starbucks](./starbucks.md) | Starbucks&#174; Coffee Company | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
 | [Structural](./structural-inc.md) | Structural Inc. | **✓** |  |
