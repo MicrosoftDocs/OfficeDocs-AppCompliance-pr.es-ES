@@ -2,26 +2,26 @@
 title: Información de la aplicación para contactos Pro por Witivio
 ms.author: elmalova
 author: elenamalova
-ms.date: 11/30/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Contacts Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para contacts Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d509f5b18d833135ca0683720c264e5dc164b9a0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ca10bb626f33ce2c4b5bafc618c784b46fe3e1e7
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253316"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63080264"
 ---
 # <a name="contacts-pro"></a>Contactos Pro
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 29, 2021</p>
+<p>Last updated by the developer on: March 3, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/b4f85a61-fd95-49b8-8fb3-3cb473412407" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/b4f85a61-fd95-49b8-8fb3-3cb473412407" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002804" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -38,7 +38,7 @@ Información proporcionada por Witivio a Microsoft:
 | Nombre de la compañía asociada | Witivio |
 | Sitio web de la compañía | [https://www.witivio.com](https://www.witivio.com) |
 | Términos de uso de la aplicación | [https://www.teams-pro.com/en/terms-of-use/](https://www.teams-pro.com/en/terms-of-use/) |
-| Funcionalidad principal de la aplicación | Calendar Pro es un calendario de colaboración para Microsoft Teams. Agregue calendario Pro un canal o chat para crear un calendario compartido con sus miembros. |
+| Funcionalidad principal de la aplicación | Contacts Pro es una aplicación de contacto de colaboración para Microsoft Teams. |
 | Ubicación central de la empresa | Francia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -61,7 +61,7 @@ Witivio ha proporcionado esta información sobre cómo esta aplicación recopila
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Contactos |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Irlanda |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 60 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -109,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

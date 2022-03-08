@@ -2,26 +2,26 @@
 title: Información de la aplicación para Mia por MiHCM
 ms.author: elmalova
 author: elenamalova
-ms.date: 12/20/2021
+ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Mia, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 60f642920ebe8406b6b16bcdcf940dd986962ae6
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1e8fa45f92c45f54d50ce94397eeb5a9adba49ca
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253616"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63079724"
 ---
 # <a name="mia"></a>Mia
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: September 21, 2021</p>
+<p>Last updated by the developer on: February 28, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/0b48e71e-8f46-46d8-a545-608295f000ac" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/0b48e71e-8f46-46d8-a545-608295f000ac" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002417" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -38,7 +38,7 @@ Información proporcionada por MiHCM a Microsoft:
 | Nombre de la compañía asociada | MiHCM |
 | Sitio web de la compañía | [https://mihcm.com](https://mihcm.com) |
 | Términos de uso de la aplicación | [https://mia.work/terms-of-use](https://mia.work/terms-of-use) |
-| Funcionalidad principal de la aplicación | Mia Workplace Virtual Assistant permite a su organización ofrecer un asistente virtual personalizado para todos los Microsoft Teams usuarios. Este asistente de trabajo en Microsoft Teams ayuda a su organización a aumentar la productividad, mejorar la participación de los empleados, la ejecución de una gran cantidad de solicitudes de recursos humanos, solicitudes de servicio relacionadas con el trabajo, el bienestar de la aptitud &amp; y mucho más. Mia determina la participación de los empleados, la experiencia de los empleados sin problemas para las interacciones e servicios de RRHH mundanos. |
+| Funcionalidad principal de la aplicación | Mia Workplace Virtual Assistant permite a su organización ofrecer un asistente virtual personalizado para todos los Microsoft Teams usuarios. Este asistente de trabajo en Microsoft Teams ayuda a su organización a aumentar la productividad, mejorar la participación de los empleados, la ejecución de una gran cantidad de solicitudes de recursos humanos, solicitudes de servicio relacionadas con el trabajo, &amp; el bienestar de la aptitud y mucho más. Mia determina la participación de los empleados, la experiencia de los empleados sin problemas para las interacciones e servicios de RRHH mundanos. |
 | Ubicación central de la empresa | Sri Lanka |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -61,7 +61,7 @@ MiHCM ha proporcionado esta información sobre cómo esta aplicación recopila y
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Eventos de calendario de usuario, zona horaria de usuario |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Singapur |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -117,14 +117,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -157,9 +157,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | La aplicación se federa con Azure AD, por lo que se pueden usar todas las reglas de acceso condicional. |

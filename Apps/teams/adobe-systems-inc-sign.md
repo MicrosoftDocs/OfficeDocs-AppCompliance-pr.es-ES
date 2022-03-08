@@ -2,26 +2,25 @@
 title: Información de la aplicación para Adobe Sign de Adobe Systems Inc.
 ms.author: elmalova
 author: elenamalova
-ms.date: 10/20/2021
+ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+certification_type: certified
+description: Toda la información de seguridad y cumplimiento disponible para Adobe Sign, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 66e3f4dffea6977df983492942fc4ebbfafc4104
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 767df9d0511187e01f2bad299f9c935c8fa5f7e2
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264558"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63079514"
 ---
 # <a name="adobe-sign"></a>Adobe Sign
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: October 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/0f56a9d1-f502-40f9-a9e8-816d7adbb68b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381233" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -153,7 +152,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

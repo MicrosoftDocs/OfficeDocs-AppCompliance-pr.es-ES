@@ -2,26 +2,26 @@
 title: Información de la aplicación para Casedoc Virtual Hearing by Casedoc
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/24/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Casedoc Virtual Hearing, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 07119c707f97b9e1c47beaf49a0977cbdfb727fb
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7235bc36a986a6ff254525d130f5fbd77ef7e0ac
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253856"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63078064"
 ---
 # <a name="casedoc-virtual-hearing"></a>Casedoc Virtual Hearing
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: November 17, 2021</p>
+<p>Last updated by the developer on: March 7, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/3e701664-cc46-49e4-b356-1a7ac6500998" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/3e701664-cc46-49e4-b356-1a7ac6500998" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003164" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -106,7 +106,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -121,10 +121,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -141,10 +141,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | N/D |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | No aplicable |
 | ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No aplicable |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No aplicable |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | N/D |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,9 +154,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |

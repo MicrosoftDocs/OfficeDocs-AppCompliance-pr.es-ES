@@ -2,17 +2,17 @@
 title: Azure App ID Information for 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 ms.author: elmalova
 author: elenamalova
-ms.date: 02/18/2022
+ms.date: 03/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: ed357f8baf9a4e0e549c61abdeac754446e9a0dd
-ms.sourcegitcommit: 777bb0494027ce5382c2d0cb42415910c112b56e
+ms.openlocfilehash: 5c632aa268af3c6493f106e7b70a3afce5620cc5
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62903747"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63076994"
 ---
 # <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>Identificador de aplicación de Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
@@ -22,5 +22,5 @@ ms.locfileid: "62903747"
 |--------------|---------------|-----------------------|
 | [InCaseIT](https://docs.microsoft.com/microsoft-365-app-certification/forward/WA200003265) |  | [https://appsource.microsoft.com/product/office/WA200003265](https://appsource.microsoft.com/product/office/WA200003265) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de aplicaciones
-- Publisher estado de Attestaton: completado
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de la aplicación
+- Publisher estado de Attestaton: Completado

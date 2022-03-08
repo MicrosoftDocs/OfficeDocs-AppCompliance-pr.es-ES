@@ -1,33 +1,32 @@
 ---
-title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Outlook: todas las aplicaciones'
+title: 'Seguridad y cumplimiento Outlook aplicaciones de Microsoft: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 01/27/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
 localization_priority: Normal
-ms.openlocfilehash: 86006b608edc098b9c7e3abbcf49bfde1f89863f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5f6ff668bfcedb253042f02b965eb1eb75b7209b
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251346"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63078604"
 ---
-# <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento Outlook aplicaciones de Microsoft
+# <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones de Microsoft Outlook
 
 Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y los complementos de Microsoft Outlook que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Sign Add-In para Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** |  |
+| [Adobe Sign Add-In para Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Vídeos de Altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendarios de contactos aprobados](./approved-contact-calendars.md) | Contacto aprobado | **✓** |  |
 | [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Commuty](./commuty.md) | Commuty | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
-| [harmon.ie para Outlook](./harmonie-corporation-for-outlook.md) | harmon.ie Corporation | **✓** |  |
 | [Firmas de impresión para Outlook](./impression-signatures-for-outlook.md) | Firmas de impresión | **✓** |  |
 | [Complemento Office 365 Planner de iPlanner para Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

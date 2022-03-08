@@ -6,21 +6,21 @@ ms.date: 01/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: 'Toda la información de seguridad y cumplimiento disponible para O2S: Office2SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: df1f13622c1eb320175bb27e59ad7be5d704f6a0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+description: 'Toda la información de seguridad y cumplimiento disponible para O2S: Office2SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 16ad82f70ea0765da6910cc5073bb4dbdfc1cd00
+ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251116"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63075514"
 ---
 # <a name="o2s---office2sharepoint"></a>O2S - Office2SharePoint
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Last updated by the developer on: January 14, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/281db76e-2714-4cc4-b8d8-bd87ac3190af" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/281db76e-2714-4cc4-b8d8-bd87ac3190af" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003656" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -122,7 +122,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | Sí |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | Sí |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -154,7 +154,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -179,43 +179,6 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >| User.Read | delegado | Para obtener los usuarios SharePoint sitio, OneDrive y Sitios de grupo. | [5971c986-9d39-409c-a6f8-1385b1f690ef](https://docs.microsoft.com/microsoft-365-app-certification/azure/5971c986-9d39-409c-a6f8-1385b1f690ef) |
 
 >Esta aplicación no tiene API adicionales.
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
-
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Información de certificación
-
-| **Control** | **Microsoft 365 de certificación** |
-|:------------|:---------------------------------------|
-| [**SEGURIDAD DE LA APLICACIÓN**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidad (DAST/SAST/Prueba de penetración) | N/D |
-| [**SEGURIDAD OPERATIVA**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#operational-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: revisión | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Análisis de vulnerabilidades | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAFs) (opcional) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control De cambios | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desarrollo e implementación de software seguro | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (datos de registro) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | No aplicable |
-| [**PRIVACIDAD DE SEGURIDAD DE CONTROL DE &amp; DATOS**](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification-submission-guide#data-handling-security-and-privacy) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | No aplicable |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de acceso a datos | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
