@@ -2,17 +2,18 @@
 title: 'Azure App IDs Security and Compliance: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.date: 03/07/2022
+ms.manager: tonybal
+ms.date: 03/09/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todos los IDs de aplicación de Azure.
 localization_priority: Normal
-ms.openlocfilehash: 93b3c7fa89d8832045e86ea4fa663ec789152cd3
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: f2c0c8674c88b6119eeb8311768b122bb8a2427b
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076354"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63424838"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Azure App IDs Security and Compliance
 
