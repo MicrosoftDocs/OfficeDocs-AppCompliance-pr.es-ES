@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Streem, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a46f768877115fc10aec39a683ca630600623f73
-ms.sourcegitcommit: c7d072ca68760947ef4d531b740550b3236c3c94
+ms.openlocfilehash: 7a51d9881df2405737276cf50478a70456e0c5ba
+ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62513094"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63421588"
 ---
 # <a name="streem"></a>Streem
 
@@ -21,7 +21,7 @@ ms.locfileid: "62513094"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: February 8, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/608c5480-b3aa-4a0f-8f26-b97715313f4a" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/608c5480-b3aa-4a0f-8f26-b97715313f4a" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000197" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -38,7 +38,7 @@ Información proporcionada por Streem a Microsoft:
 | Nombre de la compañía asociada | Streem |
 | Sitio web de la compañía | [https://www.streem.com.au](https://www.streem.com.au) |
 | Términos de uso de la aplicación | [https://www.streem.com.au/terms](https://www.streem.com.au/terms) |
-| Funcionalidad principal de la aplicación | Streem proporciona servicios de supervisión de medios en tiempo real mediante la recopilación y el análisis de contenido de fuentes impresas, en línea, de televisión, de radio y redes sociales en Australia y Nueva Zelanda. Cada nuevo elemento de contenido se combina con palabras clave que los clientes le importan y las alertas e informes relevantes se envían por correo electrónico, &amp; aplicaciones de escritorio móviles o integración con Slack y Microsoft Teams. |
+| Funcionalidad principal de la aplicación | Streem proporciona servicios de supervisión de medios en tiempo real mediante la recopilación y el análisis de contenido de fuentes impresas, en línea, de televisión, de radio y redes sociales en Australia y Nueva Zelanda. Cada nuevo elemento de contenido se combina con las palabras clave que a los clientes les importan y las alertas e informes relevantes se envían por correo electrónico, &amp; aplicaciones de escritorio móviles o integración con Slack y Microsoft Teams. |
 | Ubicación central de la empresa | Australia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -57,14 +57,7 @@ Esta información ha sido proporcionada por Streem acerca de cómo esta aplicaci
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +99,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -117,11 +110,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | No aplicable |
@@ -154,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
