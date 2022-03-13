@@ -2,18 +2,18 @@
 title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
-ms.manager: tonybal
-ms.date: 03/09/2022
+manager: tonybal
+ms.date: 03/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 32cb2f9861d24964e4ec959c7f42be93ac6164b4
-ms.sourcegitcommit: 0bd8c5bf11934d14ea75ec30388534345dcb02a5
+ms.openlocfilehash: 1ecaf898df69efbd0cc2dcd7b1abbceb9e7f1cb5
+ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63421538"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "63458213"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -60,6 +60,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
 | [Berrycast](./technologies-openmind-inc-les-berrycast.md) | Technologies Openmind Inc, Les | **✓** |  |
+| [BGA Notify](./honeywell-bga-notify.md) | Honeywell | **✓** |  |
 | [Bigfish](./breathe-india-advisors-pvt-ltd-bigfish.md) | Breathe India Advisors Pvt. Ltd. | **✓** |  |
 | [Bigger Brains eLearning](./biggerbrains-bigger-brains-elearning.md) | Biggerbrains | **✓** |  |
 | [Biz-Oin](./suzuyo-shinwart-corporation-biz-oin.md) | SUZUYO Shinwart Corporation | **✓** |  |
@@ -145,6 +146,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Recomendaciones de empleados](./recruitday-inc-employee-referrals.md)  | Recruitday Inc. | **✓** |  |
 | [Administración de formación de empleados](./sharepointsapiens-employee-training-management.md) | SharePoint-Sapiens | **✓** |  |
 | [Empuls](./empuls.md) | Empuls | **✓** |  |
+| [ENA SmartUC Connector](./ena-smartuc-connector.md) | ENA | **✓** |  |
 | [Enboarder](./enboarder.md) | Enboarder | **✓** |  |
 | [Engagedly](./engagedly-inc.md) | Engagedly Inc | **✓** |  |
 | [EngageWith](./springrole-engagewith.md) | SpringRole | **✓** |  |
@@ -343,6 +345,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [SEFOS](./meaplus-ab-sefos.md) | Meaplus AB | **✓** |  |
 | [SelfDrvn](./selfdrvn.md) | SelfDrvn | **✓** |  |
 | [Senso](./senso.md) | Senso | **✓** |  |
+| [ServiceDesk Plus Cloud](./zoho-corporation-private-limited-servicedesk-plus-cloud.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Shared Thread por WNI](./wni-shared-thread-by.md) | WNI | **✓** |  |
 | [SHL](./shl.md) | SHL | **✓** |  |
 | [SightCall](./sightcall.md) | SightCall | **✓** |  |
