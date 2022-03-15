@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/11/2022
+ms.date: 03/12/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 1ecaf898df69efbd0cc2dcd7b1abbceb9e7f1cb5
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: b9890e93905f5ca027fd5c5cdd257f209e7268eb
+ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63458213"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "63467956"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -25,6 +25,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [365-QA](./advantive-365-qa.md) | Advantive | **✓** |  |
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [8x8](./8x8-inc.md) | 8x8, Inc. | **✓** |  |
+| [absentify](./braincore-solutions-gmbh-absentify.md) | BrainCore Solutions GmbH | **✓** |  |
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
 | [Adobe Acrobat](./adobe-systems-inc-acrobat.md) | Adobe Systems Inc. | **✓** |  |
 | [Adobe Sign](./adobe-systems-inc-sign.md) | Adobe Systems Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -131,7 +132,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
-| [Grabación de llamada unificada Nubber](./dubber-unified-call-recording.md) | Torero | **✓** |  |
+| [Grabación de la llamada unificada Dubber](./dubber-unified-call-recording.md) | Torero | **✓** |  |
 | [Easy Projects](./logic-software-inc-easy-projects.md) | Logic Software Inc. | **✓** |  |
 | [EasyLife 365](./easylife-365-ag.md) | EasyLife 365 AG | **✓** |  |
 | [eCademy Lernplattform](./cornelsen-ecademy-and-inside-gmbh-lernplattform.md) | Cornelsen eCademy &amp; inside GmbH | **✓** |  |
@@ -213,6 +214,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Jabber](./cisco-jabber.md) | Cisco | **✓** |  |
 | [Jetdocs](./jetdocs.md) | Jetdocs | **✓** |  |
 | [Jira Cloud](./atlassian-jira-cloud.md) | Atlassian | **✓** |  |
+| [Jira Integration Plus](./nextup-llc-jira-integration-plus.md) | Nextup, LLC | **✓** |  |
 | [JobPts](./semos-cloud-soultions-jobpts.md) | Semos Cloud Soultions | **✓** |  |
 | [Kakeai](./kakeai.md) | KAKEAI | **✓** |  |
 | [Kanban Tool](./shore-labs-kanban-tool.md) | Shore Labs | **✓** |  |
@@ -365,6 +367,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Sobol](./consensys-ags-sobol.md) | ConsenSys AG&#8217;s Sobol | **✓** |  |
 | [Sociabble](./sociabble.md) | Sociabble | **✓** |  |
 | [Social Advocacy](./oktopost-social-advocacy.md) | Oktopost | **✓** |  |
+| [Solo](./teladoc-inc-solo.md) | Teladoc, Inc. | **✓** |  |
 | [Spatial Standup](./high-fidelity-inc-spatial-standup.md) | High Fidelity Inc | **✓** |  |
 | [SQQ](./superquickquestion-sqq.md) | SuperQuickQuestion | **✓** |  |
 | [StaffCircle](./staffcircle.md) | StaffCircle | **✓** |  |
@@ -372,6 +375,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Standuply](./standuply-inc.md) | Standuply Inc. | **✓** |  |
 | [Staple](./crowd-cast-ltd-staple.md) | Crowd Cast, Ltd. | **✓** |  |
 | [Starbucks](./starbucks.md) | Starbucks&#174; Coffee Company | **✓** |  |
+| [Startgrid](./startgrid.md) | Startgrid | **✓** |  |
 | [StealthMail](./stealthmail-software-ltd.md) | Stealthmail Software Ltd | **✓** |  |
 | [Streem](./streem.md) | Streem | **✓** |  |
 | [Structural](./structural-inc.md) | Structural Inc. | **✓** |  |
@@ -432,6 +436,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Vacation Tracker](./vacation-tracker.md) | Vacation Tracker | **✓** |  |
 | [Verto 365](./tmi-systems-verto-365.md) | Sistemas TMI | **✓** |  |
 | [Vibe](./vibe-inc.md) | Vibe Inc | **✓** |  |
+| [vimheslo](./european-code-factory-sro-vimheslo.md) | European Code Factory s.r.o. | **✓** |  |
 | [VisualSP](./visualsp.md) | VisualSP | **✓** |  |
 | [Vizito](./vizito-bv.md) | Vizito BV | **✓** |  |
 | [Vocean](./vocean-ab.md) | Vocean AB | **✓** |  |
