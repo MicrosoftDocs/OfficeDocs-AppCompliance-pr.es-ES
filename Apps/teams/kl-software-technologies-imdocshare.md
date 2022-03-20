@@ -2,18 +2,19 @@
 title: Información de la aplicación para imDocShare por TECNOLOGÍAS de software DE KL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para imDocShare, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 83797849818681d5dd3c1c6156659a3937c5dadb
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: e6b583055dfa765cf77cba3cc86bb3a057060ba4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148269"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536428"
 ---
 # <a name="imdocshare"></a>imDocShare
 
@@ -21,7 +22,7 @@ ms.locfileid: "62148269"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 24, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c817ecec-e67e-4b32-aca1-192989539b2d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/c817ecec-e67e-4b32-aca1-192989539b2d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002156" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por TECNOLOGÍAS DE SOFTWARE DE KL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | imDocShare |
-| Id. | WA200002156 |
+| ID | WA200002156 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | KL Software Technologies |
 | Sitio web de la compañía | [https://www.imdocshare.com](https://www.imdocshare.com) |
 | Términos de uso de la aplicación | [https://www.imdocshare.com/eula](https://www.imdocshare.com/eula) |
-| Funcionalidad principal de la aplicación | La aplicación Teams imDocShare permite a los usuarios ver el contenido de iManage de edición &amp; en Microsoft Teams |
+| Funcionalidad principal de la aplicación | La aplicación Teams imDocShare permite a los usuarios ver &amp; editar contenido de iManage en Microsoft Teams |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.imdocshare.com](https://www.imdocshare.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -59,14 +60,7 @@ Esta información ha sido proporcionada por KIT Software Technologies sobre cóm
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -108,9 +102,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -125,7 +119,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +151,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

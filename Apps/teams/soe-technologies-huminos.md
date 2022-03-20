@@ -2,18 +2,19 @@
 title: Información de aplicaciones para huminos de SOE Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para los huminos, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para los huminos, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8586f417df16a0ae41c246dea922a72a2ed7db2e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 30dbce16045e879e99bd888812aed7eab4116572
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264640"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539806"
 ---
 # <a name="huminos"></a>huminos
 
@@ -21,7 +22,7 @@ ms.locfileid: "62264640"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 18, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c0b70874-2c95-4be7-a0cb-0d893e25a2a3" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/c0b70874-2c95-4be7-a0cb-0d893e25a2a3" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003308" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por SOE Technologies a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | huminos |
-| Id. | WA200003308 |
+| ID | WA200003308 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SOE Technologies |
 | Sitio web de la compañía | [https://www.myokr.co](https://www.myokr.co) |
 | Términos de uso de la aplicación | [https://www.myokr.co/terms](https://www.myokr.co/terms) |
 | Funcionalidad principal de la aplicación | Acelerar el rendimiento |
 | Ubicación central de la empresa | India |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.myokr.co](https://www.myokr.co) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ SOE Technologies ha proporcionado esta información sobre cómo esta aplicación
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,11 +161,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegado | Obtener detalles del calendario de usuario para crear una reunión 1:1 en el calendario de usuario, actualizar o eliminar creada por la plataforma myOKR y mostrar franjas horarias libres | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read | delegado | Usamos el id. de objeto de azure del usuario para hacer que el usuario inicie sesión en la aplicación myOKR con la autenticación de Microsoft en el correo electrónico | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| User.Read.All | aplicación | Sincronice la información de usuario con la plataforma myOKR y muestre el análisis de aplicaciones de myOKR al administrador en función de varios recortes de usuario, como la ubicación, el jefe de &amp; departamento | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| offline_access | delegado | Id. de usuario de Azure Active Directory | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
->| OpenID | delegado | Usamos el id. de objeto de azure del usuario para hacer que el usuario inicie sesión en la aplicación myOKR con la autenticación de Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](https://docs.microsoft.com/microsoft-365-app-certification/azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e) |
+>| Calendars.ReadWrite | delegado | Obtener detalles del calendario de usuario para crear una reunión 1:1 en el calendario de usuario, actualizar o eliminar creada por la plataforma myOKR y mostrar franjas horarias libres | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read | delegado | Usamos el id. de objeto de azure del usuario para hacer que el usuario inicie sesión en la aplicación myOKR con la autenticación de Microsoft en el correo electrónico | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| User.Read.All | aplicación | Sincronice la información de usuario con la plataforma myOKR y muestre el análisis de aplicaciones de myOKR al administrador en función de varios recortes de usuario, como la ubicación, el jefe de &amp; departamento | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| offline_access | delegado | Id. de usuario de Azure Active Directory | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
+>| OpenID | delegado | Usamos el id. de objeto de azure del usuario para hacer que el usuario inicie sesión en la aplicación myOKR con la autenticación de Microsoft | [5f5ab403-96ae-46a9-b78e-a06d60cc9e4e](../azure/5f5ab403-96ae-46a9-b78e-a06d60cc9e4e.md) |
 
 >Esta aplicación no tiene API adicionales.
 

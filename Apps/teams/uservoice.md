@@ -2,18 +2,19 @@
 title: Información de la aplicación para UserVoice por UserVoice
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para UserVoice, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bd111f179e86db55c0d4eb08731e60854fcc273f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0abf55a4dbed692837abab9beaa3ef01426b9991
+ms.sourcegitcommit: 6f2370c0eb79cc4acc9b53b2215b7a61c2ab30d6
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252084"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63563697"
 ---
 # <a name="uservoice"></a>UserVoice
 
@@ -21,7 +22,7 @@ ms.locfileid: "62252084"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 14, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1a2efc96-5f06-4b76-ad90-00ce6c1ac74d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/1a2efc96-5f06-4b76-ad90-00ce6c1ac74d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001944" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por UserVoice a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | UserVoice |
-| Id. | WA200001944 |
+| ID | WA200001944 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | UserVoice |
-| Sitio web de la compañía | [https://www.uservoice.com](https://www.uservoice.com) |
-| Términos de uso de la aplicación | [https://www.uservoice.com/tos](https://www.uservoice.com/tos) |
+| Sitio web de la compañía | N/D |
+| Términos de uso de la aplicación | No aplicable |
 | Funcionalidad principal de la aplicación | Obtén actualizaciones en tiempo real en el programa de comentarios del producto en Microsoft Teams. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | N/D |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ UserVoice ha proporcionado esta información sobre cómo esta aplicación recopi
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

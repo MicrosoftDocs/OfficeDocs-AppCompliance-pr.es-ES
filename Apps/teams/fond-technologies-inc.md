@@ -2,18 +2,19 @@
 title: Información de aplicación para Fond de Fond Technologies, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/04/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Fond, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Fond, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3c2e40a9b2c35cade0dcb3e3eb551a0de4b541a1
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: a161c87d59eb0e920d0bfd4f5b7a88f9d2ef863a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148459"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538158"
 ---
 # <a name="fond"></a>Fond
 
@@ -21,7 +22,7 @@ ms.locfileid: "62148459"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d25d7cc9-0a7e-41e2-ad98-f446141a8ffa" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/d25d7cc9-0a7e-41e2-ad98-f446141a8ffa" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003631" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Fond Technologies, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Fond |
-| Id. | WA200003631 |
+| ID | WA200003631 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Fond Technologies, Inc. |
 | Sitio web de la compañía | [https://fond.co](https://fond.co) |
 | Términos de uso de la aplicación | [https://www.fond.co/tos/](https://www.fond.co/tos/) |
 | Funcionalidad principal de la aplicación | Celebra los logros de tus compañeros de trabajo con Fond |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://fond.co/products/features/fond-teams-integration/](https://fond.co/products/features/fond-teams-integration/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -125,7 +126,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | Sí |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

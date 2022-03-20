@@ -2,18 +2,19 @@
 title: Información de la aplicación para Perflo por Perflo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Perflo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 851efa60442588759acde6ac3e4aad300283583e
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 91e4adc3b416836af149a59fa1e205d7c2e7ffd2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081550"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553309"
 ---
 # <a name="perflo"></a>Perflo
 
@@ -33,14 +34,14 @@ Información proporcionada por Perflo a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Perflo |
-| Id. | WA200003721 |
+| ID | WA200003721 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Perflo |
 | Sitio web de la compañía | [https://www.perflo.co](https://www.perflo.co) |
 | Términos de uso de la aplicación | [https://www.perflo.co/terms](https://www.perflo.co/terms) |
 | Funcionalidad principal de la aplicación | Enviar micro encuestas a equipos y producir informes para los administradores. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.perflo.co](https://www.perflo.co) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Híbrido |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws, Azure |
 
@@ -61,7 +62,7 @@ Perflo ha proporcionado esta información sobre cómo esta aplicación recopila 
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Canales, Teams, nombre de perfil de usuario, imágenes de perfil, MS Teams id. |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Irlanda |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -109,7 +110,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
@@ -124,8 +125,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para conmutación por conmutación
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Commuty, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5ae0d84f8d8f1c83926be78eb22122f3589f3d30
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a09d4d7a17fe0a4d9cf5c200592c75e8715c60c6
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251356"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538358"
 ---
 # <a name="commuty"></a>Commuty
 
@@ -32,15 +33,16 @@ Información proporcionada por Commuty a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Commuty |
-| Id. | WA200003325 |
+| ID | WA200003325 |
 | Office 365 clientes compatibles | Outlook 2016 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | Commuty |
 | Sitio web de la compañía | [https://www.commuty.net](https://www.commuty.net) |
 | Términos de uso de la aplicación | [https://support.commuty.net/article/32-terms-conditions](https://support.commuty.net/article/32-terms-conditions) |
-| Funcionalidad principal de la aplicación | Optimice a los empleados&#8217; los desplazamientos facilitan nuevas formas de trabajo &amp; (estacionamiento, movilidad, reserva). |
+| Funcionalidad principal de la aplicación | Optimice los&#8217; los desplazamientos &amp; para facilitar nuevas formas de trabajo (estacionamiento, movilidad, reserva). |
 | Ubicación central de la empresa | Bélgica |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.commuty.net](https://www.commuty.net) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Commuty ha proporcionado esta información sobre cómo esta aplicación recopila
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,8 +99,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -152,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -165,11 +160,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegado | Eventos de calendario | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| correo electrónico | delegado | Dirección de correo electrónico | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| offline_access | delegado | No aplicable | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| OpenID | delegado | Autenticación | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
->| perfil | delegado | Identidad | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](https://docs.microsoft.com/microsoft-365-app-certification/azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0) |
+>| Calendars.ReadWrite | delegado | Eventos de calendario | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| correo electrónico | delegado | DN canónico | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| offline_access | delegado | N/D | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| OpenID | delegado | Autenticación | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
+>| perfil | delegado | Identidad | [7c90e3d4-5233-4e49-8753-36cd5feb7fa0](../azure/7c90e3d4-5233-4e49-8753-36cd5feb7fa0.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para POPP Cloud VoIP Connector de POPP Communications
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para POPP Cloud VoIP Connector, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 500cfe209fd6b11281f786d23d351c1c06493452
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e340bbfadf05d9c204ae5766a631265804e11c33
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264751"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553079"
 ---
 # <a name="popp-cloud-voip-connector"></a>Conector de voz sobre IP (VoIP) en la nube de POPP
 
@@ -21,7 +22,7 @@ ms.locfileid: "62264751"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 20, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b8e57f6b-31cf-468e-9e99-81f0395cb1f9" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/b8e57f6b-31cf-468e-9e99-81f0395cb1f9" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003306" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por POPP Communications a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Conector de voz sobre IP (VoIP) en la nube de POPP |
-| Id. | WA200003306 |
+| ID | WA200003306 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Comunicaciones de POPP |
 | Sitio web de la compañía | [https://popp.com](https://popp.com) |
@@ -42,6 +43,7 @@ Información proporcionada por POPP Communications a Microsoft:
 | Ubicación central de la empresa | Estados Unidos de América |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ POPP Communications ha proporcionado esta información sobre cómo esta aplicaci
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,8 +100,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -121,7 +116,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -167,11 +162,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.Read.All | delegado | Id. de usuario y nombres para mostrar de los miembros del canal actual. La aplicación lo usa para presentar al usuario una lista de miembros del canal a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| Chat.Read | delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Id. de usuario y nombres para mostrar de los miembros del chat actual. La aplicación lo usa para presentar al usuario una lista de miembros de chat a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| TeamMember.Read.All | delegado | Id. de usuario y nombres para mostrar de los miembros del equipo actual. La aplicación lo usa para presentar al usuario una lista de miembros del equipo a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| User.Read.All | delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Los números de teléfono móvil y de empresa de los usuarios. Esto es necesario para que se puedan iniciar las llamadas telefónicas a estos números. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
->| OpenID | delegado | Un token de autorización para el usuario, que autoriza a la aplicación a tener acceso a los demás puntos de conexión de la API Graph en su nombre. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](https://docs.microsoft.com/microsoft-365-app-certification/azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9) |
+>| ChannelMember.Read.All | delegado | Id. de usuario y nombres para mostrar de los miembros del canal actual. La aplicación lo usa para presentar al usuario una lista de miembros del canal a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| Chat.Read | delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Id. de usuario y nombres para mostrar de los miembros del chat actual. La aplicación lo usa para presentar al usuario una lista de miembros de chat a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| TeamMember.Read.All | delegado | Id. de usuario y nombres para mostrar de los miembros del equipo actual. La aplicación lo usa para presentar al usuario una lista de miembros del equipo a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| User.Read.All | delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Los números de teléfono móvil y de empresa de los usuarios. Esto es necesario para que se puedan iniciar las llamadas telefónicas a estos números. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| OpenID | delegado | Un token de autorización para el usuario, que autoriza a la aplicación a tener acceso a los demás puntos de conexión de la API Graph en su nombre. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de aplicaciones para NewCOS de Newtech
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para NewCOS, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b2e8ddbb3f8367babe739e5c594bddb2e1be6cd7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 79af71d34d1cf31eee39bcd2d6029ad1a53bfc7a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260516"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539986"
 ---
 # <a name="newcos"></a>NewCOS
 
@@ -21,7 +22,7 @@ ms.locfileid: "62260516"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/205214d0-e04b-11e9-9332-5b5c97b60069" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/205214d0-e04b-11e9-9332-5b5c97b60069" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001104" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Newtech a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | NewCOS |
-| Id. | WA200001104 |
+| ID | WA200001104 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Newtech |
 | Sitio web de la compañía | [https://newtech.com.ar](https://newtech.com.ar) |
 | Términos de uso de la aplicación | [https://newtech.com.ar/termsofservice](https://newtech.com.ar/termsofservice) |
 | Funcionalidad principal de la aplicación | Implemente una solución de comunicaciones inteligentes de forma rápida, sencilla y en modo de servicio. La plataforma NewCOS le permite ejecutar, administrar, supervisar y admitir la instalación de forma rápida, sencilla y sin intervención de TI.  Vamos con usted para que el proceso de adopción de la tecnología sea correcto. Facilitamos la adaptación de los cambios en las áreas de trabajo de colaboración actuales. Mediante la adopción de Microsoft 365 podemos acelerar el proceso de transformación digital en su organización.  |
 | Ubicación central de la empresa | Argentina |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://N.A](https://N.A) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Newtech ha proporcionado esta información sobre cómo esta aplicación recopila
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,8 +161,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| perfil | ambos | Estos datos se usan para la autenticación en permisos de aplicación | [07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e](https://docs.microsoft.com/microsoft-365-app-certification/azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e) |
->| OpenID | ambos | Microsoft Teams, para informar y gobierno | [ea4de024-dd5f-4d3e-a092-3b8de6c64200](https://docs.microsoft.com/microsoft-365-app-certification/azure/ea4de024-dd5f-4d3e-a092-3b8de6c64200) |
+>| perfil | ambos | Estos datos se usan para la autenticación en permisos de aplicación | [07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e](../azure/07d4a8e0-3d1d-4f70-bdc2-f46593d7fa0e.md) |
+>| OpenID | ambos | Microsoft Teams, para informar y gobierno | [ea4de024-dd5f-4d3e-a092-3b8de6c64200](../azure/ea4de024-dd5f-4d3e-a092-3b8de6c64200.md) |
 
 >Esta aplicación no tiene API adicionales.
 

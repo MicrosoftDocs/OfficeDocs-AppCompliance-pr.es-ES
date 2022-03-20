@@ -1,19 +1,20 @@
 ---
-title: Información de la aplicación para lugares ti8m por ti &amp; m AG
+title: Información de la aplicación para las posiciones ti8m de tim&amp; AG
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para los lugares de ti8m, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para lugares de ti8m, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2ff48ba9152bf5a01772cf4879b86241635286a7
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 51367b8624e5a79d139d20a740cea8ae69f8f788
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252086"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539740"
 ---
 # <a name="ti8m-places"></a>lugares de ti8m
 
@@ -21,27 +22,28 @@ ms.locfileid: "62252086"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/9e384ce2-2db2-412e-8da7-08c5cf4c418e" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/9e384ce2-2db2-412e-8da7-08c5cf4c418e" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003311" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por ti &amp; m AG a Microsoft:
+Información proporcionada por tim&amp; AG a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | lugares de ti8m |
-| Id. | WA200003311 |
+| ID | WA200003311 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ti &amp; m AG |
 | Sitio web de la compañía | [https://www.ti8m.com/places](https://www.ti8m.com/places) |
 | Términos de uso de la aplicación | [https://ti8m.com/products/places/places-nutzungsbedingungen](https://ti8m.com/products/places/places-nutzungsbedingungen) |
 | Funcionalidad principal de la aplicación | Places es una aplicación para reservar lugares de trabajo en una configuración híbrida del lugar de trabajo. Ofrecemos reservas en mapas o en una vista basada en calendario. La aplicación está totalmente integrada en Microsoft Teams y usa toda la autenticación basada en Servicios de Microsoft. |
 | Ubicación central de la empresa | Suiza |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.ti8m.ch/places](https://www.ti8m.ch/places) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,19 +53,12 @@ Información proporcionada por ti &amp; m AG a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Ti m AG ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que &amp; recopila la aplicación.
+&amp;Tim AG ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en 3months |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +100,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,10 +161,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite.Shared | delegado | Cancelar eventos en calendarios de usuarios y lugares de trabajo  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Directory.ReadWrite.All | delegado | Instalación y creación de grupos de AAD administrativos: grupos de seguridad  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| Place.ReadWrite.All | delegado | Lista de lugares de trabajo y nombres de mapa  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
->| User.Read | delegado | Nombre de usuario, correo electrónico y displayname, necesarios para mostrar los datos de usuario en la aplicación | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](https://docs.microsoft.com/microsoft-365-app-certification/azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38) |
+>| Calendars.ReadWrite.Shared | delegado | Cancelar eventos en calendarios de usuarios y lugares de trabajo  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| Directory.ReadWrite.All | delegado | Instalación y creación de grupos AAD administrativos: grupos de seguridad  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| Place.ReadWrite.All | delegado | Lista de lugares de trabajo y nombres de mapa  | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
+>| User.Read | delegado | Nombre de usuario, correo electrónico y displayname, necesarios para mostrar los datos de usuario en la aplicación | [43134ae0-301f-4762-b7a9-aa9f2ff77b38](../azure/43134ae0-301f-4762-b7a9-aa9f2ff77b38.md) |
 
 >Esta aplicación no tiene API adicionales.
 

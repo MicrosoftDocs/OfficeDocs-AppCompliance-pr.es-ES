@@ -2,18 +2,19 @@
 title: Información de la aplicación para entrada y salida sencilla de Simply Made Apps, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/27/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para entrada y salida simple, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 444c1d4ae9f7a28c9fadf890e00bec478f09cb3b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a8b02c5315ec3a5dabaef1b61880ea469eef8f08
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254676"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536378"
 ---
 # <a name="simple-inout"></a>Simple In/Out
 
@@ -21,7 +22,7 @@ ms.locfileid: "62254676"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 27, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/fcc850f5-c210-45a2-9576-4ca4e34b6d09" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/fcc850f5-c210-45a2-9576-4ca4e34b6d09" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382084" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Simply Made Apps, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Simple In/Out |
-| Id. | WA104382084 |
+| ID | WA104382084 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Simply Made Apps, Inc. |
 | Sitio web de la compañía | [https://www.simpleinout.com](https://www.simpleinout.com) |
 | Términos de uso de la aplicación | [https://www.simpleinout.com/legal/terms](https://www.simpleinout.com/legal/terms) |
 | Funcionalidad principal de la aplicación | Un tablero de entrada y salida que siempre está actualizado. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://simpleinout.helpscoutdocs.com/article/262-microsoft...](https://simpleinout.helpscoutdocs.com/article/262-microsoft-teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -57,14 +58,7 @@ Simply Made Apps, Inc. proporciona esta información sobre cómo esta aplicació
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +149,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

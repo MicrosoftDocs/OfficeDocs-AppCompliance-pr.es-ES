@@ -2,18 +2,19 @@
 title: Información de la aplicación para Plumm por Plumm Health LTD
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Plumm, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6ba4a1853102f77129d740418b81f9de67146da0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f46060403be7542e485ca78cbbd3022bef51506e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255603"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538038"
 ---
 # <a name="plumm"></a>Plumm
 
@@ -21,7 +22,7 @@ ms.locfileid: "62255603"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 18, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d66da813-3337-4f88-8e08-f01c0bbb8f34" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/d66da813-3337-4f88-8e08-f01c0bbb8f34" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003326" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Plumm Health LTD a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Plumm |
-| Id. | WA200003326 |
+| ID | WA200003326 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Plumm Health LTD |
 | Sitio web de la compañía | [https://www.plummhealth.com](https://www.plummhealth.com) |
 | Términos de uso de la aplicación | [https://www.plummhealth.com/terms-of-use](https://www.plummhealth.com/terms-of-use) |
 | Funcionalidad principal de la aplicación | Plumm proporciona a los empleados el soporte que necesitan para su bienestar mental. Cada miembro de Plumm tiene acceso al soporte de salud mental de alta calidad con una red global de más de 150 terapistas acreditados, una biblioteca digital de cursos de bienestar dirigidos por el terapista, tratamientos de chat y mediaciones &#8211; todo en un solo lugar. Los usuarios pueden conectarse con los terapistas para la videoterapeuta en línea 1:1 o chatear con ellos en privado sobre sus requisitos. Los cursos y las meditaciones en línea dirigidos por el terapista proporcionan soporte de autosufición. |
 | Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.plummhealth.com/about-us](https://www.plummhealth.com/about-us) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Plumm Health LTD ha proporcionado esta información sobre cómo esta aplicación
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | Sí |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,13 +161,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | aplicación | Usamos el userID en este permiso. Esto se usa para enviar notificaciones de requisitos al usuario en función de su uso de nuestro servicio. Esto es importante para que el usuario reciba las notificaciones adecuadas para su cuenta en nuestra aplicación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Recibimos el id. de instalación mediante este permiso. Esto es importante para nosotros para poder enviar la notificación adecuada y correcta para cada usuario individual. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| User.Read.All | aplicación | Este permiso permite a nuestra aplicación leer perfiles de usuario sin que un usuario haya iniciado sesión. En este momento estamos recopilando solo el nombre, la imagen de perfil y el correo electrónico. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| correo electrónico | delegado | Se recopila el identificador de correo electrónico del usuario. Requerimos estos datos para conceder acceso al usuario para nuestros servicios e iniciar sesión en nuestra aplicación y recibir notificaciones sobre sus cuentas y nuestros servicios en este identificador de correo electrónico.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| OpenID | delegado | Para este permiso, no recopilamos datos.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
->| perfil | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](https://docs.microsoft.com/microsoft-365-app-certification/azure/b1d1c038-a1f3-4802-be93-0f4a66589e73) |
+>| TeamsActivity.Send | aplicación | Usamos el userID en este permiso. Esto se usa para enviar notificaciones de requisitos al usuario en función de su uso de nuestro servicio. Esto es importante para que el usuario reciba las notificaciones adecuadas para su cuenta en nuestra aplicación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | aplicación | Recibimos el id. de instalación mediante este permiso. Esto es importante para nosotros para poder enviar la notificación adecuada y correcta para cada usuario individual. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| User.Read.All | aplicación | Este permiso permite a nuestra aplicación leer perfiles de usuario sin que un usuario haya iniciado sesión. En este momento estamos recopilando solo el nombre, la imagen de perfil y el correo electrónico. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| correo electrónico | delegado | Se recopila el identificador de correo electrónico del usuario. Requerimos estos datos para conceder acceso al usuario para nuestros servicios e iniciar sesión en nuestra aplicación y recibir notificaciones sobre sus cuentas y nuestros servicios en este identificador de correo electrónico.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| OpenID | delegado | Para este permiso, no recopilamos datos.  | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
+>| perfil | delegado | Estamos recopilando el nombre, la imagen y el correo electrónico de nuestros usuarios a través de este permiso. Esto es necesario para que seamos capaces de identificar usuarios individuales y estos puntos de datos se mostrarán siempre que sea necesario, como la página de perfil individual y la comunicación por correo electrónico/notificación. | [b1d1c038-a1f3-4802-be93-0f4a66589e73](../azure/b1d1c038-a1f3-4802-be93-0f4a66589e73.md) |
 
 >Esta aplicación no tiene API adicionales.
 

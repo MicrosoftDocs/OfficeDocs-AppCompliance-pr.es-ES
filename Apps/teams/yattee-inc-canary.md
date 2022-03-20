@@ -2,18 +2,19 @@
 title: Información de aplicación para Canary por YATTEE Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Canary, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Canary, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9702c280c874437826c4fd760f22b27359e1006
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a53e32f6826c21c73432e2c0bac40671ca14714d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261206"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540408"
 ---
 # <a name="canary"></a>Canary
 
@@ -21,7 +22,7 @@ ms.locfileid: "62261206"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 22, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c006ac82-f64e-4702-bdc8-3ca5bf9c433d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/c006ac82-f64e-4702-bdc8-3ca5bf9c433d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003193" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por YATTEE Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Canary |
-| Id. | WA200003193 |
+| ID | WA200003193 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | YATTEE Inc. |
 | Sitio web de la compañía | [https://www.yattee.co.jp](https://www.yattee.co.jp) |
 | Términos de uso de la aplicación | [https://www.yattee.co.jp/company/term-of-use/](https://www.yattee.co.jp/company/term-of-use/) |
 | Funcionalidad principal de la aplicación | &#12459;&#12524;&#12531;&#12480;&#12540;&#22411;&#12473;&#12465;&#12472;&#12517;&#12540;&#12523;&#31649;&#29702;&#12450;&#12503;&#12522;&#12391;&#12377;&#12290;&#20104;&#23450;&#12398;&#26178;&#38291;&#12364;&#36817;&#12367;&#12394;&#12427;&#12392;&#12289;&#12473;&#12510;&#12540;&#12488;&#12501;&#12457;&#12531;&#12408;&#12398;&#38899;&#22768;&#36890;&#30693;&#12394;&#12393;&#12289;&#12354;&#12425;&#12422;&#12427;&#12450;&#12521;&#12540;&#12488;&#12364;&#35373;&#23450;&#12391;&#12365;&#12427;&#12398;&#12391;&#12289;&#12358;&#12387;&#12363;&#12426;&#24536;&#12428;&#12434;&#38450;&#12366;&#12414;&#12377;&#12290; |
 | Ubicación central de la empresa | Japón |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.yattee.co.jp/canary-signin/](https://www.yattee.co.jp/canary-signin/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Aws |
 
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -169,7 +170,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calls.JoinGroupCallasGuest.All | aplicación | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](https://docs.microsoft.com/microsoft-365-app-certification/azure/626ce0a3-4620-483d-953d-53b106b9ffad) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | &#12518;&#12540;&#12470;&#12540;&#12408;&#12398;&#36890;&#35441;&#12434;&#34892;&#12358;&#12383;&#12417; | [626ce0a3-4620-483d-953d-53b106b9ffad](../azure/626ce0a3-4620-483d-953d-53b106b9ffad.md) |
 
 >Esta aplicación no tiene API adicionales.
 

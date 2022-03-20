@@ -2,18 +2,19 @@
 title: Información de la aplicación para la sala de Pro por Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para booking room Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 20773ef58c582a0c2b4f36cc123573796629fc31
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: b971ec4848524feb149899a84734dda08b4ccb92
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257616"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540418"
 ---
 # <a name="booking-room-pro"></a>Reserva de salas Pro
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257616"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: October 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/8bbbc813-6d87-497c-9e7c-e401607b2347" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/8bbbc813-6d87-497c-9e7c-e401607b2347" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003337" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Witivio a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Reserva de salas Pro |
-| Id. | WA200003337 |
+| ID | WA200003337 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Witivio |
 | Sitio web de la compañía | [https://www.witivio.com](https://www.witivio.com) |
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,11 +171,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
->| correo electrónico | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
->| offline_access | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
->| OpenID | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
->| perfil | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](https://docs.microsoft.com/microsoft-365-app-certification/azure/984562b3-6a46-4a7f-a19b-681442b0cdc0) |
+>| User.Read | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](../azure/984562b3-6a46-4a7f-a19b-681442b0cdc0.md) |
+>| correo electrónico | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](../azure/984562b3-6a46-4a7f-a19b-681442b0cdc0.md) |
+>| offline_access | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](../azure/984562b3-6a46-4a7f-a19b-681442b0cdc0.md) |
+>| OpenID | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](../azure/984562b3-6a46-4a7f-a19b-681442b0cdc0.md) |
+>| perfil | delegado | Microsoft Teams SSO | [984562b3-6a46-4a7f-a19b-681442b0cdc0](../azure/984562b3-6a46-4a7f-a19b-681442b0cdc0.md) |
 
 >Esta aplicación no tiene API adicionales.
 

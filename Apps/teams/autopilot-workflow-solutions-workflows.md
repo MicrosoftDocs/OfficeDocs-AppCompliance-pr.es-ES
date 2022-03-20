@@ -2,18 +2,19 @@
 title: Información de la aplicación para flujos de trabajo de Autopilot mediante soluciones de flujo de trabajo de Autopilot
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/14/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para flujos de trabajo de Autopilot, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7eac665b024ff1f1474ea302af196dda40ec5252
-ms.sourcegitcommit: 9905237eb3270d099820cbf413d64b7cc066dc7c
+ms.openlocfilehash: bcfcb7cc0675aa859bc7302076e3c2382247d90a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62811766"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540026"
 ---
 # <a name="autopilot-workflows"></a>Flujos de trabajo de Autopilot
 
@@ -21,7 +22,7 @@ ms.locfileid: "62811766"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5aa677bf-b5a6-48bc-9a47-8892dbd316cb" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/5aa677bf-b5a6-48bc-9a47-8892dbd316cb" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003745" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Autopilot Workflow Solutions a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Flujos de trabajo de Autopilot |
-| Id. | WA200003745 |
+| ID | WA200003745 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Soluciones de flujo de trabajo de Autopilot |
+| Nombre de la compañía asociada | Soluciones de flujos de trabajo de Autopilot |
 | Sitio web de la compañía | [https://www.autopilot.co.za](https://www.autopilot.co.za) |
 | Términos de uso de la aplicación | [https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Term...](https://cdn.autopilot.co.za/legal/Autopilot%20Client%20Terms%20%20Conditions%2020160224.pdf) |
 | Funcionalidad principal de la aplicación | Los formularios electrónicos validados y los procesos preconfigurados garantizan que los procesos se ejecuten siempre de forma coherente, independientemente de la persona que realice la tarea. Una completa pista de auditoría de las acciones realizadas garantizará que todos los usuarios tengan responsabilidades por lo que han hecho. Autopilot permite la continuidad cuando el personal se va y puede actuar como una gran herramienta de aprendizaje para familiarizar al nuevo personal con sus procesos. Las instrucciones integradas los guiarán en cada paso del camino. |
 | Ubicación central de la empresa | Sudáfrica |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.autopilot.co.za](https://www.autopilot.co.za) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -61,7 +62,7 @@ Autopilot Workflow Solutions ha proporcionado esta información sobre cómo esta
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Id. de inquilino de azure de clientes |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | No |
@@ -109,8 +110,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -126,7 +127,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -156,9 +157,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
@@ -169,13 +170,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Teams.ReadBasic.All | aplicación | Enviar Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Read | aplicación | Enviar Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| TeamsActivity.Send | aplicación | Enviar Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| User.Read.All | aplicación | Enviar Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](https://docs.microsoft.com/microsoft-365-app-certification/azure/3970caf2-7c33-4668-8c74-91f3e094b789) |
->| Group.Read.All | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
->| User.Read.All | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](https://docs.microsoft.com/microsoft-365-app-certification/azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc) |
+>| Teams.ReadBasic.All | aplicación | Envío Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Read | aplicación | Envío Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| TeamsActivity.Send | aplicación | Envío Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| User.Read.All | aplicación | Envío Teams notifcations | [3970caf2-7c33-4668-8c74-91f3e094b789](../azure/3970caf2-7c33-4668-8c74-91f3e094b789.md) |
+>| Group.Read.All | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
+>| User.Read.All | delegado | Inicio de sesión único | [3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc](../azure/3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para Zynyo Sign for SharePoint Online by Zynyo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Zynyo Sign for SharePoint Online, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Zynyo Sign for SharePoint Online, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9b36b38e24a421f4bd39d935b6506c87ea67a0e
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 451bf9e9e325e4d0f9f2269598c82d5067d4ba45
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62201047"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553259"
 ---
 # <a name="zynyo-sign-for-sharepoint-online"></a>Zynyo Sign for SharePoint Online
 
@@ -32,14 +33,14 @@ Información proporcionada por Zynyo a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zynyo Sign for SharePoint Online |
-| Id. | WA200003673 |
+| ID | WA200003673 |
 | Office 365 clientes compatibles | SharePoint 2016 o posterior |
 | Nombre de la compañía asociada | Zynyo |
 | Sitio web de la compañía | [https://zynyo.com](https://zynyo.com) |
 | Términos de uso de la aplicación | [https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf](https://zynyo.com/Algemene%20Voorwaarden%20Zynyo%20BV.pdf) |
 | Funcionalidad principal de la aplicación | Alle documenten eenvoudig en rechtsgeldig digitaal laten ondertekenen. |
 | Ubicación central de la empresa | Países Bajos (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://zynyo.com/signing-service-diensten/sharepoint/](https://zynyo.com/signing-service-diensten/sharepoint/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Otro |
 
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

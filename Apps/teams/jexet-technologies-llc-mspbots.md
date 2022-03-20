@@ -2,18 +2,19 @@
 title: Información de aplicación para MSPBots de Jexet Technologies LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para MSPBots, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para MSPBots, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 8d4d4c0b27f2f2052a46b8d77107dbc4a320216e
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 5c80d3ac6bfa4537095c0941adb62fa81c367360
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257756"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63539985"
 ---
 # <a name="mspbots"></a>MSPBots
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257756"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/10fcc57c-8d49-4f94-a516-a75de60bc969" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/10fcc57c-8d49-4f94-a516-a75de60bc969" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001128" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Jexet Technologies LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MSPBots |
-| Id. | WA200001128 |
+| ID | WA200001128 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Tecnologías de Jexet LLC (Compañía de Responsabilidad Limitada) |
 | Sitio web de la compañía | [https://mspbots.ai](https://mspbots.ai) |
@@ -42,7 +43,6 @@ Información proporcionada por Jexet Technologies LLC a Microsoft:
 | Ubicación central de la empresa | Estados Unidos de América |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,9 +170,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | aplicación | Enviar mensaje al canal | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
->| ChatMessage.Send | aplicación | Enviar mensaje al chat | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
->| perfil | aplicación | obtener información de usuario de la aplicación de uso | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](https://docs.microsoft.com/microsoft-365-app-certification/azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9) |
+>| ChannelMessage.Send | aplicación | Enviar mensaje al canal | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
+>| ChatMessage.Send | aplicación | Enviar mensaje al chat | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
+>| perfil | aplicación | obtener información de usuario de la aplicación de uso | [a2af9d71-95f1-4236-be2c-c105ab9b7ee9](../azure/a2af9d71-95f1-4236-be2c-c105ab9b7ee9.md) |
 
 >Esta aplicación no tiene API adicionales.
 

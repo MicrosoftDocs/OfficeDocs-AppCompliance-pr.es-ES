@@ -2,18 +2,19 @@
 title: Información de la aplicación para standuply por Standuply Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Standuply, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 3b7292e010ad6e244f4d5e6cdddb9b357520ca94
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 84d9c34f023fd8e4a9247de46443b711b33472c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252246"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63537968"
 ---
 # <a name="standuply"></a>Standuply
 
@@ -21,7 +22,7 @@ ms.locfileid: "62252246"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 24, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/1250b735-e9df-4d5b-ae82-da96c55c64e4" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/1250b735-e9df-4d5b-ae82-da96c55c64e4" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003001" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Standuply Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Standuply |
-| Id. | WA200003001 |
+| ID | WA200003001 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Standuply Inc. |
 | Sitio web de la compañía | [https://standuply.com](https://standuply.com) |
 | Términos de uso de la aplicación | [https://standuply.com/terms](https://standuply.com/terms) |
-| Funcionalidad principal de la aplicación | Automatiza de forma automática los procesos de administración y proporciona un sistema interno de preguntas y respuestas para aumentar &amp; la productividad de su equipo. |
+| Funcionalidad principal de la aplicación | Automatiza de forma automática los procesos de administración y proporciona un sistema QA&amp; interno para aumentar la productividad de su equipo. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://standuply.com](https://standuply.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -146,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No aplicable |
 | ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
@@ -158,7 +159,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,8 +172,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| MailboxSettings.Read | aplicación | Para enviar informes sobre la zona horaria individual de los usuarios | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
->| User.Read | delegado | Para autorizar usuarios en el producto | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](https://docs.microsoft.com/microsoft-365-app-certification/azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176) |
+>| MailboxSettings.Read | aplicación | Para enviar informes sobre la zona horaria individual de los usuarios | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
+>| User.Read | delegado | Para autorizar usuarios en el producto | [e9f5cb58-89eb-4f80-9a6c-b73823b62176](../azure/e9f5cb58-89eb-4f80-9a6c-b73823b62176.md) |
 
 >Esta aplicación no tiene API adicionales.
 

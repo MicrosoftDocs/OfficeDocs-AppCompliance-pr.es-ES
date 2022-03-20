@@ -1,19 +1,20 @@
 ---
-title: Información de aplicaciones para Teams manager de Solutions2Share GmbH
+title: Información de la aplicación para Teams manager por Solutions2Share GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Teams Manager, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 75bea5ebb9ea83d682f56cc4c4027f23409d932c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b4327e14c30c6a9be465574e947d5c23a07b021
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253426"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540448"
 ---
 # <a name="teams-manager"></a>Teams Manager
 
@@ -21,7 +22,7 @@ ms.locfileid: "62253426"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 24, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/87000000-3db9-bb44-5015-0b4a327a6597" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/87000000-3db9-bb44-5015-0b4a327a6597" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000764" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Solutions2Share GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Teams Manager |
-| Id. | WA200000764 |
+| ID | WA200000764 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Solutions2Share GmbH |
 | Sitio web de la compañía | [https://teams-manager.com](https://teams-manager.com) |
 | Términos de uso de la aplicación | [https://www.teams-manager.com/terms-of-use/](https://www.teams-manager.com/terms-of-use/) |
-| Funcionalidad principal de la aplicación | Cree nuevas Teams basadas en plantillas complejas y personalizables con flujo de trabajo de aprobación. Teams Manager ayuda a las empresas a mantener el control sobre sus Microsoft Teams y detener el crecimiento incontrolado con características de gobierno, al tiempo que permite a los usuarios crear nuevas Teams. |
+| Funcionalidad principal de la aplicación | Cree nuevas Teams basadas en plantillas complejas y personalizables con flujo de trabajo de aprobación. Teams manager ayuda a las empresas a mantener el control sobre sus Microsoft Teams y detener el crecimiento no controlado con características de gobierno, al tiempo que permite a los usuarios crear nuevas Teams. |
 | Ubicación central de la empresa | Alemania |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://teams-manager.com](https://teams-manager.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Solutions2Share GmbH ha proporcionado esta información sobre cómo esta aplicac
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,11 +161,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | ambos | Almacenamos tenantID y TeamId para asignar las plantillas.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| Notes.ReadWrite.All | aplicación | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read | delegado | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.Read.All | ambos | Guardamos el identificador del usuario que se ha escrito en la sección aprobador/administrador. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
->| User.ReadBasic.All | delegado | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7) |
+>| Group.ReadWrite.All | ambos | Almacenamos tenantID y TeamId para asignar las plantillas.  | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| Notes.ReadWrite.All | aplicación | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read | delegado | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.Read.All | ambos | Guardamos el identificador del usuario que se ha escrito en la sección aprobador/administrador. | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
+>| User.ReadBasic.All | delegado | Ninguno | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](../azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) |
 
 >Esta aplicación no tiene API adicionales.
 

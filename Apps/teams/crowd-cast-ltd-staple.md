@@ -2,18 +2,19 @@
 title: Información de aplicación para Staple de Crowd Cast, Ltd.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Staple, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Staple, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7bd998858872f838e12e10b4b1e6aef2a0cc61b2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: fa799418e4943907303d516fe75de9ccf0ab3a1e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260646"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538188"
 ---
 # <a name="staple"></a>Staple
 
@@ -21,7 +22,7 @@ ms.locfileid: "62260646"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 27, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/ac9ca94a-e666-4f61-959a-12c063e13e69" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/ac9ca94a-e666-4f61-959a-12c063e13e69" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003281" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Crowd Cast, Ltd. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Staple |
-| Id. | WA200003281 |
+| ID | WA200003281 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Crowd Cast, Ltd. |
 | Sitio web de la compañía | [https://crowdcast.jp/ja/](https://crowdcast.jp/ja/) |
 | Términos de uso de la aplicación | [https://go.microsoft.com](https://go.microsoft.com) |
 | Funcionalidad principal de la aplicación | Cambie su estilo de trabajo con la administración de gastos en tiempo real. Staple permite un envío, aprobación y seguimiento de gastos fáciles para su empresa. Vincula con servicios Microsoft para interactuar fácilmente con nuestro producto. |
 | Ubicación central de la empresa | Japón |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://intercom.help/staple/ja](https://intercom.help/staple/ja) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Crowd Cast, Ltd. ha proporcionado esta información sobre cómo esta aplicación
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -116,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,11 +161,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Organization.Read.All | aplicación | Se usa para recopilar el identificador de inquilino. Se usa para garantizar que los usuarios que se autentican con nuestra plataforma sean miembros de un inquilino específico. | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| TeamsAppInstallation.ReadWriteSelfForUser.All | aplicación | Teams aplicación se instala automáticamente en el equipo del usuario | [ac9ca94a-e666-4f61-959a-12c063e13e69](https://docs.microsoft.com/microsoft-365-app-certification/azure/ac9ca94a-e666-4f61-959a-12c063e13e69) |
->| AppCatalog.Read.All | delegado | Lee el catálogo de aplicaciones de un usuario para ver si la aplicación de teams está instalada. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| User.Read | delegado | Se usa para leer el identificador de un usuario para asegurarse de que los mensajes se envían al usuario correcto. | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
->| OpenID | delegado | Iniciar sesión en un usuario para leer su información básica de perfil | [bbdcd676-7448-453c-bec7-70e5384bc290](https://docs.microsoft.com/microsoft-365-app-certification/azure/bbdcd676-7448-453c-bec7-70e5384bc290) |
+>| Organization.Read.All | aplicación | Se usa para recopilar el identificador de inquilino. Se usa para garantizar que los usuarios que se autentican con nuestra plataforma sean miembros de un inquilino específico. | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | aplicación | Teams aplicación se instala automáticamente en el equipo del usuario | [ac9ca94a-e666-4f61-959a-12c063e13e69](../azure/ac9ca94a-e666-4f61-959a-12c063e13e69.md) |
+>| AppCatalog.Read.All | delegado | Lee el catálogo de aplicaciones de un usuario para ver si la aplicación de teams está instalada. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| User.Read | delegado | Se usa para leer el identificador de un usuario para asegurarse de que los mensajes se envían al usuario correcto. | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
+>| OpenID | delegado | Iniciar sesión en un usuario para leer su información básica de perfil | [bbdcd676-7448-453c-bec7-70e5384bc290](../azure/bbdcd676-7448-453c-bec7-70e5384bc290.md) |
 
 >Esta aplicación no tiene API adicionales.
 

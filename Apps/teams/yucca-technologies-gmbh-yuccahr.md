@@ -2,18 +2,19 @@
 title: Información de la aplicación para yuccaHR de Yucca Technologies GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para yuccaHR, sus directivas de tratamiento de datos, su información Microsoft Cloud App Security catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para yuccaHR, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f5e1475a1db71c51ac58a6bc062ce9e4b17e8ab3
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da99569821461232ce6ed852810b85b989f2b944
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251506"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63536348"
 ---
 # <a name="yuccahr"></a>yuccaHR
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251506"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c3c1cd11-5b38-4de4-9081-44573d9383bf" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/c3c1cd11-5b38-4de4-9081-44573d9383bf" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003242" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Yucca Technologies GmbH a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | yuccaHR |
-| Id. | WA200003242 |
+| ID | WA200003242 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Yucca Technologies GmbH |
 | Sitio web de la compañía | [https://www.yuccahr.com](https://www.yuccahr.com) |
 | Términos de uso de la aplicación | [https://www.yuccahr.com/terms-of-use](https://www.yuccahr.com/terms-of-use) |
 | Funcionalidad principal de la aplicación | Conectar su equipo, integre nuevos empleados, genere compromiso. Directamente en Microsoft Teams. |
 | Ubicación central de la empresa | Alemania |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.yuccahr.com/product](https://www.yuccahr.com/product) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -125,8 +126,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,12 +171,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | aplicación | Para programar un evento de calendario para las partes que coincidan | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| Channel.ReadBasic.All | aplicación | Mostrar nombres de canales en la aplicación web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| ChannelMember.Read.All | aplicación | Para hacer coincidir personas dentro de un canal o con otros canales | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| Group.Read.All | aplicación | Mostrar nombres de equipo en la aplicación web | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| MailboxSettings.Read | aplicación | Para obtener el idioma deseado de los usuarios, al enviar mensajes | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
->| User.Read.All | aplicación | El correo electrónico es necesario para generar tarjetas adaptables que permitan a los usuarios chatear directamente | [815a5165-fd61-44b8-be99-6301f780bd68](https://docs.microsoft.com/microsoft-365-app-certification/azure/815a5165-fd61-44b8-be99-6301f780bd68) |
+>| Calendars.ReadWrite | aplicación | Para programar un evento de calendario para las partes que coincidan | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| Channel.ReadBasic.All | aplicación | Mostrar nombres de canales en la aplicación web | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| ChannelMember.Read.All | aplicación | Para hacer coincidir personas dentro de un canal o con otros canales | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| Group.Read.All | aplicación | Mostrar nombres de equipo en la aplicación web | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| MailboxSettings.Read | aplicación | Para obtener el idioma deseado de los usuarios, al enviar mensajes | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
+>| User.Read.All | aplicación | El correo electrónico es necesario para generar tarjetas adaptables que permitan a los usuarios chatear directamente | [815a5165-fd61-44b8-be99-6301f780bd68](../azure/815a5165-fd61-44b8-be99-6301f780bd68.md) |
 
 >Esta aplicación no tiene API adicionales.
 

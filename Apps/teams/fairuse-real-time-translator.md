@@ -2,18 +2,19 @@
 title: Información de la aplicación para aplicaciones en tiempo Traductor por Fairuse
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Traductor en tiempo real, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el Traductor en tiempo real, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c86fb7cb8edd0c9a118d3572b3716a7c703ee829
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9073f2034568bb4a38734af095418ef7cf4dd8e1
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259496"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553239"
 ---
 # <a name="real-time-translator"></a>Real Time Translator
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259496"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 25, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d3e7ec03-98b9-445b-93fe-6f370a80c3f6" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/d3e7ec03-98b9-445b-93fe-6f370a80c3f6" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002171" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Fairuse a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Real Time Translator |
-| Id. | WA200002171 |
+| ID | WA200002171 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Fairuse |
 | Sitio web de la compañía | [https://fairuse.jp](https://fairuse.jp) |
 | Términos de uso de la aplicación | [https://fairuse.jp/real_time_translator/term_of_use_RTT_Tea...](https://fairuse.jp/real_time_translator/term_of_use_RTT_Teams_Browser.pdf) |
 | Funcionalidad principal de la aplicación | Real Time Traductor es una herramienta que puede realizar la traducción de texto en tiempo real al idioma especificado por el usuario. Puede comunicarse sin problemas con este producto incluso si no puede hablar el idioma de otra parte. |
 | Ubicación central de la empresa | Japón |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual...](https://fairuse.jp/download/RTTManual/RTTApp_Browser_Manual_JP.pdf) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Fairuse ha proporcionado esta información sobre cómo esta aplicación recopila
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,7 +100,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,9 +161,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| correo electrónico | delegado | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; correo electrónico &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| OpenID | delegado | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
->| perfil | delegado | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](https://docs.microsoft.com/microsoft-365-app-certification/azure/c4e4c98c-f859-4682-89a5-48b66838c496) |
+>| correo electrónico | delegado | &#12469;&#12540;&#12499;&#12473;&#21033;&#29992;&#32773;&#12398; correo electrónico &#12450;&#12489;&#12524;&#12473;&#12364;&#21454;&#38598;&#12373;&#12428;&#12414;&#12377;&#12290;&#12518;&#12540;&#12470;&#12540;&#12434;&#35672;&#21029;&#12377;&#12427;&#12383;&#12417;&#12398;&#24773;&#22577;&#12392;&#12375;&#12390;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| OpenID | delegado | &#35469;&#35388;&#12398;&#12383;&#12417;&#12395;&#20351;&#29992;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
+>| perfil | delegado | &#12518;&#12540;&#12470;&#12540;&#12398;&#21517;&#21069;&#12420;&#12518;&#12540;&#12470;&#12540;&#12503;&#12522;&#12531;&#12471;&#12497;&#12523;&#21517;&#12434;&#12518;&#12540;&#12470;&#12540;&#29305;&#23450;&#12377;&#12427;&#12383;&#12417;&#12395;&#21462;&#24471;&#12375;&#12414;&#12377;&#12290; | [c4e4c98c-f859-4682-89a5-48b66838c496](../azure/c4e4c98c-f859-4682-89a5-48b66838c496.md) |
 
 >Esta aplicación no tiene API adicionales.
 

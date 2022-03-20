@@ -2,18 +2,19 @@
 title: Información de la aplicación para DELTAoverC por DELTAoverC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para DELTAoverC, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 80273bfba0db86b443e84b46343ab6b04a264ac8
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 315d62622741a685849ee679d584624ccce19d75
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259686"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63538178"
 ---
 # <a name="deltaoverc"></a>DELTAoverC
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259686"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/01b1eb1e-cb02-4a41-bb8d-6811bc514606" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/01b1eb1e-cb02-4a41-bb8d-6811bc514606" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003286" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por DELTAoverC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | DELTAoverC |
-| Id. | WA200003286 |
+| ID | WA200003286 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | DELTAoverC |
 | Sitio web de la compañía | [https://DELTAoverC.into](https://DELTAoverC.into) |
 | Términos de uso de la aplicación | [https://go.microsoft.com](https://go.microsoft.com) |
 | Funcionalidad principal de la aplicación | DELTAoverC está diseñado para admitir el cambio y la transformación de la organización proporcionando a los líderes internos datos de nivel de equipo que pueden actuar durante la iniciativa de cambio, lo que les permite abordar eficazmente áreas de resistencia a cambios o poca participación. Maximizar la participación: realiza un seguimiento de las puntuaciones de participación en tiempo real para garantizar que los equipos prosperen durante la interrupción. Reducir el riesgo y el esfuerzo: analice los datos de nivel de personal para anticiparse a los problemas antes de que estas espirales se torcíen en desafíos importantes. |
 | Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://DELTAoverC.info/change-application](https://DELTAoverC.info/change-application) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -57,14 +58,7 @@ DELTAoverC ha proporcionado esta información sobre cómo esta aplicación recop
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +100,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -124,7 +118,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +149,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,12 +162,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | ambos | Leer todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| Group.ReadWrite.All | ambos | Leer y escribir en todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.Read.All | aplicación | Leer el perfil completo de todos los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.ReadWrite | delegado | Acceso al perfil del usuario para la lectura y la escritura  | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
->| User.ReadWrite.All | ambos | Leer y escribir todos los perfiles completos de los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](https://docs.microsoft.com/microsoft-365-app-certification/azure/8b893db3-8c29-4983-b905-ee0b3daa6a46) |
+>| Group.Read.All | ambos | Leer todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| Group.ReadWrite.All | ambos | Leer y escribir en todos los grupos | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.Read.All | aplicación | Leer el perfil completo de todos los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.ReadWrite | delegado | Acceso al perfil del usuario para la lectura y la escritura  | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
+>| User.ReadWrite.All | ambos | Leer y escribir todos los perfiles completos de los usuarios | [8b893db3-8c29-4983-b905-ee0b3daa6a46](../azure/8b893db3-8c29-4983-b905-ee0b3daa6a46.md) |
 
 >Esta aplicación no tiene API adicionales.
 

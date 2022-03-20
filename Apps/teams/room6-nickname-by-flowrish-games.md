@@ -2,18 +2,19 @@
 title: Información de aplicación para el sobrenombre de juegos flowrish por sala6
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para el sobrenombre de juegos de flujo, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el sobrenombre de juegos flowrish, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6fa9aef7efab58fcb15a1ed05b71b7a9b9b8354a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: f5f320c63c17f9743081300c7a01c4f6551346a2
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257626"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63553299"
 ---
 # <a name="nickname-by-flowrish-games"></a>nickname by flowrish games
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257626"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 12, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1eb81651-f5d3-4e95-bceb-5ae2ffffd00e" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/1eb81651-f5d3-4e95-bceb-5ae2ffffd00e" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003202" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por room6 a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | nickname by flowrish games |
-| Id. | WA200003202 |
+| ID | WA200003202 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | room6 |
 | Sitio web de la compañía | [https://www.room6.net](https://www.room6.net) |
 | Términos de uso de la aplicación | [https://www.room6.net/eula](https://www.room6.net/eula) |
 | Funcionalidad principal de la aplicación | &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12467;&#12511;&#12517;&#12491;&#12540;&#12465;&#12540;&#12471;&#12519;&#12531;&#27963;&#24615;&#21270;&#12484;&#12540;&#12523;&#12391;&#12377;&#12290; &#21021;&#23550;&#38754;&#12398;&#20154;&#12392;&#12418;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12459;&#12540;&#12489;&#12395;&#26360;&#12363;&#12428;&#12383;&#32937;&#26360;&#12434;&#30456;&#25163;&#12398;&#21517;&#21069;&#12395;&#12388;&#12369;&#12289;&#27442;&#12375;&#12356;&#12459;&#12540;&#12489;&#12434;&#38598;&#12417;&#12390;&#12356;&#12365;&#12414;&#12377;&#12290; &#24859;&#31216;&#12391;&#21628;&#12403;&#12354;&#12358;&#12371;&#12392;&#12391;&#12289;&#20210;&#38291;&#21516;&#22763;&#12398;&#12467;&#12511;&#12517;&#12491;&#12465;&#12540;&#12471;&#12519;&#12531;&#12398;&#27963;&#24615;&#21270;&#12434;&#34892;&#12358;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#12466;&#12540;&#12511;&#12501;&#12451;&#12465;&#12540;&#12471;&#12519;&#12531;&#12434;&#27963;&#29992;&#12375;&#12383;&#12484;&#12540;&#12523;&#12392;&#12394;&#12387;&#12390;&#12362;&#12426;&#12414;&#12377;&#12398;&#12391;&#12289; Microsoft Teams&#12391;&#27005;&#12375;&#12415;&#12394;&#12364;&#12425;&#30456;&#25163;&#12392;&#12398;&#36317;&#38626;&#12434;&#32302;&#12417;&#12427;&#12371;&#12392;&#12364;&#12391;&#12365;&#12414;&#12377;&#12290; &#32887;&#22580;&#12398;&#12481;&#12540;&#12512;&#12420;&#25945;&#32946;&#29694;&#22580;&#12394;&#12393;&#27096;&#12293;&#12394;&#12471;&#12540;&#12531;&#12391;&#12372;&#21033;&#29992;&#12391;&#12365;&#12414;&#12377;&#12290; &#12504;&#12523;&#12503; https://nickname-server.azurewebsites.net/help.html |
 | Ubicación central de la empresa | Japón |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://nickname-server.azurewebsites.net/help.html](https://nickname-server.azurewebsites.net/help.html) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Room6 ha proporcionado esta información sobre cómo esta aplicación recopila y
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

@@ -2,18 +2,19 @@
 title: 'Información de la aplicación para CocoFax: envío de fax fácil &amp; de proteger mediante &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toda la información de seguridad y cumplimiento disponible para CocoFax: envío de fax fácil seguro, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro &amp; CSA STAR.'
+description: 'Toda la información de seguridad y cumplimiento disponible para CocoFax: envío de fax &amp; fácil seguro, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eea87d6f9291dc2c868e52a54e95539cac9e0d8c
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d725ac3662ee63dbb59e2596d1ac85edddc810c8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252056"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540358"
 ---
 # <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax: envío de fax fácil de &amp; proteger
 
@@ -32,15 +33,16 @@ Información proporcionada por &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CocoFax: envío de fax fácil de &amp; proteger |
-| Id. | WA200002263 |
+| ID | WA200002263 |
 | Office 365 clientes compatibles | Word 2016 o posterior en Mac, Word en la Web, Word 2013 o posterior en Windows |
 | Nombre de la compañía asociada | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | Sitio web de la compañía | [https://cocofax.com](https://cocofax.com) |
 | Términos de uso de la aplicación | [https://cocofax.com/terms.html](https://cocofax.com/terms.html) |
 | Funcionalidad principal de la aplicación | Enviar fax desde Microsoft Word o Word Online con CocoFax, sin módem de fax, se necesitan líneas fijas. |
 | Ubicación central de la empresa | China |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://cocofax.com/terms.html](https://cocofax.com/terms.html) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Esta información ha sido proporcionada por &#28145;&#22323;&#23545;&#20113;&#31
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -152,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
