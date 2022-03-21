@@ -2,18 +2,19 @@
 title: Información de la aplicación para AtBot by H3 Solutions, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para AtBot, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a071dc503aa4fa2871c4ff5ef296976fa565fa06
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 2edcd4455796ebaa14dd3806a0454e022fd4e20d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256666"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544748"
 ---
 # <a name="atbot"></a>AtBot
 
@@ -21,7 +22,7 @@ ms.locfileid: "62256666"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 10, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/7c01af81-ae7d-416e-98a3-c139cae8cfb0" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/7c01af81-ae7d-416e-98a3-c139cae8cfb0" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381219" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por H3 Solutions, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | AtBot |
-| Id. | WA104381219 |
+| ID | WA104381219 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | H3 Solutions, Inc. |
 | Sitio web de la compañía | [https://atbot.io](https://atbot.io) |
 | Términos de uso de la aplicación | [https://admin.atbot.io/terms](https://admin.atbot.io/terms) |
 | Funcionalidad principal de la aplicación | Crear URI conversacionales rápidamente, sin necesidad de experiencia de codificación. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://admin.atbot.io/Docs/GettingStarted](https://admin.atbot.io/Docs/GettingStarted) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ H3 Solutions, Inc. ha proporcionado esta información sobre cómo esta aplicaci�
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,14 +161,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | aplicación | AAD de grupo, AAD GUID de grupo, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| Directory.Read.All | delegado | AAD de grupo, AAD GUID de grupo, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| People.Read | delegado | No | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| User.Read | delegado | Id. de inquilino, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| correo electrónico | delegado | Las direcciones de correo electrónico se usan para ponerse en contacto con el soporte técnico a través de nuestro sistema de soporte técnico. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| offline_access | delegado | Tokens de acceso/actualización. | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| OpenID | delegado | UPN, identifica al usuario dentro de nuestro sistema | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
->| perfil | delegado | UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](https://docs.microsoft.com/microsoft-365-app-certification/azure/066a6b3a-f7a0-450a-98c7-34db1da31594) |
+>| Directory.Read.All | aplicación | AAD de grupo, AAD GUID de grupo, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| Directory.Read.All | delegado | AAD de grupo, AAD GUID de grupo, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| People.Read | delegado | No | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| User.Read | delegado | Id. de inquilino, UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| correo electrónico | delegado | Las direcciones de correo electrónico se usan para ponerse en contacto con el soporte técnico a través de nuestro sistema de soporte técnico. | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| offline_access | delegado | Tokens de acceso/actualización. | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| OpenID | delegado | UPN, identifica al usuario dentro de nuestro sistema | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
+>| perfil | delegado | UPN | [066a6b3a-f7a0-450a-98c7-34db1da31594](../azure/066a6b3a-f7a0-450a-98c7-34db1da31594.md) |
 
 >Esta aplicación no tiene API adicionales.
 

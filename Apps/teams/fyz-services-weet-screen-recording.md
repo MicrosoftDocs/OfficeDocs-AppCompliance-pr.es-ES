@@ -2,18 +2,19 @@
 title: Información de la aplicación para la grabación de pantalla de Weet por FYZ SERVICES
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para weet Screen Recording, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ef14a2413b4ac54eca60bc5ca6a825f33b2d6f19
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a1234fd444d8a51b28ddb1ea99e1208edbebc35e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257796"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544008"
 ---
 # <a name="weet-screen-recording"></a>Weet Screen Recording
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257796"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f0c0f156-329e-4083-a1a7-89649407a31b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f0c0f156-329e-4083-a1a7-89649407a31b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003284" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por FYZ SERVICES a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Weet Screen Recording |
-| Id. | WA200003284 |
+| ID | WA200003284 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | FYZ SERVICES |
 | Sitio web de la compañía | [https://weet.co](https://weet.co) |
@@ -41,8 +42,9 @@ Información proporcionada por FYZ SERVICES a Microsoft:
 | Funcionalidad principal de la aplicación | Weet, la 1ª grabadora de vídeo de &amp; pantalla de colaboración 
 Grabación de pantalla sencilla, gratuita e ilimitada |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://weet.co/weet-teams-integration/](https://weet.co/weet-teams-integration/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,14 +59,7 @@ FYZ SERVICES ha proporcionado esta información sobre cómo esta aplicación rec
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -117,13 +112,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -154,7 +149,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -167,12 +162,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteSelfForUser.All | delegado | Permitir detectar si la aplicación weet ya está instalada | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| User.Read | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| User.ReadBasic.All | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| offline_access | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| OpenID | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
->| perfil | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](https://docs.microsoft.com/microsoft-365-app-certification/azure/32eae2b8-2111-431f-9263-e8e1120d0a97) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | delegado | Permitir detectar si la aplicación weet ya está instalada | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| User.Read | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| User.ReadBasic.All | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| offline_access | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| OpenID | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
+>| perfil | delegado | No recopilamos datos, pero solo usamos el correo electrónico para ayudar al usuario con la característica de autocompleción | [32eae2b8-2111-431f-9263-e8e1120d0a97](../azure/32eae2b8-2111-431f-9263-e8e1120d0a97.md) |
 
 >Esta aplicación no tiene API adicionales.
 

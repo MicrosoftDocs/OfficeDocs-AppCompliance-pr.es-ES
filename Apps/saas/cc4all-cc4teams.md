@@ -2,18 +2,19 @@
 title: Información de la aplicación para CC4Teams de CC4ALL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CC4Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 85d5b411929f2bd0c1c0610a6e4950cf2d5e6809
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7e4cbddad8f0e26efd3657fc36d86575c7a521dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255916"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544088"
 ---
 # <a name="cc4teams"></a>CC4Teams
 
@@ -32,13 +33,13 @@ Información proporcionada por CC4ALL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CC4Teams |
-| Id. | contactcenter4all1634641680587.cc4all_01 |
+| ID | contactcenter4all1634641680587.cc4all_01 |
 | Nombre de la compañía asociada | CC4ALL |
 | Sitio web de la compañía | [https://contactcenter4all.com](https://contactcenter4all.com) |
 | Términos de uso de la aplicación | [https://contactcenter4all.com/contactcenter4all-saas-agreem...](https://contactcenter4all.com/contactcenter4all-saas-agreement/) |
 | Funcionalidad principal de la aplicación | CC4Teams agrega funcionalidades como enrutamiento, transferencia templada, grabación de llamadas e informes a Teams |
 | Ubicación central de la empresa | Países Bajos (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://contactcenter4all.com/cc4teams/](https://contactcenter4all.com/cc4teams/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -117,14 +118,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +156,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,14 +169,14 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| CallRecords.Read.All | aplicación | se usa para grabaciones | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.AccessMedia.All | aplicación | se usa para obtener acceso a medios | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.Initiate.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.InitiateGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Calls.JoinGroupCallasGuest.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
->| Presence.Read.All | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](https://docs.microsoft.com/microsoft-365-app-certification/azure/9430520a-241f-4a00-b041-56aa8bbc9cc9) |
+>| CallRecords.Read.All | aplicación | se usa para grabaciones | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.AccessMedia.All | aplicación | se usa para obtener acceso a medios | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.Initiate.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.InitiateGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCall.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | se usa para iniciar llamadas en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
+>| Presence.Read.All | delegado | se usa para comprobar el estado de los agentes en el centro de contacto | [9430520a-241f-4a00-b041-56aa8bbc9cc9](../azure/9430520a-241f-4a00-b041-56aa8bbc9cc9.md) |
 
 >Esta aplicación no tiene API adicionales.
 

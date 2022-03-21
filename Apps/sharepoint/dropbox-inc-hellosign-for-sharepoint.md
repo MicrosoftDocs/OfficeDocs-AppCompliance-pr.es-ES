@@ -2,18 +2,19 @@
 title: Información de la aplicación para HelloSign para SharePoint por Dropbox Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para HelloSign para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para HelloSign para SharePoint, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4f35be46f70d1efd5bb0cdbd030f78cc82c67e23
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: df22a223c5f19a022abff6559d7b0a9fc69dae5a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256816"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541808"
 ---
 # <a name="hellosign-for-sharepoint"></a>HelloSign para SharePoint
 
@@ -32,14 +33,14 @@ Información proporcionada por Dropbox Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | HelloSign para SharePoint |
-| Id. | WA200003245 |
+| ID | WA200003245 |
 | Office 365 clientes compatibles | SharePoint 2013 o posterior |
 | Nombre de la compañía asociada | Dropbox Inc. |
 | Sitio web de la compañía | [https://hellosign.com](https://hellosign.com) |
 | Términos de uso de la aplicación | [https://hellosign.com/terms](https://hellosign.com/terms) |
 | Funcionalidad principal de la aplicación | La plataforma de flujo de trabajo digital de HelloSign&#8217;&#8211; que incluye eSignature, flujo de trabajo digital y soluciones de fax electrónico &#8212; ayuda a más de 80 000 clientes y millones de personas a hacer negocios más rápido. Ayudamos a nuestros clientes a cerrar ofertas más rápido, incorporamos nuevos contratos con facilidad, completamos documentos sin errores y mucho más. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.hellosign.com/integrations](https://www.hellosign.com/integrations) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -51,7 +52,7 @@ Información proporcionada por Dropbox Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Dropbox Inc. ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Dropbox Inc. proporciona esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -169,9 +170,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | aplicación | Para volver a cargar archivos firmados electrónicamente en SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
->| Sites.ReadWrite.All | aplicación | Para volver a cargar archivos firmados electrónicamente en SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
->| User.Read | delegado | Para obtener el correo electrónico del usuario | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](https://docs.microsoft.com/microsoft-365-app-certification/azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6) |
+>| Files.ReadWrite.All | aplicación | Para volver a cargar archivos firmados electrónicamente en SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
+>| Sites.ReadWrite.All | aplicación | Para volver a cargar archivos firmados electrónicamente en SharePoint | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
+>| User.Read | delegado | Para obtener el correo electrónico del usuario | [6fcff87e-0f86-49c3-81eb-bc028d1ccfe6](../azure/6fcff87e-0f86-49c3-81eb-bc028d1ccfe6.md) |
 
 >Esta aplicación no tiene API adicionales.
 

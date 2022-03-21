@@ -2,18 +2,19 @@
 title: Información de la aplicación para Powow por Powow AI
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/20/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Powow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f7c17510645c2c7b2fc25014e328b1dcefe0f06f
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: cd622100438c6006083e38e65e83e1c986ebf358
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254756"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541618"
 ---
 # <a name="powow"></a>Powow
 
@@ -21,7 +22,7 @@ ms.locfileid: "62254756"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5e6f557b-3d89-40e6-9d8e-0ccb5c956c22" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/5e6f557b-3d89-40e6-9d8e-0ccb5c956c22" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002952" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Powow AI a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Powow |
-| Id. | WA200002952 |
+| ID | WA200002952 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Powow AI |
 | Sitio web de la compañía | [https://www.powow.ai](https://www.powow.ai) |
 | Términos de uso de la aplicación | [https://www.powow.ai/legal/tos.pdf](https://www.powow.ai/legal/tos.pdf) |
 | Funcionalidad principal de la aplicación | Powow es una plataforma SaaS que desencadena el poder de la inteligencia artificial en las reuniones de negocios. Usa algoritmos de inteligencia artificial propietarios para transcribir y analizar reuniones, transformándolos en información que se puede usar. Powow permite que el personal de la organización asista a menos reuniones, a la vez que aumenta la productividad a través de la detección de reuniones, el análisis y la colaboración. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://powow-ai.zendesk.com/hc/en-us](https://powow-ai.zendesk.com/hc/en-us) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, GCP |
 
@@ -126,7 +127,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,13 +171,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ExternalItem.ReadWrite.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read | delegado | Iniciar sesión y leer el perfil de usuario para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| User.Read.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| offline_access | delegado | Para obtener acceso a los datos del usuario dentro de la aplicación (realizar un seguimiento de las actualizaciones del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| OpenID | delegado | Inicio de sesión de los usuarios | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
->| perfil | delegado | Para obtener acceso a la información básica de perfil de los usuarios para el registro | [d871e46e-e346-445d-bfe8-2a66419bf278](https://docs.microsoft.com/microsoft-365-app-certification/azure/d871e46e-e346-445d-bfe8-2a66419bf278) |
+>| ExternalItem.ReadWrite.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil de usuario para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| User.Read.All | aplicación | Se usa para El conector de búsqueda (característica para insertar datos de Powow en los índices de Microsoft para buscar en servicios Microsoft) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para el registro y el inicio de sesión | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| offline_access | delegado | Para obtener acceso a los datos del usuario dentro de la aplicación (realizar un seguimiento de las actualizaciones del calendario) | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| OpenID | delegado | Inicio de sesión de los usuarios | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
+>| perfil | delegado | Para obtener acceso a la información básica de perfil de los usuarios para el registro | [d871e46e-e346-445d-bfe8-2a66419bf278](../azure/d871e46e-e346-445d-bfe8-2a66419bf278.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -1,19 +1,20 @@
 ---
-title: Información de la aplicación para Email TeamMate por harmon.ie
+title: Información de aplicación para Email TeamMate por harmon.ie
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/10/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Email TeamMate, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7e076f074f670c64726c2f7304da8956de976a56
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 7224ee3e7a964ceff6b4edce02634bef6e3716c0
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264805"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63541668"
 ---
 # <a name="email-teammate"></a>Email TeamMate
 
@@ -21,7 +22,7 @@ ms.locfileid: "62264805"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 10, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/3ae27f31-ceea-4d13-a212-cdc9d786eae1" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/3ae27f31-ceea-4d13-a212-cdc9d786eae1" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002338" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por harmon.ie a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Email TeamMate |
-| Id. | WA200002338 |
+| ID | WA200002338 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | harmon.ie |
 | Sitio web de la compañía | [https://harmon.ie](https://harmon.ie) |
 | Términos de uso de la aplicación | [https://harmon.ie/legal/teammate-eula](https://harmon.ie/legal/teammate-eula) |
 | Funcionalidad principal de la aplicación | Agregar correos electrónicos a Microsoft Teams conversaciones con Email TeamMate  |
 | Ubicación central de la empresa | Israel |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://harmon.ie](https://harmon.ie) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,19 +53,12 @@ Información proporcionada por harmon.ie a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Esta información ha sido proporcionada por harmon.ie acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por harmon.ie sobre cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Retenido |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,12 +161,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.Read | delegado | Requerido por TeamMate para obtener miembros de chat de una conversación específica para compartir archivos guardados en una unidad SharePoint/One con los miembros del chat de conversación | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Files.ReadWrite.All | delegado | Requerido por TeamMate para guardar datos adjuntos &amp; de correo electrónico en SharePoint / Teams / OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| Mail.ReadWrite | delegado | Requerido por TeamMate para mostrar los correos electrónicos del usuario y responder a los correos electrónicos guardados en Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| People.Read | delegado | TeamMate necesita buscar correos electrónicos de personas y sugerir personas con las que se está contactando con frecuencia. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.Read | delegado | permite a los usuarios iniciar sesión en TeamMate con su cuenta y permite a TeamMate ver información básica del perfil de usuario | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
->| User.ReadBasic.All | delegado | Requerido por TeamMate para resolver las direcciones de correo electrónico de los miembros del chat para que los archivos compartidos se guarden OneDrive con ellos  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4) |
+>| Chat.Read | delegado | Requerido por TeamMate para obtener miembros de chat de una conversación específica para compartir archivos guardados en una unidad SharePoint/One con los miembros del chat de conversación | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Files.ReadWrite.All | delegado | Requerido por TeamMate para guardar datos adjuntos &amp; de correo electrónico en SharePoint / Teams / OneDrive | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| Mail.ReadWrite | delegado | Requerido por TeamMate para mostrar los correos electrónicos del usuario y responder a los correos electrónicos guardados en Teams | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| People.Read | delegado | TeamMate necesita buscar correos electrónicos de personas y sugerir personas con las que se está contactando con frecuencia. | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.Read | delegado | permite a los usuarios iniciar sesión en TeamMate con su cuenta y permite a TeamMate ver información básica del perfil de usuario | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
+>| User.ReadBasic.All | delegado | Requerido por TeamMate para resolver las direcciones de correo electrónico de los miembros del chat para que los archivos compartidos se guarden OneDrive con ellos  | [74a31d8c-1ee9-4fb8-bc22-640ba5f457f4](../azure/74a31d8c-1ee9-4fb8-bc22-640ba5f457f4.md) |
 
 >Esta aplicación no tiene API adicionales.
 

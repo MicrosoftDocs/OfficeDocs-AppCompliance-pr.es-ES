@@ -1,19 +1,20 @@
 ---
-title: Información de aplicaciones para listas de distribución Pro por Witivio
+title: Información de la aplicación para listas Pro por Witivio
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/30/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para listas de distribución Pro, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7b9e7dfb19e16df4388dde7664cb71724df963de
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 478b0fd266bebf07e809b2e2957bec5d89a15509
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259236"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543328"
 ---
 # <a name="distribution-lists-pro"></a>Listas de distribución Pro
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259236"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/4b8d2936-4e5f-4563-83ca-4bdad686c788" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/4b8d2936-4e5f-4563-83ca-4bdad686c788" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002977" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Witivio a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Listas de distribución Pro |
-| Id. | WA200002977 |
+| ID | WA200002977 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Witivio |
 | Sitio web de la compañía | [https://www.witivio.com](https://www.witivio.com) |
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,13 +171,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | delegado | Lista de distribución | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| Presence.Read.All | delegado | Presencia de CHecking de personas en una lista | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| User.Read | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| correo electrónico | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| offline_access | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| OpenID | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
->| perfil | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](https://docs.microsoft.com/microsoft-365-app-certification/azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724) |
+>| Group.Read.All | delegado | Lista de distribución | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| Presence.Read.All | delegado | Presencia de CHecking de personas en una lista | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| User.Read | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| correo electrónico | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| offline_access | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| OpenID | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
+>| perfil | delegado | Microsoft Teams SSO | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](../azure/4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de aplicación para Quantum Workplace de Quantum Workplace
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Quantum Workplace, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b9e1e9367c7505929be34c6304588e178dbc04c8
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 32c49eaeaa71e2c1d3fa589a53712182d6d64c49
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62252576"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543148"
 ---
 # <a name="quantum-workplace"></a>Quantum Workplace
 
@@ -32,15 +33,16 @@ Información proporcionada por Quantum Workplace a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Quantum Workplace |
-| Id. | WA104381747 |
+| ID | WA104381747 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | Quantum Workplace |
 | Sitio web de la compañía | [https://www.quantumworkplace.com](https://www.quantumworkplace.com) |
 | Términos de uso de la aplicación | [https://www.quantumworkplace.com/terms-of-use](https://www.quantumworkplace.com/terms-of-use) |
 | Funcionalidad principal de la aplicación | Ayude a los empleados a tener éxito con las notificaciones y alertas de Quantum Workplace. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.quantumworkplace.com/product/employee-engagemen...](https://www.quantumworkplace.com/product/employee-engagement-software) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Quantum Workplace ha proporcionado esta información sobre cómo esta aplicació
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado después de 3months |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,7 +99,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -152,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,8 +161,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsAppInstallation.ReadWriteSelfForUser.All | aplicación | Se usa ChatId. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
->| User.Read.All | aplicación | User.Id (almacenado): se usa para correlacionar usuarios enviados a nuestro extremo de bot; User.UserPrincipalName (no almacenado): actualmente sin usar; User.Mail (no almacenado): se usa para hacer coincidir los usuarios de nuestro sistema con su id. de AzureAD que almacenamos. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](https://docs.microsoft.com/microsoft-365-app-certification/azure/be93046b-63ab-4216-9bcc-78faa55eeaa7) |
+>| TeamsAppInstallation.ReadWriteSelfForUser.All | aplicación | Se usa ChatId. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
+>| User.Read.All | aplicación | User.Id (almacenado): se usa para correlacionar usuarios enviados a nuestro extremo de bot; User.UserPrincipalName (no almacenado): actualmente sin usar; User.Mail (no almacenado): se usa para hacer coincidir los usuarios de nuestro sistema con su id. de AzureAD que almacenamos. | [be93046b-63ab-4216-9bcc-78faa55eeaa7](../azure/be93046b-63ab-4216-9bcc-78faa55eeaa7.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para el explorador de elección de contenido por officeatwork
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toda la información de seguridad y cumplimiento disponible para el Explorador de elidores de contenido, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el Explorador de elidores de contenido, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d994eea2d02008249cbb2d0bc9de8ba78f6802fa
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: dbb5c33bba3be9bcb389172ec59e9fb7d868c2c9
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251896"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542408"
 ---
 # <a name="content-chooser-browser"></a>Explorador de elidor de contenido
 
@@ -31,13 +32,13 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Explorador de elidor de contenido |
-| Id. | officeatwork-ag.content-chooser-browser |
+| ID | officeatwork-ag.content-chooser-browser |
 | Nombre de la compañía asociada | officeatwork |
 | Sitio web de la compañía | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Términos de uso de la aplicación | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Funcionalidad principal de la aplicación | Accede al contenido compartido centralmente en Word, Excel, PowerPoint, Outlook, Explorador y otras aplicaciones. |
 | Ubicación central de la empresa | Suiza |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -56,14 +57,7 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +100,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -123,7 +117,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -154,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,15 +162,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegado | Habilitar favoritos y OneDrive característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| Group.ReadWrite.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| GroupMember.Read.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| Sites.Read.All | delegado | Lea los archivos de plantilla de usuarios almacenados en SharePoint | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| OpenID | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
->| perfil | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](https://docs.microsoft.com/microsoft-365-app-certification/azure/edb24f8f-38af-4b3e-9475-0da243678d5a) |
+>| Files.ReadWrite.All | delegado | Habilitar favoritos y OneDrive característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| Group.ReadWrite.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| GroupMember.Read.All | delegado | Habilitar Teams característica | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| Sites.Read.All | delegado | Lea los archivos de plantilla de usuarios almacenados en SharePoint | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| OpenID | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
+>| perfil | delegado | Habilitar el inicio de sesión | [edb24f8f-38af-4b3e-9475-0da243678d5a](../azure/edb24f8f-38af-4b3e-9475-0da243678d5a.md) |
 
 >Esta aplicación no tiene API adicionales.
 

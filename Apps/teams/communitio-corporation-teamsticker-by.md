@@ -2,12 +2,19 @@
 title: Información de la aplicación para TeamSticker by Communitio by Communitio Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toda la información de seguridad y cumplimiento disponible para TeamSticker by Communitio, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
+description: Toda la información de seguridad y cumplimiento disponible para TeamSticker by Communitio, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 5b9b32b4cb3b7967fb747eb3a813b3680bdb57da
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63540578"
 ---
 # <a name="teamsticker-by-communitio"></a>TeamSticker by Communitio
 
@@ -15,7 +22,7 @@ zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 27, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/bceca1f0-723f-44d0-b732-b3506c0a641d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/bceca1f0-723f-44d0-b732-b3506c0a641d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000894" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,7 +41,7 @@ Información proporcionada por Communitio Corporation a Microsoft:
 | Términos de uso de la aplicación | [https://teamsuite.biz/terms](https://teamsuite.biz/terms) |
 | Funcionalidad principal de la aplicación | Se trata de una tarjeta de agradecimiento digital que se puede enviar desde la conversación. |
 | Ubicación central de la empresa | Japón |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://teamsuite.biz/teamsticker](https://teamsuite.biz/teamsticker) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -151,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -164,13 +171,13 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamMember.Read.All | aplicación |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| TeamMember.Read.All | delegado |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read | delegado | Para obtener la información de perfil del usuario que ha iniciado sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read.All | aplicación |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| User.Read.All | delegado |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| OpenID | delegado |  Para iniciar sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
->| perfil | delegado | Para obtener la información de perfil del usuario que ha iniciado sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](https://docs.microsoft.com/microsoft-365-app-certification/azure/bceca1f0-723f-44d0-b732-b3506c0a641d) |
+>| TeamMember.Read.All | aplicación |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| TeamMember.Read.All | delegado |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read | delegado | Para obtener la información de perfil del usuario que ha iniciado sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read.All | aplicación |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| User.Read.All | delegado |  Para seleccionar la persona a la que desea enviar la tarjeta. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| OpenID | delegado |  Para iniciar sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
+>| perfil | delegado | Para obtener la información de perfil del usuario que ha iniciado sesión. | [bceca1f0-723f-44d0-b732-b3506c0a641d](../azure/bceca1f0-723f-44d0-b732-b3506c0a641d.md) |
 
 >Esta aplicación no tiene API adicionales.
 

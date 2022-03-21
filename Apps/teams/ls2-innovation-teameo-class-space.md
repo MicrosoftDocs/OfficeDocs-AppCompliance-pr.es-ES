@@ -2,18 +2,19 @@
 title: Información de la aplicación para el espacio de clase Teameo de LS2 Innovation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/03/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para teameo Class Space, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Teameo Class Space, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 66e9f66c89bcf14cd7dcd3eff22ff300f3ea7050
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 59d5357eff96fe0760730ded4d2c7bff177e1346
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253636"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544738"
 ---
 # <a name="teameo-class-space"></a>Teameo Class Space
 
@@ -21,7 +22,7 @@ ms.locfileid: "62253636"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/ec7d1cd2-2a06-4f96-baa5-1cc88026a835" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/ec7d1cd2-2a06-4f96-baa5-1cc88026a835" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003630" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,13 +34,13 @@ Información proporcionada por LS2 Innovation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Teameo Class Space |
-| Id. | WA200003630 |
+| ID | WA200003630 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | LS2 Innovation |
 | Sitio web de la compañía | [https://teameo.io](https://teameo.io) |
 | Términos de uso de la aplicación | [https://teameo.io/legal/terms-of-service.html](https://teameo.io/legal/terms-of-service.html) |
 | Funcionalidad principal de la aplicación | Teameo Class Space permite a los profesores mostrar los detalles del curso, las aplicaciones y los vínculos. |
-| Ubicación central de la empresa | Canadá |
+| Ubicación central de la empresa | Canada |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
@@ -158,7 +159,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,7 +172,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| AppCatalog.ReadWrite.All | aplicación | Gestion de Teams App pour Espace Num&#233;rique | [05525b77-8ca6-462f-8902-15788cb405c6](https://docs.microsoft.com/microsoft-365-app-certification/azure/05525b77-8ca6-462f-8902-15788cb405c6) |
+>| AppCatalog.ReadWrite.All | aplicación | Gestion de Teams App pour Espace Num&#233;rique | [05525b77-8ca6-462f-8902-15788cb405c6](../azure/05525b77-8ca6-462f-8902-15788cb405c6.md) |
 
 >Esta aplicación no tiene API adicionales.
 

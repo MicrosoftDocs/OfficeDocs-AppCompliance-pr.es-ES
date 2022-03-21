@@ -2,18 +2,19 @@
 title: Información de la aplicación para Jetdocs por Jetdocs
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/28/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Jetdocs, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fadc71dc93834478199183da85b01df210776328
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 8143b96ac361b21e74d4408e8daf324b2f29acf4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63076834"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543958"
 ---
 # <a name="jetdocs"></a>Jetdocs
 
@@ -33,14 +34,14 @@ Información proporcionada por Jetdocs a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Jetdocs |
-| Id. | WA200002236 |
+| ID | WA200002236 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Jetdocs |
 | Sitio web de la compañía | [https://jetdocs.io](https://jetdocs.io) |
 | Términos de uso de la aplicación | [https://jetdocs.io/terms](https://jetdocs.io/terms) |
 | Funcionalidad principal de la aplicación | Jetdocs es la experiencia unificada de los empleados que le permite administrar solicitudes internas, vales, problemas y aprobaciones y enrutarlas al experto adecuado de su organización para facilitar la resolución. La mayoría de las organizaciones tienen dificultades para reunir flujos de trabajo internos y confiar en subprocesos de mensajería largos y bandejas de entrada de grupo. Los equipos de Bizops, TI, operaciones, legales, recursos humanos, finanzas y administración de oficinas son algunos de los equipos de servicio que se benefician de Jetdocs y permiten que su organización escale. |
-| Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Ubicación central de la empresa | Canada |
+| Página de información de la aplicación | [https://jetdocs.io/jetdocs-teams-requests-and-ticketing/](https://jetdocs.io/jetdocs-teams-requests-and-ticketing/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws, Azure |
 
@@ -61,7 +62,7 @@ Jetdocs ha proporcionado esta información sobre cómo esta aplicación recopila
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Correo electrónico, nombre, apellido |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |

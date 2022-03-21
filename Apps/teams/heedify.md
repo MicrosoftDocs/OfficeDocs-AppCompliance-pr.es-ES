@@ -2,18 +2,19 @@
 title: Información de la aplicación para Heedify por Heedify
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Heedify, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Heedify, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 692b53d85d3d4e9e2984147575fdff0a702d193a
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d45ae00313e1b138b72fff8647931a6062955d61
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257806"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543698"
 ---
 # <a name="heedify"></a>Heedify
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257806"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 2, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/0587c0da-1445-4875-a9f3-2b8083b7338f" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/0587c0da-1445-4875-a9f3-2b8083b7338f" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003512" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,12 +34,12 @@ Información proporcionada por Heedify a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Heedify |
-| Id. | WA200003512 |
+| ID | WA200003512 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Heedify |
 | Sitio web de la compañía | [https://heedify.io](https://heedify.io) |
 | Términos de uso de la aplicación | [https://heedify.io/terms](https://heedify.io/terms) |
-| Funcionalidad principal de la aplicación | Operador recepcionista nativo y agente de centro de llamadas para Microsoft Teams. |
+| Funcionalidad principal de la aplicación | Operador recepcionista nativo y agente del centro de llamadas para Microsoft Teams. |
 | Ubicación central de la empresa | Francia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -123,10 +124,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,11 +171,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegado | El recepcionista debe comprobar el calendario de los usuarios antes de transferir una llamada o compartir la información con el cliente por teléfono | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite | delegado | La aplicación debe poder agregar contactos a user(agent) y leer sus contactos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Contacts.ReadWrite.Shared | delegado | la aplicación debe poder agregar contacto compartido con otro usuario (agente) y leer sus contactos compartidos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| Presence.Read.All | delegado | La información de presencia es necesaria para que el agente del centro de contacto administre mejor las llamadas y el contacto, especialmente en el caso de la transferencia de llamadas.  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
->| User.Read.All | delegado | para administrar el contacto, el usuario registrado debe poder examinar a los usuarios y leer su información, incluido su departamento y su administrador (en caso de recepcionista)  | [f3ad2154-7e10-4730-a055-8852ced42d47](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3ad2154-7e10-4730-a055-8852ced42d47) |
+>| Calendars.Read | delegado | El recepcionista debe comprobar el calendario de los usuarios antes de transferir una llamada o compartir la información con el cliente por teléfono | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite | delegado | La aplicación debe poder agregar contactos a user(agent) y leer sus contactos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Contacts.ReadWrite.Shared | delegado | la aplicación debe poder agregar contacto compartido con otro usuario (agente) y leer sus contactos compartidos también  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| Presence.Read.All | delegado | La información de presencia es necesaria para que el agente del centro de contacto administre mejor las llamadas y el contacto, especialmente en el caso de la transferencia de llamadas.  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
+>| User.Read.All | delegado | para administrar el contacto, el usuario registrado debe poder examinar a los usuarios y leer su información, incluido su departamento y su administrador (en caso de recepcionista)  | [f3ad2154-7e10-4730-a055-8852ced42d47](../azure/f3ad2154-7e10-4730-a055-8852ced42d47.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de aplicación para Hi5 de Hi5Technologies
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Hi5, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 534732a91e12817bcdce28524b3ecf4c8f179128
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: a279eee6fac65e3df53e2884618babc658bf45fe
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255766"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63542238"
 ---
 # <a name="hi5"></a>Hi5
 
@@ -21,7 +22,7 @@ ms.locfileid: "62255766"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 21, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/ca334a56-72b5-4613-81d4-77b1148df03c" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/ca334a56-72b5-4613-81d4-77b1148df03c" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001610" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Hi5Technologies a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Hi5 |
-| Id. | WA200001610 |
+| ID | WA200001610 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Hi5Technologies |
 | Sitio web de la compañía | [https://www.get5.io](https://www.get5.io) |
 | Términos de uso de la aplicación | [https://www.get5.io/terms](https://www.get5.io/terms) |
 | Funcionalidad principal de la aplicación | Desbloquea la cultura con reconocimiento y comentarios continuos. Hi5 es una aplicación muy fácil y divertida para que los administradores y compañeros &amp; reciban reconocimiento. ¿&#8217;ha hecho un gran trabajo? Es&#8217;sencillo: darles un Hi5 y compartir la celebración del éxito. Los miembros del equipo pueden dar reconocimiento de punto a punto o de equipo, ver la tabla de clasificación hi5 y mucho más |
 | Ubicación central de la empresa | Sudáfrica |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://help.get5.io](https://help.get5.io) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Hi5Technologies ha proporcionado esta información sobre cómo esta aplicación 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,11 +161,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| correo electrónico | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| offline_access | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| OpenID | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
->| perfil | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](https://docs.microsoft.com/microsoft-365-app-certification/azure/7cb50e3e-0427-409e-90d2-638eb28217c3) |
+>| User.Read | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| correo electrónico | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| offline_access | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| OpenID | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
+>| perfil | delegado | Solo almacenamos la información de sesión de los usuarios Teams y el usuario debe aprobarlo agregando notificaciones (pueden quitar esto en cualquier momento). No se almacena ninguna otra información. | [7cb50e3e-0427-409e-90d2-638eb28217c3](../azure/7cb50e3e-0427-409e-90d2-638eb28217c3.md) |
 
 >Esta aplicación no tiene API adicionales.
 

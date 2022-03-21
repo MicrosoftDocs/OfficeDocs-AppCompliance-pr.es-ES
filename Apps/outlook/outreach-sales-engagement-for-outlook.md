@@ -1,19 +1,20 @@
 ---
-title: Información de la aplicación para la participación de ventas de alcance Outlook por Outreach
+title: Información de la aplicación para la participación en ventas de alcance Outlook por Alcance
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Outreach Sales Engagement para Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 12b251dafba5d1678ece4ae37e9b1eab085da4fe
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d2564746d08324c40eede79b4b383bf93b932fb8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62254146"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544608"
 ---
 # <a name="outreach-sales-engagement-for-outlook"></a>Engagement de ventas de alcance para Outlook
 
@@ -32,15 +33,16 @@ Información proporcionada por Outreach a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Engagement de ventas de alcance para Outlook |
-| Id. | WA104381052 |
+| ID | WA104381052 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | Alcance |
 | Sitio web de la compañía | [https://www.outreach.io](https://www.outreach.io) |
 | Términos de uso de la aplicación | [https://www.outreach.io/terms](https://www.outreach.io/terms) |
-| Funcionalidad principal de la aplicación | El alcance es la plataforma de compromiso de ventas más grande y de más rápido crecimiento que ayuda a las empresas a aumentar considerablemente la productividad e impulsar una interacción más inteligente y más perspicaz con sus clientes. Desde la automatización de ventas, hasta la inteligencia de conversación, el análisis de opiniones del comprador, los informes de rendimiento del equipo&#8212; y mucho más&#8212; Outreach es una plataforma de compromiso de ventas integrada que ayuda a los representantes y líderes de ventas a aumentar la productividad, generar más oportunidades de ventas y superar sus objetivos de ventas |
+| Funcionalidad principal de la aplicación | El alcance es la plataforma de compromiso de ventas más grande y de más rápido crecimiento que ayuda a las empresas a aumentar considerablemente la productividad e impulsar una interacción más inteligente y más perspicaz con sus clientes. Desde automatización de ventas, inteligencia de conversación, análisis de opiniones del comprador, informes de rendimiento del equipo&#8212; y mucho más&#8212; Outreach es una plataforma de participación de ventas integrada que ayuda a los representantes y líderes de ventas a aumentar la productividad, generar más oportunidades de ventas y superar sus objetivos de ventas |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.outreach.io/product](https://www.outreach.io/product) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, GCP, AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Outreach ha proporcionado esta información sobre cómo esta aplicación recopil
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en 3months |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -119,7 +114,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | Sí |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | Sí |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
@@ -152,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

@@ -2,18 +2,19 @@
 title: Información de la aplicación para el conector de confluencia por MWF por Move Work Forward
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Confluence Connector by MWF, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 21c6474d5b21537a4ff04705fd16b760d6698b73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: aed26fd2aa3bc10316447f31e01e3fd53e0525b8
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251036"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544328"
 ---
 # <a name="confluence-connector-by-mwf"></a>Connector de confluencia MWF
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251036"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 14, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/3c9fd7ca-5386-4179-9bb7-7fcdcc373017" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/3c9fd7ca-5386-4179-9bb7-7fcdcc373017" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001604" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Move Work Forward to Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Connector de confluencia MWF |
-| Id. | WA200001604 |
+| ID | WA200001604 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Avance el trabajo |
 | Sitio web de la compañía | [https://www.moveworkforward.com](https://www.moveworkforward.com) |
 | Términos de uso de la aplicación | [https://www.moveworkforward.com/license-agreement/eula](https://www.moveworkforward.com/license-agreement/eula) |
-| Funcionalidad principal de la aplicación | La integración final de La confluencia atlassiana con Microsoft Teams |
+| Funcionalidad principal de la aplicación | La integración final de la confluencia atlassiana con Microsoft Teams |
 | Ubicación central de la empresa | Singapur |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.moveworkforward.com/product/microsoft-teams-con...](https://www.moveworkforward.com/product/microsoft-teams-confluence-connector) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -57,14 +58,7 @@ Move Work Forward proporciona esta información sobre cómo esta aplicación rec
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -155,7 +149,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,11 +162,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.ReadBasic.All | delegado | Para obtener la lista de canales de las páginas de configuración para enviar notificaciones a un canal. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| Teams.ReadBasic.All | delegado | Para obtener la lista de equipos de páginas de configuración para enviar notificaciones a un canal de un equipo. | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| TeamsAppInstallation.ReadForTeam | delegado | Para averiguar los equipos donde está instalado Confluence Connector | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| User.Read | delegado | Para leer información básica del usuario | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
->| correo electrónico | delegado | Para mejorar la asignación de cuentas entre Microsoft y Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3943662-e828-40ed-9c6e-369680fe421f) |
+>| Channel.ReadBasic.All | delegado | Para obtener la lista de canales de las páginas de configuración para enviar notificaciones a un canal. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| Teams.ReadBasic.All | delegado | Para obtener la lista de equipos de páginas de configuración para enviar notificaciones a un canal de un equipo. | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| TeamsAppInstallation.ReadForTeam | delegado | Para averiguar los equipos donde está instalado Confluence Connector | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| User.Read | delegado | Para leer información básica del usuario | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
+>| correo electrónico | delegado | Para mejorar la asignación de cuentas entre Microsoft y Atlassian | [f3943662-e828-40ed-9c6e-369680fe421f](../azure/f3943662-e828-40ed-9c6e-369680fe421f.md) |
 
 >Esta aplicación no tiene API adicionales.
 

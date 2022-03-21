@@ -2,18 +2,19 @@
 title: Información de la aplicación para Natterhub por Natterhub
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Natterhub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fd0c03b20732f7f83d9d6738779f011a4272d6db
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 8cce96e9f542f1b9ed160f9cfb83b01c073f8239
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62256496"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544308"
 ---
 # <a name="natterhub"></a>Natterhub
 
@@ -21,7 +22,7 @@ ms.locfileid: "62256496"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 26, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/ba5cb8a1-85ca-426c-99fe-9b73cca34128" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/ba5cb8a1-85ca-426c-99fe-9b73cca34128" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003420" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Natterhub a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Natterhub |
-| Id. | WA200003420 |
+| ID | WA200003420 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Natterhub |
 | Sitio web de la compañía | [https://natterhub.com](https://natterhub.com) |
 | Términos de uso de la aplicación | [https://natterhub.com/legal](https://natterhub.com/legal) |
 | Funcionalidad principal de la aplicación | Natterhub es un centro de educación multimedia y seguridad en línea. Diseñado para enseñar a los alumnos de entre 5 y 11 años a ser seguros y expertos en línea, Natterhub usa una plataforma de estilo de redes sociales envolvente y cerrada con actividades y lecciones interactivas impactantes. |
 | Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://natterhub.com](https://natterhub.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -126,7 +127,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -158,7 +159,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,12 +172,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| EduAssignments.ReadWrite | delegado | Necesario para crear envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| User.Read | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| correo electrónico | delegado | Se requiere este permiso para que el usuario pueda recibir correos electrónicos transaccionales | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| offline_access | delegado | Necesario para enviar envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| OpenID | delegado | Necesario para identificar al usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
->| perfil | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](https://docs.microsoft.com/microsoft-365-app-certification/azure/54cd93cb-c60e-43b7-bbee-686a2b241794) |
+>| EduAssignments.ReadWrite | delegado | Necesario para crear envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| User.Read | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| correo electrónico | delegado | Se requiere este permiso para que el usuario pueda recibir correos electrónicos transaccionales | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| offline_access | delegado | Necesario para enviar envíos de asignación | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| OpenID | delegado | Necesario para identificar al usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
+>| perfil | delegado | Necesario para leer el nombre y el apellido del usuario | [54cd93cb-c60e-43b7-bbee-686a2b241794](../azure/54cd93cb-c60e-43b7-bbee-686a2b241794.md) |
 
 >Esta aplicación no tiene API adicionales.
 

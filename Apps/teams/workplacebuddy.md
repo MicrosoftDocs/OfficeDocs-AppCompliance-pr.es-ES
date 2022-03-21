@@ -2,18 +2,19 @@
 title: Información de la aplicación para WorkplaceBuddy por WorkplaceBuddy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para WorkplaceBuddy, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para WorkplaceBuddy, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ba96ce620f58ccc26067da6fee9b2e3b68c5667d
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ef5a4cc2333c4e9ec434733306606661caa10c4a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62264546"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543338"
 ---
 # <a name="workplacebuddy"></a>WorkplaceBuddy
 
@@ -21,7 +22,7 @@ ms.locfileid: "62264546"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/6fef6052-d84d-4071-b679-8b542512a621" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/6fef6052-d84d-4071-b679-8b542512a621" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001238" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por WorkplaceBuddy a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | WorkplaceBuddy |
-| Id. | WA200001238 |
+| ID | WA200001238 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | WorkplaceBuddy |
 | Sitio web de la compañía | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | Términos de uso de la aplicación | [https://www.workplacebuddy.com/terms-of-use.pdf](https://www.workplacebuddy.com/terms-of-use.pdf) |
 | Funcionalidad principal de la aplicación | WorkplaceBuddy le ayuda a ser más productivo |
 | Ubicación central de la empresa | Países Bajos (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.workplacebuddy.com](https://www.workplacebuddy.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ WorkplaceBuddy ha proporcionado esta información sobre cómo esta aplicación r
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en 3months |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +100,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,10 +161,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| Group.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.Read | delegado | Sincronizamos estos datos para permitir que los usuarios inicien sesión | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
->| User.ReadBasic.All | delegado | Sincronizamos estos datos para permitir que los usuarios inicien sesión | [39073da9-c47c-4da8-b57a-3786461db8f4](https://docs.microsoft.com/microsoft-365-app-certification/azure/39073da9-c47c-4da8-b57a-3786461db8f4) |
+>| Directory.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| Group.Read.All | delegado | Sincronizamos estos datos para permitir que las pestañas workplaceBuddy en Teams funcionen y para dirigirnos a usuarios específicos con el chatbot | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.Read | delegado | Sincronizamos estos datos para permitir que los usuarios inicien sesión | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
+>| User.ReadBasic.All | delegado | Sincronizamos estos datos para permitir que los usuarios inicien sesión | [39073da9-c47c-4da8-b57a-3786461db8f4](../azure/39073da9-c47c-4da8-b57a-3786461db8f4.md) |
 
 >Esta aplicación no tiene API adicionales.
 

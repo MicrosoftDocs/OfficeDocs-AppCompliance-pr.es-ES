@@ -2,18 +2,19 @@
 title: Información de aplicaciones para GuineaPig por GuineaPig Health Technologies AB
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/20/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para GuineaPig, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para GuineaPig, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: dbd872c0f919c8141d41771470546a5b75ae56b0
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: bfbb46e2fa94292848778af8fa76a6596fd8276a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62257826"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63543948"
 ---
 # <a name="guineapig"></a>GuineaPig
 
@@ -21,7 +22,7 @@ ms.locfileid: "62257826"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: October 29, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/75b23a20-bc91-4485-b4a4-a156fe37fe9b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/75b23a20-bc91-4485-b4a4-a156fe37fe9b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003486" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por GuineaPig Health Technologies AB a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | GuineaPig |
-| Id. | WA200003486 |
+| ID | WA200003486 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | GuineaPig Health Technologies AB |
 | Sitio web de la compañía | [https://guineapig.app](https://guineapig.app) |
 | Términos de uso de la aplicación | [https://www.guineapig.app/terms-and-conditions](https://www.guineapig.app/terms-and-conditions) |
 | Funcionalidad principal de la aplicación | GuineaPig ayuda a su equipo a mantenerse saludable, &amp; contento y comprometido con clases de fitness a petición y cortas pausas del trabajo. |
 | Ubicación central de la empresa | Suecia |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://guineapig.app](https://guineapig.app) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
 
@@ -126,7 +127,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,9 +158,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | No |
@@ -170,7 +171,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | We're using User.Read to read information like the user's name to use it in our Chat and Tabs, etc. Visite esta https://www.guineapig.app/privacy-policy página para obtener una descripción detallada. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](https://docs.microsoft.com/microsoft-365-app-certification/azure/d6a2090f-1447-456b-bd5f-121e4efd8c89) |
+>| User.Read | delegado | We're using User.Read to read information like the user's name to use it in our Chat and Tabs, etc. Visite esta https://www.guineapig.app/privacy-policy página para obtener una descripción detallada. | [d6a2090f-1447-456b-bd5f-121e4efd8c89](../azure/d6a2090f-1447-456b-bd5f-121e4efd8c89.md) |
 
 >Esta aplicación no tiene API adicionales.
 
