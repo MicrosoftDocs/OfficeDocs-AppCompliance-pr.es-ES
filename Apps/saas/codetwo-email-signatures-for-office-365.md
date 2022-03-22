@@ -2,18 +2,19 @@
 title: Información de aplicación para firmas de correo electrónico codeTwo Office 365 por CodeTwo
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las firmas de correo electrónico de CodeTwo para Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 84b557eb3ae79dcc747bb4d3d1492e2963a13da1
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: 4662ec055aa9c74c091d8a2dffc648215bd5e676
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63080084"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546148"
 ---
 # <a name="codetwo-email-signatures-for-office-365"></a>Firmas de correo electrónico codeTwo para Office 365
 
@@ -32,13 +33,13 @@ Información proporcionada por CodeTwo a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Firmas de correo electrónico codeTwo para Office 365 |
-| Id. | codetwo.3d2daeb9-a008-4070-a35c-cda39bd30a69 |
+| ID | codetwo.3d2daeb9-a008-4070-a35c-cda39bd30a69 |
 | Nombre de la compañía asociada | CodeTwo |
 | Sitio web de la compañía | [https://www.codetwo.com](https://www.codetwo.com) |
 | Términos de uso de la aplicación | [https://www.codetwo.com/license-agreement](https://www.codetwo.com/license-agreement) |
 | Funcionalidad principal de la aplicación | CodeTwo Email Signatures for Office 365 es un servicio en la nube basado en Azure que agrega firmas automáticas de correo electrónico, declinaciones de responsabilidades legales y personalización de marca a los mensajes enviados desde cualquier dispositivo cliente de &amp; correo electrónico. Permite que una persona (un administrador o un usuario delegado) o un equipo administren centralmente firmas de correo electrónico en una Microsoft 365 (Office 365). Las firmas se pueden agregar en la nube (después de enviar correos electrónicos) o directamente en Outlook como escriben los usuarios. |
 | Ubicación central de la empresa | Polonia |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.codetwo.com/email-signatures/](https://www.codetwo.com/email-signatures/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -59,7 +60,7 @@ CodeTwo ha proporcionado esta información sobre cómo esta aplicación recopila
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Datos de perfiles de usuario |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 90 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -168,16 +169,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite a la aplicación leer el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea la información empresarial básica de los usuarios que han iniciado sesión. | [2a93620e-4345-4e3b-9bae-0195f08aab69](https://docs.microsoft.com/microsoft-365-app-certification/azure/2a93620e-4345-4e3b-9bae-0195f08aab69) |
->| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite a la aplicación leer el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea la información empresarial básica de los usuarios que han iniciado sesión. | [7afd058a-f568-4496-96b1-28d06ab3500f](https://docs.microsoft.com/microsoft-365-app-certification/azure/7afd058a-f568-4496-96b1-28d06ab3500f) |
->| Directory.AccessAsUser.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| Directory.Read.All | ambos | Permite que la aplicación lea datos en el directorio&#8217;de la organización, como usuarios, grupos y aplicaciones. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.ReadBasic.All | delegado | Permite a la aplicación leer un conjunto básico de propiedades del perfil de otros usuarios de su organización en nombre del usuario que inició la sesión. Esto incluye el nombre para mostrar, el nombre y el apellido, la dirección de correo electrónico y la foto. La información se usa para personalizar automáticamente las firmas de correo electrónico de los usuarios. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](https://docs.microsoft.com/microsoft-365-app-certification/azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b) |
->| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea información básica de la empresa de los usuarios que han iniciado sesión. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| correo electrónico | delegado | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| offline_access | delegado | Permite que la aplicación vea y actualice los datos a los que le dio acceso, incluso cuando los usuarios no estén usando actualmente la aplicación. Esto no concede a la aplicación permisos adicionales. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| OpenID | delegado | Permite que los usuarios inicien sesión en la aplicación con sus cuentas profesionales o educativas y permite que la aplicación vea la información básica del perfil del usuario. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
->| perfil | delegado | Permite que la aplicación vea el perfil básico de los usuarios (nombre, imagen, nombre de usuario). Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](https://docs.microsoft.com/microsoft-365-app-certification/azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d) |
+>| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite a la aplicación leer el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea la información empresarial básica de los usuarios que han iniciado sesión. | [2a93620e-4345-4e3b-9bae-0195f08aab69](../azure/2a93620e-4345-4e3b-9bae-0195f08aab69.md) |
+>| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite a la aplicación leer el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea la información empresarial básica de los usuarios que han iniciado sesión. | [7afd058a-f568-4496-96b1-28d06ab3500f](../azure/7afd058a-f568-4496-96b1-28d06ab3500f.md) |
+>| Directory.AccessAsUser.All | delegado | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| Directory.Read.All | ambos | Permite que la aplicación lea datos en el directorio&#8217;de la organización, como usuarios, grupos y aplicaciones. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.ReadBasic.All | delegado | Permite a la aplicación leer un conjunto básico de propiedades del perfil de otros usuarios de su organización en nombre del usuario que inició la sesión. Esto incluye el nombre para mostrar, el nombre y el apellido, la dirección de correo electrónico y la foto. La información se usa para personalizar automáticamente las firmas de correo electrónico de los usuarios. | [cb657bc2-9910-4b9c-82a0-6f4f3a47006b](../azure/cb657bc2-9910-4b9c-82a0-6f4f3a47006b.md) |
+>| User.Read | delegado | Permite a los usuarios iniciar sesión en la aplicación y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión. También permite que la aplicación lea información básica de la empresa de los usuarios que han iniciado sesión. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| correo electrónico | delegado | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| offline_access | delegado | Permite que la aplicación vea y actualice los datos a los que le dio acceso, incluso cuando los usuarios no estén usando actualmente la aplicación. Esto no concede a la aplicación permisos adicionales. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| OpenID | delegado | Permite que los usuarios inicien sesión en la aplicación con sus cuentas profesionales o educativas y permite que la aplicación vea la información básica del perfil del usuario. Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
+>| perfil | delegado | Permite que la aplicación vea el perfil básico de los usuarios (nombre, imagen, nombre de usuario). Se usa para registrar al usuario en el servicio CodeTwo. | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](../azure/ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) |
 
 >Esta aplicación no tiene API adicionales.
 

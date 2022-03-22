@@ -2,18 +2,19 @@
 title: Información de la aplicación para uploader por officeatwork
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toda la información de seguridad y cumplimiento disponible para Uploader, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Uploader, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cd4adc4d8a140c5adb664963ae66c0755d60b088
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 09a2cabd65278b57393ee4db46c3857a629bee19
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251216"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545548"
 ---
 # <a name="uploader"></a>Usuario de carga
 
@@ -31,13 +32,13 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Usuario de carga |
-| Id. | officeatwork-ag.uploader |
+| ID | officeatwork-ag.uploader |
 | Nombre de la compañía asociada | officeatwork |
 | Sitio web de la compañía | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Términos de uso de la aplicación | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
 | Funcionalidad principal de la aplicación | Upload actualizar el contenido compartido que se puede volver a usar en bibliotecas de contenido directamente desde dentro de Office. |
 | Ubicación central de la empresa | Suiza |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -56,14 +57,7 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +99,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -123,7 +117,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -154,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No aplicable |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,15 +162,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.ReadWrite.All | delegado | Habilitar favoritos, OneDrive característica y carga de archivos | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| Group.ReadWrite.All | delegado | Habilitar Teams característica | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| GroupMember.Read.All | delegado | Habilitar Teams característica | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| Sites.Read.All | delegado | Lea los archivos almacenados en SharePoint | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| OpenID | delegado | Habilitar el inicio de sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
->| perfil | delegado | Habilitar el inicio de sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](https://docs.microsoft.com/microsoft-365-app-certification/azure/f5c9f179-b9a5-4364-8f99-18d203b902ad) |
+>| Files.ReadWrite.All | delegado | Habilitar favoritos, OneDrive característica y carga de archivos | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| Group.ReadWrite.All | delegado | Habilitar Teams característica | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| GroupMember.Read.All | delegado | Habilitar Teams característica | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| Sites.Read.All | delegado | Lea los archivos almacenados en SharePoint | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| User.Read | delegado | Habilitar la visualización del usuario que ha iniciado sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| User.Read.All | delegado | Habilitar la visualización de propiedades de usuario | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| offline_access | delegado | Habilitar el inicio de sesión automatizado para hosts Office antiguos | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| OpenID | delegado | Habilitar el inicio de sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
+>| perfil | delegado | Habilitar el inicio de sesión | [f5c9f179-b9a5-4364-8f99-18d203b902ad](../azure/f5c9f179-b9a5-4364-8f99-18d203b902ad.md) |
 
 >Esta aplicación no tiene API adicionales.
 

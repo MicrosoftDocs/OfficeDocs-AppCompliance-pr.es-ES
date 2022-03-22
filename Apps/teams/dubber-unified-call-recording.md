@@ -1,27 +1,28 @@
 ---
-title: Información de la aplicación para la grabación de llamadas unificadas de Dubber por Dubber
+title: Información de la aplicación para la grabación de llamadas unificadas de doblaje de Dubber
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para el registro unificado de llamadas de Dubber, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el registro de llamadas unificado de Dubber, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eec69f5594f642432bbb79830b69428f5c6d16f3
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 4c80e50a43abe71a1ca67d93ec9039a3c3357d22
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149121"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544958"
 ---
-# <a name="dubber-unified-call-recording"></a>Grabación de llamada unificada Nubber
+# <a name="dubber-unified-call-recording"></a>Grabación de la llamada unificada Dubber
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 3, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f31b8e05-b927-4874-851e-997264d13151" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f31b8e05-b927-4874-851e-997264d13151" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003570" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,17 +33,16 @@ Información proporcionada por Dubber a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Grabación de llamada unificada Nubber |
-| Id. | WA200003570 |
+| Nombre de la aplicación | Grabación de la llamada unificada Dubber |
+| ID | WA200003570 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Torero |
 | Sitio web de la compañía | [https://www.dubber.net](https://www.dubber.net) |
 | Términos de uso de la aplicación | [https://www.dubber.net/terms](https://www.dubber.net/terms) |
-| Funcionalidad principal de la aplicación | Inteligencia artificial de voz de grabación &amp; de llamadas en la nube unificada para el cumplimiento y el rendimiento del servicio de &amp; ventas |
+| Funcionalidad principal de la aplicación | Inteligencia artificial de voz de grabación de &amp; llamadas en la nube unificada para el cumplimiento y el rendimiento del &amp; servicio de ventas |
 | Ubicación central de la empresa | Australia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

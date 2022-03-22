@@ -2,18 +2,19 @@
 title: Información de la aplicación para Sheetgo de SHEETGO EUROPE SL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Sheetgo, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 96f6d9645f7cc2ad601e0d366b5a73e7119e0aee
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 625079885956c18847f3fb1b0032b7dc57b0134c
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148610"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546918"
 ---
 # <a name="sheetgo"></a>Sheetgo
 
@@ -32,14 +33,14 @@ Información proporcionada por SHEETGO EUROPE SL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sheetgo |
-| Id. | WA200002128 |
+| ID | WA200002128 |
 | Office 365 clientes compatibles | Excel 2016 o posterior en Mac, Excel 2016 o posterior en Windows, Excel en la Web |
 | Nombre de la compañía asociada | SHEETGO EUROPE SL |
 | Sitio web de la compañía | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | Términos de uso de la aplicación | [https://www.sheetgo.com/legal/terms/](https://www.sheetgo.com/legal/terms/) |
 | Funcionalidad principal de la aplicación | Sheetgo es una plataforma de automatización de flujos de trabajo que permite a los usuarios conectar hojas de cálculo en línea y crear sistemas automatizados de administración de datos. La aplicación web Sheetgo proporciona una plataforma para crear y administrar flujos de trabajo, junto con una amplia variedad de plantillas. El complemento Sheetgo para Excel y el complemento para Hojas de cálculo de Google permiten a los usuarios conectarse y automatizarse directamente dentro de una hoja de cálculo, y la aplicación Teams permite a los creadores de flujos de trabajo compartir sus archivos conectados con compañeros en canales y chats de grupo. |
 | Ubicación central de la empresa | España |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.sheetgo.com](https://www.sheetgo.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
 
@@ -123,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para UserVoice, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0abf55a4dbed692837abab9beaa3ef01426b9991
-ms.sourcegitcommit: 6f2370c0eb79cc4acc9b53b2215b7a61c2ab30d6
+ms.openlocfilehash: b815858d1846f5388114a3c0c3329f4d54b97f06
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/17/2022
-ms.locfileid: "63563697"
+ms.locfileid: "63547238"
 ---
 # <a name="uservoice"></a>UserVoice
 
@@ -37,11 +37,11 @@ Información proporcionada por UserVoice a Microsoft:
 | ID | WA200001944 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | UserVoice |
-| Sitio web de la compañía | N/D |
-| Términos de uso de la aplicación | No aplicable |
+| Sitio web de la compañía | [https://www.uservoice.com](https://www.uservoice.com) |
+| Términos de uso de la aplicación | [https://www.uservoice.com/tos](https://www.uservoice.com/tos) |
 | Funcionalidad principal de la aplicación | Obtén actualizaciones en tiempo real en el programa de comentarios del producto en Microsoft Teams. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | N/D |
+| Página de información de la aplicación | [https://help.uservoice.com/hc/en-us/articles/360052330913-M...](https://help.uservoice.com/hc/en-us/articles/360052330913-Microsoft-Teams-Integration) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
 

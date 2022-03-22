@@ -2,18 +2,19 @@
 title: Información de la aplicación para entrenamiento de Cuco de Cuckoo Networks Oy
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para El entrenamiento de Cuco, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para El entrenamiento de Cuco, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f0f7c645b26737b397737d0d8c09477cab37b2fd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: e97d071b9159dc898f16839233459a39b735bf6b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261326"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544988"
 ---
 # <a name="cuckoo-workout"></a>Cuckoo Workout
 
@@ -21,7 +22,7 @@ ms.locfileid: "62261326"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 3, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/71138876-8738-4935-95b6-ae7c2fbe4e54" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/71138876-8738-4935-95b6-ae7c2fbe4e54" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002750" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Cuckoo Networks Oy a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Cuckoo Workout |
-| Id. | WA200002750 |
+| ID | WA200002750 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Cuckoo Networks Oy |
 | Sitio web de la compañía | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | Términos de uso de la aplicación | [https://cuckooworkout.com/terms-of-service/](https://cuckooworkout.com/terms-of-service/) |
 | Funcionalidad principal de la aplicación | Ejercicios de microrrelatos divertidos y fáciles y gamificados para aumentar la energía y el cerebro. |
 | Ubicación central de la empresa | Finlandia |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://cuckooworkout.com](https://cuckooworkout.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
@@ -108,8 +109,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -124,7 +125,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -169,11 +170,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Nombre de usuario, identificador de inquilino para comunicaciones y asignación de suscripción | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| correo electrónico | delegado | Correo electrónico, necesario para autenticación y soporte técnico | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| offline_access | delegado | No aplicable | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| OpenID | delegado | Id. de usuario para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
->| perfil | delegado | Id. de perfil para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](https://docs.microsoft.com/microsoft-365-app-certification/azure/71138876-8738-4935-95b6-ae7c2fbe4e54) |
+>| User.Read | delegado | Nombre de usuario, identificador de inquilino para comunicaciones y asignación de suscripción | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| correo electrónico | delegado | Correo electrónico, necesario para autenticación y soporte técnico | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| offline_access | delegado | N/D | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| OpenID | delegado | Id. de usuario para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
+>| perfil | delegado | Id. de perfil para autenticación | [71138876-8738-4935-95b6-ae7c2fbe4e54](../azure/71138876-8738-4935-95b6-ae7c2fbe4e54.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para SlideHub por nomorehours
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/29/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para SlideHub, sus directivas de tratamiento de datos, su Microsoft Cloud App Security del catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para SlideHub, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0a8f6380a952305141bc13bfe03df52f3c209a21
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 074bf49ca573e6d8ce5797bce9f14daa42f88a39
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62261626"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545208"
 ---
 # <a name="slidehub"></a>SlideHub
 
@@ -32,15 +33,16 @@ Información proporcionada por nomorehours a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SlideHub |
-| Id. | WA200001625 |
+| ID | WA200001625 |
 | Office 365 clientes compatibles | PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2013 o posterior en Windows |
 | Nombre de la compañía asociada | nomorehours |
 | Sitio web de la compañía | [https://nomorehours.com](https://nomorehours.com) |
 | Términos de uso de la aplicación | [https://nomorehours.com/eula](https://nomorehours.com/eula) |
-| Funcionalidad principal de la aplicación | NoMore proporciona a los usuarios empresariales PowerPoint servicios de diseño y un complemento PowerPoint ambos dirigidos a hacerlos más eficientes en PowerPoint. Como parte del servicio de diseño, NoMore convierte borradores aproximados en diapositivas listas para el cliente en tan solo 8 horas. El complemento ayuda a tener acceso al servicio con mayor rapidez, pero también permite a los usuarios tener acceso a diseños de diapositivas predefinidos y a una biblioteca de diapositivas específica de la empresa, así como un kit de herramientas de consultoría de &#8220;&#8221; que contiene diferentes herramientas de productividad. |
+| Funcionalidad principal de la aplicación | NoMore proporciona a los usuarios empresariales PowerPoint de diseño y un complemento PowerPoint ambos dirigidos a hacerlos más eficientes en PowerPoint. Como parte del servicio de diseño, NoMore convierte borradores aproximados en diapositivas listas para el cliente en tan solo 8 horas. El complemento ayuda a obtener acceso al servicio con mayor rapidez, pero también permite a los usuarios tener acceso a diseños de diapositivas predefinidos y a una biblioteca de diapositivas específica de la empresa, así como un kit de herramientas de consultoría de &#8220;&#8221; que contiene diferentes herramientas de productividad. |
 | Ubicación central de la empresa | Dinamarca |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://nomorehours.com](https://nomorehours.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -55,14 +57,7 @@ Nomorehours ha proporcionado esta información sobre cómo esta aplicación reco
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -104,7 +99,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -115,12 +110,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -152,7 +147,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -165,7 +160,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | aplicación | correo electrónico y nombre. El correo electrónico se usa como nombre de usuario en la aplicación. Recopilar el correo electrónico puede ayudar a registrar e iniciar sesión en la aplicación más rápido. El nombre se usa en el caso de un evento de registro. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](https://docs.microsoft.com/microsoft-365-app-certification/azure/33ccef75-8248-44e8-88d3-24526ca9c2d3) |
+>| User.Read | aplicación | correo electrónico y nombre. El correo electrónico se usa como nombre de usuario en la aplicación. Recopilar el correo electrónico puede ayudar a registrar e iniciar sesión en la aplicación más rápido. El nombre se usa en el caso de un evento de registro. | [33ccef75-8248-44e8-88d3-24526ca9c2d3](../azure/33ccef75-8248-44e8-88d3-24526ca9c2d3.md) |
 
 >Esta aplicación no tiene API adicionales.
 

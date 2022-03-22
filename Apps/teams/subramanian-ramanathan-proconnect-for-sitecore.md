@@ -2,18 +2,19 @@
 title: Información de la aplicación para Proconnect para Sitecore por Subramanian Ramanathan
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/24/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Proconnect para Sitecore, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Proconnect para Sitecore, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0b2861bf05a54d4a2019c32959f0c76a6a02f383
-ms.sourcegitcommit: b7af2c971853a45d85f0039bd73c2ed95e958a80
+ms.openlocfilehash: 891f256a2cf6a340b48dc5a876152af277de1c5b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62198033"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545948"
 ---
 # <a name="proconnect-for-sitecore"></a>Proconnect for Sitecore
 
@@ -21,7 +22,7 @@ ms.locfileid: "62198033"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 22, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/a87fd06b-7e73-4374-ba75-4545b2470706" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/a87fd06b-7e73-4374-ba75-4545b2470706" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003274" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,13 +34,13 @@ Información proporcionada por Subramanian Ramanathan a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Proconnect for Sitecore |
-| Id. | WA200003274 |
-| Office 365 clientes compatibles | Microsoft Teams |
+| ID | WA200003274 |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Subramanian Ramanathan |
 | Sitio web de la compañía | [https://subbu.ca](https://subbu.ca) |
 | Términos de uso de la aplicación | [https://github.com/SubbuRamanathan/sitecore-microsoft-teams...](https://github.com/SubbuRamanathan/sitecore-microsoft-teams-integration/blob/main/terms-of-use.md) |
-| Funcionalidad principal de la aplicación | Mejora la experiencia de creación de contenido con alertas instantáneas sobre las actualizaciones de &amp; publicación de flujo de trabajo. Este conector también incluye acciones apropiadas para las alertas, lo que permite a los autores de contenido realizar su trabajo con mayor rapidez. Este conector establece transparencia en la comunicación y también incluye información sobre el rendimiento del sitio o página. |
-| Ubicación central de la empresa | Canadá |
+| Funcionalidad principal de la aplicación | Mejora la experiencia de creación de contenido con alertas instantáneas sobre las actualizaciones de publicación &amp; de flujo de trabajo. Este conector también incluye acciones apropiadas para las alertas, lo que permite a los autores de contenido realizar su trabajo con mayor rapidez. Este conector establece transparencia en la comunicación y también incluye información sobre el rendimiento del sitio o página. |
+| Ubicación central de la empresa | Canada |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Híbrido |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Other |
@@ -57,14 +58,7 @@ Esta información ha sido proporcionada por Subramanian Ramanathan sobre cómo e
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +66,7 @@ Esta información ha sido proporcionada por Subramanian Ramanathan sobre cómo e
 
 ::: zone pivot="security"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se [muestra información del catálogo de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) .
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -106,9 +100,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
 | ¿Qué certificación SOC 2 ha logrado? |  type2 |
@@ -122,9 +116,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -154,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

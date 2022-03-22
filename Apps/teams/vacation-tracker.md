@@ -2,18 +2,19 @@
 title: Información de la aplicación para el rastreador de vacaciones de Vacation Tracker
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vacation Tracker, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: bd7fc61e757600d1d1d87d09e3f67e9ade0546ba
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 3b8b92ed24e229982eac3edbda8b59b19e281a7b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251636"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63546318"
 ---
 # <a name="vacation-tracker"></a>Vacation Tracker
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251636"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: September 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/eab5463e-8168-40ee-887a-7ac78de1d266" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/eab5463e-8168-40ee-887a-7ac78de1d266" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002167" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Vacation Tracker a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Vacation Tracker |
-| Id. | WA200002167 |
+| ID | WA200002167 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Vacation Tracker |
 | Sitio web de la compañía | [https://vacationtracker.io](https://vacationtracker.io) |
 | Términos de uso de la aplicación | [https://vacationtracker.io/terms-of-service/](https://vacationtracker.io/terms-of-service/) |
 | Funcionalidad principal de la aplicación | Vacation Tracker es una herramienta que permite a las empresas realizar un seguimiento de las hojas de sus organizaciones. Hay un panel web para que los administradores configuren la configuración de la organización. Los empleados también pueden realizar solicitudes y revisar sus cuotas en el panel. Además, los empleados pueden realizar solicitudes y los aprobadores pueden aprobar o denegar solicitudes a través Microsoft Teams bot o pestaña. |
-| Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Ubicación central de la empresa | Canada |
+| Página de información de la aplicación | [https://vacationtracker.io/vacation-calendar-tracker-featur...](https://vacationtracker.io/vacation-calendar-tracker-features/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
@@ -124,7 +125,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -169,15 +170,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Read.All | delegado | Leemos los nombres y los nombres de los canales públicos cuando los usuarios establecen sus notificaciones semanales o diarias. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| Team.ReadBasic.All | delegado | Enumeramos el usuario Microsoft Teams teams unidos durante el registro para permitir a los usuarios seleccionar un equipo al que desean registrarse en Vacation Tracker. También pueden registrarse con toda la organización. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.Read.All | delegado | Nuestros usuarios pueden importar todos los usuarios de su Microsoft 365 organización o Microsoft Teams equipo. Usamos este permiso para importar solo usuarios con licencia para un equipo u organización Microsoft Teams seleccionado. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| User.ReadBasic.All | delegado | Permitimos que los usuarios importen los demás usuarios de su organización o su Microsoft Teams usuario. Usamos este permiso para enumerar los usuarios disponibles y sus direcciones de correo electrónico en el elemento emergente de importación. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| correo electrónico | delegado | Cuando el usuario inicia sesión con Microsoft AAD, almacenamos su dirección de correo electrónico como un identificador único. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| offline_access | delegado | No recopilamos datos con este permiso. Se usa para mantener el acceso a los datos a los que tenemos permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| OpenID | delegado | Usamos este permiso para iniciar sesión o registrar usuarios en Vacation Tracker. No recopilamos datos específicos con este permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
->| perfil | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](https://docs.microsoft.com/microsoft-365-app-certification/azure/eab5463e-8168-40ee-887a-7ac78de1d266) |
+>| Group.Read.All | delegado | Leemos los nombres y los nombres de los canales públicos cuando los usuarios establecen sus notificaciones semanales o diarias. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| Team.ReadBasic.All | delegado | Enumeramos el usuario Microsoft Teams teams unidos durante el registro para permitir a los usuarios seleccionar un equipo al que desean registrarse para El rastreador de vacaciones. También pueden registrarse con toda la organización. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.Read | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.Read.All | delegado | Nuestros usuarios pueden importar todos los usuarios de su Microsoft 365 organización o Microsoft Teams equipo. Usamos este permiso para importar solo usuarios con licencia para un equipo u organización Microsoft Teams seleccionado. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| User.ReadBasic.All | delegado | Permitimos que los usuarios importen los demás usuarios de su organización o de su Microsoft Teams usuario. Usamos este permiso para enumerar los usuarios disponibles y sus direcciones de correo electrónico en el elemento emergente de importación. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| correo electrónico | delegado | Cuando el usuario inicia sesión con Microsoft AAD, almacenamos su dirección de correo electrónico como un identificador único. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| offline_access | delegado | No recopilamos datos con este permiso. Se usa para mantener el acceso a los datos a los que tenemos permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| OpenID | delegado | Usamos este permiso para iniciar sesión o registrar usuarios en Vacation Tracker. No recopilamos datos específicos con este permiso. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
+>| perfil | delegado | Recopilamos la información básica del usuario, incluido su nombre, identificador e identificador de inquilino. Usamos estos datos para conectar usuarios que han iniciado sesión a su organización en Vacation Tracker. | [eab5463e-8168-40ee-887a-7ac78de1d266](../azure/eab5463e-8168-40ee-887a-7ac78de1d266.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -2,18 +2,19 @@
 title: Información de aplicación para decisiones por decisiones
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Decisiones, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 78bb80e67214a26172c6f83f57d8614fb8c9e518
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 0353886df853f0916252e41e8829214ce1e0a4d5
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259746"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63544948"
 ---
 # <a name="decisions"></a>Decisions
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259746"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 2, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/d3d1be68-066c-4967-a74b-9edcf902dcfb" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/d3d1be68-066c-4967-a74b-9edcf902dcfb" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381880" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Decisions a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Decisions |
-| Id. | WA104381880 |
+| ID | WA104381880 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Decisions |
 | Sitio web de la compañía | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | Términos de uso de la aplicación | [https://www.meetingdecisions.com/terms-of-service](https://www.meetingdecisions.com/terms-of-service) |
 | Funcionalidad principal de la aplicación | Haga que las reuniones cuenten con un generador de agendas, plantillas de minutos y más integradas dentro de Teams. |
 | Ubicación central de la empresa | Noruega |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.meetingdecisions.com](https://www.meetingdecisions.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -108,9 +109,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -156,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,23 +171,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | delegado | Se usa para leer información del calendario&#8217;usuario para habilitar características como la lista de reuniones y la búsqueda. También ofrece al usuario la opción de eliminar reuniones específicas del calendario cuando el elemento se elimina de Decisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Chat.ReadWrite | delegado | Se usa para enviar decisiones para votar y crear listas de orador para elementos de la agenda individuales directamente al chat de Microsoft Teams reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Directory.Read.All | delegado | Se usa para recopilar información básica sobre el Office 365 inquilino cuando se registra, como el nombre del inquilino y los dominios comprobados. También es necesario para comprobar las pertenencias a grupos. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.Read.All | delegado | Se usa para leer archivos que se comparten con el usuario con el fin de combinar esos archivos en el Libro de reuniones de PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Files.ReadWrite.All | delegado | Se usa para proporcionar a los usuarios compatibilidad con anotaciones de archivos personales. Los archivos anotados se almacenan de forma privada en el&#8217;de OneDrive para la Empresa. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Group.ReadWrite.All | delegado | Se usa para crear estructuras de carpetas en Office 365 grupo&#8217;sitio SharePoint para agendas de reuniones, archivos relacionados y conversaciones de grupo.   Nota: Los usuarios de Decisiones nunca tendrán acceso a los recursos (por ejemplo, grupos) a los que aún no tengan acceso en el espacio empresarial de Office 365 organización. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Mail.Send | delegado | Se usa para permitir que los usuarios de Decisions envíen notificaciones a los participantes de la reunión, como actualizaciones de la agenda y vínculos a la reunión para coautores. Los correos electrónicos van a los participantes de la reunión o a la lista de distribución seleccionada por el propietario de la reunión. Todos los mensajes de correo electrónico y notificaciones enviados lo hacen activamente los usuarios de Decisions.  Nota: Esto no proporciona al usuario acceso a su bandeja de entrada a través de Decisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| MailboxSettings.Read | delegado | Se usa para identificar las preferencias de idioma&#8217;usuario. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Notes.ReadWrite | delegado | Se usa para configurar blocs de notas privados para reuniones para tomar notas y preparar comentarios y preguntas. También permite que los minutos de reunión de grupo se almacenen en su bloc de notas OneNote, en caso de que el grupo opte por usar OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Sites.ReadWrite.All | delegado | Se usa para crear estructuras de carpetas en canales privados para información de reuniones. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| Tasks.ReadWrite | delegado | Se usa para sincronizar tareas y decisiones con Microsoft Planner. También permite a los usuarios exportar tareas y decisiones para Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser | delegado | Necesario para instalar mediante programación Decisions App en el chat. Esto es necesario antes de agregar la pestaña Decisiones para la experiencia en la reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsAppInstallation.ReadWriteForUser.All | delegado | Necesario para instalar mediante programación Decisions App en el chat. Esto es necesario antes de agregar la pestaña Decisiones para la experiencia en la reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Create | delegado | Requerir agregar la pestaña En reunión/Canal en Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| TeamsTab.Read.All | delegado | Necesario para comprobar si la pestaña está instalada o no. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| User.ReadBasic.All | delegado | Se usa para mostrar el nombre y apellidos, la foto y la dirección de correo electrónico de los miembros del grupo y los participantes externos. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
->| perfil | delegado | Se usa para iniciar sesión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](https://docs.microsoft.com/microsoft-365-app-certification/azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d) |
+>| Calendars.ReadWrite | delegado | Se usa para leer información del calendario&#8217;usuario para habilitar características como la lista de reuniones y la búsqueda. También ofrece al usuario la opción de eliminar reuniones específicas del calendario cuando el elemento se elimina de Decisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Chat.ReadWrite | delegado | Se usa para enviar decisiones para votar y crear listas de orador para elementos de la agenda individuales directamente al chat de Microsoft Teams reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Directory.Read.All | delegado | Se usa para recopilar información básica sobre el Office 365 inquilino cuando se registra, como el nombre del inquilino y los dominios comprobados. También es necesario para comprobar las pertenencias a grupos. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.Read.All | delegado | Se usa para leer archivos que se comparten con el usuario con el fin de combinar esos archivos en el Libro de reuniones de PDF. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Files.ReadWrite.All | delegado | Se usa para proporcionar a los usuarios compatibilidad con anotaciones de archivos personales. Los archivos anotados se almacenan de forma privada en el&#8217;de OneDrive para la Empresa. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Group.ReadWrite.All | delegado | Se usa para crear estructuras de carpetas en Office 365 grupo&#8217;sitio de SharePoint para agendas de reuniones, archivos relacionados y conversaciones de grupo.   Nota: Los usuarios de Decisiones nunca tendrán acceso a los recursos (por ejemplo, grupos) a los que aún no tengan acceso en el espacio empresarial de Office 365 organización. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Mail.Send | delegado | Se usa para permitir que los usuarios de Decisions envíen notificaciones a los participantes de la reunión, como actualizaciones de la agenda y vínculos a la reunión para coautores. Los correos electrónicos van a los participantes de la reunión o a la lista de distribución seleccionada por el propietario de la reunión. Todos los mensajes de correo electrónico y notificaciones enviados lo hacen activamente los usuarios de Decisions.  Nota: Esto no proporciona al usuario acceso a su bandeja de entrada a través de Decisions. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| MailboxSettings.Read | delegado | Se usa para identificar las preferencias de idioma&#8217;usuario. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Notes.ReadWrite | delegado | Se usa para configurar blocs de notas privados para reuniones para tomar notas y preparar comentarios y preguntas. También permite que los minutos de reunión de grupo se almacenen en su bloc de notas OneNote compartido, en caso de que el grupo opte por usar OneNote. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Sites.ReadWrite.All | delegado | Se usa para crear estructuras de carpetas en canales privados para información de reuniones. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| Tasks.ReadWrite | delegado | Se usa para sincronizar tareas y decisiones con Microsoft Planner. También permite a los usuarios exportar tareas y decisiones para Excel. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser | delegado | Necesario para instalar mediante programación Decisions App en el chat. Esto es necesario antes de agregar la pestaña Decisiones para la experiencia en la reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsAppInstallation.ReadWriteForUser.All | delegado | Necesario para instalar mediante programación Decisions App en el chat. Esto es necesario antes de agregar la pestaña Decisiones para la experiencia en la reunión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Create | delegado | Es necesario agregar la pestaña En reunión o canal en Teams. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| TeamsTab.Read.All | delegado | Necesario para comprobar si la pestaña está instalada o no. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| User.ReadBasic.All | delegado | Se usa para mostrar el nombre y apellidos, la foto y la dirección de correo electrónico de los miembros del grupo y los participantes externos. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
+>| perfil | delegado | Se usa para iniciar sesión. | [1064f7e4-a9e2-467d-8d42-f45cc59f145d](../azure/1064f7e4-a9e2-467d-8d42-f45cc59f145d.md) |
 
 >Esta aplicación no tiene API adicionales.
 

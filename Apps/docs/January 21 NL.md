@@ -2,19 +2,20 @@
 title: Boletín de enero
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Boletín de enero de 2021
 keywords: Boletín de cumplimiento
-ms.topic: Conceptual
-ms.service: Attestation
-ms.openlocfilehash: 8971a079122256154fa9e0106faa651c93c4d887a087006de69cc832a9eb1439
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.topic: conceptual
+ms.service: attestation
+ms.openlocfilehash: 53293f01bdde3b14e033729454f00ba95fa18e49
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54747769"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63692452"
 ---
 # <a name="january-2021-microsoft-365-app-compliance-newsletter"></a>Boletín de cumplimiento de Microsoft 365 de enero de 2021
 
-![Alt text ](../media/Jan1.PNG)
- ![ Alt text Alt ](../media/Jan2.PNG)
- ![ text](../media/Jan3.PNG)
+![Texto alternativoAlt](../media/Jan1.PNG)
+![ textAlt](../media/Jan2.PNG)
+![ textAlt](../media/Jan3.PNG)

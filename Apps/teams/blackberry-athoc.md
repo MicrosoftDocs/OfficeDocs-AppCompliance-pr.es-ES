@@ -2,18 +2,19 @@
 title: Información de la aplicación para BlackBerry AtHoc by BlackBerry
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para BlackBerry AtHoc, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b464dadfb27569abc0760555464fe646c3e51730
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 1da987ba517d6e4f6dc3b4d487c441e2ccd50d79
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251726"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63545498"
 ---
 # <a name="blackberry-athoc"></a>BlackBerry AtHoc
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251726"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003065" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por BlackBerry a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | BlackBerry AtHoc |
-| Id. | WA200003065 |
+| ID | WA200003065 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | BlackBerry |
 | Sitio web de la compañía | [https://www.blackberry.com](https://www.blackberry.com) |
 | Términos de uso de la aplicación | [https://www.athoc.com/pss/terms.html#](https://www.athoc.com/pss/terms.html#) |
-| Funcionalidad principal de la aplicación | La integración de BlackBerry AtHoc con Teams proporciona una administración perfecta de eventos críticos en toda la organización &#8211; todo desde una interfaz de usuario familiar en la que&#8217;ya está autenticado. Sin salir de Teams, la integración de BlackBerry AtHoc permite a los administradores de emergencias e incidentes: &#8226; Publicar alertas, con un solo clic, en cualquier dispositivo &#8226; Dirigirse a grupos de distribución establecidos previamente en Teams &#8226; Colaborar en Teams para administrar incidentes en tiempo real |
+| Funcionalidad principal de la aplicación | La integración de BlackBerry AtHoc con Teams proporciona una administración perfecta de eventos críticos en toda la organización &#8211; desde una interfaz de usuario familiar en la que ya&#8217;autenticado. Sin salir de Teams, la integración de BlackBerry AtHoc permite a los administradores de emergencias e incidentes: &#8226; Publicar alertas, con un solo clic, en cualquier dispositivo &#8226; Dirigirse a grupos de distribución establecidos previamente en Teams &#8226; Colaborar en Teams para administrar incidentes en tiempo real |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.blackberry.com/us/en/products/blackberry-athoc](https://www.blackberry.com/us/en/products/blackberry-athoc) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, AWS, SelfHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ BlackBerry ha proporcionado esta información sobre cómo esta aplicación recop
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,12 +161,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMessage.Send | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| Group.Read.All | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| User.Read | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| correo electrónico | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| OpenID | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
->| perfil | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](https://docs.microsoft.com/microsoft-365-app-certification/azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7) |
+>| ChannelMessage.Send | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| Group.Read.All | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| User.Read | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| correo electrónico | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| OpenID | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
+>| perfil | delegado | Accedemos a los&#8217;básicos del usuario, como el nombre principal y el vínculo al canal general de teams (para el que está autorizado el usuario que ha iniciado sesión) para enviar la tarjeta de alerta a los equipos. | [f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7](../azure/f18b3ce0-a7a9-4fb7-96be-9b4a7dee68f7.md) |
 
 >Esta aplicación no tiene API adicionales.
 
