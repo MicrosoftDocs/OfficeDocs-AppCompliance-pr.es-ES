@@ -2,18 +2,19 @@
 title: Información de la aplicación para Wazoku por Wazoku
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Wazoku, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Wazoku, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1c9aef70ea9958b82698b54fca43ebf2853f5d73
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 9dd9552c6b636d16f6c419979fada3fda866e793
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251546"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549618"
 ---
 # <a name="wazoku"></a>Wazoku
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251546"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: January 24, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/f060d814-1813-4135-bbef-4cda4251abec" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f060d814-1813-4135-bbef-4cda4251abec" target="_blank">Ver en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003384" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Wazoku a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Wazoku |
-| Id. | WA200003384 |
-| Office 365 clientes compatibles | Microsoft Teams |
+| ID | WA200003384 |
+| Clientes de Office 365 compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Wazoku |
 | Sitio web de la compañía | [https://www.wazoku.com](https://www.wazoku.com) |
 | Términos de uso de la aplicación | [https://www.wazoku.com/terms-of-use/](https://www.wazoku.com/terms-of-use/) |
 | Funcionalidad principal de la aplicación | Plataforma de administración de ideas wazoku |
 | Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://support.wazoku.com/microsoft-teams-integration](https://support.wazoku.com/microsoft-teams-integration) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Aws |
 
@@ -74,7 +75,7 @@ Wazoku ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 ::: zone pivot="security"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se [muestra información del catálogo de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) .
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -124,7 +125,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,11 +171,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| correo electrónico | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| offline_access | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| OpenID | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
->| perfil | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](https://docs.microsoft.com/microsoft-365-app-certification/azure/15439749-b811-4e89-b777-4fe6ef247801) |
+>| User.Read | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| correo electrónico | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| offline_access | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| OpenID | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
+>| perfil | delegado | Inicio de sesión único | [15439749-b811-4e89-b777-4fe6ef247801](../azure/15439749-b811-4e89-b777-4fe6ef247801.md) |
 
 >Esta aplicación no tiene API adicionales.
 

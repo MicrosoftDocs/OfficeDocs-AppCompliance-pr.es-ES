@@ -2,18 +2,19 @@
 title: Información de la aplicación para EWS ThoughtWire de ThoughtWire Corp.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/15/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para EWS ThoughtWire, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para EWS ThoughtWire, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: eeec8fecafa50ac799254ed331f93411c5cbbb35
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 940fdcb02fc289226fb5f7b9021abd6c66375568
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253386"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548698"
 ---
 # <a name="thoughtwire-ews"></a>ThoughtWire EWS
 
@@ -21,7 +22,7 @@ ms.locfileid: "62253386"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/ed27363f-755e-4658-b7bf-409d475959d6" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/ed27363f-755e-4658-b7bf-409d475959d6" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003239" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por ThoughtWire Corp. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ThoughtWire EWS |
-| Id. | WA200003239 |
+| ID | WA200003239 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ThoughtWire Corp. |
 | Sitio web de la compañía | [https://thoughtwire.com](https://thoughtwire.com) |
@@ -42,6 +43,7 @@ Información proporcionada por ThoughtWire Corp. a Microsoft:
 | Ubicación central de la empresa | Canadá |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ ThoughtWire Corp ha proporcionado esta información sobre cómo esta aplicación
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado después de 3months |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,12 +161,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.Create | aplicación | Permite que la aplicación cree grupos o equipos para salas o unidades de hospital. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| Group.ReadWrite.All | aplicación | Necesario para que la aplicación determine los grupos que puede necesitar para crear o volver a crear, y para administrar la pertenencia. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| GroupMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| TeamsAppInstallation.ReadWriteForTeam | aplicación | Permite que la aplicación instale automáticamente el bot de ThoughtWire en los equipos que crea o administra. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
->| User.Read | aplicación | Permitir que la aplicación recupere el AADID/nombre de usuario de un usuario según sea necesario al administrar la pertenencia o recuperar el nombre de usuario para identificar al usuario dentro de nuestra aplicación. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](https://docs.microsoft.com/microsoft-365-app-certification/azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c) |
+>| Group.Create | aplicación | Permite que la aplicación cree grupos o equipos para salas o unidades de hospital. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| Group.ReadWrite.All | aplicación | Necesario para que la aplicación determine los grupos que puede necesitar para crear o volver a crear, y para administrar la pertenencia. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| GroupMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| TeamMember.ReadWrite.All | aplicación | Necesario para que la aplicación pueda administrar la pertenencia a grupos. Es decir, agregar o quitar enfermeras de un equipo a medida que cambian los turnos. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | aplicación | Permite que la aplicación instale automáticamente el bot de ThoughtWire en los equipos que crea o administra. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
+>| User.Read | aplicación | Permitir que la aplicación recupere el AADID/nombre de usuario de un usuario según sea necesario al administrar la pertenencia o recuperar el nombre de usuario para identificar al usuario dentro de nuestra aplicación. | [49a15c37-4eca-48b1-a327-7a8b5a3b399c](../azure/49a15c37-4eca-48b1-a327-7a8b5a3b399c.md) |
 
 >Esta aplicación no tiene API adicionales.
 

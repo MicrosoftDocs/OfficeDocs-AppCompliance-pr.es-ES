@@ -2,18 +2,19 @@
 title: Información de la aplicación para Emailgistics por Emailgistics Corp.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Emailgistics, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Emailgistics, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cea41a85550bd0b2a5d4effda544674d46c06b67
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c4e1eccf63daa20dfee84818da65ada9dd1fd7dd
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62250256"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63549488"
 ---
 # <a name="emailgistics"></a>Emailgistics
 
@@ -32,13 +33,13 @@ Información proporcionada por Emailgistics Corp. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Emailgistics |
-| Id. | emailgistics.emailgistics_shared_email |
+| ID | emailgistics.emailgistics_shared_email |
 | Nombre de la compañía asociada | Emailgistics Corp. |
 | Sitio web de la compañía | [https://emailgistics.com](https://emailgistics.com) |
 | Términos de uso de la aplicación | [https://emailgistics.com/tos](https://emailgistics.com/tos) |
 | Funcionalidad principal de la aplicación | Software de administración de correo electrónico de bandeja de entrada de equipo para Microsoft 365 |
-| Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Ubicación central de la empresa | Canada |
+| Página de información de la aplicación | [https://emailgistics.com/how-it-works](https://emailgistics.com/how-it-works) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -117,12 +118,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -143,8 +144,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | N/D |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | N/D |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | N/D |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No aplicable |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No aplicable |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | No aplicable |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +156,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -169,12 +170,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Mail.ReadWrite | delegado | Lea req'd de acceso para obtener información sobre los mensajes en el buzón compartido. La información del mensaje es necesaria para ejecutar reglas definidas por el cliente (distribuir al usuario A si el mensaje contiene &#8220;factura&#8221;, por ejemplo), para realizar un seguimiento correcto de las conversaciones (para el historial de conversaciones y la asignación automática) y para los informes (por ejemplo, el informe de detalles de abrir mensajes).
-Escriba el acceso para enviar mensajes desde reglas (como respuestas automáticas) y para actualizar los asuntos de los mensajes con el identificador de conversación Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| Mail.Send | delegado | Permite a Emailgistics enviar mensajes de correo electrónico desde el buzón compartido. Este permiso es necesario para enviar mensajes desde reglas (como respuestas automáticas). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| MailboxSettings.ReadWrite | delegado | Permite a Emailgistics obtener el nombre del buzón compartido y crear una regla de buzón para enrutar los mensajes entrantes a su carpeta entrante oculta para el procesamiento inicial, la ejecución de reglas y la asignación automática. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| User.Read | delegado | Permite a Emailgistics iniciar sesión como buzón compartido y leer información básica sobre él, como su identificador de entidad de seguridad de servicio, dirección de correo electrónico y nombre de usuario. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| User.ReadBasic.All | delegado | Permite que Emailgistics lea información básica sobre los usuarios de su inquilino. Necesario para detectar cambios en los nombres y direcciones de correo electrónico de los miembros del buzón y actualizar automáticamente esta información, que se usa para el seguimiento y los informes, en Emailgistics. Este es el único permiso cuyo ámbito se extiende más allá del buzón compartido. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
->| offline_access | delegado | Permite que Emailgistics funcione como una aplicación back-end, en lugar de una aplicación interactiva basada en explorador que requiera que un usuario inicie sesión siempre que funcione. Este permiso permite a Emailgistics obtener un token de actualización, que puede actualizar según sea necesario para mantener el acceso constante. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](https://docs.microsoft.com/microsoft-365-app-certification/azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3) |
+Escriba el acceso para enviar mensajes desde reglas (como respuestas automáticas) y para actualizar los asuntos de los mensajes con el identificador de conversación Emailgistics. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| Mail.Send | delegado | Permite a Emailgistics enviar mensajes de correo electrónico desde el buzón compartido. Este permiso es necesario para enviar mensajes desde reglas (como respuestas automáticas). | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| MailboxSettings.ReadWrite | delegado | Permite a Emailgistics obtener el nombre del buzón compartido y crear una regla de buzón para enrutar los mensajes entrantes a su carpeta entrante oculta para el procesamiento inicial, la ejecución de reglas y la asignación automática. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| User.Read | delegado | Permite a Emailgistics iniciar sesión como buzón compartido y leer información básica sobre él, como su identificador de entidad de seguridad de servicio, dirección de correo electrónico y nombre de usuario. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| User.ReadBasic.All | delegado | Permite que Emailgistics lea información básica sobre los usuarios de su inquilino. Necesario para detectar cambios en los nombres y direcciones de correo electrónico de los miembros del buzón y actualizar automáticamente esta información, que se usa para el seguimiento y los informes, en Emailgistics. Este es el único permiso cuyo ámbito se extiende más allá del buzón compartido. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
+>| offline_access | delegado | Permite que Emailgistics funcione como una aplicación back-end, en lugar de una aplicación interactiva basada en explorador que requiera que un usuario inicie sesión siempre que funcione. Este permiso permite a Emailgistics obtener un token de actualización, que puede actualizar según sea necesario para mantener el acceso constante. | [2c9fb9b7-5112-4a91-af52-f98682bc7bf3](../azure/2c9fb9b7-5112-4a91-af52-f98682bc7bf3.md) |
 
 >Esta aplicación no tiene API adicionales.
 

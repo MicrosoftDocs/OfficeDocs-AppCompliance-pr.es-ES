@@ -2,18 +2,19 @@
 title: Información de la aplicación para Zignals de Alight
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/31/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zignals, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1305a486a9eb68a21ce2be0d65a0d518c39b64c2
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: c52064e4c96285fe98cdc1bb721bf3565aac1472
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251176"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548508"
 ---
 # <a name="zignals"></a>Zignals
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251176"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/a0b58ca7-958d-4343-a2dc-a75f2eeb0953" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/a0b58ca7-958d-4343-a2dc-a75f2eeb0953" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003201" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Alight a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zignals |
-| Id. | WA200003201 |
+| ID | WA200003201 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Alight |
 | Sitio web de la compañía | [https://www.alight.eu](https://www.alight.eu) |
 | Términos de uso de la aplicación | [https://zignals.eu/terms](https://zignals.eu/terms) |
 | Funcionalidad principal de la aplicación | Lleve la colaboración en las organizaciones al siguiente nivel agregando contenido y mostrando a los empleados lo que es importante. |
 | Ubicación central de la empresa | Alemania |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://zignals.eu/zignals-support/](https://zignals.eu/zignals-support/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Alight ha proporcionado esta información sobre cómo esta aplicación recopila 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado inmediatamente |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +101,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -114,9 +109,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,16 +161,16 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegado | Para el área Mis reuniones, se obtienen las reuniones del &quot; &quot; usuario hoy y mañana. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Sites.ReadWrite.All | delegado | Se obtienen todos los sitios SharePoint seguidos del usuario y se muestran en el área Mi trabajo en equipo y se obtienen todas las tareas de SharePoint del usuario y se muestran en el área &quot; &quot; Mis tareas &quot; &quot; . | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Tasks.ReadWrite | delegado | Leemos el Planner del usuario y To Do tareas y las mostrándolos en el área &quot; Mis tareas &quot; . | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| Team.ReadBasic.All | delegado | Se obtienen los equipos unidos del usuario y se muestran en el &quot; área Mi trabajo en &quot; equipo. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadBasic.All | delegado | En el &quot; área Mis &quot; documentos, se muestra la colaboración del usuario | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| User.ReadWrite | delegado | Los documentos recientes del usuario se muestran en el área &quot; Mis documentos &quot; . Las aplicaciones favoritas del usuario se almacenan como una extensión de esquema en el MS Graph. Este nivel de permisos es necesario para leer y escribir datos en el gráfico. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| correo electrónico | delegado | Obtener el correo electrónico de los usuarios (ámbito Teams MS estándar) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| offline_access | delegado | Ámbito de Teams MS estándar | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| OpenID | delegado | Usuarios de inicio de sesión. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
->| perfil | delegado | Proceso de inicio de sesión MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](https://docs.microsoft.com/microsoft-365-app-certification/azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953) |
+>| Calendars.Read | delegado | Para el área &quot;Mis reuniones&quot; , se obtienen las reuniones del usuario hoy y mañana. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Sites.ReadWrite.All | delegado | &quot;&quot;&quot; Se obtienen todos los sitios SharePoint seguidos del usuario y se muestran en el área Mi trabajo en equipo y se obtienen todas las tareas SharePoint del usuario y se muestran en el área Mis tareas&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Tasks.ReadWrite | delegado | Leemos el Planner del usuario y To Do tareas y las mostrándolos en el área &quot;Mis tareas&quot;. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| Team.ReadBasic.All | delegado | Se obtienen los equipos unidos del usuario y se muestran en el área &quot;Mi trabajo en&quot; equipo. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadBasic.All | delegado | En el &quot;área Mis documentos&quot; , se muestra la colaboración del usuario | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| User.ReadWrite | delegado | Los documentos recientes del usuario se muestran en el área &quot;Mis documentos&quot;. Las aplicaciones favoritas del usuario se almacenan como una extensión de esquema en el MS Graph. Este nivel de permisos es necesario para leer y escribir datos en el gráfico. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| correo electrónico | delegado | Obtener el correo electrónico de los usuarios (ámbito Teams MS estándar) | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| offline_access | delegado | Ámbito de Teams MS estándar | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| OpenID | delegado | Usuarios de inicio de sesión. | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
+>| perfil | delegado | Proceso de inicio de sesión MS Teams | [a0b58ca7-958d-4343-a2dc-a75f2eeb0953](../azure/a0b58ca7-958d-4343-a2dc-a75f2eeb0953.md) |
 
 >Esta aplicación no tiene API adicionales.
 

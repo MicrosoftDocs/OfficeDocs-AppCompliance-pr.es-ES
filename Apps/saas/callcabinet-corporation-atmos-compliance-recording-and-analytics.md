@@ -2,18 +2,19 @@
 title: Información de la aplicación para el registro y análisis de cumplimiento de CallCabinet Atmos por CallCabinet Corporation
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CallCabinet Atmos Compliance Recording and Analytics, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 276e898351611643a648dac9350e750b13fd8a1a
-ms.sourcegitcommit: 6af3331723896e5e6bd44236dbd87ab513fd91fe
+ms.openlocfilehash: 463cccc6f77ec628c3024a6c29b292947ed8d6cf
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62877567"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548548"
 ---
 # <a name="callcabinet-atmos-compliance-recording-and-analytics"></a>Registro y análisis de cumplimiento de CallCabinet Atmos
 
@@ -32,13 +33,13 @@ Información proporcionada por CallCabinet Corporation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Registro y análisis de cumplimiento de CallCabinet Atmos |
-| Id. | callcabinetcorporation1584393576335.atmos |
+| ID | callcabinetcorporation1584393576335.atmos |
 | Nombre de la compañía asociada | CallCabinet Corporation |
 | Sitio web de la compañía | [https://www.callcabinet.com](https://www.callcabinet.com) |
 | Términos de uso de la aplicación | [https://www.callcabinet.com/terms-and-conditions/](https://www.callcabinet.com/terms-and-conditions/) |
 | Funcionalidad principal de la aplicación | Atmos by CallCabinet es una solución SaaS de registro de llamadas de cumplimiento nativa de Azure, AI-analytics y QA para Microsoft Teams y otros sistemas de colaboración o centro de contacto. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://www.callcabinet.com/compliance-microsoft-teams-call...](https://www.callcabinet.com/compliance-microsoft-teams-call-recording/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -59,7 +60,7 @@ CallCabinet Corporation ha proporcionado esta información sobre cómo esta apli
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Conversaciones Teams, vídeo y uso compartido de pantalla |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -107,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | Sí |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -154,7 +155,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

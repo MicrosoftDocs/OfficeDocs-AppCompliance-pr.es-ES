@@ -2,18 +2,19 @@
 title: Información de la aplicación para workjam reloj de hora por WorkJam
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para WorkJam Time Clock, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para WorkJam Time Clock, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e831ca59c0fed743a1a485a6aa52edbfca1dab89
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 88c58e30f12fc05575f1621e2e39ed245e89e285
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259200"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548218"
 ---
 # <a name="workjam-time-clock"></a>WorkJam Time Clock
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259200"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/c200f629-215e-46ad-a723-9c6b0b1f66f9" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/c200f629-215e-46ad-a723-9c6b0b1f66f9" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003620" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,16 +34,15 @@ Información proporcionada por WorkJam a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | WorkJam Time Clock |
-| Id. | WA200003620 |
+| ID | WA200003620 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | WorkJam |
 | Sitio web de la compañía | [https://www.workjam.com](https://www.workjam.com) |
 | Términos de uso de la aplicación | [https://appcontent.workjam.com/en/terms-of-use/](https://appcontent.workjam.com/en/terms-of-use/) |
 | Funcionalidad principal de la aplicación | WorkJam es la solución Digital Workplace que los líderes del sector eligen organizar sus empleados en primera línea &#8212; como plataforma de productividad en primera línea o dentro de la solución de empleados en primera línea. Disponible en más de 37 idiomas e implementado en más de 38 países, WorkJam ofrece una orquestación total de la fuerza de trabajo a través de la administración de tareas líder en el mercado, la administración de turnos, la encuesta y las herramientas de micro aprendizaje.  |
-| Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Ubicación central de la empresa | Canada |
+| Página de información de la aplicación | [https://www.workjam.com/portfolio-items/workjam-microsoft-t...](https://www.workjam.com/portfolio-items/workjam-microsoft-teams/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -108,7 +108,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | Fecha de certificación SOC1 más reciente |   |
@@ -117,7 +117,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente |  2021-08-01 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sí |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sí |
@@ -125,7 +125,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | No |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -158,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,8 +171,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| TeamsActivity.Send | aplicación | Para enviar notificaciones al usuario | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
->| User.Read | delegado | Para SSO, el usuario y presentarles la información correcta | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](https://docs.microsoft.com/microsoft-365-app-certification/azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf) |
+>| TeamsActivity.Send | aplicación | Para enviar notificaciones al usuario | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](../azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf.md) |
+>| User.Read | delegado | Para SSO, el usuario y presentarles la información correcta | [f3388437-b373-4ea7-bcbd-58ec773e0ecf](../azure/f3388437-b373-4ea7-bcbd-58ec773e0ecf.md) |
 
 >Esta aplicación no tiene API adicionales.
 

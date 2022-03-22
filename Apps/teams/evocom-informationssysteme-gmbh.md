@@ -2,18 +2,19 @@
 title: Información de aplicación para Evocom por Evocom Informationssysteme GmbH
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Evocom, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 26aa34b7e3c8bfc167a771a7e6f630f24dbf9487
-ms.sourcegitcommit: 27afe4d564e72c28ea073e4b31801ad983aec173
+ms.openlocfilehash: 980a6217bd5967af64dd2cb6f3d47cc3eb2dab42
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62477153"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63547898"
 ---
 # <a name="evocom"></a>Evocom
 
@@ -21,7 +22,7 @@ ms.locfileid: "62477153"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: February 2, 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/8681b4f9-a5cd-4dd7-9721-09f015dae618" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/8681b4f9-a5cd-4dd7-9721-09f015dae618" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002050" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -38,9 +39,9 @@ Información proporcionada por Evocom Informationssysteme GmbH a Microsoft:
 | Nombre de la compañía asociada | Evocom Informationssysteme GmbH |
 | Sitio web de la compañía | [https://evocom.de](https://evocom.de) |
 | Términos de uso de la aplicación | [https://evocom.de/termsofuse](https://evocom.de/termsofuse) |
-| Funcionalidad principal de la aplicación | Evocom&#180;usp = simplicidad. Evocom es una solución intuitiva para flujos de trabajo de colaboración, administración de proyectos y tareas. Los trabajadores de la información diseñan procesos y los llevan a la vida inmediatamente. Los usuarios de departamentos usan Evocom para digitalizar micro procesos que coordinan el trabajo interno. Los especialistas en procesos orquestan procesos entre departamentos, con micro procesos de departamentos y usan integraciones existentes con sistemas de LOB como CRM, ERP y otros. |
+| Funcionalidad principal de la aplicación | Evocom&#180;USP = simplicidad. Evocom es una solución intuitiva para flujos de trabajo de colaboración, administración de proyectos y tareas. Los trabajadores de la información diseñan procesos y los llevan a la vida inmediatamente. Los usuarios de departamentos usan Evocom para digitalizar micro procesos que coordinan el trabajo interno. Los especialistas en procesos orquestan procesos entre departamentos, con micro procesos de departamentos y usan integraciones existentes con sistemas de LOB como CRM, ERP y otros. |
 | Ubicación central de la empresa | Alemania |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://evocom.de/microsoft365](https://evocom.de/microsoft365) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -108,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -119,7 +120,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC3 más reciente | |
 | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No aplicable |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,8 +172,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | delegado | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
->| User.ReadBasic.All | delegado | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](https://docs.microsoft.com/microsoft-365-app-certification/azure/3e745135-a761-48a7-ab54-5c0277b2e642) |
+>| User.Read | delegado | Profilbild anzeigen | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
+>| User.ReadBasic.All | delegado | PeoplePicker, Benutzerverwaltung | [3e745135-a761-48a7-ab54-5c0277b2e642](../azure/3e745135-a761-48a7-ab54-5c0277b2e642.md) |
 
 >Esta aplicación no tiene API adicionales.
 

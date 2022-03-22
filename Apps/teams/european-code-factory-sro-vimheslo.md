@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para vimheslo, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0149e5bd2930cc2cbb93964cfdcd0399ce119f88
-ms.sourcegitcommit: 4d215076edbae690d7c44cd05dc15d0a495b82bf
+ms.openlocfilehash: c419392746cbd58dcd3ba656b0da369f5294a06a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63470252"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63548478"
 ---
 # <a name="vimheslo"></a>vimheslo
 
@@ -161,10 +161,10 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Files.Read.All | delegado | Los datos se almacenan en OneDrive o SharePoint biblioteca de documentos, la aplicación necesita leer datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| Sites.Read.All | delegado | La aplicación en el contexto de grupo almacena los datos en la biblioteca de documentos SharePoint, la aplicación debe leer el nombre del sitio en la ruta de configuración, donde se encuentra el archivo con datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| User.Read | delegado | La aplicación debe conocer los OneDrive personales para almacenar allí los datos personales. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
->| correo electrónico | delegado | Para permitir compartir datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845) |
+>| Files.Read.All | delegado | Los datos se almacenan en OneDrive o SharePoint biblioteca de documentos, la aplicación necesita leer datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| Sites.Read.All | delegado | La aplicación en el contexto de grupo almacena los datos en la biblioteca de documentos SharePoint, la aplicación debe leer el nombre del sitio en la ruta de configuración, donde se encuentra el archivo con datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| User.Read | delegado | La aplicación debe conocer los OneDrive personales para almacenar allí los datos personales. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
+>| correo electrónico | delegado | Para permitir compartir datos. | [73ee6b52-6b68-41c1-a7c5-91919e05b845](../azure/73ee6b52-6b68-41c1-a7c5-91919e05b845.md) |
 
 >Esta aplicación no tiene API adicionales.
 
