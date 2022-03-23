@@ -2,18 +2,19 @@
 title: Información de la aplicación para SQQ por SuperQuickQuestion
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SQQ, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0dfeb1cc7cf0cbc593cb2cfa2f897bd299963236
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: d9a92e995202636c4a5439385b89a217b570747d
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251673"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550058"
 ---
 # <a name="sqq"></a>SQQ
 
@@ -21,7 +22,7 @@ ms.locfileid: "62251673"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 23, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/25379fc8-577f-4935-b681-6f027977fbe3" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/25379fc8-577f-4935-b681-6f027977fbe3" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002978" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por SuperQuickQuestion a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SQQ |
-| Id. | WA200002978 |
+| ID | WA200002978 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | SuperQuickQuestion |
 | Sitio web de la compañía | [https://superquickquestion.com](https://superquickquestion.com) |
 | Términos de uso de la aplicación | [https://superquickquestion.com/termsofuse](https://superquickquestion.com/termsofuse) |
 | Funcionalidad principal de la aplicación | SuperQuickQuestion es una plataforma de videoconferencia uno a uno en directo con un límite de tiempo de 60 segundos. Queremos fomentar conversaciones más productivas, eliminar reuniones innecesarias y ayudarle a aumentar la velocidad de resolución de problemas y recuperar el calendario, un minuto a la vez. Como cualquiera de nosotros que hemos pasado tiempo en reuniones con una decena de personas intentando hablar entre sí, las reuniones más largas no necesariamente equivalen a más colaboración y&#8217;donde SQQ puede ayudar. |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://superquickquestion.com/UserGuide/msteams](https://superquickquestion.com/UserGuide/msteams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -110,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -123,9 +124,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | No aplicable |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -170,9 +171,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Chat.ReadBasic | delegado | Obtener el número de participantes en un chat | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| User.Read | delegado | Leer el nombre del inquilino de usuario | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
->| OpenID | delegado | Iniciar sesión de usuarios desde la aplicación para acceder al punto de conexión Graph usuario | [25379fc8-577f-4935-b681-6f027977fbe3](https://docs.microsoft.com/microsoft-365-app-certification/azure/25379fc8-577f-4935-b681-6f027977fbe3) |
+>| Chat.ReadBasic | delegado | Obtener el número de participantes en un chat | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| User.Read | delegado | Leer el nombre del inquilino de usuario | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
+>| OpenID | delegado | Iniciar sesión de usuarios desde la aplicación para acceder al punto de conexión Graph usuario | [25379fc8-577f-4935-b681-6f027977fbe3](../azure/25379fc8-577f-4935-b681-6f027977fbe3.md) |
 
 >Esta aplicación no tiene API adicionales.
 

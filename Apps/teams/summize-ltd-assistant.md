@@ -2,18 +2,19 @@
 title: Información de la aplicación para sumar asistente por Summize (Ltd)
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Summize Assistant, sus directivas de control de datos, su información de catálogo de aplicaciones Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el Asistente para sumar, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7a886aeb6df7bf971fc1c4b79ff27b3c0ca4e87f
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 5b1537da99739171f0240ce2debebb007e9d7d3f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148390"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551349"
 ---
 # <a name="summize-assistant"></a>Summize Assistant
 
@@ -21,7 +22,7 @@ ms.locfileid: "62148390"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/24d7e745-c1ed-4f60-a843-ba1629ef3ed4" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/24d7e745-c1ed-4f60-a843-ba1629ef3ed4" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003577" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Summize (Ltd) a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Summize Assistant |
-| Id. | WA200003577 |
+| ID | WA200003577 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Summize (Ltd) |
 | Sitio web de la compañía | [https://www.summize.com](https://www.summize.com) |
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

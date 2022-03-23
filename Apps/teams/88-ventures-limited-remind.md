@@ -2,18 +2,19 @@
 title: Información de la aplicación para Remind by 88 Ventures Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 10/27/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Remind, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71d37c38b4cc3bdcc92182b4063061146d34c0dd
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 17592dc196ffc2e17e62af60708c718dc68ee523
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62255036"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550689"
 ---
 # <a name="remind"></a>Remind
 
@@ -21,7 +22,7 @@ ms.locfileid: "62255036"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: October 27, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/88546d4f-9973-4716-98e4-cd181c04bc2d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001444" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,16 +34,16 @@ Información proporcionada por 88 Ventures Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Remind |
-| Id. | WA200001444 |
+| ID | WA200001444 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | 88 Ventures Limited |
 | Sitio web de la compañía | [https://moonbearapps.com](https://moonbearapps.com) |
 | Términos de uso de la aplicación | [https://teamsreminder.app/#terms](https://teamsreminder.app/#terms) |
 | Funcionalidad principal de la aplicación | Recuérdase a usted o a los miembros del equipo reuniones importantes, elementos para hacer o incluso cumpleaños. Establece avisos personales, avisos de chat en grupo o avisos de canal. Incluso puedes establecer avisos periódicos (por ejemplo, una reunión de equipo todos los lunes a las 9:00)! |
 | Ubicación central de la empresa | Hong Kong |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://teamsreminder.app](https://teamsreminder.app) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Other |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Otro |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -154,7 +155,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -167,7 +168,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.Read.All | delegado | Se usa cuando un administrador busca usuarios para asignarlos a licencias. El uso de esta característica es totalmente opcional y no es necesario durante el uso normal de la aplicación. | [88546d4f-9973-4716-98e4-cd181c04bc2d](https://docs.microsoft.com/microsoft-365-app-certification/azure/88546d4f-9973-4716-98e4-cd181c04bc2d) |
+>| Directory.Read.All | delegado | Se usa cuando un administrador busca usuarios para asignarlos a licencias. El uso de esta característica es totalmente opcional y no es necesario durante el uso normal de la aplicación. | [88546d4f-9973-4716-98e4-cd181c04bc2d](../azure/88546d4f-9973-4716-98e4-cd181c04bc2d.md) |
 
 >Esta aplicación no tiene API adicionales.
 

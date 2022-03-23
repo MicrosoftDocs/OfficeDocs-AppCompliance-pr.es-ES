@@ -2,20 +2,21 @@
 title: Información de la aplicación para los tréboles de la inteligencia artificial de Los tréboles
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/22/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Los tréboles, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e15d1a7e34c8ad8b1cd12ed170457182b71f1466
-ms.sourcegitcommit: 78d7dc892da0864cadba4bd03ed83a09e2b8a160
+ms.openlocfilehash: c5c338e404ece344565788051d4f660feb4c93b4
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63081553"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551609"
 ---
-# <a name="clovers"></a>Tréboles
+# <a name="clovers"></a>Clovers
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -32,10 +33,10 @@ Información proporcionada por AI de Clovers a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Tréboles |
-| Id. | WA200003795 |
+| Nombre de la aplicación | Clovers |
+| ID | WA200003795 |
 | Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | AI de Los tréboles |
+| Nombre de la compañía asociada | IA de Clovers |
 | Sitio web de la compañía | [https://clovers.ai](https://clovers.ai) |
 | Términos de uso de la aplicación | [https://clovers.ai/terms-of-use/](https://clovers.ai/terms-of-use/) |
 | Funcionalidad principal de la aplicación | Tréboles: la guía de entrevista para ayudar a los equipos a contratar de forma más eficiente |
@@ -57,14 +58,7 @@ Esta información ha sido proporcionada por la IA de Tréboles acerca de cómo e
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

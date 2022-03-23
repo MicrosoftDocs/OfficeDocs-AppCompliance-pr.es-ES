@@ -2,18 +2,19 @@
 title: Información de la aplicación para El centro de la cautivación de Captivate IO Ltd
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/14/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para El Centro de cautivación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para The Captivate Hub, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b6e6f108456dff5759d7b7b0505fd9d33fd97a56
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: b809799dd2d5f20b347005d164218055462318dc
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62155661"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551629"
 ---
 # <a name="the-captivate-hub"></a>El centro de Captivate
 
@@ -21,7 +22,7 @@ ms.locfileid: "62155661"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/0ea8ef28-454a-4796-84dc-06c775639565" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/0ea8ef28-454a-4796-84dc-06c775639565" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003575" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Captivate IO Ltd a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | El centro de Captivate |
-| Id. | WA200003575 |
+| ID | WA200003575 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Captivate IO Ltd |
 | Sitio web de la compañía | [https://captivat.io](https://captivat.io) |
 | Términos de uso de la aplicación | [https://captivat.io/tos](https://captivat.io/tos) |
 | Funcionalidad principal de la aplicación | El Centro de conversación es un sistema extensible sin código diseñado para admitir conversaciones humanas y automáticas en varios canales. Admite asistentes digitales de varios proveedores, así como numerosas soluciones de chat en directo. |
 | Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://manual.captivat.io/docs/teams](https://manual.captivat.io/docs/teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | IBMCloud |
 
@@ -60,7 +61,7 @@ Esta información ha sido proporcionada por Captivate IO Ltd sobre cómo esta ap
 | ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Identificador de inquilino, Teams grupo, Grupo de canales y Usuarios incluidos en el grupo de equipos conectaron la aplicación a |
+| ¿Qué datos se almacenan en las bases de datos? | Identificador de inquilino, Teams grupo, Grupo de canales y Usuarios incluidos en el grupo de equipos conectados a la aplicación |
 | Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | No |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | No se conserva |
@@ -110,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -125,7 +126,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

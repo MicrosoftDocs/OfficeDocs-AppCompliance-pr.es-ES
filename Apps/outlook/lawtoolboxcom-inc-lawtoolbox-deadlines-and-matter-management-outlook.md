@@ -1,28 +1,28 @@
 ---
-title: 'Información de la aplicación para LawToolBox Deadlines &amp; Matter Management: Outlook por LawToolBox.com Inc.'
+title: 'Información de la aplicación para LawToolBox Deadlines y Matter Management: Outlook por LawToolBox.com Inc.'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/11/2022
+ms.date: 03/16/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toda la información de seguridad y cumplimiento disponible para LawToolBox Deadlines &amp; Matter Management: Outlook, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
+description: 'Toda la información de seguridad y cumplimiento disponible para LawToolBox Deadlines and Matter Management: Outlook, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c15a934f25c3f7650d2fd7ac927029f8a08e2b56
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: b1bf6d736341aef40ae0087ef005f490a37db23f
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459193"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552429"
 ---
-# <a name="lawtoolbox-deadlines-amp-matter-management---outlook"></a>LawToolBox Deadlines &amp; Matter Management - Outlook
+# <a name="lawtoolbox-deadlines-and-matter-management---outlook"></a>LawToolBox Deadlines and Matter Management - Outlook
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: March 7, 2022</p>
+<p>Last updated by the developer on: March 15, 2022</p>
 
-* <a href="https://appsource.microsoft.com/product/office/WA104120953" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003103" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -32,8 +32,8 @@ Información proporcionada por LawToolBox.com Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | LawToolBox Deadlines &amp; Matter Management - Outlook |
-| ID | WA104120953 |
+| Nombre de la aplicación | LawToolBox Deadlines and Matter Management - Outlook |
+| ID | WA200003103 |
 | Office 365 clientes compatibles | Outlook 2013 o posterior en Windows, Outlook 2016 o posterior en Mac, Outlook en la Web |
 | Nombre de la compañía asociada | LawToolBox.com Inc. |
 | Sitio web de la compañía | [https://www.lawtoolbox.com](https://www.lawtoolbox.com) |
@@ -61,7 +61,7 @@ LawToolBox.com Inc. ha proporcionado esta información sobre cómo esta aplicaci
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | email, UPN, name, groupid, group email, tenantid, user object id |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 90 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -171,22 +171,38 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Group.ReadWrite.All | aplicación | Este permiso se usa para que el usuario normal no se limite a y pueda configurar más de 250 grupos | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| User.ReadWrite.All | aplicación | Este permiso se usa para leer información relacionada con el usuario desde el directorio y para permitir que los usuarios finales con acceso al portal de administración de LawToolBox agreguen personas a los grupos de los que no son miembros. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa) |
->| Calendars.ReadWrite | delegado | Este permiso permite a los usuarios recuperar su propia información de calendario.  El usuario final solo tiene acceso puede usar la aplicación para recuperar su propia información de calendario (la misma información que podría recuperar abriendo su Outlook calendario) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite | delegado | Este permiso se usa para permitir al usuario buscar Microsoft 365 Outlook y agregar al sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Contacts.ReadWrite.Shared | delegado | Este permiso se usa para permitir al usuario buscar contactos M365 compartidos y agregar como contacto a nuestro sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Files.ReadWrite | delegado | LawToolBox lee y escribe archivos de Teams, Grupos y OneDrive para reuniones (si el usuario final revoca este permiso, impedirá que LTB cree carpetas y archivos a partir de plantillas y enumerar archivos importantes en nuestras aplicaciones) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Group.ReadWrite.All | delegado | Este permiso es necesario para leer la API de Teams, crear Teams, crear eventos de calendario, crear canales y es necesario para nuestra característica de uso compartido de archivos externos de un solo clic.  NECESARIO PARA ADMINISTRAR GRUPOS. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Read | delegado | Este permiso se usa para leer correos electrónicos PACER en el complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de los correos electrónicos.  Si el usuario final revoca este permiso, no podrá agregar contactos de correo electrónico de correos electrónicos en su bandeja de entrada a nuestro sistema de contactos | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Mail.Send | delegado | Este permiso se usa para enviar correos electrónicos como el usuario; por ejemplo, el usuario puede enviarse a sí mismo un gráfico de fecha límite de asunto desde ellos mismos. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| MailboxSettings.ReadWrite | delegado | Este permiso se usa para marcar un correo electrónico con una etiqueta que indica que se ha guardado en la carpeta Grupo mediante la aplicación | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| Notes.ReadWrite.All | delegado | Este permiso permite a los usuarios guardar datos seleccionados (como notas de caso, gráficos de fecha límite o contactos importantes) en un OneNote asociado con el asunto | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| OnlineMeetings.ReadWrite | delegado | Este permiso se usa para simplificar la creación y administración de reuniones y para sugerir a los asistentes que usan roles de asistentes | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| People.Read | delegado | Este permiso se usa para permitir que el usuario use microsoft AI para buscar contactos M365 compartidos y agregar a LawToolBox sistema de administración de contactos y sugerir a las personas que agreguen al sistema de administración de contactos de aplicaciones &#8211; no agregamos contactos automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| User.Read | delegado | Este permiso es necesario para leer información básica del usuario (por ejemplo, nombre, correo electrónico, zona horaria) para que un administrador pueda agregar usuarios precisos al sistema | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| correo electrónico | delegado | Este permiso permite a la aplicación leer correos electrónicos para permitir al usuario final recopilar información de contacto de correo electrónico de correos electrónicos en su bandeja de entrada, este permiso también permite que la aplicación lea correos electrónicos con información de PACER para que la aplicación pueda abrir el caso relacionado de forma predeterminada mediante el número de número de registro PACER | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
->| perfil | delegado | Esto es necesario para la autenticación SSO (LawToolBox no pide permiso para escribir en su perfil) ESTE PERMISO ES NECESARIO PARA QUE LOS USUARIOS INICIEN SESIÓN EN LAS APLICACIONES LAWTOOLBOX CON AUTORIZACIÓN DE INICIO DE SESIÓN ÚNICO. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df) |
+>| Calendars.ReadWrite | delegado | Este permiso permite a los usuarios recuperar su propia información de calendario.  El usuario final solo tiene acceso puede usar la aplicación para recuperar su propia información de calendario (la misma información que podría recuperar abriendo su Outlook calendario) | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite | delegado | Este permiso se usa para permitir al usuario buscar Microsoft 365 Outlook y agregar al sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Contacts.ReadWrite.Shared | delegado | Este permiso se usa para permitir al usuario buscar contactos M365 compartidos y agregar como contacto a nuestro sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Files.ReadWrite | delegado | LawToolBox lee y escribe archivos de Teams, Grupos y OneDrive para reuniones (si el usuario final revoca este permiso, impedirá que LTB cree carpetas y archivos a partir de plantillas y enumerar archivos importantes en nuestras aplicaciones) | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | delegado | Este permiso es necesario para leer la API de Teams, crear Teams, crear eventos de calendario, crear canales y es necesario para nuestra característica de uso compartido de archivos externos de un solo clic.  NECESARIO PARA ADMINISTRAR GRUPOS. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Group.ReadWrite.All | aplicación | Este permiso se usa para que el usuario normal no se limite a y pueda configurar más de 250 grupos | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Read | delegado | Este permiso se usa para leer correos electrónicos PACER en el complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de los correos electrónicos.  Si el usuario final revoca este permiso, no podrá agregar contactos de correo electrónico de correos electrónicos en su bandeja de entrada a nuestro sistema de contactos | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Mail.Send | delegado | Este permiso se usa para enviar correos electrónicos como el usuario; por ejemplo, el usuario puede enviarse a sí mismo un gráfico de fecha límite de asunto desde ellos mismos. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| MailboxSettings.ReadWrite | delegado | Este permiso se usa para marcar un correo electrónico con una etiqueta que indica que se ha guardado en la carpeta Grupo mediante la aplicación | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Notes.ReadWrite.All | delegado | Este permiso permite a los usuarios guardar datos seleccionados (como notas de caso, gráficos de fecha límite o contactos importantes) en un OneNote asociado con el asunto | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| OnlineMeetings.ReadWrite | delegado | Este permiso se usa para simplificar la creación y administración de reuniones y para sugerir a los asistentes que usan roles de asistentes | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| People.Read | delegado | Este permiso se usa para permitir que el usuario use microsoft AI para buscar contactos M365 compartidos y agregar a LawToolBox sistema de administración de contactos y sugerir a las personas que agreguen al sistema de administración de contactos de aplicaciones &#8211; no agregamos contactos automáticamente | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.Read | delegado | Este permiso es necesario para leer información básica del usuario (por ejemplo, nombre, correo electrónico, zona horaria) para que un administrador pueda agregar usuarios precisos al sistema | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| User.ReadWrite.All | aplicación | Este permiso se usa para leer información relacionada con el usuario desde el directorio y para permitir que los usuarios finales con acceso al portal de administración de LawToolBox agreguen personas a los grupos de los que no son miembros. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| correo electrónico | delegado | Este permiso permite a la aplicación leer correos electrónicos para permitir al usuario final recopilar información de contacto de correo electrónico de correos electrónicos en su bandeja de entrada, este permiso también permite que la aplicación lea correos electrónicos con información de PACER para que la aplicación pueda abrir el caso relacionado de forma predeterminada mediante el número de número de registro PACER | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| perfil | delegado | Esto es necesario para la autenticación SSO (LawToolBox no pide permiso para escribir en su perfil) ESTE PERMISO ES NECESARIO PARA QUE LOS USUARIOS INICIEN SESIÓN EN LAS APLICACIONES LAWTOOLBOX CON AUTORIZACIÓN DE INICIO DE SESIÓN ÚNICO. | [2fa142be-31b5-4fda-bd37-591541b501aa](../azure/2fa142be-31b5-4fda-bd37-591541b501aa.md) |
+>| Calendars.ReadWrite | delegado | Este permiso permite a los usuarios recuperar su propia información de calendario.  El usuario final solo tiene acceso puede usar la aplicación para recuperar su propia información de calendario (la misma información que podría recuperar abriendo su Outlook calendario) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite | delegado | Este permiso se usa para permitir al usuario buscar Microsoft 365 Outlook y agregar al sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Contacts.ReadWrite.Shared | delegado | Este permiso se usa para permitir al usuario buscar contactos M365 compartidos y agregar como contacto a nuestro sistema de administración de contactos &#8211; los contactos nunca se agregan automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Files.ReadWrite | delegado | LawToolBox lee y escribe archivos de Teams, Grupos y OneDrive para reuniones (si el usuario final revoca este permiso, impedirá que LTB cree carpetas y archivos a partir de plantillas y enumerar archivos importantes en nuestras aplicaciones) | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | delegado | Este permiso es necesario para leer la API de Teams, crear Teams, crear eventos de calendario, crear canales y es necesario para nuestra característica de uso compartido de archivos externos de un solo clic.  NECESARIO PARA ADMINISTRAR GRUPOS. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Group.ReadWrite.All | aplicación | Este permiso se usa para que el usuario normal no se limite a y pueda configurar más de 250 grupos | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Read | delegado | Este permiso se usa para leer correos electrónicos PACER en el complemento de Outlook para abrir automáticamente ese asunto y también para leer los contactos de los correos electrónicos.  Si el usuario final revoca este permiso, no podrá agregar contactos de correo electrónico de correos electrónicos en su bandeja de entrada a nuestro sistema de contactos | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Mail.Send | delegado | Este permiso se usa para enviar correos electrónicos como el usuario; por ejemplo, el usuario puede enviarse a sí mismo un gráfico de fecha límite de asunto desde ellos mismos. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| MailboxSettings.ReadWrite | delegado | Este permiso se usa para marcar un correo electrónico con una etiqueta que indica que se ha guardado en la carpeta Grupo mediante la aplicación | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| Notes.ReadWrite.All | delegado | Este permiso permite a los usuarios guardar datos seleccionados (como notas de caso, gráficos de fecha límite o contactos importantes) en un OneNote asociado con el asunto | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| OnlineMeetings.ReadWrite | delegado | Este permiso se usa para simplificar la creación y administración de reuniones y para sugerir a los asistentes que usan roles de asistentes | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| People.Read | delegado | Este permiso se usa para permitir que el usuario use microsoft AI para buscar contactos M365 compartidos y agregar a LawToolBox sistema de administración de contactos y sugerir a las personas que agreguen al sistema de administración de contactos de aplicaciones &#8211; no agregamos contactos automáticamente | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.Read | delegado | Este permiso es necesario para leer información básica del usuario (por ejemplo, nombre, correo electrónico, zona horaria) para que un administrador pueda agregar usuarios precisos al sistema | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| User.ReadWrite.All | aplicación | Este permiso se usa para leer información relacionada con el usuario desde el directorio y para permitir que los usuarios finales con acceso al portal de administración de LawToolBox agreguen personas a los grupos de los que no son miembros. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| correo electrónico | delegado | Este permiso permite a la aplicación leer correos electrónicos para permitir al usuario final recopilar información de contacto de correo electrónico de correos electrónicos en su bandeja de entrada, este permiso también permite que la aplicación lea correos electrónicos con información de PACER para que la aplicación pueda abrir el caso relacionado de forma predeterminada mediante el número de número de registro PACER | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
+>| perfil | delegado | Esto es necesario para la autenticación SSO (LawToolBox no pide permiso para escribir en su perfil) ESTE PERMISO ES NECESARIO PARA QUE LOS USUARIOS INICIEN SESIÓN EN LAS APLICACIONES LAWTOOLBOX CON AUTORIZACIÓN DE INICIO DE SESIÓN ÚNICO. | [6be25d92-7c0e-4b2f-829e-108766e095df](../azure/6be25d92-7c0e-4b2f-829e-108766e095df.md) |
 
 >Esta aplicación no tiene API adicionales.
 

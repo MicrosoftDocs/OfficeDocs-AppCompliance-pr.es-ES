@@ -2,18 +2,19 @@
 title: Información de la aplicación para herramienta de Kanban de Laboratorios de Costa
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la Herramienta Desa. de Kanban, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7f2e2c3677a81a6d838fe46ca5c52178294a9b33
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: da12e6a803deb9fd8c0ba31f44da77a28397c18e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62253456"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551439"
 ---
 # <a name="kanban-tool"></a>Kanban Tool
 
@@ -21,7 +22,7 @@ ms.locfileid: "62253456"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: June 15, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b3c15d4f-1972-4836-a1eb-7575dd56a17e" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/b3c15d4f-1972-4836-a1eb-7575dd56a17e" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002121" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,15 +34,16 @@ Información proporcionada por Shore Labs a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Kanban Tool |
-| Id. | WA200002121 |
+| ID | WA200002121 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Shore Labs |
 | Sitio web de la compañía | [https://www.shorelabs.com](https://www.shorelabs.com) |
 | Términos de uso de la aplicación | [https://kanbantool.com/policy/terms-of-service](https://kanbantool.com/policy/terms-of-service) |
 | Funcionalidad principal de la aplicación | Visualice el trabajo y realice un seguimiento del tiempo en un panel de kanban. |
 | Ubicación central de la empresa | Polonia |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://kanbantool.com](https://kanbantool.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS, SelfHosted, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ Los laboratorios de Shore han proporcionado esta información sobre cómo esta a
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en un mes |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -107,7 +102,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | false |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,12 +161,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| correo electrónico | delegado | Dirección de correo electrónico del usuario para la comunicación, la coincidencia de identidades y la entrega de notificaciones. | [4e820d60-9e62-403c-accd-857b987cc13c](https://docs.microsoft.com/microsoft-365-app-certification/azure/4e820d60-9e62-403c-accd-857b987cc13c) |
->| Team.ReadBasic.All | delegado | Identificadores y nombres de los equipos de los que el usuario es miembro directo. Se usan para asignar automáticamente usuarios a grupos correctos en herramienta Desc. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| User.Read | delegado | Información básica de la empresa de los usuarios que han iniciado sesión. Se usa para rellenar los detalles de la cuenta de nuevas cuentas y para reconocer los usuarios que pertenecen a su organización con el fin de proporcionar una Sign-On única. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| offline_access | delegado | Permite la funcionalidad "Iniciar sesión con Microsoft" y la sincronización de los datos a los que has concedido acceso a la aplicación, al iniciar sesión el usuario. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| OpenID | delegado | Abre tokens de id. que permiten a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas a través del botón "Iniciar sesión con Microsoft". | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
->| perfil | delegado | Nombre de usuario que se rellenará automáticamente en herramienta Descompletar y mantener la sincronización con los cambios en Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31) |
+>| correo electrónico | delegado | Dirección de correo electrónico del usuario para la comunicación, la coincidencia de identidades y la entrega de notificaciones. | [4e820d60-9e62-403c-accd-857b987cc13c](../azure/4e820d60-9e62-403c-accd-857b987cc13c.md) |
+>| Team.ReadBasic.All | delegado | Identificadores y nombres de los equipos de los que el usuario es miembro directo. Se usan para asignar automáticamente usuarios a grupos correctos en herramienta Desc. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| User.Read | delegado | Información básica de la empresa de los usuarios que han iniciado sesión. Se usa para rellenar los detalles de la cuenta de nuevas cuentas y para reconocer los usuarios que pertenecen a su organización con el fin de proporcionar una Sign-On única. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| offline_access | delegado | Permite la funcionalidad "Iniciar sesión con Microsoft" y la sincronización de los datos a los que has concedido acceso a la aplicación, al iniciar sesión el usuario. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| OpenID | delegado | Abre tokens de id. que permiten a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas a través del botón "Iniciar sesión con Microsoft". | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
+>| perfil | delegado | Nombre de usuario que se rellenará automáticamente en herramienta Descompletar y mantener la sincronización con los cambios en Microsoft Teams. | [a8ead1a3-85e1-42a3-9ed0-9afb97482b31](../azure/a8ead1a3-85e1-42a3-9ed0-9afb97482b31.md) |
 
 >Esta aplicación no tiene API adicionales.
 

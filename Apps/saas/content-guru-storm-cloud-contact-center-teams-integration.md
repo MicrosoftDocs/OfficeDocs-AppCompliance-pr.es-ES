@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para storm Cloud Contact Center Teams Integration, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 6e4c79749325a66c6a9537e23257f2131ac9acf1
-ms.sourcegitcommit: 62e60dfc73f78900307418e60318353faf8d9a57
+ms.openlocfilehash: 37d301bcbab0c389e87eb49fcb8b7c86a01cd00b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "63459841"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551699"
 ---
 # <a name="storm-cloud-contact-center-teams-integration"></a>integración del centro de Teams nube de storm
 
@@ -41,7 +41,6 @@ Información proporcionada por Content Guru a Microsoft:
 | Ubicación central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
 | Página de información de la aplicación | [https://www.contentguru.com/microsoft-teams-integration/](https://www.contentguru.com/microsoft-teams-integration/) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

@@ -2,18 +2,19 @@
 title: Información de la aplicación para Skoach de Cultify, Lda
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 11/09/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Skoach, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: da5dd2805900893dd514849838996b1ab5777f68
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: 8e471faa729bbb0ab38ce08a1a6fe162ef20360a
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62149122"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552189"
 ---
 # <a name="skoach"></a>Skoach
 
@@ -21,7 +22,7 @@ ms.locfileid: "62149122"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 9, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/401ece51-d146-4cfb-b426-d7c8b70b056b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/401ece51-d146-4cfb-b426-d7c8b70b056b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003455" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,16 +34,15 @@ Información proporcionada por Cultify, Lda a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Skoach |
-| Id. | WA200003455 |
+| ID | WA200003455 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Cultify, Lda |
 | Sitio web de la compañía | [https://skoach.com](https://skoach.com) |
 | Términos de uso de la aplicación | [https://www.skoach.com/terms-of-service](https://www.skoach.com/terms-of-service) |
-| Funcionalidad principal de la aplicación | Skoach es un entrenador virtual en el trabajo para mantener los equipos juntos, alineados y productivos que nudges a las personas para adoptar nuevos comportamientos, en función de los resultados de encuestas recurrentes. Skoach no solo aumenta el flujo de comunicación de los equipos, lo que lleva a la pertenencia y la alineación, sino que también ayuda a las personas a ocuparse de sí mismas para afrontar los nuevos desafíos que vienen con el trabajo híbrido, lo que aumenta la productividad de &amp; retención. |
+| Funcionalidad principal de la aplicación | Skoach es un entrenador virtual en el trabajo para mantener los equipos juntos, alineados y productivos que nudges a las personas para adoptar nuevos comportamientos, en función de los resultados de encuestas recurrentes. Skoach no solo aumenta el flujo de comunicación de los equipos, lo que lleva a la pertenencia y la alineación, sino que también ayuda a las personas a ocuparse de sí mismas para afrontar los nuevos desafíos que vienen con el trabajo híbrido, &amp; lo que aumenta la productividad de retención. |
 | Ubicación central de la empresa | Portugal |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -92,7 +92,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | No aplicable |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | No|
 | Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
@@ -124,9 +124,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -157,7 +157,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

@@ -2,18 +2,19 @@
 title: Información de la aplicación para ThoughtExchange by ThoughtExchange
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ThoughtExchange, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a749ad83fe14ccff790deaf88721ff1b29b04ea4
-ms.sourcegitcommit: d492eaf294e4eb3bb6f5db6d4fcf2ea1de3deabf
+ms.openlocfilehash: c0839129e2fbfee94d154a1a3d893126092e196e
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62148100"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63551299"
 ---
 # <a name="thoughtexchange"></a>ThoughtExchange
 
@@ -21,7 +22,7 @@ ms.locfileid: "62148100"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/56e9692f-606b-45ef-8c1f-12e1ea5e27db" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/56e9692f-606b-45ef-8c1f-12e1ea5e27db" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003378" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por ThoughtExchange a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ThoughtExchange |
-| Id. | WA200003378 |
+| ID | WA200003378 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ThoughtExchange |
 | Sitio web de la compañía | [https://thoughtexchange.com](https://thoughtexchange.com) |
 | Términos de uso de la aplicación | [https://www.thoughtexchange.com/participant-leader-terms-of...](https://www.thoughtexchange.com/participant-leader-terms-of-use/) |
-| Funcionalidad principal de la aplicación | &#8220;ThoughtExchange ayuda a los líderes a obtener aportaciones sinceras e imparciales de todos los empleados o comunidades, independientemente de su ubicación. Independientemente de&#8217;grupos de diez o 10 000, ThoughtExchange facilita la conducción de discusiones importantes y la toma de decisiones, a escala.&#8221; |
+| Funcionalidad principal de la aplicación | &#8220;ThoughtExchange ayuda a los líderes a obtener aportaciones sinceras e imparciales de todos los miembros de su personal o comunidad, independientemente de su ubicación. Independientemente&#8217;grupos de diez o 10.000, ThoughtExchange facilita la conducción de discusiones importantes y la toma de decisiones, a escala.&#8221; |
 | Ubicación central de la empresa | Canadá |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://get.thoughtexchange.help/hc/en-us/articles/15000107...](https://get.thoughtexchange.help/hc/en-us/articles/1500010779682) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Aws |
 
@@ -57,14 +58,7 @@ ThoughtExchange ha proporcionado esta información sobre cómo esta aplicación 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? |  |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | Sí |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? | Sí |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,7 +100,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
@@ -155,7 +149,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

@@ -2,18 +2,19 @@
 title: Información de la aplicación para Tikit de Cireson
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Tikit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Tikit, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 69551224968b55d4e3731f02b0578157a15bd038
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: ae9c1f81ddd6caf63faf498bb8691fcf2f638328
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259854"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63552199"
 ---
 # <a name="tikit"></a>Tikit
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259854"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 30, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/b13c40ee-e073-459e-96b5-3f3cca046a37" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002602" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,14 +34,14 @@ Información proporcionada por Cireson a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Tikit |
-| Id. | WA200002602 |
+| ID | WA200002602 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Cireson |
 | Sitio web de la compañía | [https://tikit.ai](https://tikit.ai) |
 | Términos de uso de la aplicación | [https://tikit.ai/terms-service/](https://tikit.ai/terms-service/) |
 | Funcionalidad principal de la aplicación | Microsoft-First ticketing creado exclusivamente para Teams |
 | Ubicación central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | |
+| Página de información de la aplicación | [https://tikit.ai](https://tikit.ai) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
@@ -124,8 +125,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
@@ -157,7 +158,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -171,15 +172,15 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Directory.Read.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| Group.Read.All | ambos | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.Read.All | aplicación | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| User.ReadBasic.All | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| correo electrónico | delegado | Permisos de inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| OpenID | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
->| perfil | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](https://docs.microsoft.com/microsoft-365-app-certification/azure/b13c40ee-e073-459e-96b5-3f3cca046a37) |
+>| Directory.AccessAsUser.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| Directory.Read.All | delegado | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| Group.Read.All | ambos | Se usa para leer asignaciones de roles para RBAC dentro de la aplicación | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.Read | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.Read.All | aplicación | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| User.ReadBasic.All | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| correo electrónico | delegado | Permisos de inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| OpenID | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
+>| perfil | delegado | Inicio de sesión | [b13c40ee-e073-459e-96b5-3f3cca046a37](../azure/b13c40ee-e073-459e-96b5-3f3cca046a37.md) |
 
 >Esta aplicación no tiene API adicionales.
 

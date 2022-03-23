@@ -2,18 +2,19 @@
 title: Información de la aplicación para Timeneye por DM Digital SRL
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Timeneye, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Timeneye, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 788c1d1118c68e5e60cb6bf20ec2817d2d85bf84
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 91630e4d80cabfb43a0d474c3ec3bef523b73b7b
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62259643"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550228"
 ---
 # <a name="timeneye"></a>Timeneye
 
@@ -21,7 +22,7 @@ ms.locfileid: "62259643"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 31, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/015bf4ec-bc37-4931-9862-ef8686da652b" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/015bf4ec-bc37-4931-9862-ef8686da652b" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001950" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por DM Digital SRL a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Timeneye |
-| Id. | WA200001950 |
+| ID | WA200001950 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | DM Digital SRL |
 | Sitio web de la compañía | [https://www.dmdigital.it](https://www.dmdigital.it) |
@@ -42,6 +43,7 @@ Información proporcionada por DM Digital SRL a Microsoft:
 | Ubicación central de la empresa | Italia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -56,14 +58,7 @@ DM Digital SRL ha proporcionado esta información sobre cómo esta aplicación r
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? |  |
-| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? |  |
-| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? |  |
-| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Eliminado en 2 semanas |
-| ¿Tiene un proceso de administración de acceso a datos establecido? |  |
-| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? |  |
-| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -105,9 +100,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -121,7 +116,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
@@ -153,7 +148,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -166,17 +161,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | delegado | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Generar sugerencias basadas en eventos de calendario. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Calendars.Read.Shared | delegado | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Usamos esta información para generar sugerencias basadas en eventos de calendario. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Directory.Read.All | delegado | Identificadores de grupos de usuarios. Usamos esta información para comprobar los grupos de los que el usuario es miembro para poder sincronizar los organizadores de sus grupos. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Group.Read.All | delegado | Nombre del grupo, Id. de grupo. Usamos esa información al sincronizar los proyectos de planner. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| Tasks.Read | delegado | nombre de lista de tareas, id. de lista de tareas. Usamos esta información al sincronizar los proyectos de planner. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| User.Read | delegado | correo electrónico, nombre. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| User.ReadBasic.All | delegado | nombre de usuario, correo electrónico. Usamos esta información para que el usuario pueda importar otros usuarios de Planner/Microsoft a nuestro servicio. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| correo electrónico | delegado | Correo electrónico. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| offline_access | delegado | Permiso necesario para sincronizar el organizador/calendario mientras el usuario no está en línea. | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| OpenID | delegado | id_token. Iniciar sesión en el usuario a través de Sso de Microsoft | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
->| perfil | delegado | correo electrónico, nombre. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](https://docs.microsoft.com/microsoft-365-app-certification/azure/56412014-bafe-474e-95b4-ebfea106a167) |
+>| Calendars.Read | delegado | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Generar sugerencias basadas en eventos de calendario. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Calendars.Read.Shared | delegado | Event Start/End DateTime, Event Subject, Event ID, Event Web URI. Usamos esta información para generar sugerencias basadas en eventos de calendario. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Directory.Read.All | delegado | Identificadores de grupos de usuarios. Usamos esta información para comprobar los grupos de los que el usuario es miembro para poder sincronizar los organizadores de sus grupos. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Group.Read.All | delegado | Nombre del grupo, Id. de grupo. Usamos esa información al sincronizar los proyectos de planner. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| Tasks.Read | delegado | nombre de lista de tareas, id. de lista de tareas. Usamos esta información al sincronizar los proyectos de planner. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| User.Read | delegado | correo electrónico, nombre. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| User.ReadBasic.All | delegado | nombre de usuario, correo electrónico. Usamos esta información para que el usuario pueda importar otros usuarios de Planner/Microsoft a nuestro servicio. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| correo electrónico | delegado | Correo electrónico. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| offline_access | delegado | Permiso necesario para sincronizar el organizador/calendario mientras el usuario no está en línea. | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| OpenID | delegado | id_token. Iniciar sesión en el usuario a través de Sso de Microsoft | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
+>| perfil | delegado | correo electrónico, nombre. Usamos esta información para iniciar sesión en el usuario o crear la cuenta de usuario | [56412014-bafe-474e-95b4-ebfea106a167](../azure/56412014-bafe-474e-95b4-ebfea106a167.md) |
 
 >Esta aplicación no tiene API adicionales.
 

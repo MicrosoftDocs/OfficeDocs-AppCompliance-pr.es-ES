@@ -2,18 +2,19 @@
 title: 'Información de aplicaciones para ideas amplias: software de innovación de Wide Ideas/Idea2Innovation'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 12/08/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para Wide Ideas: Software de innovación, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d5bbf1d032d5537dab0775522f80d83a472db661
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 60d577d402e68c31f10ed0e5f73ea92f047dfc73
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62251206"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550829"
 ---
 # <a name="wide-ideas---innovation-software"></a>Ideas amplias: software de innovación
 
@@ -32,15 +33,14 @@ Información proporcionada por Wide Ideas/Idea2Innovation a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Ideas amplias: software de innovación |
-| Id. | wideideaspoweredbyidea2innovaitonswedenab.innovation_cloud_application |
+| ID | wideideaspoweredbyidea2innovaitonswedenab.innovation_cloud_application |
 | Nombre de la compañía asociada | Wide Ideas/Idea2Innovation |
 | Sitio web de la compañía | [https://getwideideas.com](https://getwideideas.com) |
 | Términos de uso de la aplicación | [https://getwideideas.com/eula](https://getwideideas.com/eula) |
-| Funcionalidad principal de la aplicación | Con el software de administración de la innovación de Wide Ideas integrado en Microsoft 365 y Teams, compartir desafíos, experiencias de clientes e ideas de nuevas soluciones se convierte en parte de la cultura del trabajo de los empleados. |
+| Funcionalidad principal de la aplicación | Con el software de administración de innovación de Wide Ideas integrado en Microsoft 365 y Teams, compartir desafíos, experiencias de clientes e ideas de nuevas soluciones pasa a formar parte de la cultura de trabajo de los empleados. |
 | Ubicación central de la empresa | Suecia |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? |  |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -106,8 +106,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -122,9 +122,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | No aplicable |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | No aplicable |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -155,7 +155,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
@@ -168,12 +168,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Channel.Create | delegado | permite que el Centro de administración de Wide Ideas cree un canal en cualquier equipo, en nombre del usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Directory.Read.All | delegado | permite al Centro de administración de Wide Ideas leer datos en el directorio de&#8217;organización, como usuarios, grupos y aplicaciones | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| Group.Read.All | delegado | permite al Centro de administración de Wide Ideas enumerar grupos y leer sus propiedades y todas las pertenencias a grupos en nombre del usuario que ha iniciado sesión | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsAppInstallation.ReadWriteForTeam | delegado | permite que el Centro de administración de Wide Ideas lea, instale, actualice y desinstale Teams aplicaciones en equipos a las que puede tener acceso el usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| TeamsTab.Create | delegado |  permite al Centro de administración de Wide Ideas crear pestañas en cualquier equipo de Microsoft Teams, en nombre del usuario que ha iniciado sesión. | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
->| User.Read | delegado | permite a los usuarios iniciar sesión en el Centro de administración de Wide Ideas y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](https://docs.microsoft.com/microsoft-365-app-certification/azure/0d56e89d-8356-457f-89a2-618386a39eb8) |
+>| Channel.Create | delegado | permite que el Centro de administración de Wide Ideas cree un canal en cualquier equipo, en nombre del usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Directory.Read.All | delegado | permite al Centro de administración de Wide Ideas leer datos en el directorio&#8217;organización, como usuarios, grupos y aplicaciones | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| Group.Read.All | delegado | permite al Centro de administración de Wide Ideas enumerar grupos y leer sus propiedades y todas las pertenencias a grupos en nombre del usuario que ha iniciado sesión | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsAppInstallation.ReadWriteForTeam | delegado | permite que el Centro de administración de Wide Ideas lea, instale, actualice y desinstale Teams aplicaciones en equipos a las que puede tener acceso el usuario que ha iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| TeamsTab.Create | delegado |  permite al Centro de administración de Wide Ideas crear pestañas en cualquier equipo de Microsoft Teams, en nombre del usuario que ha iniciado sesión. | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
+>| User.Read | delegado | permite a los usuarios iniciar sesión en el Centro de administración de Wide Ideas y permite que la aplicación lea el perfil de los usuarios que han iniciado sesión.  | [0d56e89d-8356-457f-89a2-618386a39eb8](../azure/0d56e89d-8356-457f-89a2-618386a39eb8.md) |
 
 >Esta aplicación no tiene API adicionales.
 

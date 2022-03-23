@@ -2,18 +2,19 @@
 title: Información de aplicaciones para la IA de presentaciones por tecnologías de Infographfx
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/28/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para la IA de Presentaciones, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 72498844d44ff523c76e5f79f69ddffc28ad648b
-ms.sourcegitcommit: e61daaadc2921e59735e8952fe81e5a416b55fbf
+ms.openlocfilehash: 31add03f9e3670ada62ebb123abc34b266ecdb88
+ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62260624"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63550098"
 ---
 # <a name="presentations-ai"></a>Presentations AI
 
@@ -21,7 +22,7 @@ ms.locfileid: "62260624"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 17, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/1f510555-b518-4084-84e0-18c7bebc807c" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/1f510555-b518-4084-84e0-18c7bebc807c" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001352" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,12 +34,12 @@ Información proporcionada por las tecnologías de Infographfx a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Presentations AI |
-| Id. | WA200001352 |
+| ID | WA200001352 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Infographfx technologies |
 | Sitio web de la compañía | [https://presentations.ai](https://presentations.ai) |
 | Términos de uso de la aplicación | [https://presentations.ai/terms_teams.html](https://presentations.ai/terms_teams.html) |
-| Funcionalidad principal de la aplicación | Presentations.AI es una herramienta inteligente con procedimientos de diseño recomendados para crear presentaciones increíbles. |
+| Funcionalidad principal de la aplicación | Presentations.AI es una herramienta inteligente con procedimientos de diseño recomendados para crear presentaciones sorprendentes. |
 | Ubicación central de la empresa | India |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
@@ -106,9 +107,9 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
+| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | Fecha de certificación SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿Qué certificación SOC 2 ha logrado? | |
@@ -154,7 +155,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
