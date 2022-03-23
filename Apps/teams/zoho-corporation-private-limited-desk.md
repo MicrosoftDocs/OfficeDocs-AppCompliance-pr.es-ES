@@ -2,18 +2,19 @@
 title: Información de la aplicación para Zoho Desk de Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/30/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Desk, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 8b934d980843f06ad78ca65ceb5782ce951fa41b
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ee371d3cd431fae46b5f97d434ff9acb0fbcbe1e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430278"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63751079"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -21,7 +22,7 @@ ms.locfileid: "60430278"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: December 16, 2019</p>
 
-* <a href="https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104382044" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Desk |
-| Id. | WA104382044 |
+| ID | WA104382044 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Zoho Corporation Private Limited |
 | Dirección URL del sitio web de partners | [https://www.zoho.com/desk](https://www.zoho.com/desk) |
@@ -55,15 +56,15 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Files.Read | delegado |  | Leer archivos de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| email | delegado |  | Ver la dirección de correo electrónico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
->| perfil | delegado |  | Ver el perfil básico del usuario. | [](https://docs.microsoft.com/microsoft-365-app-certification/azure/) |
+>| Files.Read | delegado |  | Leer archivos de usuario. |  |
+>| Files.Read.All | delegado |  | Lea todos los archivos a los que el usuario puede tener acceso. |  |
+>| User.Read | delegado |  | Inicie sesión y lea el perfil de usuario. |  |
+>| User.ReadBasic.All | delegado |  | Lea los perfiles básicos de todos los usuarios. |  |
+>| correo electrónico | delegado |  | Ver la dirección de correo electrónico del usuario. |  |
+>| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. |  |
+>| perfil | delegado |  | Ver el perfil básico del usuario. |  |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -100,7 +101,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308" target="_blank">Ver en una pestaña nueva</a>
 

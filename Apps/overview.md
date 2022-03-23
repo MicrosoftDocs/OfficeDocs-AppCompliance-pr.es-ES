@@ -7,12 +7,12 @@ keywords: microsoft 365 m365 app editor certificación atestación
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: e36bee4289de320d264a8a5e55c7bc20a4ea803b
-ms.sourcegitcommit: cab3c02db1b748f3502714d89bd9b65408fd9f54
+ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
+ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60545777"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63697072"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Cumplimiento de Aplicaciones de Microsoft 365
 
@@ -38,7 +38,7 @@ El proceso de certificación de Microsoft 365 tiene dos fases: la **atestación*
 1.  La **certificación** implica una auditoría exhaustiva de una aplicación contra un conjunto de controles derivados de marcos estándar líderes de la industria. Se pedirá a los ISV que proporcionen pruebas para demostrar que cumplen con cada control antes de obtener una certificación. El objetivo es dar a los clientes la seguridad de que pueden confiar en la aplicación porque las aplicaciones que han recibido una certificación de Microsoft 365 mostraron prácticas de seguridad y cumplimiento sólidas para proteger la seguridad de los datos y la privacidad.
 
 
-La certificación de Microsoft 365 se aplica a WebApps y a todas las aplicaciones que se integran con los siguientes productos de Microsoft:
+La certificación Microsoft 365 se aplica a todas las aplicaciones que se integran con los siguientes productos de Microsoft:
 -   Teams
 -   Word
 -   Excel
@@ -47,8 +47,9 @@ La certificación de Microsoft 365 se aplica a WebApps y a todas las aplicacione
 - SharePoint
 - Project
 - OneNote
+- **Webapps** (aplicaciones SaaS publicadas a través del marketplace comercial en Centro de partners se encuentran actualmente en una versión preliminar privada), si está interesado en participar, rellene este [formulario](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ### <a name="get-started"></a>Introducción
-- [Cómo completar la verificación de Publisher](https://docs.microsoft.com/en-us/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [Cómo completar la certificación de Microsoft 365](https://docs.microsoft.com/en-us/microsoft-365-app-certification/docs/certification)
+- [Cómo completar la verificación de Publisher](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [Cómo completar la certificación de Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
 

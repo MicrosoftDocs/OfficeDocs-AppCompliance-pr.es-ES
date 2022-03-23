@@ -2,18 +2,19 @@
 title: Información de la aplicación para eTeamer por &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/25/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para eTeamer, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 149cc78306c01d767de2a646a67d4d2848bf95db
-ms.sourcegitcommit: a613e40971c8b48fa2b7a35039b4331a8116763b
+ms.openlocfilehash: a542760d33527db8de77e8643bdffd9b2cb67f07
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53525474"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63748261"
 ---
 # <a name="eteamer"></a>eTeamer
 
@@ -21,7 +22,7 @@ ms.locfileid: "53525474"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: May 25, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/5b4afbd0-a5ff-49c8-a0c7-c28eb5e87ef8" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/5b4afbd0-a5ff-49c8-a0c7-c28eb5e87ef8" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001621" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | eTeamer |
-| Id. | WA200001621 |
+| ID | WA200001621 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; |
 | Dirección URL del sitio web de partners | [https://ecms2.edensoft.com.cn/#/Eden](https://ecms2.edensoft.com.cn/#/Eden) |
@@ -54,9 +55,9 @@ Esta información ha sido proporcionada por &#28145;&#22323;&#20234;&#30331;&#36
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | ambos | El identificador de aplicación de inquilino y la contraseña de la aplicación se recopilan para la autorización implícita de OAuth 2.0 para sincronizar la información del usuario | El identificador de inquilino, el identificador de la aplicación de inquilino, la contraseña de la aplicación y la información del usuario se almacenan en la base de datos, que se usa para obtener la información del archivo de canal de los usuarios en Teams y operar en los archivos | [3407e97c-3eed-4eca-add5-2549ed881269](https://docs.microsoft.com/microsoft-365-app-certification/azure/3407e97c-3eed-4eca-add5-2549ed881269) |
+>| ChannelMember.ReadWrite.All | ambos | El identificador de aplicación de inquilino y la contraseña de la aplicación se recopilan para la autorización implícita de OAuth 2.0 para sincronizar la información del usuario | El identificador de inquilino, el identificador de la aplicación de inquilino, la contraseña de la aplicación y la información del usuario se almacenan en la base de datos, que se usa para obtener la información del archivo de canal de los usuarios en Teams y operar en los archivos | [3407e97c-3eed-4eca-add5-2549ed881269](../azure/3407e97c-3eed-4eca-add5-2549ed881269.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -82,7 +83,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->La aplicación consta de 6 módulos, subdividido en 55 permisos Configuración, que admiten la autorización de un solo archivo, así como la autorización de un solo usuario/rol
+>La aplicación consta de 6 módulos, subdivididas en 55 permisos Configuración, que admiten la autorización de un solo archivo, así como la autorización de un solo usuario/rol
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -98,7 +99,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/40122' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/40122' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/40122" target="_blank">Ver en una pestaña nueva</a>
 
@@ -110,7 +111,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Esta información ha sido proporcionada por &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; sobre cómo esta aplicación controla la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información ha sido proporcionada por &#28145;&#22323;&#20234;&#30331;&#36719;&#20214;&#26377;&#38480;&#20844;&#21496; sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
