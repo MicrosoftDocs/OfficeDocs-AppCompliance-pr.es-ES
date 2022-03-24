@@ -2,18 +2,19 @@
 title: Información de la aplicación para researcHR de KBE&#26666;&#24335;&#20250;&#31038;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 08/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para researcHR, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: b57d492945766c8d65417cf2f1d642ea4ecb8aae
-ms.sourcegitcommit: 64333f4e583bacd85f1b47af6e1eaee266658924
+description: Toda la información de seguridad y cumplimiento disponible para researcHR, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: 5def12e783d15c3cbcaf02ec128301dd9f75bd01
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58422737"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753780"
 ---
 # <a name="researchr"></a>researcHR
 
@@ -21,7 +22,7 @@ ms.locfileid: "58422737"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: August 5, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/13a58c36-8f58-46e7-90dd-16084830876c" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/13a58c36-8f58-46e7-90dd-16084830876c" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002557" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por KBE&#26666;&#24335;&#20250;&#31038; a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | researcHR |
-| Id. | WA200002557 |
+| ID | WA200002557 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | KBE&#26666;&#24335;&#20250;&#31038; |
 | Dirección URL del sitio web de partners | [https://app.researchr.work/corporate](https://app.researchr.work/corporate) |
@@ -49,21 +50,21 @@ Información proporcionada por KBE&#26666;&#24335;&#20250;&#31038; a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-KbE ha proporcionado esta información&#26666;&#24335;&#20250;&#31038; información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+KbE ha proporcionado esta información&#26666;&#24335;&#20250;&#31038; información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Channel.Create | aplicación | Usamos este ámbito para permitir que nuestro bot cree un nuevo canal en el Teams cliente. Vea: https://docs.microsoft.com/en-us/graph/api/channel-post | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Directory.Read.All | aplicación | Usamos este ámbito para obtener los nombres y los nombres de los canales para mostrar estos datos en nuestro sitio web. Vea: https://docs.microsoft.com/en-us/graph/api/channel-list | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Group.Read.All | aplicación | Usamos este ámbito para obtener los nombres y los nombres de los canales para mostrar estos datos en nuestro sitio web. Vea: https://docs.microsoft.com/en-us/graph/api/channel-list | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| Team.ReadBasic.All | aplicación | Usamos este ámbito para obtener los miembros del equipo para que los usuarios puedan ver a sus miembros del equipo en nuestro sitio web. Vea: https://docs.microsoft.com/en-us/graph/api/group-list-members | No almacenamos estos datos en la base de datos externa. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.Read.All | aplicación | Usamos este ámbito para obtener los canales unidos del usuario para que los usuarios puedan ver sus equipos unidos en nuestro sitio web. Vea: https://docs.microsoft.com/en-us/graph/api/user-list-joinedteams | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| User.ReadBasic.All | delegado | Usamos este ámbito para habilitar el inicio de sesión de OAuth y recopilar el identificador de AAD del usuario, el token de acceso y el token de actualización. Vea: https://docs.microsoft.com/en-us/graph/auth-v2-user | Almacenamos el identificador de AAD del usuario, el token de acceso y el token de actualización en nuestra base de datos para que el usuario pueda iniciar sesión en nuestro sitio web con OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
->| offline_access | delegado | Usamos este ámbito para obtener el token de actualización para que podamos actualizar el token de acceso de los usuarios autenticados sin ninguna interacción del usuario. Vea: https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Almacenamos el token de actualización en nuestra base de datos para que podamos actualizar el token de acceso sin ninguna interacción del usuario. | [82df726e-0de2-46af-b4f1-0645fd95fc97](https://docs.microsoft.com/microsoft-365-app-certification/azure/82df726e-0de2-46af-b4f1-0645fd95fc97) |
+>| Channel.Create | aplicación | Usamos este ámbito para permitir que nuestro bot cree un nuevo canal en el Teams cliente. Vea: https://docs.microsoft.com/graph/api/channel-post | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Directory.Read.All | aplicación | Usamos este ámbito para obtener los nombres y los nombres de los canales para mostrar estos datos en nuestro sitio web. Vea: https://docs.microsoft.com/graph/api/channel-list | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Group.Read.All | aplicación | Usamos este ámbito para obtener los nombres y los nombres de los canales para mostrar estos datos en nuestro sitio web. Vea: https://docs.microsoft.com/graph/api/channel-list | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| Team.ReadBasic.All | aplicación | Usamos este ámbito para obtener los miembros del equipo para que los usuarios puedan ver a sus miembros del equipo en nuestro sitio web. Vea: https://docs.microsoft.com/graph/api/group-list-members | No almacenamos estos datos en la base de datos externa. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.Read.All | aplicación | Usamos este ámbito para obtener los canales unidos del usuario para que los usuarios puedan ver sus equipos unidos en nuestro sitio web. Vea: https://docs.microsoft.com/graph/api/user-list-joinedteams | No almacenamos estos datos en nuestra base de datos. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| User.ReadBasic.All | delegado | Usamos este ámbito para habilitar el inicio de sesión de OAuth y recopilar el identificador de AAD, el token de acceso y el token de actualización del usuario. Vea: https://docs.microsoft.com/graph/auth-v2-user | Almacenamos el identificador de AAD, token de acceso y token de actualización del usuario en nuestra base de datos para que el usuario pueda iniciar sesión en nuestro sitio web con OAuth. | [82df726e-0de2-46af-b4f1-0645fd95fc97].. /azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
+>| offline_access | delegado | Usamos este ámbito para obtener el token de actualización para que podamos actualizar el token de acceso de los usuarios autenticados sin ninguna interacción del usuario. Vea: https://docs.microsoft.com/azure/active-directory/develop/v2-permissions-and-consent#offline_access | Almacenamos el token de actualización en nuestra base de datos para que podamos actualizar el token de acceso sin ninguna interacción del usuario. | [82df726e-0de2-46af-b4f1-0645fd95fc97](../azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -105,7 +106,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
 

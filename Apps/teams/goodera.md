@@ -2,18 +2,19 @@
 title: Información de la aplicación para Goodera de Goodera
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 02/17/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Goodera, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 8a2edbd7962434cf3525b9ca262ead552bb86640
-ms.sourcegitcommit: c02a78e87cd408ded50ad143138502ce1f1d883e
+ms.openlocfilehash: f44ae5b38928d1bb89fd78c8ae9cd43dc732e7c7
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62338100"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752203"
 ---
 # <a name="goodera"></a>Goodera
 
@@ -21,7 +22,7 @@ ms.locfileid: "62338100"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: February 9, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/bc78ef2f-db9c-4bac-83de-1571f9dedf2d" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/bc78ef2f-db9c-4bac-83de-1571f9dedf2d" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002136" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"

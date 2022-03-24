@@ -2,26 +2,27 @@
 title: Información de la aplicación para planyway calendar for Trello by Rubius
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Planyway Calendar para Trello, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 1f7f0b736cbe100b0131d4064c2702cb28e9ea35
-ms.sourcegitcommit: 06d460e64ccf4d150acd7f90309c902262ba2f7a
+ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61354697"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753775"
 ---
-# <a name="planyway-calendar-for-trello"></a>Calendario planyway para Trello
+# <a name="planyway-calendar-for-trello"></a>Calendario Planyway para Trello
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: March 19, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/861228c3-eefd-462f-9b13-24dae6530ac3" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/861228c3-eefd-462f-9b13-24dae6530ac3" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002712" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,7 +33,7 @@ Información proporcionada por Rubius a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Calendario planyway para Trello |
+| Nombre de la aplicación | Calendario Planyway para Trello |
 | ID | WA200002712 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Rubius |
@@ -108,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | {
-  &quot;CMP08_complianceSOC_1 : &quot; &quot; Na &quot; } | | Fecha de certificación SOC1 más reciente |   | | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sin | | ¿Qué certificación SOC 2 ha logrado? | | | Fecha de certificación SOC2 más reciente | | | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | Sin | | Fecha de certificación SOC3 más reciente | | | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | Sin | | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | { &quot; CMP16_complianceISO_27018 : Na } &quot; &quot; &quot; | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | Sin | | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | Sin | | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/A | | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/A | | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/A | | ¿La aplicación cumple con NIST 800-171? |  | | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sin |
+  &quot;&quot;CMP08_complianceSOC_1: &quot;Na&quot; } | | Fecha de certificación SOC1 más reciente |   | | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sin | | ¿Qué certificación SOC 2 ha logrado? | | | Fecha de certificación SOC2 más reciente | | | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | Sin | | Fecha de certificación SOC3 más reciente | | | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | Sin | | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | { &quot;CMP16_complianceISO_27018&quot;: &quot;Na&quot; } | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | Sin | | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | Sin | | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/A | | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/A | | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/A | | ¿La aplicación cumple con NIST 800-171? |  | | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sin |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -137,7 +138,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |

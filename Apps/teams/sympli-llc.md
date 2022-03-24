@@ -2,18 +2,19 @@
 title: Información de la aplicación para Sympli de Sympli, LLC
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sympli, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 6cc7ec4b892939c4a1f6ca8c55a3a01c4dc9bc85
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: f983d7b3c48a24e35bd48f175132aa98d535a374
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428707"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63752920"
 ---
 # <a name="sympli"></a>Sympli
 
@@ -21,7 +22,7 @@ ms.locfileid: "60428707"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: February 16, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/f1d676ab-0d2c-4afe-a9be-0af4528949ce" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/f1d676ab-0d2c-4afe-a9be-0af4528949ce" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001551" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por Sympli, LLC a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sympli |
-| Id. | WA200001551 |
+| ID | WA200001551 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Sympli, LLC |
 | Dirección URL del sitio web de partners | [https://sympli.io](https://sympli.io) |
@@ -62,7 +63,7 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Se transfieren servicios Microsoft OII que no son de servicios Microsoft** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-----------------------------------------------------|:------------------------------|:----------------------------------------|
 >| Intercom, Stripe, HubSpot | Nombre de la organización | Soporte técnico, ventas, actualizaciones de productos |
 
@@ -85,7 +86,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Nos basamos en las directivas de los servicios correspondientes, por ejemplo, https://www.intercom.com/legal/privacy , https://legal.hubspot.com/privacy-policy , https://stripe.com/privacy
+>Nos basamos en las directivas de los servicios correspondientes, por ejemplo, https://www.intercom.com/legal/privacy, , https://legal.hubspot.com/privacy-policyhttps://stripe.com/privacy
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -101,7 +102,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/30740" target="_blank">Ver en una pestaña nueva</a>
 

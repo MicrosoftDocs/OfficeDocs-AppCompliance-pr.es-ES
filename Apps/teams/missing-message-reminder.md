@@ -1,27 +1,28 @@
 ---
-title: Información de aplicación para aviso de mensaje &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089;
+title: Información de aplicación para aviso de mensajes &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089;
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/07/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para aviso de mensajes, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
-zone_pivot_groups: app-info-data-identity
-ms.openlocfilehash: c367d46abd5f0e5ac3f4e3e12d59e28e507a9e60
-ms.sourcegitcommit: 78e63c8004c49fa95d80618b9fee424f1084e43d
+description: Toda la información de seguridad y cumplimiento disponible para aviso de mensajes, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+zone_pivot_groups: app-info-data-mcas-identity
+ms.openlocfilehash: c95ef8bab0d735eb35c89ed1e910428407d1d5eb
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58404658"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753546"
 ---
-# <a name="message-reminder"></a>Aviso de mensaje
+# <a name="message-reminder"></a>Message Reminder
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: July 7, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/fdadca1f-9c57-4df6-84ff-8654e6446527" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/fdadca1f-9c57-4df6-84ff-8654e6446527" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001875" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -32,8 +33,8 @@ Información proporcionada por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#108
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Aviso de mensaje |
-| Id. | WA200001875 |
+| Nombre de la aplicación | Message Reminder |
+| ID | WA200001875 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; |
 | Dirección URL del sitio web de partners | [https://systemz.io](https://systemz.io) |
@@ -49,7 +50,7 @@ Información proporcionada por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#108
 
 ### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
 
-Esta información ha sido proporcionada por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; acerca de cómo esta aplicación recopila y almacena datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
@@ -97,7 +98,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/" target="_blank">Ver en una pestaña nueva</a>
 

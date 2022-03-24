@@ -2,18 +2,19 @@
 title: Información de la aplicación para Yeeflow de Akmii
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 01/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Yeeflow, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 08292f647bad35e7fd87b0627aea3df21f271c34
-ms.sourcegitcommit: edd55f34c004f0b5c7e4418b92b8ba325b8ab336
+ms.openlocfilehash: 5b80f4cd79d8773af8ff035d054959108db5bdb4
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62318699"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753792"
 ---
 # <a name="yeeflow"></a>Yeeflow
 
@@ -21,7 +22,7 @@ ms.locfileid: "62318699"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: November 25, 2020</p>
 
-* <a href="https://teams.microsoft.com/l/app/7c10d6ae-b4ad-4221-b086-8518f5d4a1c4" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/7c10d6ae-b4ad-4221-b086-8518f5d4a1c4" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200000089" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"

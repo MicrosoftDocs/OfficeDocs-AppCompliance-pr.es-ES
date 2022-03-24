@@ -2,18 +2,19 @@
 title: Información de la aplicación para TeamMate de ChitChattr por ChitChattr
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamMate by ChitChattr, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9e12f758f81980d155f769e14323556e73c67fab
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
+ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430862"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63753548"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -21,7 +22,7 @@ ms.locfileid: "60430862"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Last updated by the developer on: March 11, 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/4c2dfafa-ecd7-495f-a2d6-fb115201daff" target="_blank">Ver en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/4c2dfafa-ecd7-495f-a2d6-fb115201daff" target="_blank">Ver en Teams tienda</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002530" target="_blank">Ver en AppSource</a>
 
 ::: zone pivot="general"
@@ -33,7 +34,7 @@ Información proporcionada por ChitChattr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamMate by ChitChattr |
-| Id. | WA200002530 |
+| ID | WA200002530 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChitChattr |
 | Dirección URL del sitio web de partners | [https://www.chitchattr.com](https://www.chitchattr.com) |
@@ -55,9 +56,9 @@ ChitChattr ha proporcionado esta información sobre cómo esta aplicación recop
 
 Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](https://docs.microsoft.com/microsoft-365-app-certification/azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50) |
+>| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -72,7 +73,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede tener
 
 >| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| En caso de algún problema, el bot buscará y mostrará al usuario los nombres y los detalles de contacto de los usuarios registrados como administradores en la aplicación (básicamente póngase en contacto con el administrador: es lo que &quot; son &quot; ) | Nombre, correo electrónico | Como se describe en las secciones anteriores: para poder identificar usuarios para experiencias dirigidas (en función de la configuración de su administrador) y permitir a los usuarios ver quiénes son los administradores internos de la empresa para la aplicación. |
+>| En caso de algún problema, el bot buscará y mostrará al usuario los nombres y los detalles de contacto de los usuarios registrados como administradores en la aplicación ( &quot;básicamente póngase en contacto con el administrador: es lo que son&quot;) | Nombre, correo electrónico | Como se describe en las secciones anteriores: para poder identificar usuarios para experiencias dirigidas (en función de la configuración de su administrador) y permitir a los usuarios ver quiénes son los administradores internos de la empresa para la aplicación. |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -101,7 +102,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Ver en una pestaña nueva</a>
 
