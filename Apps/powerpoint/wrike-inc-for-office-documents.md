@@ -2,18 +2,19 @@
 title: Información de la aplicación para Wrike para Office documentos de Wrike Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 03/23/2020
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Wrike para documentos de Office, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 87656417cb587e3778ddf85f2c20766b3a43cf86
-ms.sourcegitcommit: 65d4afba6f46d45315b2a90d2b21ce1737707e7b
+ms.openlocfilehash: 253c8d631397d0d17a96e75f8a5d3c20ea784133
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53282344"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64458763"
 ---
 # <a name="wrike-for-office-documents"></a>Wrike para Office documentos
 
@@ -50,7 +51,7 @@ Wrike Inc. ha proporcionado esta información sobre cómo esta aplicación recop
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
@@ -60,15 +61,15 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 >| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| API de JavaScript para Office | Sí | El complemento usa la API Office.js para integrarse con la Office aplicación. |  | No se almacenan datos de la organización en las bases de datos de Wrike. |  |
+>| API de JavaScript para Office | Sí | El complemento usa la API de Office.js para integrarse con la Office aplicación. |  | No se almacenan datos de la organización en las bases de datos de Wrike. |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Se transfieren servicios Microsoft OII que no son de servicios Microsoft** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Wrike tiene las integraciones con los siguientes proveedores que tienen acceso a algunos datos: Marketo es servicios de captura de clientes potenciales de correo electrónico: solo se les proporcionan nombres y correos electrónicos. El alcance es una interacción de ventas basada en la nube: solo se les proporcionan nombres y correos electrónicos. Sistema CRM de Salesforce: tiene información de contacto y facturación (sin datos confidenciales) de los clientes. Zuora: clientes de facturación y facturación. Hay un DPA en su lugar para todos los proveedores. |  | Usamos la API Office JS, pero no recopilamos, procesamos ni almacenamos información de la organización. |
+>| Wrike tiene las integraciones con los siguientes proveedores que tienen acceso a algunos datos: Marketo es servicios de captura de clientes potenciales de correo electrónico: solo se les proporcionan nombres y correos electrónicos. El alcance es una interacción de ventas basada en la nube: solo se les proporcionan nombres y correos electrónicos. Sistema CRM de Salesforce: tiene información de contacto y facturación (sin datos confidenciales) de los clientes. Zuora: clientes de facturación y facturación. Hay un DPA en su lugar para todos los proveedores. |  | Usamos la API Office JS, pero no recopilamos, procesamos ni almacenamos información organizativa. |
 
 
 
@@ -82,10 +83,10 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Wrike tiene una arquitectura multiinquilino que separa lógicamente los&#8217; a través del control de acceso en función de los metadatos del cliente. Estos metadatos están asociados con el inquilino específico y sus derechos de acceso de acuerdo con las reglas de acceso basadas en roles dentro de la cuenta de Wrike específica. Los datos están aislados y segregados lógicamente y el acceso a los datos solo está disponible a través de la aplicación para garantizar la seguridad y privacidad. La seguridad en el nivel de aplicación impide que los inquilinos accedan o modifiquen los datos de la aplicación propiedad de otro inquilino. La aplicación de Wrike tiene una amplia autenticación, control de acceso basado en roles, autorización y mecanismos de control y uso compartido de datos (vea y que permiten el acceso a datos solo para usuarios https://help.wrike.com/hc/en-us/articles/209603589-Access-Roles https://help.wrike.com/hc/en-us/articles/209602969) autorizados. Además, el cifrado en reposo se aplica a los archivos de usuario cargados en servidores Wrike en el almacenamiento de archivos a través de la api y la aplicación web; los archivos se cifran automáticamente mediante cifrado AES de 256 bits. Además, todos los servidores se cifran en reposo mediante el cifrado del sistema de archivos y, además, Wrike ofrece el complemento Wrike Lock para la clave de cifrado administrada por un cliente, vea https://www.wrike.com/add-on-wrike-lock/ y https://help.wrike.com/hc/en-us/articles/360012347934-Wrike-Lock . Como capa adicional de seguridad de datos, Wrike ofrece funciones de auditoría e informes que permiten a los administradores realizar revisiones de seguridad completa mientras pueden aumentar la visibilidad de lo que está sucediendo en su cuenta de Wrike, se pueden encontrar más detalles en https://help.wrike.com/hc/en-us/articles/209606309-Audit-Reports . Por último, Wrike proporciona funcionalidad que permite el seguimiento granular de roles de acceso para ayudar a los clientes a auditar completamente el uso compartido de datos existente ver detalles en https://help.wrike.com/hc/en-us/articles/360002004534-Access-Reports .
+>Wrike tiene una arquitectura multiinquilino que separa lógicamente los&#8217; datos a través del control de acceso basado en metadatos del cliente. Estos metadatos están asociados con el inquilino específico y sus derechos de acceso de acuerdo con las reglas de acceso basadas en roles dentro de la cuenta de Wrike específica. Los datos están aislados y segregados lógicamente y el acceso a los datos solo está disponible a través de la aplicación para garantizar la seguridad y privacidad. La seguridad en el nivel de aplicación impide que los inquilinos accedan o modifiquen los datos de la aplicación propiedad de otro inquilino. La aplicación de Wrike tiene una amplia autenticación, control de acceso basado en roles, autorización y mecanismos de control y uso compartido de datos ( https://help.wrike.com/hc/en-us/articles/209603589-Access-Roles https://help.wrike.com/hc/en-us/articles/209602969) vea y que permiten el acceso a datos solo para usuarios autorizados. Además, el cifrado en reposo se aplica a los archivos de usuario cargados en servidores Wrike en el almacenamiento de archivos a través de la api y la aplicación web; los archivos se cifran automáticamente mediante cifrado AES de 256 bits. Además, todos los servidores se cifran en reposo mediante el cifrado del sistema de archivos y, además, Wrike ofrece el complemento Wrike Lock para la clave de cifrado administrada por un cliente, https://www.wrike.com/add-on-wrike-lock/ vea y https://help.wrike.com/hc/en-us/articles/360012347934-Wrike-Lock. Como capa adicional de seguridad de datos, Wrike ofrece funciones de auditoría e informes que permiten a los administradores realizar revisiones de seguridad completa mientras pueden aumentar la visibilidad de lo que está sucediendo en su cuenta de Wrike, https://help.wrike.com/hc/en-us/articles/209606309-Audit-Reportsse pueden encontrar más detalles en . Por último, Wrike proporciona funcionalidad que permite el seguimiento granular de roles de acceso para ayudar a los clientes a auditar completamente el uso compartido de datos existente ver detalles en https://help.wrike.com/hc/en-us/articles/360002004534-Access-Reports.
 El acceso a los datos del cliente puede considerarse en dos casos:
 - Acceso del equipo de soporte técnico de Wrike: en caso de solucionar el problema o comprobarlo, es necesario que el soporte técnico acceda a su cuenta; que el acceso solo puede concederse por usted. Esto se habilita mediante un token de seguridad generado por el sistema que proporcionas fuera de banda a nuestro equipo de soporte técnico, lo que permite al soporte técnico profundizar en la solución del problema durante un período de tiempo limitado. Este enfoque sistémico garantiza la confidencialidad adicional de los datos almacenados en Wrike.
-- Acceso por parte del equipo operativo de Wrike: el equipo operativo de Wrike es responsable de mantener y admitir el entorno de producción, incluidos la supervisión, la revisión y la actualización, la entrega de las nuevas compilaciones a la producción, etc. En este caso, el acceso está estrictamente prohibido tanto en aspectos de procedimiento como técnicos, y hay controles de autorización fuertes, incluidos, entre otros, VPN, 2FA y certificado personal, además, se supervisa en detalles con HIDS (sistema de detección de intrusiones basado en host) y se revisa por el equipo de seguridad operativa de Wrike. En el caso de Amazon KMS (funcionalidad de bloqueo de Wrike), los datos del cliente se almacenan cifrados en la base de datos de Wrike, por lo que los datos no están disponibles directa o indirectamente por el equipo operativo de Wrike, ya que los datos se pueden descifrar mediante el acceso a amazon KMS del cliente, que es administrado y controlado únicamente por el cliente.
+- Acceso por parte del equipo operativo de Wrike: el equipo operativo de Wrike es responsable de mantener y admitir el entorno de producción, incluidos la supervisión, la revisión y la actualización, la entrega de las nuevas compilaciones a la producción, etc. En este caso, el acceso está estrictamente prohibido tanto en aspectos de procedimiento como técnicos, y hay controles de autorización fuertes, incluidos, entre otros, VPN, 2FA y certificado personal, además, se supervisa en detalles con HIDS (sistema de detección de intrusiones basado en host) y se revisa por el equipo de seguridad operativa de Wrike. En el caso de Amazon KMS (funcionalidad de bloqueo de Wrike), los datos del cliente se almacenan cifrados en la base de datos de Wrike, por lo que los datos no están disponibles directa o indirectamente por el equipo operativo de Wrike, ya que los datos se pueden descifrar mediante el acceso a Amazon KMS del cliente, administrado y controlado únicamente por el cliente.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -101,7 +102,7 @@ El acceso a los datos del cliente puede considerarse en dos casos:
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21522' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/21522' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/21522" target="_blank">Ver en una pestaña nueva</a>
 

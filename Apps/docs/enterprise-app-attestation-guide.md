@@ -2,25 +2,26 @@
 title: ¿Qué Publisher atestación?
 author: LGerrard
 ms.author: legerrar
+manager: tonybal
 description: Más detalles sobre el programa Publisher atestación
 keywords: app attestation certification 365 questionnaire appSource publisher
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 06c64ab2aa09790a0c20ee9d555adf1177031f12
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c49279c827ed0ac39e49b07aabd01baaab9f8e5e
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287648"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457213"
 ---
 # <a name="what-is-publisher-attestation"></a>¿Qué Publisher atestación?
 
-Publisher Atestación es el siguiente nivel del programa Microsoft 365 cumplimiento de aplicaciones. Se pide al desarrollador de la aplicación que complete una autoevaluación que incluya las preguntas más frecuentes que hacen los clientes o los administradores de TI cuando evalúan la seguridad y el cumplimiento de una aplicación. A continuación, Microsoft publica esta información para una evaluación más fácil y más rápida.
+Publisher atestación es el siguiente nivel del programa Microsoft 365 cumplimiento de aplicaciones. Se pide al desarrollador de la aplicación que complete una autoevaluación que incluya las preguntas más frecuentes que hacen los clientes o los administradores de TI cuando evalúan la seguridad y el cumplimiento de una aplicación. A continuación, Microsoft publica esta información para una evaluación más fácil y más rápida.
 
 > [!IMPORTANT]
 > Microsoft no valida toda la información proporcionada. El desarrollador de aplicaciones es el único responsable de la información que proporcionan en la atestación del editor. 
 
-Publisher La atestación se aplica a las aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners). Las aplicaciones SaaS se encuentran actualmente en una vista previa privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). Atestación también incluye todas las aplicaciones que se integran con los siguientes productos de Microsoft:
+Publisher atestación se aplica a aplicaciones web (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners). Las aplicaciones SaaS se encuentran actualmente en una vista previa privada, si está interesado en participar, rellene este [formulario](https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR4cf3qxCU_RNtqjCSalFdSFUNDMzTVJKR0wzTEJRSFJVSk9OQUlOV0RJSyQlQCN0PWcu). Atestación también incluye todas las aplicaciones que se integran con los siguientes productos de Microsoft:
 
 - Teams
 - Word
@@ -43,13 +44,13 @@ Las ventajas de completar la Publisher atestación para desarrolladores incluyen
 -   Mayor transparencia
 - Microsoft proporciona este servicio sin costo adicional
 -   Diferenciación de otras aplicaciones de la tienda
--   Vínculo a la página de documentos desde su entrada en AppSource, Teams Centro de administración y Centro de administración de Microsoft
+-   Vincular a la página de documentos desde su entrada en AppSource, Teams Centro de administración y Centro de administración de Microsoft
 -   Cualificación para iniciar la Microsoft 365 certificación
 
 
-## <a name="publisher-attestation-scope"></a>Publisher Ámbito de atestación
+## <a name="publisher-attestation-scope"></a>Publisher ámbito de atestación
 
-El proceso de atestación se centra en un extenso cuestionario que detalla los atributos de seguridad, control de datos y cumplimiento de una aplicación. La información proporcionada cubre toda la funcionalidad de la aplicación que se expone cuando la aplicación se activa en la plataforma Microsoft 365 de una organización e incluye lo siguiente:
+El proceso de atestación se centra en un extenso cuestionario que detalla los atributos de seguridad, control de datos y cumplimiento de una aplicación. La información proporcionada cubre toda la funcionalidad de la aplicación que se expone cuando la aplicación se activa en la plataforma de Microsoft 365 organización e incluye lo siguiente:
 
 - Tratamiento de datos: cómo una aplicación recopila y almacena datos de la organización y qué control tiene una organización sobre estos datos
 - Seguridad: los protocolos, procesos y procedimientos que una aplicación tiene para proteger datos y detectar y rechazar ciberataques
@@ -58,21 +59,21 @@ El proceso de atestación se centra en un extenso cuestionario que detalla los a
 
 ### <a name="confirmation-criteria"></a>Criterios de confirmación
 
-La atestación reflejará las prácticas de seguridad, control de datos y cumplimiento de una aplicación con más de 80 factores de riesgo identificados [por Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security). Si el envío de documentación de atestación inicial no cumple los criterios básicos de prueba de coherencia, la atestación no se aprobará. Después de la aprobación, si se notifica o detecta una desinformación en el envío de documentación o un error de la aplicación, se anulará el estado de confirmación de la atestación. En cualquier caso, el desarrollador recibirá información pertinente y detallada para ayudar en el proceso de corrección.
+La atestación reflejará las prácticas de seguridad, control de datos y cumplimiento de una aplicación en más de 80 factores de riesgo identificados [por Microsoft Cloud App Security](https://www.microsoft.com/microsoft-365/enterprise-mobility-security/cloud-app-security). Si el envío de documentación de atestación inicial no cumple los criterios básicos de prueba de coherencia, la atestación no se aprobará. Después de la aprobación, si se notifica o detecta una desinformación en el envío de documentación o un error de la aplicación, se anulará el estado de confirmación de la atestación. En cualquier caso, el desarrollador recibirá información pertinente y detallada para ayudar en el proceso de corrección.
 
 ### <a name="confirmation-time-frame"></a>Período de tiempo de confirmación
 
 La atestación es válida durante un año desde el momento del envío. Sin embargo, si una aplicación se actualiza o modifica durante el período provisional, el desarrollador debe revisar y volver a enviar la atestación
 
-## <a name="reviewing-an-apps-publisher-attestation"></a>Revisar la certificación de Publisher aplicación
+## <a name="reviewing-an-apps-publisher-attestation"></a>Revisión de la atestación de Publisher aplicación
 
-El desarrollador puede revisar información detallada de los resultados de la certificación Publisher de una aplicación en la página de documentos de Microsoft creada para su aplicación. Se mostrarán todas las aplicaciones que hayan completado la certificación Publisher o Microsoft 365 y cada descripción mostrará claramente qué nivel del programa de cumplimiento se ha alcanzado.
+El desarrollador puede revisar información detallada sobre los resultados de la certificación Publisher de una aplicación en la página de documentos de Microsoft creada para su aplicación. Todas las aplicaciones que hayan completado la certificación Publisher o la certificación de Microsoft 365 aparecerán en la lista y cada descripción mostrará claramente qué nivel del programa de cumplimiento se ha alcanzado.
 
 **Consulta la [descripción de MIPA](https://docs.microsoft.com/microsoft-365-app-certification/teams/iglobe-mipa-your-personal-assistant?pivots=mcas) para ver un ejemplo de una aplicación que ha completado la Publisher atestación.** 
 
 ## <a name="learn-more"></a>Más información
 
-* [Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)
+* [Microsoft 365 del programa de cumplimiento de aplicaciones](~/overview.md)
 * [Qué es Publisher verificación](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview)
-* [Certificación Publisher completa](~/docs/attestation.md)  
+* [Completar la atestación de Publisher](~/docs/attestation.md)  
 * [¿Qué es Microsoft 365 certificación?](~/docs/enterprise-app-certification-guide.md)

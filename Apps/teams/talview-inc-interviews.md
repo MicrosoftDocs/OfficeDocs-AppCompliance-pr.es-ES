@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para las entrevistas de Talview, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 19dc757e6bd95c434999f7f2228f8cb757addd28
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c4465b676ea2b85e8f2d6fcbffaf1f00c2a5d349
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753151"
+ms.locfileid: "63773551"
 ---
 # <a name="talview-interviews"></a>Talview Interviews
 
@@ -34,7 +34,7 @@ Información proporcionada por Talview Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Talview Interviews |
-| ID | WA200002437 |
+| Id. | WA200002437 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Talview Inc |
 | Dirección URL del sitio web de partners | [https://talview.com](https://talview.com) |
@@ -54,14 +54,14 @@ Talview Inc ha proporcionado esta información sobre cómo esta aplicación reco
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para asignar cuentas de usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| OpenID | delegado | Iniciar sesión de los usuarios, Para iniciar sesión en la plataforma | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
->| perfil | delegado | Ver el perfil básico de los usuarios | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | [8b976ed7-cc69-482a-a020-19bdce1041c4](../azure/8b976ed7-cc69-482a-a020-19bdce1041c4.md) |
+>| User.Read | delegado | Iniciar sesión y leer el perfil del usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| correo electrónico | delegado | Ver la dirección de correo electrónico de los usuarios para asignar cuentas de usuario | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| OpenID | delegado | Iniciar sesión de los usuarios, Para iniciar sesión en la plataforma | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
+>| perfil | delegado | Ver el perfil básico de los usuarios | Dirección de correo electrónico/Nombres de usuario para notificaciones y autenticación | 8b976ed7-cc69-482a-a020-19bdce1041c4 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -103,7 +103,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36431" target="_blank">Ver en una pestaña nueva</a>
 

@@ -3,17 +3,17 @@ title: Información de identificador de aplicación de Azure para 3bc7be07-dc8d-
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/22/2022
+ms.date: 03/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.
-ms.openlocfilehash: 31fc437c4d46c294f305681944d1257654a155e1
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: dba8297f48d09716976f6886293fd6fcbeab8d6a
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63749029"
+ms.locfileid: "63770871"
 ---
 # <a name="azure-app-id-3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc"></a>Identificador de aplicación de Azure: 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc
 

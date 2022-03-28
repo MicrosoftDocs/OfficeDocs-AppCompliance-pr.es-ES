@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PandaDoc, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7cfd701c52bfc076fb1352bac439479426bc8475
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 32e31e9939444901b3c5cf44ac512d1958c13cd2
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63549679"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64458253"
 ---
 # <a name="pandadoc"></a>PandaDoc
 
@@ -34,7 +34,7 @@ Información proporcionada por PandaDoc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | PandaDoc |
-| ID | WA200002927 |
+| Id. | WA200002927 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | PandaDoc |
 | Sitio web de la compañía | [https://www.pandadoc.com](https://www.pandadoc.com) |
@@ -109,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | Fecha de certificación SOC2 más reciente |  2020-06-10 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | N/D |
 | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
@@ -169,8 +169,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >| Files.Read | ambos | para el usuario de sso de Tab (ejemplo - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necesario para obtener un token de usuario con acceso a Microsoft Graph obtener más archivos de usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.All | ambos | para el usuario de sso de Tab (ejemplo - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necesario para obtener un token de usuario con acceso a Microsoft Graph obtener más archivos de usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Files.Read.Selected | ambos | para el usuario de sso de Tab (ejemplo - https://github.com/OfficeDev/msteams-tabs-sso-sample-nodejs). Necesario para obtener un token de usuario con acceso a Microsoft Graph obtener más archivos de usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.Read.All | ambos | para obtener una lista de identificadores de canales para cada comando recibido anteriormente y obtener los identificadores de unidades de archivo para cada canal. Documentación: https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
->| Group.ReadWrite.All | ambos | para obtener una lista de identificadores de canales para cada comando recibido anteriormente y obtener los identificadores de unidades de archivo para cada canal. Documentación: https://docs.microsoft.com/en-us/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.Read.All | ambos | para obtener una lista de identificadores de canales para cada comando recibido anteriormente y obtener los identificadores de unidades de archivo para cada canal. Documentación: https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
+>| Group.ReadWrite.All | ambos | para obtener una lista de identificadores de canales para cada comando recibido anteriormente y obtener los identificadores de unidades de archivo para cada canal. Documentación: https://docs.microsoft.com/graph/api/channel-list?view=graph-rest-1.0&amp;tabs=http | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| Team.ReadBasic.All | ambos | para obtener los id. de los equipos Microsoft Teams de los que el usuario es miembro directo. Después de eso, los canales de recepción para cada identificador de comando. Para obtener los id. del almacén de archivos, primero debe obtener una lista de los equipos que ha escrito el usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.Read.All | ambos | Para obtener los id. de los equipos Microsoft Teams de los que el usuario es miembro directo. Después de eso, los canales de recepción para cada identificador de comando. Para obtener los id. del almacén de archivos, primero debe obtener una lista de los equipos que ha escrito el usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |
 >| TeamSettings.ReadWrite.All | ambos | o obtener los id. de los equipos Microsoft Teams de los que el usuario es miembro directo. Después de eso, los canales de recepción para cada identificador de comando. Para obtener los id. del almacén de archivos, primero debe obtener una lista de los equipos que ha escrito el usuario. | [f2d4eec7-3d3f-46b1-a094-9f7c733d260b](../azure/f2d4eec7-3d3f-46b1-a094-9f7c733d260b.md) |

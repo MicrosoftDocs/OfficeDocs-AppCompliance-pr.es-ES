@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeamMate by ChitChattr, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 64d99813e4c76f06a776f5882fac52d9eea8285a
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: 827f47ec43ce055ce0c5e09ed703a3a25667292e
+ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753548"
+ms.locfileid: "63773361"
 ---
 # <a name="teammate-by-chitchattr"></a>TeamMate by ChitChattr
 
@@ -34,7 +34,7 @@ Información proporcionada por ChitChattr a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeamMate by ChitChattr |
-| ID | WA200002530 |
+| Id. | WA200002530 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | ChitChattr |
 | Dirección URL del sitio web de partners | [https://www.chitchattr.com](https://www.chitchattr.com) |
@@ -54,11 +54,11 @@ ChitChattr ha proporcionado esta información sobre cómo esta aplicación recop
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
 >| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | [a8e903c7-3b7f-4ec5-a474-b5d32e595f50](../azure/a8e903c7-3b7f-4ec5-a474-b5d32e595f50.md) |
+>| People.Read | delegado | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | La aplicación permite a los administradores elegir usuarios a los que dirigirse a experiencias específicas, por lo que debe almacenar el nombre, el correo electrónico y el identificador de objeto Azure AD usuario | a8e903c7-3b7f-4ec5-a474-b5d32e595f50 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -102,7 +102,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36320" target="_blank">Ver en una pestaña nueva</a>
 
