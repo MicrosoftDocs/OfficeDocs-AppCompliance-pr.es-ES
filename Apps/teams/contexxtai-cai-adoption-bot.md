@@ -8,13 +8,13 @@ ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para C.AI Adoption Bot, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6d3bb6be48681db6e0e710d150457d4fd95caec
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 750a7eda8df6fd17b2e8ebea6f1595fb188a4af9
+ms.sourcegitcommit: 2cada3fb44667dce080d5cb4ca93b113e8ec57c1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63698290"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64487831"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -33,7 +33,7 @@ Información proporcionada por contexxt.ai a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | C.AI Adoption Bot |
-| ID | WA200002633 |
+| Id. | WA200002633 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | contexxt.ai |
 | Sitio web de la compañía | [https://contexxt.ai](https://contexxt.ai) |
@@ -174,3 +174,39 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Microsoft 365 de certificación** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidad (DAST/SAST/Prueba de penetración) | En ámbito |
+| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: revisión | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Análisis de vulnerabilidades | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAFs) (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Control De cambios | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Desarrollo e implementación de software seguro | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (datos de registro) | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | En ámbito |
+| [**PRIVACIDAD DE SEGURIDAD DE CONTROL DE &amp; DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASS** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de acceso a datos | En ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | En ámbito |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
