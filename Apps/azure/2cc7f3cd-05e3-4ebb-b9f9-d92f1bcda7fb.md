@@ -1,21 +1,21 @@
 ---
-title: Azure App ID Information for 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
+title: App de Azure de identificación de 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/23/2022
+ms.date: 03/26/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb.
-ms.openlocfilehash: f9d4d2a69e1784b1efc04df039236fc0174c0cc7
-ms.sourcegitcommit: d8a3d237c4bd435183b9ce95c316b4d7ce9d7201
+ms.openlocfilehash: 35725e4212f828604d60fc48fe02e4c5c665625a
+ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63771121"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64516212"
 ---
-# <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>Id. de aplicación de Azure: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
+# <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>App de Azure: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 
 
 ### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas con este identificador:

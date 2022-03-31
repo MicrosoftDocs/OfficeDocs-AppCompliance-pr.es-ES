@@ -2,18 +2,19 @@
 title: Información de la aplicación para ServiceDesk Plus para correo electrónico de Zoho Corporation Private Limited
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ServiceDesk Plus para correo electrónico, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: 0ccf0b8f7a17077bbf468369779e70335ac8e7e5
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: f41cd7e3b578b3eea68a8d83c8bc8f39c64f2735
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60439271"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462133"
 ---
 # <a name="servicedesk-plus-for-email"></a>ServiceDesk Plus para correo electrónico
 
@@ -51,19 +52,19 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Calendars.ReadWrite | aplicación |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Files.Read.Selected | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read | delegado | Id. de correo electrónico del usuario. | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | aplicación |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | delegado | Id. de correo electrónico, nombre, id. de empleado, puesto de trabajo, Teléfono, móvil, sitio, departamento, configuración regional, foto de perfil del usuario. | Permite importar la información básica de los usuarios desde Azure Active Directory. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | delegado | Id. de correo electrónico del usuario. | Ver la dirección de correo electrónico del usuario. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| perfil | delegado |  | Ver el perfil básico del usuario. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Calendars.ReadWrite | aplicación |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Files.Read.Selected | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read | delegado | Id. de correo electrónico del usuario. | Permite al usuario iniciar sesión y da acceso a la aplicación a su UPN para habilitar el inicio de sesión silencioso. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read.All | aplicación |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegado | Id. de correo electrónico, nombre, id. de empleado, título del trabajo, Teléfono, móvil, sitio, departamento, configuración regional, foto de perfil del usuario. | Permite importar la información básica de los usuarios desde Azure Active Directory. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| correo electrónico | delegado | Id. de correo electrónico del usuario. | Ver la dirección de correo electrónico del usuario. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| offline_access | delegado |  | Mantenga el acceso a los datos a los que le ha concedido acceso. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| perfil | delegado |  | Ver el perfil básico del usuario. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -95,7 +96,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/18802" target="_blank">Ver en una pestaña nueva</a>
 

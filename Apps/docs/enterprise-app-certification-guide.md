@@ -2,16 +2,17 @@
 title: ¿Qué es Microsoft 365 certificación?
 author: orionomalley
 ms.author: oromalle
+manager: tonybal
 description: Microsoft 365 de certificación
 keywords: app attestation microsoft 365 certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 47f479258f2bb944cf30665c4479bb151523a561
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: f7c986d98db3d8b21ec0790bd5fe1e8c9892b024
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697390"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462223"
 ---
 # <a name="what-is-microsoft-365-certification"></a>¿Qué es Microsoft 365 certificación?
 
@@ -58,7 +59,7 @@ Microsoft 365 certificación se aplica a todas las aplicaciones que se integran 
 - SharePoint
 - Project
 - OneNote
-- **Las webapps** (aplicaciones SaaS publicadas a través del mercado comercial en el Centro de partners están actualmente en una versión preliminar privada, si está interesado en participar, rellene este [formulario](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
+- **Webapps** (aplicaciones SaaS publicadas a través del marketplace comercial en Centro de partners se encuentran actualmente en una versión preliminar privada), si está interesado en participar, rellene este [formulario](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ## <a name="program-benefits"></a>Beneficios del programa
 La participación y finalización de Microsoft 365 certificación pueden proporcionar enormes ventajas para los administradores y desarrolladores de TI:

@@ -2,18 +2,19 @@
 title: 'Información de la aplicación para el seguimiento de facturas y horas: zoho invoice by Zoho Corporation Private Limited'
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 09/04/2019
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para el seguimiento de facturas y horas: Factura Zoho, sus directivas de tratamiento de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas
-ms.openlocfilehash: cc7454e5f1181637f2ecacbf510c8191d51da0e7
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: 65d71d027c2101c5332a9070e641300e77a39081
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60428192"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461383"
 ---
 # <a name="invoice-and-time-tracking---zoho-invoice"></a>Seguimiento de factura y tiempo: factura de Zoho
 
@@ -51,18 +52,18 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD Id. de la aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| Contacts.Read | delegado |  |  Permitir que los usuarios sincronicen contactos de Office365 con Zoho Invoice. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Read | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| Mail.Send | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Export.All | delegado |  | Permitir que el usuario exporte toda la información relacionada con el usuario. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.Read.All | delegado |  | Permitir a los usuarios iniciar sesión y leer el perfil de usuario. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| User.ReadBasic.All | delegado |  | Permitir a los usuarios importar usuarios de Office365 a Zoho. | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| email | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
->| perfil | delegado |  |  | [f6d7187a-b437-4eca-bbc5-c1331609fe07](https://docs.microsoft.com/microsoft-365-app-certification/azure/f6d7187a-b437-4eca-bbc5-c1331609fe07) |
+>| Contacts.Read | delegado |  |  Permitir que los usuarios sincronicen contactos de Office365 con Zoho Invoice. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Read | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| Mail.Send | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Export.All | delegado |  | Permitir que el usuario exporte toda la información relacionada con el usuario. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.Read.All | delegado |  | Permitir a los usuarios iniciar sesión y leer el perfil de usuario. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| User.ReadBasic.All | delegado |  | Permitir a los usuarios importar usuarios de Office365 a Zoho. | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| correo electrónico | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
+>| perfil | delegado |  |  | f6d7187a-b437-4eca-bbc5-c1331609fe07 |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -94,7 +95,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28305" target="_blank">Ver en una pestaña nueva</a>
 

@@ -1,27 +1,28 @@
 ---
-title: Publisher Preguntas más frecuentes sobre atestación
+title: Publisher preguntas más frecuentes sobre atestación
 author: LGerrard
 ms.author: Legerrar
-description: Publisher Preguntas más frecuentes sobre atestación
+manager: tonybal
+description: Publisher preguntas más frecuentes sobre atestación
 keywords: app attestation certification 365 questionnaire appSource
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 44898296bede4b34837ee18726164a636cc05824aa1710f273a4cc822b448953
-ms.sourcegitcommit: 717ca5bc90981def8914c4cd1fad992f67be4d5b
+ms.openlocfilehash: ee18e15e802b87f069ebe8390931a52e497813e0
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54747700"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64461763"
 ---
-# <a name="publisher-attestation-faq"></a>Publisher Preguntas más frecuentes sobre atestación
+# <a name="publisher-attestation-faq"></a>Publisher preguntas más frecuentes sobre atestación
 
 |Pregunta                                       |Definición expandida                          |
 |----------------------------------------       |---------------------------------------------|
-|Id. de origen de la aplicación | Es el número o caracteres entre el / y el ? al hacer clic en la descripción de AppSource. Con un guid, una variedad de números/letras o empezará por WA. Para buscar el tuyo, vaya a appsource.com la aplicación y en la dirección URL se encuentran los caracteres entre / y ?                                                Por ejemplo:https://appsource.microsoft.com/product/office/WA200001454? |
+|Id. de origen de la aplicación | Es el número o caracteres entre el / y el ? al hacer clic en la descripción de AppSource. Con un guid, una variedad de números/letras o empezará por WA. Para buscar el tuyo, vaya a appsource.com la aplicación y en la dirección URL son los caracteres entre / y ?                                                Por ejemplo:https://appsource.microsoft.com/product/office/WA200001454? |
 |¿Cuál es la dirección URL del sitio web de la empresa?   |La dirección URL de una página principal de la empresa o aplicación|
 |¿Cuál es la dirección URL de la página de información de la aplicación? |Dirección URL de una página que ofrece más información sobre la aplicación. ¿Dónde puede el usuario obtener más información sobre la aplicación? Si no tiene esta página, marque N/A. |
 |¿Categoría de aplicación? |Clasificación de la aplicación según el campo al que se relaciona |
-|¿Cómo describiría los servicios principales de las aplicaciones en 500 charaters o menos?|Describe la aplicación con 500 caracteres o menos, incluidos todos los integraciones de la familia de aplicaciones. Ej. Si tienes una Teams y una integración de Outlook, no des una descripción específica sobre la aplicación Teams, sino que des una descripción que sea aplicable a ambas aplicaciones. Esta debe ser una descripción muy general y no específica de carga de trabajo si la empresa tiene más de una integración para cualquier plataforma ex. Slack, Outlook, Teams, Web App, Mobile app. |
+|¿Cómo describiría los servicios principales de las aplicaciones en 500 charaters o menos?|Describe la aplicación con 500 caracteres o menos, incluidos todos los integraciones de la familia de aplicaciones. Ej. Si tienes una Teams y una integración Outlook, no des una descripción específica sobre la aplicación Teams, sino que des una descripción que sea aplicable a ambas aplicaciones. Esta debe ser una descripción muy general y no específica de carga de trabajo si la empresa tiene más de una integración para cualquier plataforma ex. Slack, Outlook, Teams, Web App, Mobile app. |
 |¿Qué país tiene la sede central de la empresa del desarrollador?|Esto es necesario en lo que se refiere a las prácticas y normativas de tratamiento de datos para diferentes países o regiones. |
 |¿Qué año se fundó su empresa?|Si no está incorporado, marque como N/A.|
 |¿Cuáles son los dominios únicos que usa la aplicación?|La cadena de identificación del proveedor que define su dominio de la autonomía administrativa, la autoridad o el control dentro de Internet. La respuesta debe incluir direcciones web. En caso de varios, separe con una coma.|
@@ -29,12 +30,12 @@ ms.locfileid: "54747700"
 |¿Cuál es el nombre del proveedor de servicios en la nube de hospedaje?|Algunos ejemplos son: Microsoft Azure, Amazon AWS, Google... Esto también podría incluir soluciones únicas para su empresa. |
 |¿La aplicación usa permisos Graph Microsoft? |Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal abre la página Información general de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. Vínculo a la página.|
 |Permiso Graph Microsoft|Esta es la lista de permisos aceptables. https://docs.microsoft.com/graph/permissions-reference#directory-permissions |
-|¿Qué IDs de aplicaciones de Azure usa esta aplicación?|Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal abre la página Información general https://portal.azure.com/ de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. |
+|¿Qué IDs de aplicaciones de Azure usa esta aplicación?|Azure AD asigna un identificador único de aplicación o cliente a la aplicación. El portal https://portal.azure.com/ abre la página Información general de la aplicación. Para agregar funcionalidades a la aplicación, puede seleccionar otras opciones de configuración, como personalización de marca, certificados y secretos, permisos de API y mucho más. |
 |¿Cuál es el tipo de permiso?|"Los permisos delegados los usan las aplicaciones que tienen un usuario que ha iniciado sesión. En estas aplicaciones el usuario o un administrador dan su consentimiento a los permisos que solicita la aplicación, y la aplicación puede actuar como un usuario que ha iniciado sesión cuando se hacen llamadas a Microsoft Graph. En ocasiones, los usuarios no administrativos pueden emitir algunos permisos delegados, pero existen permisos con privilegios mayores que requieren el consentimiento del administrador.                                Los permisos de la aplicación son los que usan las aplicaciones que se ejecutan sin que un usuario haya iniciado sesión, como las aplicaciones que se ejecutan como servicios en segundo plano o demonios. Los permisos de aplicación solo pueden ser aceptados por un administrador.                                                                           https://docs.microsoft.com/graph/auth/auth-concepts#microsoft-graph-permissions"|
-|¿Qué datos se recopilan o usan?  Agregue una justificación para recopilar o usar los datos.|Se pueden encontrar ejemplos en nuestra página de documentos, , haga clic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps de otras justificaciones. |
+|¿Qué datos se recopilan o usan?  Agregue una justificación para recopilar o usar los datos.|Se pueden encontrar ejemplos en nuestra página de documentos, https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps, haga clic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos de otras justificaciones. |
 |¿Qué datos almacena la aplicación en sus bases de datos?  Agregue justificación para almacenar datos, incluidos escenarios y ejemplos cuando corresponda. |¿Es esta atestación para una Teams con una funcionalidad de bot?https://docs.microsoft.com/microsoftteams/platform/bots/what-are-bots|
 |¿Puede el bot obtener acceso a información de identificación personal (PII)?|PII es cualquier dato que se puede usar para identificar a una persona en particular. Ej. Nombre, dirección de correo electrónico.|
-|Agregue la justificación para obtener acceso a la PII.|Puede encontrar ejemplos en nuestra página de documentos, haga clic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos de otras justificaciones en el acceso a datos a través https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-apps de bots.|
+|Agregue la justificación para obtener acceso a la PII.|Puede encontrar ejemplos en nuestra página de documentos, haga https://docs.microsoft.com/microsoft-365-app-certification/teams/teams-appsclic en una aplicación, haga clic en Tratamiento de datos puede ver ejemplos de otras justificaciones en el acceso a datos a través de bots.|
 |¿Qué PII se almacena?|Información de identificación personal (PII) es cualquier dato que se puede usar para identificar a una persona en particular. Ej. Nombre, dirección de correo electrónico.|
 |Agregue una justificación para almacenar la PII.|¿Por qué es necesario almacenar información de identificación personal? |
 |Enumerar cualquier información identificable de la organización (OII) que la aplicación recopila a través de estas API. |OII es cualquier dato que se puede usar para identificar una organización o inquilino. Ej. Identificador de inquilino o dirección IP, datos de uso del espacio empresarial, nombre de dominio de inquilino en dirección de correo electrónico (joe@contoso.com).|
@@ -87,7 +88,7 @@ ms.locfileid: "54747700"
 
 ## <a name="learn-more"></a>Más información
 
-* [Microsoft 365 Introducción al programa de cumplimiento de aplicaciones](~/overview.md)  
-* [Verificación Publisher completa](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
+* [Microsoft 365 del programa de cumplimiento de aplicaciones](~/overview.md)  
+* [Completar la verificación de Publisher](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)  
 * [¿Qué Publisher atestación?](~/docs/enterprise-app-attestation-guide.md)  
-* [Certificación Microsoft 365 completa](~/docs/certification.md)
+* [Completar la certificación de Microsoft 365](~/docs/certification.md)

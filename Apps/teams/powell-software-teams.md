@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Teams, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7245730e77597a9d22c387f3001990786ea1f827
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 7fffe34f51520ebec1cc5dce2761ce59269b0e35
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63550078"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64462933"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -34,12 +34,12 @@ Información proporcionada por Software de Powell a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Powell Teams |
-| ID | WA200001585 |
+| Id. | WA200001585 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | Powell Software |
 | Sitio web de la compañía | [https://www.powell-software.com](https://www.powell-software.com) |
 | Términos de uso de la aplicación | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Funcionalidad principal de la aplicación | La aplicación de Teams de Powell proporciona un panel inteligente para todos los empleados de la compañía, &amp; les ayuda a organizar fácilmente etiquetas a todos los equipos, a descubrir los equipos de empresa promocionados más importantes y, por último, a usar plantillas de equipo basadas en roles predefinidas para ahorrar tiempo. Una API también está disponible para recuperar y trabajar con el conjunto de datos en la base de datos de Teams Deschttps://docapiteams.powell-software.com). Por último, también hay disponible un conector para Logic Apps y Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
+| Funcionalidad principal de la aplicación | La aplicación de Teams de Powell proporciona un panel inteligente para todos los empleados de la compañía, &amp; les ayuda a organizar fácilmente etiquetas a todos los equipos, a descubrir los equipos de empresa promocionados más importantes y, por último, a usar plantillas de equipo basadas en roles predefinidas para ahorrar tiempo. Una API también está disponible para recuperar y trabajar con el conjunto de datos en la base de datos de Teams Deschttps://docapiteams.powell-software.com). Por último, también hay disponible un conector para Logic Apps y Power Automate (https://docs.microsoft.com/connectors/powellteams) |
 | Ubicación central de la empresa | Francia |
 | Página de información de la aplicación | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
@@ -161,12 +161,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Directory.AccessAsUser.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Group.ReadWrite.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Notes.Read.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Notes.ReadWrite.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| Sites.Read.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
->| User.Read.All | delegado | ND | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Directory.AccessAsUser.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Group.ReadWrite.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Notes.Read.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Notes.ReadWrite.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| Sites.Read.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
+>| User.Read.All | delegado | N/D | [086ae3fb-fdf0-4c49-8c38-57d082b00dc4](../azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md) |
 
 >Esta aplicación no tiene API adicionales.
 
