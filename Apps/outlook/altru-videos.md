@@ -2,18 +2,19 @@
 title: Información de la aplicación para vídeos de Altru de Altru
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 04/19/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Vídeos de Altru, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 4ab9e9057c968d14c8299286b0686931a3a08e9c
-ms.sourcegitcommit: 983ed1755036e92d99745770f82f33417b21efec
+ms.openlocfilehash: ddd7dd3038137c9d9e6d2058bbc21fa5be069e99
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60430570"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463053"
 ---
 # <a name="altru-videos"></a>Vídeos de Altru
 
@@ -51,7 +52,7 @@ Altru ha proporcionado esta información sobre cómo esta aplicación recopila y
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
@@ -90,7 +91,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/12470" target="_blank">Ver en una pestaña nueva</a>
 

@@ -172,7 +172,7 @@
           href: sharepoint/iglobe-crm-office-365-for-microsoft.md
         - name: Konnect eMail Parser
           href: sharepoint/konnect-email-parser.md
-        - name: LifeWorks Viva Connections
+        - name: LifeWorks Conexiones Viva
           href: sharepoint/lifeworks-inc-viva-connections.md
         - name: Lightning Tools Lightning Conductor
           href: sharepoint/lightning-tools-conductor.md
@@ -215,6 +215,8 @@
           href: teams/appfluence-inc-agenda-boss.md
         - name: Aimful
           href: teams/aimful.md
+        - name: Akouo Interpretation
+          href: teams/akouo-technologies-inc-interpretation.md
         - name: Asistente de autoservicio de aleación
           href: teams/alloy-software-self-service-assistant.md
         - name: Alvao Service Desk
@@ -237,7 +239,7 @@
           href: teams/appspace-inc.md
         - name: ArcGIS Maps
           href: teams/esri-arcgis-maps.md
-        - name: ¿Está Caja fuerte?
+        - name: Are You Safe?
           href: teams/avista-technology-solutions-are-you-safe.md
         - name: ARGUSnylar
           href: teams/argus-data-insights-schweiz-ag-argusnylar.md
@@ -415,6 +417,8 @@
           href: teams/tns-consulting-aps-desk-reservations.md
         - name: Desk365
           href: teams/kani-technologies-inc-desk365.md
+        - name: DeskBooking
+          href: teams/desknow-gmbh-deskbooking.md
         - name: DeskManager
           href: teams/desknow-gmbh-deskmanager.md
         - name: Digiplein
@@ -481,7 +485,7 @@
           href: teams/evernote.md
         - name: Evocom
           href: teams/evocom-informationssysteme-gmbh.md
-        - name: Administrador de usuarios externos
+        - name: External User Manager
           href: teams/solutions2share-gmbh-external-user-manager.md
         - name: ezTeam
           href: teams/enterprizid-inc-ezteam.md
@@ -497,7 +501,7 @@
           href: teams/fifty.md
         - name: File Fabric
           href: teams/storage-made-easy-file-fabric.md
-        - name: Administrador de archivos
+        - name: File Manager
           href: teams/solutions2share-gmbh-file-manager.md
         - name: Findit
           href: teams/ctelo-findit.md
@@ -1035,7 +1039,7 @@
           href: teams/officeatwork-template-chooser.md
         - name: Tendfor
           href: teams/tendfor.md
-        - name: Text
+        - name: Texto
           href: teams/approved-contact-text.md
         - name: El centro de Captivate
           href: teams/captivate-io-ltd-the-hub.md
@@ -1069,7 +1073,7 @@
           href: teams/trivie-inc.md
         - name: UKG Pro
           href: teams/ukg-inc-pro.md
-        - name: Contactos unificados
+        - name: Unified Contacts
           href: teams/glueckkanja-gab-ag-unified-contacts.md
         - name: UserVoice
           href: teams/uservoice.md
@@ -1141,8 +1145,6 @@
           href: teams/xmatters-inc.md
         - name: YAROOMS
           href: teams/yarooms.md
-        - name: Yeeflow
-          href: teams/akmii-yeeflow.md
         - name: yuccaHR
           href: teams/yucca-technologies-gmbh-yuccahr.md
         - name: Zignals
@@ -1293,7 +1295,7 @@
           href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
         - name: Asistente
           href: saas/officeatwork-wizard.md
-    - name: Azure App IDs
+    - name: App de Azure de datos
       href: azure/azure-apps.md
       items:
         - name: 00485db5-81b3-4299-833a-8d6c366d0ac0
@@ -1588,6 +1590,8 @@
           href: azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df.md
         - name: 7a483472-4f1b-4c75-bff3-7a48dae227dc
           href: azure/7a483472-4f1b-4c75-bff3-7a48dae227dc.md
+        - name: 7ad6b1e9-c645-411d-9ff9-bd590d3fb1c6
+          href: azure/7ad6b1e9-c645-411d-9ff9-bd590d3fb1c6.md
         - name: 7afd058a-f568-4496-96b1-28d06ab3500f
           href: azure/7afd058a-f568-4496-96b1-28d06ab3500f.md
         - name: 7b90f2e4-fe97-4a56-952f-b3c553e537a7
@@ -1608,6 +1612,8 @@
           href: azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md
         - name: 82eb2bf2-969c-46da-9e89-1db59ac4fbb3
           href: azure/82eb2bf2-969c-46da-9e89-1db59ac4fbb3.md
+        - name: 83ff0fe1-a544-4390-bd72-3aaaa040db7e
+          href: azure/83ff0fe1-a544-4390-bd72-3aaaa040db7e.md
         - name: 86f76b8b-3355-4e40-a55a-8463a407a327
           href: azure/86f76b8b-3355-4e40-a55a-8463a407a327.md
         - name: 88546d4f-9973-4716-98e4-cd181c04bc2d
@@ -1738,6 +1744,8 @@
           href: azure/bd2aaebe-63b9-434b-aad8-e7010f2ece20.md
         - name: be181d9c-9060-40a0-a692-b29f2e314d16
           href: azure/be181d9c-9060-40a0-a692-b29f2e314d16.md
+        - name: be3cd296-fc8e-44d5-968b-32cf0371749c
+          href: azure/be3cd296-fc8e-44d5-968b-32cf0371749c.md
         - name: be8d11cf-265a-4974-9912-4ff28c29fc21
           href: azure/be8d11cf-265a-4974-9912-4ff28c29fc21.md
         - name: be93046b-63ab-4216-9bcc-78faa55eeaa7
@@ -1794,6 +1802,10 @@
           href: azure/d6a2090f-1447-456b-bd5f-121e4efd8c89.md
         - name: d76f016f-52c7-41b5-835b-900361d7040c
           href: azure/d76f016f-52c7-41b5-835b-900361d7040c.md
+        - name: d7db1079-6f45-4373-bb2b-ae5d71169b31
+          href: azure/d7db1079-6f45-4373-bb2b-ae5d71169b31.md
+        - name: d863a24b-7cdd-46c9-8309-a15878f4f7bf
+          href: azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md
         - name: d871e46e-e346-445d-bfe8-2a66419bf278
           href: azure/d871e46e-e346-445d-bfe8-2a66419bf278.md
         - name: d8843264-a57b-41e3-aea6-b83ea56f6bd6
@@ -1808,6 +1820,8 @@
           href: azure/dea67e43-444e-4852-b57b-b57878a4022b.md
         - name: e208746a-2666-4d95-b925-e2ff64b3181d
           href: azure/e208746a-2666-4d95-b925-e2ff64b3181d.md
+        - name: e54fe734-bab8-48b2-9ec8-05c2545cc49d
+          href: azure/e54fe734-bab8-48b2-9ec8-05c2545cc49d.md
         - name: e5d4c7df-50aa-4c15-aa06-c108d02225832
           href: azure/e5d4c7df-50aa-4c15-aa06-c108d0225832.md
         - name: e5e829df-1793-40fb-806a-8f9ce70a8e14

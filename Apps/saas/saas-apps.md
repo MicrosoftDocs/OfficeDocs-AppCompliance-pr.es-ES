@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/17/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 0ae1c24acacfb5e6977c0f766f2abbf937d6369b
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: b5b1f05808de23f5b5985d2188cdf3c9f6777887
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63540648"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463623"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -50,7 +50,7 @@ Microsoft trabaja con nuestros Microsoft 365 desarrolladores para proporcionar l
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Office2SharePoint para Teams](./iglobe-office2sharepoint-for-teams.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Detección de Onna para MS365](./onna-discovery-for-ms365.md) | Onna | **✓** |  |
-| [Directivas &amp; Ideas para Microsoft Office 365](./avepoint-inc-policies-and-insights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Directivas &amp; Ideas para Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [Slide Chooser](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -58,7 +58,7 @@ Microsoft trabaja con nuestros Microsoft 365 desarrolladores para proporcionar l
 | [Talkdesk Microsoft Teams Connector](./talkdesk-inc-microsoft-teams-connector.md) | Talkdesk, Inc. | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Explorador de elección de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recording-and-compliance-for-teams-video.md) | Theta Lake | **✓** |  |
+| [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recordingcompliance-for-teams-video.md) | Theta Lake | **✓** |  |
 | [Usuario de carga](./officeatwork-uploader.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Comprobador](./officeatwork-verifier.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |

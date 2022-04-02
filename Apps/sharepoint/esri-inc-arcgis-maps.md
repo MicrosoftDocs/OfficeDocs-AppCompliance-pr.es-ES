@@ -1,19 +1,20 @@
 ---
-title: Información de la aplicación para ArcGIS Mapas por Esri, Inc.
+title: Información de aplicaciones para ArcGIS Mapas por Esri, Inc.
 ms.author: elmalova
 author: elenamalova
+manager: tonybal
 ms.date: 07/21/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para ArcGIS Mapas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para ArcGIS Mapas, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: bdae05936c2a2647c6b4e4f12c17cf060daad289
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 9696ad3964cc45583a04981bb4580320d5aefa59
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288600"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463613"
 ---
 # <a name="arcgis-maps"></a>ArcGIS Maps
 
@@ -51,7 +52,7 @@ Esri, Inc. ha proporcionado esta información sobre cómo recopila y almacena lo
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
@@ -90,7 +91,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233' frameborder='no' style='width: 100%;'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/27233" target="_blank">Ver en una pestaña nueva</a>
 

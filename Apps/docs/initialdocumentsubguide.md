@@ -2,18 +2,19 @@
 ms.author: oromalle
 title: 'Microsoft 365: Guía de envío de documentos iniciales'
 author: orionomalley
+manager: tonybal
 description: Microsoft 365 granular guía de envío de certificación
 keywords: Equipos de certificación de aplicaciones Microsoft 365 de cumplimiento de seguridad m365 envío inicial de documentos
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 0f879ce6b02fb469b0210500e4706d468ccb4011
-ms.sourcegitcommit: 3e72bc447a90cd8b0313dab55f6a9374be8ae358
+ms.openlocfilehash: 66afcbd482ee1269ce21e2af6fdeea5026b294ee
+ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61261682"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64463283"
 ---
-# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification: Guía de envío de documentos iniciales
+# <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification: Guía de envío inicial de documentos
 
 El envío inicial del documento forma parte de la fase de evaluación previa de la certificación. La información proporcionada dará a los analistas de certificación los antecedentes necesarios para identificar qué controles y componentes del sistema estarán en el ámbito de su evaluación. Este documento está diseñado para servir solo como un ejemplo de lo que se espera del envío inicial del documento. La documentación que proporcione variará en función de cómo se diseñe, implemente y se administra la solución.
 
@@ -95,7 +96,7 @@ Detalle de todas las direcciones IP públicas y direcciones URL usadas por la in
 
 ## <a name="resource-endpoints"></a>Extremos de recursos
 
-API Name Endpoint Address Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service https://bot.contoso.com Contoso Files API   https://filesapi.contoso.com
+API Name    Endpoint Address Contoso Customer API    https://customerapi.contoso.com Contoso Bot Service https://bot.contoso.com Contoso Files API   https://filesapi.contoso.com
 
 Una lista completa de todos los puntos de conexión de API usados por la aplicación, incluidos los puntos de conexión de recursos externos y desarrollados internamente. Para ayudar a comprender el ámbito del entorno, proporcione ubicaciones de extremo de API dentro del entorno.
 

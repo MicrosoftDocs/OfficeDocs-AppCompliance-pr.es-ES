@@ -3,17 +3,17 @@ title: App de Azure id. de usuario para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/26/2022
+ms.date: 03/30/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: b46060ee74bbe1ba2cc2375fa9333bc898fc88fc
-ms.sourcegitcommit: 890a5b31f2a31a7747d88f0f3f203c0551440293
+ms.openlocfilehash: 4843505644a0df4b35fd3352aaf33102ef06576b
+ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64517062"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64549663"
 ---
 # <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>App de Azure: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
