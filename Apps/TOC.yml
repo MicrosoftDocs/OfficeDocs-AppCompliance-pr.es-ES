@@ -6,14 +6,14 @@
         - name: Información general
           href: overview.md
         - name: ¿Qué es Publisher verificación?
-          href: 'https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview'
+          href: /azure/active-directory/develop/publisher-verification-overview
         - name: ¿Qué es Microsoft 365 certificación?
           href: docs/enterprise-app-certification-guide.md
     - name: Para desarrolladores
       expanded: true
       items:
         - name: Completar la verificación de Publisher
-          href: 'https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified'
+          href: /azure/active-directory/develop/mark-app-as-publisher-verified
         - name: Completar la certificación de Microsoft 365
           href: docs/certification.md
         - name: Microsoft 365 de envío de certificación
@@ -29,6 +29,8 @@
           href: excel/analysisplace-excel-to-word-document-automation.md
         - name: Forbury
           href: excel/forbury-property.md
+        - name: 'Foxit PDF Editor para Microsoft Word, Excel y PowerPoint'
+          href: excel/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Firmas de impresión
           href: excel/impression-signatures.md
         - name: Jira Cloud para Excel
@@ -122,10 +124,12 @@
     - name: Aplicaciones PowerPoint Microsoft
       href: powerpoint/powerpoint-apps.md
       items:
-        - name: Adobe Acrobat Sign para Word y PowerPoint
-          href: powerpoint/adobe-inc-acrobat-sign-for-word-and-powerpoint.md
+        - name: Adobe Acrobat Sign para Microsoft Word y PowerPoint
+          href: powerpoint/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
         - name: Excel de documentos de Excel a Word
           href: powerpoint/analysisplace-excel-to-word-document-automation.md
+        - name: 'Foxit PDF Editor para Microsoft Word, Excel y PowerPoint'
+          href: powerpoint/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Office2SharePoint para Office
           href: powerpoint/iglobe-office2sharepoint-for-office.md
         - name: officeatwork | El elegidor de contenido para Office
@@ -150,8 +154,8 @@
     - name: Aplicaciones SharePoint Microsoft
       href: sharepoint/sharepoint-apps.md
       items:
-        - name: Adobe Acrobat Sign para SharePoint
-          href: sharepoint/adobe-inc-acrobat-sign-for-sharepoint.md
+        - name: Adobe Acrobat Sign para Microsoft Office SharePoint Online
+          href: sharepoint/adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md
         - name: ArcGIS for SharePoint
           href: sharepoint/esri-inc-arcgis-for-sharepoint.md
         - name: Sistema de administración de ofertas
@@ -184,6 +188,8 @@
           href: sharepoint/sharepointsapiens-employee-training-management.md
         - name: SharePoint| de eventos de SharePoint|sapiens
           href: sharepoint/sharepointsapiens-event-management.md
+        - name: SharePoint| de usuario moderna de SharePoint|sapiens
+          href: sharepoint/sharepointsapiens-modern-user-interface.md
         - name: Reserva de eventos más inteligente
           href: sharepoint/smarter-business-solutions-gmbh-event-booking.md
         - name: Foros de discusión cuadrados sociales
@@ -197,6 +203,8 @@
       items:
         - name: 10xGoals
           href: teams/xto10x-technologies-10xgoals.md
+        - name: 1Page
+          href: teams/oayaw-inc-1page.md
         - name: 365-QA
           href: teams/advantive-365-qa.md
         - name: 365Projects
@@ -204,15 +212,17 @@
         - name: 8x8
           href: teams/8x8-inc.md
         - name: absentify
-          href: teams/braincore-solutions-gmbh-absentify.md
+          href: teams/braincore-solutions-absentify.md
         - name: ADI
           href: teams/akari-solutions-limited-adi.md
         - name: Adobe Acrobat
           href: teams/adobe-systems-inc-acrobat.md
-        - name: Adobe Sign
-          href: teams/adobe-systems-inc-sign.md
+        - name: Adobe Acrobat Sign
+          href: teams/adobe-acrobat-sign.md
         - name: Agenda Boss
           href: teams/appfluence-inc-agenda-boss.md
+        - name: Productor de IA
+          href: teams/livearena-technologies-ab-ai-producer.md
         - name: Aimful
           href: teams/aimful.md
         - name: Akouo Interpretation
@@ -551,6 +561,8 @@
           href: teams/goodera.md
         - name: GoToConnect
           href: teams/logmein-inc-gotoconnect.md
+        - name: GRATICA
+          href: teams/okwave-inc-gratica.md
         - name: Group Address Book - NextSet
           href: teams/nextsetinc-group-address-book-nextset.md
         - name: GroupLotse
@@ -579,6 +591,8 @@
           href: teams/hi5technologies-hi5.md
         - name: HighSide
           href: teams/highside-inc.md
+        - name: Colaboración de HighSide
+          href: teams/highside-inc-collaboration.md
         - name: Highspot
           href: teams/highspot.md
         - name: HitHorizons
@@ -589,6 +603,8 @@
           href: teams/netforce-365-gmbh-hubsite.md
         - name: Hugo
           href: teams/hugo.md
+        - name: Humantelligence
+          href: teams/humantelligence.md
         - name: huminos
           href: teams/soe-technologies-huminos.md
         - name: Humu
@@ -629,6 +645,8 @@
           href: teams/nextup-llc-jira-integration-plus.md
         - name: JobPts
           href: teams/semos-cloud-soultions-jobpts.md
+        - name: Joye
+          href: teams/joye-pte-ltd.md
         - name: Kakeai
           href: teams/kakeai.md
         - name: Kanban Tool
@@ -699,6 +717,8 @@
           href: teams/mentimeter.md
         - name: Message Reminder
           href: teams/message-reminder.md
+        - name: MetaMeeting
+          href: teams/wafer-systems-metameeting.md
         - name: MetaVisitor
           href: teams/wafer-systems-metavisitor.md
         - name: MetaWorkspace
@@ -755,6 +775,8 @@
           href: teams/kl-software-technologies-netdocshare.md
         - name: NewCOS
           href: teams/newtech-newcos.md
+        - name: Noticias - Jalios
+          href: teams/jalios-sa-news.md
         - name: ngDesk
           href: teams/all-blue-solutions-ngdesk.md
         - name: NickNack
@@ -807,6 +829,8 @@
           href: teams/perflo.md
         - name: Photo Filer
           href: teams/ichicraft-photo-filer.md
+        - name: Plandisc
+          href: teams/plandisc.md
         - name: Calendario Planyway para Trello
           href: teams/rubius-planyway-calendar-for-trello.md
         - name: 'PlayQuiz: Aprende y Juega'
@@ -1003,6 +1027,8 @@
           href: teams/talview-inc-interviews.md
         - name: TAMPLO
           href: teams/ityss-tamplo.md
+        - name: TaskCall
+          href: teams/taskcall-cloud-services-sl.md
         - name: Taskworld
           href: teams/taskworld.md
         - name: Team Central
@@ -1031,7 +1057,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamwork
+        - name: Trabajo en equipo
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1154,8 +1180,8 @@
     - name: Microsoft Word aplicaciones
       href: word/word-apps.md
       items:
-        - name: Adobe Acrobat Sign para Word y PowerPoint
-          href: word/adobe-inc-acrobat-sign-for-word-and-powerpoint.md
+        - name: Adobe Acrobat Sign para Microsoft Word y PowerPoint
+          href: word/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
         - name: Complemento AuditBoard
           href: word/auditboard-inc-add-in.md
         - name: Citasion
@@ -1168,6 +1194,8 @@
           href: word/analysisplace-excel-to-word-document-automation.md
         - name: Complemento Office Fabasoft Cloud
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
+        - name: 'Foxit PDF Editor para Microsoft Word, Excel y PowerPoint'
+          href: word/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
         - name: Firmas de impresión
           href: word/impression-signatures.md
         - name: LegalMind Word AddIn
@@ -1215,6 +1243,8 @@
           href: saas/officeatwork-admin-center.md
         - name: Consola de operador anywhere365 para Microsoft Teams
           href: saas/workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md
+        - name: Centro de contacto de Anywhere365 para Teams
+          href: saas/workstreampeople-bv-anywhere365-contact-center-for-teams.md
         - name: Centro de contacto buzzeasy para Teams
           href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
         - name: Registro y análisis de cumplimiento de CallCabinet Atmos
@@ -1322,6 +1352,8 @@
           href: azure/084b4a43-c386-443d-ae90-bf9a3fc2995e.md
         - name: 086ae3fb-fdf0-4c49-8c38-57d082b00dc4
           href: azure/086ae3fb-fdf0-4c49-8c38-57d082b00dc4.md
+        - name: 08da38c2-089b-4c58-9995-60bc2ca54561
+          href: azure/08da38c2-089b-4c58-9995-60bc2ca54561.md
         - name: 094f3986-3951-4f0c-88fa-514d117c8dd0
           href: azure/094f3986-3951-4f0c-88fa-514d117c8dd0.md
         - name: 0a1b7ca8-390e-4f55-a7b5-eee089c5a905
@@ -1804,6 +1836,8 @@
           href: azure/d76f016f-52c7-41b5-835b-900361d7040c.md
         - name: d7db1079-6f45-4373-bb2b-ae5d71169b31
           href: azure/d7db1079-6f45-4373-bb2b-ae5d71169b31.md
+        - name: d7e20ef1-fc4b-42e0-a74f-a3c9a806aa73
+          href: azure/d7e20ef1-fc4b-42e0-a74f-a3c9a806aa73.md
         - name: d863a24b-7cdd-46c9-8309-a15878f4f7bf
           href: azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md
         - name: d871e46e-e346-445d-bfe8-2a66419bf278
