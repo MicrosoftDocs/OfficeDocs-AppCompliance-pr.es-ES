@@ -7,14 +7,8 @@ ms.date: 11/12/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para la IA de Fireflies, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: 'Toda la información de seguridad y cumplimiento disponible para la IA de Fireflies, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: adb01db25dd012daa05e231121cc98cd2d97bc2e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63541748"
 ---
 # <a name="fireflies-ai"></a>Inteligencia artificial de Fireflies
 
@@ -39,9 +33,11 @@ Información proporcionada por Fireflies.ai a Microsoft:
 | Nombre de la compañía asociada | Fireflies.ai |
 | Sitio web de la compañía | [https://fireflies.ai](https://fireflies.ai) |
 | Términos de uso de la aplicación | [https://fireflies.ai/terms-of-service.pdf](https://fireflies.ai/terms-of-service.pdf) |
-| Funcionalidad principal de la aplicación | Fireflies es un asistente de reunión que registra, transscribe y toma notas de las reuniones.
-
- | | Ubicación central de la empresa | Estados Unidos de América | | Página de información de la aplicación | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) | | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas | | ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
+| Funcionalidad principal de la aplicación | Fireflies es un asistente de reunión que registra, transscribe y toma notas de las reuniones. |
+| Ubicación central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://app.fireflies.ai/integrations/collaboration/microso...](https://app.fireflies.ai/integrations/collaboration/microsoft-teams) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -124,8 +120,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No aplicable |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

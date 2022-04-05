@@ -7,14 +7,8 @@ ms.date: 05/05/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Planyway Calendar para Trello, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: 'Toda la información de seguridad y cumplimiento disponible para Planyway Calendar para Trello, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5936b0c382642d1e614803928111e14a38ab1a5e
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753775"
 ---
 # <a name="planyway-calendar-for-trello"></a>Calendario Planyway para Trello
 
@@ -108,8 +102,24 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | N/D |
 | ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | {
-  &quot;&quot;CMP08_complianceSOC_1: &quot;Na&quot; } | | Fecha de certificación SOC1 más reciente |   | | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sin | | ¿Qué certificación SOC 2 ha logrado? | | | Fecha de certificación SOC2 más reciente | | | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | Sin | | Fecha de certificación SOC3 más reciente | | | ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | Sin | | ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | { &quot;CMP16_complianceISO_27018&quot;: &quot;Na&quot; } | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | Sin | | ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | Sin | | ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | Sin | | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/A | | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/A | | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/A | | ¿La aplicación cumple con NIST 800-171? |  | | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sin |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | Na |
+| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿Qué certificación SOC 2 ha logrado? | |
+| Fecha de certificación SOC2 más reciente | |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| Fecha de certificación SOC3 más reciente | |
+| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No |
+| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | Na |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
+| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
+| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
+| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

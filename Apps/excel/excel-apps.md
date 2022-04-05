@@ -3,17 +3,11 @@ title: 'Microsoft Excel seguridad y cumplimiento de aplicaciones: todas las apli
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/24/2022
+ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas Microsoft Excel aplicaciones.
 localization_priority: Normal
-ms.openlocfilehash: f0e281d946560d3ef13c0019870894e2eddc4722
-ms.sourcegitcommit: b7ef94cf5fb12f6730a8688834ceee4f8fe8e0da
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64462177"
 ---
 # <a name="microsoft-excel-apps-security-and-compliance"></a>Microsoft Excel seguridad y cumplimiento de aplicaciones
 
@@ -25,6 +19,7 @@ Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para propo
 | [CloudExtend Analytics para NetSuite](./celigo-cloudextend-analytics-for-netsuite.md) | Celigo CloudExtend | **✓** |  |
 | [Excel de documentos de Excel a Word](./analysisplace-excel-to-word-document-automation.md) | AnalysisPlace | **✓** |  |
 | [Forbury](./forbury-property.md) | Forbury (propiedad) | **✓** |  |
+| [Foxit PDF Editor para Microsoft Word, Excel y PowerPoint](./foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md) | Foxit Software Inc. | **✓** |  |
 | [Firmas de impresión](./impression-signatures.md) | Firmas de impresión | **✓** |  |
 | [Jira Cloud para Excel](./atlassiancom-jira-cloud-for-excel.md) | Atlassian.com | **✓** |  |
 | [MeaningCloud Text Analytics para Excel](./meaningcloud-text-analytics-for-excel.md) | MeaningCloud | **✓** |  |
