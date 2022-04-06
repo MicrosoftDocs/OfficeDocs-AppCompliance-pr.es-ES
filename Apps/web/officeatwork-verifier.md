@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Verifier, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: ab2bc82f8dfff62649d4eac833be2136c57f6821
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: df8d337dc72282487900807a1538a6d89b268df3
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287791"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64626912"
 ---
 # <a name="verifier"></a>Comprobador
 
@@ -32,7 +32,7 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Comprobador |
-| Id. | officeatwork-ag.verifier |
+| ID | officeatwork-ag.verifier |
 | Nombre de la compañía asociada | officeatwork |
 | Dirección URL del sitio web de partners | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Dirección URL de la directiva de privacidad | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -50,13 +50,13 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Files.Read | delegado | No se almacenan datos. | OneDrive: para poder leer los archivos del usuario que ha iniciado sesión | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| Files.Read.All | delegado | No se almacenan datos. | Teams: para leer todos los archivos a los que tiene acceso el usuario que ha iniciado sesión. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
->| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online, el usuario que ha iniciado sesión tiene acceso a. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
+>| Sites.Read.All | delegado | No se almacenan datos. | SharePoint Online: para habilitar la lectura de datos desde SharePoint Online, el usuario que ha iniciado sesión tiene acceso a. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| User.Read | delegado | No se almacenan datos. | Inicio de sesión: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| offline_access | delegado | No se almacenan datos. | Inicio de sesión: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
 >| OpenID | delegado | No se almacenan datos. | Sing-In: para permitir a los usuarios iniciar sesión en la aplicación officeatwork con su organización o cuenta microsoft. | 8cf0fbc9-28f7-4bfb-94db-237b049fcbf7 |
@@ -104,7 +104,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35755" target="_blank">Ver en una pestaña nueva</a>
 
