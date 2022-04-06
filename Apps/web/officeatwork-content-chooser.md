@@ -6,14 +6,14 @@ ms.date: 06/23/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para content chooser, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para content chooser, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security y la información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b7353f91abadea47e8b9147454697b66bcc7ddaa
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 409f90ded9b77260e439c8912a8f482044d2d591
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284896"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64626482"
 ---
 # <a name="content-chooser"></a>Content Chooser
 
@@ -32,7 +32,7 @@ Información proporcionada por officeatwork a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Content Chooser |
-| Id. | officeatwork-ag.content-chooser |
+| ID | officeatwork-ag.content-chooser |
 | Nombre de la compañía asociada | officeatwork |
 | Dirección URL del sitio web de partners | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Dirección URL de la directiva de privacidad | [https://links.officeatwork.com/officeatwork-privacystatement](https://links.officeatwork.com/officeatwork-privacystatement) |
@@ -50,15 +50,15 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Files.ReadWrite.All | delegado | No se almacenan datos. | Favoritos: para poder leer y escribir datos en los usuarios OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| Files.ReadWrite.All | delegado | No se almacenan datos. | OneDrive: para poder leer y escribir datos en los usuarios OneDrive. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| Group.ReadWrite.All | delegado | No se almacenan datos. | Teams: para poder leer y escribir datos en un grupo. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| GroupMember.Read.All | delegado | No se almacenan datos. | SharePoint Online: compatibilidad con grupos de seguridad: para permitir que la aplicación enume grupos, lea las propiedades básicas del grupo y lea las pertenencias de todos los grupos a los que tiene acceso el usuario que ha iniciado sesión. | edb24f8f-38af-4b3e-9475-0da243678d5a |
->| Sites.Read.All | delegado | No se almacenan datos. | SharePoint En línea: para habilitar la lectura de datos desde SharePoint Online. | edb24f8f-38af-4b3e-9475-0da243678d5a |
+>| Sites.Read.All | delegado | No se almacenan datos. | SharePoint Online: para habilitar la lectura de datos desde SharePoint Online. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| User.Read | delegado | No se almacenan datos. | Sing-In: para permitir que la aplicación officeatwork lea las propiedades básicas del usuario. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| User.Read.All | delegado | No se almacenan datos. | Teams: para averiguar a qué grupos pertenece un usuario. | edb24f8f-38af-4b3e-9475-0da243678d5a |
 >| offline_access | delegado | No se almacenan datos. | Sing-In: para habilitar el inicio de sesión automático a través de tokens de actualización, como sin él, los usuarios tendrían que iniciar sesión manualmente cada vez que inicien la aplicación officeatwork. Este ámbito solo es necesario para aplicaciones host no habilitadas para SSO. | edb24f8f-38af-4b3e-9475-0da243678d5a |
@@ -107,7 +107,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35751" target="_blank">Ver en una pestaña nueva</a>
 

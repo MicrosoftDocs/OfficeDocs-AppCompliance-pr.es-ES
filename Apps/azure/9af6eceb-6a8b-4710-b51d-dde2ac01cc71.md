@@ -3,17 +3,17 @@ title: App de Azure información de identificador para 9af6eceb-6a8b-4710-b51d-d
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/05/2022
+ms.date: 04/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: 80b6cb0abdce51918ca0098930e17bd256f6b3ed
-ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
+ms.openlocfilehash: fdc2e2a678c8b9cdb7ea9c5f40fdb8b68181a3b9
+ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64677470"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "64657313"
 ---
 # <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>id. de App de Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
