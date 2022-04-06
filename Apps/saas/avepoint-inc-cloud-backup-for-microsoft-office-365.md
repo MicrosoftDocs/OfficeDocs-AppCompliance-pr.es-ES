@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Cloud Backup for Microsoft Office 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: a053ad5e60924f5d45fb8b99f91fe87b6dfe844e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: dca13bf8ef2d0ab2147e7457ab617196edae7fd6
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63546568"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64623212"
 ---
 # <a name="cloud-backup-for-microsoft-office-365"></a>Copia de seguridad en la nube para Microsoft Office 365
 
@@ -36,8 +36,11 @@ Información proporcionada por AvePoint Inc. a Microsoft:
 | Nombre de la compañía asociada | AvePoint Inc. |
 | Sitio web de la compañía | [https://www.avepoint.com](https://www.avepoint.com) |
 | Términos de uso de la aplicación | [https://www.avepoint.com/company/terms-of-use](https://www.avepoint.com/company/terms-of-use) |
-| Funcionalidad principal de la aplicación | AvePoint Cloud Backup es la solución de copia de seguridad&#8217;de nube a nube más completa para Microsoft 365. Con
-Copias de seguridad ilimitadas y automatizadas y almacenamiento seguro en el almacenamiento de Azure de AvePoint&#8217;o en su propia nube, solo tiene que decidir cuánto recuperar y cuándo. La restauración a petición y granular a nivel de elemento proporciona acceso en cualquier momento a los correos electrónicos, archivos, conversaciones, grabaciones, proyectos, tareas, grupos, Teams, Planner y sitios. | | Ubicación central de la empresa | Estados Unidos de América | | Página de información de la aplicación | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) | | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas | | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
+| Funcionalidad principal de la aplicación | AvePoint Cloud Backup es la solución de copia de seguridad&#8217;de nube a nube más completa para Microsoft 365. Con copias de seguridad ilimitadas y automatizadas y almacenamiento seguro en El almacenamiento de Azure de AvePoint&#8217;o su propia nube, solo tiene que decidir cuánto debe recuperarse y cuándo. La restauración a petición y granular a nivel de elemento proporciona acceso en cualquier momento a los correos electrónicos, archivos, conversaciones, grabaciones, proyectos, tareas, grupos, Teams, Planner y sitios. |
+| Ubicación central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://www.avepoint.com/products/cloud/backup/microsoft-of...](https://www.avepoint.com/products/cloud/backup/microsoft-office-365-backup) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -121,7 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | Sí |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]

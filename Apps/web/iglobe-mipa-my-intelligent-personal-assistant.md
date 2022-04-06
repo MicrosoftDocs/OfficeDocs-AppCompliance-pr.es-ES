@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: attested
 description: 'Toda la información de seguridad y cumplimiento disponible para MIPA: My Intelligent Personal Assistant, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.'
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 684cd61aec216db5bc60bb92abd2d93963c2138a
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 6c7d3349b9fc747d5a8093aff1042894fbd67cf1
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59288495"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627912"
 ---
 # <a name="mipa---my-intelligent-personal-assistant"></a>MIPA: Asistente personal inteligente
 
@@ -32,7 +32,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | MIPA: Asistente personal inteligente |
-| Id. | 17859280.mipa |
+| ID | 17859280.mipa |
 | Nombre de la compañía asociada | iGlobe |
 | Dirección URL del sitio web de partners | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Dirección URL de la directiva de privacidad | [https://instassl.iglobecrm.com/legal-information](https://instassl.iglobecrm.com/legal-information) |
@@ -50,25 +50,25 @@ IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila 
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Contacts.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, actualizar, crear tareas de panner, leer los archivos recientes y compartidos de los usuarios. Para comprobar que el usuario tiene consentimiento y tiene acceso a la API. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar correo marcado | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| MailboxSettings.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar correo marcado, Leer y actualizar Outlook To Do completos | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| MailboxSettings.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, leer y actualizar el correo marcado, leer y actualizar Outlook To Do completos | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.ReadBasic.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| User.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies | e854ea05-68ab-4204-babe-db4a784fb4d8 |
->| email | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios ( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
+>| correo electrónico | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación lea la dirección de correo electrónico principal de los usuarios ( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| offline_access | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación vea y actualice los datos a los que le dio acceso, incluso cuando los usuarios no estén usando actualmente la aplicación. Esto no proporciona a la aplicación permisos adicionales ( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| OpenID | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite a los usuarios iniciar sesión en la aplicación con sus cuentas laborales o educativas y permite que la aplicación vea información básica de perfil de usuario( para SSO). | e854ea05-68ab-4204-babe-db4a784fb4d8 |
 >| perfil | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer y actualizar todo el calender, Leer y actualizar Outlook a Do Entreies, Read, Update, Create Panner Tasks | e854ea05-68ab-4204-babe-db4a784fb4d8 |
@@ -86,7 +86,7 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 >| Exchange- MailboxSettings.Read | No |  |  |  |  |
 >| Exchange- MailboxSettings.ReadWrite | No |  |  |  |  |
 >| Exchange- Tasks.ReadWrite | No |  |  |  |  |
->| SharePoint- MyFiles.Read | No |  |  |  |  |
+>| SharePoint: MyFiles.Read | No |  |  |  |  |
 >| SharePoint: MyFiles.Write | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
@@ -101,7 +101,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->iGlobe recopila datos para funcionar eficazmente y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: los datos recopilados para administrar la cuenta de licencia de&#8217;organización, como cuando implementas complementos gratuitos, creas una suscripción de prueba o compras una suscripción. Se recopila la siguiente información. 
+>iGlobe recopila datos para funcionar eficazmente y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: datos recopilados para administrar la cuenta de licencia de&#8217;organización, como cuando implementa complementos gratuitos, crea una suscripción de prueba o compra una suscripción. Se recopila la siguiente información. 
 - Con fines financieros: nombre y dirección de la empresa
 - Usuarios suscritos: nombre de usuario y correo electrónico
 
@@ -125,7 +125,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35699" target="_blank">Ver en una pestaña nueva</a>
 
