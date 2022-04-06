@@ -1,27 +1,27 @@
 ---
-title: App de Azure información de identificador para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
+title: App de Azure id. de usuario para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/05/2022
+ms.date: 03/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.
-ms.openlocfilehash: 7efb5b8e523b54015edfe127cd6bd391a0e086a7
-ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
+ms.openlocfilehash: 0914463e6fa8b87304188633772b4d3d6c9c8426
+ms.sourcegitcommit: 64860967a2baa3b08445ad7e186e46ce529efb13
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64676740"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "64527637"
 ---
-# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>id. de App de Azure: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
+# <a name="azure-app-id-b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7"></a>App de Azure: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
 
 
-### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas a este identificador:
-| **Nombre de la aplicación** | **Certificado** | **Vista en AppSource** |
+### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas con este identificador:
+| **Nombre de la aplicación** | **Certificado** | **Ver en AppSource** |
 |--------------|---------------|-----------------------|
 | [Teams Manager](../forward/WA200000764.md) |  | [https://appsource.microsoft.com/product/office/WA200000764](https://appsource.microsoft.com/product/office/WA200000764) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
-- Publisher Estado de Attestaton: Completado
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de la aplicación
+- Publisher estado de Attestaton: Completado
