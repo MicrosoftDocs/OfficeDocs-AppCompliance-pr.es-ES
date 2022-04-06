@@ -8,12 +8,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Priority Matrix, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 83e82e68a5159a645e39c520f2620d9593b2b7d3
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: c40d5d346b7786a01afee112147f9e3653b7559c
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59284911"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64626952"
 ---
 # <a name="priority-matrix"></a>Priority Matrix
 
@@ -31,7 +31,7 @@ Información proporcionada por Appfluence Inc a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Priority Matrix |
-| Id. | appfluenceinc.m_pm_msft |
+| ID | appfluenceinc.m_pm_msft |
 | Nombre de la compañía asociada | Appfluence Inc |
 | Dirección URL del sitio web de partners | [https://appfluence.com/office-365-project-management-integr...](https://appfluence.com/office-365-project-management-integration/) |
 | Dirección URL de la directiva de privacidad | [https://appfluence.com/privacy](https://appfluence.com/privacy) |
@@ -49,14 +49,14 @@ Appfluence Inc ha proporcionado esta información sobre cómo esta aplicación r
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| Calendars.Read | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| User.ReadBasic.All | delegado | Solo cuando se agrega un nuevo usuario a la cuenta, almacenamos su correo electrónico. | En la creación de nuevas cuentas, lo usamos para sugerir a otros miembros del equipo. | 5be2b320-a5b7-4221-893c-dee506e4e365 |
 >| offline_access | delegado | Almacenamos el token de inicio de sesión para realizar solicitudes en nombre del usuario | Actualice el token sin molestar al usuario. (Matriz de prioridad para Teams) | 5be2b320-a5b7-4221-893c-dee506e4e365 |
->| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar archivos SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar reuniones y colaboración general. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
+>| Files.Read.All | delegado | No almacenamos ninguna información de archivo, a menos que el usuario cree explícita y conscientemente un elemento de matriz de prioridad que se vincula al archivo original. | En nuestra característica uno a uno (disponible a través de nuestra aplicación web y también de nuestros complementos de Outlook/Teams), usamos esta característica para resaltar los archivos SharePoint/OneDrive que se comparten entre dos usuarios de nuestro sistema, como una forma de facilitar reuniones y colaboración general. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| User.Read | delegado | La información básica del perfil de usuario (nombre para mostrar, nombre, apellido, correo electrónico, avatar) la almacenamos nosotros. | Obtén el nombre, el correo electrónico, el avatar del usuario para personalizar su cuenta con nosotros. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| OpenID | delegado | Almacenamos la conexión SSO para indicar el modo de inicio de sesión del usuario. | Para iniciar sesión en los usuarios mediante el inicio de sesión único. | affadfb6-f17b-428f-97f9-9aae3b6175bc |
 >| Calendars.Read | delegado | Un pequeño número de eventos de calendario se convierten en tareas almacenadas en nuestro sistema. | Lea los eventos del calendario para que se puedan mostrar en nuestra vista 1:1. También para inicializar cuentas nuevas. | d76f016f-52c7-41b5-835b-900361d7040c |
@@ -98,7 +98,7 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35667" target="_blank">Ver en una pestaña nueva</a>
 

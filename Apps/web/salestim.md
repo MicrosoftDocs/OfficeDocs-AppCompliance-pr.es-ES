@@ -6,14 +6,14 @@ ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a8f6bc2575a68f17e8a00701fa4a55b3a7906f91
-ms.sourcegitcommit: d85595f6518d8d05f0aee75380f51659908b6bcb
+ms.openlocfilehash: 912f828c405178b056c50b261e408617e239f540
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2021
-ms.locfileid: "59287784"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627262"
 ---
 # <a name="salestim"></a>SalesTim
 
@@ -32,7 +32,7 @@ Información proporcionada por SalesTim a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SalesTim |
-| Id. | salestim.salestim |
+| ID | salestim.salestim |
 | Nombre de la compañía asociada | SalesTim |
 | Dirección URL del sitio web de partners | [https://salestim.com](https://salestim.com) |
 | Dirección URL de la directiva de privacidad | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
@@ -50,9 +50,9 @@ SalesTim ha proporcionado esta información sobre cómo esta aplicación recopil
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Id. de aplicación de Azure AD** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| AppCatalog.ReadWrite.All | delegado | NO | Permitir que la aplicación instale y actualice sus propios paquetes en el catálogo de aplicaciones corporativas. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | delegado | Solo&#8217;algunos de los usuarios, no los datos de perfil. | Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
@@ -67,9 +67,9 @@ Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/per
 
 Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
 
->| **Todos los OII que no servicios Microsoft se transfieren a** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
+>| **Se transfieren servicios Microsoft OII que no son de servicios Microsoft** |  **¿Qué OII se transfiere?** | **¿Justificación para transferir OII?** |
 >|:-------------------|:--------------------------|:--------------------------|
->| Estamos usando El intercomunicador como nuestra aplicación de soporte técnico principal. El intercomunicador puede contener información básica de perfil de usuario, como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#support-data | Nombre de la compañía | Estamos usando las API GitHub para generar problemas automáticamente desde nuestro entorno de producción. También almacenamos algunos registros técnicos en GitHub (como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data) . Estos problemas y registros pueden contener información básica de perfil de usuario. Estos problemas y registros se eliminan automáticamente cada 15 días. |
+>| Estamos usando El intercomunicador como nuestra aplicación de soporte técnico principal. El intercomunicador puede contener información básica de perfil de usuario, como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#support-data | Nombre de la compañía | Estamos usando las API GitHub para generar problemas automáticamente desde nuestro entorno de producción. También almacenamos algunos registros técnicos en GitHub (como se describe aquí: https://developers.salestim.com/platform/datamanagement.html#error-reporting-data). Estos problemas y registros pueden contener información básica de perfil de usuario. Estos problemas y registros se eliminan automáticamente cada 15 días. |
 
 
 
@@ -77,7 +77,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 ¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
 
->Aquí se describen todos los datos recopilados: como se describe, los registros se almacenan temporalmente durante 15 días y, a https://developers.salestim.com/platform/datamanagement.html#application-data continuación, se eliminan automáticamente.
+>Aquí se describen todos los datos recopilados: https://developers.salestim.com/platform/datamanagement.html#application-data como se describe, los registros se almacenan temporalmente durante 15 días y, a continuación, se eliminan automáticamente.
 
 #### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
 
@@ -103,7 +103,7 @@ Las implementaciones en entornos de producción se automatizan a través de una 
 
 La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
 
-<iframe height='1020' title='Microsoft Cloud App Security Información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853' frameborder='no'></iframe>
 
 <a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35853" target="_blank">Ver en una pestaña nueva</a>
 

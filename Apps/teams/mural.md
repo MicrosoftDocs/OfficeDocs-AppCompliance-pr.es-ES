@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para MURAL, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: df6a5ae8a4b098679e9fc43cedfe8605a8c0d99e
-ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.openlocfilehash: 46369b01c7570f46997e8a9cb43e30c9d882e0bf
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "64602299"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64627282"
 ---
 # <a name="mural"></a>MURAL
 
@@ -57,7 +57,7 @@ ESTA información ha sido proporcionada por MURAL sobre cómo esta aplicación r
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| ¿Qué datos procesa la aplicación? | MURAL solo requiere Nombre, Apellido y Dirección de correo electrónico para el inicio de sesión. El tipo de datos que se procesarán o almacenarán dependerá del cliente |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | MURAL solo requiere el nombre, el apellido y el correo electrónico del usuario con fines de inicio de sesión, y que el resto de la información almacenada depende de la información que los clientes almacenan en sus murales. |
@@ -97,8 +97,8 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
 | Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
-| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
