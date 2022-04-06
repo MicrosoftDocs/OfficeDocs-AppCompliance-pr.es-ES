@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/05/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 39a1746863fd10b80a39eff3f9dc1218d0f0d1f2
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: c4a980802eb9c2dd1cc9779720b2136a4c8da92d
+ms.sourcegitcommit: 4e8ef8e62b64b63eb9a9aa8971bf0c6ba14c2d03
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627252"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64681841"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -98,6 +98,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Chronus](./chronus.md) | Chronus | **✓** |  |
 | [ChurnZero](./churnzero.md) | ChurnZero | **✓** |  |
 | [CI-Out-of-Office Lite](./ci-solution-gmbh-out-of-office-lite.md) | ci solution GmbH | **✓** |  |
+| [Sms del secretario](./unnamed-ventures-llc-clerk-sms.md) | Ventures, LLC sin nombre. | **✓** |  |
 | [ClipTraining](./cliptraining.md) | ClipTraining | **✓** |  |
 | [Clixie](./clixie-media-llc.md) | Clixie Media LLC | **✓** |  |
 | [Cloud Effective](./cloud-effective.md) | Cloud Effective | **✓** |  |
@@ -199,7 +200,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
-| [Goodera](./goodera.md) | Goodera | **✓** |  |
 | [GoToConnect](./logmein-inc-gotoconnect.md) | LogMeIn Inc. | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Group Address Book - NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
@@ -259,6 +259,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
 | [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [LawVu APAC](./lawvu-apac.md) | LawVu | **✓** |  |
+| [LawVu USA](./lawvu-usa.md) | LawVu | **✓** |  |
 | [Learnbee](./bsharp-sales-enablers-learnbee.md) | Habilitadores de ventas de Bsharp | **✓** |  |
 | [Lexion](./lexion.md) | Lexion | **✓** |  |
 | [LifeWorks](./lifeworks.md) | LifeWorks | **✓** |  |
@@ -373,7 +374,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [bot de chat RFPIO](./rfpio-bot.md) | RFPIO | **✓** |  |
 | [RingCentral](./ringcentral-inc.md) | RingCentral, Inc. | **✓** |  |
 | [RowShare](./rowshare.md) | RowShare | **✓** |  |
-| [Saberr](./saberr.md) | Saberr | **✓** |  |
 | [Espacios seguros](./ecare-vault-inc-safe-spaces.md) | eCare Vault Inc. | **✓** |  |
 | [Sailpoint](./sailpoint-technologies-inc.md) | SailPoint Technologies, Inc. | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
@@ -432,7 +432,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Tactileo](./maskott-tactileo.md) | Maskott | **✓** |  |
 | [TagMyFav](./avishkaram-technologies-pvt-ltd-tagmyfav.md) | Avishkaram Technologies Pvt Ltd | **✓** |  |
 | [TagTeam](./smarter-business-solution-gmbh-tagteam.md) | Smarter Business Solution GmbH | **✓** |  |
-| [Talview Interviews](./talview-inc-interviews.md) | Talview Inc | **✓** |  |
 | [TAMPLO](./ityss-tamplo.md) | ITYSS | **✓** |  |
 | [TaskCall](./taskcall-cloud-services-sl.md) | TaskCall Cloud Services, S. L. | **✓** |  |
 | [Taskworld](./taskworld.md) | Taskworld | **✓** |  |
