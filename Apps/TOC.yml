@@ -197,8 +197,6 @@
       items:
         - name: 10xGoals
           href: teams/xto10x-technologies-10xgoals.md
-        - name: 1Page
-          href: teams/oayaw-inc-1page.md
         - name: 365-QA
           href: teams/advantive-365-qa.md
         - name: 365Projects
@@ -477,8 +475,6 @@
           href: teams/springrole-engagewith.md
         - name: enmacc
           href: teams/enmacc.md
-        - name: EQ en todas partes
-          href: teams/humantelligence-eq-everywhere.md
         - name: Espresso
           href: teams/solutions2share-gmbh-espresso.md
         - name: eTeamer
@@ -555,8 +551,6 @@
           href: teams/goodera.md
         - name: GoToConnect
           href: teams/logmein-inc-gotoconnect.md
-        - name: GRATICA
-          href: teams/okwave-inc-gratica.md
         - name: Group Address Book - NextSet
           href: teams/nextsetinc-group-address-book-nextset.md
         - name: GroupLotse
@@ -815,8 +809,6 @@
           href: teams/perflo.md
         - name: Photo Filer
           href: teams/ichicraft-photo-filer.md
-        - name: Plandisc
-          href: teams/plandisc.md
         - name: Calendario Planyway para Trello
           href: teams/rubius-planyway-calendar-for-trello.md
         - name: 'PlayQuiz: Aprende y Juega'

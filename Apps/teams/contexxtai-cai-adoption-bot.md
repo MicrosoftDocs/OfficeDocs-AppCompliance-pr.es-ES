@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para C.AI Adoption Bot, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 750a7eda8df6fd17b2e8ebea6f1595fb188a4af9
-ms.sourcegitcommit: 2cada3fb44667dce080d5cb4ca93b113e8ec57c1
+ms.openlocfilehash: ab20dac36584764fc272264de8569bfeccb90b99
+ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64487831"
+ms.lasthandoff: 04/02/2022
+ms.locfileid: "64622132"
 ---
 # <a name="cai-adoption-bot"></a>C.AI Adoption Bot
 
@@ -33,15 +33,15 @@ Información proporcionada por contexxt.ai a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | C.AI Adoption Bot |
-| Id. | WA200002633 |
+| ID | WA200002633 |
 | Office 365 clientes compatibles | Microsoft Teams |
 | Nombre de la compañía asociada | contexxt.ai |
 | Sitio web de la compañía | [https://contexxt.ai](https://contexxt.ai) |
 | Términos de uso de la aplicación | [https://contexxt.ai/terms-of-use](https://contexxt.ai/terms-of-use) |
-| Funcionalidad principal de la aplicación | Al usar todo el conjunto de adopción, incl. &quot; Personal Coaching Booster&quot;, el análisis del motor de análisis (C.AI Adoption Analytics) Graph través de datos de uso anónimos de la API &amp; Exchange Teams. En función de estos datos, el algoritmo de bot (C.AI Bot de adopción) detecta situaciones de aprendizaje específicas que envían sugerencias rápidas &amp; al usuario. Por ejemplo, si un usuario nunca agregó un asunto a una publicación de Teams, el bot asume que el usuario no sabe cómo hacerlo y envía materiales de aprendizaje personalizados. Sin Analytics, solo será un bot de QA&amp;. |
+| Funcionalidad principal de la aplicación | Al usar todo el conjunto de adopción, incl. &quot; Personal Coaching Booster&quot;, el motor de análisis (C.AI Adoption Analytics) a través Graph API datos de uso anónimos de Exchange &amp; Teams. En función de estos datos, el algoritmo de bot (C.AI Bot de adopción) detecta situaciones de aprendizaje específicas que envían sugerencias rápidas &amp; al usuario. Por ejemplo, si un usuario nunca agregó un asunto a una publicación de Teams, el bot asume que el usuario no sabe cómo hacerlo y envía materiales de aprendizaje personalizados. Sin Analytics, solo será un bot de QA&amp;. |
 | Ubicación central de la empresa | Alemania |
 | Página de información de la aplicación | [https://contexxt.ai/cai-adoption-bot/](https://contexxt.ai/cai-adoption-bot/) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -56,8 +56,16 @@ Esta información ha sido proporcionada por contexxt.ai sobre cómo esta aplicac
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Qué datos procesa la aplicación? | Metadatos anonimizados y agregados del perfil de usuario, Exchange y Teams de uso |
+| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | Metadatos anonimizados y agregados del perfil de usuario, Exchange y Teams de uso |
+| Si la infastructure subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Países Bajos (el) |
+| ¿Tiene un proceso de arrendamiento y eliminación de datos establecido? | Sí |
+| ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 30 días |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -71,7 +79,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Realizas pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | Antimalware tradicional, controles de aplicaciones |
+| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | TraditionalAntiMalware, ApplicationControls |
 | ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | Sí |
 | ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | Sí |
@@ -81,12 +89,12 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Sí |
 | ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | Repositorios de código, administración dns, almacenes de credenciales y claves |
+| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, Credential, DNSManagement |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
-| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? |Sí  |
+| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
 | ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| Sí |
@@ -117,7 +125,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
 | ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -128,16 +136,17 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? |  |
-| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? |  |
-| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? |  |
-| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? |  |
-| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
-| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? |  |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://contexxt.ai/privacy-policy/ |
+| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
+| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? | No |
+| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -149,24 +158,28 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 |:----------------|:-------------|
 | ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) |  |
-| ¿La aplicación almacena credenciales en el código? |  |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Se exige a los administradores que usen MFA |
+| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Sí |
+| ¿La aplicación almacena credenciales en el código? | No |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
 
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.Read | aplicación | La disponibilidad del usuario es capaz de enviar sugerencias en el momento adecuado y no durante los tiempos de foco, por ejemplo | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| ChannelMessage.Read.All | aplicación | Microsoft Teams de canal, como Privado o no, o cantidad de conversaciones por canal para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| Chat.Read.All | aplicación | Microsoft Teams metadatos de chat, como si un mensaje le gustara o cuántos chats de grupo y 1:1 existen para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| Directory.Read.All | aplicación | Id. de objeto de usuario para poder enviar sugerencias al usuario especular más adelante. | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| Group.Read.All | aplicación | Microsoft Teams metadatos, como la cantidad de Teams y canales para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| Mail.Read | aplicación | Microsoft Exchange metadatos, como la cantidad de correos electrónicos y mensajes de correo electrónico de grupo frente a 1:1 para analizar el uso de Exchange (en comparación con Teams) | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
->| User.Read.All | aplicación | Microsoft Teams metadatos de chat y conversación, como si se mencionase a un usuario para analizar el uso de Teams | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Calendars.Read | aplicación | Leer los datos de uso del calendario para los procedimientos recomendados de administración de tiempo | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| CallRecords.Read.All | aplicación | Leer Teams de uso de llamadas para conocer los procedimientos recomendados de administración de reuniones | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| ChannelMessage.Read.All | aplicación | Leer Teams de uso del canal para Teams procedimientos recomendados de administración de mensajes | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Chat.Read.All | aplicación | Leer Teams de uso de chat para Teams procedimientos recomendados de administración de chat | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Directory.Read.All | ambos | Leer datos de perfil de usuario para la interacción con el bot | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Group.Read.All | aplicación | Leer Teams de uso para Teams procedimientos recomendados de administración | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Group.ReadWrite.All | aplicación | Opcional: para escribir una cuenta de usuario de servicio temporalmente en Planners for Planner best practices | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Mail.Read | aplicación | Leer metadatos de correo para procedimientos recomendados de administración de correo electrónico | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| Tasks.Read | delegado | Para leer los datos de uso de Planner para procedimientos recomendados de Planner | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
+>| User.Read.All | aplicación | Leer metadadatas de usuario como pertenencia a grupos para Teams procedimientos recomendados de administración | [abe28a0d-6acc-47d8-9169-cfcc2553bc13](../azure/abe28a0d-6acc-47d8-9169-cfcc2553bc13.md) |
 
 >Esta aplicación no tiene API adicionales.
 

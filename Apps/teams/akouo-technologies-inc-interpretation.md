@@ -7,8 +7,14 @@ ms.date: 03/31/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: 'Toda la información de seguridad y cumplimiento disponible para Akouo Interpretation, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.'
+description: Toda la información de seguridad y cumplimiento disponible para Akouo Interpretation, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: daa18e2cff1ff0a0865ca519dd3a7a49da2dbfca
+ms.sourcegitcommit: 021c258a4aad74b2525c08b60926fbbcd421f0c0
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64602309"
 ---
 # <a name="akouo-interpretation"></a>Akouo Interpretation
 
@@ -52,7 +58,7 @@ Esta información ha sido proporcionada por Akouo Technologies Inc. sobre cómo 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Datos de perfil de usuario, imagen y audio usados dentro de MS Teams. |
+| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Dirección de correo electrónico del usuario. |
@@ -61,6 +67,7 @@ Esta información ha sido proporcionada por Akouo Technologies Inc. sobre cómo 
 | ¿Cuánto tiempo se conservan los datos después de la finalización de la cuenta? | Menos de 90 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
 | ¿Transfiere datos de clientes o contenido de cliente a terceros o subprocesadores? | No |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta datos de clientes de Microsoft? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -88,11 +95,11 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | Sí |
-| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
+| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
 | Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
-| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -165,7 +172,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 >|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| OnlineMeetings.Read | delegado | Se usa para obtener detalles de la reunión, como la hora de inicio y finalización, etc. Solo se solicitó para el organizador de la reunión. | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
->| offline_access | aplicación | Requerido automáticamente por microsoft&#8217;marco de inicio de sesión único. https://docs.microsoft.com/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
+>| offline_access | aplicación | Requerido automáticamente por microsoft&#8217;marco de inicio de sesión único. https://docs.microsoft.com/en-us/graph/permissions-reference#remarks-15  | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 >| OpenID | aplicación | Autenticar usuarios con su sesión de inicio de sesión de Microsoft/Azure | [d863a24b-7cdd-46c9-8309-a15878f4f7bf](../azure/d863a24b-7cdd-46c9-8309-a15878f4f7bf.md) |
 
 >Esta aplicación no tiene API adicionales.
