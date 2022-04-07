@@ -1,27 +1,27 @@
 ---
-title: App de Azure de identificación de 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+title: App de Azure información de identificador para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/01/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: 8b0faf9db83b9e8a3fbbf912ba38b97595fcd531
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: bd85eb6422143de4bc24d3bf1f36c358406b3bc6
+ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64628052"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64695891"
 ---
-# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>App de Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>id. de App de Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
 
-### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas con este identificador:
-| **Nombre de la aplicación** | **Certificado** | **Ver en AppSource** |
+### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas a este identificador:
+| **Nombre de la aplicación** | **Certificado** | **Vista en AppSource** |
 |--------------|---------------|-----------------------|
 | [InCaseIT](../forward/WA200003265.md) |  | [https://appsource.microsoft.com/product/office/WA200003265](https://appsource.microsoft.com/product/office/WA200003265) |
 
-### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 de cumplimiento de la aplicación
-- Publisher estado de Attestaton: Completado
+### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
+- Estado de Attestaton del publicador: completado

@@ -5,7 +5,7 @@
       items:
         - name: Información general
           href: overview.md
-        - name: ¿Qué es la verificación Publisher?
+        - name: ¿Qué es la verificación del publicador?
           href: /azure/active-directory/develop/publisher-verification-overview
         - name: ¿Qué es la certificación Microsoft 365?
           href: docs/enterprise-app-certification-guide.md
@@ -168,7 +168,7 @@
           href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
         - name: HelloSign para SharePoint
           href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
-        - name: Ichicraft Boards- Su área de trabajo digital
+        - name: 'Ichicraft Boards : su área de trabajo digital'
           href: sharepoint/ichicraft-bv-boards-your-digital-workplace.md
         - name: Complementos de iGlobe CRM
           href: sharepoint/iglobe-crm-add-ons.md
@@ -355,6 +355,8 @@
           href: teams/churnzero.md
         - name: CI-Out-of-Office Lite
           href: teams/ci-solution-gmbh-out-of-office-lite.md
+        - name: Sms del secretario
+          href: teams/unnamed-ventures-llc-clerk-sms.md
         - name: ClipTraining
           href: teams/cliptraining.md
         - name: Clixie
@@ -409,6 +411,8 @@
           href: teams/cuckoo-networks-oy-workout.md
         - name: Cultr Connect
           href: teams/cultr-connect.md
+        - name: Amplificador de referencia cultural
+          href: teams/culture-amp.md
         - name: Cyberday
           href: teams/digiturvamalli-cyberday.md
         - name: DataMiner
@@ -675,6 +679,8 @@
           href: teams/lawtoolboxcominc-lawtoolbox.md
         - name: LawVu APAC
           href: teams/lawvu-apac.md
+        - name: LawVu USA
+          href: teams/lawvu-usa.md
         - name: Learnbee
           href: teams/bsharp-sales-enablers-learnbee.md
         - name: Lexion
@@ -1051,7 +1057,7 @@
           href: teams/teamschamp.md
         - name: TeamSticker by Communitio
           href: teams/communitio-corporation-teamsticker-by.md
-        - name: Teamwork
+        - name: Trabajo en equipo
           href: teams/teamwork.md
         - name: TELUS Business Connect
           href: teams/ringcentral-inc-telus-business-connect.md
@@ -1186,7 +1192,7 @@
           href: word/krevealllc-crosscheck.md
         - name: Automatización de documentos de Excel a Word
           href: word/analysisplace-excel-to-word-document-automation.md
-        - name: Complemento fabasoft Cloud Office
+        - name: Complemento de Office en la nube de Fabasoft
           href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
         - name: 'Editor pdf de Foxit para Microsoft Word, Excel y PowerPoint'
           href: word/foxit-software-inc-pdf-editor-for-microsoft-word-excel-and-powerpoint.md
@@ -1293,7 +1299,7 @@
           href: saas/iglobe-office2sharepoint-for-teams.md
         - name: Detección de Onna para MS365
           href: saas/onna-discovery-for-ms365.md
-        - name: Directivas y Ideas para Microsoft Office 365
+        - name: Directivas e información para Microsoft Office 365
           href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
         - name: Priority Matrix
           href: saas/appfluence-inc-priority-matrix.md

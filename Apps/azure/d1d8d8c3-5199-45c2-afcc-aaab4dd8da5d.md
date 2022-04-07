@@ -3,17 +3,17 @@ title: App de Azure información de identificador para d1d8d8c3-5199-45c2-afcc-a
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/02/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.
-ms.openlocfilehash: 92656ed40097787c432c7832e50086f974609c6e
-ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
+ms.openlocfilehash: 3a44a9f8aa6877d043eb0f4ba170da74c6274cd5
+ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64657733"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64697861"
 ---
 # <a name="azure-app-id-d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d"></a>identificador de App de Azure: d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d
 
@@ -24,4 +24,4 @@ ms.locfileid: "64657733"
 | [Team Tracker](../forward/WA200003572.md) |  | [https://appsource.microsoft.com/product/office/WA200003572](https://appsource.microsoft.com/product/office/WA200003572) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
-- Publisher Estado de Attestaton: Completado
+- Estado de Attestaton del publicador: completado
