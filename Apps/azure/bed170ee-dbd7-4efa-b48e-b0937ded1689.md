@@ -3,17 +3,17 @@ title: App de Azure información de identificador de bed170ee-dbd7-4efa-b48e-b09
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/02/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para bed170ee-dbd7-4efa-b48e-b0937ded1689.
-ms.openlocfilehash: 53c5b269d329add7b83c88e40105fbe3a101fddd
-ms.sourcegitcommit: 1ec89e36ca96efb9704a11b904ab84f4030b3578
+ms.openlocfilehash: 4b419d82e9b6117997249aef6c84ed764b360d11
+ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64656794"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "64696241"
 ---
 # <a name="azure-app-id-bed170ee-dbd7-4efa-b48e-b0937ded1689"></a>id. de App de Azure: bed170ee-dbd7-4efa-b48e-b0937ded1689
 
@@ -24,4 +24,4 @@ ms.locfileid: "64656794"
 | [Neelix.Team](../forward/WA200003047.md) |  | [https://appsource.microsoft.com/product/office/WA200003047](https://appsource.microsoft.com/product/office/WA200003047) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
-- Publisher Estado de Attestaton: Completado
+- Estado de Attestaton del publicador: completado
