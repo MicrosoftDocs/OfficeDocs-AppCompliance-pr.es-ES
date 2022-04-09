@@ -3,17 +3,17 @@ title: App de Azure información de identificador para 3bc7be07-dc8d-4dc4-a1be-0
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/06/2022
+ms.date: 04/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc.
-ms.openlocfilehash: bbb9b44b46ffeb7d45417413c53457054f490250
-ms.sourcegitcommit: 9f7e69c17034365cafea977da23961d4e934ad9f
+ms.openlocfilehash: a400af8b2b66d52895b7a003b133da3c6c322055
+ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64697111"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64718864"
 ---
 # <a name="azure-app-id-3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc"></a>identificador de App de Azure: 3bc7be07-dc8d-4dc4-a1be-0e8c7ebe9ebc
 
@@ -24,4 +24,4 @@ ms.locfileid: "64697111"
 | [Flujos de trabajo de Autopilot](../forward/WA200003745.md) |  | [https://appsource.microsoft.com/product/office/WA200003745](https://appsource.microsoft.com/product/office/WA200003745) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
-- Estado de Attestaton del publicador: completado
+- Publisher Estado de Attestaton: Completado
