@@ -7,12 +7,12 @@ description: Microsoft 365 detalles de la guía de envío de certificación
 keywords: equipos de certificación de aplicaciones Microsoft 365 cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: 753b40f63b293fea83705ae8124f5f22cbebe394
-ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
+ms.openlocfilehash: 5081e187615400b038795215ad0d5dcc934e1a87
+ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64720984"
+ms.lasthandoff: 04/10/2022
+ms.locfileid: "64751829"
 ---
 # <a name="microsoft-365-certification-submission-guide"></a>Guía de envío de certificación de Microsoft 365
 
@@ -90,6 +90,7 @@ El **entorno en el ámbito** es el entorno que admite la entrega del código de 
 
 ### <a name="infrastructure-as-a-service-iaas-platform-as-a-service-paas-and-software-as-a-service-saas"></a>Infraestructura como servicio (IaaS), Plataforma como servicio (PaaS) y Software como servicio (SaaS) 
 Cuando IaaS o PaaS se usan para admitir la infraestructura de la aplicación o la entrega de código de complemento que se está revisando, el proveedor de la plataforma en la nube será responsable de algunos de los controles de seguridad evaluados a lo largo del proceso de certificación. Por lo tanto, el proveedor de la plataforma en la nube deberá proporcionar a los analistas de certificación una verificación externa independiente de los procedimientos recomendados de seguridad a través de informes de cumplimiento externos, como pci DSS atestación de cumplimiento (AOC), ISO27001 o informes soc 2 de tipo II. 
+
 
 El apéndice F proporciona detalles sobre qué controles de seguridad probablemente serán aplicables en función de los siguientes tipos de implementación y en función de si la aplicación o el complemento filtran o no los datos de M365: 
 * ISV hospedado 
@@ -249,6 +250,7 @@ Cuando se usan técnicas para segmentar los entornos dentro del ámbito de otros
 Los informes de pruebas de penetración se revisarán para asegurarse de que no haya vulnerabilidades que cumplan los siguientes  **criterios de error automático** descritos en los controles siguientes.
  
 **Requisitos de pruebas de penetración**
+
 
 |**Tipo de criterios**|**Controles de pruebas de penetración**|
 | -------------------------|-----------------------------|

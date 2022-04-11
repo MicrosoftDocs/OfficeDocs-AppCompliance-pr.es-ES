@@ -1,21 +1,21 @@
 ---
-title: App de Azure información de identificador para 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
+title: Aplicação Azure AD información de identificador para 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/07/2022
+ms.date: 04/08/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb.
-ms.openlocfilehash: 43b9bb02192d7ac3d5abb322dd887ebb4deb15ef
-ms.sourcegitcommit: 9cc3fe8502a6f21f3f6abb4dd23b99b116c51b8e
+ms.openlocfilehash: 586575e0c257cf02cd4bcb3f982dd4a9223923fa
+ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64719314"
+ms.lasthandoff: 04/10/2022
+ms.locfileid: "64750569"
 ---
-# <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>id. de App de Azure: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
+# <a name="azure-app-id-2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb"></a>identificador de Aplicação Azure AD: 2cc7f3cd-05e3-4ebb-b9f9-d92f1bcda7fb
 
 
 ### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas a este identificador:
