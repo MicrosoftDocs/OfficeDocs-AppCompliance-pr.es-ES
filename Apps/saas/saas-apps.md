@@ -3,48 +3,50 @@ title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/29/2022
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 29a4ec64e77d1b8a2d8f24cb5a7322e03de7bc97
-ms.sourcegitcommit: 64860967a2baa3b08445ad7e186e46ce529efb13
+ms.openlocfilehash: 3a14975786f30d0ffe5f408eae83142be03f8a72
+ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "64528172"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64775528"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
-Microsoft trabaja con nuestros Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones SaaS y los complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones SaaS y los complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
 | [Centro de administración](./officeatwork-admin-center.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Consola de operador anywhere365 para Microsoft Teams](./workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
-| [Centro de contacto buzzeasy para Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
-| [Registro y análisis de cumplimiento de CallCabinet Atmos](./callcabinet-corporation-atmos-compliance-recording-and-analytics.md) | CallCabinet Corporation | **✓** |  |
+| [Centro de contacto de Anywhere365 para Teams](./workstreampeople-bv-anywhere365-contact-center-for-teams.md) | WORKSTREAMPEOPLE BV | **✓** |  |
+| [Centro de contactos de Buzzeasy para Teams](./geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md) | Geomant-Algotech Zrt. | **✓** |  |
+| [Grabación y análisis de cumplimiento de CallCabinet Atmos](./callcabinet-corporation-atmos-compliance-recording-and-analytics.md) | CallCabinet Corporation | **✓** |  |
 | [CC4Teams](./cc4all-cc4teams.md) | CC4ALL | **✓** |  |
 | [Classroom.cloud](./netsupport-ltd-classroomcloud.md) | NETSUPPORT LTD. | **✓** |  |
-| [Copia de seguridad en la nube para Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Firmas de correo electrónico codeTwo para Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
-| [Conjunto de comunicaciones de Competella](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
-| [Content Chooser](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Explorador de elidor de contenido](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Cloud Backup para Microsoft Office 365](./avepoint-inc-cloud-backup-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Firmas de correo electrónico de CodeTwo para Office 365](./codetwo-email-signatures-for-office-365.md) | CodeTwo | **✓** |  |
+| [Competella Communication Suite](./competella-ab-communication-suite.md) | Competella AB | **✓** |  |
+| [Selector de contenido](./officeatwork-content-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Explorador de selector de contenido](./officeatwork-content-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Designer](./officeatwork-designer.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Emailgistics](./emailgistics-corp.md) | Emailgistics Corp. | **✓** |  |
-| [EmailNotes para Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Standss (Pacífico sur) PTE Limited | **✓** |  |
-| [Integración de Teams de Genesys Cloud CX](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Cloud Services, Inc | **✓** |  |
-| [Centro de contacto de ice](./computertalk-ice-contact-center.md) | ComputerTalk | **✓** |  |
-| [IGlobe CRM Office 365 para Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Image Chooser](./officeatwork-image-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [EmailNotes para Outlook](./standss-south-pacific-pte-limited-emailnotes-for-outlook.md) | Standss (Pacífico Sur) PTE Limited | **✓** |  |
+| [Integración de genesys Cloud CX Teams](./genesys-cloud-services-inc-cx-teams-integration.md) | Genesys Cloud Services, Inc | **✓** |  |
+| [Centro de contactos de hielo](./computertalk-ice-contact-center.md) | ComputerTalk | **✓** |  |
+| [iGlobe CRM Office 365 para Microsoft 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Selector de imágenes](./officeatwork-image-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [IXCloud: inteligencia de grabación &amp; de cumplimiento de Teams](./numonix-llc-ixcloud-teams-compliance-recordingintelligence.md) | Numonix LLC | **✓** |  |
 | [LMS365](./elearningforce-international-aps-lms365.md) | ELEARNINGFORCE International Aps | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Grabación de cumplimiento de Luware para Microsoft Teams](./luware-ag-compliance-recording-for-microsoft-teams.md) | Luware AG | **✓** |  |
-| [Luware Nimbus para Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Luware AG | **✓** |  |
+| [Grabación de cumplimiento de Luware para Microsoft Teams](./luware-ag-compliance-recording-for-microsoft-teams.md) | Grupo de disponibilidad de Luware | **✓** |  |
+| [Luware Nimbus para Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Grupo de disponibilidad de Luware | **✓** |  |
 | [Firma de correo](./officeatwork-mail-signature.md) | officeatwork | **✓** |  |
-| [MIPA: Asistente personal inteligente](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [MIPA: Mi asistente personal inteligente](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub para Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
 | [Netskope para Microsoft Teams](./netskope-for-microsoft-teams.md) | Netskope | **✓** |  |
 | [Office2SharePoint](./iglobe-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -53,13 +55,13 @@ Microsoft trabaja con nuestros Microsoft 365 desarrolladores para proporcionar l
 | [Directivas &amp; Ideas para Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
-| [Slide Chooser](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [integración del centro de Teams nube de storm](./content-guru-storm-cloud-contact-center-teams-integration.md) | Gurú de contenido | **✓** |  |
+| [Selector de diapositivas](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Storm Cloud Contact Center Teams Integration](./content-guru-storm-cloud-contact-center-teams-integration.md) | Gurú de contenido | **✓** |  |
 | [Talkdesk Microsoft Teams Connector](./talkdesk-inc-microsoft-teams-connector.md) | Talkdesk, Inc. | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Explorador de elección de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Theta Lake Recording &amp; Compliance for Teams Video](./theta-lake-recordingcompliance-for-teams-video.md) | Theta Lake | **✓** |  |
+| [Explorador del selector de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Cumplimiento de grabación &amp; de Theta Lake para vídeo de Teams](./theta-lake-recordingcompliance-for-teams-video.md) | Lago Theta | **✓** |  |
 | [Usuario de carga](./officeatwork-uploader.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Comprobador](./officeatwork-verifier.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Wide Ideas/Idea2Innovation | **✓** |  |
+| [Verificador](./officeatwork-verifier.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Ideas amplias: software de innovación](./wide-ideasidea2innovation-ideas-innovation-software.md) | Ideas amplias/Idea2Innovación | **✓** |  |
 | [Asistente](./officeatwork-wizard.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
