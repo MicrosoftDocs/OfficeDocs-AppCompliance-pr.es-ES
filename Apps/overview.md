@@ -2,17 +2,18 @@
 title: Cumplimiento de Aplicaciones de Microsoft 365
 author: LGerrard
 ms.author: Legerrar
+manager: tonybal
 description: Introducción al programa y descripción general
 keywords: microsoft 365 m365 app editor certificación atestación
 ms.topic: overview
 ms.service: attestation
 localization_priority: Priority
-ms.openlocfilehash: 17aab158f4fc7803966afed9df88adf9688fcc63
-ms.sourcegitcommit: af065aeee2812a85ead9e0de968fc474204a6e8a
+ms.openlocfilehash: fec13172c98d6ec63b3ba4160eb04c9b345acb8d
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63697072"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784359"
 ---
 # <a name="microsoft-365-app-compliance-program"></a>Cumplimiento de Aplicaciones de Microsoft 365
 
@@ -24,7 +25,7 @@ Nuestra misión: proporcionar a los clientes de Microsoft una forma de confiar c
 
 ## <a name="publisher-verification"></a>Verificación del editor
 
-[La verificación de editor](https://docs.microsoft.com/azure/active-directory/develop/publisher-verification-overview) ayuda a los administradores y usuarios a comprender la autenticidad de la integración de los desarrolladores de aplicaciones con la Plataforma de identidad de Microsoft. Cuando se marca en una aplicación el "editor verificado", significa que el editor ha verificado su identidad con una cuenta de Microsoft Partner Network que ha completado el proceso de verificación y que ha asociado esta cuenta de MPN al registro de la aplicación.
+[La verificación de editor](/azure/active-directory/develop/publisher-verification-overview) ayuda a los administradores y usuarios a comprender la autenticidad de la integración de los desarrolladores de aplicaciones con la Plataforma de identidad de Microsoft. Cuando se marca en una aplicación el "editor verificado", significa que el editor ha verificado su identidad con una cuenta de Microsoft Partner Network que ha completado el proceso de verificación y que ha asociado esta cuenta de MPN al registro de la aplicación.
 La verificación de editor se usa con las aplicaciones que cumplan las condiciones siguientes:  
 - Usar OAuth 2.0 y OpenID Connect para iniciar las sesiones de los usuarios y solicitar acceso a los datos con una API del servicio, como Microsoft Graph. 
 - Registrarse en Azure AD como multiempresa.  
@@ -50,6 +51,6 @@ La certificación Microsoft 365 se aplica a todas las aplicaciones que se integr
 - **Webapps** (aplicaciones SaaS publicadas a través del marketplace comercial en Centro de partners se encuentran actualmente en una versión preliminar privada), si está interesado en participar, rellene este [formulario](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR3Om82jEdWlAkFiVJRhmM_xUQkY0SjVVOVVLR0RUN0RYNlRWMDRTSjVQRy4u).
 
 ### <a name="get-started"></a>Introducción
-- [Cómo completar la verificación de Publisher](https://docs.microsoft.com/azure/active-directory/develop/mark-app-as-publisher-verified)
-- [Cómo completar la certificación de Microsoft 365](https://docs.microsoft.com/microsoft-365-app-certification/docs/certification)
+- [Cómo completar la verificación de Publisher](/azure/active-directory/develop/mark-app-as-publisher-verified)
+- [Cómo completar la certificación de Microsoft 365](/microsoft-365-app-certification/docs/certification)
 
