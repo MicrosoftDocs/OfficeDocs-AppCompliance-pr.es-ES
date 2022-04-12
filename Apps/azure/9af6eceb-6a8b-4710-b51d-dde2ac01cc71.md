@@ -1,21 +1,21 @@
 ---
-title: Aplicação Azure AD información de identificador para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+title: App de Azure información de identificador para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/08/2022
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 9af6eceb-6a8b-4710-b51d-dde2ac01cc71.
-ms.openlocfilehash: 669e37c487074179354ba955c7897244d9408074
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: 46840e5d6dd818ad9b6b9c02f3ea02e3a5919296
+ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64753599"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64773428"
 ---
-# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>identificador de Aplicação Azure AD: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
+# <a name="azure-app-id-9af6eceb-6a8b-4710-b51d-dde2ac01cc71"></a>id. de App de Azure: 9af6eceb-6a8b-4710-b51d-dde2ac01cc71
 
 
 ### <a name="apps-associated-with-this-id"></a>Aplicaciones asociadas a este identificador:
