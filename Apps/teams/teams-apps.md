@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/08/2022
+ms.date: 04/11/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: b7ace23d3a6ee4255861be1691c48cf301688367
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: dbe22ec8eed60df3f2603a99a90e52a61c11d535
+ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64753669"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64784179"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -30,6 +30,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ADI](./akari-solutions-limited-adi.md) | Akari Solutions Limited | **✓** |  |
 | [Adobe Acrobat](./adobe-systems-inc-acrobat.md) | Adobe Systems Inc. | **✓** |  |
 | [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Creative Cloud Express](./adobe-creative-cloud-express.md) | Adobe | **✓** |  |
 | [Agenda Boss](./appfluence-inc-agenda-boss.md) | Appfluence Inc | **✓** |  |
 | [Panel de tareas ágil](./agile-is-task-board.md) | Agile-IS | **✓** |  |
 | [AI Producer](./livearena-technologies-ab-ai-producer.md) | LiveArena Technologies AB | **✓** |  |
@@ -64,6 +65,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Flujos de trabajo de Autopilot](./autopilot-workflow-solutions-workflows.md) | Soluciones de flujos de trabajo de Autopilot | **✓** |  |
 | [Asistente de IT de Avaamo](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
+| [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Decision Point | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Beekast](./beekast.md) | Beekast | **✓** |  |
@@ -152,6 +154,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ecBooking](./expert-systems-ivrasia-coltd-ecbooking.md) | Expert Systems IVR(Asia) Co.Ltd. | **✓** |  |
 | [EdMill](./my-serious-game-edmill.md) | My-Serious-Game | **✓** |  |
 | [Efecte Service Management](./efecte-oyj-service-management.md) | Efecte Oyj | **✓** |  |
+| [eformity: administración de plantillas](./eformity-eformitytemplate-management.md) | eformity | **✓** |  |
 | [Egnyte](./egnyte.md) | Egnyte | **✓** |  |
 | [elmah.io](./elmahio.md) | elmah.io | **✓** |  |
 | [Eloops](./eloops.md) | Eloops | **✓** |  |
@@ -171,6 +174,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Administración de eventos](./sharepointsapiens-event-management.md) | SharePoint-Sapiens | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Evocom](./evocom-informationssysteme-gmbh.md) | Evocom Informationssysteme GmbH | **✓** |  |
+| [Expensya](./expensya.md) | Expensya | **✓** |  |
 | [External User Manager](./solutions2share-gmbh-external-user-manager.md) | Solutions2Share GmbH | **✓** |  |
 | [ezTeam](./enterprizid-inc-ezteam.md) | EnterprizID Inc | **✓** |  |
 | [Fabasoft Cloud](./fabasoft-austria-gmbh-cloud.md) | Fabasoft Austria GmbH | **✓** |  |
@@ -217,7 +221,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [HeyTaco](./heytaco-llc.md) | HeyTaco, LLC | **✓** |  |
 | [hola, Asesor digital](./digital-attitude-srl-hi-coach.md) | Digital Attitude Srl | **✓** |  |
 | [Hi5](./hi5technologies-hi5.md) | Hi5Technologies | **✓** |  |
-| [HighSide](./highside-inc.md) | HighSide, Inc | **✓** |  |
 | [Colaboración con HighSide](./highside-inc-collaboration.md) | HighSide, Inc | **✓** |  |
 | [Highspot](./highspot.md) | Highspot | **✓** |  |
 | [HitHorizons](./finstat-sro-hithorizons.md) | FinStat s.r.o. | **✓** |  |
@@ -259,8 +262,10 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [KUDO](./kudo-inc.md) | KUDO, Inc. | **✓** |  |
 | [Kudozza](./survivef5-gmbh-kudozza.md) | surviveF5 GmbH | **✓** |  |
 | [Kunjani](./faceboard-pty-ltd-kunjani.md) | FACEBOARD (PTY) LTD | **✓** |  |
+| [Laduma](./laduma-ltd.md) | Laduma Ltd. | **✓** |  |
 | [LawToolBox](./lawtoolboxcominc-lawtoolbox.md) | LawToolBox.com,Inc. | **✓** |  |
 | [LawVu APAC](./lawvu-apac.md) | LawVu | **✓** |  |
+| [LawVu Europe](./lawvu-europe.md) | LawVu | **✓** |  |
 | [LawVu USA](./lawvu-usa.md) | LawVu | **✓** |  |
 | [Learnbee](./bsharp-sales-enablers-learnbee.md) | Habilitadores de ventas de Bsharp | **✓** |  |
 | [Lexion](./lexion.md) | Lexion | **✓** |  |
@@ -313,7 +318,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [NewCOS](./newtech-newcos.md) | Newtech | **✓** |  |
 | [Noticias - Jalios](./jalios-sa-news.md) | Jalios S. A. | **✓** |  |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
-| [NickNack](./nicknack-ltd.md) | NickNack Ltd. | **✓** |  |
 | [nickname by flowrish games](./room6-nickname-by-flowrish-games.md) | room6 | **✓** |  |
 | [Nulia Works](./nulia-works.md) | Nulia | **✓** |  |
 | [O2S - Office2SharePoint](./iglobe-o2s-office2sharepoint.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -424,6 +428,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [SuperBeings](./haptivity-technologies-pvt-ltd-superbeings.md) | Haptivity Technologies Pvt Ltd | **✓** |  |
 | [SuperOffice](./superoffice-infobridge-software.md) | Software InfoBridge de SuperOffice | **✓** |  |
 | [SurveyMonkey](./surveymonkey.md) | SurveyMonkey | **✓** |  |
+| [SurveyMoodbit](./moodbit-surveymoodbit.md) | Moodbit | **✓** |  |
 | [SurveySparrow](./surveysparrow-inc.md) | SurveySparrow Inc. | **✓** |  |
 | [Svava para reuniones](./svava-for-meetings.md) | Svava | **✓** |  |
 | [SwiftAssess](./gamalearn-swiftassess.md) | GamaLearn | **✓** |  |
@@ -459,6 +464,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ThoughtExchange](./thoughtexchange.md) | ThoughtExchange | **✓** |  |
 | [ThoughtWire EWS](./thoughtwire-corp-ews.md) | ThoughtWire Corp. | **✓** |  |
 | [lugares de ti8m](./tim-ag-ti8m-places.md) | ti &amp; m AG | **✓** |  |
+| [Emisión de boletos](./kitameraki-limited-ticketing.md) | kitameraki limited | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost: Seguimiento de tiempo](./kollisch-gmbh-timeghost-time-tracking.md) | K&#246;llisch GmbH | **✓** |  |
@@ -510,4 +516,5 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [YAROOMS](./yarooms.md) | YAROOMS | **✓** |  |
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zignals](./alight-zignals.md) | Alight | **✓** |  |
+| [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Sign](./zoho-corporation-private-limited-sign.md) | Zoho Corporation Private Limited | **✓** |  |
