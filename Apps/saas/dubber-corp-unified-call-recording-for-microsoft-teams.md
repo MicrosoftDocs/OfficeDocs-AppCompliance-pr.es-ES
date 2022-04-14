@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para Fellow by Fellow Ideas Inc
+title: Información de la aplicación para la grabación unificada de llamadas de Dubber para Microsoft Teams por Dubber Corp
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,40 @@ ms.date: 04/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Fellow, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro de CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Dubber Unified Call Recording For Microsoft Teams, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fbe620884ef1db92f8f6bbb40732d8ede740dd02
+ms.openlocfilehash: 0ffd0d8bd400cb9f2cf1d53e489b3d3afe2023b7
 ms.sourcegitcommit: 10b79d3f6a6d9d89c3b288789a14eafdfcc42d7a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838779"
+ms.locfileid: "64838818"
 ---
-# <a name="fellow"></a>Fellow
+# <a name="dubber-unified-call-recording-for-microsoft-teams"></a>Grabación unificada de llamadas de Dubber para Microsoft Teams
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 12 de abril de 2022</p>
+<p>Última actualización del desarrollador: 11 de abril de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/f6671df0-1909-428c-91f7-1c42df04d3e4" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002576" target="_blank">Vista en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/dubbercorp1603082091027.dubber01" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Fellow Ideas Inc a Microsoft:
+Información proporcionada por Dubber Corp a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Fellow |
-| ID | WA200002576 |
-| Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Fellow Insights Inc |
-| Sitio web de la empresa | [https://fellow.app](https://fellow.app) |
-| Términos de uso de la aplicación | [https://fellow.app/terms-of-use/](https://fellow.app/terms-of-use/) |
-| Funcionalidad básica de la aplicación | Compañero es donde los equipos se reúnen para tener reuniones de equipo productivas y reuniones significativas 1:1, crear agendas de reuniones colaborativas, registrar decisiones y mantenerse responsables entre sí. |
-| Ubicación de la sede central de la empresa | Canadá |
-| Página de información de la aplicación | [https://fellow.app/integrations/microsoft-teams/](https://fellow.app/integrations/microsoft-teams/) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
+| Nombre de la aplicación | Grabación unificada de llamadas de Dubber para Microsoft Teams |
+| ID | dubbercorp1603082091027.dubber01 |
+| Nombre de la empresa asociada | Dubber Corp |
+| Sitio web de la empresa | [https://www.dubber.net](https://www.dubber.net) |
+| Términos de uso de la aplicación | [https://www.dubber.net/terms](https://www.dubber.net/terms) |
+| Funcionalidad básica de la aplicación | The World&#8217;s #1 Unified Cloud Call Recording &amp; Voice AI for compliance, sales &amp; service performance |
+| Ubicación de la sede central de la empresa | Australia |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,16 +50,16 @@ Información proporcionada por Fellow Ideas Inc a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Fellow Ideas Inc ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Dubber Corp ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Datos de perfil de usuario (nombre, correo electrónico, avatar, etc.), datos de calendario (lista de calendarios, eventos, asistentes, etc.), datos de Teams (nombres de equipo, pertenencias a equipos), &amp; comunicación directa con el bot de @Fellow. |
+| ¿Qué datos procesa la aplicación? | Datos de llamada de usuario |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Datos de perfil de usuario (nombre, correo electrónico, avatar, etc...), datos de calendario (lista de calendarios, eventos, asistentes, etc.), Teams datos (nombres de equipo, pertenencias a equipos), . |
-| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Canadá |
+| ¿Qué datos se almacenan en las bases de datos? | Nombre del cliente e identificador de Microsoft, datos de grabación de llamadas y reuniones |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Australia |
 | ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -81,7 +78,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls, TraditionalAntiMalware |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
@@ -109,23 +106,21 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
+| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | Sí |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
-| ¿Qué certificación SOC 2 logró? | type1 |
-| Fecha de certificación de SOC2 más reciente | 2022-04-08 |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | Sí |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
-| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
-| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | No |
+| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | No |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | Sí |
+| ¿La aplicación cumple con NIST 800-171? | No |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -138,7 +133,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://fellow.app/privacy-policy/ |
+| Dirección URL de la directiva de privacidad | https://www.dubber.net/privacy-policy |
 | ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
 | ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
@@ -156,29 +151,16 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
 | Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
-
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| Calendars.ReadWrite | Ambos | Fellow es una aplicación de administración de reuniones, por lo que para funcionar eficazmente necesita acceso para leer y escribir en los calendarios del usuario. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Channel.ReadBasic.All | Delegado | Permite a los usuarios publicar notas de reunión en un canal determinado, que aparece en Fellow. Tenga en cuenta que esto solo nos permite ver qué canales existen. No proporciona la capacidad de leer mensajes. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Directory.Read.All | aplicación | (Solo para concesiones de aplicación) Permite a Fellow sincronizar la información del directorio de usuario, incluidos todos los usuarios. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Group.Read.All | aplicación | (Solo para concesiones de aplicación) Permite a Fellow sincronizar usuarios y grupos. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read | Delegado | Permitir que los usuarios busquen Microsoft Teams usuarios a los que enviar notas. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| People.Read.All | aplicación | (Solo para concesiones de aplicación) Permite el acceso a la información de perfil para todos los usuarios. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| Team.ReadBasic.All | Delegado | Permitir que el compañero obtenga información básica sobre un equipo, con el fin de poder enviar notas y agregar la pestaña Fellow. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read | Delegado | Permitir que los usuarios inicien sesión en Fellow y obtengan información básica del perfil. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| User.Read.All | aplicación | (Solo para concesiones de aplicación) Permite el acceso a la información de perfil para todos los usuarios. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
->| offline_access | Delegado | Fellow requiere &quot;acceso sin conexión&quot; a los datos del calendario para la sincronización en segundo plano. | [f6671df0-1909-428c-91f7-1c42df04d3e4](../azure/f6671df0-1909-428c-91f7-1c42df04d3e4.md) |
+>Esta aplicación no usa Microsoft Graph.
 
 >Esta aplicación no tiene API adicionales.
 
