@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de los identificadores de App de Azure: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/14/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todos los identificadores de App de Azure.
 localization_priority: Normal
-ms.openlocfilehash: d2f5e8030a404490f688cb80ae40a05e717107b0
-ms.sourcegitcommit: 8272a4eaea1bbd9196b998f1cb9b87c6cbb7d5d0
+ms.openlocfilehash: 3fd267b4e5727a68302dcfc2e4603ac2a5910891
+ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64834897"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64856846"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Seguridad y cumplimiento de los identificadores de App de Azure
 
