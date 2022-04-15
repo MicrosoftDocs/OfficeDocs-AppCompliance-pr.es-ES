@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Powell Teams, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: f6c39ee1825b4a0ebcfde303336aff7d18e97d1b
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 7136ca19eae434a61de556e7b0ecfe0032d35f78
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784227"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866829"
 ---
 # <a name="powell-teams"></a>Powell Teams
 
@@ -34,12 +34,12 @@ Información proporcionada por Powell Software a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Powell Teams |
-| ID | WA200001585 |
+| Id. | WA200001585 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | Powell Software |
 | Sitio web de la empresa | [https://www.powell-software.com](https://www.powell-software.com) |
 | Términos de uso de la aplicación | [https://powell-software.com/en/powell-teams-terms-of-use/](https://powell-software.com/en/powell-teams-terms-of-use/) |
-| Funcionalidad básica de la aplicación | Powell Teams aplicación proporciona un panel inteligente para todos los empleados de la empresa, ayudarles a organizar &amp; fácilmente las etiquetas de todos los equipos, descubrir los equipos de empresa promocionados más importantes y, por último, usar plantillas de equipo predefinidas basadas en roles para ahorrar tiempo. También hay una API disponible para recuperar y trabajar con conjuntos de datos en Powell Teams base de datos[https://docapiteams.powell-software.com](https://docapiteams.powell-software.com). Por último, también hay disponible un conector para Logic Apps y Power Automate.[https://docs.microsoft.com/connectors/powellteams](/connectors/powellteams) |
+| Funcionalidad básica de la aplicación | Powell Teams aplicación proporciona un panel inteligente para todos los empleados de la empresa, ayudarles a organizar &amp; fácilmente las etiquetas de todos los equipos, descubrir los equipos de empresa promocionados más importantes y, por último, usar plantillas de equipo predefinidas basadas en roles para ahorrar tiempo. Una API también está disponible para recuperar y trabajar con conjuntos de datos en powell Teams base de datos (https://docapiteams.powell-software.com) Por último, también hay disponible un conector para Logic Apps y Power Automate (https://docs.microsoft.com/en-us/connectors/powellteams) |
 | Ubicación de la sede central de la empresa | Francia |
 | Página de información de la aplicación | [https://helpteams.powell-software.com](https://helpteams.powell-software.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
@@ -86,11 +86,9 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
 | ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? |  |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? |  |
-| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
 | Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? |  |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
-| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +101,8 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | No |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
-| Fecha de certificación de SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
-| ¿Qué certificación SOC 2 logró? | |
-| Fecha de certificación de SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| Fecha de certificación de SOC3 más reciente | |
 | ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | No |
 | ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
@@ -130,15 +124,6 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? |  |
-| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? |  |
-| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? |  |
-| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? |  |
-| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
-| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? |  |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? |  |
-| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -153,6 +138,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
 | Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
 | ¿La aplicación almacena alguna credencial en el código? |  |
 | Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
