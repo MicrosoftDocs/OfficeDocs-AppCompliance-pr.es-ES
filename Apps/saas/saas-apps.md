@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/13/2022
+ms.date: 04/14/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: 16c6e754cbf7575de16f7644d9a8ef19f05906ca
-ms.sourcegitcommit: e0ff50c6828c1ea7789f8c507dc62b66d15768d8
+ms.openlocfilehash: 5602abf50fcc801dd4489b30fa1738fa1691b3d7
+ms.sourcegitcommit: aa6c1546afd356990d681ee68ce976cb7faebd02
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64842091"
+ms.locfileid: "64859056"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
@@ -60,6 +60,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [Selector de diapositivas](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Storm Cloud Contact Center Teams Integration](./content-guru-storm-cloud-contact-center-teams-integration.md) | Gurú de contenido | **✓** |  |
 | [Talkdesk Microsoft Teams Connector](./talkdesk-inc-microsoft-teams-connector.md) | Talkdesk, Inc. | **✓** |  |
+| [TeamOrgChart](./teamimprovercom-ltd-teamorgchart.md) | TeamImprover.Com Ltd | **✓** |  |
 | [Template Chooser](./officeatwork-template-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Explorador del selector de plantillas](./officeatwork-template-chooser-browser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Cumplimiento de grabación &amp; de Theta Lake para vídeo de Teams](./theta-lake-recordingcompliance-for-teams-video.md) | Lago Theta | **✓** |  |
