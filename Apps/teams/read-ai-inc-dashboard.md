@@ -1,49 +1,49 @@
 ---
-title: Información de la aplicación para MetaVisitor by Wafer Systems
+title: Información de la aplicación para el panel de lectura de Read AI, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 12/23/2021
+ms.date: 04/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para MetaVisitor, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para el panel de lectura, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro de CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d6ad3c07d653f98914e94bbd21bf18eca7404e00
+ms.openlocfilehash: 56551f8ea5317163d9319c9cd90eb7e41123cda8
 ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881237"
+ms.locfileid: "64881869"
 ---
-# <a name="metavisitor"></a>MetaVisitor
+# <a name="read-dashboard"></a>Panel de lectura
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 23 de noviembre de 2021</p>
+<p>Última actualización del desarrollador: 15 de abril de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/372038ea-2ebb-4da0-836e-ae31318fa8c9" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003588" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/18eb20ae-cd59-48c6-8060-fbe171a917e5" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003896" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Wafer Systems a Microsoft:
+Información proporcionada por Read AI, Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | MetaVisitor |
-| Id. | WA200003588 |
+| Nombre de la aplicación | Panel de lectura |
+| Id. | WA200003896 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Wafer Systems |
-| Sitio web de la empresa | [https://www.wafersystems.com](https://www.wafersystems.com) |
-| Términos de uso de la aplicación | [https://cloud.rd.virsical.cn/service](https://cloud.rd.virsical.cn/service) |
-| Funcionalidad básica de la aplicación | MetaVisitor&#33268;&#21147;&#20110;&#35775;&#23458;&#19994;&#21153;&#22330;&#26223;&#30340;&#20840;&#36807;&#31243;&#25968;&#23383;&#21270;&#12289;&#26234;&#33021;&#21270;&#65292;&#26500;&#24314;&#20113;&#26102;&#20195;&#30340;&#35775;&#23458;&#39044;&#32422;&#65292;&#21161;&#21147;&#39640;&#25928;&#21150;&#20844;&#12290; |
-| Ubicación de la sede central de la empresa | China |
-| Página de información de la aplicación | |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AlibabaCloud |
+| Nombre de la empresa asociada | Lea AI, Inc. |
+| Sitio web de la empresa | [https://read.ai](https://read.ai) |
+| Términos de uso de la aplicación | [https://read.ai/tos](https://read.ai/tos) |
+| Funcionalidad básica de la aplicación | El panel de lectura mide la opinión de las reuniones, la interacción y el rendimiento general. |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://www.read.ai/product](https://www.read.ai/product) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,20 +53,21 @@ Información proporcionada por Wafer Systems a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Wafer Systems ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Read AI, Inc. ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Nombre de usuario, correo electrónico |
+| ¿Qué datos procesa la aplicación? | Datos de perfil de usuario, datos de audio de reunión y datos de vídeo de reunión  |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Nombre de usuario, correo electrónico |
-| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | China |
+| ¿Qué datos se almacenan en las bases de datos? | Datos de perfil de usuario, métricas de usuario agregadas derivadas de datos de audio y vídeo |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
-| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | No se conserva |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
-| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
+| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | Sí |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta los datos de los clientes de Microsoft? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +81,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
@@ -90,7 +91,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
 | ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | Repositorios de código |
+| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
@@ -111,15 +112,17 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
+| ¿Qué certificación SOC 2 logró? | type1 |
+| Fecha de certificación de SOC2 más reciente | 2022-04-14 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
-| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | Sí |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
@@ -133,7 +136,17 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | No |
+| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://read.ai/privacy |
+| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
+| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -156,7 +169,13 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 >|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | aplicación | &#23637;&#31034;&#29992;&#25143;&#20449;&#24687; | [43067020-c59f-49f8-a532-e84ed3bb5f4e](../azure/43067020-c59f-49f8-a532-e84ed3bb5f4e.md) |
+>| Calendars.Read | Delegado | Permitimos a los usuarios vincular sus calendarios con nuestro servicio para habilitar el envío automático de nuestro bot multimedia de Azure. | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| Calls.AccessMedia.All | aplicación | Acceso a datos de audio y vídeo de reuniones para el procesamiento de aplicaciones | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| Calls.JoinGroupCall.All | aplicación | Necesitamos permisos de unión para que nuestro bot multimedia de Azure se una a la reunión de Teams que está en curso | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| User.Read | Delegado | Como parte de nuestro proceso de sso, accedemos a los datos de usuario necesarios solicitando permiso de lectura a sus perfiles de usuario. | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| correo electrónico | Delegado | Se requieren direcciones de correo electrónico como parte del proceso de creación de cuentas  | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| OpenID | Delegado | Permitimos que los usuarios inicien sesión a través del inicio de sesión único. | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
+>| perfil | Delegado | Se requieren datos de perfil de usuario para crear cuentas de usuario (nombre y apellidos, específicamente) | [35e7f5d2-9978-464f-8710-c7a05d5b9fdf](../azure/35e7f5d2-9978-464f-8710-c7a05d5b9fdf.md) |
 
 >Esta aplicación no tiene API adicionales.
 

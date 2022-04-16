@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para Quadra Thankz por Quadrasystems.net
+title: Información de la aplicación para Quadra Thankz by Quadrasystems.net
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,23 +7,23 @@ ms.date: 01/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Quadra Thankz, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Quadra Thankz, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 4d8713bb53ce6c9a0ef7751270838847e8b28d9e
-ms.sourcegitcommit: 58c50d1704196178455927329748485b40dd7880
+ms.openlocfilehash: 92c4469ff41cb069ac1734b89b8b000746635a15
+ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "63539896"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64880607"
 ---
 # <a name="quadra-thankz"></a>Quadra Thankz
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: January 19, 2022</p>
+<p>Última actualización del desarrollador: 19 de enero de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/a013c4a4-0683-4125-8c05-4004c2c3cc6f" target="_blank">Ver en Teams tienda</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003671" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/a013c4a4-0683-4125-8c05-4004c2c3cc6f" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003671" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -34,16 +34,16 @@ Información proporcionada por Quadrasystems.net a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Quadra Thankz |
-| ID | WA200003671 |
-| Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Quadrasystems.net |
-| Sitio web de la compañía | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
+| Id. | WA200003671 |
+| Office 365 clientes admitidos | Microsoft Teams |
+| Nombre de la empresa asociada | Quadrasystems.net |
+| Sitio web de la empresa | [https://www.quadrasystems.net](https://www.quadrasystems.net) |
 | Términos de uso de la aplicación | [https://www.quadrasystems.net/tou](https://www.quadrasystems.net/tou) |
-| Funcionalidad principal de la aplicación | Thankz es la clave para crear empresas más felices. Integrada en la interfaz Microsoft Teams familiar, es una forma totalmente nueva de conectarse con las personas con las que trabaja todos los días.  Thankz es una herramienta para ayudar a las personas a reconocerse de una manera divertida. &#160; Proporciona características enriquecciones de usuario final y de empresa, que permite funciones como tablas de clasificación, presupuesto y controles. Thankz ayuda a los empleados a sentirse conectados, valorados y recompensados. |
-| Ubicación central de la empresa | India |
+| Funcionalidad básica de la aplicación | Gracias es la clave para crear empresas más felices. Basado en la conocida interfaz de Microsoft Teams, es una forma completamente nueva de conectarse con las personas con las que trabaja cada día.  Thankz es una herramienta para ayudar a las personas a reconocerse entre sí de una manera divertida.&#160; Proporciona características enriquecidas para el usuario final y la empresa, que permite funciones como tablas de clasificación, presupuestos y controles. Thankz ayuda a sus empleados a sentirse conectados, apreciados y recompensados. |
+| Ubicación de la sede central de la empresa | India |
 | Página de información de la aplicación | [https://www.quadrasystems.net/what-we-do/intelligent-ip-sol...](https://www.quadrasystems.net/what-we-do/intelligent-ip-solution/thankz) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Otro |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Other |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -51,9 +51,9 @@ Información proporcionada por Quadrasystems.net a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Esta información ha sido proporcionada por Quadrasystems.net acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información la ha proporcionado Quadrasystems.net sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -66,31 +66,30 @@ Esta información ha sido proporcionada por Quadrasystems.net acerca de cómo es
 
 ::: zone pivot="security"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Realizas pruebas de penetración anuales en la aplicación? | No |
+| ¿Realiza pruebas de penetración anuales en la aplicación? | No |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
-| ¿Su entorno usa controles de aplicación o protección antimalware tradicionales? | ApplicationControls |
-| ¿Tiene un proceso establecido para la sangría y las vulnerabilidades de seguridad de clasificación de riesgos? | Sí |
-| ¿Tiene una directiva que rega el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
-| ¿Lleva a cabo actividades de administración de revisiones según sus SLA de directiva de revisión? | No |
-| ¿El entorno tiene algún software o sistemas operativos no compatibles? | No |
-| ¿Realiza el examen trimestral de vulnerabilidades en la aplicación y la infastructure que la admite? | No |
-| ¿Tiene un firewall instalado en el límite de red externa? | No |
-| ¿Tiene un proceso de administración de cambios establecido para revisar y aprobar solicitudes de cambio antes de implementarse en producción? | Sí |
-| ¿Una persona adicional revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
-| ¿Las prácticas de codificación segura tienen en cuenta clases de vulnerabilidad comunes como OWASP Top 10? | No |
-| Autenticación multifactor (MFA) habilitada para: | CodeRepositories |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
+| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
+| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
+| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | No |
+| ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
+| ¿Tiene un firewall instalado en el límite de red externo? | No |
+| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
+| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | No |
+| Autenticación multifactor (MFA) habilitada para: | Repositorios de código |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene implementado el software de detección y prevención de intrusiones (IDPS) en el perímetro del límite de red que admite la aplicación? | N/D |
-| ¿Tienes configurado el registro de eventos en todos los componentes del sistema compatibles con la aplicación? | No |
-| ¿Se revisan todos los registros en una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | |
-| Cuando se detecta un evento de seguridad, ¿se envían automáticamente alertas a un empleado para su triaje? | No |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | No |
+| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | No |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
-| ¿Reporta infracciones de datos de aplicación o servicio a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
+| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -100,26 +99,22 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Cumple la aplicación con la Ley de portabilidad y contabilidad del seguro de salud (HIPAA)? | No aplicable |
-| ¿Cumple la aplicación con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | No aplicable |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No aplicable |
-| Fecha de certificación SOC1 más reciente |   |
+| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
+| ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
-| ¿Qué certificación SOC 2 ha logrado? | |
-| Fecha de certificación SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| Fecha de certificación SOC3 más reciente | |
-| ¿Realiza evaluaciones anuales de PCI DSS en la aplicación y su entorno de soporte? | No aplicable |
-| ¿Está certificada la aplicación Organización internacional para la normalización (ISO 27001) | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27018)? | N/D |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27017)? | No |
-| ¿Cumple la aplicación con la Organización Internacional para la Normalización (ISO 27002)? | No |
-| ¿La aplicación es compatible con el Programa federal de administración de riesgos y autorización (FedRAMP) | No |
-| ¿La aplicación cumple con la Ley de privacidad y derechos educativos de la familia (FERPA)? | N/D |
-| ¿Cumple la aplicación con la Ley de protección de privacidad en línea (COPPA)? | N/D |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
+| ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | No aplicable |
-| ¿La aplicación ha sido certificada por Cloud Security Alliance (CSA Star) | No |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -129,16 +124,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos u obligaciones de privacidad o protección de datos (como CCPA)? | No |
-| ¿La aplicación tiene un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena datos de clientes? | No |
-| ¿Realiza la aplicación la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o similar? | No |
-| ¿La aplicación procesa los datos de los clientes con un propósito secundario que no se describe en el aviso de privacidad (por ejemplo, marketing, análisis)? | No |
-| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
-| ¿La aplicación recopila o procesa datos de menores (es decir, personas menores de 16 años)? | No |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de una persona a petición? |  |
-| ¿La aplicación proporciona a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -148,19 +134,19 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra la aplicación con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración? | Sí |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué bibliotecas o bibliotecas de autenticación usa? |  |
+| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumerar los tipos de directivas admitidas | Todas AAD de acceso condicional  |
-| ¿La aplicación es compatible con la evaluación continua de acceso (CAE) | Sí |
-| ¿La aplicación almacena credenciales en el código? | No |
-| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Enumerar los tipos de directivas admitidas | Todas las directivas de acceso condicional AAD  |
+| ¿La aplicación admite la evaluación continua de acceso (CAE) | Sí |
+| ¿La aplicación almacena alguna credencial en el código? | No |
+| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **Graph permiso**  | **Tipo de permiso** |          **Justificación**          | **Azure AD de aplicación** |
+>|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| User.Read.All | aplicación | Para obtener información del administrador de un usuario  | [5d8eb1a9-2188-4292-86f6-f4964d49e8b3](../azure/5d8eb1a9-2188-4292-86f6-f4964d49e8b3.md) |
 
