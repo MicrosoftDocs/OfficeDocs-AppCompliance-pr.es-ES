@@ -1,50 +1,50 @@
 ---
-title: 'Seguridad y cumplimiento Outlook aplicaciones de Microsoft: todas las aplicaciones'
+title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/30/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones Outlook Microsoft.
+description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 36dc5495db220201abaaa790abab76414b288daa
-ms.sourcegitcommit: 0b61e3c35f05a7f7926b2ccd6049be4fc2a149c9
+ms.openlocfilehash: 1f6970220f01e78baaa2a9ebfcde3c233c373d2e
+ms.sourcegitcommit: 7c4eed407267c4c313909d4f27f46bebf443cb23
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64555383"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65071582"
 ---
-# <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones de Microsoft Outlook
+# <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook
 
-Microsoft trabaja con nuestros partners Microsoft 365 desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre las aplicaciones y los complementos de Microsoft Outlook que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre aplicaciones y complementos de Microsoft Outlook que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [Adobe Sign Add-In para Outlook](./adobe-inc-sign-add-in-for-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Adobe Acrobat Sign para Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Vídeos de Altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendarios de contactos aprobados](./approved-contact-calendars.md) | Contacto aprobado | **✓** |  |
-| [CI-Signature](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
+| [Firma de CI](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
-| [Commuty](./commuty.md) | Commuty | **✓** |  |
+| [Conmutación](./commuty.md) | Conmutación | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Firmas de impresión para Outlook](./impression-signatures-for-outlook.md) | Firmas de impresión | **✓** |  |
-| [Complemento Office 365 Planner de iPlanner para Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [Complemento iPlanner Office 365 Planner para Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iPlanner Pro Office 365](./iglobe-iplanner-pro-office-365.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [Jira Cloud for Outlook (Official)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
-| [LawToolBox Deadlines &amp; Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlinesmatter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
-| [LawToolBox Deadlines and Matter Management - Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
+| [Jira Cloud para Outlook (oficial)](./atlassiancom-jira-cloud-for-outlook-official.md) | Atlassian.com | **✓** |  |
+| [Administración de asuntos de fechas límite de &amp; LawToolBox: Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlinesmatter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
+| [LawToolBox Deadlines and Matter Management : Outlook](./lawtoolboxcom-inc-lawtoolbox-deadlines-and-matter-management-outlook.md) | LawToolBox.com Inc. | **✓** |  |
 | [Mailbutler](./mailbutler.md) | Mailbutler | **✓** |  |
 | [MIPA: su propio asistente personal](./iglobe-mipa-your-own-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [ngDesk](./all-blue-solutions-ngdesk.md) | All Blue Solutions | **✓** |  |
 | [Office2SharePoint para Outlook](./iglobe-office2sharepoint-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [officeatwork: El elegidor de contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [officeatwork: selector de contenido para Outlook](./officeatwork-officeatworkcontent-chooser-for-outlook.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [officeatwork: firma de correo para Outlook](./officeatwork-officeatworkmail-signature-for-outlook.md) | officeatwork | **✓** |  |
 | [OnePlaceMail para Outlook](./oneplace-solutions-oneplacemail-for-outlook.md) | Soluciones de OnePlace | **✓** |  |
-| [Engagement de ventas de alcance para Outlook](./outreach-sales-engagement-for-outlook.md) | Alcance | **✓** |  |
-| [Pexip Uno para Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
+| [Compromiso de ventas de alcance para Outlook](./outreach-sales-engagement-for-outlook.md) | Difusión | **✓** |  |
+| [Pexip One para Outlook](./pexipas-pexip-one-for-outlook.md) | PexipAS | **✓** |  |
 | [Matriz de prioridad: convertir correos electrónicos en tareas](./appfluence-inc-priority-matrix-turn-emails-into-tasks.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Quantum Workplace](./quantum-workplace.md) | Quantum Workplace | **✓** |  |
 | [Salesforce](./salesforcecom-salesforce.md) | salesforce.com | **✓** |  |
-| [Strategy-AI para Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
-| [XQ Secure Email](./xq-message-secure-email.md) | Mensaje XQ | **✓** |  |
+| [Strategy-AI for Outlook](./chinchilla-software-limited-strategy-ai-for-outlook.md) | Chinchilla Software Limited | **✓** |  |
+| [Correo electrónico seguro de XQ](./xq-message-secure-email.md) | Mensaje XQ | **✓** |  |
