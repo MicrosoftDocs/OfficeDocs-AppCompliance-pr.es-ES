@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/25/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 7ca8477fe6d1321f4a93579956e6fd5ab782d049
-ms.sourcegitcommit: 7c4eed407267c4c313909d4f27f46bebf443cb23
+ms.openlocfilehash: 3bf07c7fa1b94ccf3a36bb8bd21ddcae95d42ce0
+ms.sourcegitcommit: b0c1d8160b4e9a27f23a9d723f7e76d38ab12d9e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65071092"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65124779"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -397,6 +397,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ServiceDesk Plus Cloud](./zoho-corporation-private-limited-servicedesk-plus-cloud.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Shared Thread por WNI](./wni-shared-thread-by.md) | WNI | **✓** |  |
 | [SHL](./shl.md) | SHL | **✓** |  |
+| [Cribar](./sift.md) | Cribar | **✓** |  |
 | [SightCall](./sightcall.md) | SightCall | **✓** |  |
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  |
@@ -509,6 +510,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Workbench Intelligence](./temporall-workbench-intelligence.md) | Temporall | **✓** |  |
 | [Workboard](./workboard-inc.md) | Workboard Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Workday](./workday.md) | Workday | **✓** |  |
+| [Workday Peakon Employee Voice](./workday-peakon-employee-voice.md) | Workday | **✓** |  |
 | [WorkInSync](./moveinsync-workinsync.md) | MoveInSync | **✓** |  |
 | [WorkJam Home](./workjam-home.md) | WorkJam | **✓** |  |
 | [WorkJam Schedule](./workjam-schedule.md) | WorkJam | **✓** |  |
