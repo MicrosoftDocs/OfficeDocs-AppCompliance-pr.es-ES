@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para researcHR por KBE&#26666;&#24335;&#20250;&#31038;
+title: Información de la aplicación para researcHR
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para researcHR, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 11d6640b20388c99facf61d5d1a35bd36eadb415
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 44fc42a889181c0337bf6d39c00665fa1b97bd15
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64879651"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226530"
 ---
-# <a name="researchr"></a>researcHR
+# <a name="application-information-for-researchr"></a>Información de la aplicación para researcHR
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por KBE&#26666;&#24335;&#20250;&#31038; a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | researcHR |
-| Id. | WA200002557 |
+| ID | WA200002557 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | KBE&#26666;&#24335;&#20250;&#31038; |
 | Sitio web de la empresa | [https://app.researchr.work/corporate](https://app.researchr.work/corporate) |

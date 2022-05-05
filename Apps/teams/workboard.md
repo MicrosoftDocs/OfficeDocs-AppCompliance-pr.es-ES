@@ -7,22 +7,22 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toda la información de seguridad y cumplimiento disponible para Workboard, sus directivas de tratamiento de datos, su Microsoft Cloud App Security de catálogo de aplicaciones e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Workboard, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: afedc6e44e38273b1b48b8bfccf2fe91ec4e17f3
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63753754"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65222461"
 ---
-# <a name="workboard"></a>Workboard
+# <a name="application-information-for-workboard"></a>Información de la aplicación para Workboard
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Last updated by the developer on: June 4, 2021</p>
+<p>Última actualización del desarrollador: 4 de junio de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/28d0282b-3cd2-49f0-90bb-a016843750c6" target="_blank">Ver en Teams tienda</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104381599" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/28d0282b-3cd2-49f0-90bb-a016843750c6" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381599" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -34,12 +34,12 @@ Información proporcionada por Workboard a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Workboard |
 | ID | WA104381599 |
-| Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | Workboard |
-| Dirección URL del sitio web de partners | [https://www.workboard.com](https://www.workboard.com) |
-| Dirección URL de Teams de información de la aplicación | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
+| Office 365 clientes admitidos | Microsoft Teams |
+| Nombre de la empresa asociada | Workboard |
+| Dirección URL del sitio web del asociado | [https://www.workboard.com](https://www.workboard.com) |
+| Dirección URL de Teams página de información de la aplicación | [https://www.workboard.com/microsoft/](https://www.workboard.com/microsoft/) |
 | Dirección URL de la directiva de privacidad | [https://www.workboard.com/license/privacy-policy.html](https://www.workboard.com/license/privacy-policy.html) |
-| DIRECCIÓN URL de términos de uso | [https://www.workboard.com/license/terms_of_use_v1.php](https://www.workboard.com/license/terms_of_use_v1.php) |
+| Dirección URL de los términos de uso | [https://www.workboard.com/license/terms_of_use_v1.php](https://www.workboard.com/license/terms_of_use_v1.php) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,49 +47,49 @@ Información proporcionada por Workboard a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Workboard ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Workboard ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/ aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado o aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | delegado | dirección de correo electrónico y los identificadores de los usuarios.  Se usa para asignar el usuario al identificador de usuario de WorkBoard | WorkBoard solo almacena la identidad del usuario en sus bases de datos | [User.Read](https://docs.microsoft.com/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | Delegado | dirección de correo electrónico y los identificadores de los usuarios.  Se usa para asignar el usuario al identificador de usuario de WorkBoard | WorkBoard solo almacena la identidad del usuario en sus bases de datos. | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellidos, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agregue. ¿Esta aplicación hace uso de esta funcionalidad?
 
->| **¿Justificación para acceder a EUII?**  | **¿EUII se almacena en bases de datos?** | **¿Justificación para almacenar EUII?** |
+>| **¿Justificación para acceder a la EUII?**  | **¿Se almacena EUII en bases de datos?** | **¿Justificación para almacenar EUII?** |
 >|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| El identificador de usuario se usa para las notificaciones proactivas enviadas a Teams por WorkBord | Id. y dirección de correo electrónico del usuario | Se usa para asignar el usuario al identificador de usuario de WorkBoard |
+>| El identificador de usuario se usa para las notificaciones proactivas enviadas a Teams por WorkBord | Id. y dirección de correo electrónico de usuario | Se usa para asignar el usuario al identificador de usuario de WorkBoard |
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->No aparecen OII ni EUII en los registros o telemetría de aplicaciones.
+>No aparece ninguna OII o EUII en los registros o telemetría de las aplicaciones.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->WorkBoard no almacena datos de la organización en sistemas de partners
+>WorkBoard no almacena datos de la organización en los sistemas del asociado
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están involucrados los seres humanos en la revisión o el análisis de datos de información de identificación organizativa (OII) recopilados o almacenados por esta aplicación?
 
 >Sí
 
@@ -99,11 +99,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29004' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/29004' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/29004" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/29004" target="_blank">Ver en una nueva pestaña</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -113,24 +113,24 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Workboard ha proporcionado esta información sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Workboard ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | WorkBoard ha implementado sus propias directivas de acceso que se aplican dentro de la aplicación.  La organización, el equipo y la identidad del usuario se usan para determinar los derechos de acceso. |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Posee todo el identificador de recursos unificado (URI) de redirección registrado para la aplicación? | Sí |
 | ¿Expone la aplicación alguna API web? | Sí |
-| ¿El modelo de permisos solo permite que las llamadas se puedan realizar correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿El modelo de permisos solo permite que las llamadas se realicen correctamente si la aplicación cliente recibe el consentimiento adecuado? | Sí |
+| ¿La aplicación usa las API de versión preliminar? | No |
+| ¿La aplicación usa las API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

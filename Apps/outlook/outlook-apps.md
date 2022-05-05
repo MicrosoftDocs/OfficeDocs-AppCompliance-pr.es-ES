@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook: todas las
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/26/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 1f6970220f01e78baaa2a9ebfcde3c233c373d2e
-ms.sourcegitcommit: 7c4eed407267c4c313909d4f27f46bebf443cb23
+ms.openlocfilehash: b15ff360a647450e51e701740eef566523442232
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65071582"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228164"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook
 
@@ -27,6 +27,7 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 | [Firma de CI](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Conmutación](./commuty.md) | Conmutación | **✓** |  |
+| [Reactor de correo electrónico](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
 | [Firmas de impresión para Outlook](./impression-signatures-for-outlook.md) | Firmas de impresión | **✓** |  |
 | [Complemento iPlanner Office 365 Planner para Outlook](./iglobe-iplanner-office-365-planner-add-in-for-outlook.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |

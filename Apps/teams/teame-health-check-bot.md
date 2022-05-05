@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TeaMe Health Check Bot, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 7722e3da011f6e230e94cb4921a244c14505b765
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 35f980769f98cabac83f0c260789a4467c2911e5
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64875307"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226504"
 ---
-# <a name="teame-health-check-bot"></a>TeaMe Health Check Bot
+# <a name="application-information-for-teame-health-check-bot"></a>Información de la aplicación para teame health check bot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | TeaMe Health Check Bot |
-| Id. | WA200002779 |
+| ID | WA200002779 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
 | Sitio web de la empresa | [https://www.cdc-jp.com](https://www.cdc-jp.com) |

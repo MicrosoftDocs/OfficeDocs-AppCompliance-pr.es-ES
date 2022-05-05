@@ -80,6 +80,8 @@ items:
         href: outlook/codetwo-for-outlook.md
       - name: Conmutación
         href: outlook/commuty.md
+      - name: Reactor de correo electrónico
+        href: outlook/flow-simulation-ltd-email-reactor.md
       - name: Evernote
         href: outlook/evernote.md
       - name: Firmas de impresión para Outlook
@@ -127,6 +129,8 @@ items:
     items:
       - name: Adobe Acrobat Sign para Microsoft Word y PowerPoint
         href: powerpoint/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
+      - name: Tiempo de interrupción
+        href: powerpoint/flow-simulation-ltd-breaktime.md
       - name: Automatización de documentos de Excel a Word
         href: powerpoint/analysisplace-excel-to-word-document-automation.md
       - name: 'Editor pdf de Foxit para Microsoft Word, Excel y PowerPoint'
@@ -974,8 +978,6 @@ items:
         href: teams/cultify-lda-skoach.md
       - name: SkyPoint Cloud
         href: teams/skypoint-cloud-inc.md
-      - name: Slido
-        href: teams/slido.md
       - name: Smarp
         href: teams/smarp.md
       - name: Smart Connect for Jira
@@ -1086,7 +1088,7 @@ items:
         href: teams/teamschamp.md
       - name: TeamSticker by Communitio
         href: teams/communitio-corporation-teamsticker-by.md
-      - name: Trabajo en equipo
+      - name: Teamwork
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1223,6 +1225,8 @@ items:
         href: word/adobe-inc-acrobat-sign-for-microsoft-word-and-powerpoint.md
       - name: Complemento AuditBoard
         href: word/auditboard-inc-add-in.md
+      - name: BriefCatch
+        href: word/briefcatch-llc.md
       - name: Citación
         href: word/citasion-llc.md
       - name: 'CocoFax: envío de fax fácil y seguro'

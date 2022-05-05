@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para el bot de comprobación de estado de TeaMe &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531;
+title: Información de la aplicación para teame health check bot
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,23 +7,23 @@ ms.date: 05/26/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para el Bot de comprobación de mantenimiento de TeaMe, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para TeaMe Health Check Bot, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 840aae9bb34679f6fc53bea8d823bcf0be1e28b2
-ms.sourcegitcommit: 9199fd569c5e7c5dd338abd87428c94798a22352
+ms.openlocfilehash: c49a15f912605040201459f745038d2c6af4aca0
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63747826"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225594"
 ---
 # <a name="teame-health-check-bot"></a>TeaMe Health Check Bot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: May 26, 2021</p>
+<p>Última actualización del desarrollador: 26 de mayo de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/7a9603e3-0647-4f2c-a9a9-13ab355423c1" target="_blank">Ver en Teams tienda</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002779" target="_blank">Ver en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7a9603e3-0647-4f2c-a9a9-13ab355423c1" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200002779" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -35,11 +35,11 @@ Información proporcionada por &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&
 |:----------------|:-------------|
 | Nombre de la aplicación | TeaMe Health Check Bot |
 | ID | WA200002779 |
-| Office 365 clientes compatibles | Microsoft Teams |
-| Nombre de la compañía asociada | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
-| Dirección URL del sitio web de partners | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
+| Office 365 clientes admitidos | Microsoft Teams |
+| Nombre de la empresa asociada | &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; |
+| Dirección URL del sitio web del asociado | [https://www.cdc-jp.com](https://www.cdc-jp.com) |
 | Dirección URL de la directiva de privacidad | [https://www.cdc-jp.com/health_check_privacy](https://www.cdc-jp.com/health_check_privacy) |
-| DIRECCIÓN URL de términos de uso | [https://www.cdc-jp.com/health_check_terms](https://www.cdc-jp.com/health_check_terms) |
+| Dirección URL de los términos de uso | [https://www.cdc-jp.com/health_check_terms](https://www.cdc-jp.com/health_check_terms) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -47,45 +47,45 @@ Información proporcionada por &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Esta información ha sido proporcionada por &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Esta información la ha proporcionado &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](https://docs.microsoft.com/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
 >Esta aplicación no usa Microsoft Graph.
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios Microsoft.
 
 #### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
 
-Si esta aplicación contiene un bot o una extensión de mensajería, puede tener acceso a información de identificación del usuario final (EUII): la lista (nombre, apellido, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo o chat al que se agrega. ¿Esta aplicación usa esta funcionalidad?
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellidos, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agregue. ¿Esta aplicación hace uso de esta funcionalidad?
 
->No se tiene acceso a EUII.
+>No se accede a ninguna EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->Entrega de datos: Id. de la organización de los usuarios, id. de usuario (EUII) y respuestas de los usuarios a las preguntas; Estos datos se eliminarán cuando un usuario solicite eliminar sus datos.
+>Entrega de datos: id. de organización de los usuarios, id. de usuario (EUII) y respuestas de los usuarios a las preguntas; Estos datos se eliminarán cuando un usuario solicite eliminar sus datos.
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Almacenar en nuestra base de datos compatible con ISMS/ISO27001/27002; el administrador del sistema eliminará los datos de los asociados cuando recibamos una solicitud para eliminar los datos. 
+>Almacenar en nuestra base de datos conforme a ISMS/ISO27001/27002; el administrador del sistema eliminará los datos de los asociados cuando recibamos una solicitud para eliminar los datos. 
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están involucrados los seres humanos en la revisión o el análisis de datos de información de identificación organizativa (OII) recopilados o almacenados por esta aplicación?
 
 >No
 
@@ -95,11 +95,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165' frameborder='no' style='width: 100%;'></iframe>
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/38165" target="_blank">Ver en una nueva pestaña</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -109,7 +109,7 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-Esta información ha sido proporcionada por &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sobre cómo esta aplicación administra la autenticación, autorización, procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+Esta información la ha proporcionado &#26666;&#24335;&#20250;&#31038;&#12461;&#12515;&#12522;&#12450;&#12487;&#12505;&#12525;&#12483;&#12503;&#12513;&#12531;&#12488;&#12539;&#12450;&#12531;&#12489;&#12539;&#12463;&#12522;&#12456;&#12452;&#12471;&#12519;&#12531; sobre cómo controla esta aplicación la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|

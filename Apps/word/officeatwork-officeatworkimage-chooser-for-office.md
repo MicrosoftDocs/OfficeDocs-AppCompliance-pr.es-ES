@@ -1,5 +1,5 @@
 ---
-title: Información de aplicación de Word para officeatwork | Selector de imágenes para Office por officeatwork
+title: Información de la aplicación para el selector de imágenes para Office por officeatwork
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para officeatwork | Image Chooser para Office, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 057c8ffd2de8993a8dafc6e2df61525c86528bf2
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 324478f763dd08190d728afe7a7005ca26d72b5f
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784399"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65221041"
 ---
-# <a name="word--officeatwork--image-chooser-for-office"></a>Word | officeatwork | Selector de imágenes para Office
+# <a name="application-information-for-officeatwork--image-chooser-for-office"></a>Información de la aplicación para officeatwork | Selector de imágenes para Office
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Última actualización del desarrollador: 24 de enero de 2022</p>
@@ -31,13 +31,13 @@ Información proporcionada por officeatwork a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | selector de imágenes de officeatwork \| para Office |
+| Nombre de la aplicación | officeatwork: selector de imágenes para Office |
 | ID | WA200002683 |
 | Office 365 clientes admitidos | Excel en iPad, Excel 2016 o posterior en Mac, Excel Service Pack 1 de 2013 o posterior en Windows, Excel en la Web, Word en iPad, Word 2016 o posterior en Mac, Word en la Web , Word 2013 Service Pack 1 o posterior en Windows, PowerPoint en iPad, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2013 Service Pack 1 o posterior en Windows, OneNote en la Web |
 | Nombre de la empresa asociada | officeatwork |
 | Sitio web de la empresa | [https://www.officeatwork.com](https://www.officeatwork.com) |
 | Términos de uso de la aplicación | [https://links.officeatwork.com/officeatwork-licenseterms](https://links.officeatwork.com/officeatwork-licenseterms) |
-| Funcionalidad básica de la aplicación | Image Bank para M365 \| Acceda a las imágenes compartidas centralmente en Word, Excel, PowerPoint y otras aplicaciones |
+| Funcionalidad básica de la aplicación | Banco de imágenes para M365: acceso a las imágenes compartidas centralmente en Word, Excel, PowerPoint y otras aplicaciones |
 | Ubicación de la sede central de la empresa | Suiza |
 | Página de información de la aplicación | [https://links.officeatwork.com/officeatwork-apps](https://links.officeatwork.com/officeatwork-apps) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -56,7 +56,7 @@ Officeatwork ha proporcionado esta información sobre cómo esta aplicación rec
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Microsoft.Ingestion.Attestation.DocsPublishingCommon.AppInfos.DataProcess |
+| ¿Qué datos procesa la aplicación? | Recopilado: Id. de inquilino de Microsoft, id. de usuario Azure AD objeto; El procesamiento de datos depende de los permisos concedidos y tiene lugar en el lado cliente. Solo los datos necesarios para los permisos y el flujo de inicio de sesión se procesan mediante servicios de Azure de PaaS temporales controlados por officeatwork, sin servidor y de confianza. |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
@@ -86,11 +86,11 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | N/D |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
-| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí|
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
 | Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
-| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección?| |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
+| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -103,12 +103,8 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
-| Fecha de certificación de SOC1 más reciente |   |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
-| ¿Qué certificación SOC 2 logró? | |
-| Fecha de certificación de SOC2 más reciente | |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| Fecha de certificación de SOC3 más reciente | |
 | ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
 | ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |

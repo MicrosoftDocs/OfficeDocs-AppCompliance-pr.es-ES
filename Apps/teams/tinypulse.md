@@ -1,46 +1,46 @@
 ---
-title: Información de la aplicación para Mybys by Facilis
+title: Información de la aplicación para TINYpulse por TINYpulse
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/19/2021
+ms.date: 03/18/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Mybys, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para TINYpulse, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: a3211798919d7594677d3e0490d3523ff52b7230
+ms.openlocfilehash: cb382f9ca989cd97f57d9ad72b8d60da1d245634
 ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/05/2022
-ms.locfileid: "65221111"
+ms.locfileid: "65222481"
 ---
-# <a name="mybys"></a>Mybys
+# <a name="tinypulse"></a>TINYpulse
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 18 de marzo de 2021</p>
+<p>Última actualización del desarrollador: 10 de marzo de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/e6b5cc1f-1bf1-4b32-ad77-fc7e230e2a68" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002605" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/1950b3dc-66fc-4c5f-bbbe-e411ad91a49f" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381729" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Facilis a Microsoft:
+Información proporcionada por TINYpulse a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Mybys |
-| ID | WA200002605 |
+| Nombre de la aplicación | TINYpulse |
+| ID | WA104381729 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Facilis |
-| Dirección URL del sitio web del asociado | [https://facilisglobal.com](https://facilisglobal.com) |
-| Dirección URL de Teams página de información de la aplicación | [https://facilisglobal.com/products/microsoft-teams](https://facilisglobal.com/products/microsoft-teams) |
-| Dirección URL de la directiva de privacidad | [https://facilisglobal.com/privacy-policy](https://facilisglobal.com/privacy-policy) |
-| Dirección URL de los términos de uso | [https://facilisglobal.com/terms-conditions](https://facilisglobal.com/terms-conditions) |
+| Nombre de la empresa asociada | TINYpulse |
+| Dirección URL del sitio web del asociado | [https://www.tinypulse.com](https://www.tinypulse.com) |
+| Dirección URL de Teams página de información de la aplicación | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
+| Dirección URL de la directiva de privacidad | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
+| Dirección URL de los términos de uso | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -50,7 +50,7 @@ Información proporcionada por Facilis a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Facilis ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+TINYpulse ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
@@ -69,9 +69,7 @@ Si la aplicación transfiere o comparte datos de la organización con servicios 
 
 Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellidos, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agregue. ¿Esta aplicación hace uso de esta funcionalidad?
 
->| **¿Justificación para acceder a la EUII?**  | **¿Se almacena EUII en bases de datos?** | **¿Justificación para almacenar EUII?** |
->|:---------------------------------------|:-----------------------------------|:------------------------------------|
->| Necesitamos recuperar el nombre de la persona. | No |  |
+>No se accede a ninguna EUII.
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
@@ -84,7 +82,7 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 ¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Guardamos información de configuración básica en el almacenamiento local.
+>no compartimos nuestros datos con el sistema del asociado
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
@@ -100,9 +98,9 @@ Si esta aplicación contiene un bot o una extensión de mensajería, puede acced
 
 A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36915' frameborder='no'></iframe>
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36915" target="_blank">Ver en una nueva pestaña</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569" target="_blank">Ver en una nueva pestaña</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,11 +110,23 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ### <a name="identity-information"></a>Información de identidad
 
-Facilis ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+TINYpulse ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | No |
+| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft?  | Sí |
+| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
+| ¿La aplicación admite multiinquilino? | Sí |
+| ¿La aplicación tiene un cliente confidencial? | No |
+| ¿Posee todo el identificador de recursos unificado (URI) de redirección registrado para la aplicación? | Sí |
+| Para la aplicación, ¿qué evita usar? | - URI de redireccionamiento comodín,<br/>- Flow implícita de OAuth2, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña del propietario de recursos (ROPC) |
+| ¿Expone la aplicación alguna API web? | No |
+| ¿La aplicación usa las API de versión preliminar? | No |
+| ¿La aplicación usa las API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
