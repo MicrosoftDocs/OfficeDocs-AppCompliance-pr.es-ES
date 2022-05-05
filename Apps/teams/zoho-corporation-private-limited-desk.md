@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Zoho Desk, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: fccf55f821edb3bfaa6e63b9982da8c67255a305
-ms.sourcegitcommit: b1e50c421eeb1b54e99180634217d3df35a4897f
+ms.openlocfilehash: 6386c25acea352558965af02c99a49cd79baff6b
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64957686"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228014"
 ---
 # <a name="zoho-desk"></a>Zoho Desk
 
@@ -22,8 +22,8 @@ ms.locfileid: "64957686"
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Última actualización del desarrollador: 20 de octubre de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA104382044" target="_blank">Vista en AppSource</a>
+* [Visualización en Teams almacén](https://teams.microsoft.com/l/app/091ec948-c0ee-4d56-aa9e-51c3d8316a9c)
+* [Vista en AppSource](https://appsource.microsoft.com/product/office/WA104382044)
 
 ::: zone pivot="general"
 
@@ -34,7 +34,7 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Zoho Desk |
-| Id. | WA104382044 |
+| ID | WA104382044 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | Zoho Corporation Private Limited |
 | Sitio web de la empresa | [https://www.zoho.com](https://www.zoho.com) |
@@ -53,6 +53,46 @@ Información proporcionada por Zoho Corporation Private Limited a Microsoft:
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
 Zoho Corporation Private Limited ha proporcionado esta información sobre cómo recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
+
+Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
+
+>| **Permiso**  | **Tipo de permiso (delegado o aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
+>|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
+>| Files.Read | Delegado |  | Leer archivos de usuario. |  |
+>| Files.Read.All | Delegado |  | Lee todos los archivos a los que el usuario puede acceder. |  |
+>| User.Read | Delegado |  | Inicie sesión y lea el perfil de usuario. |  |
+>| User.ReadBasic.All | Delegado |  | Lee los perfiles básicos de todos los usuarios. |  |
+>| correo electrónico | Delegado |  | Ver la dirección de correo electrónico del usuario. |  |
+>| offline_access | Delegado |  | Mantenga el acceso a los datos a los que le ha dado acceso. |  |
+>| perfil | Delegado |  | Ver el perfil básico del usuario. |  |
+
+
+#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
+
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
+
+>No se usan servicios Microsoft.
+
+#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
+
+Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellidos, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agregue. ¿Esta aplicación hace uso de esta funcionalidad?
+
+>No se accede a ninguna EUII.
+
+
+#### <a name="telemetry-data"></a>Datos de telemetría
+
+¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
+
+>No
+
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
+
+¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+
+>1)Hay una opción en la interfaz de usuario para eliminar las entidades, administradores y agentes dentro de Zoho desk que tienen opciones de eliminación pueden realizar esto. 2) También tenemos opciones para exportar con las que el administrador puede exportar y lograr para su propósito.  3) Mantenemos la auditoría en el back-end, tras la solicitud del cliente se puede proporcionar esta información.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -75,29 +115,32 @@ Zoho Corporation Private Limited ha proporcionado esta información sobre cómo 
 
 A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-| **Information** | **Respuesta** |
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308' frameborder='no'></iframe>
+
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/28308" target="_blank">Ver en una nueva</a> 
+| **pestañaInformación** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
+| ¿Tiene la aplicación un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Usa su entorno la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
-| ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
+| ¿Su entorno tiene algún software o sistema operativo no admitido? | No |
 | ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | Sí |
-| ¿Tiene un firewall instalado en el límite de red externo? | Sí |
+| ¿Tiene un firewall instalado en el límite de red externa? | Sí |
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
-| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
-| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
+| ¿Es una persona adicional que revisa y aprueba todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Tienen en cuenta las prácticas de codificación seguras clases de vulnerabilidades comunes, como OWASP Top 10? | Sí |
+| Multifactor Authentication (MFA) habilitado para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
-| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
-| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí Cuando |
+| se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
-| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
+| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción dentro de las 72 horas posteriores a la detección? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

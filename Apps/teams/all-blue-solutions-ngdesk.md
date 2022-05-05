@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para ngDesk by All Blue Solutions
+title: Introducción a ngDesk
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ngDesk, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 86035049f82cb871c787951e5324df03a2657dc6
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 75fb383f46bdfe42d8d5ee860296b0f73b076af1
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876507"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228604"
 ---
-# <a name="ngdesk"></a>ngDesk
+# <a name="ngdesk-overview"></a>Introducción a ngDesk
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por All Blue Solutions para Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ngDesk |
-| Id. | WA200002968 |
+| ID | WA200002968 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | All Blue Solutions |
 | Sitio web de la empresa | [https://ngdesk.com](https://ngdesk.com) |

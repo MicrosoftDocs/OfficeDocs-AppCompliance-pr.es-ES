@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para el recordatorio de mensajes por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089;
+title: Información de la aplicación para el recordatorio de mensajes
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Message Reminder, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ae809fd20684fc633e0afc6cad57089036599287
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 51b329313225954a6b0c0267a27633a0222b766a
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880157"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65229024"
 ---
-# <a name="message-reminder"></a>Message Reminder
+# <a name="application-information-for-message-reminder"></a>Información de la aplicación para message reminder
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#108
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Message Reminder |
-| Id. | WA200001875 |
+| ID | WA200001875 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | &#1054;&#1054;&#1054; &#1040;&#1081;-&#1057;&#1080;&#1089; &#1051;&#1072;&#1073;&#1089; |
 | Sitio web de la empresa | [https://systemz.io](https://systemz.io) |

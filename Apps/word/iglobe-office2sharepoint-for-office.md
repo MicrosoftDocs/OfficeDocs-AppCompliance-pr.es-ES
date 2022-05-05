@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para Office2SharePoint para Office por iGlobe
+title: Información de la aplicación para Office2SharePoint para Office
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint para Office, sus directivas de control de datos, su Microsoft Cloud App Security información de catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d7aeb528b3eceb54b0e9404ff02a73b79ecf1531
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: cabeddd7599c486300502ec8ac0ddac4f6faa4b1
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880847"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228044"
 ---
-# <a name="office2sharepoint-for-office"></a>Office2SharePoint para Office
+# <a name="application-information-for-office2sharepoint-for-office-by-iglobe"></a>Información de la aplicación para Office2SharePoint para Office por iGlobe
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
 <p>Última actualización del desarrollador: 16 de agosto de 2021</p>
@@ -32,7 +32,7 @@ Información proporcionada por iGlobe a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Office2SharePoint para Office |
-| Id. | WA104381787 |
+| ID | WA104381787 |
 | Office 365 clientes admitidos | Excel 2016 o posterior en Mac, Excel 2016 o versiones posteriores en Windows, Excel en la Web, Word 2016 o versiones posteriores en Mac, Word en la Web, Word 2016 o versiones posteriores en Windows, PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2016 o versiones posteriores en Windows |
 | Nombre de la empresa asociada | iGlobe |
 | Sitio web de la empresa | [https://www.iglobecrm.com](https://www.iglobecrm.com) |

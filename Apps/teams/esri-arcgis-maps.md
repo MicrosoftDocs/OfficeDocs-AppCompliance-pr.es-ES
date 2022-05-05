@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para ArcGIS Mapas por Esri
+title: Información de la aplicación de ArcGis Mapas
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ArcGIS Mapas, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 513945c9f9a93e056e47f4cfc0e5bdc00ebce213
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 5b4cef7b39b6f3ac79f1a48a5c4c9ce8a61b2d3b
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64880977"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228018"
 ---
-# <a name="arcgis-maps"></a>ArcGIS Maps
+# <a name="arcgis-maps-application-information"></a>Información de la aplicación de ArcGIS Mapas
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por Esri a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | ArcGIS Maps |
-| Id. | WA200002859 |
+| ID | WA200002859 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | Esri |
 | Sitio web de la empresa | [https://www.esri.com](https://www.esri.com) |

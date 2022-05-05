@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Adobe Acrobat, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 0676fce7e7bd024e1db5d898e35dfc272bb2aa1c
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 7328d06302dd7e932ca75c1591b0fa661bec2cd7
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64876517"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65229164"
 ---
 # <a name="adobe-acrobat"></a>Adobe Acrobat
 
@@ -34,7 +34,7 @@ Información proporcionada por Adobe Systems Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Adobe Acrobat |
-| Id. | WA200002564 |
+| ID | WA200002564 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | Adobe Systems Inc. |
 | Sitio web de la empresa | [https://www.adobe.com](https://www.adobe.com) |
@@ -170,12 +170,12 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 >|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Files.ReadWrite.All | Delegado | Para poder enumerar y navegar por los archivos y carpetas recientes, OneDrive y Teams canales del usuario. Permitimos a los usuarios acceder a estos archivos, usarlos para realizar operaciones en ellos y guardar archivos en su almacenamiento. | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| Team.ReadBasic.All | Delegado | Leer los nombres y descripciones de los equipos | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| User.Read | Delegado | Iniciar sesión y leer el perfil del usuario | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| correo electrónico | Delegado | Ver la dirección de correo electrónico de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| offline_access | Delegado | mantener el acceso a los datos a los que le ha dado acceso | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| OpenID | Delegado | Inicio de sesión de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
->| perfil | Delegado | ver el perfil básico de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](../azure/ecff17cf-5629-49ba-a629-7f575496aeac.md) |
+>| Team.ReadBasic.All | Delegado | Leer los nombres y descripciones de los equipos | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| User.Read | Delegado | Iniciar sesión y leer el perfil del usuario | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| correo electrónico | Delegado | Ver la dirección de correo electrónico de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| offline_access | Delegado | mantener el acceso a los datos a los que le ha dado acceso | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| OpenID | Delegado | Inicio de sesión de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
+>| perfil | Delegado | ver el perfil básico de los usuarios | [ecff17cf-5629-49ba-a629-7f575496aeac](/microsoft-365-app-certification/azure/ecff17cf-5629-49ba-a629-7f575496aeac) |
 
 >Esta aplicación no tiene API adicionales.
 

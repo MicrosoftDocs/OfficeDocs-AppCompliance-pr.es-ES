@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para Sobol por ConsenSys AG&#8217;s Sobol
+title: Información general de Sobol
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Sobol, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: c82d7a712e2515bba55eaf902f9961f4469ad278
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: d2ab71f8efd3b88e84cda802a2d84d4fc465696d
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878332"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65228564"
 ---
-# <a name="sobol"></a>Sobol
+# <a name="sobol-overview"></a>Información general de Sobol
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -34,7 +34,7 @@ Información proporcionada por ConsenSys AG&#8217;de Sobol a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Sobol |
-| Id. | WA200002999 |
+| ID | WA200002999 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | ConsenSys AG&#8217;s Sobol |
 | Sitio web de la empresa | [https://sobol.io](https://sobol.io) |
