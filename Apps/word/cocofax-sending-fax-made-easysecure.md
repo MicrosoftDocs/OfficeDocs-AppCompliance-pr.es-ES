@@ -1,5 +1,5 @@
 ---
-title: 'Información de la aplicación para CocoFax: envío de fax fácil &amp; de proteger por &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496;'
+title: 'Información de la aplicación para CocoFax: envío de faxes fáciles &amp; de proteger'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -9,14 +9,14 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para CocoFax - Sending Fax Made Easy &amp; Secure, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 267eff5fbfae3a42f5b214c3cad648d5dc1f947d
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 65403be58e39772911f0bb97dfaa1101d00c0877
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877597"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65226074"
 ---
-# <a name="cocofax---sending-fax-made-easy-amp-secure"></a>CocoFax- Envío de fax fácil &amp; de proteger
+# <a name="application-information-for-cocofax"></a>Información de la aplicación para CocoFax
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
@@ -33,7 +33,7 @@ Información proporcionada por &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | CocoFax- Envío de fax fácil &amp; de proteger |
-| Id. | WA200002263 |
+| ID | WA200002263 |
 | Office 365 clientes admitidos | Word 2016 o posterior en Mac, Word en la Web, Word 2013 o posterior en Windows |
 | Nombre de la empresa asociada | &#28145;&#22323;&#23545;&#20113;&#31185;&#25216;&#26377;&#38480;&#20844;&#21496; |
 | Sitio web de la empresa | [https://cocofax.com](https://cocofax.com) |

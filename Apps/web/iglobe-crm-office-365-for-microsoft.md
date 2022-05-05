@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para iGlobe CRM Office 365 para Microsoft 365 por iGlobe
+title: Información de la aplicación para iGlobe CRM Office 365 para Microsoft 365
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para iGlobe CRM Office 365 para Microsoft 365, sus directivas de tratamiento de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para iGlobe CRM Office 365 para Microsoft 365, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 0861d57c83a89a00b2948f760994f0def6681d03
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: 020e2ce913d50c72c401b4d08bc7810173faaa28
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64626942"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225032"
 ---
-# <a name="iglobe-crm-office-365-for-microsoft-365"></a>IGlobe CRM Office 365 para Microsoft 365
+# <a name="application-information-for-iglobe-crm-office-365-for-microsoft-365"></a>Información de la aplicación para iGlobe CRM Office 365 para Microsoft 365
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 22, 2021</p>
+<p>Última actualización del desarrollador: 22 de junio de 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/web-apps/17859280.iglobecrmoffice365" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/17859280.iglobecrmoffice365" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -31,12 +31,12 @@ Información proporcionada por iGlobe a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | IGlobe CRM Office 365 para Microsoft 365 |
+| Nombre de la aplicación | iGlobe CRM Office 365 para Microsoft 365 |
 | ID | 17859280.iglobecrmoffice365 |
-| Nombre de la compañía asociada | iGlobe |
-| Dirección URL del sitio web de partners | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
+| Nombre de la empresa asociada | iGlobe |
+| Dirección URL del sitio web del asociado | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Dirección URL de la directiva de privacidad | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
-| DIRECCIÓN URL de términos de uso | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
+| Dirección URL de los términos de uso | [https://iglobecrm.com/content/iglobe-crm-office-365-end-use...](https://iglobecrm.com/content/iglobe-crm-office-365-end-user-license-agreement) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -44,77 +44,77 @@ Información proporcionada por iGlobe a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+iGlobe ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Calendars.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Tener acceso a los calendarios de usuario al retirar un informe de reunión del canlendar en iGlobe | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Contacts.ReadWrite | delegado | Directory.AccessAsUser.All | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Files.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos y datos en SharePoint listas. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer, Actualizar, Crear tareas panner, Leer los archivos recientes y compartidos de los usuarios, Para obtener una SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. Integración con iGlobe CRM Office 365 | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Mail.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Svae el eamil a iGlobe CRM y obtener informatiopn de iGlobe a un nuevo e-amil | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Manage.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear, editar y eliminar elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Leer elementos en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Sites.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Editar y eliminar elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| Tasks.ReadWrite | delegado | No se almacenan datos en bases de datos de aplicaciones. | Crear tarea de planner desde iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener información sobre el CRM de iGlobe para el usuario de speficic | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Calendars.ReadWrite | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Tener acceso a calendarios de usuario al empapar un informe de reunión desde el canlendar en a iGlobe | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Contacts.ReadWrite | Delegado | Directory.AccessAsUser.All | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Directory.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Directory.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Files.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Leer, actualizar, crear tareas panner, leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos y datos en listas de SharePoint. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Group.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Leer, actualizar, crear tareas panner, leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en listas de SharePoint. | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Group.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Leer, actualizar, crear tareas panner, leer los archivos recientes y compartidos de los usuarios, Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en listas de SharePoint. Integración con iGlobe CRM Office 365 | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Mail.ReadWrite | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Svae the eamil to iGlobe CRM y get informatiopn from iGlobe to a new e-amil | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Sites.Manage.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Creación, edición y eliminación de elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Sites.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Leer elementos en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Sites.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Edición y eliminación de elementos y listas en iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| Tasks.ReadWrite | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Creación de una tarea de Planner desde iGlobe CRM | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
+>| User.Read | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para obtener información sobre iGlobe CRM para el usuario speficic | 0bb1641a-3b3b-47f7-a11e-01279d92abfb |
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
+#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos mediante otras API de Microsoft
 
-Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
+Las aplicaciones y complementos basados en Microsoft 365 pueden usar API de Microsoft adicionales distintas de Microsoft Graph para recopilar o procesar información de identificación de la organización (OII). Enumere las API de Microsoft distintas de Microsoft Graph que use esta aplicación.
 
->| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
+>| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para la recopilación de OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
 >| Exchange: Calendars.ReadWrite.All | No |  |  |  |  |
->| Exchange- Mail.Read.All | No |  |  |  |  |
->| Exchange: Contacts.Read | No |  |  |  |  |
->| Exchange: EWS. AccessAsUser.All | No |  |  |  |  |
->| Exchange- Tasks.ReadWrite | No |  |  |  |  |
+>| Exchange - Mail.Read.All | No |  |  |  |  |
+>| Exchange - Contacts.Read | No |  |  |  |  |
+>| Exchange - EWS. AccessAsUser.All | No |  |  |  |  |
+>| Exchange: Tasks.ReadWrite | No |  |  |  |  |
 >| SharePoint: AllSites.Manage | No |  |  |  |  |
 >| SharePoint: AllSites.Read | No |  |  |  |  |
 >| SharePoint -AllSites.Write | No |  |  |  |  |
 >| SharePoint: MyFiles.Write | No |  |  |  |  |
 >| SharePoint: Sites.Manage.All | No |  |  |  |  |
->| SharePoint- Sites.Read.All | No |  |  |  |  |
->| SharePoint- Sites.ReadWrite.All | No |  |  |  |  |
+>| SharePoint: Sites.Read.All | No |  |  |  |  |
+>| SharePoint: Sites.ReadWrite.All | No |  |  |  |  |
 >| SharePoint- Sites.Search.All | No |  |  |  |  |
->| SharePoint- TermStore.Read.All | No |  |  |  |  |
->| SharePoint- TermStore.ReadWrite.All | No |  |  |  |  |
+>| SharePoint: TermStore.Read.All | No |  |  |  |  |
+>| SharePoint: TermStore.ReadWrite.All | No |  |  |  |  |
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios Microsoft.
 
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->iGlobe recopila datos para funcionar eficazmente y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: datos recopilados para administrar la cuenta de licencia de&#8217;organización, como cuando implementa complementos gratuitos, crea una suscripción de prueba o compra una suscripción. Se recopila la siguiente información. 
-- Con fines financieros: nombre y dirección de la empresa
+>iGlobe recopila datos para operar de forma eficaz y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: datos recopilados para administrar la organización&#8217;cuenta de licencia, como al implementar complementos gratuitos, crear una suscripción de prueba o comprar una suscripción. Se recopila la siguiente información. 
+- Para fines financieros: nombre y dirección de la empresa
 - Usuarios suscritos: nombre de usuario y correo electrónico
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Todos los datos están en el propio inquilino del cliente. No se almacenan datos de aplicación. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;fuera de proceso&#8221;. Interactúa con los datos de los usuarios mediante servicios Microsoft. El complemento solo puede tener acceso a los datos con los que trabaja el usuario.
+>Todos los datos están en el propio inquilino del cliente. No se almacenan datos de la aplicación. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;&#8221; fuera de proceso. Interactúa con los datos de los usuarios mediante servicios Microsoft. El complemento solo puede acceder a los datos con los que trabaja el usuario.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están involucrados los seres humanos en la revisión o el análisis de datos de información de identificación organizativa (OII) recopilados o almacenados por esta aplicación?
 
 >No
 
@@ -124,11 +124,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163' frameborder='no'></iframe>
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/36163" target="_blank">Ver en una nueva pestaña</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -138,23 +138,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-IGlobe ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+iGlobe ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad y cualquier otra de las directivas comunes como Bloquear autenticación heredada* Requerir MFA para administradores* Requerir MFA para administración de Azure* Requerir MFA para todos los usuarios* |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad y cualquier otra de las directivas comunes, como Bloquear la autenticación heredada* Requerir MFA para administradores* Requerir MFA para la administración de Azure* Requerir MFA para todos los usuarios* |
+| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Posee todo el identificador de recursos unificado (URI) de redirección registrado para la aplicación? | Sí |
 | ¿Expone la aplicación alguna API web? | No |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿La aplicación usa las API de versión preliminar? | No |
+| ¿La aplicación usa las API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 

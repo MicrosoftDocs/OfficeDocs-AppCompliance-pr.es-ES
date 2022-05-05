@@ -1,27 +1,27 @@
 ---
-title: Información de la aplicación para Office2SharePoint por iGlobe
+title: Información de la aplicación para Office2SharePoint
 ms.author: elmalova
 author: elenamalova
 ms.date: 06/22/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint, sus directivas de control de datos, su información de catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el Registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Office2SharePoint, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9be661602c6f4d586c615ff06b2642f892e0c085
-ms.sourcegitcommit: ddedb98532d7cef5cff47b137aa0ad87494b163d
+ms.openlocfilehash: 9d063ac1a7cee57ef2bee185ed43a2c3385c06c2
+ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "64627062"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65225028"
 ---
-# <a name="office2sharepoint"></a>Office2SharePoint
+# <a name="application-information-for-office2sharepoint"></a>Información de la aplicación para Office2SharePoint
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Last updated by the developer on: June 22, 2021</p>
+<p>Última actualización del desarrollador: 22 de junio de 2021</p>
 
-* <a href="https://appsource.microsoft.com/product/web-apps/17859280.o2s" target="_blank">Ver en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/web-apps/17859280.o2s" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
@@ -33,10 +33,10 @@ Información proporcionada por iGlobe a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Office2SharePoint |
 | ID | 17859280.o2s |
-| Nombre de la compañía asociada | iGlobe |
-| Dirección URL del sitio web de partners | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
+| Nombre de la empresa asociada | iGlobe |
+| Dirección URL del sitio web del asociado | [https://www.iglobecrm.com](https://www.iglobecrm.com) |
 | Dirección URL de la directiva de privacidad | [https://www.iglobecrm.com/content/legal-information](https://www.iglobecrm.com/content/legal-information) |
-| DIRECCIÓN URL de términos de uso | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
+| Dirección URL de los términos de uso | [https://www.iglobecrm.com/content/end-user-license-agreemen...](https://www.iglobecrm.com/content/end-user-license-agreement-office2sharepoint) |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -44,35 +44,35 @@ Información proporcionada por iGlobe a Microsoft:
 
 ::: zone pivot="data"
 
-### <a name="how-the-app-handles-data"></a>Cómo administra la aplicación los datos
+### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-IGlobe ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+iGlobe ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos con Microsoft Graph
+#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
-Enumerar [los permisos Graph microsoft que](/graph/permissions-reference) requiere esta aplicación.
+Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarla?** | **¿Se almacenan los datos? ¿Justificación para almacenarla?** | **Azure AD de aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
->| Directory.AccessAsUser.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Directory.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Directory.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Group.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los sitios de grupo de usuarios. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Group.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener acceso a los correos seleccionados y obtener los datos adjuntos. Desde el correo o desde el sitio SharePoint grupos al correo. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.Manage.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Permite que la aplicación cree o elimine listas y bibliotecas de documentos en todas las colecciones de sitios en nombre del usuario que ha iniciado sesión. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.Read.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios SharePoint sitio. Obtener archivos y guardar datos adjuntos del correo seleccionado. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| Sites.ReadWrite.All | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener SharePoint, bibliotecas y archivos. Para guardar archivos en SharePoint listas. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
->| User.Read | delegado | No se almacenan datos en bases de datos de aplicaciones. | Para obtener los usuarios SharePoint sitio, OneDrive y Sitios de grupo. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Directory.AccessAsUser.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Permite que la aplicación tenga el mismo acceso a la información del directorio que el usuario que ha iniciado sesión. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Directory.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Directory.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Compruebe si hay permiso y para obtener los sitios y las listas. Crear carpetas, obtener archivos y guardar archivos. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Group.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para obtener los sitios de grupo de usuarios. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Group.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para acceder a los correos o s seleccionados y obtener los datos adjuntos. Desde el correo o agregue desde el sitio de SharePoint o Grupos al correo. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Sites.Manage.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Permite a la aplicación crear o eliminar bibliotecas de documentos y listas en todas las colecciones de sitios en nombre del usuario que ha iniciado sesión. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Sites.Read.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para obtener los usuarios SharePoint sitio. Obtenga archivos y guarde los datos adjuntos del correo seleccionado. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| Sites.ReadWrite.All | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para obtener SharePoint lista, bibliotecas y archivos. Para guardar archivos en listas de SharePoint. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
+>| User.Read | Delegado | No se almacenan datos en las bases de datos de la aplicación. | Para obtener los usuarios SharePoint sitios de sitio, OneDrive y grupo. | 5971c986-9d39-409c-a6f8-1385b1f690ef |
 
-#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos con otras API de Microsoft
+#### <a name="data-access-using-other-microsoft-apis"></a>Acceso a datos mediante otras API de Microsoft
 
-Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de Microsoft adicionales que no sean Microsoft Graph para recopilar o procesar información identificable de la organización (OII). Enumerar cualquier API de Microsoft que no sea Microsoft Graph usa esta aplicación.
+Las aplicaciones y complementos basados en Microsoft 365 pueden usar API de Microsoft adicionales distintas de Microsoft Graph para recopilar o procesar información de identificación de la organización (OII). Enumere las API de Microsoft distintas de Microsoft Graph que use esta aplicación.
 
->| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para recopilar OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
+>| **API** |  **¿Se recopila OII?** |  **¿Qué OII se recopila?** | **¿Justificación para la recopilación de OII?** | **¿Se almacena OII?** | **¿Justificación para almacenar OII?** |
 >|:-------------------|:-------------------|:--------------------------|:--------------------------|:---------------------------------------------------|:--------------------------|
->| Exchange: EWS. AccessAsUser.All | No |  |  |  |  |
->| Exchange - Mail.ReadWrite | No |  |  |  |  |
->| Exchange- MailboxSettings.ReadWrite | No |  |  |  |  |
+>| Exchange - EWS. AccessAsUser.All | No |  |  |  |  |
+>| Exchange: Mail.ReadWrite | No |  |  |  |  |
+>| Exchange: MailboxSettings.ReadWrite | No |  |  |  |  |
 >| SharePoint: AllSites.Manage | No |  |  |  |  |
 >| SharePoint: AllSites.Write | No |  |  |  |  |
 >| SharePoint: MyFiles.Write | No |  |  |  |  |
@@ -80,27 +80,27 @@ Las aplicaciones y complementos integrados en Microsoft 365 pueden usar API de M
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
 
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumera el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluye una justificación de por qué la aplicación necesita transferir esta información.
+Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
 
->No se servicios Microsoft no se usan.
+>No se usan servicios Microsoft.
 
 
 
 #### <a name="telemetry-data"></a>Datos de telemetría
 
-¿Aparece información identificable de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describa qué datos se almacenan y cuáles son las directivas de retención y eliminación.
+¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
 
->iGlobe recopila datos para funcionar eficazmente y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: datos recopilados para administrar la cuenta de licencia de&#8217;organización, como cuando implementa complementos gratuitos, crea una suscripción de prueba o compra una suscripción. Se recopila la siguiente información. Con fines financieros: Nombre de la compañía y dirección Usuarios suscritos: nombre de usuario y correo electrónico
+>iGlobe recopila datos para operar de forma eficaz y proporcionarle las mejores experiencias con nuestros productos y servicios. Para licencias: datos recopilados para administrar la organización&#8217;cuenta de licencia, como al implementar complementos gratuitos, crear una suscripción de prueba o comprar una suscripción. Se recopila la siguiente información. Para fines financieros: Nombre de la empresa y dirección de los usuarios suscritos: nombre de usuario y correo electrónico
 
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por el partner
+#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
 
-Describir cómo los administradores de la organización pueden controlar su información en sistemas asociados. Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
+¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
 
->Todos los datos de la aplicación están en el propio inquilino del cliente y son controlados por el administrador de inquilinos como todos los demás servicios de Office 365. No se almacenan datos de la aplicación en el complemento. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;fuera de proceso&#8221;. El complemento solo puede tener acceso a los datos con los que trabaja el usuario. Interactúa con los datos de los usuarios mediante servicios Microsoft.
+>Todos los datos de la aplicación están en el propio inquilino del cliente y los controla el administrador de inquilinos como todos los demás servicios de Office 365. No se almacenan datos de aplicación en el complemento. Un complemento moderno se ejecuta en un explorador de espacio aislado, &#8220;&#8221; fuera de proceso. El complemento solo puede acceder a los datos con los que trabaja el usuario. Interactúa con los datos de los usuarios mediante servicios Microsoft.
 
 #### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
 
-¿Los humanos participan en la revisión o análisis de cualquier información de identificación organizativa (OII) que esta aplicación recopila o almacena?
+¿Están involucrados los seres humanos en la revisión o el análisis de datos de información de identificación organizativa (OII) recopilados o almacenados por esta aplicación?
 
 >No
 
@@ -110,11 +110,11 @@ Describir cómo los administradores de la organización pueden controlar su info
 
 ::: zone pivot="mcas"
 
-La información del [catálogo Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) aparece a continuación.
+A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='Microsoft Cloud App Security información' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35747' frameborder='no'></iframe>
+<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/35747' frameborder='no'></iframe>
 
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35747" target="_blank">Ver en una pestaña nueva</a>
+<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/35747" target="_blank">Ver en una nueva pestaña</a>
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -124,23 +124,23 @@ La información del [catálogo Microsoft Cloud App Security](https://www.microso
 
 ### <a name="identity-information"></a>Información de identidad
 
-IGlobe ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+iGlobe ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido con todos los procedimientos recomendados aplicables descritos en la lista Plataforma de identidad de Microsoft integración?  | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft?  | Sí |
 | ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
-| Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad y cualquier otra de las directivas comunes como Bloquear autenticación heredada* Requerir MFA para administradores* Requerir MFA para administración de Azure* Requerir MFA para todos los usuarios* |
-| ¿La aplicación solicita permisos de privilegios mínimos para el escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará dinámica e incrementalmente? | Sí |
+| Enumerar los tipos de directivas admitidas | Valores predeterminados de seguridad y cualquier otra de las directivas comunes, como Bloquear la autenticación heredada* Requerir MFA para administradores* Requerir MFA para la administración de Azure* Requerir MFA para todos los usuarios* |
+| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
+| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
 | ¿La aplicación admite multiinquilino? | Sí |
 | ¿La aplicación tiene un cliente confidencial? | Sí |
-| ¿Es propietario de todos los identificadores de recursos unificados (URI) de redireccionamiento registrados para la aplicación? | Sí |
+| ¿Posee todo el identificador de recursos unificado (URI) de redirección registrado para la aplicación? | Sí |
 | ¿Expone la aplicación alguna API web? | No |
-| ¿La aplicación usa las API de vista previa? | No |
-| ¿La aplicación usa API en desuso? | No |
+| ¿La aplicación usa las API de versión preliminar? | No |
+| ¿La aplicación usa las API en desuso? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
