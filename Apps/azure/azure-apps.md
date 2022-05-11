@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de los identificadores de App de Azure: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/06/2022
+ms.date: 05/10/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todos los identificadores de App de Azure.
 localization_priority: Normal
-ms.openlocfilehash: 511913030194a27dd85c67bb2558840288079c05
-ms.sourcegitcommit: 2f4d962dc1778849751d2e1db212ff702c247627
+ms.openlocfilehash: b84b975c1769c07103da30150a5f6adf5013f325
+ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65265339"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65307546"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Seguridad y cumplimiento de los identificadores de App de Azure
 
@@ -58,6 +58,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [192ba193-b68c-464c-a920-7eaa93b59a12](./192ba193-b68c-464c-a920-7eaa93b59a12.md) | **✓** |  |
 | [1ac9e5c6-4850-4864-96c5-b91e4512334e](./1ac9e5c6-4850-4864-96c5-b91e4512334e.md) | **✓** |  |
 | [1b81b79d-10ff-4614-81cc-5ac3dc64a40c](./1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md) | **✓** |  |
+| [1c529524-183e-40db-b1d7-1acf275354b4](./1c529524-183e-40db-b1d7-1acf275354b4.md) | **✓** |  |
 | [1c7d277c-ff8a-4ea4-bc14-7d06314f8941](./1c7d277c-ff8a-4ea4-bc14-7d06314f8941.md) | **✓** |  |
 | [1cc8eecf-56f3-4137-a0fe-4b0466ca0677](./1cc8eecf-56f3-4137-a0fe-4b0466ca0677.md) | **✓** |  |
 | [1d154166-6bd3-423b-b13e-d93ca6327a3e](./1d154166-6bd3-423b-b13e-d93ca6327a3e.md) | **✓** |  |
@@ -126,6 +127,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [4cda80df-64fe-4961-8d73-cbe8d5ad0724](./4cda80df-64fe-4961-8d73-cbe8d5ad0724.md) | **✓** |  |
 | [4d0997dc-df53-4b18-9df1-bb283f8a0377](./4d0997dc-df53-4b18-9df1-bb283f8a0377.md) | **✓** |  |
 | [4d69a8e1-9c38-4b33-b76f-9d59b5ae051b](./4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md) | **✓** |  |
+| [4db812e1-4d29-44e4-b72e-9654c0c91ce4](./4db812e1-4d29-44e4-b72e-9654c0c91ce4.md) | **✓** |  |
 | [4dce2abf-3f8e-4281-9f7a-d602fc391886](./4dce2abf-3f8e-4281-9f7a-d602fc391886.md) | **✓** |  |
 | [4e820d60-9e62-403c-accd-857b987cc13c](./4e820d60-9e62-403c-accd-857b987cc13c.md) | **✓** |  |
 | [4f037969-20ef-4a41-8330-422b7b115eb6](./4f037969-20ef-4a41-8330-422b7b115eb6.md) | **✓** |  |
@@ -261,6 +263,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [b7e8237f-d86d-4874-8f8b-7faa8f768436](./b7e8237f-d86d-4874-8f8b-7faa8f768436.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](./b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) | **✓** |  |
 | [b9604964-9c3a-483e-abf2-1b5cba495081](./b9604964-9c3a-483e-abf2-1b5cba495081.md) | **✓** |  |
+| [b979eaca-19be-437e-9dc4-bc59418a2034](./b979eaca-19be-437e-9dc4-bc59418a2034.md) | **✓** |  |
 | [b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7](./b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md) | **✓** |  |
 | [bbdcd676-7448-453c-bec7-70e5384bc290](./bbdcd676-7448-453c-bec7-70e5384bc290.md) | **✓** |  |
 | [bceca1f0-723f-44d0-b732-b3506c0a641d](./bceca1f0-723f-44d0-b732-b3506c0a641d.md) | **✓** |  |

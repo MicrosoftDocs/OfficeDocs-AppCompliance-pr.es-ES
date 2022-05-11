@@ -80,6 +80,8 @@ items:
         href: outlook/codetwo-for-outlook.md
       - name: Conmutación
         href: outlook/commuty.md
+      - name: Dinamo
+        href: outlook/dynamo-software.md
       - name: Reactor de correo electrónico
         href: outlook/flow-simulation-ltd-email-reactor.md
       - name: Evernote
@@ -1212,6 +1214,8 @@ items:
         href: teams/yarooms.md
       - name: yuccaHR
         href: teams/yucca-technologies-gmbh-yuccahr.md
+      - name: Zero Time Bot
+        href: teams/replicon-zero-time-bot.md
       - name: Zignals
         href: teams/alight-zignals.md
       - name: Zoho Desk
@@ -1235,6 +1239,8 @@ items:
         href: word/cocofax-sending-fax-made-easysecure.md
       - name: CrossCheck
         href: word/krevealllc-crosscheck.md
+      - name: Borrador de documentos
+        href: word/green-meadow-aps-document-drafter.md
       - name: Automatización de documentos de Excel a Word
         href: word/analysisplace-excel-to-word-document-automation.md
       - name: Complemento fabasoft Cloud Office
@@ -1459,6 +1465,8 @@ items:
         href: azure/1ac9e5c6-4850-4864-96c5-b91e4512334e.md
       - name: 1b81b79d-10ff-4614-81cc-5ac3dc64a40c
         href: azure/1b81b79d-10ff-4614-81cc-5ac3dc64a40c.md
+      - name: 1c529524-183e-40db-b1d7-1acf275354b4
+        href: azure/1c529524-183e-40db-b1d7-1acf275354b4.md
       - name: 1c7d277c-ff8a-4ea4-bc14-7d06314f8941
         href: azure/1c7d277c-ff8a-4ea4-bc14-7d06314f8941.md
       - name: 1cc8eecf-56f3-4137-a0fe-4b0466ca0677
@@ -1595,6 +1603,8 @@ items:
         href: azure/4d0997dc-df53-4b18-9df1-bb283f8a0377.md
       - name: 4d69a8e1-9c38-4b33-b76f-9d59b5ae051b
         href: azure/4d69a8e1-9c38-4b33-b76f-9d59b5ae051b.md
+      - name: 4db812e1-4d29-44e4-b72e-9654c0c91ce4
+        href: azure/4db812e1-4d29-44e4-b72e-9654c0c91ce4.md
       - name: 4dce2abf-3f8e-4281-9f7a-d602fc391886
         href: azure/4dce2abf-3f8e-4281-9f7a-d602fc391886.md
       - name: 4e820d60-9e62-403c-accd-857b987cc13c
@@ -1865,6 +1875,8 @@ items:
         href: azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md
       - name: b9604964-9c3a-483e-abf2-1b5cba495081
         href: azure/b9604964-9c3a-483e-abf2-1b5cba495081.md
+      - name: b979eaca-19be-437e-9dc4-bc59418a2034
+        href: azure/b979eaca-19be-437e-9dc4-bc59418a2034.md
       - name: b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7
         href: azure/b9a1aaab-e8aa-4b92-b4ce-f13cae74caa7.md
       - name: bbdcd676-7448-453c-bec7-70e5384bc290
