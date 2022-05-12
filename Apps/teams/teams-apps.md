@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 0edba727df2fcc1c0e67275c097cf648160d6e0e
-ms.sourcegitcommit: ae319a079de7bac03a3f4afb7c95a12a6248c9b0
+ms.openlocfilehash: f3d39ae22dea3b9df50a4aeaf7409422c5e50ea0
+ms.sourcegitcommit: 07b2885ce41c10ee8dc55adfd86c8c9b90c99011
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/11/2022
-ms.locfileid: "65355746"
+ms.locfileid: "65359451"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -148,7 +148,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Paneles diligentes](./diligent-boards.md) | Diligente | **✓** |  |
 | [Listas de distribución Pro](./witivio-distribution-lists-pro.md) | Witivio | **✓** |  |
 | [do!book CB](./digital-office-inc-do!book-cb.md) | Digital Office Inc. | **✓** |  |
-| [Redactor de documentos](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
+| [Document Drafter](./green-meadow-aps-document-drafter.md) | Green Meadow ApS | **✓** |  |
 | [Docuo](./r2-docuo.md) | R2 Docuo | **✓** |  |
 | [DocuSign eSignature](./docusign-inc-esignature.md) | DocuSign, Inc. | **✓** |  |
 | [Grabación de la llamada unificada Dubber](./dubber-unified-call-recording.md) | Torero | **✓** |  |
@@ -383,6 +383,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Read Meeting Navigator](./read-ai-inc-meeting-navigator.md) | Read AI, Inc. | **✓** |  |
 | [Real Time Translator](./fairuse-real-time-translator.md) | Fairuse | **✓** |  |
 | [RecognitionNow DM](./bi-worldwide-recognitionnow-dm.md) | BI WORLDWIDE | **✓** |  |
+| [Recognize](./recognize.md) | Recognize | **✓** |  |
 | [Remind](./88-ventures-limited-remind.md) | 88 Ventures Limited | **✓** |  |
 | [researcHR](./researchr.md) | KBE&#26666;&#24335;&#20250;&#31038; | **✓** |  |
 | [Responsum](./responsum-inc.md) | Responsum Inc. | **✓** |  |
@@ -407,6 +408,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [SIGNL4](./derdack-signl4.md) | Derdack SIGNL4 | **✓** |  |
 | [Simple In/Out](./simply-made-apps-inc-simple-inout.md) | Simply Made Apps, Inc. | **✓** |  |
 | [Sine](./sineco-sine.md) | Sine.co | **✓** |  |
+| [Skedda](./skedda-pty-ltd.md) | Skedda Pty Ltd | **✓** |  |
 | [SkilledHuman](./saltflat-limited-skilledhuman.md) | SaltFlat Limited | **✓** |  |
 | [Skillsoft Percipio](./skillsoft-percipio.md) | Skillsoft | **✓** |  |
 | [Skoach](./cultify-lda-skoach.md) | Cultify, Lda | **✓** |  |
@@ -476,7 +478,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [ThoughtExchange](./thoughtexchange.md) | ThoughtExchange | **✓** |  |
 | [ThoughtWire EWS](./thoughtwire-corp-ews.md) | ThoughtWire Corp. | **✓** |  |
 | [lugares de ti8m](./tim-ag-ti8m-places.md) | ti &amp; m AG | **✓** |  |
-| [Vales como servicio](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limited | **✓** |  |
+| [Ticketing As A Service](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limited | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost: Seguimiento de tiempo](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
