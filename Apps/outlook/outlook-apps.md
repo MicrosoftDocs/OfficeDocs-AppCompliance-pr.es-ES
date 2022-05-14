@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook: todas las
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/10/2022
+ms.date: 05/13/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 150a248def762691047a13127f28dff9378f239b
-ms.sourcegitcommit: 0c3ca169e16a6825888669d1e8ea14f66db725bf
+ms.openlocfilehash: 9a1c96597460585f3f79bd41ee15c10bd91f8a90
+ms.sourcegitcommit: 28e4529834823fb61620dc9ac5b33eeddaca67a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65305646"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "65413476"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook
 
@@ -24,6 +24,7 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 | [Adobe Acrobat Sign para Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Vídeos de Altru](./altru-videos.md) | Altru | **✓** |  |
 | [Calendarios de contactos aprobados](./approved-contact-calendars.md) | Contacto aprobado | **✓** |  |
+| [Aumentar mi correo](./boost-my-mail.md) | Aumentar mi correo | **✓** |  |
 | [Firma de CI](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Conmutación](./commuty.md) | Conmutación | **✓** |  |
