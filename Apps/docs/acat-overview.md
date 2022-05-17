@@ -7,18 +7,18 @@ description: Introducción a App Compliance Automation Tool para Microsoft 365
 keywords: automatización de la certificación de aplicaciones Microsoft 365
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: debd3c9e2ecd1538446d09f5019ea995260345fd
-ms.sourcegitcommit: 785d1c5d829e44e0ad696b85c92be81f549b989e
+ms.openlocfilehash: bd570496ce11bf72270cb18542846140122efb8b
+ms.sourcegitcommit: 3931a0f41e8a6637cd1ce0a7c5273dabf592e475
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2022
-ms.locfileid: "65433496"
+ms.locfileid: "65441996"
 ---
 # <a name="app-compliance-automation-tool-for-microsoft-365"></a>Herramienta de automatización de cumplimiento de aplicaciones para Microsoft 365
 En este artículo, aprenderá cuál es la herramienta de automatización de cumplimiento de aplicaciones para Microsoft 365 (ACAT) y cómo simplifica el cumplimiento y obtiene la certificación Microsoft 365.
 
 > [!IMPORTANT]
-> ACAT está en *versión preliminar privada* en este momento. Si desea unirse al programa de versión preliminar privada, póngase en contacto con [acatprivatepreview@microsoft.com](mailto:acatprivatepreview@microsoft.com).
+> ACAT está en versión preliminar privada en este momento. Si desea unirse al programa de versión preliminar privada, regístrese [aquí](https://aka.ms/acat/private/signup).
 
 ## <a name="what-is-app-compliance-automation-tool-for-microsoft-365"></a>¿Qué es la herramienta de automatización de cumplimiento de aplicaciones para Microsoft 365
 App Compliance Automation Tool for Microsoft 365 (ACAT) es un servicio de Azure Portal que ayuda a simplificar el recorrido de cumplimiento de cualquier aplicación que consuma Microsoft 365 datos del cliente y se publique a través del Centro de partners. App Compliance Automation Tool para Microsoft 365 es una herramienta de automatización del cumplimiento centrada en la aplicación que le ayuda a completar la certificación de Microsoft 365 con mayor facilidad y comodidad. En versión preliminar privada, ACAT está disponible para las aplicaciones que se ejecutan en Azure.
