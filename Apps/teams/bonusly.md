@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para la promoción de empleados de DSMN8 por DSMN8
+title: Información de la aplicación para Bonusly by Bonusly
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,41 +7,41 @@ ms.date: 05/17/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Employee Advocacy by DSMN8, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Bonusly, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2cb51ae66869558666d1dfdc5522299ec1d21886
+ms.openlocfilehash: e5a74090b23b85869c5da97d7231df5e92b7e59b
 ms.sourcegitcommit: 9fc27c6c7e9683291d85818c07e7be8291c75532
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/18/2022
-ms.locfileid: "65454944"
+ms.locfileid: "65455070"
 ---
-# <a name="employee-advocacy-by-dsmn8"></a>Employee Advocacy por DSMN8
+# <a name="bonusly"></a>Bonusly
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 17 de mayo de 2022</p>
+<p>Última actualización del desarrollador: 16 de mayo de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003677" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/c06753b3-85de-4054-9a99-dcd869dc0836" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104381622" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por DSMN8 a Microsoft:
+Información proporcionada por Bonusly a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Employee Advocacy por DSMN8 |
-| ID | WA200003677 |
+| Nombre de la aplicación | Bonusly |
+| ID | WA104381622 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | DSMN8 |
-| Sitio web de la empresa | [https://dsmn8.com](https://dsmn8.com) |
-| Términos de uso de la aplicación | [https://dsmn8.com/terms-and-conditions](https://dsmn8.com/terms-and-conditions) |
-| Funcionalidad básica de la aplicación |  DSMN8 es una plataforma basada en aplicaciones que permite a los empleados convertirse en influenciadores de la empresa al compartir contenido de empresa aprobado por la empresa, en sus propios canales de redes sociales.  |
-| Ubicación de la sede central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | |
+| Nombre de la empresa asociada | Bonusly |
+| Sitio web de la empresa | [https://bonus.ly](https://bonus.ly) |
+| Términos de uso de la aplicación | [https://bonus.ly/terms_of_service](https://bonus.ly/terms_of_service) |
+| Funcionalidad básica de la aplicación | Reconocimiento frecuente y puntual de Spark mediante la integración de Bonusly con Microsoft Teams |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://bonus.ly/integrations/teams](https://bonus.ly/integrations/teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws |
 
@@ -53,20 +53,14 @@ Información proporcionada por DSMN8 a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-DSMN8 ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Bonusly ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | job title, first name, last name, email address |
+| ¿Qué datos procesa la aplicación? | Dirección de correo electrónico, Nombre, Apellido, Fecha de nacimiento (si se usa la característica), Fecha de contratación (si se usa la característica) |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | job title, first name, last name, email address |
-| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
-| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 30 días |
-| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
-| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -80,7 +74,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
@@ -92,7 +86,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | No |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
 | Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
@@ -110,16 +104,18 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
+| ¿Qué certificación SOC 2 logró? | type2 |
+| Fecha de certificación de SOC2 más reciente | 2022/4/28 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
-| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | No |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
@@ -135,9 +131,9 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://dsmn8.com/terms-and-conditions |
+| Dirección URL de la directiva de privacidad | https://bonus.ly/privacy_policy |
 | ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
-| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | Sí |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
@@ -153,20 +149,15 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | No |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? | https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
 | Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
-
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | ambas | Para leer el título del trabajo, el nombre, los apellidos y los datos de correo electrónico durante el proceso de inicio de sesión para crear un perfil en nuestra aplicación | [3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c](../azure/3cf056e3-1c08-4cda-b6d6-962f7c7a1f7c.md) |
+>Esta aplicación no usa Microsoft Graph.
 
 >Esta aplicación no tiene API adicionales.
 
