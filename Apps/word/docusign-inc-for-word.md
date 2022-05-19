@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para HitHorizons by FinStat s.r.o.
+title: Información de la aplicación para DocuSign for Word by DocuSign, Inc.
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,41 @@ ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para HitHorizons, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para DocuSign for Word, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: cc57752e30c13456f0fdc4e33eab36f9eb9d7e97
+ms.openlocfilehash: 0e949154c1e3af5a09337d7801fa175539fff506
 ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/18/2022
-ms.locfileid: "65477674"
+ms.locfileid: "65477853"
 ---
-# <a name="hithorizons"></a>HitHorizons
+# <a name="docusign-for-word"></a>DocuSign para Word
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Última actualización del desarrollador: 18 de mayo de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/2b492ea3-0727-4789-90d7-8e2079d46717" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001411" target="_blank">Vista en AppSource</a>
+* <a href="https://appsource.microsoft.com/product/office/WA104218065" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por FinStat s.r.o. a Microsoft:
+Información proporcionada por DocuSign, Inc. a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | HitHorizons |
-| ID | WA200001411 |
-| Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | FinStat s.r.o. |
-| Sitio web de la empresa | [https://www.hithorizons.com](https://www.hithorizons.com) |
-| Términos de uso de la aplicación | [https://www.hithorizons.com/legal/terms-and-conditions](https://www.hithorizons.com/legal/terms-and-conditions) |
-| Funcionalidad básica de la aplicación | Acceda a la base de datos HitHorizons de más de 75 millones de empresas de Europa y más dentro de Microsoft Teams |
-| Ubicación de la sede central de la empresa | Eslovaquia |
-| Página de información de la aplicación | [https://www.hithorizons.com/services/microsoft/teams](https://www.hithorizons.com/services/microsoft/teams) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
+| Nombre de la aplicación | DocuSign para Word |
+| ID | WA104218065 |
+| Office 365 clientes admitidos | Word 2016 o posterior en Windows, Word 2016 o posterior en Mac, Word en la Web |
+| Nombre de la empresa asociada | DocuSign, Inc. |
+| Sitio web de la empresa | [https://www.docusign.com](https://www.docusign.com) |
+| Términos de uso de la aplicación | [https://www.docusign.com/company/terms-and-conditions/web](https://www.docusign.com/company/terms-and-conditions/web) |
+| Funcionalidad básica de la aplicación | Obtención rápida de firmas o firma de documentos de Word con DocuSign |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://www.docusign.com/solutions/microsoft/word](https://www.docusign.com/solutions/microsoft/word) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +51,7 @@ Información proporcionada por FinStat s.r.o. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Esta información la ha proporcionado FinStat s.r.o. acerca de cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+DocuSign, Inc. ha proporcionado esta información sobre cómo esta aplicación recopila y almacena datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -70,23 +68,24 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Realiza pruebas de penetración anuales en la aplicación? | No |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
-| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | No |
-| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
-| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | No |
+| ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls, TraditionalAntiMalware |
+| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
+| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
+| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
 | ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
-| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | Sí |
 | ¿Tiene un firewall instalado en el límite de red externo? | Sí |
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
 | ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | Repositorios de código, credenciales, DNSManagement |
+| Autenticación multifactor (MFA) habilitada para: | Credential, DNSManagement |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | N/D |
-| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | No |
-| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
+| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
+| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | No |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | No |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | No |
 
@@ -98,7 +97,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
+| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | Sí |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
@@ -109,10 +108,10 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
-| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
-| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | No |
+| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | No |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
+| ¿La aplicación cumple con NIST 800-171? | No |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -123,7 +122,17 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | No |
+| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://www.docusign.com/company/privacy-policy |
+| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
+| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
