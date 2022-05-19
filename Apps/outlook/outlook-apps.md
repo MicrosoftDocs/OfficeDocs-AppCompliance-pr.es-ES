@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook: todas las
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/13/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 9a1c96597460585f3f79bd41ee15c10bd91f8a90
-ms.sourcegitcommit: 28e4529834823fb61620dc9ac5b33eeddaca67a1
+ms.openlocfilehash: d5c06c88c4170ef21e7edd190863e7f53830f69d
+ms.sourcegitcommit: d79cdda99f8faebe842da59e3a1ee27da5a91c25
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "65413476"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65475544"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook
 
@@ -28,6 +28,7 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 | [Firma de CI](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |
 | [Conmutación](./commuty.md) | Conmutación | **✓** |  |
+| [DocuSign para Outlook](./docusign-inc-for-outlook.md) | DocuSign, Inc. | **✓** |  |
 | [Dinamo](./dynamo-software.md) | Dynamo Software | **✓** |  |
 | [Reactor de correo electrónico](./flow-simulation-ltd-email-reactor.md) | Flow Simulation Ltd. | **✓** |  |
 | [Evernote](./evernote.md) | Evernote | **✓** |  |
