@@ -7,19 +7,19 @@ description: El envío inicial del documento forma parte de la fase de evaluaci�
 keywords: equipos de certificación de aplicaciones Microsoft 365 envío de documentos iniciales de cumplimiento de seguridad m365
 ms.topic: conceptual
 ms.service: certification
-ms.openlocfilehash: 23c3cf7a64025bb7269adb35175e8d87bc64224e
-ms.sourcegitcommit: ec1d4f7013722fe672830e3664b0fb8b0f33bd37
+ms.openlocfilehash: 8cb7ac4711b7399ae24b76794c251e3cae845e94
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784509"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618578"
 ---
 # <a name="microsoft-365-ceritification---initial-document-submission-guide"></a>Microsoft 365 Ceritification: Guía de envío inicial de documentos
 
 El envío inicial del documento forma parte de la fase de evaluación previa de la certificación. La información proporcionada proporcionará a los analistas de certificación los antecedentes necesarios para identificar qué controles y componentes del sistema estarán en el ámbito de la evaluación. Este documento está pensado para servir solo como un ejemplo de lo que se espera del envío inicial del documento. La documentación que proporcione variará en función de cómo se diseñe, implemente y administre la solución.
 
 ## <a name="what-is-the-hosting-environment-or-service-model-used-to-run-your-app"></a>¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación?
-- Infraestructura como servicio (IaaS) es un modelo de servicio en la nube en el que el proveedor de servicios en la nube hospeda los componentes de infraestructura, pero los ISV siguen siendo responsables de implementar y administrar los componentes individualmente, como Virtual Machines o sistemas operativos, almacenes de datos y componentes de red. Ejemplos de esto son Azure Virtual Machine y Azure Disk Storage.
+- Infraestructura como servicio (IaaS) es un modelo de servicio en la nube en el que el proveedor de servicios en la nube hospeda los componentes de infraestructura, pero los ISV siguen siendo responsables de implementar y administrar los componentes individualmente, como máquinas virtuales o sistemas operativos, almacenes de datos y componentes de red. Ejemplos de esto son Azure Virtual Machine y Azure Disk Storage.
 - Plataforma como servicio (PaaS) es un modelo de servicio en la nube en el que el proveedor de servicios en la nube administra los componentes de la infraestructura. Los ISV solo son responsables de implementar sus propias aplicaciones y servicios. Ejemplos de esto son App de Azure Services, Azure Functions y Azure CDN.
 - ISV hospedado en este contexto significa que no se usa ningún proveedor de servicios en la nube. El ISV administra físicamente sus propios servidores, discos y redes de forma independiente local.
 - Híbrido en este contexto significa que se usa uno de los modelos anteriores. Por ejemplo, algunos ISV pueden optar por usar una combinación de servicios IaaS y servicios PaaS para admitir su aplicación, o bien pueden tener algunos componentes hospedados de ISV local y externalizar otros a un proveedor de servicios en la nube. Si usa uno de los modelos de servicio más, seleccione híbrido.
@@ -53,7 +53,7 @@ Un inventario actualizado de todos los recursos de software, incluido todo el so
 
 **Ejemplo:**
 
-|Software|Publisher|Versión|Finalidad|
+|Software|Publisher|Versión|Objetivo|
 |---|---|---|---|
 |Windows Server|Microsoft 2016 |Compilación 14393|Sistema operativo del servidor para el entorno de producción|
 |Linux Ubuntu|N/D|16.04 (Xenial)|Sistema operativo del servidor en uso dentro de la red perimetral.|
@@ -125,5 +125,7 @@ Flow diagramas que detallan lo siguiente:
 
 ![Diagrama de Data Flow](../media/Dataflowdiagram.png)
 
+## <a name="external-certifications-soc2-pci-dss-iso27001---optional"></a>Certificaciones externas (SOC2, PCI DSS, ISO27001): OPCIONAL
 
+Si ya ha obtenido una certificación SOC2, PCI DSS o ISO27001 y tiene un informe emitido en los últimos 12 meses que incluya el ámbito completo de la aplicación que se va a certificar, así como el entorno de soporte técnico, puede enviarlo durante el envío inicial del documento. Intentaremos aprovecharlo para satisfacer un subconjunto de controles y acelerar su evaluación. Sin embargo, esto no es necesario para obtener una certificación de Microsoft 365. 
 

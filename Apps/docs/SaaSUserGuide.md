@@ -7,12 +7,12 @@ description: Guía del usuario de ISV para Microsoft 365 Programa de cumplimient
 keywords: Guía del usuario de ISV para Microsoft 365 Programa de cumplimiento de aplicaciones SaaS
 ms.topic: conceptual
 ms.service: attestation
-ms.openlocfilehash: abb26a45c9dc0d0d91ebd26c06b29644b41b2dfd
-ms.sourcegitcommit: ffdee67a99a6f03cc93fe4d99f00e484b9a8a0e5
+ms.openlocfilehash: af6561ffb4670269fc4e219f58d069ce3fa20ce9
+ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2022
-ms.locfileid: "64752869"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65618295"
 ---
 # <a name="partners-user-guide-for-microsoft-365-app-compliance-program---saas"></a>Guía del usuario del asociado para Microsoft 365 programa de cumplimiento de aplicaciones: SaaS
 
@@ -24,6 +24,9 @@ ms.locfileid: "64752869"
 ## <a name="1-overview"></a>1. Información general 
 
 Este documento actúa como una guía de usuario paso a paso para nuestros asociados, inscritos para Microsoft 365 programa de cumplimiento de aplicaciones con el objetivo de someterse a Publisher atestación y certificación para sus aplicaciones SaaS, a través del portal del Centro de partners.
+
+>[!IMPORTANT]
+>Esta guía solo se aplica a las aplicaciones SaaS aprobadas y en la lista blanca por el equipo de cumplimiento de aplicaciones Microsoft 365. Si la aplicación no está en la lista blanca, no podrá continuar en el Centro de partners. Para obtener la lista blanca de SaaS, póngase en contacto con appcert@microsoft.com.
 
 ## <a name="2-acronyms--definitions"></a>2. Acrónimos & definiciones
 |Acrónimo | Definición |
