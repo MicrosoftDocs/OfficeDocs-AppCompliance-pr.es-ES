@@ -1,49 +1,49 @@
 ---
-title: Información de la aplicación para Eloops de Eloops
+title: Información de la aplicación para Rattle by Rattle
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Eloops, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Rattle, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: ed2fa2660eb81e43869d994dd872dab0c8763709
+ms.openlocfilehash: cbf3b695142e5e131780a0e9fc788b80c1667966
 ms.sourcegitcommit: da6b5ad8f0871ce17fe826f242344dec09a04b1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/21/2022
-ms.locfileid: "65628249"
+ms.locfileid: "65628324"
 ---
-# <a name="eloops"></a>Eloops
+# <a name="rattle"></a>Rattle
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador el 3 de mayo de 2022</p>
+<p>Última actualización del desarrollador el 2 de mayo de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/431a9917-9c32-480e-a584-6c149e7b7213" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200002287" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/bacd48e3-a2e1-48db-992f-609eb58ac326" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004030" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Eloops a Microsoft:
+Información proporcionada por Rattle a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Eloops |
-| ID | WA200002287 |
+| Nombre de la aplicación | Rattle |
+| ID | WA200004030 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Eloops |
-| Sitio web de la empresa | [https://eloops.com](https://eloops.com) |
-| Términos de uso de la aplicación | [https://eloops.com/terms-of-service/](https://eloops.com/terms-of-service/) |
-| Funcionalidad básica de la aplicación | La plataforma de compromiso de los empleados que funciona pero no&#8217;sentirse como trabajo |
-| Ubicación de la sede central de la empresa | Israel |
-| Página de información de la aplicación | [https://eloops.com/microsoft-teams-integration-help-center/](https://eloops.com/microsoft-teams-integration-help-center/) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS |
+| Nombre de la empresa asociada | Rattle |
+| Sitio web de la empresa | [https://www.gorattle.com](https://www.gorattle.com) |
+| Términos de uso de la aplicación | [https://www.gorattle.com/terms-of-service](https://www.gorattle.com/terms-of-service) |
+| Funcionalidad básica de la aplicación | Rattle es una herramienta de automatización sin código para administrar Salesforce desde MS Teams |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, Aws |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,13 +53,11 @@ Información proporcionada por Eloops a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Eloops ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que la organización tendrá sobre los datos que recopila la aplicación.
+Rattle ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Recopilamos el correo electrónico del usuario, el nombre completo, el token para enviar notificaciones push. |
-| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -74,19 +72,19 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware, ApplicationControls |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
 | ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
-| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | Sí |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
 | ¿Tiene un firewall instalado en el límite de red externo? | Sí |
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
 | ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
+| Autenticación multifactor (MFA) habilitada para: | Credenciales, repositorios de código |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | No |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
 | ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
 | Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
@@ -104,18 +102,20 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
+| ¿Qué certificación SOC 2 logró? | type2 |
+| Fecha de certificación de SOC2 más reciente | 2021-11-22 |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | Sí |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | Sí |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
 | ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
 | ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
@@ -129,13 +129,13 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://eloops.com/privacy-policy/ |
+| Dirección URL de la directiva de privacidad | https://www.gorattle.com/privacy-policy |
 | ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
 | ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | N/D |
 | ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
@@ -151,15 +151,11 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación admite la evaluación continua de acceso (CAE) | Sí |
+| ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
 | Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
-
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegado | Necesitamos obtener el correo electrónico del usuario y el nombre completo para registrarlos en nuestro sistema. | [431a9917-9c32-480e-a584-6c149e7b7213](../azure/431a9917-9c32-480e-a584-6c149e7b7213.md) |
+>Esta aplicación no usa Microsoft Graph.
 
 >Esta aplicación no tiene API adicionales.
 
