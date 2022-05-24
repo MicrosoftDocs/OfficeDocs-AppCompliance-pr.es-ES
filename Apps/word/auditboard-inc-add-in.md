@@ -9,12 +9,12 @@ ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para el complemento AuditBoard, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 71829162839f255a9481d7f64333d091ad65b5e1
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 0c69f4cfa2a4d443070ac3eb4f9b9ce1a4869e98
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877607"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65641919"
 ---
 # <a name="auditboard-add-in"></a>Complemento AuditBoard
 
@@ -33,8 +33,8 @@ Información proporcionada por Auditboard, Inc. a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Complemento AuditBoard |
-| Id. | WA200003350 |
-| Office 365 clientes admitidos | Word 2016 o posterior en Mac, Word en la Web, Word 2013 o posterior en Windows |
+| ID | WA200003350 |
+| Office 365 clientes admitidos | Excel 2016 o posterior en Mac, Excel 2013 o posterior en Windows, Excel en la Web, Word 2016 o posterior en Mac, Word en la Web, Word 2013 o posterior en Windows |
 | Nombre de la empresa asociada | Auditboard, Inc. |
 | Sitio web de la empresa | [https://www.auditboard.com](https://www.auditboard.com) |
 | Términos de uso de la aplicación | [https://appsource.microsoft.com](https://appsource.microsoft.com) |
@@ -136,7 +136,6 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
 | ¿La aplicación almacena alguna credencial en el código? |  |

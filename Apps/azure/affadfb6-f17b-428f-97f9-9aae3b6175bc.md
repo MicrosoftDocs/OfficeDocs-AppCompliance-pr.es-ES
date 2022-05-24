@@ -3,17 +3,17 @@ title: App de Azure información de identificador de affadfb6-f17b-428f-97f9-9aa
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/21/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para affadfb6-f17b-428f-97f9-9aae3b6175bc.
-ms.openlocfilehash: cab777b6db964cd63fcf74af986078e2dbb18fce
-ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
+ms.openlocfilehash: 1be4c57f410fef1feca8bb0e267bd80c848ce933
+ms.sourcegitcommit: 92295c3ae2ea6543be22c92e741da0e494ada2b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65617215"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65639619"
 ---
 # <a name="azure-app-id-affadfb6-f17b-428f-97f9-9aae3b6175bc"></a>identificador de App de Azure: affadfb6-f17b-428f-97f9-9aae3b6175bc
 
