@@ -3,24 +3,24 @@ title: Información de la aplicación para TINYpulse por TINYpulse
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/18/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para TINYpulse, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: cb382f9ca989cd97f57d9ad72b8d60da1d245634
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 1bf60852826c1e186ccd0590ebca1a76ddcb97e9
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222481"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65692055"
 ---
 # <a name="tinypulse"></a>TINYpulse
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 10 de marzo de 2021</p>
+<p>Última actualización del desarrollador el 25 de mayo de 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/1950b3dc-66fc-4c5f-bbbe-e411ad91a49f" target="_blank">Visualización en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA104381729" target="_blank">Vista en AppSource</a>
@@ -37,10 +37,13 @@ Información proporcionada por TINYpulse a Microsoft:
 | ID | WA104381729 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | TINYpulse |
-| Dirección URL del sitio web del asociado | [https://www.tinypulse.com](https://www.tinypulse.com) |
-| Dirección URL de Teams página de información de la aplicación | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
-| Dirección URL de la directiva de privacidad | [https://www.tinypulse.com/privacy-policy](https://www.tinypulse.com/privacy-policy) |
-| Dirección URL de los términos de uso | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
+| Sitio web de la empresa | [https://www.tinypulse.com](https://www.tinypulse.com) |
+| Términos de uso de la aplicación | [https://www.tinypulse.com/terms-and-conditions](https://www.tinypulse.com/terms-and-conditions) |
+| Funcionalidad básica de la aplicación | Aplicación mejor clasificada para mejorar la cultura, el reconocimiento y evitar los puntos ciegos. |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://www.tinypulse.com/engage](https://www.tinypulse.com/engage) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Otro |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -52,82 +55,117 @@ Información proporcionada por TINYpulse a Microsoft:
 
 TINYpulse ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
-
-Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
-
->Esta aplicación no usa Microsoft Graph.
-
-
-#### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
-
-Si la aplicación transfiere o comparte datos de la organización con servicios que no son de Microsoft, enumere el servicio que no es de Microsoft que usa la aplicación, qué datos se transfieren e incluya una justificación para por qué la aplicación necesita transferir esta información.
-
->No se usan servicios Microsoft.
-
-#### <a name="data-access-via-bots"></a>Acceso a datos a través de bots
-
-Si esta aplicación contiene un bot o una extensión de mensajería, puede acceder a la información de identificación del usuario final (EUII): la lista (nombre, apellidos, nombre para mostrar, dirección de correo electrónico) de cualquier miembro del equipo de un equipo o chat al que se agregue. ¿Esta aplicación hace uso de esta funcionalidad?
-
->No se accede a ninguna EUII.
-
-
-#### <a name="telemetry-data"></a>Datos de telemetría
-
-¿Aparece información de identificación de la organización (OII) o información de identificación del usuario final (EUII) en los registros o telemetría de esta aplicación? Si es así, describir qué datos se almacenan y cuáles son las directivas de retención y eliminación?
-
->No aparece ninguna OII o EUII en los registros o telemetría de las aplicaciones.
-
-#### <a name="organizational-controls-for-data-stored-by-partner"></a>Controles organizativos para los datos almacenados por asociado
-
-¿Cómo los administradores de la organización pueden controlar su información en los sistemas asociados? Por ejemplo, eliminación, retención, auditoría, archivado, directiva de usuario final, etc.
-
->no compartimos nuestros datos con el sistema del asociado
-
-#### <a name="human-review-of-organizational-information"></a>Revisión humana de la información de la organización
-
-¿Están involucrados los seres humanos en la revisión o el análisis de datos de información de identificación organizativa (OII) recopilados o almacenados por esta aplicación?
-
->No
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Qué datos procesa la aplicación? | conversation_id, conversation_type, tenant_id, service_url, email, userPrincialName, user id, user object id (AADObjectId) |
+| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | conversation_id, conversation_type, tenant_id, service_url, email, userPrincialName, user id, user object id (AADObjectId) |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
+| ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 90 días |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="mcas"
+::: zone pivot="security"
 
 A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
 
-<iframe height='1020' title='información de Microsoft Cloud App Security' src='https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569' frameborder='no'></iframe>
-
-<a href="https://appmcasinfoprod.azurewebsites.net/#/dashboard/34569" target="_blank">Ver en una nueva pestaña</a>
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
+| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
+| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
+| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
+| ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | Sí |
+| ¿Tiene un firewall instalado en el límite de red externo? | Sí |
+| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
+| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
+| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
+| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
+| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
+| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
 
-::: zone pivot="identity"
-
-### <a name="identity-information"></a>Información de identidad
-
-TINYpulse ha proporcionado esta información sobre cómo esta aplicación controla la autenticación, la autorización, los procedimientos recomendados de registro de aplicaciones y otros criterios de identidad.
+::: zone pivot="compliance"
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Se integra con Microsoft Identify Platform (Azure AD)?  | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft?  | Sí |
-| ¿La aplicación usa MSAL (Biblioteca de autenticación de Microsoft) para la autenticación? | No |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
-| ¿Los permisos registrados estáticamente de la aplicación reflejan con precisión los permisos que la aplicación solicitará de forma dinámica e incremental? | Sí |
-| ¿La aplicación admite multiinquilino? | Sí |
-| ¿La aplicación tiene un cliente confidencial? | No |
-| ¿Posee todo el identificador de recursos unificado (URI) de redirección registrado para la aplicación? | Sí |
-| Para la aplicación, ¿qué evita usar? | - URI de redireccionamiento comodín,<br/>- Flow implícita de OAuth2, a menos que sea necesario para un SPA<br/>- Flujo de credenciales de contraseña del propietario de recursos (ROPC) |
-| ¿Expone la aplicación alguna API web? | No |
-| ¿La aplicación usa las API de versión preliminar? | No |
-| ¿La aplicación usa las API en desuso? | No |
+| ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | Sí |
+| ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | Sí |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
+| ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
+| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
 ::: zone-end
+
+::: zone pivot="privsection"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://www.tinypulse.com/privacy-policy |
+| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
+| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+
+::: zone pivot="zerotrust"
+
+| **Information** | **Respuesta** |
+|:----------------|:-------------|
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | No |
+| ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
+| ¿La aplicación almacena alguna credencial en el código? | No |
+| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+
+>Esta aplicación no usa Microsoft Graph.
+
+>Esta aplicación no tiene API adicionales.
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
+

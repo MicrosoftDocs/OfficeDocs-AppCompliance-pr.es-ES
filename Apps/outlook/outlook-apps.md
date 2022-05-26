@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook: todas las
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/20/2022
+ms.date: 05/25/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Outlook.
 localization_priority: Normal
-ms.openlocfilehash: 74c882322198ed13c983f5f38a3e4e28a7ff586b
-ms.sourcegitcommit: a615b7893956a0737e30e477d2870fd99e514ea5
+ms.openlocfilehash: 7cd0e6f2501b8715757f4d6fbbe214fb42ec18c3
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "65613443"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65692235"
 ---
 # <a name="microsoft-outlook-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft Outlook
 
@@ -23,6 +23,7 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 |:--------|:------------|:----------------------:|:-------------:|
 | [Adobe Acrobat Sign para Microsoft Outlook](./adobe-inc-acrobat-sign-for-microsoft-outlook.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Calendarios de contactos aprobados](./approved-contact-calendars.md) | Contacto aprobado | **✓** |  |
+| [Espacio de aplicaciones para Outlook](./appspace-inc-for-outlook.md) | Appspace, Inc | **✓** |  |
 | [Aumentar mi correo](./boost-my-mail.md) | Aumentar mi correo | **✓** |  |
 | [Firma de CI](./ci-solution-gmbh-signature.md) | ci solution GmbH | **✓** |  |
 | [CodeTwo para Outlook](./codetwo-for-outlook.md) | CodeTwo | **✓** |  |

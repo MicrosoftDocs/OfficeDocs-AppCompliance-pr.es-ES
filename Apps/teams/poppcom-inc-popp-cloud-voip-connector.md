@@ -1,49 +1,49 @@
 ---
-title: Información de la aplicación para qChange Leader Experience by qChange Software Solution, Inc.
+title: Información de la aplicación para POPP Cloud VoIP Connector by POPP.Com, Inc
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/12/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para qChange Leader Experience, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para POPP Cloud VoIP Connector, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 2c681007f0fb8b398e60b19b095bf1274de883d6
+ms.openlocfilehash: d5ccc3615b47d4ef8c1f1ff8540d1c7192abd792
 ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/26/2022
-ms.locfileid: "65691405"
+ms.locfileid: "65692402"
 ---
-# <a name="qchange-leader-experience"></a>qChange Leader Experience
+# <a name="popp-cloud-voip-connector"></a>Conector de voz sobre IP (VoIP) en la nube de POPP
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 20 de abril de 2021</p>
+<p>Última actualización del desarrollador: 20 de septiembre de 2021</p>
 
-* <a href="https://teams.microsoft.com/l/app/32dbfdc9-7832-4969-ad02-77a4902fae35" target="_blank">Visualización en Teams almacén</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001639" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/b8e57f6b-31cf-468e-9e99-81f0395cb1f9" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003306" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por qChange Software Solution, Inc. a Microsoft:
+Información proporcionada por POPP.Com, Inc a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | qChange Leader Experience |
-| ID | WA200001639 |
+| Nombre de la aplicación | Conector de voz sobre IP (VoIP) en la nube de POPP |
+| ID | WA200003306 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | qChange Software Solution, Inc. |
-| Sitio web de la empresa | [https://qchange.com](https://qchange.com) |
-| Términos de uso de la aplicación | [https://www.qchange.com/terms-of-service](https://www.qchange.com/terms-of-service) |
-| Funcionalidad básica de la aplicación | LX es la manera más rápida de guiar y aumentar el liderazgo en todos, por lo que las reuniones y la cultura son mejores. |
+| Nombre de la empresa asociada | POPP.Com, Inc |
+| Sitio web de la empresa | [https://popp.com](https://popp.com) |
+| Términos de uso de la aplicación | [https://popp.com/pvnterms/](https://popp.com/pvnterms/) |
+| Funcionalidad básica de la aplicación | Realizar llamadas desde Microsoft Teams mediante el cliente MaxUC |
 | Ubicación de la sede central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | [https://www.qchange.com/leader-experience](https://www.qchange.com/leader-experience) |
+| Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | AWS, Mongodb, Azure |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,7 +53,7 @@ Información proporcionada por qChange Software Solution, Inc. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Esta información ha sido proporcionada por qChange Software Solution, Inc. sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Esta información ha sido proporcionada por POPP.Com, Inc sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -71,7 +71,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | No |
-| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
+| ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
 | ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? |  |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? |  |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
@@ -100,21 +100,18 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | Sí |
-| Fecha de certificación de SOC1 más reciente | 2020-09-30 |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
-| Fecha de certificación de SOC2 más reciente | 2020-09-30 |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | Sí |
-| Fecha de certificación de SOC3 más reciente | 2020-04-01 |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
 | ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | Sí |
-| ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | Sí |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
+| ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
+| ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
 | ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
 | ¿La aplicación cumple con NIST 800-171? |  |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
@@ -137,20 +134,23 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
-| ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
+| ¿La aplicación admite directivas de acceso condicional? | Sí |
+| Enumerar los tipos de directivas admitidas | Directivas de acceso condicional en la medida en que dicha compatibilidad la proporciona automáticamente la biblioteca MSAL que se usa para la autenticación.  |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
 | ¿La aplicación almacena alguna credencial en el código? |  |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
 >|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegado | Información y avatar del calendario de usuario | c35f7dcf-1079-4510-a6ec-1f69659c98c1 32dbfdc9-7832-4969-ad02-77a4902fae35 |
+>| ChannelMember.Read.All | Delegado | Identificadores de usuario y nombres para mostrar de los miembros del canal actual. La aplicación usa esto para presentar al usuario una lista de miembros del canal a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| Chat.Read | Delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Identificadores de usuario y nombres para mostrar de los miembros del chat actual. La aplicación usa esto para presentar al usuario una lista de miembros de chat a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| TeamMember.Read.All | Delegado | Identificadores de usuario y nombres para mostrar de los miembros del equipo actual. La aplicación usa esto para presentar al usuario una lista de miembros del equipo a los que llamar. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| User.Read.All | Delegado |  ¿Qué datos se recopilan o usan? Agregue una justificación para recopilar o usar los datos. Los números de teléfono móvil y de negocio de los usuarios. Esto es necesario para que se puedan iniciar llamadas telefónicas a estos números. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
+>| OpenID | Delegado | Un token de autorización para el usuario, autorizando a la aplicación a acceder a los demás puntos de conexión Graph API enumerados en su nombre. | [b8e57f6b-31cf-468e-9e99-81f0395cb1f9](../azure/b8e57f6b-31cf-468e-9e99-81f0395cb1f9.md) |
 
 >Esta aplicación no tiene API adicionales.
 
