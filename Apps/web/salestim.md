@@ -1,19 +1,20 @@
 ---
 title: Información de la aplicación para SalesTim
 ms.author: elmalova
+manager: tonybal
 author: elenamalova
 ms.date: 06/24/2021
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
+description: Revise toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: 9fce7871fc306b19170cddb2d1524ef7a82a01f4
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: 9bf1f4057ad73ba33a8ae3ba0ff02c74851cdecf
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222441"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688125"
 ---
 # <a name="application-information-for-salestim-by-salestim"></a>Información de la aplicación para SalesTim by SalesTim
 
@@ -34,7 +35,7 @@ Información proporcionada por SalesTim a Microsoft:
 | Nombre de la aplicación | SalesTim |
 | ID | salestim.salestim |
 | Nombre de la empresa asociada | SalesTim |
-| Dirección URL del sitio web del asociado | [https://salestim.com](https://salestim.com) |
+| Dirección URL del sitio web del asociado | [https://nbold.co/](https://nbold.co/) |
 | Dirección URL de la directiva de privacidad | [https://www.salestim.com/legal/privacy/](https://www.salestim.com/legal/privacy/) |
 | Dirección URL de los términos de uso | [https://www.salestim.com/legal/tos/](https://www.salestim.com/legal/tos/) |
 
@@ -52,7 +53,7 @@ SalesTim ha proporcionado esta información sobre cómo esta aplicación recopil
 
 Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado/aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
 >|:----------------|:--------------------|:---------------------------------------------------|:--------------------------|:--------------------------|
 >| AppCatalog.ReadWrite.All | Delegado | NO | Permitir que la aplicación instale y actualice sus propios paquetes en el catálogo de aplicaciones corporativo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |
 >| Directory.AccessAsUser.All | Delegado | Solo se&#8217;almacenar algunos identificadores de usuarios, no datos de perfil. | Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | 2a651f59-97ce-42bb-97d7-cf7a2af4b635 |

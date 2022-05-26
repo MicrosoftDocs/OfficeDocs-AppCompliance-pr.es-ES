@@ -7,14 +7,14 @@ ms.date: 06/04/2021
 ms.topic: article
 ms.service: attestation
 certification_type: certified
-description: Toda la información de seguridad y cumplimiento disponible para Workboard, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Revise toda la información de seguridad y cumplimiento disponible para Workboard, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-mcas-identity
-ms.openlocfilehash: b20a6e58680109d719fca48cf8f2152c9239026a
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: ccf27f1fa0c6db96446fc0fa7afc686fe2a49e20
+ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65222461"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65688105"
 ---
 # <a name="application-information-for-workboard"></a>Información de la aplicación para Workboard
 
@@ -55,9 +55,9 @@ Workboard ha proporcionado esta información sobre cómo esta aplicación recopi
 
 Enumere los [permisos de Microsoft Graph](/graph/permissions-reference) que requiere esta aplicación.
 
->| **Permiso**  | **Tipo de permiso (delegado o aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Azure AD id. de aplicación** |
+>| **Permiso**  | **Tipo de permiso (delegado o aplicación)** | **¿Se recopilan datos? ¿Justificación para recopilarlo?** | **¿Se almacenan los datos? ¿Justificación para almacenarlo?** | **Identificador de aplicación de Azure AD** |
 >|:----------------|:------------------------------------------------|:--------------------------------------------------------|:--------------------------------------------------|:--------------------|
->| User.Read | Delegado | dirección de correo electrónico y los identificadores de los usuarios.  Se usa para asignar el usuario al identificador de usuario de WorkBoard | WorkBoard solo almacena la identidad del usuario en sus bases de datos. | [User.Read](/microsoft-365-app-certification/azure/User.Read) |
+>| User.Read | Delegado | dirección de correo electrónico y los identificadores de los usuarios.  Se usa para asignar el usuario al identificador de usuario de WorkBoard | WorkBoard solo almacena la identidad del usuario en sus bases de datos. | [User.Read](/graph/permissions-reference#user-permissions) |
 
 
 #### <a name="non-microsoft-services-used"></a>No servicios Microsoft se usa
