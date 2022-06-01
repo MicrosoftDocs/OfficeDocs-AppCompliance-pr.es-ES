@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft SharePoint: todas 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/25/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: b277edc0ba48acb512169eb9ef7f2cdedb8dbf51
-ms.sourcegitcommit: ef767e1079411056cb3ca86d6b29084e31b0ef1c
+ms.openlocfilehash: 1fe7f65bb84632fb0ec1e07e18d46088f69ef4ed
+ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "65689655"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65818388"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft SharePoint
 
@@ -21,6 +21,7 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
+| [4Mata](./cloudignite-llc-4mata.md) | CLOUDIGNITE LLC | **✓** |  |
 | [Adobe Acrobat Sign para Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Panel de tareas de Agile para SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
 | [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
