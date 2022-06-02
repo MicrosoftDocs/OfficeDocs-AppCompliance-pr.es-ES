@@ -358,7 +358,7 @@ items:
         href: teams/brightcove-inc-video-connect.md
       - name: Brightidea
         href: teams/brightidea.md
-      - name: Broadcast
+      - name: Difusión
         href: teams/cerkl-broadcast.md
       - name: Brochesia
         href: teams/brochesia.md
@@ -422,7 +422,7 @@ items:
         href: teams/atlassian-confluence-cloud.md
       - name: Connector de confluencia MWF
         href: teams/move-work-forward-confluence-connector-by-mwf.md
-      - name: Conectar+
+      - name: Conéctese+
         href: teams/reward-gateway-connectplus.md
       - name: Centro de contactos | ROGER365.io
         href: teams/roger365io-contact-centerroger365io.md
@@ -718,6 +718,8 @@ items:
         href: teams/ernst-klett-verlag-gmbh.md
       - name: Koan
         href: teams/koan-inc.md
+      - name: Salas de reuniones de Kuban
+        href: teams/kuban-meeting-rooms.md
       - name: KUDO
         href: teams/kudo-inc.md
       - name: Kudozza
