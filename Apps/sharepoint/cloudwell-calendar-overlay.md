@@ -3,24 +3,24 @@ title: Información de la aplicación para la superposición de calendario por C
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 03/10/2022
+ms.date: 06/06/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para la superposición de calendarios, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para la superposición de calendarios, sus directivas de control de datos, su información del catálogo de aplicaciones de Microsoft Cloud App Security e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: e98ea9e1131121d82c9b8a41eb336000c464e8c6
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 98207f2c5b4e21d005e3717784396f02d935ac1c
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64877377"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65936437"
 ---
 # <a name="calendar-overlay"></a>Superposición de calendario
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 10 de marzo de 2022</p>
+<p>Última actualización del desarrollador: 6 de junio de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003806" target="_blank">Vista en AppSource</a>
 
@@ -34,7 +34,7 @@ Información proporcionada por Cloudwell a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Superposición de calendario |
 | Id. | WA200003806 |
-| Office 365 clientes admitidos | SharePoint 2016 o posterior |
+| Clientes de Office 365 admitidos | SharePoint 2016 o posterior |
 | Nombre de la empresa asociada | Cloudwell |
 | Sitio web de la empresa | [https://cloudwell.io](https://cloudwell.io) |
 | Términos de uso de la aplicación | [https://cwlicensingprod.blob.core.windows.net/termsofuse/St...](https://cwlicensingprod.blob.core.windows.net/termsofuse/StandardContractMarch2019.pdf) |
@@ -57,10 +57,10 @@ Cloudwell ha proporcionado esta información sobre cómo esta aplicación recopi
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Dirección de correo electrónico de usuario, id. de inquilino de usuario |
+| ¿Qué datos procesa la aplicación? | Identificación del inquilino |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | Dirección de correo electrónico de usuario, id. de inquilino de usuario |
+| ¿Qué datos se almacenan en las bases de datos? | Identificación del inquilino |
 | Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 30 días |
@@ -73,7 +73,7 @@ Cloudwell ha proporcionado esta información sobre cómo esta aplicación recopi
 
 ::: zone pivot="security"
 
-A continuación se muestra información del catálogo [de Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security).
+A continuación se muestra información del catálogo de [Microsoft Cloud App Security](https://www.microsoft.com/enterprise-mobility-security/cloud-app-security) .
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
@@ -142,13 +142,12 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de la plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
 >Esta aplicación no usa Microsoft Graph.
 
