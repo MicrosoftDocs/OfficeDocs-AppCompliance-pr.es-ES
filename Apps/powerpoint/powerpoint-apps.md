@@ -3,21 +3,21 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft PowerPoint: todas 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/04/2022
+ms.date: 06/04/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft PowerPoint.
 localization_priority: Normal
-ms.openlocfilehash: 5932469047da328b67a809f3e5648d3499b6d1c6
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: e5690af50d68eed9fce5bd714be73b2e974cc0e3
+ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65226594"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65935247"
 ---
 # <a name="microsoft-powerpoint-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft PowerPoint
 
-Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones y complementos de Microsoft PowerPoint que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones y complementos de Microsoft PowerPoint que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -32,4 +32,3 @@ Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para
 | [officeatwork: selector de plantillas para Office](./officeatwork-officeatworktemplate-chooser-for-office.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Showmaster](./cherryware-showmaster.md) | cherryware | **✓** |  |
 | [Showmaster (complemento auxiliar)](./cherryware-showmaster-helper-plugin.md) | cherryware | **✓** |  |
-| [SlideHub](./nomorehours-slidehub.md) | nomorehours | **✓** |  |
