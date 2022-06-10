@@ -1,25 +1,25 @@
 ---
-title: 'Seguridad y cumplimiento de los identificadores de aplicación de Azure: todas las aplicaciones'
+title: 'Seguridad y cumplimiento de los identificadores de App de Azure: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2022
+ms.date: 06/09/2022
 ms.topic: article
 ms.service: attestation
-description: Toda la información de seguridad y cumplimiento disponible para todos los identificadores de aplicación de Azure.
+description: Toda la información de seguridad y cumplimiento disponible para todos los identificadores de App de Azure.
 localization_priority: Normal
-ms.openlocfilehash: 5d6ccac4a607a1e8f65daf9491ff3c82da7b7ccd
-ms.sourcegitcommit: 6f2b3870f4d541dcbd5bb8312c05bfc2ea351a77
+ms.openlocfilehash: db27a71ac4bb09e82f536462ba979385fcdd3328
+ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/09/2022
-ms.locfileid: "65967220"
+ms.locfileid: "65975594"
 ---
-# <a name="azure-app-ids-security-and-compliance"></a>Seguridad y cumplimiento de los identificadores de aplicación de Azure
+# <a name="azure-app-ids-security-and-compliance"></a>Seguridad y cumplimiento de los identificadores de App de Azure
 
-Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre los identificadores de aplicación de Azure y los complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre los identificadores y complementos de App de Azure que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
-| **Identificador de aplicación de Azure** | **Editor atestado** | **Certificado** |
+| **id. de App de Azure** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:-------------:|
 | [00485db5-81b3-4299-833a-8d6c366d0ac0](./00485db5-81b3-4299-833a-8d6c366d0ac0.md) | **✓** |  |
 | [00738e07-f9a4-4bf5-b6f9-851ec7ea31d5](./00738e07-f9a4-4bf5-b6f9-851ec7ea31d5.md) | **✓** |  |
