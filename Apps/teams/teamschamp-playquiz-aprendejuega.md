@@ -3,24 +3,24 @@ title: Información de la aplicación para PlayQuiz - Aprende &amp; Juega de Tea
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/08/2021
+ms.date: 06/13/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para PlayQuiz - Aprende &amp; Juega, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: b17a0f893ae80cbdbb8d94b65e1fc34e338789b7
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: 061791c8cd12277dc1f45af2643b9dfdae3c8c8e
+ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64878157"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66076341"
 ---
 # <a name="playquiz---aprende-amp-juega"></a>PlayQuiz - Aprende &amp; Juega
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 11 de mayo de 2021</p>
+<p>Última actualización del desarrollador el 10 de junio de 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/d36eac22-ff28-4392-9ba7-6e32151b9894" target="_blank">Visualización en Teams almacén</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200002820" target="_blank">Vista en AppSource</a>
@@ -34,7 +34,7 @@ Información proporcionada por TeamsChamp a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | PlayQuiz - Aprende &amp; Juega |
-| Id. | WA200002820 |
+| ID | WA200002820 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | TeamsChamp |
 | Sitio web de la empresa | [https://www.encamina.com](https://www.encamina.com) |
@@ -42,8 +42,7 @@ Información proporcionada por TeamsChamp a Microsoft:
 | Funcionalidad básica de la aplicación | PlayQuiz es una aplicación de Gamification en la que el usuario puede responder 3 preguntas al día desde Microsoft 365 ecosistema para &#8220;ganar&#8221; puntos de conocimiento digitales. El usuario podrá ver la tabla de clasificación de la empresa para descubrir quién es el mejor campeón M365 de la empresa. Al incluir la gamificación en la empresa, los usuarios obtienen información sobre los procedimientos recomendados para usar herramientas de Microsoft 365. Además, el administrador podrá agregar sus preguntas personalizadas al sistema para crear campañas centradas en un tema específico. |
 | Ubicación de la sede central de la empresa | España |
 | Página de información de la aplicación | [https://www.teamsquiz.com](https://www.teamsquiz.com) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? |  |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,8 +56,14 @@ TeamsChamp ha proporcionado esta información sobre cómo esta aplicación recop
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? |  |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? |  |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | direcci&#243;n de correo electr&#243;nico, nombre y apellido |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | España |
+| ¿Tiene un proceso establecido de alquiler y eliminación de datos? | No |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | No se conserva |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,23 +77,24 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | No |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | No |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? |  |
-| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? |  |
-| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
-| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? |  |
-| ¿Su entorno tiene software o sistemas operativos no admitidos? |  |
-| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? |  |
-| ¿Tiene un firewall instalado en el límite de red externo? |  |
-| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? |  |
-| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
-| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? |  |
-| Autenticación multifactor (MFA) habilitada para: |  |
-| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? |  |
-| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? |  |
-| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? |  |
-| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
+| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
+| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
+| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | No |
+| ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
+| ¿Tiene un firewall instalado en el límite de red externo? | No |
+| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
+| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | No |
+| Autenticación multifactor (MFA) habilitada para: | Credential |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | No |
+| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | No |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | No |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -112,7 +118,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación cumple con NIST 800-171? | N/D |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -123,7 +129,17 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? |  |
+| ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
+| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://www.theplayquiz.com/procesamiento-de-datos/ |
+| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | N/D |
+| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | N/D |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -135,22 +151,20 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | No |
-| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
-| ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
-| ¿La aplicación almacena alguna credencial en el código? |  |
+| ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
+| ¿La aplicación almacena alguna credencial en el código? | No |
 | Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
+>|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| User.Read | Delegado | Nombre, correo electrónico e imagen de perfil del usuario | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
->| User.ReadBasic.All | Delegado | Nombre, correo electrónico e imagen de perfil | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
->| OpenID | Delegado | ver el perfil básico del usuario | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
->| perfil | Delegado | Leer el perfil básico del usuario | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| User.Read | Delegado | Acceder a los datos del usuario (email, nombre y apellido) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| User.ReadBasic.All | Delegado | Acceder a los datos de los compa&#241;eros del usuario principal (email, nombre y apellido) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| OpenID | Delegado | Recibir identificador del usuario | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
+>| perfil | Delegado | obtener la foto a la hora de compartirlo en teams (nombre de imagen y nombre de usuario) | [f3277edf-4f66-4e94-853b-cc1f1e2914f8](../azure/f3277edf-4f66-4e94-853b-cc1f1e2914f8.md) |
 
 >Esta aplicación no tiene API adicionales.
 
