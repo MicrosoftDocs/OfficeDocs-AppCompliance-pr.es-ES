@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/14/2022
+ms.date: 06/15/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 2ebf1d7ad0ccbd4a34e05d6f627cdbae74a9cab2
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 9cdf75c39ae9b7081c05934ed70d34f3ae656e90
+ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076331"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66111318"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -63,7 +63,6 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Aula Digital](./leya-sa-aula-digital.md) | Leya, S.A. | **✓** |  |
 | [Flujos de trabajo de Autopilot](./autopilot-workflow-solutions-workflows.md) | Soluciones de flujos de trabajo de Autopilot | **✓** |  |
 | [Asistente de IT de Avaamo](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
-| [Axelleron](./axelleron.md) | Axelleron | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Decision Point | **✓** |  |
@@ -481,6 +480,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [lugares de ti8m](./tim-ag-ti8m-places.md) | ti &amp; m AG | **✓** |  |
 | [Ticketing As A Service](./kitameraki-limited-ticketing-as-a-service.md) | kitameraki limited | **✓** |  |
 | [Tikit](./cireson-tikit.md) | Cireson | **✓** |  |
+| [tiLly](./tilly-group-limited.md) | Tilly Group Limited | **✓** |  |
 | [TimeClock 365](./softsale-timeclock-365.md) | Softsale | **✓** |  |
 | [timeghost: Seguimiento de tiempo](./timeghostio-timeghost-time-tracking.md) | timeghost.io | **✓** |  |
 | [Timeneye](./dm-digital-srl-timeneye.md) | DM Digital SRL | **✓** |  |
@@ -504,6 +504,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Vonage Business Communications](./vonage-business-communications.md) | Vonage | **✓** |  |
 | [Vtiger CRM](./vtiger-crm.md) | Vtiger | **✓** |  |
 | [Waldo](./kickle-waldo.md) | Kickle | **✓** |  |
+| [Wanda](./unit4-business-software-wanda.md) | Unit4 Business Software | **✓** |  |
 | [Wats](./skillbase-wats.md) | Skillbase | **✓** |  |
 | [Wazoku](./wazoku.md) | Wazoku | **✓** |  |
 | [Webdashboard](./in-summa-webdashboard.md) | In Summa | **✓** |  |
@@ -534,6 +535,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [yuccaHR](./yucca-technologies-gmbh-yuccahr.md) | Yucca Technologies GmbH | **✓** |  |
 | [Zero Time Bot](./replicon-zero-time-bot.md) | Replicon | **✓** |  |
 | [Zignals](./alight-consulting-gmbh-zignals.md) | Alight Consulting GmbH | **✓** |  |
+| [Zoho CRM](./zoho-corporation-pvt-ltd-crm.md) | Zoho Corporation Pvt Ltd | **✓** |  |
 | [Zoho Desk](./zoho-corporation-private-limited-desk.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Notebook](./zoho-corporation-private-limited-notebook.md) | Zoho Corporation Private Limited | **✓** |  |
 | [Zoho Sign](./zoho-corporation-private-limited-sign.md) | Zoho Corporation Private Limited | **✓** |  |
