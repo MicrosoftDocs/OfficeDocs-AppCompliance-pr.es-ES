@@ -6,7 +6,7 @@ items:
     items:
       - name: Información general
         href: overview.md
-      - name: ¿Qué es la verificación Publisher?
+      - name: ¿Qué es la verificación del publicador?
         href: /azure/active-directory/develop/publisher-verification-overview
       - name: ¿Qué es la certificación Microsoft 365?
         href: docs/enterprise-app-certification-guide.md
@@ -169,8 +169,8 @@ items:
   - name: Aplicaciones de Microsoft SharePoint
     href: sharepoint/sharepoint-apps.md
     items:
-      - name: 4Mata
-        href: sharepoint/cloudignite-llc-4mata.md
+      - name: '4Mata: Diseñador de formato de lista'
+        href: sharepoint/cloudignite-llc-4mata-list-formatting-designer.md
       - name: Adobe Acrobat Sign para Microsoft Office SharePoint Online
         href: sharepoint/adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md
       - name: Panel de tareas de Agile para SharePoint Online
@@ -189,7 +189,7 @@ items:
         href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
       - name: HelloSign para SharePoint
         href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
-      - name: Ichicraft Boards- Su área de trabajo digital
+      - name: 'Ichicraft Boards : su área de trabajo digital'
         href: sharepoint/ichicraft-bv-boards-your-digital-workplace.md
       - name: Complementos de iGlobe CRM
         href: sharepoint/iglobe-crm-add-ons.md
@@ -306,8 +306,6 @@ items:
         href: teams/autopilot-workflow-solutions-workflows.md
       - name: Asistente de IT de Avaamo
         href: teams/avaamo-it-assistant.md
-      - name: Axelleron
-        href: teams/axelleron.md
       - name: Axis
         href: teams/axis-workshops-ltd.md
       - name: B12
@@ -1118,7 +1116,7 @@ items:
         href: teams/teamschamp.md
       - name: TeamSticker by Communitio
         href: teams/communitio-corporation-teamsticker-by.md
-      - name: Trabajo en equipo
+      - name: Teamwork
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1142,6 +1140,8 @@ items:
         href: teams/kitameraki-limited-ticketing-as-a-service.md
       - name: Tikit
         href: teams/cireson-tikit.md
+      - name: Tilly
+        href: teams/tilly-group-limited.md
       - name: TimeClock 365
         href: teams/softsale-timeclock-365.md
       - name: 'timeghost: Seguimiento de tiempo'
@@ -1188,6 +1188,8 @@ items:
         href: teams/vtiger-crm.md
       - name: Waldo
         href: teams/kickle-waldo.md
+      - name: Wanda
+        href: teams/unit4-business-software-wanda.md
       - name: Wats
         href: teams/skillbase-wats.md
       - name: Wazoku
@@ -1248,6 +1250,8 @@ items:
         href: teams/replicon-zero-time-bot.md
       - name: Zignals
         href: teams/alight-consulting-gmbh-zignals.md
+      - name: Zoho CRM
+        href: teams/zoho-corporation-pvt-ltd-crm.md
       - name: Zoho Desk
         href: teams/zoho-corporation-private-limited-desk.md
       - name: Zoho Notebook
@@ -1275,7 +1279,7 @@ items:
         href: word/docusign-inc-for-word.md
       - name: Automatización de documentos de Excel a Word
         href: word/analysisplace-excel-to-word-document-automation.md
-      - name: Complemento fabasoft Cloud Office
+      - name: Complemento de Office en la nube de Fabasoft
         href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
       - name: 'FD Mxmn: importación de datos empresariales'
         href: word/maximon-ltd-fd-mxmn-import-business-data.md
@@ -1330,7 +1334,7 @@ items:
         href: saas/adobe-acrobat-sign-for-microsoft-365.md
       - name: Consola de operador anywhere365 para Microsoft Teams
         href: saas/workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md
-      - name: Centro de contacto de Anywhere365 para Teams
+      - name: Centro de contactos de Anywhere365 para Teams
         href: saas/workstreampeople-bv-anywhere365-contact-center-for-teams.md
       - name: Centro de contactos de Buzzeasy para Teams
         href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
@@ -1358,7 +1362,7 @@ items:
         href: saas/emailgistics-corp.md
       - name: EmailNotes para Outlook
         href: saas/standss-south-pacific-pte-limited-emailnotes-for-outlook.md
-      - name: Integración de genesys Cloud CX Teams
+      - name: Integración de Genesys Cloud CX Teams
         href: saas/genesys-cloud-services-inc-cx-teams-integration.md
       - name: Centro de contactos de hielo
         href: saas/computertalk-ice-contact-center.md
@@ -1380,6 +1384,8 @@ items:
         href: saas/officeatwork-mail-signature.md
       - name: 'MIPA: Mi asistente personal inteligente'
         href: saas/iglobe-mipa-my-intelligent-personal-assistant.md
+      - name: ModuleQ
+        href: saas/moduleq.md
       - name: MURAL
         href: saas/mural.md
       - name: MyHub para Teams
@@ -1392,7 +1398,7 @@ items:
         href: saas/iglobe-office2sharepoint-for-teams.md
       - name: Detección de Onna para MS365
         href: saas/onna-discovery-for-ms365.md
-      - name: Directivas y Ideas para Microsoft Office 365
+      - name: Directivas e información para Microsoft Office 365
         href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
       - name: Priority Matrix
         href: saas/appfluence-inc-priority-matrix.md
@@ -1404,7 +1410,7 @@ items:
         href: saas/salestim.md
       - name: Selector de diapositivas
         href: saas/officeatwork-slide-chooser.md
-      - name: Storm Cloud Contact Center Teams Integration
+      - name: Integración de Storm Cloud Contact Center Teams
         href: saas/content-guru-storm-cloud-contact-center-teams-integration.md
       - name: Talkdesk Microsoft Teams Connector
         href: saas/talkdesk-inc-microsoft-teams-connector.md
@@ -1414,7 +1420,7 @@ items:
         href: saas/officeatwork-template-chooser.md
       - name: Explorador del selector de plantillas
         href: saas/officeatwork-template-chooser-browser.md
-      - name: Grabación y cumplimiento de Theta Lake para vídeo de Teams
+      - name: Grabación y cumplimiento de Theta Lake para el vídeo de Teams
         href: saas/theta-lake-recordingcompliance-for-teams-video.md
       - name: Usuario de carga
         href: saas/officeatwork-uploader.md

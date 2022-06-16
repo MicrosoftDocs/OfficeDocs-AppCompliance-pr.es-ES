@@ -3,28 +3,28 @@ title: 'Seguridad y cumplimiento de Aplicaciones de Microsoft SharePoint: todas 
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/06/2022
+ms.date: 06/15/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft SharePoint.
 localization_priority: Normal
-ms.openlocfilehash: c04a38d78149c3c7cec3160cea24d7872b9b5a25
-ms.sourcegitcommit: 238dca97a9cdafa78d63e74993ddfe91423fde4d
+ms.openlocfilehash: 0ad39778f4880151442e5bee9cb393e15907ff1d
+ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65938437"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66110328"
 ---
 # <a name="microsoft-sharepoint-apps-security-and-compliance"></a>Seguridad y cumplimiento de Aplicaciones de Microsoft SharePoint
 
-Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre aplicaciones y complementos de Microsoft SharePoint que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros Microsoft 365 asociados para desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar a las decisiones sobre aplicaciones y complementos de Microsoft SharePoint que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
-| [4Mata](./cloudignite-llc-4mata.md) | CLOUDIGNITE LLC | **✓** |  |
-| [Adobe Acrobat Sign para Microsoft SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
+| [4Mata: Diseñador de formato de lista](./cloudignite-llc-4mata-list-formatting-designer.md) | CLOUDIGNITE LLC | **✓** |  |
+| [Adobe Acrobat Sign para Microsoft Office SharePoint Online](./adobe-inc-acrobat-sign-for-microsoft-sharepoint-online.md) | Adobe Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Panel de tareas de Agile para SharePoint Online](./agile-is-task-board-for-sharepoint-online.md) | Agile-IS | **✓** |  |
-| [ArcGIS para SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
+| [ArcGIS for SharePoint](./esri-inc-arcgis-for-sharepoint.md) | Esri, Inc. | **✓** |  |
 | [Sistema de administración de ofertas](./beyond-technologies-bid-management-system.md) | Más allá de las tecnologías | **✓** |  |
 | [Bizagi Webparts](./bizagi-team-webparts.md) | Equipo de Bizagi | **✓** |  |
 | [Superposición de calendario](./cloudwell-calendar-overlay.md) | Cloudwell | **✓** |  |
@@ -35,14 +35,14 @@ Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 p
 | [Complementos de iGlobe CRM](./iglobe-crm-add-ons.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [iGlobe CRM Office 365 para Microsoft Office 365](./iglobe-crm-office-365-for-microsoft.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Konnect eMail Parser](./konnect-email-parser.md) | Konnect eMail | **✓** |  |
-| [Conexiones Viva de LifeWorks](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
+| [LifeWorks Conexiones Viva](./lifeworks-inc-viva-connections.md) | Lifeworks Inc | **✓** |  |
 | [Lightning Tools Lightning Conductor](./lightning-tools-conductor.md) | Herramientas Lightning | **✓** |  |
 | [officeatwork: selector de plantillas para SharePoint](./officeatwork-officeatworktemplate-chooser-for-sharepoint.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Colaboración de Power BI](./ataira-power-bi-collaboration.md) | Ataira | **✓** |  |
-| [Administración de entrenamiento de empleados de SharePoint-sapiens](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
-| [Administración de eventos de SharePoint-sapiens](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
-| [Interfaz de usuario moderna de SharePoint-sapiens](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
+| [SharePoint-sapiens Employee Training Management](./sharepointsapiens-employee-training-management.md) | SharePointSapiens | **✓** |  |
+| [Administración de eventos SharePoint-sapiens](./sharepointsapiens-event-management.md) | SharePointSapiens | **✓** |  |
+| [interfaz de usuario moderna de SharePoint-sapiens](./sharepointsapiens-modern-user-interface.md) | SharePointSapiens | **✓** |  |
 | [Reserva de eventos más inteligente](./smarter-business-solutions-gmbh-event-booking.md) | Smarter Business Solutions GmbH | **✓** |  |
 | [Foros de discusión cuadrada social](./lightning-tools-social-squared-discussion-forums.md) | Herramientas Lightning | **✓** |  |
 | [Taxonomía](./accuracy-software-inc-taxonomy.md) | Accuracy Software Inc. | **✓** |  |
-| [Inicio de sesión de Zynyo para SharePoint Online](./zynyo-sign-for-sharepoint-online.md) | Zynyo | **✓** |  |
+| [Zynyo Sign for SharePoint Online](./zynyo-sign-for-sharepoint-online.md) | Zynyo | **✓** |  |
