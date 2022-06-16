@@ -3,17 +3,17 @@ title: App de Azure información de identificador de dae2eacf-3eb5-4440-baff-984
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/14/2022
+ms.date: 06/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para dae2eacf-3eb5-4440-baff-984fbd5cae68.
-ms.openlocfilehash: 804d424d73436c081c81dcd870940fe6935f73be
-ms.sourcegitcommit: b6dd040770330d4499a0e19998f909be31b67c34
+ms.openlocfilehash: 7010d9e3e2c8df1f22c4c7c276bb9b2c3df2f7d2
+ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "66076141"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66112928"
 ---
 # <a name="azure-app-id-dae2eacf-3eb5-4440-baff-984fbd5cae68"></a>id. de App de Azure: dae2eacf-3eb5-4440-baff-984fbd5cae68
 
@@ -28,5 +28,5 @@ ms.locfileid: "66076141"
 | [officeatwork: selector de plantillas para SharePoint](../forward/WA200001923.md) | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> | [https://appsource.microsoft.com/product/office/WA200001923](https://appsource.microsoft.com/product/office/WA200001923) |
 
 ### <a name="microsoft-365-app-compliance-status"></a>Microsoft 365 estado de cumplimiento de la aplicación
-- Publisher Estado de Attestaton: Completado
+- Estado de Attestaton del publicador: completado
 - certificación Microsoft 365: aprobada (25/01/2022)
