@@ -6,7 +6,7 @@ items:
     items:
       - name: Información general
         href: overview.md
-      - name: ¿Qué es la verificación del publicador?
+      - name: ¿Qué es la verificación Publisher?
         href: /azure/active-directory/develop/publisher-verification-overview
       - name: ¿Qué es la certificación Microsoft 365?
         href: docs/enterprise-app-certification-guide.md
@@ -189,7 +189,7 @@ items:
         href: sharepoint/enterprise-digital-machines-pty-ltd-formmachines-connector-for-sharepoint.md
       - name: HelloSign para SharePoint
         href: sharepoint/dropbox-inc-hellosign-for-sharepoint.md
-      - name: 'Ichicraft Boards : su área de trabajo digital'
+      - name: Ichicraft Boards- Su área de trabajo digital
         href: sharepoint/ichicraft-bv-boards-your-digital-workplace.md
       - name: Complementos de iGlobe CRM
         href: sharepoint/iglobe-crm-add-ons.md
@@ -1279,7 +1279,7 @@ items:
         href: word/docusign-inc-for-word.md
       - name: Automatización de documentos de Excel a Word
         href: word/analysisplace-excel-to-word-document-automation.md
-      - name: Complemento de Office en la nube de Fabasoft
+      - name: Complemento fabasoft Cloud Office
         href: word/fabasoft-austria-gmbh-cloud-office-add-in.md
       - name: 'FD Mxmn: importación de datos empresariales'
         href: word/maximon-ltd-fd-mxmn-import-business-data.md
@@ -1334,7 +1334,7 @@ items:
         href: saas/adobe-acrobat-sign-for-microsoft-365.md
       - name: Consola de operador anywhere365 para Microsoft Teams
         href: saas/workstreampeople-bv-anywhere365-attendant-console-for-microsoft-teams.md
-      - name: Centro de contactos de Anywhere365 para Teams
+      - name: Centro de contacto de Anywhere365 para Teams
         href: saas/workstreampeople-bv-anywhere365-contact-center-for-teams.md
       - name: Centro de contactos de Buzzeasy para Teams
         href: saas/geomant-algotech-zrt-buzzeasy-contact-center-for-teams.md
@@ -1362,7 +1362,7 @@ items:
         href: saas/emailgistics-corp.md
       - name: EmailNotes para Outlook
         href: saas/standss-south-pacific-pte-limited-emailnotes-for-outlook.md
-      - name: Integración de Genesys Cloud CX Teams
+      - name: Integración de genesys Cloud CX Teams
         href: saas/genesys-cloud-services-inc-cx-teams-integration.md
       - name: Centro de contactos de hielo
         href: saas/computertalk-ice-contact-center.md
@@ -1398,7 +1398,7 @@ items:
         href: saas/iglobe-office2sharepoint-for-teams.md
       - name: Detección de Onna para MS365
         href: saas/onna-discovery-for-ms365.md
-      - name: Directivas e información para Microsoft Office 365
+      - name: Directivas y Ideas para Microsoft Office 365
         href: saas/avepoint-inc-policiesinsights-for-microsoft-office-365.md
       - name: Priority Matrix
         href: saas/appfluence-inc-priority-matrix.md
@@ -1410,7 +1410,7 @@ items:
         href: saas/salestim.md
       - name: Selector de diapositivas
         href: saas/officeatwork-slide-chooser.md
-      - name: Integración de Storm Cloud Contact Center Teams
+      - name: Storm Cloud Contact Center Teams Integration
         href: saas/content-guru-storm-cloud-contact-center-teams-integration.md
       - name: Talkdesk Microsoft Teams Connector
         href: saas/talkdesk-inc-microsoft-teams-connector.md
@@ -1420,7 +1420,7 @@ items:
         href: saas/officeatwork-template-chooser.md
       - name: Explorador del selector de plantillas
         href: saas/officeatwork-template-chooser-browser.md
-      - name: Grabación y cumplimiento de Theta Lake para el vídeo de Teams
+      - name: Grabación y cumplimiento de Theta Lake para vídeo de Teams
         href: saas/theta-lake-recordingcompliance-for-teams-video.md
       - name: Usuario de carga
         href: saas/officeatwork-uploader.md
@@ -1433,6 +1433,8 @@ items:
   - name: identificadores de App de Azure
     href: azure/azure-apps.md
     items:
+      - name: 003a8a54-9d27-41cd-9c28-aec5875a3497
+        href: azure/003a8a54-9d27-41cd-9c28-aec5875a3497.md
       - name: 00485db5-81b3-4299-833a-8d6c366d0ac0
         href: azure/00485db5-81b3-4299-833a-8d6c366d0ac0.md
       - name: 00738e07-f9a4-4bf5-b6f9-851ec7ea31d5
@@ -1441,6 +1443,8 @@ items:
         href: azure/00ee4a74-9dc3-4bd9-9a6d-f18b640fd69d.md
       - name: 029cfd5a-4413-499d-bda6-a2a0a3f5e70e
         href: azure/029cfd5a-4413-499d-bda6-a2a0a3f5e70e.md
+      - name: 032857b6-4d91-4617-bb1a-c44626985bd5
+        href: azure/032857b6-4d91-4617-bb1a-c44626985bd5.md
       - name: 0492ead3-ee26-40df-9757-d95cc693d856
         href: azure/0492ead3-ee26-40df-9757-d95cc693d856.md
       - name: 05525b77-8ca6-462f-8902-15788cb405c6
@@ -1773,8 +1777,6 @@ items:
         href: azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md
       - name: 77b31e8c-65d0-484d-a72f-9404ec9dfcfa
         href: azure/77b31e8c-65d0-484d-a72f-9404ec9dfcfa.md
-      - name: 797368c8-e08a-40c8-8967-687093a723c9
-        href: azure/797368c8-e08a-40c8-8967-687093a723c9.md
       - name: 79d7af39-4f57-4e95-adaf-ec8ff756d0df
         href: azure/79d7af39-4f57-4e95-adaf-ec8ff756d0df.md
       - name: 7a483472-4f1b-4c75-bff3-7a48dae227dc
