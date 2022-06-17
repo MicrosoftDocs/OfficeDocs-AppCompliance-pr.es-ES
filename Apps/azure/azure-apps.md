@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de los identificadores de App de Azure: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 06/16/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todos los identificadores de App de Azure.
 localization_priority: Normal
-ms.openlocfilehash: 1c97bade03ce9f4b1404bb5465b7a632ec13f289
-ms.sourcegitcommit: fd81f2f5b4f627e3d1cabdff7e2caf40fafbe35c
+ms.openlocfilehash: 48a0eb199bf928abe1d3b08ac52502a28c08fc09
+ms.sourcegitcommit: bb53eca8ac8750b33a86501b91c332f74e998edc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66117984"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "66135809"
 ---
 # <a name="azure-app-ids-security-and-compliance"></a>Seguridad y cumplimiento de los identificadores de App de Azure
 
@@ -315,6 +315,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [cdd5ed6f-ceda-4d46-a522-b7526d6d9e50](./cdd5ed6f-ceda-4d46-a522-b7526d6d9e50.md) | **✓** |  |
 | [ce60db2f-439f-4e45-bfdc-d4c827c1820d](./ce60db2f-439f-4e45-bfdc-d4c827c1820d.md) | **✓** |  |
 | [cec02d43-1b67-4430-9bc9-861da8582801](./cec02d43-1b67-4430-9bc9-861da8582801.md) | **✓** |  |
+| [cf9bdbc1-18c7-4700-b6b3-093f241e2d8a](./cf9bdbc1-18c7-4700-b6b3-093f241e2d8a.md) | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [d1762bac-3696-429d-ab0b-2a61463d6b7a](./d1762bac-3696-429d-ab0b-2a61463d6b7a.md) | **✓** |  |
 | [d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d](./d1d8d8c3-5199-45c2-afcc-aaab4dd8da5d.md) | **✓** |  |
 | [d2682b2a-2037-4545-94b6-3e7216ecca5f](./d2682b2a-2037-4545-94b6-3e7216ecca5f.md) | **✓** |  |
