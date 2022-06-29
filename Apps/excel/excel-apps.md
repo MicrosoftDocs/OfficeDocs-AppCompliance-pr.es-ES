@@ -1,23 +1,23 @@
 ---
-title: 'Seguridad y cumplimiento de Microsoft Excel Apps: todas las aplicaciones'
+title: 'Seguridad y cumplimiento de aplicaciones de Microsoft Excel: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/31/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Excel.
 localization_priority: Normal
-ms.openlocfilehash: 1087e5cf36b285c0d45888f7d20f3dcd3a01f482
-ms.sourcegitcommit: 9cbff2dbc9762426293b9b094a29e3d2bebc760b
+ms.openlocfilehash: 0743bf016e61458613bac5e2402ff57d325f66ec
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65818308"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66245597"
 ---
-# <a name="microsoft-excel-apps-security-and-compliance"></a>Seguridad y cumplimiento de Microsoft Excel Apps
+# <a name="microsoft-excel-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones de Microsoft Excel
 
-Microsoft trabaja con nuestros asociados de desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre Microsoft Excel Aplicaciones y complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones y complementos de Microsoft Excel que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|

@@ -1,28 +1,28 @@
 ---
-title: Información de seguridad y cumplimiento para SalesTim by SalesTim
+title: Información de la aplicación para SalesTim de SalesTim
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/09/2021
+ms.date: 06/27/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para SalesTim, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: d4a6367b4d688b1d913fcf9991348b6d4c832317
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+ms.openlocfilehash: dedccb17f83675fa128af424c5769a5ee395d984
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65226134"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66250015"
 ---
-# <a name="salestim-application-information"></a>Información de la aplicación SalesTim
+# <a name="salestim"></a>SalesTim
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 9 de octubre de 2021</p>
+<p>Última actualización del desarrollador: 25 de junio de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/589748de-ec98-4616-9063-e91c629bd1a4" target="_blank">Visualización en Teams almacén</a>
+* <a href="https://teams.microsoft.com/l/app/589748de-ec98-4616-9063-e91c629bd1a4" target="_blank">Visualización en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200001393" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
@@ -34,12 +34,12 @@ Información proporcionada por SalesTim a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | SalesTim |
-| ID | WA200001393 |
+| Id. | WA200001393 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | SalesTim |
 | Sitio web de la empresa | [https://www.salestim.com](https://www.salestim.com) |
 | Términos de uso de la aplicación | [https://www.salestim.com/legal/tos](https://www.salestim.com/legal/tos) |
-| Funcionalidad básica de la aplicación | SalesTim ayuda a todas las organizaciones a mejorar sus procesos de colaboración a través de la creación y automatización de la gobernanza de plantillas sin código Microsoft Teams a escala. |
+| Funcionalidad básica de la aplicación | SalesTim ayuda a todas las organizaciones a mejorar sus procesos de colaboración a través de la creación y automatización de gobernanza de plantillas de Microsoft Teams sin código a escala. |
 | Ubicación de la sede central de la empresa | Francia |
 | Página de información de la aplicación | [https://www.salestim.com](https://www.salestim.com) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -58,8 +58,8 @@ SalesTim ha proporcionado esta información sobre cómo esta aplicación recopil
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? |  |
-| ¿La aplicación admite TLS 1.1 o posterior? |  |
+| ¿Qué datos procesa la aplicación? | Perfiles de usuario |
+| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -74,23 +74,25 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? |  |
-| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? |  |
-| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? |  |
-| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? |  |
-| ¿Su entorno tiene software o sistemas operativos no admitidos? |  |
-| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? |  |
-| ¿Tiene un firewall instalado en el límite de red externo? |  |
-| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? |  |
-| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? |  |
-| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? |  |
-| Autenticación multifactor (MFA) habilitada para: |  |
-| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? |  |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? |  |
-| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? |  |
-| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? |  |
-| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? |  |
-| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? |  |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | TraditionalAntiMalware |
+| ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
+| ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | No |
+| ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | No |
+| ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
+| ¿Tiene un firewall instalado en el límite de red externo? | Sí |
+| ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
+| ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
+| ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
+| Autenticación multifactor (MFA) habilitada para: | Repositorios de código, DNSManagement |
+| ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | No |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
+| ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
+| Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
+| ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
+| ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
+| ¿Informa de infracciones de datos de aplicaciones o servicios a las autoridades de supervisión y a las personas afectadas por la infracción en un plazo de 72 horas después de la detección? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -114,7 +116,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | No |
 | ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | No |
 | ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
-| ¿La aplicación cumple con NIST 800-171? |  |
+| ¿La aplicación cumple con NIST 800-171? | No |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -126,15 +128,16 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
-| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? |  |
-| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? |  |
-| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? |  |
-| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? |  |
-| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? |  |
-| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? |  |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? |  |
-| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? |  |
-| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? |  |
+| ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
+| Dirección URL de la directiva de privacidad | https://nbold.co/legal/privacy/ |
+| ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
+| ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
+| ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
+| ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
+| ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
+| ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | No |
+| ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -146,25 +149,23 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Autenticación multifactor. Permitir que solo Intune dispositivos inscritos accedan a servicios específicos. Restricción de ubicaciones de usuario e intervalos IP |
-| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
-| ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
-| ¿La aplicación almacena alguna credencial en el código? |  |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+| ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
+| ¿La aplicación almacena alguna credencial en el código? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
+>|   **Permiso graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| ChannelMember.ReadWrite.All | Delegado | Identificador de usuarios invitados a un canal por nuestra directiva de pertenencia | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
->| Directory.AccessAsUser.All | Delegado | Id. de usuario. Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
->| Group.ReadWrite.All | Ambos | Solo&#8217;almacenar los identificadores de grupos o equipos,&#8217;no almacenar ningún contenido de grupos o equipos. Permite a la aplicación crear grupos, leer todas las propiedades y pertenencias del grupo en nombre del usuario que ha iniciado sesión. Además, permite a los propietarios del grupo que administren sus grupos y permite a los miembros del grupo que actualicen su contenido del grupo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
->| Mail.Send | Delegado | Seudónimos. Se&#8217;volver a almacenar los metadatos de esta acción, como la fecha de notificación, los destinatarios y el identificador de solicitud. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
->| User.Read.All | Ambos | Id. de usuario y datos de perfil. Permite a un usuario seleccionar otros usuarios en varios lugares de la aplicación, como seleccionar aprobadores en un flujo de trabajo. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
->| offline_access | Delegado | Actualizar token. Permite que la aplicación realice algunas operaciones y acciones en segundo plano como usuario. | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| ChannelMember.ReadWrite.All | Delegado | Administración de la seguridad de canales de teams | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Directory.AccessAsUser.All | Delegado | Obtener acceso a los perfiles de usuario | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Group.ReadWrite.All | Delegado | Creación de equipos en Microsoft Teams | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| Mail.Send | Delegado | Enviar correos electrónicos de notificación | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| User.Read.All | Delegado | Obtener acceso a los perfiles de usuario | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
+>| offline_access | Delegado | Renovación de tokens de acceso en un proceso en segundo plano | [2a651f59-97ce-42bb-97d7-cf7a2af4b635](../azure/2a651f59-97ce-42bb-97d7-cf7a2af4b635.md) |
 
 >Esta aplicación no tiene API adicionales.
 

@@ -3,24 +3,24 @@ title: Información de la aplicación para Showmaster by cherryware
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 01/27/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Showmaster, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 9cde99fdf18b018fe2b881c4f60837fa88d8ae66
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+ms.openlocfilehash: f6c6e1d68e4e0ab5a366ccb98f9d05420fcd044c
+ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881093"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66248723"
 ---
 # <a name="showmaster"></a>Showmaster
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 21 de enero de 2022</p>
+<p>Última actualización del desarrollador: 23 de junio de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/office/WA200003706" target="_blank">Vista en AppSource</a>
 
@@ -34,11 +34,11 @@ Información proporcionada por cherryware a Microsoft:
 |:----------------|:-------------|
 | Nombre de la aplicación | Showmaster |
 | Id. | WA200003706 |
-| Office 365 clientes admitidos | PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2016 o versiones posteriores en Windows |
+| Office 365 clientes admitidos | PowerPoint 2016 o posterior en Mac, PowerPoint en la Web, PowerPoint 2016 o posterior en Windows |
 | Nombre de la empresa asociada | cherryware |
 | Sitio web de la empresa | [https://www.cherryware.com](https://www.cherryware.com) |
 | Términos de uso de la aplicación | [https://showmaster.app/terms/](https://showmaster.app/terms/) |
-| Funcionalidad básica de la aplicación | Showmaster es un complemento PowerPoint que crea un marco emocionante alrededor de su charla durante el tiempo de espera y rompe con titulares, cuenta atrás, música y mucho más. |
+| Funcionalidad básica de la aplicación | Showmaster es un complemento de PowerPoint que crea un marco emocionante alrededor de su charla durante el tiempo de espera y rompe con titulares, cuenta atrás, música y mucho más. |
 | Ubicación de la sede central de la empresa | Alemania |
 | Página de información de la aplicación | [https://showmaster.app](https://showmaster.app) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -137,11 +137,10 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 >Esta aplicación no usa Microsoft Graph.
 
