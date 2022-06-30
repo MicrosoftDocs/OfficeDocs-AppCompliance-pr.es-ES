@@ -3,21 +3,21 @@ title: 'Seguridad y cumplimiento de aplicaciones SaaS: todas las aplicaciones'
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/15/2022
+ms.date: 06/23/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones SaaS.
 localization_priority: Normal
-ms.openlocfilehash: edfe4a2842bdc051f4b0c6cc9457b827a5ae9798
-ms.sourcegitcommit: 6df79f38ffe390e7339cd6ce5eb32641a9f4c1a9
+ms.openlocfilehash: 6ba43a9eff08de81ac98d1f3894209e5153df496
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "66112738"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66547629"
 ---
 # <a name="saas-apps-security-and-compliance"></a>Seguridad y cumplimiento de aplicaciones SaaS
 
-Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones SaaS y los complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
+Microsoft trabaja con nuestros asociados para desarrolladores de Microsoft 365 para proporcionar la información que las organizaciones necesitan para acelerar e informar las decisiones sobre las aplicaciones SaaS y los complementos que usan. Esta información de seguridad, control de datos y cumplimiento está pensada para ayudar a las organizaciones a evaluar y administrar los riesgos al usar estas aplicaciones.
 
 | **Aplicación** | **Partner** | **Editor atestado** | **Certificado** |
 |:--------|:------------|:----------------------:|:-------------:|
@@ -49,7 +49,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [Luware Nimbus para Microsoft Teams](./luware-ag-nimbus-for-microsoft-teams.md) | Grupo de disponibilidad de Luware | **✓** |  |
 | [Firma de correo](./officeatwork-mail-signature.md) | officeatwork | **✓** |  |
 | [MIPA: Mi asistente personal inteligente](./iglobe-mipa-my-intelligent-personal-assistant.md) | iGlobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
-| [ModuleQ](./moduleq.md) | ModuleQ | **✓** |  |
+| [ModuleQ](./moduleq.md) | ModuleQ | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MURAL](./mural.md) | MURAL | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [MyHub para Teams](./avepoint-inc-myhub-for-teams.md) | AvePoint Inc. | **✓** |  |
 | [Netskope para Microsoft Teams](./netskope-for-microsoft-teams.md) | Netskope | **✓** |  |
@@ -59,7 +59,7 @@ Microsoft trabaja con nuestros Microsoft 365 socios desarrolladores para proporc
 | [Conclusiones de directivas &amp; para Microsoft Office 365](./avepoint-inc-policiesinsights-for-microsoft-office-365.md) | AvePoint Inc. | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Priority Matrix](./appfluence-inc-priority-matrix.md) | Appfluence Inc | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Project Migrator](./fluentpro-software-corporation-project-migrator.md) | FluentPro Software Corporation | **✓** |  |
-| [Integración de Puzzel Microsoft Teams](./puzzel-as-microsoft-teams-integration.md) | Puzzel AS | **✓** |  |
+| [Integración de Microsoft Teams de Puzzel](./puzzel-as-microsoft-teams-integration.md) | Puzzel AS | **✓** |  |
 | [SalesTim](./salestim.md) | SalesTim | **✓** |  |
 | [Selector de diapositivas](./officeatwork-slide-chooser.md) | officeatwork | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
 | [Integración de Storm Cloud Contact Center Teams](./content-guru-storm-cloud-contact-center-teams-integration.md) | Gurú de contenido | **✓** |  |
