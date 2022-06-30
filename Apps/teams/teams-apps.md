@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/27/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 884023d5c7791a53d31c8b6f630b6c50eb9d24dd
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 680305771fde79df454820ea087574aad7586dc8
+ms.sourcegitcommit: cede428f2a23bd3060f5506f270b40b327b02769
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66249523"
+ms.locfileid: "66542349"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -68,6 +68,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Asistente de IT de Avaamo](./avaamo-it-assistant.md) | Avaamo | **✓** |  |
 | [Axis](./axis-workshops-ltd.md) | Axis Workshops Ltd | **✓** |  |
 | [B12](./apprentx-b12.md) | Apprentx | **✓** |  |
+| [Beacapp Here](./beacapp-inc-here.md) | Beacapp Inc. | **✓** |  |
 | [Beagle](./decision-point-beagle.md) | Decision Point | **✓** |  |
 | [Bedriftsnett](./unifon-as-bedriftsnett.md) | Unifon AS | **✓** |  |
 | [Uva](./berryworksai-berry.md) | Berryworks.ai | **✓** |  |
@@ -229,6 +230,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Goalhub](./momentum-cloud-pty-ltd-goalhub.md) | Momentum Cloud Pty Ltd | **✓** |  |
 | [GoLinks](./golinks.md) | GoLinks | **✓** |  |
 | [Good4work](./good4work.md) | Good4work | **✓** |  |
+| [Grafana OnCall](./grafana-labs-oncall.md) | Grafana Labs | **✓** |  |
 | [GRATICA](./okwave-inc-gratica.md) | OKWAVE, Inc. | **✓** |  |
 | [Groopit](./groopit.md) | Groopit | **✓** |  |
 | [Group Address Book - NextSet](./nextsetinc-group-address-book-nextset.md) | NextSet, Inc. | **✓** |  |
