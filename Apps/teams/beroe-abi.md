@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para Gtmhub by Gtmhub
+title: Información de la aplicación para Abi by Beroe
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,43 @@ ms.date: 06/29/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Gtmhub, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Abi, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 854663229b2a1978af3edab85f4aee8ae210191b
+ms.openlocfilehash: 040164e46e94e7fa43f38f73361c049c46acb373
 ms.sourcegitcommit: 2ae239376c807fa9223fc7e18daa1feed6e826aa
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564546"
+ms.locfileid: "66564636"
 ---
-# <a name="gtmhub"></a>Gtmhub
+# <a name="abi"></a>Abi
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 28 de junio de 2022</p>
+<p>Última actualización del desarrollador: 17 de marzo de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/5fdd80e2-4d58-4c5c-ac85-356c1b2a0bba" target="_blank">Visualización en el almacén de Teams</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200001164" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/55560ea0-ae82-48b2-b71e-a45356f56bb1" target="_blank">Visualización en el almacén de Teams</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200003862" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Gtmhub a Microsoft:
+Información proporcionada por Beroe a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Gtmhub |
-| ID | WA200001164 |
+| Nombre de la aplicación | Abi |
+| ID | WA200003862 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Gtmhub |
-| Sitio web de la empresa | [https://www.gtmhub.com](https://www.gtmhub.com) |
-| Términos de uso de la aplicación | [https://gtmhub.com/terms-of-service](https://gtmhub.com/terms-of-service) |
-| Funcionalidad básica de la aplicación | Permite ver, compartir y actualizar los OKR sin salir de MS Teams. Ver OKR, compartirlos en canales y actualizar los resultados clave nunca ha sido más rápido. La experiencia de actualización es tan fluida como en Gtmhub. Desde la pestaña Gtmhub puede acceder al centro, que muestra todos los OKR y las tareas.  |
-| Ubicación de la sede central de la empresa | Estados Unidos de América |
-| Página de información de la aplicación | [https://help.gtmhub.com/en/articles/3558083-how-to-view-and...](https://help.gtmhub.com/en/articles/3558083-how-to-view-and-update-okrs-from-ms-teams) |
+| Nombre de la empresa asociada | Beroe |
+| Sitio web de la empresa | [https://www.beroeinc.com](https://www.beroeinc.com) |
+| Términos de uso de la aplicación | [https://www.beroeinc.com/terms/](https://www.beroeinc.com/terms/) |
+| Funcionalidad básica de la aplicación | Abi &#8211; su asistente de adquisiciones digitales con tecnología de inteligencia artificial |
+| Ubicación de la sede central de la empresa | India |
+| Página de información de la aplicación | [https://www.beroeinc.com/beroe-live-ai](https://www.beroeinc.com/beroe-live-ai) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Aws, Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,12 +53,21 @@ Información proporcionada por Gtmhub a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Gtmhub ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Beroe ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | No |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
+| ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
+| ¿Qué datos procesa la aplicación? | Nombre, apellido Id. &amp; de correo electrónico de trabajo |
+| ¿La aplicación admite TLS 1.1 o posterior? | Sí |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | Nombre, Apellidos, Id. de conversación de id. &amp; de correo electrónico de trabajo |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Irlanda |
+| ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | No se conserva |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | Sí |
+| ¿Tiene acuerdos de uso compartido de datos con cualquier servicio de terceros con el que comparta los datos de los clientes de Microsoft? | Sí |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -72,7 +81,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Realiza pruebas de penetración anuales en la aplicación? | Sí |
 | ¿La aplicación tiene un plan de recuperación ante desastres documentado, incluida una estrategia de copia de seguridad y restauración? | Sí |
-| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls, TraditionalAntiMalware |
+| ¿Su entorno usa la protección antimalware tradicional o los controles de aplicación? | ApplicationControls |
 | ¿Tiene un proceso establecido para aplicar sangría y clasificación de riesgos a las vulnerabilidades de seguridad? | Sí |
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
@@ -82,7 +91,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
 | ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
-| Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
+| Autenticación multifactor (MFA) habilitada para: | Credential, DNSManagement |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
 | ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
@@ -103,12 +112,9 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | Sí |
-| ¿Qué certificación SOC 2 logró? | type2 |
-| Fecha de certificación de SOC2 más reciente | 2021-07-31 |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | Sí |
-| Fecha de certificación de SOC3 más reciente | 2021-07-31 |
-| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | Sí |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
 | ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | N/D |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
@@ -130,13 +136,13 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://help.gtmhub.com/en/articles/633973-privacy-policy |
+| Dirección URL de la directiva de privacidad | https://www.beroeinc.com/privacy-policy/ |
 | ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
 | ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | N/D |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
 | ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
@@ -148,9 +154,9 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | N/D |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
