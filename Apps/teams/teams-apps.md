@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/06/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 927a0c52af78e2e83c0160789e9403db603ebe7d
-ms.sourcegitcommit: 0a0b39a4c1826c026c0d3c405a20209254ce7891
+ms.openlocfilehash: 57ab09069315b3193da58102005b0d9b5220cf37
+ms.sourcegitcommit: b752351d112ecc2ea7f539d200e6638a6a3034e5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66648176"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66679685"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -100,7 +100,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Calendar Pro](./witivio-calendar-pro.md) | Witivio | **✓** |  |
 | [Canary](./yattee-inc-canary.md) | YATTEE Inc. | **✓** |  |
 | [Casedoc Virtual Hearing](./casedoc-virtual-hearing.md) | Casedoc | **✓** |  |
-| [Cegid HR Experience](./cegid-hr-experience.md) | Cegid | **✓** |  |
+| [Experiencia de RR. HH. de Cegid](./cegid-hr-experience.md) | Cegid | **✓** |  |
 | [Centrical](./biz-effective-centrical.md) | Biz-Effective | **✓** |  |
 | [check.it](./cloud-cover-it-checkit.md) | Cloud Cover IT | **✓** |  |
 | [Chronoscope Time Tracking](./chrono-innovation-chronoscope-time-tracking.md) | Chrono Innovation | **✓** |  |
@@ -394,7 +394,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [Panopto](./panopto.md) | Panopto | **✓** |  |
 | [PAP bot](./pap-bot.md) | &#26666;&#24335;&#20250;&#31038;&#12467;&#12521;&#12508;&#12473;&#12479;&#12452;&#12523; | **✓** |  |
 | [ParkHere Corporate](./parkhere-gmbh-corporate.md) | ParkHere GmbH | **✓** |  |
-| [Passport 360](./passport-360.md) | Passport 360 | **✓** |  |
+| [Passport 360](./passport-360.md) | Passport 360 | **✓** |  |
 | [Pavestep](./pavestep.md) | Pavestep | **✓** |  |
 | [PayaFy](./nimblesoft-inc-payafy.md) | NimbleSoft Inc. | **✓** |  |
 | [Perdoo](./perdoo-gmbh.md) | Perdoo GmbH | **✓** |  |
