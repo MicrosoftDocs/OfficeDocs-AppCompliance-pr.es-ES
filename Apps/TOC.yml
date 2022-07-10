@@ -260,7 +260,7 @@ items:
         href: teams/aimful.md
       - name: Akouo Interpretation
         href: teams/akouo-technologies-inc-interpretation.md
-      - name: Aprobación de Alevate AP
+      - name: Alevate AP Approval
         href: teams/serrala-group-gmbh-alevate-ap-approval.md
       - name: Asistente de autoservicio de aleación
         href: teams/alloy-software-self-service-assistant.md
@@ -306,6 +306,8 @@ items:
         href: teams/h3-solutions-inc-atbot.md
       - name: Atlas
         href: teams/atlassian-inc-atlas.md
+      - name: AttendanceBot
+        href: teams/anaek-attendancebot.md
       - name: Attendant
         href: teams/workstreampeople-bv-attendant.md
       - name: Attender
@@ -384,7 +386,7 @@ items:
         href: teams/yattee-inc-canary.md
       - name: Casedoc Virtual Hearing
         href: teams/casedoc-virtual-hearing.md
-      - name: Experiencia de RR. HH. de Cegid
+      - name: "Experiencia de RR.\_HH.\_de Cegid"
         href: teams/cegid-hr-experience.md
       - name: Centrical
         href: teams/biz-effective-centrical.md
@@ -454,7 +456,7 @@ items:
         href: teams/cor-global-ltd.md
       - name: CorporateFitness.app
         href: teams/noctilucent-bv-corporatefitnessapp.md
-      - name: Crear
+      - name: Creately
         href: teams/creately.md
       - name: CSOD Learn
         href: teams/cornerstone-ondemand-csod-learn.md
@@ -466,7 +468,7 @@ items:
         href: teams/culture-amp.md
       - name: Cyberday
         href: teams/digiturvamalli-cyberday.md
-      - name: Centro de contacto de CyCX
+      - name: CyCX  Contact Centre
         href: teams/cytrack-cycxcontact-centre.md
       - name: CyDesk
         href: teams/cytrack-cydesk.md
@@ -492,7 +494,7 @@ items:
         href: teams/degreed.md
       - name: Envío retrasado
         href: teams/appfluence-inc-delayed-send.md
-      - name: deliberación
+      - name: delibera
         href: teams/dontknow-internet-sl-delibera.md
       - name: DELTAoverC
         href: teams/deltaoverc.md
@@ -740,7 +742,7 @@ items:
         href: teams/rockdove-solutions-inc-in-case-of-crisis.md
       - name: InCaseIT
         href: teams/pilotech-as-incaseit.md
-      - name: Reuniones del Consejo de Indeqa
+      - name: Indeqa Board Meetings
         href: teams/easy2meet-bv-indeqa-board-meetings.md
       - name: Infor Coleman
         href: teams/infor-us-inc-coleman.md
@@ -854,6 +856,8 @@ items:
         href: teams/aivision-products-srl-meetgeek.md
       - name: Meety
         href: teams/operalogica-srl-meety.md
+      - name: Aguanieve
+        href: teams/meltwater.md
       - name: Mentimeter
         href: teams/mentimeter.md
       - name: Message Reminder
@@ -884,7 +888,7 @@ items:
         href: teams/miro.md
       - name: moconavi Contacts
         href: teams/moconavi-contacts.md
-      - name: Momentos365
+      - name: Moments365
         href: teams/moments365.md
       - name: monday.com
         href: teams/mondaycom.md
@@ -902,7 +906,7 @@ items:
         href: teams/ltapps-software-coltd-multi-approval-process.md
       - name: MURAL
         href: teams/mural.md
-      - name: Mis recordatorios
+      - name: My Reminders
         href: teams/appfluence-inc-my-reminders.md
       - name: Myfone
         href: teams/flexfone-myfone.md
@@ -968,11 +972,11 @@ items:
         href: teams/pandos-intelligence-inc.md
       - name: Panopto
         href: teams/panopto.md
-      - name: Bot de PAP
+      - name: PAP bot
         href: teams/pap-bot.md
       - name: ParkHere Corporate
         href: teams/parkhere-gmbh-corporate.md
-      - name: Passport 360
+      - name: "Passport\_360"
         href: teams/passport-360.md
       - name: Pavestep
         href: teams/pavestep.md
@@ -1092,7 +1096,7 @@ items:
         href: teams/schule-am-bildschirm-gmbh-schabi.md
       - name: Día escolar
         href: teams/school-day-helsinki-oy.md
-      - name: Puntuación
+      - name: Scormium
         href: teams/sense4code-scormium.md
       - name: SEFOS
         href: teams/meaplus-ab-sefos.md
@@ -1212,7 +1216,7 @@ items:
         href: teams/maskott-tactileo.md
       - name: TagMyFav
         href: teams/avishkaram-technologies-pvt-ltd-tagmyfav.md
-      - name: Charlas personalizadas
+      - name: Tailored Talks
         href: teams/pogo-studio-tailored-talks.md
       - name: TAMPLO
         href: teams/ityss-tamplo.md
@@ -1224,7 +1228,7 @@ items:
         href: teams/team-today-ltd.md
       - name: Teamble
         href: teams/teamble.md
-      - name: TeamConnect para Sitecore
+      - name: TeamConnect for Sitecore
         href: teams/subramanian-ramanathan-teamconnect-for-sitecore.md
       - name: TeaMe Health Check Bot
         href: teams/teame-health-check-bot.md
@@ -1286,7 +1290,7 @@ items:
         href: teams/dm-digital-srl-timeneye.md
       - name: TINYpulse
         href: teams/tinypulse.md
-      - name: Lista de comprobación de tareas pendientes para el equipo
+      - name: To-do Checklist for Team
         href: teams/herocoders-to-do-checklist-for-team.md
       - name: Tonkean
         href: teams/tonkean.md
@@ -1382,7 +1386,7 @@ items:
         href: teams/xmatters-inc.md
       - name: YAROOMS
         href: teams/yarooms.md
-      - name: Área de trabajo de Yeastar
+      - name: Yeastar Workplace
         href: teams/xiamen-yeastar-coltd-workplace.md
       - name: yuccaHR
         href: teams/yucca-technologies-gmbh-yuccahr.md
