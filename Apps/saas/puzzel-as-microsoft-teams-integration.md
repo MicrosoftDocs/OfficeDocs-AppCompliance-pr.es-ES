@@ -1,26 +1,25 @@
 ---
-title: Información de la aplicación para Puzzel Microsoft Teams Integration by Puzzel AS
+title: Información de la aplicación para la integración de Puzzel Microsoft Teams por Puzzel AS
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/09/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Puzzel Microsoft Teams Integration, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 45d4499625b9f1ed2c2ae869bdf8e1507e32e6f2
-ms.sourcegitcommit: 6e1bedf47a32902e15f956a9492d8f5ec44a9650
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 85f750d9946286c21b06160a4c9745a8454326b0
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2022
-ms.locfileid: "65982604"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66704189"
 ---
-# <a name="puzzel-microsoft-teams-integration"></a>Integración de Puzzel Microsoft Teams
+# <a name="puzzel-microsoft-teams-integration"></a>Integración de Microsoft Teams de Puzzel
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador el 9 de junio de 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Última actualización del desarrollador: 15 de junio de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/puzzel-5257631.puzzel_teams_integration" target="_blank">Vista en AppSource</a>
 
@@ -32,12 +31,12 @@ Información proporcionada por Puzzel AS a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Integración de Puzzel Microsoft Teams |
+| Nombre de la aplicación | Integración de Microsoft Teams de Puzzel |
 | ID | 5257631.puzzel_teams_integration |
 | Nombre de la empresa asociada | Puzzel AS |
 | Sitio web de la empresa | [https://www.puzzel.com](https://www.puzzel.com) |
 | Términos de uso de la aplicación | [https://www.puzzel.com/neighbourhood/trust-centre/privacy-p...](https://www.puzzel.com/neighbourhood/trust-centre/privacy-policy) |
-| Funcionalidad básica de la aplicación | La integración de Puzzel con Microsoft Teams acerca a los agentes y facilita la colaboración. Los agentes pueden realizar llamadas Teams, enviar mensajes, buscar y transferir contactos sin tener que salir de la aplicación de agente de Puzzel. Los usuarios pueden ver si otros agentes están en línea, ocupados, ausentes o en llamadas, así como los estados de presencia de todos los demás compañeros de su organización. Los agentes pueden ver los contactos&#8217; calendarios y programaciones en Teams para alinear mejor los planes, las reuniones y las llamadas. |
+| Funcionalidad básica de la aplicación | La integración de Puzzel con Microsoft Teams acerca a los agentes y facilita la colaboración. Los agentes pueden realizar llamadas a Teams, enviar mensajes, buscar y transferir contactos sin tener que salir de la aplicación de agente de Puzzel. Los usuarios pueden ver si otros agentes están en línea, ocupados, ausentes o en llamadas, así como los estados de presencia de todos los demás compañeros de su organización. Los agentes pueden ver contactos&#8217; calendarios y programaciones en Teams para alinear mejor los planes, las reuniones y las llamadas. |
 | Ubicación de la sede central de la empresa | Noruega |
 | Página de información de la aplicación | [https://www.puzzel.com/microsoft-teams](https://www.puzzel.com/microsoft-teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
@@ -156,7 +155,7 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 >Esta aplicación no usa Microsoft Graph.
 
@@ -166,3 +165,39 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Resultado de la certificación de Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | N/D |
+| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | N/D |
+| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | N/D |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

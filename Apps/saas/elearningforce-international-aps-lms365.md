@@ -1,25 +1,25 @@
 ---
-title: Introducción a LMS365
+title: Información de la aplicación para LMS365 por ELEARNINGFORCE International Aps
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/05/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
 certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para LMS365, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5aeb76840bd35071c203866165ea1a4563159cc5
-ms.sourcegitcommit: 7a7de9f48f6cf5b6acd435412477b6a59127f19a
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 3e9f22b83662510d1a20816187547fb799803400
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65228134"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66704509"
 ---
-# <a name="lms365-overview"></a>Introducción a LMS365
+# <a name="lms365"></a>LMS365
 
 <p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Última actualización del desarrollador: 5 de abril de 2022</p>
+<p>Última actualización del desarrollador: 19 de mayo de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/elearningforce.lms365_spfx" target="_blank">Vista en AppSource</a>
 
@@ -36,7 +36,7 @@ Información proporcionada por ELEARNINGFORCE International Aps a Microsoft:
 | Nombre de la empresa asociada | ELEARNINGFORCE International Aps |
 | Sitio web de la empresa | [https://lms365.com](https://lms365.com) |
 | Términos de uso de la aplicación | [https://lms365.com/lms365-saas-terms/](https://lms365.com/lms365-saas-terms/) |
-| Funcionalidad básica de la aplicación | LMS365 permite a su organización ofrecer y administrar formación en la plataforma de Microsoft 365 a través de dispositivos SharePoint, Teams y móviles, lo que proporciona un entorno familiar para sus empleados, asociados y clientes. |
+| Funcionalidad básica de la aplicación | LMS365 permite a su organización ofrecer y administrar formación en la plataforma de Microsoft 365 a través de SharePoint, Teams y dispositivos móviles, lo que proporciona un entorno familiar para sus empleados, asociados y clientes. |
 | Ubicación de la sede central de la empresa | Dinamarca |
 | Página de información de la aplicación | [https://www.elearningforce.com/teams](https://www.elearningforce.com/teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -153,23 +153,22 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Plataformas de dispositivos, Estado del dispositivo, Aplicaciones cliente |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | Sí |
 | ¿La aplicación almacena alguna credencial en el código? | No |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | Sí |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
+>|   **Permiso graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| GroupMember.Read.All | aplicación | Permite a la aplicación expandir los miembros de un grupo de AD para inscribir el grupo de usuarios en un entrenamiento | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| Mail.Send | Delegado | Permite que la aplicación envíe correos electrónicos de notificación. El permiso se solicita dinámicamente durante la configuración de la cuenta de correo electrónico para la notificación. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| OnlineMeetings.ReadWrite | Delegado | Permite que la aplicación cree, lea, actualice y elimine eventos de reunión en línea. El permiso se solicita dinámicamente durante la configuración de la cuenta de correo electrónico para la notificación. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| RoleManagement.Read.Directory | aplicación | La aplicación debe poder leer qué roles tiene un usuario y si es un administrador global Office 365 o SharePoint administrador. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| RoleManagement.Read.Directory | aplicación | La aplicación debe poder leer qué roles tiene un usuario y si es Office 365 administrador global o administrador de SharePoint. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Invite.All | Delegado | Característica opcional: para permitir que un administrador de catálogos invite a los usuarios invitados a un catálogo de entrenamiento. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
->| User.Read | Delegado | Permite a los usuarios iniciar sesión en la aplicación mediante el Azure AD del cliente&#8217;y permite a la aplicación leer el perfil y la información básica de la empresa del usuario que ha iniciado sesión. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
+>| User.Read | Delegado | Permite a los usuarios iniciar sesión en la aplicación con el cliente&#8217;Azure AD y permite a la aplicación leer el perfil y la información básica de la empresa del usuario que ha iniciado sesión. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Read.All | Delegado | Permite que la aplicación lea el perfil de usuario completo. &#8217;es necesario leer a los usuarios&#8217; administradores y crear la jerarquía para el panel del administrador de informes &amp; | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| User.Read.All | aplicación | Permite que la aplicación lea el perfil de usuario completo. &#8217;es necesario leer a los usuarios&#8217; administradores y crear la jerarquía para el panel del administrador de informes &amp; | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
 >| perfil | Delegado | Para poder mostrar a los usuarios qué cuenta se usó para iniciar sesión, LMS365 necesita este permiso para mostrar información básica del perfil, incluido el nombre para mostrar, el nombre y los apellidos, la dirección de correo electrónico y la foto. | [a1a0b277-0efb-4f00-9661-6d1a3df3cddc](../azure/a1a0b277-0efb-4f00-9661-6d1a3df3cddc.md) |
@@ -180,3 +179,39 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Resultado de la certificación de Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | N/D |
+| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | N/D |
+| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | N/D |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

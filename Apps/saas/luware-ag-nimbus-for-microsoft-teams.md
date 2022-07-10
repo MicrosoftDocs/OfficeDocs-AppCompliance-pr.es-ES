@@ -1,26 +1,25 @@
 ---
-title: Información de la aplicación para Luware Nimbus para Microsoft Teams de Luware AG
+title: Información de la aplicación para Luware Nimbus para Microsoft Teams by Luware AG
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 10/07/2021
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para Luware Nimbus para Microsoft Teams, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 31195c90a4e3b9484ae630fd7be76509b6a40e23
-ms.sourcegitcommit: 5e2cd59a54fc018a6df761b00c18e3ba592d9dba
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: 44e6e1c0f91285cc105ed5f3f4a1f1526ce0d55b
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64881427"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66707327"
 ---
 # <a name="luware-nimbus-for-microsoft-teams"></a>Luware Nimbus para Microsoft Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 1 de octubre de 2021</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Última actualización del desarrollador: 19 de octubre de 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/luwareagzurich.advanced_routing_azure_marketplace" target="_blank">Vista en AppSource</a>
 
@@ -33,7 +32,7 @@ Información proporcionada por Luware AG a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Luware Nimbus para Microsoft Teams |
-| Id. | luwareagzurich.advanced_routing_azure_marketplace |
+| ID | luwareagzurich.advanced_routing_azure_marketplace |
 | Nombre de la empresa asociada | Grupo de disponibilidad de Luware |
 | Sitio web de la empresa | [https://luware.com](https://luware.com) |
 | Términos de uso de la aplicación | [https://luware.com/en/agreements/saas/](https://luware.com/en/agreements/saas/) |
@@ -151,26 +150,24 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | true |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | Sí |
 | Enumerar los tipos de directivas admitidas | Aplicaciones cliente, usuarios y grupos |
-| ¿La aplicación solicita permisos con privilegios mínimos para su escenario? | Sí |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) |  |
 | ¿La aplicación almacena alguna credencial en el código? |  |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
+>|   **Permiso graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | Delegado | Consola del operador: leer el calendario del usuario que ha iniciado sesión muestra calendario con citas | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Calendars.Read.Shared | Delegado | Consola del operador: leer calendarios compartidos para mostrar el calendario con citas | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Contacts.Read | Delegado | Consola del operador: busque en los contactos de Exchange del usuario que ha iniciado sesión. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| Contacts.Read.Shared | Delegado | Consola del operador: busque en los contactos de Exchange compartidos. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| Contacts.Read.Shared | Delegado | Consola del operador: buscar en los contactos compartidos de Exchange | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| GroupMember.Read.All | aplicación | Obtener miembros del equipo, leer grupos de seguridad | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Presence.Read.All | Delegado | Mostrar presencia en la búsqueda de contactos en la página de la consola del operador | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| User.Read | Delegado | Obtener UserInformation (del usuario que ha iniciado sesión) | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
->| User.Read.All | Ambos | Aplicación Nimbus: obtenga CallerInformation. En una llamada interna al Centro de contactos, hacemos una búsqueda inversa sobre quién podría ser para que podamos mostrar esa información al agente. En la consola del operador (con permiso delegado), buscamos destinos de transferencia en todo el directorio interno. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
+>| User.Read.All | ambas | Aplicación Nimbus: obtenga CallerInformation. En una llamada interna al Centro de contactos, hacemos una búsqueda inversa sobre quién podría ser para que podamos mostrar esa información al agente. En la consola del operador (con permiso delegado), buscamos destinos de transferencia en todo el directorio interno. | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| User.ReadBasic.All | Delegado | Búsqueda limitada de usuarios | [23694b6c-5a4a-45ce-9c6a-37c5f1880d4e](../azure/23694b6c-5a4a-45ce-9c6a-37c5f1880d4e.md) |
 >| Calls.AccessMedia.All | aplicación | Muchas de esas aplicaciones o bots (uno por cola del centro de contactos): suscríbase a tonos DTMF donde el cliente pueda seleccionar realmente su posición en el IVR. | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
 >| Calls.Initiate.All | aplicación | Muchas de esas aplicaciones o bots (uno por cola del centro de contactos): llame al agente.  | [7e1fc6b3-90a7-4a98-a766-5627193e95bc](../azure/7e1fc6b3-90a7-4a98-a766-5627193e95bc.md) |
@@ -183,3 +180,39 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Resultado de la certificación de Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | N/D |
+| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | En el ámbito |
+| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASAR** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | En el ámbito |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | En el ámbito |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end

@@ -3,24 +3,23 @@ title: Información de la aplicación para IXCloud- Teams Compliance Recording &
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 04/11/2022
+ms.date: 07/07/2022
 ms.topic: article
 ms.service: attestation
-certification_type: attested
+certification_type: certified
 description: Toda la información de seguridad y cumplimiento disponible para IXCloud - Teams Compliance Recording &amp; Intelligence, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 5628c375c4a33d93ed06ada1f31d85c316b4220f
-ms.sourcegitcommit: fb02bf852b775f9114966cfbf158197149ec95a2
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
+ms.openlocfilehash: d174cb155e2e40973392a6648e794a77e3248c2c
+ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64776311"
+ms.lasthandoff: 07/10/2022
+ms.locfileid: "66706193"
 ---
-# <a name="ixcloud---teams-compliance-recording-amp-intelligence"></a>IXCloud: inteligencia de grabación &amp; de cumplimiento de Teams
+# <a name="ixcloud---teams-compliance-recording-amp-intelligence"></a>IXCloud: Inteligencia de grabación &amp; de cumplimiento de Teams
 
-<p></p>
-<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 23 de febrero de 2022</p>
+<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p>Última actualización del desarrollador: 12 de abril de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/numonix.nmx-teams" target="_blank">Vista en AppSource</a>
 
@@ -32,12 +31,12 @@ Información proporcionada por Numonix LLC a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | IXCloud: inteligencia de grabación &amp; de cumplimiento de Teams |
+| Nombre de la aplicación | IXCloud: Inteligencia de grabación &amp; de cumplimiento de Teams |
 | ID | numonix.nmx-teams |
 | Nombre de la empresa asociada | Numonix LLC |
 | Sitio web de la empresa | [https://numonix.cloud](https://numonix.cloud) |
 | Términos de uso de la aplicación | [https://numonix.cloud/Compliance/](https://numonix.cloud/Compliance/) |
-| Funcionalidad básica de la aplicación | IXCloud es una solución como servicio de registro de cumplimiento de nube nativa segura y totalmente administrada para Teams |
+| Funcionalidad básica de la aplicación | IXCloud es una solución de registro de cumplimiento de nube nativa segura y totalmente administrada para Teams |
 | Ubicación de la sede central de la empresa | Estados Unidos de América |
 | Página de información de la aplicación | [https://appsource.microsoft.com/en-us/product/web-apps/numo...](https://appsource.microsoft.com/en-us/product/web-apps/numonix.nmx-teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
@@ -153,15 +152,14 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
 | ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
 | ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
-| Si la aplicación no usa una de las bibliotecas anteriores, ¿qué biblioteca o bibliotecas de autenticación usa? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
-| Las aplicaciones y los complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
+| Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
 #### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
 
->|   **permiso Graph**  | **Tipo de permiso** |          **Justificación**          | **Azure AD id. de aplicación** |
+>|   **Permiso graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
 >|:------------------------|:--------------------|:------------------------------------|:--------------------|
 >| Calendars.Read | aplicación | Para identificar a los participantes y entregar el registro a petición y proporcionar muting | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calls.AccessMedia.All | aplicación | Para grabar  | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
@@ -172,20 +170,20 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 >| OnlineMeetings.Read | aplicación | Leer información de reunión para metadatos y reglas de grabación ondemand | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| User.Read | aplicación | Para obtener metadatos e identificar usuarios | [30c7a49f-89f6-45ba-9938-ed627d102c54](../azure/30c7a49f-89f6-45ba-9938-ed627d102c54.md) |
 >| Calendars.Read | aplicación | Permite a la aplicación leer eventos de todos los calendarios sin que un usuario haya iniciado sesión | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.AccessMedia.All | aplicación | Acceso a flujos multimedia en una llamada como aplicación | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.AccessMedia.All | aplicación | Acceder a los flujos de medios en una llamada como aplicación | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.Initiate.All | aplicación | Permite que la aplicación realice llamadas salientes a un único usuario y transfiera llamadas a los usuarios de la organización&#8217;directorio de . | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.InitiateGroupCall.All | aplicación | Permite que la aplicación realice llamadas salientes a varios usuarios y agregue participantes a la reunión. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calls.JoinGroupCall.All | aplicación | Permite a la aplicación unirse a llamadas de grupo y reuniones programadas en su organización, sin que un usuario haya iniciado sesión. La aplicación se unirá con los privilegios de un usuario de directorio a las reuniones de su organización. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| Calls.JoinGroupCallasGuest.All | aplicación | Unirse a llamadas y reuniones de grupo como invitado | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
->| OnlineMeetings.Read.All | aplicación | Permite que la aplicación lea los detalles de la reunión en línea en su organización, sin que un usuario haya iniciado sesión. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | Unirse a llamadas y reuniones grupales como invitado | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
+>| OnlineMeetings.Read.All | aplicación | Permite a la aplicación leer los detalles de las reuniones en línea de la organización, sin que un usuario haya iniciado sesión. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| User.Read.All | aplicación | Permite que la aplicación lea los perfiles de usuario sin que un usuario haya iniciado sesión. | [77578a4c-117a-4cd4-b36d-3ea09ca2eded](../azure/77578a4c-117a-4cd4-b36d-3ea09ca2eded.md) |
 >| Calendars.Read | aplicación | Permite a la aplicación leer eventos de todos los calendarios sin que un usuario haya iniciado sesión | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.AccessMedia.All | aplicación | Acceso a flujos multimedia en una llamada como aplicación | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.AccessMedia.All | aplicación | Acceder a los flujos de medios en una llamada como aplicación | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.Initiate.All | aplicación | Permite que la aplicación realice llamadas salientes a un único usuario y transfiera llamadas a los usuarios de la organización&#8217;directorio de . | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.InitiateGroupCall.All | aplicación | Permite que la aplicación realice llamadas salientes a varios usuarios y agregue participantes a la reunión. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| Calls.JoinGroupCall.All | aplicación | unirse a llamadas de grupo y reuniones programadas en su organización | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| Calls.JoinGroupCallasGuest.All | aplicación | Unirse a llamadas y reuniones de grupo como invitado | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
->| OnlineMeetings.Read.All | aplicación | Permite que la aplicación lea los detalles de la reunión en línea en su organización, sin que un usuario haya iniciado sesión. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| Calls.JoinGroupCallasGuest.All | aplicación | Unirse a llamadas y reuniones grupales como invitado | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
+>| OnlineMeetings.Read.All | aplicación | Permite a la aplicación leer los detalles de las reuniones en línea de la organización, sin que un usuario haya iniciado sesión. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 >| User.Read.All | aplicación | Permite que la aplicación lea los perfiles de usuario sin que un usuario haya iniciado sesión. | [c2395027-53de-4f00-b658-246d82ed7e6f](../azure/c2395027-53de-4f00-b658-246d82ed7e6f.md) |
 
 >Esta aplicación no tiene API adicionales.
@@ -194,3 +192,39 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
+::: zone pivot="certification"
+
+### <a name="certification-information"></a>Información de certificación
+
+| **Control** | **Resultado de la certificación de Microsoft 365** |
+|:------------|:---------------------------------------|
+| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | N/D |
+| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | N/D |
+| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **N/A** |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | N/D |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | N/D |
+
+[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
+
+::: zone-end
