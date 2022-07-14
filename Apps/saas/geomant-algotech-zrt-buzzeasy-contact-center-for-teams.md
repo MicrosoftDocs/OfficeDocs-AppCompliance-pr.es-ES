@@ -6,19 +6,20 @@ manager: tonybal
 ms.date: 11/29/2021
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Buzzeasy Contact Center for Teams, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 4388c1e72e3504ecf4d75aa59d2cfb75d3071239
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: b991fdcdd4e2c7aad48cbc5d26403a04b0b9c170
+ms.sourcegitcommit: 0c7f7f3da27d274928b863a18ff16d4dc775487c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66707337"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66781694"
 ---
 # <a name="buzzeasy-contact-center-for-teams"></a>Centro de contactos de Buzzeasy para Teams
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
 <p>Última actualización del desarrollador: 23 de noviembre de 2021</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/geomant.buzzeasy_teams_contact_center" target="_blank">Vista en AppSource</a>
@@ -39,7 +40,7 @@ Información proporcionada por Geomant-Algotech Zrt. a Microsoft:
 | Funcionalidad básica de la aplicación | Solución del Centro de contactos para Microsoft Teams |
 | Ubicación de la sede central de la empresa | Hungría |
 | Página de información de la aplicación | [https://www.geomant.com/buzzeasy-contact-centre-for-microso...](https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Híbrido |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
 | ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -57,7 +58,13 @@ Esta información ha sido proporcionada por Geomant-Algotech Zrt. acerca de cóm
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
 | ¿Qué datos procesa la aplicación? | Microsoft JWT User and refresh Token, Microsoft Application ID, App Secret, M365 Email content from Graph API |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
-| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | No |
+| ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
+| ¿Qué datos se almacenan en las bases de datos? | Microsoft JWT User and refresh Token, Microsoft Application ID, App Secret, M365 Email content from Graph API |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Irlanda |
+| ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 90 días |
+| ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
+| ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -171,39 +178,3 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Información de certificación
-
-| **Control** | **Resultado de la certificación de Microsoft 365** |
-|:------------|:---------------------------------------|
-| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **N/A** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | N/D |
-| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | En el ámbito |
-| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | En el ámbito |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
