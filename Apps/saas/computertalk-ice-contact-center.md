@@ -3,23 +3,24 @@ title: Información de la aplicación para ice Contact Center by ComputerTalk
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/07/2022
+ms.date: 02/01/2022
 ms.topic: article
 ms.service: attestation
-certification_type: certified
+certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ice Contact Center, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad/cumplimiento en el registro CSA STAR.
-zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust-certification
-ms.openlocfilehash: 3624609e62383a44e9dd6eba04d68a6bcc356685
-ms.sourcegitcommit: 7902a8fe5a55d715023f34ea1ab987b4d715a4f7
+zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
+ms.openlocfilehash: 06a7e536f486ecc5b3e6ba90824f5baab12831ae
+ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2022
-ms.locfileid: "66707347"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66806341"
 ---
 # <a name="ice-contact-center"></a>Centro de contactos de hielo
 
-<p></p><a href="https://aka.ms/appcertification" alt="This Microsoft 365 Certified app has been reviewed by Microsoft against industry standards and controls for security, compliance, and data handling practices. Where applicable, Microsoft has verified the developer's claims of compliance with reasonable and effective practices." target="_blank"><img alt="Click here for more information on the Microsoft Certified app program." src="../media/certified.png" width="650" /></a>
-<p>Última actualización del desarrollador: 14 de febrero de 2022</p>
+<p></p>
+<img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
+<p>Última actualización del desarrollador: 31 de enero de 2022</p>
 
 * <a href="https://appsource.microsoft.com/product/web-apps/computertalk.ice-contact-center" target="_blank">Vista en AppSource</a>
 
@@ -37,7 +38,7 @@ Información proporcionada por ComputerTalk a Microsoft:
 | Sitio web de la empresa | [https://www.computer-talk.com](https://www.computer-talk.com) |
 | Términos de uso de la aplicación | [https://www.computer-talk.com/product/enterprise-contact-ce...](https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams) |
 | Funcionalidad básica de la aplicación | ice proporciona el centro de contactos como una funcionalidad de servicio, incluido el enrutamiento de llamadas, la grabación, la supervisión y la generación de informes. |
-| Ubicación de la sede central de la empresa | Canadá |
+| Ubicación de la sede central de la empresa | Canada |
 | Página de información de la aplicación | [https://www.computer-talk.com/product/enterprise-contact-ce...](https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams) |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
 
@@ -54,11 +55,11 @@ ComputerTalk ha proporcionado esta información sobre cómo esta aplicación rec
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | AzureADGuid (vinculación de cuenta).  La dirección de correo electrónico y el número de teléfono pueden importarse desde AAD. |
+| ¿Qué datos procesa la aplicación? | AzureADGuid (vinculación de cuenta).  Email dirección y número de teléfono pueden importarse desde AAD. |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | AzureADGuid (vinculación de cuenta).  La dirección de correo electrónico y el número de teléfono pueden importarse desde AAD. |
-| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Canadá |
+| ¿Qué datos se almacenan en las bases de datos? | AzureADGuid (vinculación de cuenta).  Email dirección y número de teléfono pueden importarse desde AAD. |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Canada |
 | ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
 | ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 30 días |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
@@ -157,39 +158,3 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 ::: zone-end
 
-::: zone pivot="certification"
-
-### <a name="certification-information"></a>Información de certificación
-
-| **Control** | **Resultado de la certificación de Microsoft 365** |
-|:------------|:---------------------------------------|
-| [**SEGURIDAD DE LA APLICACIÓN**](../docs/certification-submission-guide.md#application-security) | **FAIL** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pruebas de penetración | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión de evaluación de vulnerabilidades (DAST/SAST/Prueba de penetración) | En el ámbito |
-| [**SEGURIDAD OPERATIVA**](../docs/certification-submission-guide.md#operational-security) | **PASAR** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: antivirus | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección contra malware: control de aplicaciones | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: clasificación de riesgos | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de revisiones: aplicación de revisiones | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Examen de vulnerabilidades | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls (o tecnologías equivalentes) | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firewall: firewalls de aplicaciones web (WAF) (opcional) | N/D |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambiar control | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Protección del desarrollo o la implementación de software | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de cuentas | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Detección y prevención de intrusiones (opcional) | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registro de eventos de seguridad | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Revisión (registro de datos) | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Alertas de eventos de seguridad | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración de riesgos de seguridad de la información | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Respuesta a incidentes | En el ámbito |
-| [**PRIVACIDAD DE SEGURIDAD &amp; DE CONTROL DE DATOS**](../docs/certification-submission-guide.md#data-handling-security-and-privacy) | **PASAR** |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en tránsito | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Datos en reposo | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retención y eliminación de datos | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Administración del acceso a datos | En el ámbito |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RGPD | En el ámbito |
-
-[!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
-
-::: zone-end
