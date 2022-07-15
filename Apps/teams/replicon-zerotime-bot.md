@@ -3,24 +3,24 @@ title: Información de la aplicación para ZeroTime Bot de Replicon
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 05/06/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para ZeroTime Bot, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 35065d4157b4a4870f76344189781e9ba3d6599b
-ms.sourcegitcommit: 1d78b47ae32dd7ee29fb848e04ac0c5090d6b41c
+ms.openlocfilehash: 446918fff565bc4d136bcdded4d3e9059cf9bb2c
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66765188"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66815380"
 ---
 # <a name="zerotime-bot"></a>ZeroTime Bot
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 8 de diciembre de 2021</p>
+<p>Última actualización del desarrollador: 13 de julio de 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/4db812e1-4d29-44e4-b72e-9654c0c91ce4" target="_blank">Visualización en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200003717" target="_blank">Vista en AppSource</a>
@@ -39,7 +39,7 @@ Información proporcionada por Replicon a Microsoft:
 | Nombre de la empresa asociada | Replicon |
 | Sitio web de la empresa | [https://www.replicon.com](https://www.replicon.com) |
 | Términos de uso de la aplicación | [https://www.replicon.com/terms-and-conditions/](https://www.replicon.com/terms-and-conditions/) |
-| Funcionalidad básica de la aplicación | El bot de hora cero permite a los usuarios rellenar directamente sus partes de horas de Replicon mediante el chat con el bot. |
+| Funcionalidad básica de la aplicación | ZeroTime Bot permite a los usuarios rellenar directamente sus partes de horas de Replicon mediante el chat con el bot. |
 | Ubicación de la sede central de la empresa | Canadá |
 | Página de información de la aplicación | |
 | ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |

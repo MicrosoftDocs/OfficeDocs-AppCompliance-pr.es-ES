@@ -3,24 +3,24 @@ title: Información de la aplicación para Tigim Analytics por Hippo Ed Tech LTD
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 06/16/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para Tigim Analytics, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: 81d3b55c0609d1d3f56e6dd55b0e6b5d8194842c
-ms.sourcegitcommit: c06f3d478e1b4f66c02e2855ffac6de2f350208a
+ms.openlocfilehash: 66a78bdd74c3002e176335c62c5a5f8a090847cb
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66247414"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66818192"
 ---
 # <a name="tigim-analytics"></a>Tigim Analytics
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador el 25 de mayo de 2022</p>
+<p>Última actualización del desarrollador: 14 de julio de 2022</p>
 
 * <a href="https://teams.microsoft.com/l/app/98172521-768f-4271-a872-00bd46bd9460" target="_blank">Visualización en el almacén de Teams</a>
 * <a href="https://appsource.microsoft.com/product/office/WA200004242" target="_blank">Vista en AppSource</a>
@@ -34,7 +34,7 @@ Información proporcionada por Hippo Ed Tech LTD a Microsoft:
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | Nombre de la aplicación | Tigim Analytics |
-| Id. | WA200004242 |
+| ID | WA200004242 |
 | Office 365 clientes admitidos | Microsoft Teams |
 | Nombre de la empresa asociada | Hippo Ed Tech LTD |
 | Sitio web de la empresa | [https://www.tigim.co](https://www.tigim.co) |
@@ -42,7 +42,8 @@ Información proporcionada por Hippo Ed Tech LTD a Microsoft:
 | Funcionalidad básica de la aplicación | Comunicación, productividad, administración empresarial, formación |
 | Ubicación de la sede central de la empresa | Irlanda |
 | Página de información de la aplicación | |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | IsvHosted |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Other |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -57,7 +58,7 @@ Esta información ha sido proporcionada por Hippo Ed Tech LTD sobre cómo esta a
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Correo electrónico de los usuarios, Perfil de usuarios, Calendarios de usuarios, Usuarios en líneaMeetings |
+| ¿Qué datos procesa la aplicación? | Usuarios Email, Perfil de usuarios, Calendarios de usuarios, Usuarios en líneaMeetings |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
 | ¿Qué datos se almacenan en las bases de datos? | Datos de usuario, transcripciones de User OnlineMeetings, referencia de conversación de usuario |
