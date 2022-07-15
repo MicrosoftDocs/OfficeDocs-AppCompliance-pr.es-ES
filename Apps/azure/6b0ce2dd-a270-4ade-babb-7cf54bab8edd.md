@@ -3,17 +3,17 @@ title: App de Azure información de identificador para 6b0ce2dd-a270-4ade-babb-7
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/14/2022
+ms.date: 07/15/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
 description: Toda la información de seguridad y cumplimiento disponible para 6b0ce2dd-a270-4ade-babb-7cf54bab8edd.
-ms.openlocfilehash: d74d44c953d20a11a51d4cb4385fca87af262fe5
-ms.sourcegitcommit: ac75dd8bb815bc9e8b1d5b39a2d2dbe46e65f680
+ms.openlocfilehash: bd6e15d92a05e224c19328dd67bd6b0a3e024fc1
+ms.sourcegitcommit: 9e5c6c3b4885bc6fa0a4af61432c86a232bc7ec9
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/15/2022
-ms.locfileid: "66802081"
+ms.locfileid: "66813320"
 ---
 # <a name="azure-app-id-6b0ce2dd-a270-4ade-babb-7cf54bab8edd"></a>id. de App de Azure: 6b0ce2dd-a270-4ade-babb-7cf54bab8edd
 
