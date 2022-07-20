@@ -1,5 +1,5 @@
 ---
-title: Información de la aplicación para evaluado por Appraisd ltd.
+title: Información de la aplicación para Squadcast by Squadcast
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
@@ -7,43 +7,43 @@ ms.date: 07/19/2022
 ms.topic: article
 ms.service: attestation
 certification_type: attested
-description: Toda la información de seguridad y cumplimiento disponible para Appraisd, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
+description: Toda la información de seguridad y cumplimiento disponible para Squadcast, sus directivas de control de datos, su Microsoft Cloud App Security información del catálogo de aplicaciones e información de seguridad y cumplimiento en el registro CSA STAR.
 zone_pivot_groups: app-info-data-security-compliance-privsection-zerotrust
-ms.openlocfilehash: feb9fcc1576d3d357eafaade364ad9913c369a83
+ms.openlocfilehash: 6aa29656b0deac425e15abd4928e158a3fd8baeb
 ms.sourcegitcommit: f020743c27bd5ba69e4f74e8fff3f82b2571c408
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66890263"
+ms.locfileid: "66892078"
 ---
-# <a name="appraisd"></a>Appraisd
+# <a name="squadcast"></a>Squadcast
 
 <p></p>
 <img alt="Publisher Attestation: The information on this page is based on a self-assessment report provided by the app developer on the security, compliance, and data handling practices followed by this app. Microsoft makes no guarantees regarding the accuracy of the information." src="../media/attested.png" width="650" />
-<p>Última actualización del desarrollador: 22 de junio de 2022</p>
+<p>Última actualización del desarrollador: 10 de enero de 2022</p>
 
-* <a href="https://teams.microsoft.com/l/app/4f037969-20ef-4a41-8330-422b7b115eb6" target="_blank">Visualización en el almacén de Teams</a>
-* <a href="https://appsource.microsoft.com/product/office/WA200003123" target="_blank">Vista en AppSource</a>
+* <a href="https://teams.microsoft.com/l/app/7792759a-43e8-4dc8-9f55-e7b0382c4a67" target="_blank">Visualización en el almacén de Teams</a>
+* <a href="https://appsource.microsoft.com/product/office/WA200004390" target="_blank">Vista en AppSource</a>
 
 ::: zone pivot="general"
 
 ### <a name="general-information"></a>Información general
 
-Información proporcionada por Appraisd ltd. a Microsoft:
+Información proporcionada por Squadcast a Microsoft:
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| Nombre de la aplicación | Appraisd |
-| ID | WA200003123 |
+| Nombre de la aplicación | Squadcast |
+| ID | WA200004390 |
 | Office 365 clientes admitidos | Microsoft Teams |
-| Nombre de la empresa asociada | Appraisd ltd. |
-| Sitio web de la empresa | [https://www.appraisd.com](https://www.appraisd.com) |
-| Términos de uso de la aplicación | [https://www.appraisd.com/terms](https://www.appraisd.com/terms) |
-| Funcionalidad básica de la aplicación | Supercargue su cultura de rendimiento con revisiones de rendimiento, objetivos y comentarios |
-| Ubicación de la sede central de la empresa | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
-| Página de información de la aplicación | [https://www.appraisd.com](https://www.appraisd.com) |
-| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Paas |
-| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure |
+| Nombre de la empresa asociada | Squadcast |
+| Sitio web de la empresa | [https://www.squadcast.com](https://www.squadcast.com) |
+| Términos de uso de la aplicación | [https://www.squadcast.com/terms](https://www.squadcast.com/terms) |
+| Funcionalidad básica de la aplicación | Administración eficaz de incidentes directamente desde MS Teams. |
+| Ubicación de la sede central de la empresa | Estados Unidos de América |
+| Página de información de la aplicación | [https://support.squadcast.com/docs/msteams](https://support.squadcast.com/docs/msteams) |
+| ¿Cuál es el entorno de hospedaje o el modelo de servicio que se usa para ejecutar la aplicación? | Iaas |
+| ¿Qué proveedores de nube de hospedaje usa la aplicación? | Azure, GCP |
 
  [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
 
@@ -53,18 +53,18 @@ Información proporcionada por Appraisd ltd. a Microsoft:
 
 ### <a name="how-the-app-handles-data"></a>Cómo controla la aplicación los datos
 
-Esta información ha sido proporcionada por Appraisd ltd. sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
+Squadcast ha proporcionado esta información sobre cómo esta aplicación recopila y almacena los datos de la organización y el control que su organización tendrá sobre los datos que recopila la aplicación.
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
 | ¿Procesa la aplicación o la infraestructura subyacente algún dato relacionado con un cliente de Microsoft o su dispositivo? | Sí |
-| ¿Qué datos procesa la aplicación? | Datos de perfiles de usuario |
+| ¿Qué datos procesa la aplicación? | Datos de perfil de usuario: solo nombre de usuario, Email |
 | ¿La aplicación admite TLS 1.1 o posterior? | Sí |
 | ¿La aplicación o la infraestructura subyacente almacenan datos de clientes de Microsoft? | Sí |
-| ¿Qué datos se almacenan en las bases de datos? | User Graph ID, User principle name, Bot service URL, Teams user ID |
-| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Reino Unido de Gran Bretaña e Irlanda del Norte (el) |
+| ¿Qué datos se almacenan en las bases de datos? | Id. de equipo, Nombre del equipo, Id. de canal, Nombre del canal, Id. de inquilino |
+| Si la inestructura subyacente procesa o almacena datos de clientes de Microsoft, ¿dónde se almacenan geográficamente estos datos? | Estados Unidos de América |
 | ¿Tiene un proceso establecido de alquiler y eliminación de datos? | Sí |
-| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | Menos de 60 días |
+| ¿Cuánto tiempo se conservan los datos después de la terminación de la cuenta? | No se conserva |
 | ¿Tiene un proceso de administración de acceso a datos establecido? | Sí |
 | ¿Transfiere datos de clientes o contenido de clientes a terceros o subprocesadores? | No |
 
@@ -85,16 +85,16 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 | ¿Tiene una directiva que gobierne el contrato de nivel de servicio (SLA) para aplicar revisiones? | Sí |
 | ¿Lleva a cabo actividades de administración de revisiones de acuerdo con los acuerdos de nivel de servicio de la directiva de aplicación de revisiones? | Sí |
 | ¿Su entorno tiene software o sistemas operativos no admitidos? | No |
-| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | Sí |
+| ¿Lleva a cabo el examen trimestral de vulnerabilidades en la aplicación y la infaestructura que la admite? | No |
 | ¿Tiene un firewall instalado en el límite de red externo? | Sí |
 | ¿Tiene un proceso de administración de cambios establecido que se usa para revisar y aprobar solicitudes de cambio antes de implementarlas en producción? | Sí |
 | ¿Una persona adicional está revisando y aprobando todas las solicitudes de cambio de código enviadas a producción por el desarrollador original? | Sí |
 | ¿Las prácticas de codificación seguras tienen en cuenta clases de vulnerabilidad comunes, como OWASP Top 10? | Sí |
 | Autenticación multifactor (MFA) habilitada para: | CodeRepositories, DNSManagement, Credential |
 | ¿Tiene un proceso establecido para aprovisionar, modificar y eliminar cuentas de empleados? | Sí |
-| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | N/D |
+| ¿Tiene el software de detección y prevención de intrusiones (IDPS) implementado en el perímetro del límite de red que admite la aplicación? | Sí |
 | ¿Tiene el registro de eventos configurado en todos los componentes del sistema compatibles con la aplicación? | Sí |
-| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | Sí |
+| ¿Se revisan todos los registros con una cadencia regular mediante herramientas humanas o automatizadas para detectar posibles eventos de seguridad? | No |
 | Cuando se detecta un evento de seguridad, ¿las alertas se envían automáticamente a un empleado para la evaluación de prioridades? | Sí |
 | ¿Tiene establecido un proceso formal de administración de riesgos de seguridad de la información? | Sí |
 | ¿Tiene un proceso formal de respuesta a incidentes de seguridad documentado y establecido? | Sí |
@@ -110,19 +110,19 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿La aplicación cumple con la Ley de portabilidad y contabilidad de seguros de salud (HIPAA)? | N/D |
 | ¿La aplicación cumple con Health Information Trust Alliance, Common Security Framework (HITRUST CSF)? | N/D |
-| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | N/D |
+| ¿La aplicación cumple con los controles de organización de servicio (SOC 1)? | No |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 2)? | No |
 | ¿La aplicación cumple con los controles de organización de servicio (SOC 3)? | No |
-| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | N/D |
-| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | Sí |
+| ¿Lleva a cabo evaluaciones anuales de PCI DSS en la aplicación y su entorno auxiliar? | No |
+| ¿Está certificada la aplicación International Organization for Standardization (ISO 27001)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27018)? | No |
 | ¿Cumple la aplicación la Organización Internacional para la Normalización (ISO 27017)? | No |
 | ¿Cumple la aplicación la Organización Internacional de Normalización (ISO 27002)? | No |
 | ¿Cumple la aplicación el Programa Federal de Administración de Riesgos y Autorización (FedRAMP)? | No |
-| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | N/D |
-| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | N/D |
-| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | N/D |
-| ¿La aplicación cumple con NIST 800-171? | N/D |
+| ¿La aplicación cumple con la Ley de Derechos Educativos y Privacidad Familiares (FERPA)? | No |
+| ¿La aplicación cumple con la Ley de protección de la privacidad en línea de los niños (COPPA)? | Sí |
+| ¿La aplicación cumple con Sarbanes-Oxley Act (SOX)? | No |
+| ¿La aplicación cumple con NIST 800-171? | No |
 | ¿Se ha certificado la aplicación Cloud Security Alliance (CSA Star)? | No |
 
 [!INCLUDE [Corrections or suggestions contact information](../includes/corrections-or-suggestions.md)]
@@ -135,13 +135,13 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 |:----------------|:-------------|
 | ¿Tiene RGPD u otros requisitos o obligaciones de privacidad o protección de datos (como CCPA)? | Sí |
 | ¿Tiene la aplicación un aviso de privacidad externo que describe cómo recopila, usa, comparte y almacena los datos de los clientes? | Sí |
-| Dirección URL de la directiva de privacidad | https://www.appraisd.com/legal/privacy-policy |
+| Dirección URL de la directiva de privacidad | https://www.squadcast.com/privacy |
 | ¿La aplicación realiza la toma de decisiones automatizada, incluida la generación de perfiles que podría tener un efecto legal o un impacto similar? | No |
 | ¿La aplicación procesa los datos del cliente para un propósito secundario no descrito en el aviso de privacidad (es decir, marketing, análisis)? | No |
 | ¿Procesa categorías especiales de datos confidenciales (es decir, origen racial o étnico, opinión política, creencias religiosas o filosóficas, datos genéticos o biométricos, datos de salud) o categorías de datos sujetos a leyes de notificación de infracciones? | No |
 | ¿Recopila o procesa la aplicación datos de menores de edad (es decir, personas menores de 16 años)? | No |
 | ¿La aplicación tiene capacidades para eliminar los datos personales de una persona a petición? | Sí |
-| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | N/D |
+| ¿La aplicación tiene capacidades para restringir o limitar el procesamiento de los datos personales de un individuo a petición? | Sí |
 | ¿Proporciona la aplicación a los usuarios la capacidad de corregir o actualizar sus datos personales? | Sí |
 | ¿Se realizan revisiones periódicas de privacidad y seguridad de datos (por ejemplo, evaluaciones de impacto de protección de datos o evaluaciones de riesgos de privacidad) para identificar riesgos relacionados con el procesamiento de datos personales para la aplicación? | Sí |
 
@@ -153,21 +153,15 @@ A continuación se muestra información del catálogo [de Microsoft Cloud App Se
 
 | **Information** | **Respuesta** |
 |:----------------|:-------------|
-| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | Sí |
-| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | Sí |
-| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? | Sí |
+| ¿La aplicación se integra con Microsoft Identity Platform (Azure AD) para el inicio de sesión único, el acceso a la API, etc.? | No |
+| ¿Ha revisado y cumplido todos los procedimientos recomendados aplicables descritos en la lista de comprobación de integración de Plataforma de identidad de Microsoft? | No |
+| ¿La aplicación usa la versión más reciente de MSAL (Biblioteca de autenticación de Microsoft) o Microsoft Identity Web para la autenticación? |  |
 | ¿La aplicación admite directivas de acceso condicional? | No |
 | ¿La aplicación admite la evaluación continua de acceso (CAE) | No |
 | ¿La aplicación almacena alguna credencial en el código? | No |
 | Las aplicaciones y complementos para Microsoft 365 pueden usar API de Microsoft adicionales fuera de Microsoft Graph. ¿La aplicación o el complemento usan API de Microsoft adicionales? | No |
 
-#### <a name="data-access-using-microsoft-graph"></a>Acceso a datos mediante Microsoft Graph
-
->|   **Permiso graph**  | **Tipo de permiso** |          **Justificación**          | **Identificador de aplicación de Azure AD** |
->|:------------------------|:--------------------|:------------------------------------|:--------------------|
->| People.Read | Delegado | Estos permisos son necesarios para obtener una lista de miembros del equipo a los que el usuario puede enviar comentarios. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.Read | Delegado | Estos permisos son necesarios para identificar al usuario y vincularlo a una cuenta de Appraisd. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
->| User.ReadBasic.All | Delegado | Estos permisos son necesarios para obtener los nombres de los miembros del equipo al seleccionar comentarios. | [4f037969-20ef-4a41-8330-422b7b115eb6](../azure/4f037969-20ef-4a41-8330-422b7b115eb6.md) |
+>Esta aplicación no usa Microsoft Graph.
 
 >Esta aplicación no tiene API adicionales.
 
