@@ -3,17 +3,17 @@ title: 'Seguridad y cumplimiento de las aplicaciones de Microsoft Teams: todas l
 ms.author: elmalova
 author: elenamalova
 manager: tonybal
-ms.date: 07/19/2022
+ms.date: 07/20/2022
 ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: 93e9e1408284d1e08538044e89a890643064848b
-ms.sourcegitcommit: f020743c27bd5ba69e4f74e8fff3f82b2571c408
+ms.openlocfilehash: a6c2abb166dcca5b93055ed8147afca2fbbd776c
+ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 07/20/2022
-ms.locfileid: "66890273"
+ms.locfileid: "66900560"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
