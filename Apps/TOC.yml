@@ -44,7 +44,7 @@ items:
         href: excel/birdie-indicadores-economicos-chile.md
       - name: Jira Cloud para Excel
         href: excel/atlassiancom-jira-cloud-for-excel.md
-      - name: MeaningCloud Analiză text para Excel
+      - name: MeaningCloud Text Analytics para Excel
         href: excel/meaningcloud-text-analytics-for-excel.md
       - name: Office2SharePoint para Office
         href: excel/iglobe-office2sharepoint-for-office.md
@@ -400,6 +400,8 @@ items:
         href: teams/binaryroots-classified-listing.md
       - name: Clerk SMS
         href: teams/unnamed-ventures-llc-clerk-sms.md
+      - name: CLIPr
+        href: teams/clipr-co.md
       - name: ClipTraining
         href: teams/cliptraining.md
       - name: Clixie
@@ -1602,7 +1604,7 @@ items:
         href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
       - name: Asistente
         href: saas/officeatwork-wizard.md
-  - name: identificadores de Aplicação Azure AD
+  - name: identificadores de App de Azure
     href: azure/azure-apps.md
     items:
       - name: 003a8a54-9d27-41cd-9c28-aec5875a3497
