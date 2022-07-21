@@ -44,7 +44,7 @@ items:
         href: excel/birdie-indicadores-economicos-chile.md
       - name: Jira Cloud para Excel
         href: excel/atlassiancom-jira-cloud-for-excel.md
-      - name: MeaningCloud Text Analytics para Excel
+      - name: MeaningCloud Analiză text para Excel
         href: excel/meaningcloud-text-analytics-for-excel.md
       - name: Office2SharePoint para Office
         href: excel/iglobe-office2sharepoint-for-office.md
@@ -1262,7 +1262,7 @@ items:
         href: teams/communitio-corporation-teamsticker-by.md
       - name: TeamSurvey
         href: teams/builduplabs-teamsurvey.md
-      - name: Trabajo en equipo
+      - name: Teamwork
         href: teams/teamwork.md
       - name: TELUS Business Connect
         href: teams/ringcentral-inc-telus-business-connect.md
@@ -1602,7 +1602,7 @@ items:
         href: saas/wide-ideasidea2innovation-ideas-innovation-software.md
       - name: Asistente
         href: saas/officeatwork-wizard.md
-  - name: identificadores de App de Azure
+  - name: identificadores de Aplicação Azure AD
     href: azure/azure-apps.md
     items:
       - name: 003a8a54-9d27-41cd-9c28-aec5875a3497
@@ -2041,6 +2041,8 @@ items:
         href: azure/81daf623-cac2-4861-a939-19fdbde90b4d.md
       - name: 8277a51c-3ad6-446c-9b7e-e3f6e27257c1
         href: azure/8277a51c-3ad6-446c-9b7e-e3f6e27257c1.md
+      - name: 82bfb2e1-cad3-4e99-8995-5d140f295ef2
+        href: azure/82bfb2e1-cad3-4e99-8995-5d140f295ef2.md
       - name: 82df726e-0de2-46af-b4f1-0645fd95fc97
         href: azure/82df726e-0de2-46af-b4f1-0645fd95fc97.md
       - name: 82eb2bf2-969c-46da-9e89-1db59ac4fbb3
