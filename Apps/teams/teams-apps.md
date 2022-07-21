@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: attestation
 description: Toda la información de seguridad y cumplimiento disponible para todas las aplicaciones de Microsoft Teams.
 localization_priority: Priority
-ms.openlocfilehash: a6c2abb166dcca5b93055ed8147afca2fbbd776c
-ms.sourcegitcommit: d8794fef6be4d3a9a42bf2904f29a70de76069fc
+ms.openlocfilehash: 915447afd534019f3142c93e42c438e57d110f9a
+ms.sourcegitcommit: 65cdf1f1a0b38b05e29adf12828851ba225da959
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "66900560"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66915613"
 ---
 # <a name="microsoft-teams-apps-security-and-compliance"></a>Seguridad y cumplimiento de las aplicaciones Microsoft Teams
 
@@ -27,6 +27,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [365Projects](./365apps-365projects.md) | 365Apps | **✓** |  |
 | [Abi](./beroe-abi.md) | Beroe | **✓** |  |
 | [absentify](./braincore-solutions-absentify.md) | BrainCore Solutions | **✓** |  |
+| [Achievers](./achievers.md) | Achievers | **✓** |  |
 | [ACV](./tangible-it-mexico-acv.md) | Tangible IT Mexico | **✓** |  |
 | [Adobe Acrobat](./adobe-acrobat.md) | Adobe | **✓** |  |
 | [Adobe Acrobat Sign](./adobe-acrobat-sign.md) | Adobe | **✓** | <img alt="Certified application badge" src="../media/certified-badge.png" height="25" width="25" /> |
@@ -144,6 +145,7 @@ Microsoft trabaja con los desarrolladores asociados de Microsoft 365 para propor
 | [CyDesk](./cytrack-cydesk.md) | CyTrack | **✓** |  |
 | [CyRecord](./cytrack-cyrecord.md) | CyTrack | **✓** |  |
 | [CyReport](./cytrack-cyreport.md) | CyTrack | **✓** |  |
+| [DailyBot](./dailybot.md) | DailyBot | **✓** |  |
 | [Data Hu](./data-hu.md) | &#21271;&#20140;&#20061;&#40594;&#20449;&#24687;&#25216;&#26415;&#26377;&#38480;&#20844;&#21496; | **✓** |  |
 | [DataFetch](./datafetch-inc.md) | DataFetch, Inc | **✓** |  |
 | [DataMiner](./skyline-communications-dataminer.md) | Skyline Communications | **✓** |  |
